@@ -37,7 +37,7 @@ def search_arxiv_for_authors(qusoft_people):
         print(f"Searching arXiv for papers by {person}...")
         search = arxiv.Search(
             query=f'au:"{person}"',  # Search for the author's name without date restriction
-            max_results=20,  # Limit results per author
+            max_results=10,  # Limit results per author
             sort_by=arxiv.SortCriterion.SubmittedDate
         )
 
@@ -160,7 +160,7 @@ def save_to_excel(data, output_file):
 
 if __name__ == "__main__":
     # Load QuSoft people list
-    qusoft_people_file = "QuSoftDB.xlsx"
+    qusoft_people_file = "24-04-22-QuSoftDB.xlsx"
     qusoft_people = get_qusoft_people(qusoft_people_file)
 
     # Search arXiv for QuSoft authors
