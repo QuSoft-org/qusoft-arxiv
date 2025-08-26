@@ -1,20 +1,17 @@
-
 # --- Begin new implementation based on main_with_cache.py ---
 import arxiv
 import os
 import json
 from openpyxl import load_workbook
-from PyPDF2 import PdfReader, PdfWriter
-from PIL import Image
 from io import BytesIO
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.utils import ImageReader
 
 CACHE_FILE = "query_cache.json"
 PORTRAITS_DIR = "qusofters/portraits"
 TMP_DIR = "tmp_firstpages"
 OUT_PDF = "qusoft_firstpages_2025.pdf"
+STARTS_WITH = "25"
+# STARTS_WITH = "2506"
+
 os.makedirs(TMP_DIR, exist_ok=True)
 
 def normalize_name(name):
@@ -93,11 +90,12 @@ def search_arxiv_for_authors(qusoft_people, cache):
 
 
 def find_portrait(author):
-    key = author.lower().replace(" ", "_")
+    key = normalize_name(author).replace(" ", "_")
     for f in os.listdir(PORTRAITS_DIR):
         name = os.path.splitext(f)[0].lower()
         if key in name:
             return os.path.join(PORTRAITS_DIR, f)
+    print(f"No portrait found for author '{author}'")
     return None
 
 # Helper: create a PDF page with portraits and first page
@@ -105,45 +103,94 @@ def find_portrait(author):
 # portrait_info: list of (portrait_path, role)
 
 def create_combined_page(portrait_info, first_page_pdf_path):
-    buf = BytesIO()
-    c = canvas.Canvas(buf, pagesize=A4)
-    width, height = A4
-    top_margin = 180  # More whitespace on top
-    y = height - top_margin
+    import fitz
+    from PIL import Image
+    import tempfile
+    import os
+
+    # Open the first page of the PDF
+    src_doc = fitz.open(first_page_pdf_path)
+    src_page = src_doc[0]
+
+    # Create a new blank page with same size
+    width, height = src_page.rect.width, src_page.rect.height
+    doc = fitz.open()
+    page = doc.new_page(width=width, height=height)
+    # Scale down the first page and insert it lower
+    scale = 0.85
+    new_width = width * scale
+    new_height = height * scale
+    x_offset = (width - new_width) / 2
+    y_offset = 160  # leave space for portraits at the top
+    page.show_pdf_page(
+        fitz.Rect(x_offset, y_offset, x_offset + new_width, y_offset + new_height),
+        src_doc,
+        0
+    )
+
+    # Highlight 'QuSoft', 'CWI' etc. in yellow
+    highlight_words = ["QuSoft", "CWI", "University of Amsterdam", "Centrum voor Wiskunde en Informatica"]
+    for word in highlight_words:
+        for inst in page.search_for(word, quads=True):
+            highlight = page.add_highlight_annot(inst)
+            highlight.set_colors(stroke=(1,1,0))  # yellow
+            highlight.update()
+
+    # Add normalized author names to highlight_words
+    highlight_words = [norm_name for _, _, norm_name in portrait_info]
+    for word in highlight_words:
+        for inst in page.search_for(word, quads=True):
+            highlight = page.add_highlight_annot(inst)
+            highlight.set_colors(stroke=(1,0.7,0))  # light orange
+            highlight.update()
+
+
+
+    first_page_text = src_page.get_text()
+    if "qusoft" not in first_page_text.lower():
+        print(f"Warning: 'QuSoft' not found on first page of PDF")
+        # add text annotation
+        rect = fitz.Rect(20,170,400,190)
+        page.add_freetext_annot(rect, "'QuSoft' not mentioned on first page", fontsize=12, text_color=(1, 0, 0))
+
+
+    # Add portraits as stamps at the top
     x = 50
-    for p_path, role in portrait_info:
-        try:
-            img = Image.open(p_path)
-            role_str = str(role).lower() if role else ""
-            if "student" in role_str:
-                img.thumbnail((200, 200))
-                c.drawImage(ImageReader(img), x, y, width=120, height=120)
-                x += 140
-            elif "postdoc" in role_str:
-                img.thumbnail((160, 160))
-                c.drawImage(ImageReader(img), x, y, width=100, height=100)
-                x += 120
-            else:
-                img.thumbnail((120, 120))
-                c.drawImage(ImageReader(img), x, y, width=80, height=80)
-                x += 100
-        except Exception:
+    y = 40
+    for p_path, role, _ in portrait_info:
+        if not os.path.exists(p_path):
+            print(f"Warning: Portrait not found: {p_path}")
             continue
-    try:
-        from pdf2image import convert_from_path
-        images = convert_from_path(first_page_pdf_path, first_page=1, last_page=1)
-        if images:
-            firstpage_img_path = os.path.join(TMP_DIR, "firstpage_temp.png")
-            images[0].save(firstpage_img_path)
-            # Make PDF part bigger and leave more space above
-            c.drawImage(firstpage_img_path, 40, 50, width=width-80, height=y-20)
-    except ImportError:
-        print("pdf2image not installed, skipping first page image overlay.")
-        pass
-    c.showPage()
-    c.save()
-    buf.seek(0)
-    return PdfReader(buf)
+        # Set portrait size by role
+        role_str = str(role).lower() if role else ""
+        if "students" in role_str or "support" in role_str:
+            w, h = 120, 120
+        elif "postdoc" in role_str:
+            w, h = 100, 100
+        else:
+            w, h = 80, 80
+        rect = fitz.Rect(x, y, x + w, y + h)
+        # Convert image to RGB and PNG
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_img_png:
+            img = Image.open(p_path).convert("RGB")
+            img.save(tmp_img_png.name, "PNG")
+            pix = fitz.Pixmap(tmp_img_png.name)
+            page.add_stamp_annot(rect, stamp=pix)
+        x += w + 20
+
+
+    # add QIP submission question:
+    if 580-x > 180:
+        x_pos = x
+        y_pos = 70
+    else:
+        x_pos = 300
+        y_pos = 170
+    page.add_freetext_annot((x_pos, y_pos, x_pos + 160, y_pos + 40), "submission to QIP2026?  YES             NO", fontsize=12, text_color=(0, 0, 0))
+    page.draw_rect((x_pos+33, y_pos + 15, x_pos + 43, y_pos + 25))
+    page.draw_rect((x_pos+91, y_pos + 15, x_pos + 101, y_pos + 25))
+
+    return doc
 
 
 def main():
@@ -152,8 +199,18 @@ def main():
     qusoft_people = list(people_roles.keys())
     cache = load_cache()
     arxiv_papers = search_arxiv_for_authors(qusoft_people, cache)
-    papers_2025 = [p for p in arxiv_papers if p["id"].startswith("2507")]
-    writer = PdfWriter()
+    papers_2025 = [p for p in arxiv_papers if p["id"].startswith(STARTS_WITH)]
+    papers_2025.sort(key=lambda p: p["id"], reverse=True)
+    seen_ids = set()
+    unique_papers_2025 = []
+    for p in papers_2025:
+        if p["id"] not in seen_ids:
+            unique_papers_2025.append(p)
+            seen_ids.add(p["id"])
+    papers_2025 = unique_papers_2025
+
+    import fitz
+    output_doc = fitz.open()
 
     for paper in papers_2025:
         arxiv_id = paper["id"]
@@ -177,23 +234,17 @@ def main():
             portrait = find_portrait(a)
             role = people_roles.get(norm_a, "Unknown")
             if portrait:
-                portrait_info.append((portrait, role))
+                portrait_info.append((portrait, role, norm_a))
             else:
                 print(f"Warning: No portrait found for author '{a}' in paper {arxiv_id}")
-        if portrait_info:
-            try:
-                combined_pdf = create_combined_page(portrait_info, pdf_path)
-                writer.add_page(combined_pdf.pages[0])
-            except Exception as e:
-                print(f"Error combining portraits for {arxiv_id}: {e}")
-                reader = PdfReader(pdf_path)
-                writer.add_page(reader.pages[0])
-        else:
-            reader = PdfReader(pdf_path)
-            writer.add_page(reader.pages[0])
+        try:
+            combined_doc = create_combined_page(portrait_info, pdf_path)
+            output_doc.insert_pdf(combined_doc)
+        except Exception as e:
+            print(f"Error combining portraits for {arxiv_id}: {e}")
+            output_doc.insert_pdf(fitz.open(pdf_path))
 
-    with open(OUT_PDF, "wb") as f:
-        writer.write(f)
+    output_doc.save(OUT_PDF)
     print(f"Created {OUT_PDF}")
 
 if __name__ == "__main__":
