@@ -4,13 +4,14 @@ import os
 import json
 from openpyxl import load_workbook
 from io import BytesIO
+import qrcode
 
 CACHE_FILE = "query_cache.json"
 PORTRAITS_DIR = "qusofters/portraits"
 TMP_DIR = "tmp_firstpages"
 OUT_PDF = "qusoft_firstpages_2025.pdf"
 STARTS_WITH = "25"
-# STARTS_WITH = "2506"
+STARTS_WITH = "2506"
 
 os.makedirs(TMP_DIR, exist_ok=True)
 
@@ -150,8 +151,10 @@ def create_combined_page(portrait_info, first_page_pdf_path):
     if "qusoft" not in first_page_text.lower():
         print(f"Warning: 'QuSoft' not found on first page of PDF")
         # add text annotation
-        rect = fitz.Rect(20,170,400,190)
-        page.add_freetext_annot(rect, "'QuSoft' not mentioned on first page", fontsize=12, text_color=(1, 0, 0))
+        x_pos = 10
+        y_pos = 820
+        rect = fitz.Rect(x_pos, y_pos, x_pos + 400, y_pos + 20)
+        page.add_freetext_annot(rect, "'QuSoft' not mentioned on first page", fontsize=8, text_color=(1, 0, 0))
 
 
     # Add portraits as stamps at the top
@@ -189,6 +192,19 @@ def create_combined_page(portrait_info, first_page_pdf_path):
     page.add_freetext_annot((x_pos, y_pos, x_pos + 160, y_pos + 40), "submission to QIP2026?  YES             NO", fontsize=12, text_color=(0, 0, 0))
     page.draw_rect((x_pos+33, y_pos + 15, x_pos + 43, y_pos + 25))
     page.draw_rect((x_pos+91, y_pos + 15, x_pos + 101, y_pos + 25))
+
+    # After scaling and embedding the first page
+    # Add QR code with arXiv URL in lower-right corner
+    qr_url = f"https://arxiv.org/abs/{os.path.basename(first_page_pdf_path).replace('.pdf','')}"
+    qr_img = qrcode.make(qr_url)
+    qr_size = 70
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_qr_png:
+        qr_img = qr_img.resize((qr_size, qr_size))
+        qr_img.save(tmp_qr_png.name, "PNG")
+        pix = fitz.Pixmap(tmp_qr_png.name)
+        # Place QR code in lower-right corner
+        rect = fitz.Rect(width - qr_size - 15, height - qr_size - 20, width - 15, height - 20)
+        page.add_stamp_annot(rect, stamp=pix)
 
     return doc
 
