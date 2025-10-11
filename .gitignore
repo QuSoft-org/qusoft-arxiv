@@ -1,1 +1,18 @@
 .idea
+.venv
+cache
+old stuff
+tmp_firstpages
+2025 papers
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+Thumbs.db
+.vscode
+.env
+.env.*
