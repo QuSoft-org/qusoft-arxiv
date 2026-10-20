@@ -1,18 +1,21 @@
-.idea
-.venv
-cache
-old stuff
-tmp_firstpages
-2025 papers
-__pycache__
-*.pyc
-*.pyo
-*.pyd
-*.db
-*.sqlite3
+# Local only: editor settings, full arXiv PDFs (several GB), booklets and
+# Excel exports, old scripts and spreadsheets.
+.venv/
+.idea/
+.vscode/
+cache/
+output/
+archive/
+
+# Private: has e-mail addresses and exact dates. people.csv is the public extract.
+qusofters/QuSoft Database.xlsx
+*.xlsx
+
+__pycache__/
+*.py[cod]
+*.tmp
 *.log
 .DS_Store
 Thumbs.db
-.vscode
 .env
 .env.*

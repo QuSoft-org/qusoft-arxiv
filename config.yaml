@@ -1,0 +1,36 @@
+# QuSoft papers configuration. Paths are relative to the repository root.
+
+database:
+  people_csv: "people.csv"                       # public list: name, role, status, years
+  excel_file: "qusofters/QuSoft Database.xlsx"   # private source for people.csv (not in git)
+  papers_db: "data/papers_database.json"         # all QuSoft-affiliated papers
+  search_state: "data/search_state.json"         # per person: last search date and working query
+  rejected_ids: "data/rejected_ids.json"         # papers checked without QuSoft on the first page
+
+paths:
+  portraits_dir: "qusofters/portraits"
+  local_pdf_cache: "cache/downloaded_pdfs"       # optional local cache of full arXiv PDFs
+  site_dir: "site"
+  output_dir: "output"                           # local exports (booklets, Excel); not in git
+
+search:
+  years_back: 11            # how far back to search for a person seen for the first time
+  overlap_days: 10          # re-check this many days before the last search, to catch late listings
+  rate_limit_delay: 3       # seconds between arXiv API requests
+  max_results: 100
+
+first_page:
+  submission_to_qip_box: false   # add a "submission to QIP?" checkbox to printed pages
+  portrait_sizes:                # in PDF points
+    "Senior Researchers": 80
+    "Postdocs": 60
+    "PhD Students": 40
+    "Support Team": 40
+    "default": 40
+  portrait_resolution: 3          # pixels per point, so portraits print sharply
+  alumni_year_overlay:
+    enabled: true
+    font_size: 9
+    color: [0, 0, 0]
+    padding: 2
+  thumbnail_width: 420            # px, for the website
