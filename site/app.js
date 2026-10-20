@@ -143,11 +143,24 @@
       `${papers.length} papers since ${stats.first_year}, by ${stats.people} current and former members of QuSoft, the research center for quantum software in Amsterdam. `,
       recent ? `${recent === 1 ? "One paper" : `${recent} papers`} added this week.` : "");
 
-    const latest = papers.filter((p) => p.page).slice(0, 6);
-    $("#latest").replaceChildren(...latest.map((p) => el("figure", { class: "sheet" },
-      el("a", { href: `firstpages/${p.id}.pdf` },
-        el("img", { src: `thumbs/${p.id}.webp`, alt: `First page of ${p.title}`, loading: "lazy", width: 420, height: 543 }),
-        el("figcaption", {}, p.title)))));
+    // The newest first pages, overlapping like sheets on the message board.
+    const latest = papers.filter((p) => p.page).slice(0, 5);
+    const caption = $("#board-caption");
+    const describe = (p, i) => {
+      caption.replaceChildren(el("span", { class: "board-when" }, i === 0 ? "Newest" : formatDate(p.date)), " ", p.title);
+    };
+    const tilts = [-1.5, 2, -2.5, 1.2, -1];
+    $("#latest").replaceChildren(...latest.map((p, i) => {
+      const sheet = el("a", {
+        class: "sheet", href: `firstpages/${p.id}.pdf`,
+        style: `--i:${i};--r:${tilts[i]}deg`,
+        "aria-label": `First page of ${p.title}`,
+        onmouseenter: () => describe(p, i), onfocus: () => describe(p, i),
+      }, el("img", { src: `thumbs/${p.id}.webp`, alt: "", width: 420, height: 543, loading: i ? "lazy" : "eager" }));
+      return sheet;
+    }));
+    $("#latest").addEventListener("mouseleave", () => latest.length && describe(latest[0], 0));
+    if (latest.length) describe(latest[0], 0);
 
     const years = [...new Set(papers.map((p) => p.year))];
     $("#year").append(...years.map((y) => el("option", { value: y }, y)));

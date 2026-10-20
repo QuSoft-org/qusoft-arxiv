@@ -31,12 +31,16 @@
 
   <!-- Papers -->
   <section id="view-papers" class="view" aria-labelledby="papers-title">
-    <div class="intro">
-      <h1 id="papers-title">What QuSoft has been writing</h1>
-      <p class="lede" id="papers-lede">Loading papers…</p>
+    <div class="hero">
+      <div class="intro">
+        <h1 id="papers-title">What QuSoft has been writing</h1>
+        <p class="lede" id="papers-lede">Loading papers…</p>
+      </div>
+      <figure class="board-wrap">
+        <div class="board" id="latest" aria-label="First pages of the newest papers"></div>
+        <figcaption class="board-caption" id="board-caption" aria-live="polite"></figcaption>
+      </figure>
     </div>
-
-    <div class="latest" id="latest" aria-label="Most recent first pages"></div>
 
     <form class="filters" id="filters" role="search" onsubmit="return false">
       <label class="field grow">
