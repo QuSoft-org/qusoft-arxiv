@@ -21,12 +21,12 @@ search:
 
 first_page:
   submission_to_qip_box: false   # add a "submission to QIP?" checkbox to printed pages
-  portrait_sizes:                # in PDF points
-    "Senior Researchers": 80
+  portrait_sizes:                # in PDF points: junior people largest, permanent staff smallest
+    "PhD Students": 80
     "Postdocs": 60
-    "PhD Students": 40
+    "Senior Researchers": 40
     "Support Team": 40
-    "default": 40
+    "default": 60
   portrait_resolution: 3          # pixels per point, so portraits print sharply
   alumni_year_overlay:
     enabled: true
