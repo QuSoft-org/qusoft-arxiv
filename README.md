@@ -35,7 +35,7 @@ Or regenerate it from the private spreadsheet (people with *Featured on Page = Y
 python scripts/excel_to_people_csv.py
 ```
 
-A portrait goes in `qusofters/portraits/` as `firstname_lastname.jpg`. `scripts/download_portraits.py` fetches missing ones from qusoft.org.
+A portrait goes in `qusofters/portraits/` as `firstname_lastname.jpg`. `scripts/download_portraits.py` fetches missing ones from the people page on qusoft.org and lists people whose photo there has changed; `--update` replaces those. Then run `python scripts/update.py --redo-pages` (or push, and let the nightly run pick it up for new papers only).
 
 ## Running locally
 

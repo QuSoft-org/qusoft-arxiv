@@ -15,7 +15,7 @@
   "role": "PhD Students",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/ake-kohne.webp"
  },
  "Alberto Zorzato": {
   "role": "PhD Students",
@@ -33,13 +33,13 @@
   "role": "Postdocs",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/alexander-urech.webp"
  },
  "Alicja Dutkiewicz": {
   "role": "Postdocs",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/alicja-dutkiewicz.webp"
  },
  "Amira Abbas": {
   "role": "Postdocs",
@@ -75,7 +75,7 @@
   "role": "PhD Students",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/carli-bruinsma.webp"
  },
  "Chris Cade": {
   "role": "Postdocs",
@@ -231,7 +231,7 @@
   "role": "PhD Students",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/jelena-mackeprang.webp"
  },
  "Jeroen Zuiddam": {
   "role": "Senior Researchers",
@@ -303,7 +303,7 @@
   "role": "Senior Researchers",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/klaasjan-van-druten.webp"
  },
  "Koen Groenland": {
   "role": "Support Team",
@@ -339,7 +339,7 @@
   "role": "PhD Students",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/lisa-lenstra.webp"
  },
  "Llorenç Escolà-Farràs": {
   "role": "PhD Students",
@@ -405,7 +405,7 @@
   "role": "Postdocs",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/matthew-sutcliffe.webp"
  },
  "Mehrdad Tahmasbi": {
   "role": "Postdocs",
@@ -549,13 +549,13 @@
   "role": "Senior Researchers",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/stefano-polla.webp"
  },
  "Subhasree Patro": {
   "role": "PhD Students",
   "alumni": true,
   "years": "2018–2024",
-  "portrait": null
+  "portrait": "portraits/subhasree-patro.webp"
  },
  "Teresa Piovesan": {
   "role": "PhD Students",
@@ -573,7 +573,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2021–2025",
-  "portrait": null
+  "portrait": "portraits/vincent-schmeits.webp"
  },
  "Vladimir Gritsev": {
   "role": "Senior Researchers",
@@ -585,7 +585,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2019–2023",
-  "portrait": null
+  "portrait": "portraits/xuanbo-feng.webp"
  },
  "Yanlin Chen": {
   "role": "PhD Students",
