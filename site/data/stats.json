@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-20T10:02",
- "papers": 389,
- "people": 95,
+ "updated": "2026-10-20T10:22",
+ "papers": 446,
+ "people": 104,
  "alumni": 45,
  "first_year": 2015,
  "by_year": [
@@ -84,10 +84,10 @@
   },
   {
    "year": 2026,
-   "papers": 1,
-   "contributors": 3,
-   "together": 1,
-   "with_alumni": 0
+   "papers": 58,
+   "contributors": 53,
+   "together": 34,
+   "with_alumni": 10
   }
  ],
  "edges": [
@@ -117,9 +117,19 @@
    1
   ],
   [
+   "Ake Köhne",
+   "Jonas Helsen",
+   1
+  ],
+  [
+   "Alberto Zorzato",
+   "Jiri Minar",
+   1
+  ],
+  [
    "Alberto Zorzato",
    "Kareljan Schoutens",
-   1
+   2
   ],
   [
    "Alex Grilo",
@@ -169,7 +179,7 @@
   [
    "Alexander Urech",
    "Florian Schreck",
-   6
+   7
   ],
   [
    "Alexander Urech",
@@ -179,7 +189,7 @@
   [
    "Alexander Urech",
    "Ivo Knottnerus",
-   3
+   4
   ],
   [
    "Alexander Urech",
@@ -204,7 +214,27 @@
   [
    "Alexander Urech",
    "Robert Spreeuw",
-   5
+   6
+  ],
+  [
+   "Alicja Dutkiewicz",
+   "Jonas Helsen",
+   1
+  ],
+  [
+   "Alicja Dutkiewicz",
+   "Lorenzo Grevink",
+   1
+  ],
+  [
+   "Alicja Dutkiewicz",
+   "Marten Folkertsma",
+   1
+  ],
+  [
+   "Alicja Dutkiewicz",
+   "Stefano Polla",
+   1
   ],
   [
    "Amira Abbas",
@@ -294,7 +324,7 @@
   [
    "Arghavan Safavi-Naini",
    "Jiri Minar",
-   3
+   5
   ],
   [
    "Arghavan Safavi-Naini",
@@ -304,11 +334,16 @@
   [
    "Arghavan Safavi-Naini",
    "Liam Bond",
-   6
+   8
   ],
   [
    "Arghavan Safavi-Naini",
    "Lisa Lenstra",
+   1
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Maris Ozols",
    1
   ],
   [
@@ -319,12 +354,12 @@
   [
    "Arghavan Safavi-Naini",
    "Rene Gerritsma",
-   6
+   7
   ],
   [
    "Arghavan Safavi-Naini",
    "Robert Spreeuw",
-   1
+   2
   ],
   [
    "Arjan Cornelissen",
@@ -370,6 +405,21 @@
    "Bas Dirkse",
    "Michael Walter",
    1
+  ],
+  [
+   "Carli Bruinsma",
+   "Dmitry Grinko",
+   2
+  ],
+  [
+   "Carli Bruinsma",
+   "Joppe Stokvis",
+   1
+  ],
+  [
+   "Carli Bruinsma",
+   "Maris Ozols",
+   2
   ],
   [
    "Chris Cade",
@@ -507,8 +557,43 @@
    1
   ],
   [
+   "Davi Castro-Silva",
+   "Freek Witteveen",
+   1
+  ],
+  [
+   "Davi Castro-Silva",
+   "Jonas Helsen",
+   1
+  ],
+  [
+   "Davi Castro-Silva",
+   "Jop Briët",
+   2
+  ],
+  [
+   "Davi Castro-Silva",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Davi Castro-Silva",
+   "Philippe van Dordrecht",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Florian Speelman",
+   1
+  ],
+  [
    "Dmitry Grinko",
    "Francisco Escudero",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Gina Muuss",
    1
   ],
   [
@@ -518,22 +603,47 @@
   ],
   [
    "Dmitry Grinko",
+   "Joppe Stokvis",
+   1
+  ],
+  [
+   "Dmitry Grinko",
    "Jordi Weggemans",
    1
   ],
   [
    "Dmitry Grinko",
+   "Junqiao (Randy) Lin",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Ludovico Lami",
+   1
+  ],
+  [
+   "Dmitry Grinko",
    "Maris Ozols",
-   7
+   9
+  ],
+  [
+   "Dmitry Grinko",
+   "Marten Folkertsma",
+   1
   ],
   [
    "Dmitry Grinko",
    "Philip Verduyn Lunel",
-   2
+   3
   ],
   [
    "Dmitry Grinko",
    "Rene Allerstorfer",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Yaroslav Herasymenko",
    1
   ],
   [
@@ -589,17 +699,17 @@
   [
    "Filippo Girardi",
    "Freek Witteveen",
-   1
-  ],
-  [
-   "Filippo Girardi",
-   "Ludovico Lami",
    2
   ],
   [
    "Filippo Girardi",
+   "Ludovico Lami",
+   3
+  ],
+  [
+   "Filippo Girardi",
    "Michael Walter",
-   1
+   2
   ],
   [
    "Florian Schreck",
@@ -609,7 +719,7 @@
   [
    "Florian Schreck",
    "Ivo Knottnerus",
-   3
+   4
   ],
   [
    "Florian Schreck",
@@ -634,7 +744,7 @@
   [
    "Florian Schreck",
    "Robert Spreeuw",
-   5
+   7
   ],
   [
    "Florian Schreck",
@@ -645,6 +755,11 @@
    "Florian Speelman",
    "Garazi Muguruza Lasa",
    3
+  ],
+  [
+   "Florian Speelman",
+   "Gina Muuss",
+   1
   ],
   [
    "Florian Speelman",
@@ -679,7 +794,7 @@
   [
    "Florian Speelman",
    "Llorenç Escolà-Farràs",
-   7
+   8
   ],
   [
    "Florian Speelman",
@@ -689,7 +804,7 @@
   [
    "Florian Speelman",
    "Marten Folkertsma",
-   2
+   3
   ],
   [
    "Florian Speelman",
@@ -699,7 +814,7 @@
   [
    "Florian Speelman",
    "Philip Verduyn Lunel",
-   6
+   7
   ],
   [
    "Florian Speelman",
@@ -768,6 +883,11 @@
   ],
   [
    "Freek Witteveen",
+   "Jop Briët",
+   1
+  ],
+  [
+   "Freek Witteveen",
    "Kareljan Schoutens",
    1
   ],
@@ -778,8 +898,13 @@
   ],
   [
    "Freek Witteveen",
+   "Ludovico Lami",
+   1
+  ],
+  [
+   "Freek Witteveen",
    "Michael Walter",
-   7
+   9
   ],
   [
    "Freek Witteveen",
@@ -788,8 +913,13 @@
   ],
   [
    "Freek Witteveen",
-   "Stacey Jeffery",
+   "Ronald de Wolf",
    1
+  ],
+  [
+   "Freek Witteveen",
+   "Stacey Jeffery",
+   3
   ],
   [
    "Galina Pass",
@@ -804,7 +934,7 @@
   [
    "Galina Pass",
    "Stacey Jeffery",
-   3
+   4
   ],
   [
    "Garazi Muguruza Lasa",
@@ -814,6 +944,11 @@
   [
    "Garazi Muguruza Lasa",
    "Yfke Dulek",
+   1
+  ],
+  [
+   "Gina Muuss",
+   "Marten Folkertsma",
    1
   ],
   [
@@ -918,8 +1053,13 @@
   ],
   [
    "Hemant Sharma",
+   "Jelena Mackeprang",
+   1
+  ],
+  [
+   "Hemant Sharma",
    "Jonas Helsen",
-   2
+   3
   ],
   [
    "Ido Niesen",
@@ -934,7 +1074,7 @@
   [
    "Ivo Knottnerus",
    "Robert Spreeuw",
-   3
+   4
   ],
   [
    "Jan Czajkowski",
@@ -948,8 +1088,18 @@
   ],
   [
    "Jasper van Wezel",
+   "Lisa Lenstra",
+   1
+  ],
+  [
+   "Jasper van Wezel",
    "Xuanbo Feng",
    1
+  ],
+  [
+   "Jelena Mackeprang",
+   "Jonas Helsen",
+   2
   ],
   [
    "Jeroen Zuiddam",
@@ -969,12 +1119,12 @@
   [
    "Jiri Minar",
    "Kareljan Schoutens",
-   4
+   5
   ],
   [
    "Jiri Minar",
    "Liam Bond",
-   3
+   5
   ],
   [
    "Jiri Minar",
@@ -983,13 +1133,18 @@
   ],
   [
    "Jiri Minar",
-   "Rene Gerritsma",
+   "Maris Ozols",
    1
   ],
   [
    "Jiri Minar",
+   "Rene Gerritsma",
+   2
+  ],
+  [
+   "Jiri Minar",
    "Robert Spreeuw",
-   1
+   2
   ],
   [
    "Jiri Minar",
@@ -1002,9 +1157,19 @@
    2
   ],
   [
+   "John van de Wetering",
+   "Matthew Sutcliffe",
+   1
+  ],
+  [
+   "John van de Wetering",
+   "Sarah Meng Li",
+   3
+  ],
+  [
    "Jonas Helsen",
    "Jop Briët",
-   1
+   2
   ],
   [
    "Jonas Helsen",
@@ -1014,11 +1179,16 @@
   [
    "Jonas Helsen",
    "Lorenzo Grevink",
-   1
+   2
   ],
   [
    "Jonas Helsen",
    "Maris Ozols",
+   1
+  ],
+  [
+   "Jonas Helsen",
+   "Marten Folkertsma",
    1
   ],
   [
@@ -1029,7 +1199,7 @@
   [
    "Jonas Helsen",
    "Philippe van Dordrecht",
-   2
+   3
   ],
   [
    "Jonas Helsen",
@@ -1039,12 +1209,17 @@
   [
    "Jonas Helsen",
    "Zongbo Bao",
-   2
+   3
+  ],
+  [
+   "Jop Briët",
+   "Michael Walter",
+   1
   ],
   [
    "Jop Briët",
    "Philippe van Dordrecht",
-   1
+   2
   ],
   [
    "Jop Briët",
@@ -1074,7 +1249,7 @@
   [
    "Joppe Stokvis",
    "Maris Ozols",
-   1
+   2
   ],
   [
    "Joran van Apeldoorn",
@@ -1122,6 +1297,16 @@
    1
   ],
   [
+   "Junqiao (Randy) Lin",
+   "Philip Verduyn Lunel",
+   1
+  ],
+  [
+   "Junqiao (Randy) Lin",
+   "Yaroslav Herasymenko",
+   1
+  ],
+  [
    "Kareljan Schoutens",
    "Koen Groenland",
    4
@@ -1144,7 +1329,7 @@
   [
    "Kareljan Schoutens",
    "Seenivasan Hariharan",
-   1
+   2
   ],
   [
    "Kareljan Schoutens",
@@ -1173,8 +1358,18 @@
   ],
   [
    "Liam Bond",
+   "Maris Ozols",
+   1
+  ],
+  [
+   "Liam Bond",
    "Rene Gerritsma",
-   3
+   4
+  ],
+  [
+   "Liam Bond",
+   "Robert Spreeuw",
+   1
   ],
   [
    "Lieuwe Bakker",
@@ -1212,9 +1407,19 @@
    3
   ],
   [
+   "Lorenzo Grevink",
+   "Marten Folkertsma",
+   1
+  ],
+  [
+   "Ludovico Lami",
+   "Michael Walter",
+   1
+  ],
+  [
    "Ludovico Lami",
    "Salvatore Tirone",
-   1
+   2
   ],
   [
    "Lynn Engelberts",
@@ -1229,6 +1434,11 @@
   [
    "Lynn Engelberts",
    "Yanlin Chen",
+   1
+  ],
+  [
+   "Manideep Mamindlapally",
+   "Stacey Jeffery",
    1
   ],
   [
@@ -1312,6 +1522,11 @@
    8
   ],
   [
+   "Philip Verduyn Lunel",
+   "Yaroslav Herasymenko",
+   1
+  ],
+  [
    "Philippe Corboz",
    "Rene Gerritsma",
    1
@@ -1319,6 +1534,11 @@
   [
    "Philippe van Dordrecht",
    "Zongbo Bao",
+   2
+  ],
+  [
+   "Rene Gerritsma",
+   "Robert Spreeuw",
    2
   ],
   [
@@ -1339,7 +1559,7 @@
   [
    "Ronald de Wolf",
    "Stacey Jeffery",
-   2
+   3
   ],
   [
    "Ronald de Wolf",

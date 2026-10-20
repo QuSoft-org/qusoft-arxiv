@@ -11,6 +11,12 @@
   "years": "",
   "portrait": "portraits/ailsa-robertson.webp"
  },
+ "Ake Köhne": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
  "Alberto Zorzato": {
   "role": "PhD Students",
   "alumni": false,
@@ -24,6 +30,12 @@
   "portrait": null
  },
  "Alexander Urech": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Alicja Dutkiewicz": {
   "role": "Postdocs",
   "alumni": false,
   "years": "",
@@ -58,6 +70,12 @@
   "alumni": true,
   "years": "2018–2021",
   "portrait": "portraits/bas-dirkse.webp"
+ },
+ "Carli Bruinsma": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": null
  },
  "Chris Cade": {
   "role": "Postdocs",
@@ -161,6 +179,12 @@
   "years": "2021–2025",
   "portrait": "portraits/garazi-muguruza-lasa.webp"
  },
+ "Gina Muuss": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
  "Harold Nieuwboer": {
   "role": "PhD Students",
   "alumni": true,
@@ -203,6 +227,12 @@
   "years": "",
   "portrait": "portraits/jasper-van-wezel.webp"
  },
+ "Jelena Mackeprang": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
  "Jeroen Zuiddam": {
   "role": "Senior Researchers",
   "alumni": false,
@@ -214,6 +244,12 @@
   "alumni": false,
   "years": "",
   "portrait": "portraits/jiri-minar.webp"
+ },
+ "John van de Wetering": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/john-van-de-wetering.webp"
  },
  "Jonas Helsen": {
   "role": "Senior Researchers",
@@ -335,6 +371,12 @@
   "years": "2022–2025",
   "portrait": null
  },
+ "Manideep Mamindlapally": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/manideep-mamindlapally.webp"
+ },
  "Maris Ozols": {
   "role": "Senior Researchers",
   "alumni": false,
@@ -358,6 +400,12 @@
   "alumni": true,
   "years": "2021–2022",
   "portrait": "portraits/matteo-lostaglio.webp"
+ },
+ "Matthew Sutcliffe": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": null
  },
  "Mehrdad Tahmasbi": {
   "role": "Postdocs",
@@ -442,6 +490,12 @@
   "alumni": true,
   "years": "2015–2020",
   "portrait": null
+ },
+ "Sarah Meng Li": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/sarah-meng-li.webp"
  },
  "Sebastian De Haro": {
   "role": "Senior Researchers",
