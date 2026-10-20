@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuSoft papers</title>
+<meta name="description" content="Papers by current and former members of QuSoft, the Amsterdam research center for quantum software.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <a class="brand" href="#papers" aria-label="QuSoft papers, home">
+    <img class="logo logo-light" src="assets/qusoft-logo.svg" alt="QuSoft" width="152" height="46">
+    <img class="logo logo-dark" src="assets/qusoft-logo-white.svg" alt="QuSoft" width="152" height="41">
+    <span class="brand-sub">papers</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#papers" data-view="papers">Papers</a>
+    <a href="#people" data-view="people">People</a>
+    <a href="#print" data-view="print">Print</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Papers -->
+  <section id="view-papers" class="view" aria-labelledby="papers-title">
+    <div class="intro">
+      <h1 id="papers-title">What QuSoft has been writing</h1>
+      <p class="lede" id="papers-lede">Loading papers…</p>
+    </div>
+
+    <div class="latest" id="latest" aria-label="Most recent first pages"></div>
+
+    <form class="filters" id="filters" role="search" onsubmit="return false">
+      <label class="field grow">
+        <span class="field-label">Search</span>
+        <input type="search" id="q" placeholder="Title, author or topic" autocomplete="off">
+      </label>
+      <label class="field">
+        <span class="field-label">Year</span>
+        <select id="year"><option value="">All years</option></select>
+      </label>
+      <fieldset class="field toggle">
+        <legend class="field-label">Written by</legend>
+        <label><input type="radio" name="who" value="" checked><span>Anyone</span></label>
+        <label><input type="radio" name="who" value="current"><span>Current members</span></label>
+        <label><input type="radio" name="who" value="alumni"><span>Alumni</span></label>
+      </fieldset>
+    </form>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <div id="paper-list"></div>
+  </section>
+
+  <!-- People -->
+  <section id="view-people" class="view" aria-labelledby="people-title" hidden>
+    <div class="intro">
+      <h1 id="people-title">Who writes with whom</h1>
+      <p class="lede" id="people-lede"></p>
+      <p class="legend">
+        <span class="key key-current"></span> current member
+        <span class="key key-alumni"></span> alumni, with their QuSoft years
+      </p>
+    </div>
+    <figure class="network-wrap">
+      <svg id="network" role="img" aria-label="Co-authorship network of QuSoft members"></svg>
+      <figcaption id="network-caption">Pick someone to see their co-authors and papers.</figcaption>
+    </figure>
+
+    <h2 class="section-title">Year by year</h2>
+    <div class="numbers" id="numbers"></div>
+  </section>
+
+  <!-- Print -->
+  <section id="view-print" class="view" aria-labelledby="print-title" hidden>
+    <div class="intro">
+      <h1 id="print-title">Print for the message board</h1>
+      <p class="lede">Tick the papers you want, then download them as one PDF. Each page has the authors' portraits, highlighted QuSoft affiliations and a QR code to the paper. Papers you haven't printed yet on this computer are already ticked.</p>
+    </div>
+    <div class="print-tools">
+      <button type="button" class="link-button" id="select-none">Clear selection</button>
+      <button type="button" class="link-button" id="select-unprinted">Tick unprinted papers</button>
+    </div>
+    <p class="empty" id="print-empty" hidden>Nothing new since you last printed. Tick any paper below to print it again.</p>
+    <div class="print-grid" id="print-grid"></div>
+    <button type="button" class="link-button more" id="print-more" hidden>Show older papers</button>
+
+    <div class="print-bar" id="print-bar">
+      <p id="print-status" aria-live="polite">No papers ticked</p>
+      <div class="print-actions">
+        <button type="button" class="button secondary" id="mark-printed" disabled>Mark as printed</button>
+        <button type="button" class="button" id="download" disabled>Download for printing</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Papers on arXiv that mention QuSoft on their first page. Updated daily; last update <span id="updated">–</span>.</p>
+  <p><a href="https://qusoft.org">qusoft.org</a> <a href="https://github.com/cschaffner/qusoft-arxiv">Source and data on GitHub</a></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js" integrity="sha384-weMABwrltA6jWR8DDe9Jp5blk+tZQh7ugpCsF3JwSA53WZM9/14PjS5LAJNHNjAI" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

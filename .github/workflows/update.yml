@@ -1,0 +1,65 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # every day at 04:17 UTC
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths: ["site/**", "people.csv"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      new_papers: ${{ steps.update.outputs.new_papers }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Find new papers and rebuild the site data
+        id: update
+        # On a push only the site data is rebuilt; the arXiv search runs on the schedule or by hand.
+        run: python scripts/update.py ${{ github.event_name == 'push' && '--no-search' || '' }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Daily update: ${{ steps.update.outputs.new_papers || 0 }} new papers"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

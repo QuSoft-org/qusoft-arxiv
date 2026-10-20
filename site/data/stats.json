@@ -1,0 +1,1405 @@
+{
+ "updated": "2026-10-20T10:41",
+ "papers": 389,
+ "people": 95,
+ "alumni": 45,
+ "first_year": 2015,
+ "by_year": [
+  {
+   "year": 2015,
+   "papers": 2,
+   "contributors": 3,
+   "together": 1,
+   "with_alumni": 1
+  },
+  {
+   "year": 2016,
+   "papers": 15,
+   "contributors": 12,
+   "together": 5,
+   "with_alumni": 5
+  },
+  {
+   "year": 2017,
+   "papers": 20,
+   "contributors": 20,
+   "together": 8,
+   "with_alumni": 12
+  },
+  {
+   "year": 2018,
+   "papers": 28,
+   "contributors": 25,
+   "together": 15,
+   "with_alumni": 20
+  },
+  {
+   "year": 2019,
+   "papers": 32,
+   "contributors": 29,
+   "together": 15,
+   "with_alumni": 22
+  },
+  {
+   "year": 2020,
+   "papers": 29,
+   "contributors": 29,
+   "together": 18,
+   "with_alumni": 18
+  },
+  {
+   "year": 2021,
+   "papers": 39,
+   "contributors": 43,
+   "together": 21,
+   "with_alumni": 31
+  },
+  {
+   "year": 2022,
+   "papers": 48,
+   "contributors": 54,
+   "together": 28,
+   "with_alumni": 34
+  },
+  {
+   "year": 2023,
+   "papers": 47,
+   "contributors": 46,
+   "together": 24,
+   "with_alumni": 38
+  },
+  {
+   "year": 2024,
+   "papers": 56,
+   "contributors": 41,
+   "together": 22,
+   "with_alumni": 35
+  },
+  {
+   "year": 2025,
+   "papers": 72,
+   "contributors": 55,
+   "together": 41,
+   "with_alumni": 22
+  },
+  {
+   "year": 2026,
+   "papers": 1,
+   "contributors": 3,
+   "together": 1,
+   "with_alumni": 0
+  }
+ ],
+ "edges": [
+  [
+   "Adam Burchardt",
+   "Dmitry Grinko",
+   4
+  ],
+  [
+   "Adam Burchardt",
+   "Maris Ozols",
+   4
+  ],
+  [
+   "Ailsa Robertson",
+   "Christian Schaffner",
+   2
+  ],
+  [
+   "Ailsa Robertson",
+   "Sebastian De Haro",
+   1
+  ],
+  [
+   "Ailsa Robertson",
+   "Sebastian Verschoor",
+   1
+  ],
+  [
+   "Alberto Zorzato",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Alex Grilo",
+   "Christian Majenz",
+   2
+  ],
+  [
+   "Alex Grilo",
+   "Christian Schaffner",
+   1
+  ],
+  [
+   "Alex Grilo",
+   "Garazi Muguruza Lasa",
+   1
+  ],
+  [
+   "Alex Grilo",
+   "Jan Czajkowski",
+   1
+  ],
+  [
+   "Alex Grilo",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Alex Grilo",
+   "Srinivasan Arunachalam",
+   2
+  ],
+  [
+   "Alex Grilo",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Alex Grilo",
+   "Yfke Dulek",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Arghavan Safavi-Naini",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Florian Schreck",
+   6
+  ],
+  [
+   "Alexander Urech",
+   "Florian Speelman",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Ivo Knottnerus",
+   3
+  ],
+  [
+   "Alexander Urech",
+   "Jiri Minar",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Klaasjan van Druten",
+   1
+  ],
+  [
+   "Alexander Urech",
+   "Robert Spreeuw",
+   5
+  ],
+  [
+   "Amira Abbas",
+   "Dmitry Grinko",
+   1
+  ],
+  [
+   "Amira Abbas",
+   "Francisco Escudero",
+   1
+  ],
+  [
+   "Amira Abbas",
+   "Harry Buhrman",
+   1
+  ],
+  [
+   "Amira Abbas",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Amira Abbas",
+   "Sander Gribling",
+   1
+  ],
+  [
+   "Amira Abbas",
+   "Yanlin Chen",
+   1
+  ],
+  [
+   "Andras Gilyen",
+   "Arjan Cornelissen",
+   2
+  ],
+  [
+   "Andras Gilyen",
+   "Harry Buhrman",
+   1
+  ],
+  [
+   "Andras Gilyen",
+   "Joran van Apeldoorn",
+   5
+  ],
+  [
+   "Andras Gilyen",
+   "Ronald de Wolf",
+   3
+  ],
+  [
+   "Andras Gilyen",
+   "Sander Gribling",
+   2
+  ],
+  [
+   "Andras Gilyen",
+   "Simon Apers",
+   1
+  ],
+  [
+   "Andras Gilyen",
+   "Srinivasan Arunachalam",
+   1
+  ],
+  [
+   "Andras Gilyen",
+   "Stacey Jeffery",
+   3
+  ],
+  [
+   "Andras Gilyen",
+   "Tom Bannink",
+   1
+  ],
+  [
+   "Andras Gilyen",
+   "Yanlin Chen",
+   1
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Florian Schreck",
+   2
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Jiri Minar",
+   3
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Klaasjan van Druten",
+   1
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Liam Bond",
+   6
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Lisa Lenstra",
+   1
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Philippe Corboz",
+   1
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Rene Gerritsma",
+   6
+  ],
+  [
+   "Arghavan Safavi-Naini",
+   "Robert Spreeuw",
+   1
+  ],
+  [
+   "Arjan Cornelissen",
+   "Joran van Apeldoorn",
+   1
+  ],
+  [
+   "Arjan Cornelissen",
+   "Maris Ozols",
+   3
+  ],
+  [
+   "Arjan Cornelissen",
+   "Nikhil Mande",
+   2
+  ],
+  [
+   "Arjan Cornelissen",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Arjan Cornelissen",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Arjan Cornelissen",
+   "Subhasree Patro",
+   1
+  ],
+  [
+   "Arjan Cornelissen",
+   "Álvaro Piedrafita",
+   1
+  ],
+  [
+   "Bas Dirkse",
+   "Jonas Helsen",
+   1
+  ],
+  [
+   "Bas Dirkse",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Chris Cade",
+   "Farrokh Labib",
+   1
+  ],
+  [
+   "Chris Cade",
+   "Ido Niesen",
+   2
+  ],
+  [
+   "Chris Cade",
+   "Jordi Weggemans",
+   4
+  ],
+  [
+   "Chris Cade",
+   "Marten Folkertsma",
+   4
+  ],
+  [
+   "Christian Majenz",
+   "Christian Schaffner",
+   9
+  ],
+  [
+   "Christian Majenz",
+   "Florian Speelman",
+   2
+  ],
+  [
+   "Christian Majenz",
+   "Jan Czajkowski",
+   1
+  ],
+  [
+   "Christian Majenz",
+   "Maris Ozols",
+   2
+  ],
+  [
+   "Christian Majenz",
+   "Mehrdad Tahmasbi",
+   2
+  ],
+  [
+   "Christian Majenz",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Christian Majenz",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Christian Majenz",
+   "Sebastian Zur",
+   1
+  ],
+  [
+   "Christian Majenz",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Christian Majenz",
+   "Yfke Dulek",
+   2
+  ],
+  [
+   "Christian Schaffner",
+   "Daan Planken",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Florian Speelman",
+   3
+  ],
+  [
+   "Christian Schaffner",
+   "Jan Czajkowski",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Llorenç Escolà-Farràs",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Maris Ozols",
+   2
+  ],
+  [
+   "Christian Schaffner",
+   "Mehrdad Tahmasbi",
+   3
+  ],
+  [
+   "Christian Schaffner",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Sebastian De Haro",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Sebastian Verschoor",
+   2
+  ],
+  [
+   "Christian Schaffner",
+   "Sebastian Zur",
+   1
+  ],
+  [
+   "Christian Schaffner",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Christian Schaffner",
+   "Yfke Dulek",
+   5
+  ],
+  [
+   "Daan Planken",
+   "Sebastian Verschoor",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Francisco Escudero",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Harry Buhrman",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Dmitry Grinko",
+   "Maris Ozols",
+   7
+  ],
+  [
+   "Dmitry Grinko",
+   "Philip Verduyn Lunel",
+   2
+  ],
+  [
+   "Dmitry Grinko",
+   "Rene Allerstorfer",
+   1
+  ],
+  [
+   "Dyon van Vreumingen",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Dyon van Vreumingen",
+   "Stefano Polla",
+   1
+  ],
+  [
+   "Eline de Jong",
+   "Sebastian De Haro",
+   2
+  ],
+  [
+   "Erik van Heumen",
+   "Jasper van Wezel",
+   1
+  ],
+  [
+   "Erik van Heumen",
+   "Mark Golden",
+   1
+  ],
+  [
+   "Erik van Heumen",
+   "Xuanbo Feng",
+   4
+  ],
+  [
+   "Farrokh Labib",
+   "Harry Buhrman",
+   1
+  ],
+  [
+   "Farrokh Labib",
+   "Ido Niesen",
+   1
+  ],
+  [
+   "Farrokh Labib",
+   "Jop Briët",
+   2
+  ],
+  [
+   "Farrokh Labib",
+   "Tom Bannink",
+   2
+  ],
+  [
+   "Filippo Girardi",
+   "Freek Witteveen",
+   1
+  ],
+  [
+   "Filippo Girardi",
+   "Ludovico Lami",
+   2
+  ],
+  [
+   "Filippo Girardi",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Florian Schreck",
+   "Florian Speelman",
+   1
+  ],
+  [
+   "Florian Schreck",
+   "Ivo Knottnerus",
+   3
+  ],
+  [
+   "Florian Schreck",
+   "Jiri Minar",
+   3
+  ],
+  [
+   "Florian Schreck",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Florian Schreck",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Florian Schreck",
+   "Klaasjan van Druten",
+   3
+  ],
+  [
+   "Florian Schreck",
+   "Robert Spreeuw",
+   5
+  ],
+  [
+   "Florian Schreck",
+   "Shayne Bennetts",
+   4
+  ],
+  [
+   "Florian Speelman",
+   "Garazi Muguruza Lasa",
+   3
+  ],
+  [
+   "Florian Speelman",
+   "Harry Buhrman",
+   11
+  ],
+  [
+   "Florian Speelman",
+   "Jiri Minar",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Jop Briët",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Koen Leijnse",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Llorenç Escolà-Farràs",
+   7
+  ],
+  [
+   "Florian Speelman",
+   "Léo Colisson",
+   2
+  ],
+  [
+   "Florian Speelman",
+   "Marten Folkertsma",
+   2
+  ],
+  [
+   "Florian Speelman",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Philip Verduyn Lunel",
+   6
+  ],
+  [
+   "Florian Speelman",
+   "Rene Allerstorfer",
+   7
+  ],
+  [
+   "Florian Speelman",
+   "Robert Spreeuw",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Subhasree Patro",
+   6
+  ],
+  [
+   "Florian Speelman",
+   "Teresa Piovesan",
+   1
+  ],
+  [
+   "Florian Speelman",
+   "Yanlin Chen",
+   2
+  ],
+  [
+   "Florian Speelman",
+   "Yfke Dulek",
+   5
+  ],
+  [
+   "Francisco Escudero",
+   "Garazi Muguruza Lasa",
+   1
+  ],
+  [
+   "Francisco Escudero",
+   "Jop Briët",
+   1
+  ],
+  [
+   "Francisco Escudero",
+   "Sander Gribling",
+   1
+  ],
+  [
+   "Francisco Escudero",
+   "Srinivasan Arunachalam",
+   2
+  ],
+  [
+   "Freek Witteveen",
+   "Harold Nieuwboer",
+   1
+  ],
+  [
+   "Freek Witteveen",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Freek Witteveen",
+   "Koen Groenland",
+   1
+  ],
+  [
+   "Freek Witteveen",
+   "Michael Walter",
+   7
+  ],
+  [
+   "Freek Witteveen",
+   "Rene Gerritsma",
+   1
+  ],
+  [
+   "Freek Witteveen",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Galina Pass",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Galina Pass",
+   "Simon Apers",
+   1
+  ],
+  [
+   "Galina Pass",
+   "Stacey Jeffery",
+   3
+  ],
+  [
+   "Garazi Muguruza Lasa",
+   "Léo Colisson",
+   1
+  ],
+  [
+   "Garazi Muguruza Lasa",
+   "Yfke Dulek",
+   1
+  ],
+  [
+   "Harold Nieuwboer",
+   "Joran van Apeldoorn",
+   2
+  ],
+  [
+   "Harold Nieuwboer",
+   "Michael Walter",
+   3
+  ],
+  [
+   "Harold Nieuwboer",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Harold Nieuwboer",
+   "Sander Gribling",
+   3
+  ],
+  [
+   "Harold Nieuwboer",
+   "Yinan Li",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Jeroen Zuiddam",
+   2
+  ],
+  [
+   "Harry Buhrman",
+   "Jonas Helsen",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Jop Briët",
+   2
+  ],
+  [
+   "Harry Buhrman",
+   "Jordi Weggemans",
+   5
+  ],
+  [
+   "Harry Buhrman",
+   "Koen Leijnse",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Llorenç Escolà-Farràs",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Maris Ozols",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Marten Folkertsma",
+   2
+  ],
+  [
+   "Harry Buhrman",
+   "Niels Neumann",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Philip Verduyn Lunel",
+   6
+  ],
+  [
+   "Harry Buhrman",
+   "Rene Allerstorfer",
+   5
+  ],
+  [
+   "Harry Buhrman",
+   "Sander Gribling",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Subhasree Patro",
+   4
+  ],
+  [
+   "Harry Buhrman",
+   "Teresa Piovesan",
+   1
+  ],
+  [
+   "Harry Buhrman",
+   "Tom Bannink",
+   3
+  ],
+  [
+   "Hemant Sharma",
+   "Jonas Helsen",
+   2
+  ],
+  [
+   "Ido Niesen",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Ido Niesen",
+   "Marten Folkertsma",
+   1
+  ],
+  [
+   "Ivo Knottnerus",
+   "Robert Spreeuw",
+   3
+  ],
+  [
+   "Jan Czajkowski",
+   "Sebastian Zur",
+   1
+  ],
+  [
+   "Jasper van Wezel",
+   "Joris Kattemölle",
+   3
+  ],
+  [
+   "Jasper van Wezel",
+   "Xuanbo Feng",
+   1
+  ],
+  [
+   "Jeroen Zuiddam",
+   "Jop Briët",
+   1
+  ],
+  [
+   "Jeroen Zuiddam",
+   "Yinan Li",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Kareljan Schoutens",
+   4
+  ],
+  [
+   "Jiri Minar",
+   "Liam Bond",
+   3
+  ],
+  [
+   "Jiri Minar",
+   "Lieuwe Bakker",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Rene Gerritsma",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Robert Spreeuw",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Shayne Bennetts",
+   1
+  ],
+  [
+   "Jiri Minar",
+   "Vladimir Gritsev",
+   2
+  ],
+  [
+   "Jonas Helsen",
+   "Jop Briët",
+   1
+  ],
+  [
+   "Jonas Helsen",
+   "Jordi Weggemans",
+   1
+  ],
+  [
+   "Jonas Helsen",
+   "Lorenzo Grevink",
+   1
+  ],
+  [
+   "Jonas Helsen",
+   "Maris Ozols",
+   1
+  ],
+  [
+   "Jonas Helsen",
+   "Michael Walter",
+   2
+  ],
+  [
+   "Jonas Helsen",
+   "Philippe van Dordrecht",
+   2
+  ],
+  [
+   "Jonas Helsen",
+   "Yaroslav Herasymenko",
+   2
+  ],
+  [
+   "Jonas Helsen",
+   "Zongbo Bao",
+   2
+  ],
+  [
+   "Jop Briët",
+   "Philippe van Dordrecht",
+   1
+  ],
+  [
+   "Jop Briët",
+   "Sander Gribling",
+   1
+  ],
+  [
+   "Jop Briët",
+   "Srinivasan Arunachalam",
+   1
+  ],
+  [
+   "Jop Briët",
+   "Teresa Piovesan",
+   1
+  ],
+  [
+   "Jop Briët",
+   "Tom Bannink",
+   2
+  ],
+  [
+   "Jop Briët",
+   "Zongbo Bao",
+   1
+  ],
+  [
+   "Joppe Stokvis",
+   "Maris Ozols",
+   1
+  ],
+  [
+   "Joran van Apeldoorn",
+   "Michael Walter",
+   1
+  ],
+  [
+   "Joran van Apeldoorn",
+   "Ronald de Wolf",
+   3
+  ],
+  [
+   "Joran van Apeldoorn",
+   "Sander Gribling",
+   5
+  ],
+  [
+   "Joran van Apeldoorn",
+   "Yinan Li",
+   1
+  ],
+  [
+   "Jordi Weggemans",
+   "Kareljan Schoutens",
+   1
+  ],
+  [
+   "Jordi Weggemans",
+   "Marten Folkertsma",
+   4
+  ],
+  [
+   "Jordi Weggemans",
+   "Philip Verduyn Lunel",
+   1
+  ],
+  [
+   "Jordi Weggemans",
+   "Robert Spreeuw",
+   1
+  ],
+  [
+   "Joris Kattemölle",
+   "Seenivasan Hariharan",
+   1
+  ],
+  [
+   "Kareljan Schoutens",
+   "Koen Groenland",
+   4
+  ],
+  [
+   "Kareljan Schoutens",
+   "Rene Gerritsma",
+   2
+  ],
+  [
+   "Kareljan Schoutens",
+   "Robert Spreeuw",
+   1
+  ],
+  [
+   "Kareljan Schoutens",
+   "Sebastian Zur",
+   1
+  ],
+  [
+   "Kareljan Schoutens",
+   "Seenivasan Hariharan",
+   1
+  ],
+  [
+   "Kareljan Schoutens",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Koen Groenland",
+   "Rene Gerritsma",
+   2
+  ],
+  [
+   "Koen Leijnse",
+   "Subhasree Patro",
+   1
+  ],
+  [
+   "Krystal Guo",
+   "Vincent Schmeits",
+   3
+  ],
+  [
+   "Liam Bond",
+   "Lisa Lenstra",
+   1
+  ],
+  [
+   "Liam Bond",
+   "Rene Gerritsma",
+   3
+  ],
+  [
+   "Lieuwe Bakker",
+   "Vladimir Gritsev",
+   1
+  ],
+  [
+   "Lisa Lenstra",
+   "Rene Gerritsma",
+   1
+  ],
+  [
+   "Llorenç Escolà-Farràs",
+   "Léo Colisson",
+   1
+  ],
+  [
+   "Llorenç Escolà-Farràs",
+   "Maris Ozols",
+   1
+  ],
+  [
+   "Llorenç Escolà-Farràs",
+   "Mehrdad Tahmasbi",
+   1
+  ],
+  [
+   "Llorenç Escolà-Farràs",
+   "Philip Verduyn Lunel",
+   2
+  ],
+  [
+   "Llorenç Escolà-Farràs",
+   "Rene Allerstorfer",
+   3
+  ],
+  [
+   "Ludovico Lami",
+   "Salvatore Tirone",
+   1
+  ],
+  [
+   "Lynn Engelberts",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Lynn Engelberts",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Lynn Engelberts",
+   "Yanlin Chen",
+   1
+  ],
+  [
+   "Maris Ozols",
+   "Mehrdad Tahmasbi",
+   2
+  ],
+  [
+   "Maris Ozols",
+   "Nikhil Mande",
+   1
+  ],
+  [
+   "Maris Ozols",
+   "Philip Verduyn Lunel",
+   1
+  ],
+  [
+   "Maris Ozols",
+   "Rene Allerstorfer",
+   1
+  ],
+  [
+   "Maris Ozols",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Maris Ozols",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Maris Ozols",
+   "Álvaro Piedrafita",
+   1
+  ],
+  [
+   "Marten Folkertsma",
+   "Niels Neumann",
+   1
+  ],
+  [
+   "Michael Walter",
+   "Ronald de Wolf",
+   1
+  ],
+  [
+   "Michael Walter",
+   "Sander Gribling",
+   1
+  ],
+  [
+   "Michael Walter",
+   "Simon Apers",
+   1
+  ],
+  [
+   "Michael Walter",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Michael Walter",
+   "Yinan Li",
+   1
+  ],
+  [
+   "Nikhil Mande",
+   "Ronald de Wolf",
+   4
+  ],
+  [
+   "Nikhil Mande",
+   "Subhasree Patro",
+   1
+  ],
+  [
+   "Philip Verduyn Lunel",
+   "Rene Allerstorfer",
+   8
+  ],
+  [
+   "Philippe Corboz",
+   "Rene Gerritsma",
+   1
+  ],
+  [
+   "Philippe van Dordrecht",
+   "Zongbo Bao",
+   2
+  ],
+  [
+   "Ronald de Wolf",
+   "Sander Gribling",
+   3
+  ],
+  [
+   "Ronald de Wolf",
+   "Simon Apers",
+   1
+  ],
+  [
+   "Ronald de Wolf",
+   "Srinivasan Arunachalam",
+   6
+  ],
+  [
+   "Ronald de Wolf",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Ronald de Wolf",
+   "Yanlin Chen",
+   4
+  ],
+  [
+   "Ronald de Wolf",
+   "Yfke Dulek",
+   1
+  ],
+  [
+   "Ronald de Wolf",
+   "Yinan Li",
+   1
+  ],
+  [
+   "Sander Gribling",
+   "Yinan Li",
+   2
+  ],
+  [
+   "Sebastian Zur",
+   "Seenivasan Hariharan",
+   1
+  ],
+  [
+   "Sebastian Zur",
+   "Stacey Jeffery",
+   3
+  ],
+  [
+   "Seenivasan Hariharan",
+   "Stacey Jeffery",
+   1
+  ],
+  [
+   "Simon Apers",
+   "Stacey Jeffery",
+   2
+  ],
+  [
+   "Stacey Jeffery",
+   "Yanlin Chen",
+   1
+  ],
+  [
+   "Stacey Jeffery",
+   "Yfke Dulek",
+   2
+  ],
+  [
+   "Stacey Jeffery",
+   "Álvaro Piedrafita",
+   3
+  ],
+  [
+   "Subhasree Patro",
+   "Yanlin Chen",
+   2
+  ]
+ ]
+}

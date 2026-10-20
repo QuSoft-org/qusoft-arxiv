@@ -1,0 +1,572 @@
+{
+ "Adam Burchardt": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2024",
+  "portrait": "portraits/adam-burchardt.webp"
+ },
+ "Ailsa Robertson": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/ailsa-robertson.webp"
+ },
+ "Alberto Zorzato": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/alberto-zorzato.webp"
+ },
+ "Alex Grilo": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2020",
+  "portrait": null
+ },
+ "Alexander Urech": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Amira Abbas": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2023–2025",
+  "portrait": "portraits/amira-abbas.webp"
+ },
+ "Andras Gilyen": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2019",
+  "portrait": null
+ },
+ "Arghavan Safavi-Naini": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/arghavan-safavi-naini.webp"
+ },
+ "Arjan Cornelissen": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2022",
+  "portrait": "portraits/arjan-cornelissen.webp"
+ },
+ "Bas Dirkse": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2021",
+  "portrait": "portraits/bas-dirkse.webp"
+ },
+ "Chris Cade": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2019–2021",
+  "portrait": "portraits/chris-cade.webp"
+ },
+ "Christian Majenz": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2017–2021",
+  "portrait": "portraits/christian-majenz.webp"
+ },
+ "Christian Schaffner": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/christian-schaffner.webp"
+ },
+ "Daan Planken": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/daan-planken.webp"
+ },
+ "Davi Castro-Silva": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2023",
+  "portrait": "portraits/davi-castro-silva.webp"
+ },
+ "Dmitry Grinko": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/dmitry-grinko.webp"
+ },
+ "Dyon van Vreumingen": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/dyon-van-vreumingen.webp"
+ },
+ "Eline de Jong": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/eline-de-jong.webp"
+ },
+ "Erik van Heumen": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Farrokh Labib": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2017–2021",
+  "portrait": null
+ },
+ "Filippo Girardi": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2023–2024",
+  "portrait": "portraits/filippo-girardi.webp"
+ },
+ "Florian Schreck": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/florian-schreck.webp"
+ },
+ "Florian Speelman": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/florian-speelman.webp"
+ },
+ "Francisco Escudero": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2026",
+  "portrait": "portraits/francisco-escudero.webp"
+ },
+ "Freek Witteveen": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/freek-witteveen.webp"
+ },
+ "Galina Pass": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/galina-pass.webp"
+ },
+ "Garazi Muguruza Lasa": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/garazi-muguruza-lasa.webp"
+ },
+ "Harold Nieuwboer": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2019–2023",
+  "portrait": "portraits/harold-nieuwboer.webp"
+ },
+ "Harry Buhrman": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/harry-buhrman.webp"
+ },
+ "Hemant Sharma": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/hemant-sharma.webp"
+ },
+ "Ido Niesen": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2019–2021",
+  "portrait": "portraits/ido-niesen.webp"
+ },
+ "Ivo Knottnerus": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/ivo-knottnerus.webp"
+ },
+ "Jan Czajkowski": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2021",
+  "portrait": null
+ },
+ "Jasper van Wezel": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/jasper-van-wezel.webp"
+ },
+ "Jeroen Zuiddam": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/jeroen-zuiddam.webp"
+ },
+ "Jiri Minar": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/jiri-minar.webp"
+ },
+ "Jonas Helsen": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/jonas-helsen.webp"
+ },
+ "Jop Briët": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/jop-briet.webp"
+ },
+ "Joppe Stokvis": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/joppe-stokvis.webp"
+ },
+ "Joran van Apeldoorn": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2022",
+  "portrait": "portraits/joran-van-apeldoorn.webp"
+ },
+ "Jordi Weggemans": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/jordi-weggemans.webp"
+ },
+ "Joris Kattemölle": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2021",
+  "portrait": null
+ },
+ "Junqiao (Randy) Lin": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/junqiao-lin.webp"
+ },
+ "Kareljan Schoutens": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/kareljan-schoutens.webp"
+ },
+ "Klaasjan van Druten": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Koen Groenland": {
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/koen-groenland.webp"
+ },
+ "Koen Leijnse": {
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/koen-leijnse.webp"
+ },
+ "Krystal Guo": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/krystal-guo.webp"
+ },
+ "Liam Bond": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/liam-bond.webp"
+ },
+ "Lieuwe Bakker": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/lieuwe-bakker.webp"
+ },
+ "Lisa Lenstra": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Llorenç Escolà-Farràs": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/llorenc-escola-farras.webp"
+ },
+ "Lorenzo Grevink": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/lorenzo-grevink.webp"
+ },
+ "Ludovico Lami": {
+  "role": "Senior Researchers",
+  "alumni": true,
+  "years": "2022–2024",
+  "portrait": "portraits/ludovico-lami.webp"
+ },
+ "Lynn Engelberts": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/lynn-engelberts.webp"
+ },
+ "Léo Colisson": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2025",
+  "portrait": null
+ },
+ "Maris Ozols": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/maris-ozols.webp"
+ },
+ "Mark Golden": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/mark-golden.webp"
+ },
+ "Marten Folkertsma": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/marten-folkertsma.webp"
+ },
+ "Matteo Lostaglio": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2021–2022",
+  "portrait": "portraits/matteo-lostaglio.webp"
+ },
+ "Mehrdad Tahmasbi": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2020–2022",
+  "portrait": "portraits/mehrdad-tahmasbi.webp"
+ },
+ "Michael Walter": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/michael-walter.webp"
+ },
+ "Niels Neumann": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/niels-neumann.webp"
+ },
+ "Nikhil Mande": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2020–2022",
+  "portrait": "portraits/nikhil-mande.webp"
+ },
+ "Philip Verduyn Lunel": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "portrait": "portraits/philip-verduyn-lunel.webp"
+ },
+ "Philippe Bouyer": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/philippe-bouyer.webp"
+ },
+ "Philippe Corboz": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/philippe-corboz.webp"
+ },
+ "Philippe van Dordrecht": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/philippe-van-dordrecht.webp"
+ },
+ "Rene Allerstorfer": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "portrait": "portraits/rene-allerstorfer.webp"
+ },
+ "Rene Gerritsma": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/rene-gerritsma.webp"
+ },
+ "Robert Spreeuw": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/robert-spreeuw.webp"
+ },
+ "Ronald de Wolf": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/ronald-de-wolf.webp"
+ },
+ "Salvatore Tirone": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Sander Gribling": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2020",
+  "portrait": null
+ },
+ "Sebastian De Haro": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/sebastian-de-haro.webp"
+ },
+ "Sebastian Verschoor": {
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/sebastian-verschoor.webp"
+ },
+ "Sebastian Zur": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2025",
+  "portrait": "portraits/sebastian-zur.webp"
+ },
+ "Seenivasan Hariharan": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": "portraits/seenivasan-hariharan.webp"
+ },
+ "Shayne Bennetts": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "",
+  "portrait": "portraits/shayne-bennetts.webp"
+ },
+ "Simon Apers": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2019",
+  "portrait": null
+ },
+ "Srinivasan Arunachalam": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2014–2018",
+  "portrait": null
+ },
+ "Stacey Jeffery": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/stacey-jeffery.webp"
+ },
+ "Stefano Polla": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": null
+ },
+ "Subhasree Patro": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2024",
+  "portrait": null
+ },
+ "Teresa Piovesan": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2012–2016",
+  "portrait": null
+ },
+ "Tom Bannink": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2019",
+  "portrait": null
+ },
+ "Vincent Schmeits": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "portrait": null
+ },
+ "Vladimir Gritsev": {
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/vladimir-gritsev.webp"
+ },
+ "Xuanbo Feng": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2019–2023",
+  "portrait": null
+ },
+ "Yanlin Chen": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "portrait": "portraits/yanlin-chen.webp"
+ },
+ "Yaroslav Herasymenko": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2025",
+  "portrait": "portraits/yaroslav-herasymenko.webp"
+ },
+ "Yfke Dulek": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2022",
+  "portrait": "portraits/yfke-dulek.webp"
+ },
+ "Yinan Li": {
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2020",
+  "portrait": null
+ },
+ "Zongbo Bao": {
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "portrait": "portraits/zongbo-bao.webp"
+ },
+ "Álvaro Piedrafita": {
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2017–2021",
+  "portrait": null
+ }
+}
