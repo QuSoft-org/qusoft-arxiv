@@ -99,7 +99,9 @@ def _portrait_rows(paper, people, right_edge):
         portrait = find_portrait(person) if person else None
         if portrait:
             info = people.get(person, {})
-            size = CFG["portrait_sizes"].get(info.get("role"), CFG["portrait_sizes"]["default"])
+            sizes = CFG["portrait_sizes"]
+            role = "Alumni" if is_alumnus(info) else info.get("role")
+            size = sizes.get(role, sizes["default"])
             img, h = _portrait_image(portrait, size, tenure(info) if is_alumnus(info) else "")
             items.append((img, size, h))
     rows, row, x = [], [], MARGIN
