@@ -114,11 +114,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js" integrity="sha384-weMABwrltA6jWR8DDe9Jp5blk+tZQh7ugpCsF3JwSA53WZM9/14PjS5LAJNHNjAI" crossorigin="anonymous"></script>
 <script>
   // LaTeX in titles and abstracts. app.js typesets only what is on screen.
+  // Titles and abstracts come from arXiv, so TeX that adds links, classes, ids or styles is switched off.
   window.MathJax = {
+    loader: { load: ["ui/safe"] },
     tex: {
       inlineMath: [["$", "$"], ["\\(", "\\)"]],
       processEscapes: true,
-      macros: { eps: "\\varepsilon", postBQP: "\\mathsf{PostBQP}" },
+      macros: { eps: "\\varepsilon", postBQP: "\\mathsf{PostBQP}", href: ["#2", 2] },
+      packages: { "[-]": ["html"] },
+      autoload: { html: [] },
+    },
+    options: {
+      safeOptions: { allow: { URLs: "none", classes: "none", cssIDs: "none", styles: "none" } },
     },
     chtml: { matchFontHeight: false },
     startup: {

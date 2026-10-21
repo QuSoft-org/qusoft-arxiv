@@ -243,7 +243,9 @@ def _sheet(wb, title, header, rows, widths, note=None):
         cell.alignment = Alignment(vertical="top", wrap_text=True)
     for r, row in enumerate(rows, start + 1):
         for c, v in enumerate(row, 1):
-            ws.cell(r, c, v)
+            cell = ws.cell(r, c, v)
+            if isinstance(v, str) and v[:1] in ("=", "+", "-", "@", "\t", "\r"):
+                cell.data_type = "s"  # titles come from arXiv: never let Excel read them as formulas
     for c, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(c)].width = w
     ws.freeze_panes = ws.cell(start + 1, 2 if title.startswith("Per person") else 1)
