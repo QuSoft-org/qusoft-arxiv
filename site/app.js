@@ -28,6 +28,47 @@
   const daysAgo = (iso) => (Date.now() - new Date(iso + "T12:00:00")) / 864e5;
   const today = () => new Date().toISOString().slice(0, 10);
 
+  // LaTeX in titles and abstracts, typeset by MathJax once it has loaded (see index.html).
+  const hasMath = (text) => /\$|\\\(/.test(text || "");
+  function typeset(nodes) {
+    const todo = [...nodes].filter((n) => n && n.isConnected && hasMath(n.textContent));
+    if (!todo.length) return;
+    const mj = window.MathJax;
+    if (window.mathQueue !== null && !(mj && mj.typesetPromise)) {
+      (window.mathQueue = window.mathQueue || []).push(...todo);
+      return;
+    }
+    mj.startup.promise.then(() => mj.typesetPromise(todo)).catch(() => {});
+  }
+  // LaTeX text commands outside maths: \emph{..} and {\bf ..} become emphasis, \cite{..} is
+  // dropped, and \ce{..} or \postBQP get wrapped in $..$ so MathJax renders them.
+  const LATEX_TEXT = new RegExp([
+    /(\$\$[\s\S]*?\$\$|\$[^$]*\$|\\\([\s\S]*?\\\))/.source,         // 1: maths, left alone
+    /~?\\cite[pt]?\{[^}]*\}/.source,                                 // citation
+    /\\(emph|textit|textbf)\{((?:[^{}$]|\$[^$]*\$)*)\}/.source,      // 2, 3
+    /\{\\(bf|it|em)\s+([^{}]*)\}/.source,                            // 4, 5
+    /(\\ce\{[^{}]*\}|\\postBQP\b)/.source,                           // 6
+  ].join("|"), "g");
+  function latexText(text) {
+    const out = [];
+    let last = 0, m;
+    text = text || "";
+    while ((m = LATEX_TEXT.exec(text))) {
+      out.push(text.slice(last, m.index));
+      if (m[1]) out.push(m[1]);
+      else if (m[2]) out.push(el(m[2] === "textbf" ? "strong" : "em", {}, m[3]));
+      else if (m[4]) out.push(el(m[4] === "bf" ? "strong" : "em", {}, m[5]));
+      else if (m[6]) out.push(`$${m[6]}$`);
+      last = LATEX_TEXT.lastIndex;
+    }
+    out.push(text.slice(last));
+    return out.filter((x) => x !== "");
+  }
+  function untypeset(container) {
+    const mj = window.MathJax;
+    if (mj && mj.typesetClear) mj.typesetClear([container]);
+  }
+
   const store = {
     get(key, fallback) {
       try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch { return fallback; }
@@ -113,12 +154,13 @@
   }
 
   function paperItem(p) {
-    const abstract = el("p", { class: "abstract", hidden: true }, p.abstract);
+    const abstract = el("p", { class: "abstract", hidden: true }, latexText(p.abstract));
     const toggle = el("button", {
       type: "button", class: "link-button", "aria-expanded": "false",
       onclick: (e) => {
         const open = abstract.hidden;
         abstract.hidden = !open;
+        if (open) typeset([abstract]);
         e.currentTarget.setAttribute("aria-expanded", String(open));
         e.currentTarget.textContent = open ? "Hide abstract" : "Abstract";
       },
@@ -147,7 +189,9 @@
     const latest = papers.filter((p) => p.page).slice(0, 5);
     const caption = $("#board-caption");
     const describe = (p, i) => {
+      untypeset(caption);
       caption.replaceChildren(el("span", { class: "board-when" }, i === 0 ? "Newest" : formatDate(p.date)), " ", p.title);
+      typeset([caption]);
     };
     const tilts = [-1.5, 2, -2.5, 1.2, -1];
     $("#latest").replaceChildren(...latest.map((p, i) => {
@@ -188,6 +232,7 @@
     }
 
     const list = $("#paper-list");
+    untypeset(list);
     if (!shown.length) {
       list.replaceChildren(el("p", { class: "empty" }, "No papers match. Try fewer words, or set the year to all years."));
       return;
@@ -195,6 +240,7 @@
     list.replaceChildren(...[...groups].map(([year, ps]) => el("section", { class: "year-group", "aria-label": year },
       el("h2", { class: "year-label" }, year),
       el("ol", { class: "papers", reversed: true }, ps.map(paperItem)))));
+    typeset(list.querySelectorAll(".paper-title"));
   }
 
   function showPapers(params) {
@@ -370,7 +416,9 @@
         el("span", { class: "when" }, formatDate(p.date), printed.has(p.id) ? el("span", { class: "printed" }, ", printed") : null));
     }
     function draw() {
+      untypeset(grid);
       grid.replaceChildren(...all.slice(0, limit).map(card));
+      typeset(grid.querySelectorAll(".cap"));
       $("#print-more").hidden = limit >= all.length;
       $("#print-empty").hidden = ticked.size > 0 || all.some(unprinted);
     }

@@ -50,6 +50,7 @@ python scripts/update.py --redo-pages          # remake all first pages (after c
 
 python scripts/make_booklet.py --year 2025     # one PDF of first pages → output/
 python scripts/export_excel.py --year 2025     # Excel list → output/
+python scripts/internal_report.py              # management report → output/ (internal, not published)
 
 python -m http.server -d site                  # preview the site at http://localhost:8000
 ```

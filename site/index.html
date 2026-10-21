@@ -112,6 +112,28 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js" integrity="sha384-weMABwrltA6jWR8DDe9Jp5blk+tZQh7ugpCsF3JwSA53WZM9/14PjS5LAJNHNjAI" crossorigin="anonymous"></script>
+<script>
+  // LaTeX in titles and abstracts. app.js typesets only what is on screen.
+  window.MathJax = {
+    tex: {
+      inlineMath: [["$", "$"], ["\\(", "\\)"]],
+      processEscapes: true,
+      macros: { eps: "\\varepsilon", postBQP: "\\mathsf{PostBQP}" },
+    },
+    chtml: { matchFontHeight: false },
+    startup: {
+      typeset: false,
+      pageReady() {
+        return MathJax.startup.defaultPageReady().then(() => {
+          const queued = window.mathQueue || [];
+          window.mathQueue = null;
+          return queued.length ? MathJax.typesetPromise(queued) : null;
+        });
+      },
+    },
+  };
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.js" integrity="sha384-AHAnt9ZhGeHIrydA1Kp1L7FN+2UosbF7RQg6C+9Is/a7kDpQ1684C2iH2VWil6r4" crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </body>
 </html>
