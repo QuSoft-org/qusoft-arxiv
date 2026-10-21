@@ -27,7 +27,7 @@
   "role": "Postdocs",
   "alumni": true,
   "years": "2018–2020",
-  "portrait": null
+  "portrait": "portraits/alex-grilo.webp"
  },
  "Alexander Urech": {
   "role": "Postdocs",
@@ -51,7 +51,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2015–2019",
-  "portrait": null
+  "portrait": "portraits/andras-gilyen.webp"
  },
  "Arghavan Safavi-Naini": {
   "role": "Senior Researchers",
@@ -129,13 +129,13 @@
   "role": "Senior Researchers",
   "alumni": false,
   "years": "",
-  "portrait": null
+  "portrait": "portraits/erik-van-heumen.webp"
  },
  "Farrokh Labib": {
   "role": "PhD Students",
   "alumni": true,
   "years": "2017–2021",
-  "portrait": null
+  "portrait": "portraits/farrokh-labib.webp"
  },
  "Filippo Girardi": {
   "role": "PhD Students",
@@ -219,7 +219,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2016–2021",
-  "portrait": null
+  "portrait": "portraits/jan-czajkowski.webp"
  },
  "Jasper van Wezel": {
   "role": "Senior Researchers",
@@ -285,7 +285,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2016–2021",
-  "portrait": null
+  "portrait": "portraits/joris-kattemolle.webp"
  },
  "Junqiao (Randy) Lin": {
   "role": "PhD Students",
@@ -369,7 +369,7 @@
   "role": "Postdocs",
   "alumni": true,
   "years": "2022–2025",
-  "portrait": null
+  "portrait": "portraits/leo-colisson.webp"
  },
  "Manideep Mamindlapally": {
   "role": "PhD Students",
@@ -495,7 +495,7 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2015–2020",
-  "portrait": null
+  "portrait": "portraits/sander-gribling.webp"
  },
  "Sarah Meng Li": {
   "role": "PhD Students",
@@ -537,13 +537,13 @@
   "role": "Postdocs",
   "alumni": true,
   "years": "2018–2019",
-  "portrait": null
+  "portrait": "portraits/simon-apers.webp"
  },
  "Srinivasan Arunachalam": {
   "role": "PhD Students",
   "alumni": true,
   "years": "2014–2018",
-  "portrait": null
+  "portrait": "portraits/srinivasan-arunachalam.webp"
  },
  "Stacey Jeffery": {
   "role": "Senior Researchers",
@@ -627,6 +627,6 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2017–2021",
-  "portrait": null
+  "portrait": "portraits/alvaro-piedrafita.webp"
  }
 }
