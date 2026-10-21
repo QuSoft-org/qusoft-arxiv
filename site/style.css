@@ -102,7 +102,7 @@ main, .masthead, .footer {
   padding-bottom: 1.25rem;
 }
 .brand { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; color: var(--ink); }
-.logo { height: 2.75rem; width: auto; display: block; }
+.logo { height: 3.5rem; width: auto; display: block; }
 .logo-dark { display: none; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .logo-light { display: none; }
