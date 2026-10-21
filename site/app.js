@@ -264,17 +264,31 @@
     const alumni = names.filter((n) => people[n].alumni).length;
     $("#people-lede").textContent =
       `${names.length} people have written QuSoft papers since ${stats.first_year}, ${alumni} of them now alumni. ` +
-      "A line joins two people who have written a paper together.";
+      "A line joins two people who have written a paper together. Move the slider to see how the group grew.";
 
     const svg = d3.select("#network");
     const box = svg.node().getBoundingClientRect();
     const W = box.width, H = box.height, R = Math.max(14, Math.min(20, W / 44));
     svg.attr("viewBox", [0, 0, W, H]);
 
-    const nodes = names.map((n) => ({ id: n, ...people[n] }));
-    const links = stats.edges.map(([a, b]) => ({ source: a, target: b }));
-    const neighbours = new Map(names.map((n) => [n, new Set()]));
-    for (const [a, b] of stats.edges) { neighbours.get(a)?.add(b); neighbours.get(b)?.add(a); }
+    // The year each person, and each pair, first appears on a QuSoft paper.
+    const firstYear = new Map(), pairYear = new Map();
+    const pairKey = (a, b) => (a < b ? `${a}\n${b}` : `${b}\n${a}`);
+    for (const p of papers) {
+      const y = +p.date.slice(0, 4);
+      const q = [...new Set(p.authors.map(([, person]) => person).filter(Boolean))];
+      for (const n of q) if (!(firstYear.get(n) <= y)) firstYear.set(n, y);
+      for (let i = 0; i < q.length; i++) for (let j = i + 1; j < q.length; j++) {
+        const k = pairKey(q[i], q[j]);
+        if (!(pairYear.get(k) <= y)) pairYear.set(k, y);
+      }
+    }
+    const lastYear = d3.max(papers, (p) => +p.date.slice(0, 4));
+    // The year someone left: the last year in "2018–2022", "until 2022" or "2026".
+    const leftIn = (d) => (d.alumni ? +((d.years || "").match(/\d{4}(?!.*\d{4})/) || [lastYear])[0] : Infinity);
+
+    const nodes = names.map((n) => ({ id: n, ...people[n], since: firstYear.get(n) ?? stats.first_year }));
+    const links = stats.edges.map(([a, b]) => ({ source: a, target: b, since: pairYear.get(pairKey(a, b)) ?? stats.first_year }));
 
     const defs = svg.append("defs");
     defs.append("clipPath").attr("id", "clip-circle").attr("clipPathUnits", "objectBoundingBox")
@@ -282,10 +296,8 @@
 
     const edge = svg.append("g").selectAll("line").data(links).join("line").attr("class", "edge");
     const node = svg.append("g").selectAll("g").data(nodes).join("g")
-      .attr("class", (d) => `node${d.alumni ? " alumni" : ""}`)
-      .attr("tabindex", 0)
-      .attr("role", "button")
-      .attr("aria-label", (d) => `${d.id}${d.alumni ? `, alumni${d.years ? ` ${d.years}` : ""}` : ""}`);
+      .attr("class", "node")
+      .attr("role", "button");
     node.append("circle").attr("class", "ring").attr("r", R);
     node.filter((d) => !d.portrait).append("text").attr("class", "initials")
       .text((d) => d.id.split(/\s+/).filter((w) => /^[A-ZÀ-Ž]/.test(w)).map((w) => w[0]).slice(0, 2).join(""));
@@ -296,29 +308,72 @@
       .attr("preserveAspectRatio", "xMidYMid slice");
     const label = svg.append("text").attr("class", "label");
 
-    const sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance(R * 4).strength(0.35))
+    const sim = d3.forceSimulation()
+      .force("link", d3.forceLink().id((d) => d.id).distance(R * 4).strength(0.35))
       .force("charge", d3.forceManyBody().strength(-R * 9))
       .force("collide", d3.forceCollide(R + 3))
       .force("x", d3.forceX(W / 2).strength(0.05))
-      .force("y", d3.forceY(H / 2).strength(0.07));
+      .force("y", d3.forceY(H / 2).strength(0.07))
+      .stop();
 
     const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
     function draw() {
-      for (const d of nodes) { d.x = clamp(d.x, R + 2, W - R - 2); d.y = clamp(d.y, R + 2, H - R - 2); }
-      edge.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
-      node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      for (const d of sim.nodes()) { d.x = clamp(d.x, R + 2, W - R - 2); d.y = clamp(d.y, R + 2, H - R - 2); }
+      edge.filter((d) => d.shown)
+        .attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
+      node.filter((d) => d.shown).attr("transform", (d) => `translate(${d.x},${d.y})`);
     }
+    sim.on("tick", draw);
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    // The one moment of motion on the site: the network settles once. Reduced motion: show it settled.
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      sim.stop();
-      for (let i = 0; i < 400; i++) sim.tick();
-      draw();
-    } else {
-      sim.on("tick", draw);
+    let drawn = false;
+    let year = lastYear, neighbours = new Map();
+    const end = (e) => e.id ?? e; // a link end is a name until the simulation has seen the link
+    function showYear(y) {
+      year = y;
+      const byId = new Map(nodes.map((d) => [d.id, d]));
+      for (const d of nodes) {
+        const was = d.shown;
+        d.shown = d.since <= y;
+        d.alumNow = leftIn(d) <= y;
+        if (d.shown && !was) {
+          // Newcomers start next to someone they wrote with, so the group grows outwards.
+          const near = links.filter((l) => l.since <= y && (end(l.source) === d.id || end(l.target) === d.id))
+            .map((l) => byId.get(end(l.source) === d.id ? end(l.target) : end(l.source)))
+            .find((n) => n.shown && n.x != null && n.since < y);
+          const a = Math.random() * 2 * Math.PI;
+          d.x = (near ? near.x : W / 2) + Math.cos(a) * R * 2;
+          d.y = (near ? near.y : H / 2) + Math.sin(a) * R * 2;
+          d.vx = d.vy = 0;
+        }
+      }
+      const shownLinks = links.filter((l) => l.since <= y);
+      for (const l of links) l.shown = l.since <= y;
+      neighbours = new Map(nodes.map((d) => [d.id, new Set()]));
+      for (const l of shownLinks) {
+        const a = end(l.source), b = end(l.target);
+        neighbours.get(a).add(b); neighbours.get(b).add(a);
+      }
+
+      node.attr("display", (d) => (d.shown ? null : "none"))
+        .attr("tabindex", (d) => (d.shown ? 0 : -1))
+        .classed("alumni", (d) => d.alumNow)
+        .attr("aria-label", (d) => `${d.id}${d.alumNow ? `, alumni${d.years ? ` ${d.years}` : ""}` : ""}`);
+      edge.attr("display", (d) => (d.shown ? null : "none"));
+
+      sim.nodes(nodes.filter((d) => d.shown));
+      sim.force("link").links(shownLinks);
+      if (still) { sim.alpha(1); for (let i = 0; i < 300; i++) sim.tick(); draw(); }
+      else sim.alpha(year === lastYear && !drawn ? 1 : 0.5).restart();
+      drawn = true;
+
+      const shownPeople = nodes.filter((d) => d.shown).length;
+      $("#network-year-out").textContent = y;
+      $("#network-count").textContent = y === lastYear
+        ? `All ${shownPeople} people, with ${shownLinks.length} pairs who have written together.`
+        : `By the end of ${y}: ${shownPeople} people, with ${shownLinks.length} pairs who have written together.`;
+      if (focused && !focused.shown) clear(); else if (focused) focus(focused);
     }
-
     let focused = null;
     function showLabel(d) {
       const right = d.x < W - 200;
@@ -330,14 +385,14 @@
       const near = neighbours.get(d.id);
       svg.classed("focused", true);
       node.classed("on", (n) => n.id === d.id || near.has(n.id));
-      edge.classed("on", (l) => l.source.id === d.id || l.target.id === d.id);
+      edge.classed("on", (l) => l.shown && (l.source.id === d.id || l.target.id === d.id));
       showLabel(d);
       const role = ROLE[d.role] || "";
-      const who = d.alumni ? `alumni${d.years ? `, at QuSoft ${d.years}` : ""}` : role;
+      const who = d.alumNow ? `alumni${d.years ? `, at QuSoft ${d.years}` : ""}` : role;
       const together = [...near].sort();
       $("#network-caption").replaceChildren(
         el("strong", {}, d.id), who ? `, ${who}. ` : ". ",
-        together.length ? `Has written with ${together.join(", ")}. ` : "",
+        together.length ? `${year === lastYear ? "Has written" : `By ${year} had written`} with ${together.join(", ")}. ` : "",
         el("a", { href: `#papers?person=${encodeURIComponent(d.id)}` }, `See papers with ${d.id}`));
     }
     function clear() {
@@ -352,6 +407,23 @@
       .on("mouseenter focus", (e, d) => { if (!focused) showLabel(d); })
       .on("mouseleave blur", () => { if (!focused) label.text(""); else showLabel(focused); });
     svg.on("click", clear);
+
+    // Year slider, and a play button that runs through the years.
+    const slider = $("#network-year"), play = $("#play");
+    slider.min = stats.first_year; slider.max = lastYear; slider.value = lastYear;
+    let timer = null;
+    function stop() { clearInterval(timer); timer = null; play.textContent = "Play"; }
+    slider.addEventListener("input", () => { stop(); showYear(+slider.value); });
+    play.addEventListener("click", () => {
+      if (timer) return stop();
+      if (year >= lastYear) { slider.value = stats.first_year; showYear(stats.first_year); }
+      play.textContent = "Pause";
+      timer = setInterval(() => {
+        if (year >= lastYear) return stop();
+        slider.value = year + 1; showYear(year + 1);
+      }, 1100);
+    });
+    showYear(lastYear);
   }
 
   // ---------- people: year-by-year numbers (group level only) ----------

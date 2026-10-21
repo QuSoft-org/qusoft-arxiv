@@ -73,6 +73,15 @@
       </p>
     </div>
     <figure class="network-wrap">
+      <div class="timeline">
+        <button type="button" class="button secondary" id="play" aria-controls="network">Play</button>
+        <label class="timeline-slider">
+          <span class="visually-hidden">Show the network up to the year</span>
+          <input type="range" id="network-year" step="1">
+        </label>
+        <output id="network-year-out" for="network-year"></output>
+        <p class="timeline-count" id="network-count" aria-live="polite"></p>
+      </div>
       <svg id="network" role="img" aria-label="Co-authorship network of QuSoft members"></svg>
       <figcaption id="network-caption">Pick someone to see their co-authors and papers.</figcaption>
     </figure>
