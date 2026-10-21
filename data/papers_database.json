@@ -1,7 +1,45 @@
 {
- "last_updated": "2026-10-21T09:03:08",
- "total_papers": 446,
+ "last_updated": "2026-10-21T09:31:22",
+ "total_papers": 447,
  "papers": [
+  {
+   "id": "2610.28185v1",
+   "link": "https://arxiv.org/abs/2610.28185",
+   "title": "Black Holes are about Quantum Information",
+   "authors": [
+    {
+     "name": "Aude Corbeel",
+     "person": null
+    },
+    {
+     "name": "Sebastian De Haro",
+     "person": "Sebastian De Haro"
+    }
+   ],
+   "qusoft_authors": [
+    "Sebastian De Haro"
+   ],
+   "submitted": "2026-10-20 13:21:24",
+   "revision": "2026-10-20 13:21:24",
+   "categories": [
+    "physics.hist-ph",
+    "hep-th",
+    "quant-ph"
+   ],
+   "abstract": "We review and analyse quantum information-theoretic approaches to black hole evaporation that purport to bring us closer to a resolution of the black hole information paradox. Our focus is on the Page-time paradox and on the contribution of the Hayden-Preskill model to understanding information release under the assumption of unitary evaporation. In this model, the black hole is taken to be a finite-dimensional quantum system whose dynamics can be represented by a quantum circuit, and its information-processing and communication abilities are studied. We identify the assumptions underlying this modelling and highlight two key features, fast scrambling dynamics and entanglement as a resource, that underpin the information release in the model. We argue that this reasoning exemplifies a broader change in how information is used in black hole physics, in which quantum information theory now provides a useful operational modelling framework. This application avoids earlier philosophical objections insofar as it is not based on epistemic ignorance and does not regard information as a substance. This line of reasoning has become central to the debate and, as such, warrants greater attention from the philosophy of physics community.",
+   "pdf_url": "https://arxiv.org/pdf/2610.28185v1",
+   "added": "2026-10-21",
+   "page_people": [
+    [
+     "Sebastian De Haro",
+     "Senior Researchers",
+     "active",
+     "",
+     "sebastian_de_haro.jpg",
+     68334
+    ]
+   ]
+  },
   {
    "id": "2610.20855v1",
    "link": "https://arxiv.org/abs/2610.20855",
