@@ -21,8 +21,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from qusoft import site_build
 from qusoft.arxiv_search import Searcher, fetch_by_ids, make_entry
-from qusoft.common import (PersonMatcher, base_id, load_json, load_papers, load_people, path,
-                           save_json, save_papers)
+from qusoft.common import (PersonMatcher, base_id, find_portrait, load_json, load_papers, load_people,
+                           path, save_json, save_papers, tenure)
 from qusoft.firstpage import has_qusoft_on_first_page, make_first_page, save_first_page
 
 PENDING = "__pending__"  # key in search_state for papers whose PDF couldn't be fetched yet
@@ -69,6 +69,36 @@ def make_page(paper, pdfs, people, result=None):
         return False
     finally:
         pdfs.done(src)
+
+
+def page_people(paper, people):
+    """What a first page shows about its QuSoft authors. When this changes, the page is remade."""
+    shown = []
+    for name in paper["qusoft_authors"]:
+        info = people.get(name, {})
+        portrait = find_portrait(name)
+        shown.append([name, info.get("role"), info.get("status"), tenure(info),
+                      portrait.name if portrait else None, portrait.stat().st_size if portrait else None])
+    return shown
+
+
+def refresh_authors(papers, people):
+    """Match every paper's authors to people.csv again, so people added later are linked
+    to their older papers. Returns the papers whose first page shows different people now."""
+    match = PersonMatcher(people)
+    stale = []
+    for p in papers:
+        qusoft_authors = []
+        for a in p["authors"]:
+            a["person"] = match(a["name"])
+            if a["person"] and a["person"] not in qusoft_authors:
+                qusoft_authors.append(a["person"])
+        p["qusoft_authors"] = qusoft_authors
+        shown = page_people(p, people)
+        if "page_people" in p and p["page_people"] != shown:
+            stale.append(p)
+        p["page_people"] = shown
+    return stale
 
 
 def search(people, papers, state, rejected, pdfs, only_authors):
@@ -142,8 +172,13 @@ def main():
             save_json(path("database", "search_state"), state)
             save_json(path("database", "rejected_ids"), sorted(set(rejected)))
 
-    # Make any first pages that are missing (or all of them with --redo-pages).
-    missing = [p for p in papers if args.redo_pages or not all(f.exists() for f in site_build.page_files(p))]
+    # People added to or changed in people.csv, and new portraits, show up on older papers too.
+    stale = {p["id"] for p in refresh_authors(papers, people)}
+    save_papers(papers)
+
+    # Make any first pages that are missing or out of date (or all of them with --redo-pages).
+    missing = [p for p in papers if args.redo_pages or p["id"] in stale
+               or not all(f.exists() for f in site_build.page_files(p))]
     if missing:
         print(f"Making {len(missing)} first pages")
         for i, p in enumerate(missing, 1):

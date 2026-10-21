@@ -96,7 +96,7 @@
   };
   const subject = (cats) => SUBJECTS[cats[0]] || cats[0] || "";
 
-  const ROLE = { "PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher", "Support Team": "support team" };
+  const ROLE = { "PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher", "Support Team": "support team", "Visitor": "visitor" };
 
   // ---------- data ----------
 

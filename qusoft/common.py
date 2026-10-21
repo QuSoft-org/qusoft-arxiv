@@ -86,12 +86,12 @@ def is_alumnus(info):
 
 
 def tenure(info):
-    """'2018–2022' for alumni, '' for current members or when years are unknown."""
+    """'2018–2022' (or '2026' for a single year) for alumni, '' for current members or when years are unknown."""
     if not is_alumnus(info):
         return ""
     start, end = info.get("start_year"), info.get("end_year")
     if start and end:
-        return f"{start}–{end}"
+        return str(end) if start == end else f"{start}–{end}"
     if end:
         return f"until {end}"
     return ""

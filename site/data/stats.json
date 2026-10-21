@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-21T08:40",
+ "updated": "2026-10-21T10:44",
  "papers": 446,
- "people": 104,
- "alumni": 45,
+ "people": 105,
+ "alumni": 46,
  "first_year": 2015,
  "by_year": [
   {
@@ -85,9 +85,9 @@
   {
    "year": 2026,
    "papers": 58,
-   "contributors": 53,
-   "together": 34,
-   "with_alumni": 10
+   "contributors": 54,
+   "together": 35,
+   "with_alumni": 11
   }
  ],
  "edges": [
@@ -1344,6 +1344,11 @@
   [
    "Koen Leijnse",
    "Subhasree Patro",
+   1
+  ],
+  [
+   "Krystal Guo",
+   "Priscilla Awuah",
    1
   ],
   [
