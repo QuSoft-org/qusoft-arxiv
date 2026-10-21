@@ -2,7 +2,7 @@
 """Fetch portraits from the QuSoft people page into qusofters/portraits/.
 
 Each person card on qusoft.org is matched to people.csv by the name on the card.
-Portraits are saved as 'firstname_lastname.jpg' (at most 800 px, JPEG).
+Portraits are saved as 'firstname_lastname.jpg' (black and white, at most 800 px, JPEG).
 
     python scripts/download_portraits.py            # add missing portraits, report changed photos
     python scripts/download_portraits.py --update   # also replace portraits whose photo changed on qusoft.org
@@ -61,7 +61,7 @@ def fetch(url):
     data = requests.get(url, timeout=60)
     data.raise_for_status()
     img = Image.open(io.BytesIO(data.content))
-    img = ImageOps.exif_transpose(img).convert("RGB")
+    img = ImageOps.grayscale(ImageOps.exif_transpose(img).convert("RGB"))  # portraits are black and white
     img.thumbnail((MAX_PX, MAX_PX), Image.LANCZOS)
     return img
 

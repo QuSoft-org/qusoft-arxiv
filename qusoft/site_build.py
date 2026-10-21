@@ -13,7 +13,7 @@ from itertools import combinations
 
 from PIL import Image, ImageOps
 
-from .common import CONFIG, ROOT, find_portrait, is_alumnus, name_key, paper_date, path, save_json, tenure
+from .common import CONFIG, ROOT, find_portrait, open_portrait, is_alumnus, name_key, paper_date, path, save_json, tenure
 
 SITE = path("paths", "site_dir")
 PORTRAIT_PX = 192
@@ -31,7 +31,7 @@ def _web_portrait(person):
     out = SITE / "portraits" / f"{slug}.webp"
     if not out.exists() or out.stat().st_mtime < src.stat().st_mtime:
         out.parent.mkdir(parents=True, exist_ok=True)
-        img = ImageOps.fit(Image.open(src).convert("RGB"), (PORTRAIT_PX, PORTRAIT_PX), Image.LANCZOS)
+        img = ImageOps.fit(open_portrait(src), (PORTRAIT_PX, PORTRAIT_PX), Image.LANCZOS)
         img.save(out, "WEBP", quality=78, method=6)
     return out.relative_to(SITE).as_posix()
 

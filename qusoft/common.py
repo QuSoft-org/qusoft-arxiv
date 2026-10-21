@@ -135,6 +135,16 @@ class PersonMatcher:
 # Portraits
 # ---------------------------------------------------------------------------
 
+def open_portrait(portrait_path):
+    """A portrait as a black-and-white RGB image: turned upright, transparency on white."""
+    from PIL import Image, ImageOps
+    img = ImageOps.exif_transpose(Image.open(portrait_path))
+    if img.mode in ("RGBA", "LA", "P"):
+        img = img.convert("RGBA")
+        img = Image.alpha_composite(Image.new("RGBA", img.size, "white"), img)
+    return ImageOps.grayscale(img.convert("RGB")).convert("RGB")
+
+
 def find_portrait(name):
     """Find a portrait file for a person, or None.
 

@@ -4,8 +4,9 @@ The original first page is scaled down, QuSoft affiliations are highlighted in
 yellow and QuSoft authors in orange, portraits go along the top (alumni get
 their QuSoft years underneath) next to a QR code to the arXiv page, and the
 paper's page is cropped to its content and scaled to fill the rest.
-Portraits and the QR code are stamp annotations, so they can still be dragged
-around in a PDF editor before printing.
+Portraits and the QR code are plain images on the page. (Stamp annotations, used
+before, were redrawn squeezed by some PDF viewers and printers.) Portraits are
+always shown in black and white.
 """
 
 import io
@@ -15,7 +16,7 @@ import fitz  # PyMuPDF
 import qrcode
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
-from .common import CONFIG, find_portrait, is_alumnus, tenure
+from .common import CONFIG, find_portrait, is_alumnus, open_portrait, tenure
 
 CFG = CONFIG["first_page"]
 AFFILIATION_WORDS = ["QuSoft", "CWI", "University of Amsterdam", "Centrum voor Wiskunde en Informatica", "Centrum Wiskunde"]
@@ -46,7 +47,7 @@ def _portrait_image(portrait_path, size_pt, years):
     """Square portrait at print resolution, with the years written underneath for alumni."""
     res = CFG["portrait_resolution"]
     px = int(size_pt * res)
-    img = ImageOps.fit(Image.open(portrait_path).convert("RGB"), (px, px), Image.LANCZOS)
+    img = ImageOps.fit(open_portrait(portrait_path), (px, px), Image.LANCZOS)
     overlay = CFG["alumni_year_overlay"]
     extra_pt = 0
     if years and overlay["enabled"]:
@@ -149,15 +150,14 @@ def make_first_page(paper, source_pdf, people):
         x = MARGIN
         for img, size, h in row:
             top = y  # portraits share a top line; alumni years hang below
-            page.add_stamp_annot(fitz.Rect(x, top, x + size, top + h), stamp=fitz.Pixmap(_png(img)))
+            page.insert_image(fitz.Rect(x, top, x + size, top + h), stream=_png(img))
             x += size + GAP
         y += row_h + GAP
     last_x = x if rows else MARGIN
     band = max(y - GAP, MARGIN + QR) + GAP
 
     qr = qrcode.make(paper["link"], box_size=4, border=1).convert("RGB")
-    page.add_stamp_annot(fitz.Rect(width - MARGIN - QR, MARGIN, width - MARGIN, MARGIN + QR),
-                         stamp=fitz.Pixmap(_png(qr)))
+    page.insert_image(fitz.Rect(width - MARGIN - QR, MARGIN, width - MARGIN, MARGIN + QR), stream=_png(qr))
 
     if CFG["submission_to_qip_box"]:
         band = _qip_box(page, last_x, band, width)
@@ -192,7 +192,7 @@ def save_first_page(doc, pdf_out, thumb_out):
     with fitz.open(pdf_out) as saved:
         page = saved[0]
         zoom = CFG["thumbnail_width"] / page.rect.width
-        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), annots=True)
+        pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom))
     Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(thumb_out, "WEBP", quality=72, method=6)
 
 
