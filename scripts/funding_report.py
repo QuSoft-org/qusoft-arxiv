@@ -43,22 +43,29 @@ GROUPS = [
     ("NETWORKS (NWO Gravitation)", r"\bNETWORKS\b|024\.002\.003"),
     ("NWO Veni / Vidi / Vici", r"(?i:\bV(?:eni|idi|ici)\b)|Talent\s+(?:Programme|Program|Scheme)|\b639\.0[0-9]{2}\.\d"),
     ("ERC", r"\bERC\b|European\s+Research\s+Council"),
-    ("EU projects (Horizon, Flagship, MSCA, QuantERA, doctoral networks)",
+    ("EU projects (Horizon, Flagship, MSCA, doctoral networks)",
      r"Horizon\s*(?:2020|Europe)|European\s+Union|\bEU\b|Quantum\s+(?:Technologies\s+)?Flagship|Quantum\s+Internet\s+Alliance"
-     r"|\bQIA\b|Marie\s+Sk|Marie\s+Curie|\bMSCA\b|QuantERA|Doctoral\s+(?:Training\s+)?Network|Quantum-Safe\s+Internet|\bQSI\b"),
+     r"|\bQIA\b|Marie\s+Sk|Marie\s+Curie|\bMSCA\b|Doctoral\s+(?:Training\s+)?Network|Quantum-Safe\s+Internet|\bQSI\b"),
     ("Other NWO / NWA projects",
      r"\bNWO\b|Dutch\s+Research\s+Council|Netherlands\s+Organi[sz]ation\s+for\s+Scientific\s+Research|\bNWA\b"
      r"|National\s+Research\s+Agenda|Wetenschapsagenda|\bQISS\b|Societal\s+Security|\bKLEIN\b|Open\s+Competition|Zwaartekracht"
-     r"|Gravitation|Divide\s*(?:&|and)\s*Quantum"),
+     r"|Gravitation|Divide\s*(?:&|and)\s*Quantum|\bFOM\b|Foundation\s+for\s+Fundamental\s+Research\s+on\s+Matter|\bSTW\b"
+     r"|Stichting\s+voor\s+de\s+Technische|Applied\s+and\s+Engineering\s+Sciences|\bTTW\b"),
+    ("QuantERA (European co-fund)", r"QuantERA"),
+    ("Dutch government and public-private (TKI, ministries, TNO)",
+     r"\bTKI\b|Top\s*sector|Topconsortium|\bPPP\b|Holland\s+High\s+Tech|Ministry\s+of\s+(?:Economic|Education|Defen[cs]e)"
+     r"|\bEZK\b|\bOCW\b|\bTNO\b|\bRVO\b|Rijksdienst"),
     ("Industry", r"\bIBM\b|Toyota|Google|Microsoft|Amazon|\bAWS\b|Fujitsu|\bIntel\b|Quantinuum|Huawei|\bING\b|Rabobank"
-     r"|ABN\s*AMRO|Capgemini|Thales|Airbus|\bSAP\b|Shell|Bosch(?!\s+Stiftung)|Volkswagen"),
+     r"|ABN\s*AMRO|Capgemini|Thales|Airbus|\bSAP\b|Shell|Bosch(?!\s+Stiftung)|Volkswagen"
+     r"|Qblox|QphoX|Orange\s+Quantum|Delft\s+Circuits|QuantWare|Fermioniq|Single\s+Quantum|Quix|Q\*Bird|Alice\s*&\s*Bob"),
     ("CWI / UvA own funds", r"start-?up\s+package|\bCWI\b|Centrum\s+Wiskunde|University\s+of\s+Amsterdam|\bUvA\b|\bIvI\b|group\s+budget"),
     ("Funders abroad",
      r"\bDFG\b|Deutsche\s+Forschungsgemeinschaft|\bBMBF\b|Federal\s+Ministry|National\s+Science\s+Foundation|\bNSF\b|\bDOE\b"
      r"|Department\s+of\s+Energy|\bARO\b|AFOSR|DARPA|IARPA|EPSRC|UKRI|Royal\s+Society|Leverhulme|\bANR\b|Agence\s+Nationale"
      r"|\bSNSF\b|Swiss\s+National|\bNCCR\b|Villum|Novo\s+Nordisk|Carlsberg|\bJSPS\b|\bJST\b|NSERC|Simons\s+Foundation"
      r"|Sloan|Humboldt|Australian\s+Research\s+Council|Israel\s+Science\s+Foundation|NSFC|Natural\s+Science\s+Foundation\s+of\s+China"
-     r"|\bFWO\b|FNRS|Wallenberg|Knut|Stiftung|Bochum|MICINN|Generalitat|\bFCT\b|Klaus\s+Tschira|\bQuSol\b|Excellence\s+Strategy"),
+     r"|\bFWO\b|FNRS|Wallenberg|Knut|Stiftung|Bochum|MICINN|Generalitat|\bFCT\b|Klaus\s+Tschira|\bQuSol\b|Excellence\s+Strategy"
+     r"|Templeton|FQXi|Moore\s+Foundation|Army\s+Research\s+Office|Office\s+of\s+Naval\s+Research|\bONR\b"),
 ]
 GROUP_RE = [(g, re.compile(p)) for g, p in GROUPS]
 GROUP_RE_ANYCASE = [(g, re.compile(p, re.I)) for g, p in GROUPS]  # for the spreadsheet: "Cat-1", "Networks"
@@ -79,6 +86,12 @@ def groups_in(text, rules=GROUP_RE):
         found.remove(OTHER_NWO)  # "NWO Veni", "NWO Gravitation QSC": already in a specific group
     if EU in found and GROUPS[4][0] in found and not re.search(r"Horizon|Flagship|Marie|MSCA|QuantERA|Doctoral|QIA|Alliance", text):
         found.remove(EU)  # "ERC grant from the European Union"
+    gov = GROUPS[8][0]
+    if gov in found and set(found) & (SPECIFIC_NWO | {OTHER_NWO}):
+        rest = re.sub(r"\bOCW\b|\bEZK\b|Ministry\s+of\s+(?:Economic\s+Affairs(?:\s+and\s+Climate(?:\s+Policy)?)?"
+                      r"|Education,?\s+Culture\s+and\s+Science)|\bRVO\b|Rijksdienst\s+voor\s+Ondernemend\s+Nederland", "", text)
+        if not re.search(GROUPS[8][1], rest):
+            found.remove(gov)  # "Dutch Research Council (NWO/OCW)": the ministry funds NWO or QDNL
     return found
 
 
@@ -90,10 +103,13 @@ ACK_HEADING = re.compile(r"(?im)^[\s\d.IVX]*(?:acknowledge?ments?|funding(?:\s+i
 ACK_END = re.compile(r"(?im)^[\s\d.IVX]*(?:references|bibliography|appendix|appendices|author\s+contributions"
                      r"|data\s+availability|competing\s+interests|code\s+availability|ai\s+disclosure)\b|^\s*\[1\]")
 SENTENCE = re.compile(r"(?:(?<=[a-z0-9\)\]”\"])|(?<=[A-Z]{2}))\.\s+(?=[A-Z])")
+FIRST_PAGE_FUNDING = re.compile(r"support|funded|funding|acknowledg|fellowship|scholarship|\bgrants?\b(?!\s+[A-Z][a-z]+\d)", re.I)
+AFFIL_MARK = re.compile(r"[a-z\u00C0-\u017F][\d∗†‡*]+(?:,\s?[\d∗†‡*]+)*(?=[\s,])")  # "Cade†1, Niesen1": names with affiliation marks
 DISCLAIMER = re.compile(r"views\s+and\s+opinions|do\s+not\s+necessarily\s+reflect|neither\s+the\s+European", re.I)
 
 
 def _plain(text):
+    text = unicodedata.normalize("NFKC", text)  # ligatures: "Scientiﬁc" -> "Scientific"
     text = re.sub(r"(\w)-\n(\w)", r"\1\2", text)
     return re.sub(r"\s+", " ", text)
 
@@ -116,9 +132,12 @@ def acknowledgement_statements(pdf):
         parts.append(full[: end.start() if end else len(full)])
     parts.append(pages[0] if pages else "")  # footnotes such as "∗Supported by ..."
     out = []
-    for part in parts:
+    for i, part in enumerate(parts):
+        first_page = i == len(parts) - 1
         for s in SENTENCE.split(_plain(part)):
             s = s.strip()
+            if first_page and (not FIRST_PAGE_FUNDING.search(s) or len(AFFIL_MARK.findall(s)) >= 2):
+                continue
             if FUNDING_WORDS.search(s) and not DISCLAIMER.search(s) and groups_in(s) and s not in out and len(s) < 1500:
                 out.append(s)
     return out
@@ -197,7 +216,9 @@ GRANT_IDS = [
     re.compile(r"\b(?:[A-Z][A-Za-z]*\.)+[A-Za-z]*\.?\d+(?:\.\d+)+\b"),
     re.compile(r"\b\d{3}\.\d{3}\.\d{3}\b"),
     re.compile(r"(?:agreement|grant|project)\s*(?:No\.?|number|nr\.?)?\s*[:#]?\s*(\d{6,9})\b", re.I),
-    re.compile(r"ERC[A-Za-z\s-]{0,30}?Grant\s+[“\"(]?([A-Z][A-Za-z0-9-]*[A-Z][A-Za-z0-9-]*)\b"),
+    # EU numbers after the acronym: "ERC Consolidator Grant QPROGRESS 615307", "SYMOPTIC, 101040907"
+    re.compile(r"(?:ERC|European|Horizon|Marie|MSCA)[^.;]{0,80}?(?<![\d./-])(\d{6,9})(?![\d./])"),
+    re.compile(r"ERC[A-Za-z\s-]{0,30}?Grant\s+[“\"(]?([A-Z][A-Za-z0-9-]{2,}[A-Z0-9][A-Za-z0-9-]*)\b"),
     re.compile(r"ERC\s+(?:grant\s+)?[“\"(]?([A-Z][A-Z0-9-]{3,})\b"),
     re.compile(r"(?:grant|project|programme|program)[^“\"]{0,40}[“\"]([^”\"]{4,70})[”\"]", re.I),
 ]

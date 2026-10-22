@@ -27,6 +27,7 @@ import fitz
 import requests
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 from openpyxl.utils import get_column_letter
 
 from qusoft.common import (PersonMatcher, base_id, is_alumnus, load_json, load_papers, load_people,
@@ -194,7 +195,8 @@ def rejected_papers():
 # Report
 # ---------------------------------------------------------------------------
 
-def collect(people):
+def collect(people, any_date=False):
+    """One row per paper by a member. With any_date, also papers from before or after their QuSoft years."""
     spans, source = membership(people)
     match = PersonMatcher(people)
     rows = []  # one per paper: date, id, title, kind, members (QuSoft authors who were members then)
@@ -209,7 +211,7 @@ def collect(people):
     for p in rejected_papers():
         d = date.fromisoformat(p["submitted"][:10])
         members = [m for m in dict.fromkeys(filter(None, map(match, p["authors"])))
-                   if was_member(spans[m], d, is_alumnus(people[m]))]
+                   if any_date or was_member(spans[m], d, is_alumnus(people[m]))]
         if members:
             kind = p.get("kind", UNREADABLE)
             if kind == QUSOFT_ON_FIRST_PAGE:  # QuSoft is there after all (e.g. a later version)
@@ -217,7 +219,12 @@ def collect(people):
             rows.append({"date": d, "id": p["id"], "title": p["title"], "kind": kind,
                          "members": members, "authors": p["authors"], "categories": p.get("categories", [])})
 
-    # A paper outside every subject someone has a QuSoft paper in may be by a namesake.
+    mark_namesakes(rows)
+    return sorted(rows, key=lambda r: r["date"], reverse=True), source
+
+
+def mark_namesakes(rows):
+    """Set r["unsure"]: members of a paper outside every subject they have a QuSoft paper in (maybe a namesake)."""
     subjects = defaultdict(set)
     for r in rows:
         if r["kind"] == QUSOFT_ON_FIRST_PAGE:
@@ -227,7 +234,6 @@ def collect(people):
         mine = {c.split(".")[0] for c in r["categories"]}
         r["unsure"] = [m for m in r["members"] if r["kind"] != QUSOFT_ON_FIRST_PAGE
                        and subjects[m] and mine and not mine & subjects[m]]
-    return sorted(rows, key=lambda r: r["date"], reverse=True), source
 
 
 def _sheet(wb, title, header, rows, widths, note=None):
@@ -243,6 +249,8 @@ def _sheet(wb, title, header, rows, widths, note=None):
         cell.alignment = Alignment(vertical="top", wrap_text=True)
     for r, row in enumerate(rows, start + 1):
         for c, v in enumerate(row, 1):
+            if isinstance(v, str):
+                v = ILLEGAL_CHARACTERS_RE.sub("", v)  # control characters from PDF text
             cell = ws.cell(r, c, v)
             if isinstance(v, str) and v[:1] in ("=", "+", "-", "@", "\t", "\r"):
                 cell.data_type = "s"  # titles come from arXiv: never let Excel read them as formulas

@@ -1,0 +1,136 @@
+# Dutch quantum centres for scripts/compare_centres.py (internal funding comparison).
+#
+# Per centre:
+#   affiliation   regex for the first page of a paper: only papers that match count for the centre
+#   own_funds     regex for the host's own money in acknowledgements ("Host institution funds")
+#   cordis_orgs   regex for the host organisations in CORDIS (EU), which lists universities, not centres
+#   pis           PIs: names as on arXiv; `aliases` adds other spellings (initials, no accents)
+#
+# PI lists were compiled on 2026-10-22 from the centres' websites (QuTech from search snippets and its
+# 2025 annual report, as qutech.nl was unreachable). Please correct them: PIs left out on purpose are
+# listed under `left_out`.
+
+since: 2018-01-01
+
+centres:
+  qusoft:
+    name: QuSoft
+    affiliation: 'QuSoft'
+    own_funds: '\bCWI\b|Centrum\s+Wiskunde|University\s+of\s+Amsterdam|\bUvA\b'
+    cordis_orgs: 'UNIVERSITEIT VAN AMSTERDAM|STICHTING NEDERLANDSE WETENSCHAPPELIJK ONDERZOEK INSTITUTEN'
+    cordis_orgs_label: 'UvA + NWO-I (CWI and other NWO institutes)'
+    use_site_database: true   # the site's database already has every paper with QuSoft on the first page
+    pis: people.csv           # senior researchers in people.csv
+
+  qutech:
+    name: QuTech
+    affiliation: 'QuTech'
+    own_funds: 'TU\s*Delft|Delft\s+University\s+of\s+Technology|Kavli'
+    cordis_orgs: 'TECHNISCHE UNIVERSITEIT DELFT|TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK TNO'
+    cordis_orgs_label: 'TU Delft + TNO'
+    pis:
+      # Quantum Computing
+      - Leonardo DiCarlo
+      - {name: Lieven Vandersypen, aliases: ["L. M. K. Vandersypen"]}
+      - Menno Veldhorst
+      - Giordano Scappucci
+      - Fabio Sebastiano
+      - Masoud Babaie
+      - Barbara Terhal
+      - Sebastian Feld
+      - Tim Coopmans
+      - {name: Eliška Greplová, aliases: ["Eliska Greplova"]}
+      - Stefano Bosco
+      - Maximilian Rimbach-Russ
+      - Nadia Haider
+      - David DiVincenzo         # secondary appointment (main post FZ Jülich)
+      - Viatcheslav Dobrovitski
+      # Quantum Internet
+      - Ronald Hanson
+      - Stephanie Wehner
+      - Tim Taminiau
+      - Ryoichi Ishihara
+      - Carlos Errando-Herranz
+      - Gayane Vardoyan
+      - Sophie Hermans
+      - Francisco Machado
+      # Qubit Research
+      - Leo Kouwenhoven
+      - Srijit Goswami
+      - Michael Wimmer
+      - Christian Kraglund Andersen
+      - Anasua Chatterjee
+    left_out: ["David Elkouss (OIST since 2022)"]
+
+  aqa:
+    name: aQa Leiden
+    affiliation: 'aQa|Applied\s+Quantum\s+Algorithms|\bLIACS\b|Leiden\s+Institute\s+of\s+Advanced\s+Computer|Instituut[- ]Lorentz|Lorentz\s+Institute'
+    own_funds: 'Leiden\s+University|Universiteit\s+Leiden'
+    cordis_orgs: 'UNIVERSITEIT LEIDEN'
+    cordis_orgs_label: 'Leiden University'
+    pis:
+      - Vedran Dunjko
+      - Alfons Laarman
+      - Jordi Tura
+      - Evert van Nieuwenburg
+      - {name: Hao Wang, categories: [quant-ph, cs.NE, cs.LG, cs.ET]}   # common name: only these arXiv subjects
+      - Anna Dawid
+    left_out: ["Stefano Polla (QuSoft since April 2026)", "Julia Cramer (science communication)",
+               "fellows such as Thomas O'Brien (Google)"]
+
+  tue:
+    name: TU/e
+    affiliation: 'Eindhoven\s+University\s+of\s+Technology|Technische\s+Universiteit\s+Eindhoven|\bTU/e\b|\bQT/e\b'
+    own_funds: 'Eindhoven\s+University\s+of\s+Technology|\bTU/e\b|Eindhoven\s+Hendrik\s+Casimir'
+    cordis_orgs: 'TECHNISCHE UNIVERSITEIT EINDHOVEN'
+    cordis_orgs_label: 'TU Eindhoven'
+    pis:
+      - {name: Servaas Kokkelmans, aliases: ["S. J. J. M. F. Kokkelmans"]}
+      - {name: Jom Luiten, aliases: ["O. J. Luiten"]}
+      - {name: Edgar Vredenbregt, aliases: ["E. J. D. Vredenbregt"]}
+      - Rianne Lous
+      - Julius Huijts
+      - Jaime Gómez Rivas
+      - Andrea Fiore
+      - {name: Paul Koenraad, aliases: ["P. M. Koenraad"]}
+      - Michael E. Flatté          # part-time (main post Iowa)
+      - Ewold Verhagen             # part-time (main post AMOLF)
+      - Andrei Silov
+      - {name: Erik Bakkers, aliases: ["E. P. A. M. Bakkers"]}
+      - Klaas-Jan Tielrooij
+      - Tanja Lange
+      - Andreas Hülsing
+      - Boris Škorić
+      - Aida Abiad
+      - Oliver Tse
+      - Aida Todri-Sanial
+      - Ivana Nikoloska
+      - Chigo Okonkwo
+      - Idelfonso Tafur Monroy
+      - Simon Rommel
+      - Tom Bradley
+      - Xaveer Leijtens
+    left_out: ["QT/e members without quantum work: Montazeri, Cantatore, Kessels, Knoops, Raz, Dolmans"]
+
+  twente:
+    name: Twente
+    affiliation: 'University\s+of\s+Twente|Universiteit\s+Twente|MESA\+'
+    own_funds: 'University\s+of\s+Twente|MESA\+'
+    cordis_orgs: 'UNIVERSITEIT TWENTE'
+    cordis_orgs_label: 'University of Twente'
+    pis:
+      - Pepijn Pinkse
+      - Jelmer Renema              # may be moving to TU/e
+      - Jan Klaers
+      - Willem Vos
+      - {name: Sonia García-Blanco, aliases: ["Sonia M. Garcia-Blanco"]}
+      - Alexander Brinkman
+      - Hans Hilgenkamp
+      - {name: Chuan Li, categories: [cond-mat, quant-ph]}   # common name
+      - {name: İnanç Adagideli, aliases: ["Inanc Adagideli"]}
+      - {name: Sander Smink, aliases: ["A. E. M. Smink"]}
+      - Floris Zwanenburg
+      - Joost Ridderbos
+      - Harold Zandvliet
+      - Pantelis Bampoulis
+    left_out: ["Klaus Boller (emeritus)", "Offerhaus, Marpaung, van der Wiel (not quantum)"]
