@@ -11,7 +11,7 @@ from datetime import datetime
 
 from PIL import Image, ImageOps
 
-from .common import CONFIG, ROOT, find_portrait, open_portrait, is_alumnus, name_key, paper_date, path, save_json, tenure
+from .common import CONFIG, ROOT, find_portrait, load_json, open_portrait, is_alumnus, name_key, paper_date, path, save_json, tenure
 
 SITE = path("paths", "site_dir")
 PORTRAIT_PX = 192
@@ -37,6 +37,7 @@ def _web_portrait(person):
 def build(papers, people):
     papers = sorted(papers, key=lambda p: p["submitted"], reverse=True)
 
+    summaries = load_json(ROOT / "data" / "summaries.json", {})  # plain-language abstracts
     site_papers = []
     for p in papers:
         pdf, thumb = page_files(p)
@@ -50,6 +51,8 @@ def build(papers, people):
             "added": p.get("added", p["submitted"][:10]),
             "categories": p.get("categories", []),
             "abstract": p.get("abstract", ""),
+            "summary": ({"accessible": summaries[p["id"]]["accessible"], "simple": summaries[p["id"]]["simple"],
+                         "checked": bool(summaries[p["id"]].get("checked_by"))} if p["id"] in summaries else None),
             "page": pdf.exists() and thumb.exists(),
         })
 

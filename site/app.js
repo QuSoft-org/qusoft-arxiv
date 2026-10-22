@@ -162,6 +162,19 @@
     return el("p", { class: "authors" }, parts);
   }
 
+  const LEVEL = "qusoft-abstract-level";
+  let level = "technical";
+  try { level = localStorage.getItem(LEVEL) || "technical"; } catch (err) { /* private mode */ }
+
+  function summaryBlock(p) {
+    if (level === "technical" || !p.summary) return null;
+    return el("div", { class: "summary" },
+      el("p", {}, latexText(p.summary[level])),
+      el("p", { class: "ai-note" }, p.summary.checked
+        ? "Plain-language summary, checked by the authors."
+        : "Plain-language summary written with AI from the abstract; not checked by the authors."));
+  }
+
   function paperItem(p) {
     const abstract = el("p", { class: "abstract", hidden: true }, latexText(p.abstract));
     const toggle = el("button", {
@@ -184,6 +197,7 @@
         el("a", { href: p.link }, SOURCE[p.source] || "arXiv"),
         p.page ? el("a", { href: `firstpages/${p.id}.pdf` }, "First page") : null,
         p.abstract ? toggle : null),
+      summaryBlock(p),
       abstract);
   }
 
@@ -259,6 +273,14 @@
       $("#year").addEventListener("change", (e) => { filter.year = e.target.value; renderList(); });
       document.querySelectorAll('input[name="who"]').forEach((r) =>
         r.addEventListener("change", (e) => { filter.who = e.target.value; renderList(); }));
+      // Which abstract to show: the authors' technical one, or a plain-language version.
+      const levels = document.querySelectorAll('input[name="level"]');
+      levels.forEach((r) => { r.checked = r.value === level; });
+      levels.forEach((r) => r.addEventListener("change", (e) => {
+        level = e.target.value;
+        try { localStorage.setItem(LEVEL, level); } catch (err) { /* private mode: not remembered */ }
+        renderList();
+      }));
       rendered.papers = true;
     }
     filter.person = params.get("person") || "";

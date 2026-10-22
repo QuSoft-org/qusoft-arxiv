@@ -270,6 +270,9 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
 .authors { margin: 0 0 0.3rem; line-height: 1.5; }
 .authors .q { font-weight: 600; }
 .authors .alum { font-weight: 600; }
+.summary { max-width: var(--measure); margin: 0.6rem 0 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); }
+.summary p { margin: 0 0 0.35rem; line-height: 1.55; }
+.summary .ai-note { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); }
 .authors .who { white-space: nowrap; color: inherit; text-decoration: none; }
 .authors .who:hover .q, .authors .who:hover .alum { color: var(--red); text-decoration: underline; text-decoration-color: var(--red); }
 .authors .who:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }

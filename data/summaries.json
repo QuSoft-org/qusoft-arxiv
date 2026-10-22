@@ -1,0 +1,142 @@
+{
+ "2610.29762v1": {
+  "accessible": "Quantum computers work with qubits, which have two levels, but many physical systems, such as light or vibrations, behave like 'bosonic modes' with many levels. To simulate such systems on a quantum computer, each mode must be encoded into several qubits. This paper compares three encodings, including a new one based on so-called Dicke states, by how many qubits and how many operations they need, and how well they cope with noise. A compact binary encoding comes out best overall; the new encoding gives very short circuits but needs many more qubits. The authors also try two small simulations on a 56-qubit trapped-ion quantum computer, where noise visibly affects the results.",
+  "simple": "Quantum computers use qubits. A qubit has two states. Some things in nature, like light, have many states. To study them on a quantum computer, you must spread each one over several qubits. There are different ways to do this. The authors compare three ways. One way uses few qubits and works well. A new way is fast but needs many qubits. They also test a small example on a real quantum computer. Noise in the machine changes the results.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.28185v1": {
+  "accessible": "When a black hole slowly evaporates, does the information about what fell in survive? This 'information paradox' has puzzled physicists for decades. This paper, written from the philosophy of physics, reviews recent attempts to tackle it with the tools of quantum information theory. Here the black hole is modelled as a quantum computer-like system that scrambles information quickly and uses entanglement as a resource. The authors spell out the assumptions behind this approach and argue that it marks a real change in how physicists use the idea of 'information': as a practical modelling tool rather than a vague substance. They argue that philosophers should pay more attention to it.",
+  "simple": "Black holes can slowly disappear by giving off heat. Physicists ask: what happens to the things that fell in? Is that information lost forever? This is an old puzzle. New ideas treat a black hole like a small quantum computer that mixes up information very fast. The authors look closely at these ideas and what they assume. They say this way of thinking about information is useful. They think philosophers should study it more.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.20855v1": {
+  "accessible": "Moving a quantum state from one place to another inside a quantum computer is a basic task. Mathematicians know exactly which networks (graphs) of connected qubits can move a state from one end to the other perfectly, just by letting the system evolve, and at what time. This paper puts that theory to the test on a real IBM quantum processor with 156 qubits, without any error correction. The authors run these 'perfect state transfer' experiments on several families of networks, some with up to 20 sites, and compare them with the usual approach of passing the state along step by step with swap operations.",
+  "simple": "A quantum computer sometimes has to move information from one qubit to another. Some networks of qubits can do this perfectly, all by themselves, if you wait the right time. Mathematicians have worked out which networks can do this. The authors test this idea on a real quantum computer from IBM. They try several kinds of networks. They also compare it with the usual way of moving information step by step.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.17078v1": {
+  "accessible": "A network can be described by a single number, its 'spectral radius', which measures how well connected it is. This maths paper asks: if you remove one link of a network and add a new link elsewhere, keeping it connected, can you always do so without lowering that number? Networks where this is possible for every link are called 'sustainable'. The authors study this question for trees, networks without loops. They find infinite families of sustainable and non-sustainable trees, show that trees with one very well-connected node are not sustainable, and describe exactly which trees sit on the boundary. They end with open questions.",
+  "simple": "This is a maths paper about networks. A tree is a network with no loops. One number tells how well a network hangs together. The authors ask a question: can you move any one link to a new place without making that number smaller? If yes, the tree is called 'sustainable'. They find many trees that are sustainable and many that are not. Trees with one very busy point are never sustainable.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.11540v1": {
+  "accessible": "To know how good a quantum computer is, experimenters run random sequences of operations and see how fast the output quality decays: a method called randomized benchmarking. For realistic, structured circuits, the first part of this decay is distorted, so experimenters have to run long circuits, where the signal can drown in noise. This paper fixes the problem purely by processing the measured data differently. The new method, a 'trace filter function', removes the distortion and gives reliable quality estimates from short circuits, with mathematical guarantees. Tests on a 12-qubit superconducting processor show it works with fewer than 10 layers of operations, where the standard method needs more than 40.",
+  "simple": "People test quantum computers by running random steps and checking how fast mistakes build up. With some kinds of tests, the first results are misleading. So people must run long tests, but then the signal gets lost in noise. The authors found a new way to look at the data. It gives good answers from short tests. They tried it on a real quantum computer. It worked with four times shorter tests.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.06794v1": {
+  "accessible": "Gaussian states are a family of quantum states that appear everywhere in physics, for example in light and in electrons in materials. A natural question is how to check whether an unknown state is Gaussian or far from it. Earlier methods needed more copies of the state as the system got larger. This paper shows that a fixed number of copies is enough, no matter how large the system is, both for bosons (such as light) and for fermions (such as electrons). The proof uses the symmetry of identical copies and tools borrowed from the study of random walks on a sphere.",
+  "simple": "Gaussian states are a common kind of quantum state. They show up in light and in electrons. Suppose someone gives you a quantum state. Is it Gaussian or not? To check, you need several copies of the state. Old methods needed more copies for bigger systems. The authors show that a fixed small number of copies is always enough. This works for both light and electrons.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.06723v1": {
+  "accessible": "A basic law of quantum physics says you cannot copy an unknown quantum state perfectly. But with many copies you can make one more that is almost right. How many copies do you need? For general states the answer is astronomically large. This paper shows that the answer is much smaller when the state is known to come from a structured family that is important in physics, such as states of non-interacting electrons (fermions) or light (bosons). For fermions the authors build the best possible copying procedure and bring the cost down from exponential to polynomial. They also explain why the cost grows with the number of parameters describing the family, and give a separate optimal method for 'phase states'.",
+  "simple": "In quantum physics you cannot make a perfect copy of an unknown state. But if you already have many copies, you can make one more copy that is almost perfect. How many copies do you need? Usually a huge number. The authors show that you need far fewer if the state is of a special, common type. For one type they find the best possible way to copy. They also explain why some types are easier to copy than others.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.03714v1": {
+  "accessible": "Future large quantum computers will protect information with error-correcting codes, and every computation starts by preparing special encoded states without letting a single error spread. This paper presents SpiderCSS, software that automatically designs such state-preparation circuits for a broad family of codes (CSS codes). It uses the ZX-calculus, a graphical language for quantum circuits, and only applies rewriting steps that are known to keep the circuit fault-tolerant, so no costly checks are needed afterwards. In simulations with codes of distance up to 15, the circuits are smaller and shallower than those of existing methods, with on average 34% fewer logical errors.",
+  "simple": "Big quantum computers will need to fix their own errors. For this, they store information in a special code. Before a computation, the computer must set up coded states without letting errors spread. The authors made a tool called SpiderCSS. It designs these set-up steps automatically. It uses a picture language for quantum circuits. Its designs are smaller and make about a third fewer errors than older methods.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2610.01979v1": {
+  "accessible": "A quantum state of many particles is a 'product state' if the particles are not entangled with each other. This paper gives an efficient test that decides whether an unknown state is close to a product state or far from all of them, using a number of copies that does not grow with the number of particles. The key idea is to randomly group the particles into a few blocks, which reduces the problem to a small number of parties. The same ideas give a much better algorithm for finding the product state that is closest to the unknown state.",
+  "simple": "Particles in a quantum state can be linked to each other. This is called entanglement. A 'product state' has no entanglement at all. The authors give a test to check if a state is close to a product state. The test needs only a fixed number of copies, even for very many particles. The trick is to put the particles into a few random groups. The same trick also helps to find the closest product state.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40331v2": {
+  "accessible": "Linear threshold functions decide yes or no by checking which side of a line (or plane) a data point lies on; they are among the most basic tools in machine learning. This paper gives three quantum algorithms that learn such functions much faster than possible classically. If you may ask for the answer at any point you choose, the quantum algorithm needs only a logarithmic number of questions, where classical methods need a number growing with the dimension. For a special case related to majority voting, it improves an earlier quantum algorithm exponentially. A third algorithm works in a weaker setting, using quantum 'examples' instead of chosen questions.",
+  "simple": "Many computer programs sort things into two groups with a simple rule: which side of a line is a point on? This is common in machine learning. The authors show that a quantum computer can learn such a rule with far fewer questions than a normal computer. They give three methods for different situations. In one case, the new method is much faster than the best earlier quantum method.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40231v1": {
+  "accessible": "A classic problem is deciding whether two points in a network are connected. This paper studies a quantum version: each link of the network carries a quantum operation, and following a path from one point to the other transforms a quantum state along the way. The task is to decide whether the two points are connected and, if so, how the transported state compares with a target state. The authors give a quantum algorithm that solves this in time roughly proportional to the size of the network while using very little memory, and prove that no quantum algorithm can do substantially better.",
+  "simple": "Are two points in a network linked by a path? This is a classic computer problem. The authors study a quantum version. Here, each link changes a quantum state as it passes. The question is whether the two points are linked, and what the state looks like after the trip. The authors give a quantum method that solves this fast and uses little memory. They also show that no quantum method can do much better.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40228v1": {
+  "accessible": "In 'non-local quantum computation', two parties who share entanglement try to apply a joint quantum operation to their inputs while exchanging messages only once, at the same time. This question matters for the security of quantum position verification, for communication complexity and even for quantum gravity. It was known that every operation can be done approximately with finite entanglement. This paper shows that doing it exactly is almost never possible: even for two qubits, almost every operation has no exact protocol with finite resources. The proof uses tools from geometry. Some simple, natural operations are also shown to be impossible to do exactly.",
+  "simple": "Two people each hold part of a quantum system. They share some entanglement. They want to do a joint operation, but may only send each other one message at the same moment. Can they always do it perfectly? The authors show: almost never, even for the smallest systems. They can only get close. This matters for checking where someone is with quantum signals, and for some ideas about gravity.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40144v1": {
+  "accessible": "Extra qubits can make quantum circuits faster by giving them working space, but usually this space must start in a clean, known state. This paper asks whether 'dirty' qubits, already in use and possibly entangled with other parts of the computer, can serve instead, as long as they are returned exactly as they were. The authors show that an important class of quantum circuits, Clifford circuits, can be run this way in very small depth, just as fast as with clean workspace. They extend the result to further families of quantum gates.",
+  "simple": "Quantum computers can work faster if they have extra empty qubits to use as scratch paper. But clean scratch paper is costly. The authors ask: can you borrow qubits that are already in use, as long as you give them back exactly as they were? They show that for an important kind of quantum program, this works. The program runs just as fast as with clean scratch paper.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40106v2": {
+  "accessible": "Quantum circuits can often be written in many different ways that do the same thing. A complete set of rewrite rules lets you turn any such version into any other, which is useful for simplifying and checking circuits automatically. This paper gives such a complete set of 16 simple rules for Clifford circuits, an important class, on qudits: quantum units with an odd prime number of levels instead of two. Each rule involves at most three qudits and has an intuitive meaning. The completeness proof was also checked by computer in the Agda proof assistant.",
+  "simple": "The same quantum program can be written in many ways. The authors give 16 simple rules to turn one way of writing it into any other. This helps computers simplify and check quantum programs. The rules work for an important type of program, on quantum units with more than two levels. Each rule is short and easy to understand. A computer has checked their proof.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.40080v1": {
+  "accessible": "Entanglement is a key resource for quantum communication, but in practice it is noisy. 'Distillation' turns many noisy entangled pairs into fewer, nearly perfect ones. The best possible rate depends on the exact noisy state, which is usually unknown. This paper gives a universal procedure that first learns the state using only local operations and ordinary communication, then adapts its distillation. In the long run it reaches the same optimal rate as if the state had been known all along. The authors also find the best rate that works for a whole family of possible states at once.",
+  "simple": "Entanglement links two quantum particles. It is useful for sending quantum messages, but real entanglement is often messy. You can turn many messy pairs into a few clean ones. This is called distillation. Usually you need to know exactly how messy the pairs are. The authors give a method that first learns this, then cleans the pairs. In the long run, it works as well as if you had known everything from the start.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.39980v1": {
+  "accessible": "In quantum error correction, information is spread over many qubits. Sometimes it is useful to move it back onto just one or a few qubits quickly, for example to send it onward through a network. 'Stabiliser path finding' does this with a single round of measurements on individual qubits, even when some qubits have been lost. This paper studies the method in depth. Using ideas from percolation theory, the authors prove that for the widely used surface code it succeeds almost surely as long as fewer than half of the qubits are lost. They also give two algorithms to find the right measurements, one exact and one much faster heuristic.",
+  "simple": "Quantum computers protect information by spreading it over many qubits. Sometimes you want to collect it back on just one or a few qubits, fast. A method called stabiliser path finding does this with one round of simple measurements. It works even if some qubits are lost. The authors prove that it almost always works for a common code if less than half of the qubits are lost. They also give a fast way to compute what to measure.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.39452v1": {
+  "accessible": "Simulating molecules is a promising use of quantum computers, but accurate results normally need very large sets of basis functions, because electron wavefunctions have sharp features where electrons meet. The 'transcorrelated' method builds these features into the equations, so smaller basis sets suffice. The catch is that the resulting equations are non-Hermitian, which makes standard quantum algorithms harder to apply and their cost depend on how sensitive the solutions are. This paper studies this trade-off, first in a solvable model and then for real molecular Hamiltonians, and shows that the faster convergence can lower the overall cost of the quantum algorithm.",
+  "simple": "Quantum computers may one day help to study molecules. To get good answers, the calculation must handle places where two electrons come very close. This usually makes the calculation very big. A trick called the transcorrelated method makes it smaller. But the trick also makes the maths harder for quantum computers. The authors study this trade-off. They show that the trick can still make the quantum calculation cheaper overall.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.39280v1": {
+  "accessible": "Quantum tomography means learning an unknown quantum state or process from measurements, which in general needs very many copies. This paper shows how to learn states and processes much more efficiently when they are known to have certain symmetries, and finds the optimal number of copies or uses needed in several important cases. The trick is to reduce the task to estimating a pure state. Along the way the authors solve an open problem: they build efficient quantum circuits for the optimal measurement for pure-state estimation, by encoding states into light-like modes and using a quantum version of the Hermite transform.",
+  "simple": "Tomography means finding out what an unknown quantum state is by measuring it. This usually needs very many copies. The authors look at states and processes that have some symmetry. For these, they find the smallest possible number of copies needed. They also solve an old open problem: how to build an efficient quantum circuit for the best measurement.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.38091v2": {
+  "accessible": "Many problems in physics and chemistry come down to finding the lowest-energy state, the 'ground state', of a quantum system. Suppose you can already prepare a rough guess that overlaps somewhat with the true ground state, and you roughly know its energy. This paper shows how a quantum computer can then turn the guess into a very accurate ground state, using an optimal number of steps of the system's time evolution. The authors give two algorithms, one based on amplitude amplification and one based on 'transducers'. It completes their recent results on estimating ground-state energies.",
+  "simple": "In physics and chemistry, people often want the state with the lowest energy. This is called the ground state. Suppose you already have a rough guess of it. The authors show how a quantum computer can turn this guess into a very good answer. Their method uses the smallest possible number of steps. They give two ways to do it.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ },
+ "2609.28694v1": {
+  "accessible": "Polar molecules are promising building blocks for quantum computers, but making two molecules interact quickly enough is hard. This paper proposes to use Rydberg atoms, atoms with one electron in a very large orbit, as fast go-betweens. By dressing the atoms with microwaves, unwanted interactions are switched off and the atom-molecule interaction is tuned just right, so that many pairs of molecules can be entangled at the same time. For sodium-caesium molecules with caesium atoms, the gate is more than a hundred times faster than a direct gate between molecules. Some errors can even be detected afterwards and removed.",
+  "simple": "Small molecules could be used to build quantum computers. But it is hard to make two molecules work together fast. The authors suggest using special, very large atoms as helpers in between. Microwaves tune these helper atoms just right. Then many pairs of molecules can work together at once, more than a hundred times faster than before. Some mistakes can be spotted and removed afterwards.",
+  "model": "claude-opus-5-5",
+  "written": "2026-10-22",
+  "checked_by": null
+ }
+}
