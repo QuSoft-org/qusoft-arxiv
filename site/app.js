@@ -137,17 +137,24 @@
 
   const filter = { q: "", year: "", who: "", person: "" };
 
+  const initials = (name) => name.split(/\s+/).filter((w) => /^[A-ZÀ-Ž]/.test(w)).map((w) => w[0]).slice(0, 2).join("");
+
   function authorLine(p) {
     const parts = [];
     p.authors.forEach(([name, person], i) => {
       if (i) parts.push(", ");
       const info = person && people[person];
       if (!info) { parts.push(name); return; }
+      // A small portrait before the name (decorative: the name follows), initials when there's no photo.
+      const head = info.portrait
+        ? el("img", { class: "head", src: info.portrait, alt: "", loading: "lazy", width: 20, height: 20 })
+        : el("span", { class: "head initials", "aria-hidden": "true" }, initials(person));
       if (info.alumni) {
-        parts.push(el("span", { class: "alum", title: info.years ? `QuSoft ${info.years}` : "QuSoft alumni" }, name));
+        parts.push(el("span", { class: "who alumni" }, head,
+          el("span", { class: "alum", title: info.years ? `QuSoft ${info.years}` : "QuSoft alumni" }, name)));
         if (info.years) parts.push(el("span", { class: "years" }, info.years));
       } else {
-        parts.push(el("span", { class: "q" }, name));
+        parts.push(el("span", { class: "who" }, head, el("span", { class: "q" }, name)));
       }
     });
     return el("p", { class: "authors" }, parts);
@@ -300,7 +307,7 @@
       .attr("role", "button");
     node.append("circle").attr("class", "ring").attr("r", R);
     node.filter((d) => !d.portrait).append("text").attr("class", "initials")
-      .text((d) => d.id.split(/\s+/).filter((w) => /^[A-ZÀ-Ž]/.test(w)).map((w) => w[0]).slice(0, 2).join(""));
+      .text((d) => initials(d.id));
     node.filter((d) => d.portrait).append("image")
       .attr("href", (d) => d.portrait)
       .attr("x", -R + 2).attr("y", -R + 2).attr("width", 2 * R - 4).attr("height", 2 * R - 4)
