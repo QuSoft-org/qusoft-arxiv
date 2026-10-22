@@ -671,9 +671,7 @@
   "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
- "__pending__": [
-  "2607.10877"
- ],
+ "__pending__": [],
  "Priscilla Awuah": {
   "all_variants_tried": "2026-10-21",
   "query": "au:\"Priscilla Awuah\"",
@@ -683,5 +681,20 @@
   "eccc": "2026",
   "eprint": "2026-10-22",
   "crossref": "2026-10-22"
+ },
+ "Barbara Terhal": {
+  "all_variants_tried": "2026-10-22",
+  "query": "au:\"Barbara Terhal\"",
+  "last_checked": "2026-10-22"
+ },
+ "Gilles Brassard": {
+  "all_variants_tried": "2026-10-22",
+  "query": "au:\"Gilles Brassard\"",
+  "last_checked": "2026-10-22"
+ },
+ "Matthias Christandl": {
+  "all_variants_tried": "2026-10-22",
+  "query": "au:\"Matthias Christandl\"",
+  "last_checked": "2026-10-22"
  }
 }

@@ -65,6 +65,12 @@
   "years": "2018–2022",
   "portrait": "portraits/arjan-cornelissen.webp"
  },
+ "Barbara Terhal": {
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2026",
+  "portrait": "portraits/barbara-terhal.webp"
+ },
  "Bas Dirkse": {
   "role": "PhD Students",
   "alumni": true,
@@ -178,6 +184,12 @@
   "alumni": true,
   "years": "2021–2025",
   "portrait": "portraits/garazi-muguruza-lasa.webp"
+ },
+ "Gilles Brassard": {
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2024",
+  "portrait": "portraits/gilles-brassard.webp"
  },
  "Gina Muuss": {
   "role": "PhD Students",
@@ -412,6 +424,12 @@
   "alumni": false,
   "years": "",
   "portrait": "portraits/matthew-sutcliffe.webp"
+ },
+ "Matthias Christandl": {
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2024",
+  "portrait": "portraits/matthias-christandl.webp"
  },
  "Maxim van den Berg": {
   "role": "PhD Students",

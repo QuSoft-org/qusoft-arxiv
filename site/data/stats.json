@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-22T13:58",
- "papers": 489,
- "people": 107,
- "alumni": 47,
+ "updated": "2026-10-22T17:37",
+ "papers": 493,
+ "people": 110,
+ "alumni": 50,
  "first_year": 2015,
  "by_year": [
   {
@@ -15,21 +15,21 @@
   {
    "year": 2016,
    "papers": 15,
-   "contributors": 12,
-   "together": 5,
-   "with_alumni": 5
+   "contributors": 13,
+   "together": 7,
+   "with_alumni": 9
   },
   {
    "year": 2017,
-   "papers": 26,
-   "contributors": 22,
-   "together": 10,
-   "with_alumni": 13
+   "papers": 27,
+   "contributors": 24,
+   "together": 12,
+   "with_alumni": 16
   },
   {
    "year": 2018,
    "papers": 30,
-   "contributors": 25,
+   "contributors": 26,
    "together": 15,
    "with_alumni": 20
   },
@@ -50,44 +50,44 @@
   {
    "year": 2021,
    "papers": 45,
-   "contributors": 46,
-   "together": 22,
-   "with_alumni": 35
+   "contributors": 47,
+   "together": 23,
+   "with_alumni": 36
   },
   {
    "year": 2022,
-   "papers": 54,
-   "contributors": 57,
-   "together": 32,
-   "with_alumni": 40
+   "papers": 55,
+   "contributors": 59,
+   "together": 33,
+   "with_alumni": 42
   },
   {
    "year": 2023,
    "papers": 52,
-   "contributors": 50,
-   "together": 27,
-   "with_alumni": 42
+   "contributors": 52,
+   "together": 28,
+   "with_alumni": 43
   },
   {
    "year": 2024,
-   "papers": 59,
-   "contributors": 43,
-   "together": 24,
-   "with_alumni": 38
+   "papers": 60,
+   "contributors": 45,
+   "together": 25,
+   "with_alumni": 39
   },
   {
    "year": 2025,
-   "papers": 76,
-   "contributors": 59,
-   "together": 45,
-   "with_alumni": 26
+   "papers": 77,
+   "contributors": 61,
+   "together": 50,
+   "with_alumni": 31
   },
   {
    "year": 2026,
    "papers": 61,
-   "contributors": 55,
-   "together": 37,
-   "with_alumni": 12
+   "contributors": 57,
+   "together": 38,
+   "with_alumni": 13
   }
  ]
 }

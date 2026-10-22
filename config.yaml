@@ -27,6 +27,7 @@ first_page:
     "Postdocs": 60
     "Senior Researchers": 40
     "Support Team": 40
+    "Turing Chair": 40
     "Alumni": 40                 # alumni get this size whatever their role was
     "default": 60
   portrait_resolution: 3          # pixels per point, so portraits print sharply

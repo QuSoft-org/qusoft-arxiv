@@ -116,7 +116,7 @@ a { color:var(--red); }
 <script>
 const DATA = /*DATA*/;
 const $ = (s) => document.querySelector(s);
-const ROLE = { "PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher", "Support Team": "support team", "Visitor": "visitor" };
+const ROLE = { "PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher", "Support Team": "support team", "Visitor": "visitor", "Turing Chair": "Turing chair" };
 const initials = (n) => n.split(/\s+/).filter((w) => /^[A-ZÀ-Ž]/.test(w)).map((w) => w[0]).slice(0, 2).join("");
 const names = Object.keys(DATA.people);
 $("#made").textContent = DATA.made;

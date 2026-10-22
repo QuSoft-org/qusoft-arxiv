@@ -19,7 +19,7 @@
    ],
    [
     "Barbara Terhal",
-    null
+    "Barbara Terhal"
    ]
   ],
   "date": "2026-10-21",
@@ -2190,7 +2190,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Aram W. Harrow",
@@ -2507,7 +2507,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ]
   ],
   "date": "2025-12-19",
@@ -2620,6 +2620,34 @@
    "cond-mat.quant-gas"
   ],
   "abstract": "We present a general method for engineering qudits through individually addressable transitions between Zeeman sublevels, achieved by combining a large linear Zeeman shift with a state-dependent light shift. This approach lifts the degeneracy between adjacent states while simultaneously tuning their energy splittings into the radio-frequency (RF) domain, enabling coherent manipulation within the Zeeman manifold using experimentally accessible drive frequencies. As a concrete realization, we investigate the implementation of an $SU(5)$ \\emph{quintet} encoded in the Zeeman sublevels of the long-lived $^3\\mathrm{P}_2$ state of neutral $\\mathrm{^{88}Sr}$ atoms confined in far-detuned, $σ^{-}$-polarized optical tweezers. Using realistic experimental parameters, we numerically demonstrate full control of the \\emph{quintet} manifold, including initialization into a specific $SU(5)$ basis state via a multi-photon transfer, coherent state- and site-selective single-qudit rotations driven by RF fields, and fast state-selective optical readout. Our simulations predict state-preparation fidelities of $\\mathcal{F} \\simeq 0.99$ within $\\sim 1~μ\\rm{s}$, single-qudit gate fidelities of $\\mathcal{F} \\simeq 0.99$ with $π$-pulse durations of $\\sim 2.5~μ\\rm{s}$, and fast destructive imaging with durations below $10~μ\\rm{s}$. These results establish a broadly applicable framework for high-fidelity control of Zeeman sublevel-encoded qudits and highlight the $^3\\mathrm{P}_2$ manifold in strontium as a promising platform for scalable qudit-based quantum technologies.",
+  "summary": null,
+  "page": true
+ },
+ {
+  "id": "2512.02760v1",
+  "link": "https://arxiv.org/abs/2512.02760",
+  "source": "arxiv",
+  "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+  "authors": [
+   [
+    "Matthias Christandl",
+    "Matthias Christandl"
+   ],
+   [
+    "Omar Fawzi",
+    null
+   ],
+   [
+    "Ashutosh Goswami",
+    null
+   ]
+  ],
+  "date": "2025-12-02",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph"
+  ],
+  "abstract": "Fault-tolerant quantum computation traditionally incurs substantial resource overhead, with both qubit and time overheads scaling polylogarithmically with the size of the computation. While prior work by Gottesman showed that constant qubit overhead is achievable under stochastic noise using quantum low-density parity-check (QLDPC) codes, it has remained an open question whether similar guarantees hold under more general, non-stochastic noise models. In this work, we address this question by considering a general circuit-level noise model defined via the diamond norm, which captures both stochastic and non-stochastic noise, including coherent and amplitude damping noise. We prove that constant qubit overhead fault-tolerant quantum computation is achievable in this general setting, using QLDPC codes with constant rate and linear minimum distance. To establish our result, we develop a fault-tolerant error correction scheme and a method for implementing logic gates under general circuit noise. These results extend the theoretical foundations of fault-tolerant quantum computation and offer new directions for fault-tolerant architectures under realistic noise models.",
   "summary": null,
   "page": true
  },
@@ -2957,7 +2985,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Vladimir Lysikov",
@@ -3231,7 +3259,7 @@
    ],
    [
     "Barbara M. Terhal",
-    null
+    "Barbara Terhal"
    ],
    [
     "Yaroslav Herasymenko",
@@ -4065,7 +4093,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ]
   ],
   "date": "2025-06-25",
@@ -4542,7 +4570,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ]
   ],
   "date": "2025-04-24",
@@ -4752,7 +4780,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Vladimir Lysikov",
@@ -4796,7 +4824,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Vladimir Lysikov",
@@ -4985,7 +5013,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Aram Harrow",
@@ -6605,7 +6633,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Koen Hoeberechts",
@@ -7019,7 +7047,7 @@
    ],
    [
     "Barbara Terhal",
-    null
+    "Barbara Terhal"
    ],
    [
     "Yaroslav Herasymenko",
@@ -7237,6 +7265,34 @@
    "math-ph"
   ],
   "abstract": "We solve the generalised quantum Stein's lemma, proving that the Stein exponent associated with entanglement testing, namely, the quantum hypothesis testing task of distinguishing between $n$ copies of an entangled state $ρ_{AB}$ and a generic separable state $σ_{A^n:B^n}$, equals the regularised relative entropy of entanglement. Not only does this determine the ultimate performance of entanglement testing, but it also establishes the reversibility of all quantum resource theories under asymptotically resource non-generating operations, with the regularised relative entropy of resource governing the asymptotic transformation rate between any two quantum states. As a by-product, we prove that the same Stein exponent can also be achieved when the null hypothesis is only approximately i.i.d., in the sense that it can be modelled by an 'almost power state'. To solve the problem we introduce two techniques. The first is a procedure that we call 'blurring', which, informally, transforms a permutationally symmetric state by making it more evenly spread across nearby type classes. Blurring alone suffices to prove the generalised Stein's lemma in the fully classical case, but not in the quantum case. Our second technical innovation, therefore, is to perform a second quantisation step to lift the problem to an infinite-dimensional bosonic quantum system; we then solve it there by using techniques from continuous-variable quantum information. Rather remarkably, the second-quantised action of the blurring map corresponds to a pure loss channel. A careful examination of this second quantisation step is the core of our quantum solution.",
+  "summary": null,
+  "page": true
+ },
+ {
+  "id": "2408.05260v3",
+  "link": "https://arxiv.org/abs/2408.05260",
+  "source": "arxiv",
+  "title": "Fault-tolerant quantum input/output",
+  "authors": [
+   [
+    "Matthias Christandl",
+    "Matthias Christandl"
+   ],
+   [
+    "Omar Fawzi",
+    null
+   ],
+   [
+    "Ashutosh Goswami",
+    null
+   ]
+  ],
+  "date": "2024-08-09",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph"
+  ],
+  "abstract": "Usual scenarios of fault-tolerant computation are concerned with the fault-tolerant realization of quantum algorithms that compute classical functions, such as Shor's algorithm for factoring. In particular, this means that input and output to the quantum algorithm are classical. In contrast to stand-alone single-core quantum computers, in many distributed scenarios, quantum information might have to be passed on from one quantum information processing system to another one, possibly via noisy quantum communication channels with noise levels above fault-tolerant thresholds. In such situations, quantum information processing devices will have quantum inputs, quantum outputs or even both, which pass qubits among each other. Working in the fault-tolerant framework of [Kitaev, 1997], we show that any quantum circuit with quantum input and output can be transformed into a fault-tolerant circuit that produces the ideal circuit with some controlled noise applied at the input and output. The framework allows the direct composition of the statements, enabling versatile future applications. We illustrate this with a concrete application, namely, communication over a noisy channel with faulty encoding and decoding operations [Christandl and M{ü}ller-Hermes, 2024]. For communication codes with linear minimum distance, we construct fault-tolerant encoders and decoders for general noise (including coherent errors). For the weaker, but standard, model of local stochastic noise, we obtain fault-tolerant encoders and decoders for any communication code that can correct a constant fraction random errors.",
   "summary": null,
   "page": true
  },
@@ -8343,7 +8399,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Llorenç Escolà-Farràs",
@@ -9913,7 +9969,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Dmitry Grinko",
@@ -10190,7 +10246,7 @@
    ],
    [
     "Barbara Terhal",
-    null
+    "Barbara Terhal"
    ],
    [
     "Jonas Helsen",
@@ -10273,7 +10329,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Vladimir Lysikov",
@@ -11413,7 +11469,7 @@
    ],
    [
     "Barbara Terhal",
-    null
+    "Barbara Terhal"
    ]
   ],
   "date": "2022-11-29",
@@ -11874,6 +11930,43 @@
    "cond-mat.other"
   ],
   "abstract": "AgCrSe$_2$ is an example of a super-ionic conductor that has recently attracted attention for its low thermal conductivity. Here we investigate the optical properties of AgCrSe$_2$ in the ordered phase between 14 K and 374 K using reflectivity experiments. The far infrared optical response is dominated by three phonon modes, while six interband transitions are observed in the visible range. From our analysis we find that the phonon parameters display an interesting temperature dependence around the Néel temperature, pointing to a small magneto-elastic coupling. In addition, the lifetimes of the modes indicate that three-phonon processes dominate and the optical phonons decay into low energy acoustic modes involved in the super-ionic transition. Finally, we detect a small free charge carrier response through the analysis of Fabry-Perot interference fringes in our reflectivity data.",
+  "summary": null,
+  "page": true
+ },
+ {
+  "id": "2208.13754v3",
+  "link": "https://arxiv.org/abs/2208.13754",
+  "source": "arxiv",
+  "title": "Simple and Rigorous Proof Method for the Security of Practical Quantum Key Distribution in the Single-Qubit Regime Using Mismatched Basis Measurements",
+  "authors": [
+   [
+    "Michel Boyer",
+    null
+   ],
+   [
+    "Gilles Brassard",
+    "Gilles Brassard"
+   ],
+   [
+    "Nicolas Godbout",
+    null
+   ],
+   [
+    "Rotem Liss",
+    null
+   ],
+   [
+    "Stéphane Virally",
+    null
+   ]
+  ],
+  "date": "2022-08-29",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CR"
+  ],
+  "abstract": "Quantum key distribution (QKD) protocols aim at allowing two parties to generate a secret shared key. While many QKD protocols have been proven unconditionally secure in theory, practical security analyses of experimental QKD implementations typically do not take into account all possible loopholes, and practical devices are still not fully characterized for obtaining tight and realistic key rates. We present a simple method of computing secure key rates for any practical implementation of discrete-variable QKD (which can also apply to measurement-device-independent QKD), initially in the single-qubit lossless regime, and we rigorously prove its unconditional security against any possible attack. We hope our method becomes one of the standard tools used for analysing, benchmarking, and standardizing all practical realizations of QKD.",
   "summary": null,
   "page": true
  },
@@ -12534,7 +12627,7 @@
    ],
    [
     "Barbara Terhal",
-    null
+    "Barbara Terhal"
    ]
   ],
   "date": "2022-04-03",
@@ -13811,7 +13904,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Florian Speelman",
@@ -16837,7 +16930,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Felix Leditzky",
@@ -18085,7 +18178,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Jeroen Zuiddam",
@@ -18111,7 +18204,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Asger Kjærulff Jensen",
@@ -18164,6 +18257,46 @@
    "cs.DS"
   ],
   "abstract": "Brandão and Svore very recently gave quantum algorithms for approximately solving semidefinite programs, which in some regimes are faster than the best-possible classical algorithms in terms of the dimension $n$ of the problem and the number $m$ of constraints, but worse in terms of various other parameters. In this paper we improve their algorithms in several ways, getting better dependence on those other parameters. To this end we develop new techniques for quantum algorithms, for instance a general way to efficiently implement smooth functions of sparse Hamiltonians, and a generalized minimum-finding procedure. We also show limits on this approach to quantum SDP-solvers, for instance for combinatorial optimizations problems that have a lot of symmetry. Finally, we prove some general lower bounds showing that in the worst case, the complexity of every quantum LP-solver (and hence also SDP-solver) has to scale linearly with $mn$ when $m\\approx n$, which is the same as classical.",
+  "summary": null,
+  "page": true
+ },
+ {
+  "id": "1704.08182v2",
+  "link": "https://arxiv.org/abs/1704.08182",
+  "source": "arxiv",
+  "title": "Provably secure key establishment against quantum adversaries",
+  "authors": [
+   [
+    "Aleksandrs Belovs",
+    null
+   ],
+   [
+    "Gilles Brassard",
+    "Gilles Brassard"
+   ],
+   [
+    "Peter Hoyer",
+    null
+   ],
+   [
+    "Marc Kaplan",
+    null
+   ],
+   [
+    "Sophie Laplante",
+    null
+   ],
+   [
+    "Louis Salvail",
+    null
+   ]
+  ],
+  "date": "2017-04-26",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph"
+  ],
+  "abstract": "At Crypto 2011, some of us had proposed a family of cryptographic protocols for key establishment capable of protecting quantum and classical legitimate parties unconditionally against a quantum eavesdropper in the query complexity model. Unfortunately, our security proofs were unsatisfactory from a cryptographically meaningful perspective because they were sound only in a worst-case scenario. Here, we extend our results and prove that for any e > 0, there is a classical protocol that allows the legitimate parties to establish a common key after O(N) expected queries to a random oracle, yet any quantum eavesdropper will have a vanishing probability of learning their key after O(N^{1.5-e}) queries to the same oracle. The vanishing probability applies to a typical run of the protocol. If we allow the legitimate parties to use a quantum computer as well, their advantage over the quantum eavesdropper becomes arbitrarily close to the quadratic advantage that classical legitimate parties enjoyed over classical eavesdroppers in the seminal 1974 work of Ralph Merkle. Along the way, we develop new tools to give lower bounds on the number of quantum queries required to distinguish two probability distributions. This method in itself could have multiple applications in cryptography. We use it here to study average-case quantum query complexity, for which we develop a new composition theorem of independent interest.",
   "summary": null,
   "page": true
  },
@@ -18350,7 +18483,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Péter Vrana",
@@ -18519,7 +18652,7 @@
   "authors": [
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Jeroen Zuiddam",
@@ -18549,7 +18682,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Christopher Perry",
@@ -18635,7 +18768,7 @@
    ],
    [
     "Matthias Christandl",
-    null
+    "Matthias Christandl"
    ],
    [
     "Jeroen Zuiddam",

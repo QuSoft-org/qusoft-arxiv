@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-10-22T13:58:13",
- "total_papers": 489,
+ "last_updated": "2026-10-22T17:37:41",
+ "total_papers": 493,
  "papers": [
   {
    "id": "2610.29762v1",
@@ -21,12 +21,13 @@
     },
     {
      "name": "Barbara Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     }
    ],
    "qusoft_authors": [
     "Jelena Mackeprang",
-    "Yaroslav Herasymenko"
+    "Yaroslav Herasymenko",
+    "Barbara Terhal"
    ],
    "submitted": "2026-10-21 14:00:26",
    "revision": "2026-10-21 14:00:26",
@@ -52,6 +53,14 @@
      "2022–2025",
      "yaroslav_herasymenko.jpg",
      455561
+    ],
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
     ]
    ]
   },
@@ -3264,7 +3273,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Aram W. Harrow",
@@ -3284,6 +3293,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Michael Walter"
    ],
    "submitted": "2026-02-09 09:55:00",
@@ -3298,6 +3308,14 @@
    "pdf_url": "https://arxiv.org/pdf/2602.08441v1",
    "added": "2026-10-20",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Michael Walter",
      "Senior Researchers",
@@ -3728,11 +3746,12 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     }
    ],
    "qusoft_authors": [
-    "Freek Witteveen"
+    "Freek Witteveen",
+    "Matthias Christandl"
    ],
    "submitted": "2025-12-19 16:50:46",
    "revision": "2025-12-19 16:50:46",
@@ -3750,6 +3769,14 @@
      "",
      "freek_witteveen.jpg",
      89886
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -3944,6 +3971,46 @@
      "",
      "alexander_urech.png",
      20979
+    ]
+   ]
+  },
+  {
+   "id": "2512.02760v1",
+   "link": "https://arxiv.org/abs/2512.02760",
+   "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+   "authors": [
+    {
+     "name": "Matthias Christandl",
+     "person": "Matthias Christandl"
+    },
+    {
+     "name": "Omar Fawzi",
+     "person": null
+    },
+    {
+     "name": "Ashutosh Goswami",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Matthias Christandl"
+   ],
+   "submitted": "2025-12-02 13:41:25",
+   "revision": "2025-12-02 13:41:25",
+   "categories": [
+    "quant-ph"
+   ],
+   "abstract": "Fault-tolerant quantum computation traditionally incurs substantial resource overhead, with both qubit and time overheads scaling polylogarithmically with the size of the computation. While prior work by Gottesman showed that constant qubit overhead is achievable under stochastic noise using quantum low-density parity-check (QLDPC) codes, it has remained an open question whether similar guarantees hold under more general, non-stochastic noise models. In this work, we address this question by considering a general circuit-level noise model defined via the diamond norm, which captures both stochastic and non-stochastic noise, including coherent and amplitude damping noise. We prove that constant qubit overhead fault-tolerant quantum computation is achievable in this general setting, using QLDPC codes with constant rate and linear minimum distance. To establish our result, we develop a fault-tolerant error correction scheme and a method for implementing logic gates under general circuit noise. These results extend the theoretical foundations of fault-tolerant quantum computation and offer new directions for fault-tolerant architectures under realistic noise models.",
+   "pdf_url": "https://arxiv.org/pdf/2512.02760v1",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -4454,7 +4521,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Vladimir Lysikov",
@@ -4475,6 +4542,7 @@
    ],
    "qusoft_authors": [
     "Maxim van den Berg",
+    "Matthias Christandl",
     "Harold Nieuwboer",
     "Michael Walter",
     "Jeroen Zuiddam"
@@ -4499,6 +4567,14 @@
      "",
      "maxim_van_den_berg.jpg",
      3106
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Harold Nieuwboer",
@@ -4923,7 +4999,7 @@
     },
     {
      "name": "Barbara M. Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     },
     {
      "name": "Yaroslav Herasymenko",
@@ -4931,6 +5007,7 @@
     }
    ],
    "qusoft_authors": [
+    "Barbara Terhal",
     "Yaroslav Herasymenko"
    ],
    "submitted": "2025-10-02 15:31:55",
@@ -4942,6 +5019,14 @@
    "pdf_url": "https://arxiv.org/pdf/2510.02122v1",
    "added": "2025-10-02",
    "page_people": [
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
+    ],
     [
      "Yaroslav Herasymenko",
      "Postdocs",
@@ -6135,11 +6220,12 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     }
    ],
    "qusoft_authors": [
-    "Freek Witteveen"
+    "Freek Witteveen",
+    "Matthias Christandl"
    ],
    "submitted": "2025-06-25 16:27:36",
    "revision": "2025-06-25 16:27:36",
@@ -6161,6 +6247,14 @@
      "",
      "freek_witteveen.jpg",
      89886
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -6879,11 +6973,12 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     }
    ],
    "qusoft_authors": [
-    "Freek Witteveen"
+    "Freek Witteveen",
+    "Matthias Christandl"
    ],
    "submitted": "2025-04-24 18:41:23",
    "revision": "2025-04-24 18:41:23",
@@ -6901,6 +6996,14 @@
      "",
      "freek_witteveen.jpg",
      89886
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -7227,7 +7330,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Vladimir Lysikov",
@@ -7248,6 +7351,7 @@
    ],
    "qusoft_authors": [
     "Maxim van den Berg",
+    "Matthias Christandl",
     "Harold Nieuwboer",
     "Michael Walter",
     "Jeroen Zuiddam"
@@ -7272,6 +7376,14 @@
      "",
      "maxim_van_den_berg.jpg",
      3106
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Harold Nieuwboer",
@@ -7310,7 +7422,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Vladimir Lysikov",
@@ -7331,6 +7443,7 @@
    ],
    "qusoft_authors": [
     "Maxim van den Berg",
+    "Matthias Christandl",
     "Harold Nieuwboer",
     "Michael Walter",
     "Jeroen Zuiddam"
@@ -7355,6 +7468,14 @@
      "",
      "maxim_van_den_berg.jpg",
      3106
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Harold Nieuwboer",
@@ -7622,7 +7743,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Aram Harrow",
@@ -7630,7 +7751,8 @@
     }
    ],
    "qusoft_authors": [
-    "Freek Witteveen"
+    "Freek Witteveen",
+    "Matthias Christandl"
    ],
    "submitted": "2025-03-07 18:09:32",
    "revision": "2025-03-07 18:09:32",
@@ -7648,6 +7770,14 @@
      "",
      "freek_witteveen.jpg",
      89886
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -9497,7 +9627,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Koen Hoeberechts",
@@ -9517,6 +9647,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Harold Nieuwboer",
     "Jeroen Zuiddam"
    ],
@@ -9531,6 +9662,14 @@
    "pdf_url": "https://arxiv.org/pdf/2411.15789v2",
    "added": "2026-10-22",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Harold Nieuwboer",
      "PhD Students",
@@ -10175,7 +10314,7 @@
     },
     {
      "name": "Barbara Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     },
     {
      "name": "Yaroslav Herasymenko",
@@ -10183,6 +10322,7 @@
     }
    ],
    "qusoft_authors": [
+    "Barbara Terhal",
     "Yaroslav Herasymenko"
    ],
    "submitted": "2024-09-06 18:25:03",
@@ -10195,6 +10335,14 @@
    "pdf_url": "https://arxiv.org/pdf/2409.04550v4",
    "added": "2024-09-06",
    "page_people": [
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
+    ],
     [
      "Yaroslav Herasymenko",
      "Postdocs",
@@ -10517,6 +10665,46 @@
      "2022–2024",
      "ludovico_lami.png",
      88439
+    ]
+   ]
+  },
+  {
+   "id": "2408.05260v3",
+   "link": "https://arxiv.org/abs/2408.05260",
+   "title": "Fault-tolerant quantum input/output",
+   "authors": [
+    {
+     "name": "Matthias Christandl",
+     "person": "Matthias Christandl"
+    },
+    {
+     "name": "Omar Fawzi",
+     "person": null
+    },
+    {
+     "name": "Ashutosh Goswami",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Matthias Christandl"
+   ],
+   "submitted": "2024-08-09 12:26:38",
+   "revision": "2025-12-02 18:57:31",
+   "categories": [
+    "quant-ph"
+   ],
+   "abstract": "Usual scenarios of fault-tolerant computation are concerned with the fault-tolerant realization of quantum algorithms that compute classical functions, such as Shor's algorithm for factoring. In particular, this means that input and output to the quantum algorithm are classical. In contrast to stand-alone single-core quantum computers, in many distributed scenarios, quantum information might have to be passed on from one quantum information processing system to another one, possibly via noisy quantum communication channels with noise levels above fault-tolerant thresholds. In such situations, quantum information processing devices will have quantum inputs, quantum outputs or even both, which pass qubits among each other. Working in the fault-tolerant framework of [Kitaev, 1997], we show that any quantum circuit with quantum input and output can be transformed into a fault-tolerant circuit that produces the ideal circuit with some controlled noise applied at the input and output. The framework allows the direct composition of the statements, enabling versatile future applications. We illustrate this with a concrete application, namely, communication over a noisy channel with faulty encoding and decoding operations [Christandl and M{ü}ller-Hermes, 2024]. For communication codes with linear minimum distance, we construct fault-tolerant encoders and decoders for general noise (including coherent errors). For the weaker, but standard, model of local stochastic noise, we obtain fault-tolerant encoders and decoders for any communication code that can correct a constant fraction random errors.",
+   "pdf_url": "https://arxiv.org/pdf/2408.05260v3",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ]
    ]
   },
@@ -12192,7 +12380,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Llorenç Escolà-Farràs",
@@ -12210,6 +12398,7 @@
    "qusoft_authors": [
     "Rene Allerstorfer",
     "Harry Buhrman",
+    "Matthias Christandl",
     "Llorenç Escolà-Farràs",
     "Florian Speelman",
     "Philip Verduyn Lunel"
@@ -12238,6 +12427,14 @@
      "",
      "harry_buhrman.jpg",
      8565
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Llorenç Escolà-Farràs",
@@ -14059,7 +14256,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Dmitry Grinko",
@@ -14084,6 +14281,7 @@
    ],
    "qusoft_authors": [
     "Rene Allerstorfer",
+    "Matthias Christandl",
     "Dmitry Grinko",
     "Maris Ozols",
     "Philip Verduyn Lunel"
@@ -14104,6 +14302,14 @@
      "2020–2024",
      "rene_allerstorfer.jpg",
      191485
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Dmitry Grinko",
@@ -14522,7 +14728,7 @@
     },
     {
      "name": "Barbara Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     },
     {
      "name": "Jonas Helsen",
@@ -14531,6 +14737,7 @@
    ],
    "qusoft_authors": [
     "Yaroslav Herasymenko",
+    "Barbara Terhal",
     "Jonas Helsen"
    ],
    "submitted": "2023-07-25 18:00:02",
@@ -14551,6 +14758,14 @@
      "2022–2025",
      "yaroslav_herasymenko.jpg",
      455561
+    ],
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
     ],
     [
      "Jonas Helsen",
@@ -14659,7 +14874,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Vladimir Lysikov",
@@ -14679,6 +14894,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Freek Witteveen"
    ],
    "submitted": "2023-07-14 15:11:02",
@@ -14690,6 +14906,14 @@
    "pdf_url": "https://arxiv.org/pdf/2307.07394v3",
    "added": "2023-07-14",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Freek Witteveen",
      "Senior Researchers",
@@ -16525,12 +16749,13 @@
     },
     {
      "name": "Barbara Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     }
    ],
    "qusoft_authors": [
     "Yaroslav Herasymenko",
-    "Jonas Helsen"
+    "Jonas Helsen",
+    "Barbara Terhal"
    ],
    "submitted": "2022-11-29 19:00:01",
    "revision": "2023-08-03 17:21:59",
@@ -16559,6 +16784,14 @@
      "",
      "jonas_helsen.jpg",
      10744
+    ],
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
     ]
    ]
   },
@@ -17263,6 +17496,55 @@
      "",
      "erik_van_heumen.jpg",
      13710
+    ]
+   ]
+  },
+  {
+   "id": "2208.13754v3",
+   "link": "https://arxiv.org/abs/2208.13754",
+   "title": "Simple and Rigorous Proof Method for the Security of Practical Quantum Key Distribution in the Single-Qubit Regime Using Mismatched Basis Measurements",
+   "authors": [
+    {
+     "name": "Michel Boyer",
+     "person": null
+    },
+    {
+     "name": "Gilles Brassard",
+     "person": "Gilles Brassard"
+    },
+    {
+     "name": "Nicolas Godbout",
+     "person": null
+    },
+    {
+     "name": "Rotem Liss",
+     "person": null
+    },
+    {
+     "name": "Stéphane Virally",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Gilles Brassard"
+   ],
+   "submitted": "2022-08-29 17:37:58",
+   "revision": "2023-07-03 16:55:26",
+   "categories": [
+    "quant-ph",
+    "cs.CR"
+   ],
+   "abstract": "Quantum key distribution (QKD) protocols aim at allowing two parties to generate a secret shared key. While many QKD protocols have been proven unconditionally secure in theory, practical security analyses of experimental QKD implementations typically do not take into account all possible loopholes, and practical devices are still not fully characterized for obtaining tight and realistic key rates. We present a simple method of computing secure key rates for any practical implementation of discrete-variable QKD (which can also apply to measurement-device-independent QKD), initially in the single-qubit lossless regime, and we rigorously prove its unconditional security against any possible attack. We hope our method becomes one of the standard tools used for analysing, benchmarking, and standardizing all practical realizations of QKD.",
+   "pdf_url": "https://arxiv.org/pdf/2208.13754v3",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Gilles Brassard",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "gilles_brassard.jpeg",
+     29149
     ]
    ]
   },
@@ -18279,11 +18561,12 @@
     },
     {
      "name": "Barbara Terhal",
-     "person": null
+     "person": "Barbara Terhal"
     }
    ],
    "qusoft_authors": [
-    "Jonas Helsen"
+    "Jonas Helsen",
+    "Barbara Terhal"
    ],
    "submitted": "2022-04-03 16:49:08",
    "revision": "2022-05-09 10:02:24",
@@ -18301,6 +18584,14 @@
      "",
      "jonas_helsen.jpg",
      10744
+    ],
+    [
+     "Barbara Terhal",
+     "Turing Chair",
+     "alumni",
+     "2026",
+     "barbara_terhal.jpg",
+     40970
     ]
    ]
   },
@@ -20501,7 +20792,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Florian Speelman",
@@ -20509,6 +20800,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Florian Speelman"
    ],
    "submitted": "2021-04-13 15:48:11",
@@ -20521,6 +20813,14 @@
    "pdf_url": "https://arxiv.org/pdf/2104.06301v3",
    "added": "2026-10-22",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Florian Speelman",
      "Senior Researchers",
@@ -25363,7 +25663,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Felix Leditzky",
@@ -25387,6 +25687,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Christian Majenz",
     "Florian Speelman",
     "Michael Walter"
@@ -25401,6 +25702,14 @@
    "pdf_url": "https://arxiv.org/pdf/1809.10751v2",
    "added": "2018-09-27",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Christian Majenz",
      "Postdocs",
@@ -27277,7 +27586,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Jeroen Zuiddam",
@@ -27285,6 +27594,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2017-05-26 17:22:03",
@@ -27298,6 +27608,14 @@
    "pdf_url": "https://arxiv.org/pdf/1705.09652v1",
    "added": "2026-10-22",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Jeroen Zuiddam",
      "Senior Researchers",
@@ -27315,7 +27633,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Asger Kjærulff Jensen",
@@ -27327,6 +27645,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2017-05-25 21:55:17",
@@ -27340,6 +27659,14 @@
    "pdf_url": "https://arxiv.org/pdf/1705.09379v4",
    "added": "2026-10-22",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Jeroen Zuiddam",
      "Senior Researchers",
@@ -27420,6 +27747,58 @@
      "",
      "ronald_de_wolf.jpg",
      228745
+    ]
+   ]
+  },
+  {
+   "id": "1704.08182v2",
+   "link": "https://arxiv.org/abs/1704.08182",
+   "title": "Provably secure key establishment against quantum adversaries",
+   "authors": [
+    {
+     "name": "Aleksandrs Belovs",
+     "person": null
+    },
+    {
+     "name": "Gilles Brassard",
+     "person": "Gilles Brassard"
+    },
+    {
+     "name": "Peter Hoyer",
+     "person": null
+    },
+    {
+     "name": "Marc Kaplan",
+     "person": null
+    },
+    {
+     "name": "Sophie Laplante",
+     "person": null
+    },
+    {
+     "name": "Louis Salvail",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Gilles Brassard"
+   ],
+   "submitted": "2017-04-26 16:24:01",
+   "revision": "2017-04-28 15:20:02",
+   "categories": [
+    "quant-ph"
+   ],
+   "abstract": "At Crypto 2011, some of us had proposed a family of cryptographic protocols for key establishment capable of protecting quantum and classical legitimate parties unconditionally against a quantum eavesdropper in the query complexity model. Unfortunately, our security proofs were unsatisfactory from a cryptographically meaningful perspective because they were sound only in a worst-case scenario. Here, we extend our results and prove that for any e > 0, there is a classical protocol that allows the legitimate parties to establish a common key after O(N) expected queries to a random oracle, yet any quantum eavesdropper will have a vanishing probability of learning their key after O(N^{1.5-e}) queries to the same oracle. The vanishing probability applies to a typical run of the protocol. If we allow the legitimate parties to use a quantum computer as well, their advantage over the quantum eavesdropper becomes arbitrarily close to the quadratic advantage that classical legitimate parties enjoyed over classical eavesdroppers in the seminal 1974 work of Ralph Merkle. Along the way, we develop new tools to give lower bounds on the number of quantum queries required to distinguish two probability distributions. This method in itself could have multiple applications in cryptography. We use it here to study average-case quantum query complexity, for which we develop a new composition theorem of independent interest.",
+   "pdf_url": "https://arxiv.org/pdf/1704.08182v2",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Gilles Brassard",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "gilles_brassard.jpeg",
+     29149
     ]
    ]
   },
@@ -27686,7 +28065,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Péter Vrana",
@@ -27698,6 +28077,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2016-09-23 19:55:05",
@@ -27711,6 +28091,14 @@
    "pdf_url": "https://arxiv.org/pdf/1609.07476v2",
    "added": "2016-09-23",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Jeroen Zuiddam",
      "Senior Researchers",
@@ -27945,7 +28333,7 @@
    "authors": [
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Jeroen Zuiddam",
@@ -27953,6 +28341,7 @@
     }
    ],
    "qusoft_authors": [
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2016-06-13 19:55:05",
@@ -27966,6 +28355,14 @@
    "pdf_url": "https://arxiv.org/pdf/1606.04085v3",
    "added": "2016-06-13",
    "page_people": [
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
+    ],
     [
      "Jeroen Zuiddam",
      "Senior Researchers",
@@ -27987,7 +28384,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Christopher Perry",
@@ -28000,6 +28397,7 @@
    ],
    "qusoft_authors": [
     "Harry Buhrman",
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2016-05-25 16:07:03",
@@ -28018,6 +28416,14 @@
      "",
      "harry_buhrman.jpg",
      8565
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Jeroen Zuiddam",
@@ -28136,7 +28542,7 @@
     },
     {
      "name": "Matthias Christandl",
-     "person": null
+     "person": "Matthias Christandl"
     },
     {
      "name": "Jeroen Zuiddam",
@@ -28145,6 +28551,7 @@
    ],
    "qusoft_authors": [
     "Harry Buhrman",
+    "Matthias Christandl",
     "Jeroen Zuiddam"
    ],
    "submitted": "2016-03-11 20:46:57",
@@ -28164,6 +28571,14 @@
      "",
      "harry_buhrman.jpg",
      8565
+    ],
+    [
+     "Matthias Christandl",
+     "Turing Chair",
+     "alumni",
+     "2024",
+     "matthias_christandl.jpg",
+     14270
     ],
     [
      "Jeroen Zuiddam",
