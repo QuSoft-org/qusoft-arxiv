@@ -18,7 +18,7 @@ centres:
     affiliation: 'QuSoft'
     own_funds: '\bCWI\b|Centrum\s+Wiskunde|University\s+of\s+Amsterdam|\bUvA\b'
     cordis_orgs: 'UNIVERSITEIT VAN AMSTERDAM|STICHTING NEDERLANDSE WETENSCHAPPELIJK ONDERZOEK INSTITUTEN'
-    cordis_orgs_label: 'UvA + NWO-I (CWI and other NWO institutes)'
+    cordis_orgs_label: 'UvA + NWO-I'
     use_site_database: true   # the site's database already has every paper with QuSoft on the first page
     pis: people.csv           # senior researchers in people.csv
 

@@ -312,7 +312,8 @@ def main():
               f"{len(nwo_seen)} NWO grants; {sum(v[0] for v in eu_by.values())} EU quantum projects, €{total_eu:,.0f}")
 
     caveat = ("A: acknowledgements count mentions, not money, and also thank co-authors' funders. Only papers with a "
-              "centre PI and the centre on the first page. B: NWO's database has no amounts and may miss recent grants. "
+              "centre PI and the centre on the first page. B: NWO's database has no amounts and may miss recent grants; "
+              "QuTech's core funding (government, TNO, industry) does not go through NWO, so it shows few NWO grants. "
               "C: CORDIS lists the university (or NWO-I, TNO), not the centre, so it covers all quantum projects there. "
               "PI lists are hand-made from the centres' websites (centres.yaml).")
     wb = Workbook()

@@ -119,7 +119,9 @@ tr.detail blockquote { margin: 0 0 .5rem; font: italic 400 .95rem/1.5 var(--seri
 /* Comparison */
 .centres-table td:first-child { font: 600 1rem var(--serif); }
 .centres-table tr.us td { background: color-mix(in srgb, var(--v-qusoft) 8%, var(--surface)); }
-.cellbar { display: inline-block; height: .55rem; border-radius: 0 3px 3px 0; background: var(--other-centre); vertical-align: middle; margin-left: .4rem; }
+.cellbar { display: block; height: .4rem; border-radius: 3px; background: var(--other-centre); margin: .3rem 0 0 auto; min-width: 2px; }
+.centres-table th { white-space: normal; vertical-align: bottom; font-size: .82rem; }
+.centres-table td { white-space: nowrap; }
 tr.us .cellbar { background: var(--v-qusoft); }
 .multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1.25rem; }
 .multiples h3 { font: 600 1rem var(--serif); margin: 0 0 .25rem; }
@@ -410,7 +412,7 @@ function renderCompare() {
     h += `<tr class="${c.key === "qusoft" ? "us" : ""}"><td>${esc(c.name)}</td>`;
     for (const [, f, show] of cols) {
       const mx = Math.max(...cs.map(f)) || 1;
-      h += `<td class="num">${show(c)}<span class="cellbar" style="width:${(2.2 * f(c) / mx).toFixed(2)}rem"></span></td>`;
+      h += `<td class="num">${show(c)}<span class="cellbar" style="width:${(3.5 * f(c) / mx).toFixed(2)}rem"></span></td>`;
     }
     h += `</tr>`;
   }
@@ -419,7 +421,8 @@ function renderCompare() {
     QuSoft in red; hover a dot for the centre. Papers also thank co-authors' funders, so read this as a profile, not a budget.</p>
     <div class="chart" id="dots"></div>`;
   h += `<h2>EU money for quantum projects, by start year</h2><p class="note">CORDIS contributions to the host organisation for
-    projects mentioning quantum, by the year the project started. Same scale in every panel.</p><div class="multiples" id="eu"></div>`;
+    projects mentioning quantum, by the year the project started (the total includes projects starting later). Same scale in every panel. NWO-I is the legal body of CWI and
+    the other NWO institutes, so QuSoft's figure also holds e.g. AMOLF's quantum projects.</p><div class="multiples" id="eu"></div>`;
   h += `<h2>NWO grants held by PIs, by kind</h2><p class="note">Grants in NWO's database that list one of the centre's PIs in any role,
     started since ${C.since.slice(0, 4)}. In brackets: as main applicant or project leader.</p><div class="tablewrap" id="nwo"></div>`;
   box.innerHTML = h;
@@ -448,6 +451,8 @@ function drawCompareCharts() {
     const y = m.t + i * rowH + rowH / 2;
     s += `<text x="${m.l - 10}" y="${y + 4}" text-anchor="end" style="fill:${css("--ink")}">${esc(g.length > 34 && W < 600 ? g.slice(0, 32) + "…" : g)}</text>`;
     const vals = cs.map(c => c.share[g] || 0);
+    const lead = cs.slice().sort((a, b) => (b.share[g] || 0) - (a.share[g] || 0))[0];
+    if (lead.key !== "qusoft" && W >= 600) s += `<text x="${X(lead.share[g] || 0) + 10}" y="${y + 4}">${esc(lead.name)}</text>`;
     s += `<line x1="${X(Math.min(...vals))}" x2="${X(Math.max(...vals))}" y1="${y}" y2="${y}" stroke="${css("--rule")}" stroke-width="2"/>`;
     cs.filter(c => c.key !== "qusoft").concat(cs.filter(c => c.key === "qusoft")).forEach(c => {
       const us = c.key === "qusoft";
@@ -473,7 +478,7 @@ function drawCompareCharts() {
   eu.innerHTML = "";
   for (const c of cs) {
     const card = el("div");
-    const total = Object.values(c.eu_by_year).reduce((a, b) => a + b, 0);
+    const total = Object.values(c.eu || {}).reduce((a, v) => a + v.ec, 0);
     card.innerHTML = `<h3>${esc(c.name)}</h3><p class="total">${euro(total) || "€0"} to ${esc(c.eu_orgs)}</p>`;
     const w = 220, h = 90, bw = w / years.length;
     let s = `<svg viewBox="0 0 ${w} ${h + 16}" role="img" aria-label="${esc(c.name)} EU quantum funding by start year">`;
