@@ -27,6 +27,8 @@
   const formatDate = (iso) => dateFmt.format(new Date(iso + "T12:00:00"));
   const daysAgo = (iso) => (Date.now() - new Date(iso + "T12:00:00")) / 864e5;
   const today = () => new Date().toISOString().slice(0, 10);
+  // New on the site and also recent: older papers found later (other servers, rule changes) don't count as news.
+  const isFresh = (p, days) => daysAgo(p.added) <= days && daysAgo(p.date) <= 60;
 
   // LaTeX in titles and abstracts, typeset by MathJax once it has loaded (see index.html).
   const hasMath = (text) => /\$|\\\(/.test(text || "");
@@ -187,7 +189,7 @@
         e.currentTarget.textContent = open ? "Hide abstract" : "Abstract";
       },
     }, "Abstract");
-    const isNew = daysAgo(p.added) <= 7;
+    const isNew = isFresh(p, 7);
     return el("li", { class: "paper" },
       el("h3", { class: "paper-title" }, el("a", { href: p.link }, p.title)),
       authorLine(p),
@@ -202,7 +204,7 @@
   }
 
   function renderIntro() {
-    const recent = papers.filter((p) => daysAgo(p.added) <= 7).length;
+    const recent = papers.filter((p) => isFresh(p, 7)).length;
     const lede = $("#papers-lede");
     lede.replaceChildren(
       `${papers.length} papers since ${stats.first_year}, by ${stats.people} current and former members of QuSoft, the research center for quantum software in Amsterdam. `,
@@ -334,10 +336,10 @@
     const saved = store.get(PRINTED, { ids: [], last: null });
     const printed = new Set(saved.ids);
     const since = saved.last || new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10);
-    const all = papers.filter((p) => p.page).sort((a, b) => (b.added + b.date).localeCompare(a.added + a.date));
-    const unprinted = (p) => !printed.has(p.id) && p.added >= since;
+    const all = papers.filter((p) => p.page).sort((a, b) => b.date.localeCompare(a.date));
+    const unprinted = (p) => !printed.has(p.id) && p.added >= since && daysAgo(p.date) <= 60;
     const ticked = new Set(all.filter(unprinted).map((p) => p.id));
-    let limit = Math.max(24, all.filter((p) => daysAgo(p.added) <= 90).length);
+    let limit = Math.max(24, all.filter((p) => daysAgo(p.date) <= 90).length);
 
     const grid = $("#print-grid");
     function card(p) {
