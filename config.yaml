@@ -5,7 +5,7 @@ database:
   excel_file: "qusofters/QuSoft Database.xlsx"   # private source for people.csv (not in git)
   papers_db: "data/papers_database.json"         # all QuSoft-affiliated papers
   search_state: "data/search_state.json"         # per person: last search date and working query
-  rejected_ids: "data/rejected_ids.json"         # papers checked without QuSoft on the first page
+  rejected_ids: "data/rejected_ids.json"         # papers checked that don't name QuSoft
 
 paths:
   portraits_dir: "qusofters/portraits"

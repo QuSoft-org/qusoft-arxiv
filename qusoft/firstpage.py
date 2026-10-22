@@ -10,6 +10,7 @@ always shown in black and white.
 """
 
 import io
+import re
 from pathlib import Path
 
 import fitz  # PyMuPDF
@@ -162,6 +163,14 @@ def make_first_page(paper, source_pdf, people):
     if CFG["submission_to_qip_box"]:
         band = _qip_box(page, last_x, band, width)
 
+    # QuSoft named only further on (e.g. addresses after the references): say where.
+    where = qusoft_page(src)
+    if where and where > 1:
+        fs = 10
+        page.insert_text((MARGIN, band + fs), f"QuSoft is named on page {where} of the paper.", fontsize=fs,
+                         color=(0.38, 0.42, 0.46))
+        band += fs + 4 + GAP / 2
+
     # The paper's own first page, cropped to its content and as large as fits below the band.
     avail_w, avail_h = width - 2 * MARGIN, height - band - MARGIN / 2
     scale = min(avail_w / clip.width, avail_h / clip.height)
@@ -196,10 +205,37 @@ def save_first_page(doc, pdf_out, thumb_out):
     Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(thumb_out, "WEBP", quality=72, method=6)
 
 
-def has_qusoft_on_first_page(source_pdf):
+# On later pages, a QuSoft mention counts when it is an affiliation (an address, an email),
+# support or funding, or work done at QuSoft; not when QuSoft is only thanked for discussions.
+# Many maths papers give the authors' addresses after the references.
+AFFILIATION = re.compile(r"support|fund|financ|affiliat|associated|while|when|postdoc|researcher|position|chair|done\b"
+                         r"|Science\s*Park|1098|@|e-?mail|address|https?://|www\.", re.I)
+INSTITUTION = re.compile(r"Universit|Institut|Faculty|Department|Centrum|CWI")
+THANKS = re.compile(r"thank|grateful|discussion|hospitality|visit", re.I)
+SENTENCE_END = re.compile(r"(?<=[a-z0-9)\]][.!?])\s+(?=[A-Z])")
+
+
+def qusoft_page(doc):
+    """First page (1-based) that names QuSoft as an affiliation or supporter, or None."""
+    for i, page in enumerate(doc):
+        text = page.get_text()
+        if "qusoft" not in text.lower():
+            continue
+        if i == 0:
+            return 1
+        text = re.sub(r"(\w)-\n(\w)", r"\1\2", text)
+        text = re.sub(r"\s+", " ", text)
+        if any("qusoft" in s.lower() and (AFFILIATION.search(s) or (INSTITUTION.search(s) and not THANKS.search(s)))
+               for s in SENTENCE_END.split(text)):
+            return i + 1
+    return None
+
+
+def mentions_qusoft(source_pdf):
+    """Does the paper name QuSoft as an affiliation or supporter, on any page?"""
     try:
         with fitz.open(source_pdf) as doc:
-            return len(doc) > 0 and "qusoft" in doc[0].get_text().lower()
+            return qusoft_page(doc) is not None
     except Exception as e:
         print(f"    could not read {source_pdf}: {e}")
         return False

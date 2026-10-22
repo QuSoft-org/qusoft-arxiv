@@ -867,6 +867,353 @@
   "page": true
  },
  {
+  "id": "2608.18743v1",
+  "link": "https://arxiv.org/abs/2608.18743",
+  "title": "Technical Proposal for the Atom Interferometer CERN Experiment (AICE) Facility",
+  "authors": [
+   [
+    "Gianluigi Arduini",
+    null
+   ],
+   [
+    "Nadja Augst",
+    null
+   ],
+   [
+    "Mark G. Bason",
+    null
+   ],
+   [
+    "Charles Baynham",
+    null
+   ],
+   [
+    "Andrea Bertoldi",
+    null
+   ],
+   [
+    "Gianfranco Bertone",
+    null
+   ],
+   [
+    "Diego Blas",
+    null
+   ],
+   [
+    "Daniela Bortoletto",
+    null
+   ],
+   [
+    "Sougato Bose",
+    null
+   ],
+   [
+    "Roberto Ales Bozzi",
+    null
+   ],
+   [
+    "Oliver Buchmueller",
+    null
+   ],
+   [
+    "Tamara Alice Bud",
+    null
+   ],
+   [
+    "Clare Burrage",
+    null
+   ],
+   [
+    "Sergio Calatroni",
+    null
+   ],
+   [
+    "John Carlton",
+    null
+   ],
+   [
+    "Vassilis Charmandaris",
+    null
+   ],
+   [
+    "Maria Luisa Chiofalo",
+    null
+   ],
+   [
+    "Pierre Cladé",
+    null
+   ],
+   [
+    "Jonathon Coleman",
+    null
+   ],
+   [
+    "Fabio Corsanego",
+    null
+   ],
+   [
+    "Albert De Roeck",
+    null
+   ],
+   [
+    "Arnaud Devienne",
+    null
+   ],
+   [
+    "Fabio Di Pumpo",
+    null
+   ],
+   [
+    "John Ellis",
+    null
+   ],
+   [
+    "Pierre Fayet",
+    null
+   ],
+   [
+    "Chris Foot",
+    null
+   ],
+   [
+    "Elina Fuchs",
+    null
+   ],
+   [
+    "Naceur Gaaloul",
+    null
+   ],
+   [
+    "Susan Gardner",
+    null
+   ],
+   [
+    "Enno Giese",
+    null
+   ],
+   [
+    "Eduardo Granados",
+    null
+   ],
+   [
+    "Saïda Guellati-Khelifa",
+    null
+   ],
+   [
+    "Michael Guinchard",
+    null
+   ],
+   [
+    "Timo Hakulinen",
+    null
+   ],
+   [
+    "Tiffany Harte",
+    null
+   ],
+   [
+    "Richard Hobson",
+    null
+   ],
+   [
+    "Michael Holynski",
+    null
+   ],
+   [
+    "Angelo Infantino",
+    null
+   ],
+   [
+    "Alex Kehagias",
+    null
+   ],
+   [
+    "Eva Kilian-Rademacher",
+    null
+   ],
+   [
+    "Wolfgang Korsch",
+    null
+   ],
+   [
+    "Damien Lafarge",
+    null
+   ],
+   [
+    "Samuel Lellouch",
+    null
+   ],
+   [
+    "Lucas Lombriser",
+    null
+   ],
+   [
+    "Elias Lopez Asamar",
+    null
+   ],
+   [
+    "J. Luis Lopez-Gonzalez",
+    null
+   ],
+   [
+    "Michele Maggiore",
+    null
+   ],
+   [
+    "Charline Marcel",
+    null
+   ],
+   [
+    "Anna Marchant",
+    null
+   ],
+   [
+    "Christopher McCabe",
+    null
+   ],
+   [
+    "Gaetano Mileti",
+    null
+   ],
+   [
+    "Peter Millington",
+    null
+   ],
+   [
+    "Jeremiah Mitchell",
+    null
+   ],
+   [
+    "Noam Mouelle",
+    null
+   ],
+   [
+    "Angel Navascues Cornago",
+    null
+   ],
+   [
+    "François Pillon",
+    null
+   ],
+   [
+    "Rosa Poggiani",
+    null
+   ],
+   [
+    "Johann Rafelski",
+    null
+   ],
+   [
+    "Ernst M. Rasel",
+    null
+   ],
+   [
+    "Maike Reckermann",
+    null
+   ],
+   [
+    "Albert Roura",
+    null
+   ],
+   [
+    "Rui Samoes",
+    null
+   ],
+   [
+    "Federico Sanchez Nieto",
+    null
+   ],
+   [
+    "Jack Sander",
+    null
+   ],
+   [
+    "Carlo Scarcia",
+    null
+   ],
+   [
+    "Jesse Schelfhout",
+    null
+   ],
+   [
+    "Wolfgang Schleich",
+    null
+   ],
+   [
+    "Dennis Schlippert",
+    null
+   ],
+   [
+    "Ulrich Schneider",
+    null
+   ],
+   [
+    "Steven Schramm",
+    null
+   ],
+   [
+    "Florian Schreck",
+    "Florian Schreck"
+   ],
+   [
+    "Olga Sergijenko",
+    null
+   ],
+   [
+    "Marcelle Soares-Santos",
+    null
+   ],
+   [
+    "Guglielmo M. Tino",
+    null
+   ],
+   [
+    "Jonathan N. Tinsley",
+    null
+   ],
+   [
+    "Tristan Valenzuela",
+    null
+   ],
+   [
+    "Daniel Valuch",
+    null
+   ],
+   [
+    "Maurits van der Grinten",
+    null
+   ],
+   [
+    "Klaasjan van Druten",
+    "Klaasjan van Druten"
+   ],
+   [
+    "Ville Vaskonen",
+    null
+   ],
+   [
+    "Wolf von Klitzing",
+    null
+   ],
+   [
+    "Michael Werner",
+    null
+   ]
+  ],
+  "date": "2026-08-19",
+  "added": "2026-10-22",
+  "categories": [
+   "hep-ex",
+   "astro-ph.IM",
+   "gr-qc",
+   "physics.atom-ph",
+   "physics.ins-det",
+   "quant-ph"
+  ],
+  "abstract": "We present the technical proposal for the Atom Interferometer CERN Experiment (AICE), a $\\mathcal{O}(100)$ m vertical atom interferometer to be installed against the wall of the PX46 access shaft to the LHC. AICE is conceived as a versatile and flexible long-baseline atom-interferometry facility whose primary scientific goal is probing for bosonic ultralight dark matter (ULDM) in a mass range inaccessible to other experiments, with a secondary goal of pioneering the exploration of gravitational waves (GWs) with frequencies in the range ${\\sim}$0.03-3 Hz as a pathfinder for future longer-baseline detectors. The initial configuration employs ultracold $^{87}$Sr atoms in a single-photon 698-nm interferometer with three shaft-based atom sources in a multi-source gradiometer geometry, supported by one surface reference source for laser stabilisation and diagnostics, to target scalar ULDM. Operation with $^{88}$Sr will give sensitivity to axion-like particles (ALPs), vector ULDM with $B-L$ couplings and violation of the principle of equivalence, while a $^{171}$Yb upgrade will improve the sensitivity to $B-L$ couplings and equivalence violations. Probing the Einstein equivalence principle (EP) and measuring $α$ will proceed in parallel with the ULDM searches. A conceptual feasibility study and a detailed technical implementation study have established that PX46 is a uniquely mature and implementation-ready site, with no technical showstoppers. Completing site preparation works during LS3 would enable the subsequent installation and operation of AICE without impacting HL-LHC operations. The detector design builds on the VLBAI and MAGIS experiments and the AION-10 Technical Design Report, scaling the strontium gradiometer architecture to the $\\sim$100 m baseline. AICE is endorsed by the TVLBAI Proto-Collaboration, comprising 57 institutions in 22 countries.",
+  "page": true
+ },
+ {
   "id": "2608.18650v1",
   "link": "https://arxiv.org/abs/2608.18650",
   "title": "(Almost) quadruply optimal unitary designs in 1D",
@@ -2369,6 +2716,48 @@
   "page": true
  },
  {
+  "id": "2510.08336v1",
+  "link": "https://arxiv.org/abs/2510.08336",
+  "title": "Computing moment polytopes -- with a focus on tensors, entanglement and matrix multiplication",
+  "authors": [
+   [
+    "Maxim van den Berg",
+    "Maxim van den Berg"
+   ],
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Vladimir Lysikov",
+    null
+   ],
+   [
+    "Harold Nieuwboer",
+    "Harold Nieuwboer"
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2025-10-09",
+  "added": "2026-10-22",
+  "categories": [
+   "math.RT",
+   "cs.CC",
+   "cs.SC",
+   "math.AG",
+   "quant-ph"
+  ],
+  "abstract": "Tensors are fundamental in mathematics, computer science, and physics. Their study through algebraic geometry and representation theory has proved very fruitful in the context of algebraic complexity theory and quantum information. In particular, moment polytopes have been understood to play a key role. In quantum information, moment polytopes (also known as entanglement polytopes) provide a framework for the single-particle quantum marginal problem and offer a geometric characterization of entanglement. In algebraic complexity, they underpin quantum functionals that capture asymptotic tensor relations. More recently, moment polytopes have also become foundational to the emerging field of scaling algorithms in computer science and optimization. Despite their fundamental role and interest from many angles, much is still unknown about these polytopes, and in particular for tensors beyond $\\mathbb{C}^2\\otimes\\mathbb{C}^2\\otimes\\mathbb{C}^2$ and $\\mathbb{C}^2\\otimes\\mathbb{C}^2\\otimes\\mathbb{C}^2\\otimes\\mathbb{C}^2$ only sporadically have they been computed. We give a new algorithm for computing moment polytopes of tensors (and in fact moment polytopes for the general class of reductive algebraic groups) based on a mathematical description by Franz (J. Lie Theory 2002). This algorithm enables us to compute moment polytopes of tensors of dimension an order of magnitude larger than previous methods, allowing us to compute with certainty, for the first time, all moment polytopes of tensors in $\\mathbb{C}^3\\otimes\\mathbb{C}^3\\otimes\\mathbb{C}^3$, and with high probability those in $\\mathbb{C}^4\\otimes\\mathbb{C}^4\\otimes\\mathbb{C}^4$ (which includes the $2\\times 2$ matrix multiplication tensor). We discuss how these explicit moment polytopes have led to several new theoretical directions and results.",
+  "page": true
+ },
+ {
   "id": "2510.07305v1",
   "link": "https://arxiv.org/abs/2510.07305",
   "title": "Is it Gaussian? Testing bosonic quantum states",
@@ -3728,6 +4117,29 @@
   "page": true
  },
  {
+  "id": "2505.13134v1",
+  "link": "https://arxiv.org/abs/2505.13134",
+  "title": "A near-optimal Quadratic Goldreich-Levin algorithm",
+  "authors": [
+   [
+    "Jop Briët",
+    "Jop Briët"
+   ],
+   [
+    "Davi Castro-Silva",
+    "Davi Castro-Silva"
+   ]
+  ],
+  "date": "2025-05-19",
+  "added": "2026-10-22",
+  "categories": [
+   "cs.CC",
+   "math.CO"
+  ],
+  "abstract": "In this paper, we give a quadratic Goldreich-Levin algorithm that is close to optimal in the following ways. Given a bounded function $f$ on the Boolean hypercube $\\mathbb{F}_2^n$ and any $\\varepsilon>0$, the algorithm returns a quadratic polynomial $q: \\mathbb{F}_2^n \\to \\mathbb{F}_2$ so that the correlation of $f$ with the function $(-1)^q$ is within an additive $\\varepsilon$ of the maximum possible correlation with a quadratic phase function. The algorithm runs in $O_\\varepsilon(n^3)$ time and makes $O_\\varepsilon(n^2\\log n)$ queries to $f$, which matches the information-theoretic lower bound of $Ω(n^2)$ queries up to a logarithmic factor. As a result, we obtain a number of corollaries: - A near-optimal self-corrector of quadratic Reed-Muller codes, which makes $O_\\varepsilon(n^2\\log n)$ queries to a Boolean function $f$ and returns a quadratic polynomial $q$ whose relative Hamming distance to $f$ is within $\\varepsilon$ of the minimum distance. - An algorithmic polynomial inverse theorem for the order-3 Gowers uniformity norm. - An algorithm that makes a polynomial number of queries to a bounded function $f$ and decomposes $f$ as a sum of poly$(1/\\varepsilon)$ quadratic phase functions and error terms of order $\\varepsilon$. Our algorithm is obtained using ideas from recent work on quantum learning theory. Its construction deviates from previous approaches based on algorithmic proofs of the inverse theorem for the order-3 uniformity norm (and in particular does not rely on the recent resolution of the polynomial Freĭman-Ruzsa conjecture).",
+  "page": true
+ },
+ {
   "id": "2505.11986v2",
   "link": "https://arxiv.org/abs/2505.11986",
   "title": "Peak state transfer in continuous quantum walks",
@@ -4002,6 +4414,90 @@
    "cs.DS"
   ],
   "abstract": "At CRYPTO 2015, Kirchner and Fouque claimed that a carefully tuned variant of the Blum-Kalai-Wasserman (BKW) algorithm (JACM 2003) should solve the Learning with Errors problem (LWE) in slightly subexponential time for modulus $q=\\mathrm{poly}(n)$ and narrow error distribution, when given enough LWE samples. Taking a modular view, one may regard BKW as a combination of Wagner's algorithm (CRYPTO 2002), run over the corresponding dual problem, and the Aharonov-Regev distinguisher (JACM 2005). Hence the subexponential Wagner step alone should be of interest for solving this dual problem - namely, the Short Integer Solution problem (SIS) - but this appears to be undocumented so far. We re-interpret this Wagner step as walking backward through a chain of projected lattices, zigzagging through some auxiliary superlattices. We further randomize the bucketing step using Gaussian randomized rounding to exploit the powerful discrete Gaussian machinery. This approach avoids sample amplification and turns Wagner's algorithm into an approximate discrete Gaussian sampler for $q$-ary lattices. For an SIS lattice with $n$ equations modulo $q$, this algorithm runs in subexponential time $\\exp(O(n/\\log \\log n))$ to reach a Gaussian width parameter $s = q/\\mathrm{polylog}(n)$ only requiring $m = n + ω(n/\\log \\log n)$ many SIS variables. This directly provides a provable algorithm for solving the Short Integer Solution problem in the infinity norm ($\\mathrm{SIS}^\\infty$) for norm bounds $β= q/\\mathrm{polylog}(n)$. This variant of SIS underlies the security of the NIST post-quantum cryptography standard Dilithium. Despite its subexponential complexity, Wagner's algorithm does not appear to threaten Dilithium's concrete security.",
+  "page": true
+ },
+ {
+  "id": "2503.22650v1",
+  "link": "https://arxiv.org/abs/2503.22650",
+  "title": "Explicit non-free tensors",
+  "authors": [
+   [
+    "Maxim van den Berg",
+    "Maxim van den Berg"
+   ],
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Vladimir Lysikov",
+    null
+   ],
+   [
+    "Harold Nieuwboer",
+    "Harold Nieuwboer"
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2025-03-28",
+  "added": "2026-10-22",
+  "categories": [
+   "math.AG",
+   "cs.CC",
+   "math.RT",
+   "math.SG",
+   "quant-ph"
+  ],
+  "abstract": "Free tensors are tensors which, after a change of bases, have free support: any two distinct elements of its support differ in at least two coordinates. They play a distinguished role in the theory of bilinear complexity, in particular in Strassen's duality theory for asymptotic rank. Within the context of quantum information theory, where tensors are interpreted as multiparticle quantum states, freeness corresponds to a type of multiparticle Schmidt decomposition. In particular, if a state is free in a given basis, the reduced density matrices are diagonal. Although generic tensors in $\\mathbb{C}^n \\otimes \\mathbb{C}^n \\otimes \\mathbb{C}^n$ are non-free for $n \\geq 4$ by parameter counting, no explicit non-free tensors were known until now. We solve this hay in a haystack problem by constructing explicit tensors that are non-free for every $n \\geq 3$. In particular, this establishes that non-free tensors exist in $\\mathbb{C}^n \\otimes \\mathbb{C}^n \\otimes \\mathbb{C}^n$, where they are not generic. To establish non-freeness, we use results from geometric invariant theory and the theory of moment polytopes. In particular, we show that if a tensor $T$ is free, then there is a tensor $S$ in the GL-orbit closure of $T$, whose support is free and whose moment map image is the minimum-norm point of the moment polytope of $T$. This implies a reduction for checking non-freeness from arbitrary basis changes of $T$ to unitary basis changes of $S$. The unitary equivariance of the moment map can then be combined with the fact that tensors with free support have diagonal moment map image, in order to further restrict the set of relevant basis changes.",
+  "page": true
+ },
+ {
+  "id": "2503.22633v1",
+  "link": "https://arxiv.org/abs/2503.22633",
+  "title": "The moment polytope of matrix multiplication is not maximal",
+  "authors": [
+   [
+    "Maxim van den Berg",
+    "Maxim van den Berg"
+   ],
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Vladimir Lysikov",
+    null
+   ],
+   [
+    "Harold Nieuwboer",
+    "Harold Nieuwboer"
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2025-03-28",
+  "added": "2026-10-22",
+  "categories": [
+   "cs.CC",
+   "math.AG",
+   "math.RT",
+   "math.SG",
+   "quant-ph"
+  ],
+  "abstract": "Moment polytopes of tensors, the study of which is deeply rooted in invariant theory, representation theory and symplectic geometry, have found relevance in numerous places, from quantum information (entanglement polytopes) and algebraic complexity theory (GCT program and the complexity of matrix multiplication) to optimization (scaling algorithms). Towards an open problem in algebraic complexity theory, we prove separations between the moment polytopes of matrix multiplication tensors and unit tensors. As a consequence, we find that matrix multiplication moment polytopes are not maximal, i.e. are strictly contained in the corresponding Kronecker polytope. As another consequence, we obtain a no-go result for a natural operational characterization of moment polytope inclusion in terms of asymptotic restriction. We generalize the separation and non-maximality to moment polytopes of iterated matrix multiplication tensors. Our result implies that tensor networks where multipartite entanglement structures beyond two-party entanglement are allowed can go beyond projected entangled-pair states (PEPS) in terms of expressivity. Our proof characterizes membership of uniform points in moment polytopes of tensors, and establishes a connection to polynomial multiplication tensors via the minrank of matrix subspaces. As a result of independent interest, we extend these techniques to obtain a new proof of the optimal border subrank bound for matrix multiplication.",
   "page": true
  },
  {
@@ -4399,6 +4895,1264 @@
   "page": true
  },
  {
+  "id": "2412.14960v1",
+  "link": "https://arxiv.org/abs/2412.14960",
+  "title": "Terrestrial Very-Long-Baseline Atom Interferometry: Summary of the Second Workshop",
+  "authors": [
+   [
+    "Adam Abdalla",
+    null
+   ],
+   [
+    "Mahiro Abe",
+    null
+   ],
+   [
+    "Sven Abend",
+    null
+   ],
+   [
+    "Mouine Abidi",
+    null
+   ],
+   [
+    "Monika Aidelsburger",
+    null
+   ],
+   [
+    "Ashkan Alibabaei",
+    null
+   ],
+   [
+    "Baptiste Allard",
+    null
+   ],
+   [
+    "John Antoniadis",
+    null
+   ],
+   [
+    "Gianluigi Arduini",
+    null
+   ],
+   [
+    "Nadja Augst",
+    null
+   ],
+   [
+    "Philippos Balamatsias",
+    null
+   ],
+   [
+    "Antun Balaz",
+    null
+   ],
+   [
+    "Hannah Banks",
+    null
+   ],
+   [
+    "Rachel L. Barcklay",
+    null
+   ],
+   [
+    "Michele Barone",
+    null
+   ],
+   [
+    "Michele Barsanti",
+    null
+   ],
+   [
+    "Mark G. Bason",
+    null
+   ],
+   [
+    "Angelo Bassi",
+    null
+   ],
+   [
+    "Jean-Baptiste Bayle",
+    null
+   ],
+   [
+    "Charles F. A. Baynham",
+    null
+   ],
+   [
+    "Quentin Beaufils",
+    null
+   ],
+   [
+    "Slyan Beldjoudi",
+    null
+   ],
+   [
+    "Aleksandar Belic",
+    null
+   ],
+   [
+    "Shayne Bennetts",
+    "Shayne Bennetts"
+   ],
+   [
+    "Jose Bernabeu",
+    null
+   ],
+   [
+    "Andrea Bertoldi",
+    null
+   ],
+   [
+    "Clara Bigard",
+    null
+   ],
+   [
+    "N. P. Bigelow",
+    null
+   ],
+   [
+    "Robert Bingham",
+    null
+   ],
+   [
+    "Diego Blas",
+    null
+   ],
+   [
+    "Alexey Bobrick",
+    null
+   ],
+   [
+    "Samuel Boehringer",
+    null
+   ],
+   [
+    "Aleksandar Bogojevic",
+    null
+   ],
+   [
+    "Kai Bongs",
+    null
+   ],
+   [
+    "Daniela Bortoletto",
+    null
+   ],
+   [
+    "Philippe Bouyer",
+    "Philippe Bouyer"
+   ],
+   [
+    "Christian Brand",
+    null
+   ],
+   [
+    "Oliver Buchmueller",
+    null
+   ],
+   [
+    "Gabriela Buica",
+    null
+   ],
+   [
+    "Sergio Calatroni",
+    null
+   ],
+   [
+    "Lo Calmels",
+    null
+   ],
+   [
+    "Priscilla Canizares",
+    null
+   ],
+   [
+    "Benjamin Canuel",
+    null
+   ],
+   [
+    "Ana Caramete",
+    null
+   ],
+   [
+    "Laurentiu-Ioan Caramete",
+    null
+   ],
+   [
+    "Matteo Carlesso",
+    null
+   ],
+   [
+    "John Carlton",
+    null
+   ],
+   [
+    "Samuel P. Carman",
+    null
+   ],
+   [
+    "Andrew Carroll",
+    null
+   ],
+   [
+    "Mateo Casariego",
+    null
+   ],
+   [
+    "Minoas Chairetis",
+    null
+   ],
+   [
+    "Vassilis Charmandaris",
+    null
+   ],
+   [
+    "Upasna Chauhan",
+    null
+   ],
+   [
+    "Jiajun Chen",
+    null
+   ],
+   [
+    "Maria Luisa",
+    null
+   ],
+   [
+    "Chiofalo",
+    null
+   ],
+   [
+    "Donatella Ciampini",
+    null
+   ],
+   [
+    "Alessia Cimbri",
+    null
+   ],
+   [
+    "Pierre Clad",
+    null
+   ],
+   [
+    "Jonathon Coleman",
+    null
+   ],
+   [
+    "Florin Lucian Constantin",
+    null
+   ],
+   [
+    "Carlo R. Contaldi",
+    null
+   ],
+   [
+    "Robin Corgier",
+    null
+   ],
+   [
+    "Bineet Dash",
+    null
+   ],
+   [
+    "G. J. Davies",
+    null
+   ],
+   [
+    "Claudia de Rham",
+    null
+   ],
+   [
+    "Albert De Roeck",
+    null
+   ],
+   [
+    "Daniel Derr",
+    null
+   ],
+   [
+    "Soumyodeep Dey",
+    null
+   ],
+   [
+    "Fabio Di Pumpo",
+    null
+   ],
+   [
+    "Goran S. Djordjevic",
+    null
+   ],
+   [
+    "Babette Doebrich",
+    null
+   ],
+   [
+    "Peter Dornan",
+    null
+   ],
+   [
+    "Michael Doser",
+    null
+   ],
+   [
+    "Giannis Drougakis",
+    null
+   ],
+   [
+    "Jacob Dunningham",
+    null
+   ],
+   [
+    "Alisher Duspayev",
+    null
+   ],
+   [
+    "Sajan Easo",
+    null
+   ],
+   [
+    "Joshua Eby",
+    null
+   ],
+   [
+    "Maxim Efremov",
+    null
+   ],
+   [
+    "Gedminas Elertas",
+    null
+   ],
+   [
+    "John Ellis",
+    null
+   ],
+   [
+    "Nicholas Entin",
+    null
+   ],
+   [
+    "Stephen Fairhurst",
+    null
+   ],
+   [
+    "Mattia Fani",
+    null
+   ],
+   [
+    "Farida Fassi",
+    null
+   ],
+   [
+    "Pierre Fayet",
+    null
+   ],
+   [
+    "Daniel Felea",
+    null
+   ],
+   [
+    "Jie Feng",
+    null
+   ],
+   [
+    "Robert Flack",
+    null
+   ],
+   [
+    "Chris Foot",
+    null
+   ],
+   [
+    "Tim Freegarde",
+    null
+   ],
+   [
+    "Elina Fuchs",
+    null
+   ],
+   [
+    "Naceur Gaaloul",
+    null
+   ],
+   [
+    "Dongfeng Gao",
+    null
+   ],
+   [
+    "Susan Gardner",
+    null
+   ],
+   [
+    "Barry M. Garraway",
+    null
+   ],
+   [
+    "Carlos L. Garrido Alzar",
+    null
+   ],
+   [
+    "Alexandre Gauguet",
+    null
+   ],
+   [
+    "Enno Giese",
+    null
+   ],
+   [
+    "Patrick Gill",
+    null
+   ],
+   [
+    "Gian F. Giudice",
+    null
+   ],
+   [
+    "Eric P. Glasbrenner",
+    null
+   ],
+   [
+    "Jonah Glick",
+    null
+   ],
+   [
+    "Peter W. Graham",
+    null
+   ],
+   [
+    "Eduardo Granados",
+    null
+   ],
+   [
+    "Paul F. Griffin",
+    null
+   ],
+   [
+    "Jordan Gue",
+    null
+   ],
+   [
+    "Saida Guellati-Khelifa",
+    null
+   ],
+   [
+    "Subhadeep Gupta",
+    null
+   ],
+   [
+    "Vishu Gupta",
+    null
+   ],
+   [
+    "Lucia Hackermueller",
+    null
+   ],
+   [
+    "Martin Haehnelt",
+    null
+   ],
+   [
+    "Timo Hakulinen",
+    null
+   ],
+   [
+    "Klemens Hammerer",
+    null
+   ],
+   [
+    "Ekim T. Hanimeli",
+    null
+   ],
+   [
+    "Tiffany Harte",
+    null
+   ],
+   [
+    "Sabrina Hartmann",
+    null
+   ],
+   [
+    "Leonie Hawkins",
+    null
+   ],
+   [
+    "Aurelien Hees",
+    null
+   ],
+   [
+    "Alexander Herbst",
+    null
+   ],
+   [
+    "Thomas M. Hird",
+    null
+   ],
+   [
+    "Richard Hobson",
+    null
+   ],
+   [
+    "Jason Hogan",
+    null
+   ],
+   [
+    "Bodil Holst",
+    null
+   ],
+   [
+    "Michael Holynski",
+    null
+   ],
+   [
+    "Onur Hosten",
+    null
+   ],
+   [
+    "Chung Chuan Hsu",
+    null
+   ],
+   [
+    "Wayne Cheng-Wei Huang",
+    null
+   ],
+   [
+    "Kenneth M. Hughes",
+    null
+   ],
+   [
+    "Kamran Hussain",
+    null
+   ],
+   [
+    "Gert Huetsi",
+    null
+   ],
+   [
+    "Antonio Iovino",
+    null
+   ],
+   [
+    "Maria-Catalina Isfan",
+    null
+   ],
+   [
+    "Gregor Janson",
+    null
+   ],
+   [
+    "Peter Jeglic",
+    null
+   ],
+   [
+    "Philippe Jetzer",
+    null
+   ],
+   [
+    "Yijun Jiang",
+    null
+   ],
+   [
+    "Gediminas Juzeliunas",
+    null
+   ],
+   [
+    "Wilhelm Kaenders",
+    null
+   ],
+   [
+    "Matti Kalliokoski",
+    null
+   ],
+   [
+    "Alex Kehagias",
+    null
+   ],
+   [
+    "Eva Kilian",
+    null
+   ],
+   [
+    "Carsten Klempt",
+    null
+   ],
+   [
+    "Peter Knight",
+    null
+   ],
+   [
+    "Soumen Koley",
+    null
+   ],
+   [
+    "Bernd Konrad",
+    null
+   ],
+   [
+    "Tim Kovachy",
+    null
+   ],
+   [
+    "Markus Krutzik",
+    null
+   ],
+   [
+    "Mukesh Kumar",
+    null
+   ],
+   [
+    "Pradeep Kumar",
+    null
+   ],
+   [
+    "Hamza Labiad",
+    null
+   ],
+   [
+    "Shau-Yu Lan",
+    null
+   ],
+   [
+    "Arnaud Landragin",
+    null
+   ],
+   [
+    "Greg Landsberg",
+    null
+   ],
+   [
+    "Mehdi Langlois",
+    null
+   ],
+   [
+    "Bryony Lanigan",
+    null
+   ],
+   [
+    "Christophe Le Poncin-Lafitte",
+    null
+   ],
+   [
+    "Samuel Lellouch",
+    null
+   ],
+   [
+    "Bruno Leone",
+    null
+   ],
+   [
+    "Marek Lewicki",
+    null
+   ],
+   [
+    "Yu-Hung Lien",
+    null
+   ],
+   [
+    "Lucas Lombriser",
+    null
+   ],
+   [
+    "Elias Lopez Asamar",
+    null
+   ],
+   [
+    "J. Luis Lopez-Gonzalez",
+    null
+   ],
+   [
+    "Adam Lowe",
+    null
+   ],
+   [
+    "Chen Lu",
+    null
+   ],
+   [
+    "Giuseppe Gaetano Luciano",
+    null
+   ],
+   [
+    "Nathan Lundblad",
+    null
+   ],
+   [
+    "Cristian de J. Lpez Monjaraz",
+    null
+   ],
+   [
+    "Maena Mackoit-Sinkeviien",
+    null
+   ],
+   [
+    "Michele Maggiore",
+    null
+   ],
+   [
+    "Anirban Majumdar",
+    null
+   ],
+   [
+    "Konstantinos Makris",
+    null
+   ],
+   [
+    "Azadeh Maleknejad",
+    null
+   ],
+   [
+    "Anna L. Marchant",
+    null
+   ],
+   [
+    "Agnese Mariotti",
+    null
+   ],
+   [
+    "Christos Markou",
+    null
+   ],
+   [
+    "Barnaby Matthews",
+    null
+   ],
+   [
+    "Anupam Mazumdar",
+    null
+   ],
+   [
+    "Christopher McCabe",
+    null
+   ],
+   [
+    "Matthias Meister",
+    null
+   ],
+   [
+    "Giorgio Mentasti",
+    null
+   ],
+   [
+    "Jonathan Menu",
+    null
+   ],
+   [
+    "Giuseppe Messineo",
+    null
+   ],
+   [
+    "Bernd Meyer-Hoppe",
+    null
+   ],
+   [
+    "Salvatore Micalizio",
+    null
+   ],
+   [
+    "Federica Migliaccio",
+    null
+   ],
+   [
+    "Peter Millington",
+    null
+   ],
+   [
+    "Milan Milosevic",
+    null
+   ],
+   [
+    "Abhay Mishra",
+    null
+   ],
+   [
+    "Jeremiah Mitchell",
+    null
+   ],
+   [
+    "Gavin W. Morley",
+    null
+   ],
+   [
+    "Noam Mouelle",
+    null
+   ],
+   [
+    "Juergen Mueller",
+    null
+   ],
+   [
+    "David Newbold",
+    null
+   ],
+   [
+    "Wei-Tou Ni",
+    null
+   ],
+   [
+    "Christian Niehof",
+    null
+   ],
+   [
+    "Johannes Noller",
+    null
+   ],
+   [
+    "Senad Odzak",
+    null
+   ],
+   [
+    "Daniel K. L. Oi",
+    null
+   ],
+   [
+    "Andreas Oikonomou",
+    null
+   ],
+   [
+    "Yasser Omar",
+    null
+   ],
+   [
+    "Chris Overstreet",
+    null
+   ],
+   [
+    "Julia Pahl",
+    null
+   ],
+   [
+    "Sean Paling",
+    null
+   ],
+   [
+    "Zhongyin Pan",
+    null
+   ],
+   [
+    "George Pappas",
+    null
+   ],
+   [
+    "Vinay Pareek",
+    null
+   ],
+   [
+    "Elizabeth Pasatembou",
+    null
+   ],
+   [
+    "Mauro Paternostro",
+    null
+   ],
+   [
+    "Vishal K. Pathak",
+    null
+   ],
+   [
+    "Emanuele Pelucchi",
+    null
+   ],
+   [
+    "Franck Pereira dos Santos",
+    null
+   ],
+   [
+    "Achim Peters",
+    null
+   ],
+   [
+    "Annie Pichery",
+    null
+   ],
+   [
+    "Igor Pikovski",
+    null
+   ],
+   [
+    "Apostolos Pilaftsis",
+    null
+   ],
+   [
+    "Florentina-Crenguta Pislan",
+    null
+   ],
+   [
+    "Robert Plunkett",
+    null
+   ],
+   [
+    "Rosa Poggiani",
+    null
+   ],
+   [
+    "Marco Prevedelli",
+    null
+   ],
+   [
+    "Vishnupriya Puthiya Veettil",
+    null
+   ],
+   [
+    "Johann Rafelski",
+    null
+   ],
+   [
+    "Juhan Raidal",
+    null
+   ],
+   [
+    "Martti Raidal",
+    null
+   ],
+   [
+    "Ernst Maria Rasel",
+    null
+   ],
+   [
+    "Sebastien Renaux-Petel",
+    null
+   ],
+   [
+    "Andrea Richaud",
+    null
+   ],
+   [
+    "Pedro Rivero-Antunez",
+    null
+   ],
+   [
+    "Tangui Rodzinka",
+    null
+   ],
+   [
+    "Albert Roura",
+    null
+   ],
+   [
+    "Jan Rudolph",
+    null
+   ],
+   [
+    "Dylan Sabulsky",
+    null
+   ],
+   [
+    "Marianna S. Safronova",
+    null
+   ],
+   [
+    "Mairi Sakellariadou",
+    null
+   ],
+   [
+    "Leonardo Salvi",
+    null
+   ],
+   [
+    "Muhammed Sameed",
+    null
+   ],
+   [
+    "Sumit Sarkar",
+    null
+   ],
+   [
+    "Patrik Schach",
+    null
+   ],
+   [
+    "Stefan Alaric Schaeffer",
+    null
+   ],
+   [
+    "Jesse Schelfhout",
+    null
+   ],
+   [
+    "Manuel Schilling",
+    null
+   ],
+   [
+    "Vladimir Schkolnik",
+    null
+   ],
+   [
+    "Wolfgang P. Schleich",
+    null
+   ],
+   [
+    "Dennis Schlippert",
+    null
+   ],
+   [
+    "Ulrich Schneider",
+    null
+   ],
+   [
+    "Florian Schreck",
+    "Florian Schreck"
+   ],
+   [
+    "Ariel Schwartzman",
+    null
+   ],
+   [
+    "Nico Schwersenz",
+    null
+   ],
+   [
+    "Olga Sergijenko",
+    null
+   ],
+   [
+    "Haifa Rejeb Sfar",
+    null
+   ],
+   [
+    "Lijing Shao",
+    null
+   ],
+   [
+    "Ian Shipsey",
+    null
+   ],
+   [
+    "Jing Shu",
+    null
+   ],
+   [
+    "Yeshpal Singh",
+    null
+   ],
+   [
+    "Carlos F. Sopuerta",
+    null
+   ],
+   [
+    "Marianna Sorba",
+    null
+   ],
+   [
+    "Fiodor Sorrentino",
+    null
+   ],
+   [
+    "Alessandro D. A. M Spallicci",
+    null
+   ],
+   [
+    "Petruta Stefanescu",
+    null
+   ],
+   [
+    "Nikolaos Stergioulas",
+    null
+   ],
+   [
+    "Daniel Stoerk",
+    null
+   ],
+   [
+    "Jannik Stroehle",
+    null
+   ],
+   [
+    "Hrudya Thaivalappil Sunilkumar",
+    null
+   ],
+   [
+    "Zoie Tam",
+    null
+   ],
+   [
+    "Dhruv Tandon",
+    null
+   ],
+   [
+    "Yijun Tang",
+    null
+   ],
+   [
+    "Dorothee Tell",
+    null
+   ],
+   [
+    "Jacques Tempere",
+    null
+   ],
+   [
+    "Dylan J. Temples",
+    null
+   ],
+   [
+    "Rohit P Thampy",
+    null
+   ],
+   [
+    "Ingmari C. Tietje",
+    null
+   ],
+   [
+    "Guglielmo M. Tino",
+    null
+   ],
+   [
+    "Jonathan N. Tinsley",
+    null
+   ],
+   [
+    "Ovidiu Tintareanu Mircea",
+    null
+   ],
+   [
+    "Kimberly Tkalec",
+    null
+   ],
+   [
+    "Andrew J. Tolley",
+    null
+   ],
+   [
+    "Vincenza Tornatore",
+    null
+   ],
+   [
+    "Alejandro Torres-Orjuela",
+    null
+   ],
+   [
+    "Philipp Treutlein",
+    null
+   ],
+   [
+    "Andrea Trombettoni",
+    null
+   ],
+   [
+    "Christian Ufrecht",
+    null
+   ],
+   [
+    "Juan Urrutia",
+    null
+   ],
+   [
+    "Tristan Valenzuela",
+    null
+   ],
+   [
+    "Linda R. Valerio",
+    null
+   ],
+   [
+    "Maurits van der Grinten",
+    null
+   ],
+   [
+    "Ville Vaskonen",
+    null
+   ],
+   [
+    "Veronica Vazquez-Aceves",
+    null
+   ],
+   [
+    "Hardi Veermae",
+    null
+   ],
+   [
+    "Flavio Vetrano",
+    null
+   ],
+   [
+    "Nikolay V. Vitanov",
+    null
+   ],
+   [
+    "Wolf von Klitzing",
+    null
+   ],
+   [
+    "Sebastian Wald",
+    null
+   ],
+   [
+    "Thomas Walker",
+    null
+   ],
+   [
+    "Reinhold Walser",
+    null
+   ],
+   [
+    "Jin Wang",
+    null
+   ],
+   [
+    "Yan Wang",
+    null
+   ],
+   [
+    "C. A. Weidner",
+    null
+   ],
+   [
+    "Andr Wenzlawski",
+    null
+   ],
+   [
+    "Michael Werner",
+    null
+   ],
+   [
+    "Lisa Woerner",
+    null
+   ],
+   [
+    "Mohamed E. Yahia",
+    null
+   ],
+   [
+    "Efe Yazgan",
+    null
+   ],
+   [
+    "Emmanuel Zambrini Cruzeiro",
+    null
+   ],
+   [
+    "M. Zarei",
+    null
+   ],
+   [
+    "Mingsheng Zhan",
+    null
+   ],
+   [
+    "Shengnan Zhang",
+    null
+   ],
+   [
+    "Lin Zhou",
+    null
+   ],
+   [
+    "Erik Zupanic",
+    null
+   ]
+  ],
+  "date": "2024-12-19",
+  "added": "2026-10-22",
+  "categories": [
+   "hep-ex",
+   "astro-ph.IM",
+   "gr-qc",
+   "hep-ph",
+   "physics.atom-ph"
+  ],
+  "abstract": "This summary of the second Terrestrial Very-Long-Baseline Atom Interferometry (TVLBAI) Workshop provides a comprehensive overview of our meeting held in London in April 2024, building on the initial discussions during the inaugural workshop held at CERN in March 2023. Like the summary of the first workshop, this document records a critical milestone for the international atom interferometry community. It documents our concerted efforts to evaluate progress, address emerging challenges, and refine strategic directions for future large-scale atom interferometry projects. Our commitment to collaboration is manifested by the integration of diverse expertise and the coordination of international resources, all aimed at advancing the frontiers of atom interferometry physics and technology, as set out in a Memorandum of Understanding signed by over 50 institutions.",
+  "page": true
+ },
+ {
   "id": "2412.13274v2",
   "link": "https://arxiv.org/abs/2412.13274",
   "title": "Assessing fault-tolerant quantum advantage for $k$-SAT with structure",
@@ -4447,6 +6201,74 @@
    "math.CO"
   ],
   "abstract": "Graph states are fundamental objects in the theory of quantum information due to their simple classical description and rich entanglement structure. They are also intimately related to IQP circuits, which have applications in quantum pseudorandomness and quantum advantage. For us, they are a toy model to understand the relation between circuit connectivity, entanglement structure and computational complexity. In the worst case, a strict dichotomy in the computational universality of such graph states appears as a function of the degree $d$ of a regular graph state [GDH+23]. In this paper, we study the average-case complexity of simulating random graph states of varying degree when measured in random product bases and give distinct evidence that a similar complexity-theoretic dichotomy exists in the average case. Specifically, we consider random $d$-regular graph states and prove three distinct results: First, we exhibit two families of IQP circuits of depth $d$ and show that they anticoncentrate for any $2 < d = o(n^{1/2})$ when measured in a random $X$-$Y$-plane product basis. This implies anticoncentration for random constant-regular graph states. Second, in the regime $d = Θ(n^c)$ with $c \\in (0,1)$, we prove that random $d$-regular graph states contain polynomially large grid graphs as induced subgraphs with high probability. This implies that they are universal resource states for measurement-based computation. Third, in the regime of high degree ($d\\sim n/2$), we show that random graph states are not sufficiently entangled to be trivially classically simulable, unlike Haar random states. Proving the three results requires different techniques -- the analysis of a classical statistical-mechanics model using Krawtchouck polynomials, graph theoretic analysis using the switching method, and analysis of the ranks of submatrices of random adjacency matrices, respectively.",
+  "page": true
+ },
+ {
+  "id": "2412.03182v1",
+  "link": "https://arxiv.org/abs/2412.03182",
+  "title": "Quantitative convergence of trained quantum neural networks to a Gaussian process",
+  "authors": [
+   [
+    "Anderson Melchor Hernandez",
+    null
+   ],
+   [
+    "Filippo Girardi",
+    "Filippo Girardi"
+   ],
+   [
+    "Davide Pastorello",
+    null
+   ],
+   [
+    "Giacomo De Palma",
+    null
+   ]
+  ],
+  "date": "2024-12-04",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "math-ph",
+   "math.PR"
+  ],
+  "abstract": "We study quantum neural networks where the generated function is the expectation value of the sum of single-qubit observables across all qubits. In [Girardi \\emph{et al.}, arXiv:2402.08726], it is proven that the probability distributions of such generated functions converge in distribution to a Gaussian process in the limit of infinite width for both untrained networks with randomly initialized parameters and trained networks. In this paper, we provide a quantitative proof of this convergence in terms of the Wasserstein distance of order $1$. First, we establish an upper bound on the distance between the probability distribution of the function generated by any untrained network with finite width and the Gaussian process with the same covariance. This proof utilizes Stein's method to estimate the Wasserstein distance of order $1$. Next, we analyze the training dynamics of the network via gradient flow, proving an upper bound on the distance between the probability distribution of the function generated by the trained network and the corresponding Gaussian process. This proof is based on a quantitative upper bound on the maximum variation of a parameter during training. This bound implies that for sufficiently large widths, training occurs in the lazy regime, \\emph{i.e.}, each parameter changes only by a small amount. While the convergence result of [Girardi \\emph{et al.}, arXiv:2402.08726] holds at a fixed training time, our upper bounds are uniform in time and hold even as $t \\to \\infty$.",
+  "page": true
+ },
+ {
+  "id": "2411.15789v2",
+  "link": "https://arxiv.org/abs/2411.15789",
+  "title": "Asymptotic tensor rank is characterized by polynomials",
+  "authors": [
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Koen Hoeberechts",
+    null
+   ],
+   [
+    "Harold Nieuwboer",
+    "Harold Nieuwboer"
+   ],
+   [
+    "Péter Vrana",
+    null
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2024-11-24",
+  "added": "2026-10-22",
+  "categories": [
+   "cs.CC",
+   "math.AG",
+   "quant-ph"
+  ],
+  "abstract": "Asymptotic tensor rank is notoriously difficult to determine. Indeed, determining its value for the $2\\times 2$ matrix multiplication tensor would determine the matrix multiplication exponent, a long-standing open problem. On the other hand, Strassen's asymptotic rank conjecture makes the bold claim that asymptotic tensor rank equals the largest dimension of the tensor and is thus as easy to compute as matrix rank. Despite tremendous interest, much is still unknown about the structural and computational properties of asymptotic rank; for instance whether it is computable. We prove that asymptotic tensor rank is \"computable from above\", that is, for any real number $r$ there is an (efficient) algorithm that determines, given a tensor $T$, if the asymptotic tensor rank of $T$ is at most $r$. The algorithm has a simple structure; it consists of evaluating a finite list of polynomials on the tensor. Indeed, we prove that the sublevel sets of asymptotic rank are Zariski-closed (just like matrix rank). While we do not exhibit these polynomials explicitly, their mere existence has strong implications on the structure of asymptotic rank. As one such implication, we find that the values that asymptotic tensor rank takes, on all tensors, is a well-ordered set. In other words, any non-increasing sequence of asymptotic ranks stabilizes (\"discreteness from above\"). In particular, for the matrix multiplication exponent (which is an asymptotic rank) there is no sequence of exponents of bilinear maps that approximates it arbitrarily closely from above without being eventually constant. In other words, any such upper bound on the matrix multiplication exponent that is close enough, will \"snap\" to it. Previously such discreteness results were only known for finite fields or for other tensor parameters (e.g., asymptotic slice rank). We obtain them for infinite fields like the complex numbers.",
   "page": true
  },
  {
@@ -6493,6 +8315,1036 @@
   "page": true
  },
  {
+  "id": "2310.08183v1",
+  "link": "https://arxiv.org/abs/2310.08183",
+  "title": "Terrestrial Very-Long-Baseline Atom Interferometry: Workshop Summary",
+  "authors": [
+   [
+    "Sven Abend",
+    null
+   ],
+   [
+    "Baptiste Allard",
+    null
+   ],
+   [
+    "Iván Alonso",
+    null
+   ],
+   [
+    "John Antoniadis",
+    null
+   ],
+   [
+    "Henrique Araujo",
+    null
+   ],
+   [
+    "Gianluigi Arduini",
+    null
+   ],
+   [
+    "Aidan Arnold",
+    null
+   ],
+   [
+    "Tobias Aßmann",
+    null
+   ],
+   [
+    "Nadja Augst",
+    null
+   ],
+   [
+    "Leonardo Badurina",
+    null
+   ],
+   [
+    "Antun Balaz",
+    null
+   ],
+   [
+    "Hannah Banks",
+    null
+   ],
+   [
+    "Michele Barone",
+    null
+   ],
+   [
+    "Michele Barsanti",
+    null
+   ],
+   [
+    "Angelo Bassi",
+    null
+   ],
+   [
+    "Baptiste Battelier",
+    null
+   ],
+   [
+    "Charles Baynham",
+    null
+   ],
+   [
+    "Beaufils Quentin",
+    null
+   ],
+   [
+    "Aleksandar Belic",
+    null
+   ],
+   [
+    "Ankit Beniwal",
+    null
+   ],
+   [
+    "Jose Bernabeu",
+    null
+   ],
+   [
+    "Francesco Bertinelli",
+    null
+   ],
+   [
+    "Andrea Bertoldi",
+    null
+   ],
+   [
+    "Ikbal Ahamed Biswas",
+    null
+   ],
+   [
+    "Diego Blas",
+    null
+   ],
+   [
+    "Patrick Boegel",
+    null
+   ],
+   [
+    "Aleksandar Bogojevic",
+    null
+   ],
+   [
+    "Jonas Böhm",
+    null
+   ],
+   [
+    "Samuel Böhringer",
+    null
+   ],
+   [
+    "Kai Bongs",
+    null
+   ],
+   [
+    "Philippe Bouyer",
+    "Philippe Bouyer"
+   ],
+   [
+    "Christian Brand",
+    null
+   ],
+   [
+    "Apostolos Brimis",
+    null
+   ],
+   [
+    "Oliver Buchmueller",
+    null
+   ],
+   [
+    "Luigi Cacciapuoti",
+    null
+   ],
+   [
+    "Sergio Calatroni",
+    null
+   ],
+   [
+    "Benjamin Canuel",
+    null
+   ],
+   [
+    "Chiara Caprini",
+    null
+   ],
+   [
+    "Ana Caramete",
+    null
+   ],
+   [
+    "Laurentiu Caramete",
+    null
+   ],
+   [
+    "Matteo Carlesso",
+    null
+   ],
+   [
+    "John Carlton",
+    null
+   ],
+   [
+    "Mateo Casariego",
+    null
+   ],
+   [
+    "Vassilis Charmandaris",
+    null
+   ],
+   [
+    "Yu-Ao Chen",
+    null
+   ],
+   [
+    "Maria Luisa Chiofalo",
+    null
+   ],
+   [
+    "Alessia Cimbri",
+    null
+   ],
+   [
+    "Jonathon Coleman",
+    null
+   ],
+   [
+    "Florin Lucian Constantin",
+    null
+   ],
+   [
+    "Carlo Contaldi",
+    null
+   ],
+   [
+    "Yanou Cui",
+    null
+   ],
+   [
+    "Elisa Da Ros",
+    null
+   ],
+   [
+    "Gavin Davies",
+    null
+   ],
+   [
+    "Esther del Pino Rosendo",
+    null
+   ],
+   [
+    "Christian Deppner",
+    null
+   ],
+   [
+    "Andrei Derevianko",
+    null
+   ],
+   [
+    "Claudia de Rham",
+    null
+   ],
+   [
+    "Albert De Roeck",
+    null
+   ],
+   [
+    "Daniel Derr",
+    null
+   ],
+   [
+    "Fabio Di Pumpo",
+    null
+   ],
+   [
+    "Goran Djordjevic",
+    null
+   ],
+   [
+    "Babette Dobrich",
+    null
+   ],
+   [
+    "Peter Domokos",
+    null
+   ],
+   [
+    "Peter Dornan",
+    null
+   ],
+   [
+    "Michael Doser",
+    null
+   ],
+   [
+    "Giannis Drougakis",
+    null
+   ],
+   [
+    "Jacob Dunningham",
+    null
+   ],
+   [
+    "Alisher Duspayev",
+    null
+   ],
+   [
+    "Sajan Easo",
+    null
+   ],
+   [
+    "Joshua Eby",
+    null
+   ],
+   [
+    "Maxim Efremov",
+    null
+   ],
+   [
+    "Tord Ekelof",
+    null
+   ],
+   [
+    "Gedminas Elertas",
+    null
+   ],
+   [
+    "John Ellis",
+    null
+   ],
+   [
+    "David Evans",
+    null
+   ],
+   [
+    "Pavel Fadeev",
+    null
+   ],
+   [
+    "Mattia Fanì",
+    null
+   ],
+   [
+    "Farida Fassi",
+    null
+   ],
+   [
+    "Marco Fattori",
+    null
+   ],
+   [
+    "Pierre Fayet",
+    null
+   ],
+   [
+    "Daniel Felea",
+    null
+   ],
+   [
+    "Jie Feng",
+    null
+   ],
+   [
+    "Alexander Friedrich",
+    null
+   ],
+   [
+    "Elina Fuchs",
+    null
+   ],
+   [
+    "Naceur Gaaloul",
+    null
+   ],
+   [
+    "Dongfeng Gao",
+    null
+   ],
+   [
+    "Susan Gardner",
+    null
+   ],
+   [
+    "Barry Garraway",
+    null
+   ],
+   [
+    "Alexandre Gauguet",
+    null
+   ],
+   [
+    "Sandra Gerlach",
+    null
+   ],
+   [
+    "Matthias Gersemann",
+    null
+   ],
+   [
+    "Valerie Gibson",
+    null
+   ],
+   [
+    "Enno Giese",
+    null
+   ],
+   [
+    "Gian Francesco Giudice",
+    null
+   ],
+   [
+    "Eric Glasbrenner",
+    null
+   ],
+   [
+    "Mustafa Gündogan",
+    null
+   ],
+   [
+    "Martin G. Haehnelt",
+    null
+   ],
+   [
+    "Timo Hakulinen",
+    null
+   ],
+   [
+    "Klemens Hammerer",
+    null
+   ],
+   [
+    "Ekim Taylan Hanımeli",
+    null
+   ],
+   [
+    "Tiffany Harte",
+    null
+   ],
+   [
+    "Leonie Hawkins",
+    null
+   ],
+   [
+    "Aurelien Hees",
+    null
+   ],
+   [
+    "Jaret Heise",
+    null
+   ],
+   [
+    "Victoria Henderson",
+    null
+   ],
+   [
+    "Sven Herrmann",
+    null
+   ],
+   [
+    "Thomas Hird",
+    null
+   ],
+   [
+    "Jason Hogan",
+    null
+   ],
+   [
+    "Bodil Holst",
+    null
+   ],
+   [
+    "Michael Holynski",
+    null
+   ],
+   [
+    "Kamran Hussain",
+    null
+   ],
+   [
+    "Gregor Janson",
+    null
+   ],
+   [
+    "Peter Jeglič",
+    null
+   ],
+   [
+    "Fedor Jelezko",
+    null
+   ],
+   [
+    "Michael Kagan",
+    null
+   ],
+   [
+    "Matti Kalliokoski",
+    null
+   ],
+   [
+    "Mark Kasevich",
+    null
+   ],
+   [
+    "Alex Kehagias",
+    null
+   ],
+   [
+    "Eva Kilian",
+    null
+   ],
+   [
+    "Soumen Koley",
+    null
+   ],
+   [
+    "Bernd Konrad",
+    null
+   ],
+   [
+    "Joachim Kopp",
+    null
+   ],
+   [
+    "Georgy Kornakov",
+    null
+   ],
+   [
+    "Tim Kovachy",
+    null
+   ],
+   [
+    "Markus Krutzik",
+    null
+   ],
+   [
+    "Mukesh Kumar",
+    null
+   ],
+   [
+    "Pradeep Kumar",
+    null
+   ],
+   [
+    "Claus Laemmerzahl",
+    null
+   ],
+   [
+    "Greg Landsberg",
+    null
+   ],
+   [
+    "Mehdi Langlois",
+    null
+   ],
+   [
+    "Bryony Lanigan",
+    null
+   ],
+   [
+    "Samuel Lellouch",
+    null
+   ],
+   [
+    "Bruno Leone",
+    null
+   ],
+   [
+    "Christophe Le Poncin Lafitte",
+    null
+   ],
+   [
+    "Marek Lewicki",
+    null
+   ],
+   [
+    "Bastian Leykauf",
+    null
+   ],
+   [
+    "Ali Lezeik",
+    null
+   ],
+   [
+    "Lucas Lombriser",
+    null
+   ],
+   [
+    "Luis López",
+    null
+   ],
+   [
+    "Elias López Asamar",
+    null
+   ],
+   [
+    "Cristian López Monjaraz",
+    null
+   ],
+   [
+    "Gaetano Luciano",
+    null
+   ],
+   [
+    "Mohammed Mahmoud Mohammed",
+    null
+   ],
+   [
+    "Azadeh Maleknejad",
+    null
+   ],
+   [
+    "Krutzik Markus",
+    null
+   ],
+   [
+    "Jacques Marteau",
+    null
+   ],
+   [
+    "Didier Massonnet",
+    null
+   ],
+   [
+    "Anupam Mazumdar",
+    null
+   ],
+   [
+    "Christopher McCabe",
+    null
+   ],
+   [
+    "Matthias Meister",
+    null
+   ],
+   [
+    "Jonathan Menu",
+    null
+   ],
+   [
+    "Giuseppe Messineo",
+    null
+   ],
+   [
+    "Salvatore Micalizio",
+    null
+   ],
+   [
+    "Peter Millington",
+    null
+   ],
+   [
+    "Milan Milosevic",
+    null
+   ],
+   [
+    "Jeremiah Mitchell",
+    null
+   ],
+   [
+    "Mario Montero",
+    null
+   ],
+   [
+    "Gavin Morley",
+    null
+   ],
+   [
+    "Jürgen Müller",
+    null
+   ],
+   [
+    "Özgür Müstecaplıoğlu",
+    null
+   ],
+   [
+    "Wei-Tou Ni",
+    null
+   ],
+   [
+    "Johannes Noller",
+    null
+   ],
+   [
+    "Senad Odžak",
+    null
+   ],
+   [
+    "Daniel Oi",
+    null
+   ],
+   [
+    "Yasser Omar",
+    null
+   ],
+   [
+    "Julia Pahl",
+    null
+   ],
+   [
+    "Sean Paling",
+    null
+   ],
+   [
+    "Saurabh Pandey",
+    null
+   ],
+   [
+    "George Pappas",
+    null
+   ],
+   [
+    "Vinay Pareek",
+    null
+   ],
+   [
+    "Elizabeth Pasatembou",
+    null
+   ],
+   [
+    "Emanuele Pelucchi",
+    null
+   ],
+   [
+    "Franck Pereira dos Santos",
+    null
+   ],
+   [
+    "Baptist Piest",
+    null
+   ],
+   [
+    "Igor Pikovski",
+    null
+   ],
+   [
+    "Apostolos Pilaftsis",
+    null
+   ],
+   [
+    "Robert Plunkett",
+    null
+   ],
+   [
+    "Rosa Poggiani",
+    null
+   ],
+   [
+    "Marco Prevedelli",
+    null
+   ],
+   [
+    "Julia Puputti",
+    null
+   ],
+   [
+    "Vishnupriya Puthiya Veettil",
+    null
+   ],
+   [
+    "John Quenby",
+    null
+   ],
+   [
+    "Johann Rafelski",
+    null
+   ],
+   [
+    "Surjeet Rajendran",
+    null
+   ],
+   [
+    "Ernst Maria Rasel",
+    null
+   ],
+   [
+    "Haifa Rejeb Sfar",
+    null
+   ],
+   [
+    "Serge Reynaud",
+    null
+   ],
+   [
+    "Andrea Richaud",
+    null
+   ],
+   [
+    "Tangui Rodzinka",
+    null
+   ],
+   [
+    "Albert Roura",
+    null
+   ],
+   [
+    "Jan Rudolph",
+    null
+   ],
+   [
+    "Dylan Sabulsky",
+    null
+   ],
+   [
+    "Marianna Safronova",
+    null
+   ],
+   [
+    "Luigi Santamaria",
+    null
+   ],
+   [
+    "Manuel Schilling",
+    null
+   ],
+   [
+    "Vladimir Schkolnik",
+    null
+   ],
+   [
+    "Wolfgang Schleich",
+    null
+   ],
+   [
+    "Dennis Schlippert",
+    null
+   ],
+   [
+    "Ulrich Schneider",
+    null
+   ],
+   [
+    "Florian Schreck",
+    "Florian Schreck"
+   ],
+   [
+    "Christian Schubert",
+    null
+   ],
+   [
+    "Nico Schwersenz",
+    null
+   ],
+   [
+    "Aleksei Semakin",
+    null
+   ],
+   [
+    "Olga Sergijenko",
+    null
+   ],
+   [
+    "Lijing Shao",
+    null
+   ],
+   [
+    "Ian Shipsey",
+    null
+   ],
+   [
+    "Rajeev Singh",
+    null
+   ],
+   [
+    "Augusto Smerzi",
+    null
+   ],
+   [
+    "Carlos F. Sopuerta",
+    null
+   ],
+   [
+    "Alessandro Spallicci",
+    null
+   ],
+   [
+    "Petruta Stefanescu",
+    null
+   ],
+   [
+    "Nikolaos Stergioulas",
+    null
+   ],
+   [
+    "Jannik Ströhle",
+    null
+   ],
+   [
+    "Christian Struckmann",
+    null
+   ],
+   [
+    "Silvia Tentindo",
+    null
+   ],
+   [
+    "Henry Throssell",
+    null
+   ],
+   [
+    "Guglielmo M. Tino",
+    null
+   ],
+   [
+    "Jonathan Tinsley",
+    null
+   ],
+   [
+    "Ovidiu Tintareanu Mircea",
+    null
+   ],
+   [
+    "Kimberly Tkalčec",
+    null
+   ],
+   [
+    "Andrew Tolley",
+    null
+   ],
+   [
+    "Vincenza Tornatore",
+    null
+   ],
+   [
+    "Alejandro Torres-Orjuela",
+    null
+   ],
+   [
+    "Philipp Treutlein",
+    null
+   ],
+   [
+    "Andrea Trombettoni",
+    null
+   ],
+   [
+    "Yu-Dai Tsai",
+    null
+   ],
+   [
+    "Christian Ufrecht",
+    null
+   ],
+   [
+    "Stefan Ulmer",
+    null
+   ],
+   [
+    "Daniel Valuch",
+    null
+   ],
+   [
+    "Ville Vaskonen",
+    null
+   ],
+   [
+    "Veronica Vazquez Aceves",
+    null
+   ],
+   [
+    "Nikolay Vitanov",
+    null
+   ],
+   [
+    "Christian Vogt",
+    null
+   ],
+   [
+    "Wolf von Klitzing",
+    null
+   ],
+   [
+    "András Vukics",
+    null
+   ],
+   [
+    "Reinhold Walser",
+    null
+   ],
+   [
+    "Jin Wang",
+    null
+   ],
+   [
+    "Niels Warburton",
+    null
+   ],
+   [
+    "Alexander Webber-Date",
+    null
+   ],
+   [
+    "André Wenzlawski",
+    null
+   ],
+   [
+    "Michael Werner",
+    null
+   ],
+   [
+    "Jason Williams",
+    null
+   ],
+   [
+    "Patrcik Windapssinger",
+    null
+   ],
+   [
+    "Peter Wolf",
+    null
+   ],
+   [
+    "Lisa Wörner",
+    null
+   ],
+   [
+    "André Xuereb",
+    null
+   ],
+   [
+    "Mohamed Yahia",
+    null
+   ],
+   [
+    "Emmanuel Zambrini Cruzeiro",
+    null
+   ],
+   [
+    "Moslem Zarei",
+    null
+   ],
+   [
+    "Mingsheng Zhan",
+    null
+   ],
+   [
+    "Lin Zhou",
+    null
+   ],
+   [
+    "Jure Zupan",
+    null
+   ],
+   [
+    "Erik Zupanič",
+    null
+   ]
+  ],
+  "date": "2023-10-12",
+  "added": "2026-10-22",
+  "categories": [
+   "hep-ex",
+   "astro-ph.IM",
+   "gr-qc",
+   "hep-ph",
+   "physics.atom-ph"
+  ],
+  "abstract": "This document presents a summary of the 2023 Terrestrial Very-Long-Baseline Atom Interferometry Workshop hosted by CERN. The workshop brought together experts from around the world to discuss the exciting developments in large-scale atom interferometer (AI) prototypes and their potential for detecting ultralight dark matter and gravitational waves. The primary objective of the workshop was to lay the groundwork for an international TVLBAI proto-collaboration. This collaboration aims to unite researchers from different institutions to strategize and secure funding for terrestrial large-scale AI projects. The ultimate goal is to create a roadmap detailing the design and technology choices for one or more km-scale detectors, which will be operational in the mid-2030s. The key sections of this report present the physics case and technical challenges, together with a comprehensive overview of the discussions at the workshop together with the main conclusions.",
+  "page": true
+ },
+ {
   "id": "2310.02252v1",
   "link": "https://arxiv.org/abs/2310.02252",
   "title": "Gelfand-Tsetlin basis for partially transposed permutations, with applications to quantum information",
@@ -7226,6 +10078,48 @@
   "page": true
  },
  {
+  "id": "2304.06713v2",
+  "link": "https://arxiv.org/abs/2304.06713",
+  "title": "Influences of Fourier Completely Bounded Polynomials and Classical Simulation of Quantum Algorithms",
+  "authors": [
+   [
+    "Francisco Escudero Gutiérrez",
+    "Francisco Escudero"
+   ]
+  ],
+  "date": "2023-04-13",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CC",
+   "math.FA"
+  ],
+  "abstract": "We give a new presentation of the main result of Arunachalam, Briët and Palazuelos (SICOMP'19) and show that quantum query algorithms are characterized by a new class of polynomials which we call Fourier completely bounded polynomials. We conjecture that all such polynomials have an influential variable. This conjecture is weaker than the famous Aaronson-Ambainis (AA) conjecture (Theory of Computing'14), but has the same implications for classical simulation of quantum query algorithms. We prove a new case of the AA conjecture by showing that it holds for homogeneous Fourier completely bounded polynomials. This implies that if the output of $d$-query quantum algorithm is a homogeneous polynomial $p$ of degree $2d$, then it has a variable with influence at least $Var[p]^2$. In addition, we give an alternative proof of the results of Bansal, Sinha and de Wolf (CCC'22 and QIP'23) showing that block-multilinear completely bounded polynomials have influential variables. Our proof is simpler, obtains better constants and does not use randomness.",
+  "page": true
+ },
+ {
+  "id": "2304.03234v3",
+  "link": "https://arxiv.org/abs/2304.03234",
+  "title": "On the threshold for Szemerédi's theorem with random differences",
+  "authors": [
+   [
+    "Jop Briët",
+    "Jop Briët"
+   ],
+   [
+    "Davi Castro-Silva",
+    "Davi Castro-Silva"
+   ]
+  ],
+  "date": "2023-04-06",
+  "added": "2026-10-22",
+  "categories": [
+   "math.CO"
+  ],
+  "abstract": "Using recent developments on the theory of locally decodable codes, we prove that the critical size for Szemerédi's theorem with random differences is bounded from above by $N^{1-\\frac{2}{k} + o(1)}$ for length-$k$ progressions. This gives polynomial improvements over the previous best bounds for all odd $k$.",
+  "page": true
+ },
+ {
   "id": "2304.01940v3",
   "link": "https://arxiv.org/abs/2304.01940",
   "title": "Tracially embeddable strategies: Lifting MIP* tricks to MIPco",
@@ -7565,6 +10459,38 @@
   "page": true
  },
  {
+  "id": "2302.02870v2",
+  "link": "https://arxiv.org/abs/2302.02870",
+  "title": "Noisy decoding by shallow circuits with parities: classical and quantum",
+  "authors": [
+   [
+    "Jop Briët",
+    "Jop Briët"
+   ],
+   [
+    "Harry Buhrman",
+    "Harry Buhrman"
+   ],
+   [
+    "Davi Castro-Silva",
+    "Davi Castro-Silva"
+   ],
+   [
+    "Niels M. P. Neumann",
+    "Niels Neumann"
+   ]
+  ],
+  "date": "2023-02-06",
+  "added": "2026-10-22",
+  "categories": [
+   "cs.CC",
+   "math.CO",
+   "quant-ph"
+  ],
+  "abstract": "We consider the problem of decoding corrupted error correcting codes with NC$^0[\\oplus]$ circuits in the classical and quantum settings. We show that any such classical circuit can correctly recover only a vanishingly small fraction of messages, if the codewords are sent over a noisy channel with positive error rate. Previously this was known only for linear codes with large dual distance, whereas our result applies to any code. By contrast, we give a simple quantum circuit that correctly decodes the Hadamard code with probability $Ω(\\varepsilon^2)$ even if a $(1/2 - \\varepsilon)$-fraction of a codeword is adversarially corrupted. Our classical hardness result is based on an equidistribution phenomenon for multivariate polynomials over a finite field under biased input-distributions. This is proved using a structure-versus-randomness strategy based on a new notion of rank for high-dimensional polynomial maps that may be of independent interest. Our quantum circuit is inspired by a non-local version of the Bernstein-Vazirani problem, a technique to generate ``poor man's cat states'' by Watts et al., and a constant-depth quantum circuit for the OR function by Takahashi and Tani.",
+  "page": true
+ },
+ {
   "id": "2302.00365v2",
   "link": "https://arxiv.org/abs/2302.00365",
   "title": "On tests of the quantum nature of gravitational interactions in presence of non-linear corrections to quantum mechanics",
@@ -7588,6 +10514,29 @@
    "quant-ph"
   ],
   "abstract": "When two particles interact primarily through gravity and follow the laws of quantum mechanics, the generation of entanglement is considered a hallmark of the quantum nature of the gravitational interaction. However, we demonstrate that entanglement dynamics can also occur in the presence of a weak quantum interaction and non-linear corrections to local quantum mechanics, even if the gravitational interaction is classical or absent at short distances. This highlights the importance of going beyond entanglement detection to conclusively test the quantum character of gravity, and it requires a thorough examination of the strength of other quantum forces and potential non-linear corrections to quantum mechanics in the realm of large masses.",
+  "page": true
+ },
+ {
+  "id": "2212.13728v2",
+  "link": "https://arxiv.org/abs/2212.13728",
+  "title": "Random restrictions of high-rank tensors and polynomial maps",
+  "authors": [
+   [
+    "Jop Briët",
+    "Jop Briët"
+   ],
+   [
+    "Davi Castro-Silva",
+    "Davi Castro-Silva"
+   ]
+  ],
+  "date": "2022-12-28",
+  "added": "2026-10-22",
+  "categories": [
+   "math.CO",
+   "math.NT"
+  ],
+  "abstract": "Motivated by a problem in computational complexity, we consider the behavior of rank functions for tensors and polynomial maps under random coordinate restrictions. We show that, for a broad class of rank functions called natural rank functions, random coordinate restriction to a dense set will typically reduce the rank by at most a constant factor.",
   "page": true
  },
  {
@@ -8749,6 +11698,29 @@
   "page": true
  },
  {
+  "id": "2204.12303v3",
+  "link": "https://arxiv.org/abs/2204.12303",
+  "title": "On converses to the polynomial method",
+  "authors": [
+   [
+    "Jop Briët",
+    "Jop Briët"
+   ],
+   [
+    "Francisco Escudero Gutiérrez",
+    "Francisco Escudero"
+   ]
+  ],
+  "date": "2022-04-26",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CC"
+  ],
+  "abstract": "A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. A natural question posed there asks if bounded quartic polynomials can be approximated by $2$-query quantum algorithms. Arunachalam, Palazuelos and the first author showed that there is no direct analogue of the result of Aaronson et al. in this case. We improve on this result in the following ways: First, we point out and fix a small error in the construction that has to do with a translation from cubic to quartic polynomials. Second, we give a completely explicit example based on techniques from additive combinatorics. Third, we show that the result still holds when we allow for a small additive error. For this, we apply an SDP characterization of Gribling and Laurent (QIP'19) for the completely-bounded approximate degree.",
+  "page": true
+ },
+ {
   "id": "2204.06800v2",
   "link": "https://arxiv.org/abs/2204.06800",
   "title": "9 $\\times$ 4 = 6 $\\times$ 6: Understanding the quantum solution to the Euler's problem of 36 officers",
@@ -8813,6 +11785,36 @@
   "page": true
  },
  {
+  "id": "2203.06208v1",
+  "link": "https://arxiv.org/abs/2203.06208",
+  "title": "Quantum Algorithms for Community Detection and their Empirical Run-times",
+  "authors": [
+   [
+    "Chris Cade",
+    "Chris Cade"
+   ],
+   [
+    "Marten Folkertsma",
+    "Marten Folkertsma"
+   ],
+   [
+    "Ido Niesen",
+    "Ido Niesen"
+   ],
+   [
+    "Jordi Weggemans",
+    "Jordi Weggemans"
+   ]
+  ],
+  "date": "2022-03-11",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph"
+  ],
+  "abstract": "We apply our recent work on empirical estimates of quantum speedups to the practical task of community detection in complex networks. We design several quantum variants of a popular classical algorithm -- the Louvain algorithm for community detection -- and first study their complexities in the usual way, before analysing their complexities empirically across a variety of artificial and real inputs. We find that this analysis yields insights not available to us via the asymptotic analysis, further emphasising the utility in such an empirical approach. In particular, we observe that a complicated quantum algorithm with a large asymptotic speedup might not be the fastest algorithm in practice, and that a simple quantum algorithm with a modest speedup might in fact be the one that performs best. Moreover, we repeatedly find that overheads such as those arising from the need to amplify the success probabilities of quantum sub-routines such as Grover search can nullify any speedup that might have been suggested by a theoretical worst- or expected-case analysis.",
+  "page": true
+ },
+ {
   "id": "2203.05599v1",
   "link": "https://arxiv.org/abs/2203.05599",
   "title": "Memory Compression with Quantum Random-Access Gates",
@@ -8873,6 +11875,33 @@
    "cs.DS"
   ],
   "abstract": "Run-times of quantum algorithms are often studied via an asymptotic, worst-case analysis. Whilst useful, such a comparison can often fall short: it is not uncommon for algorithms with a large worst-case run-time to end up performing well on instances of practical interest. To remedy this it is necessary to resort to run-time analyses of a more empirical nature, which for sufficiently small input sizes can be performed on a quantum device or a simulation thereof. For larger input sizes, alternative approaches are required. In this paper we consider an approach that combines classical emulation with detailed complexity bounds that include all constants. We simulate quantum algorithms by running classical versions of the sub-routines, whilst simultaneously collecting information about what the run-time of the quantum routine would have been if it were run instead. To do this accurately and efficiently for very large input sizes, we describe an estimation procedure and prove that it obtains upper bounds on the true expected complexity of the quantum algorithms. We apply our method to some simple quantum speedups of classical heuristic algorithms for solving the well-studied MAX-$k$-SAT optimization problem. This requires rigorous bounds (including all constants) on the expected- and worst-case complexities of two important quantum sub-routines: Grover search with an unknown number of marked items, and quantum maximum-finding. These improve upon existing results and might be of broader interest. Amongst other results, we found that the classical heuristic algorithms we studied did not offer significant quantum speedups despite the existence of a theoretical per-step speedup. This suggests that an empirical analysis such as the one we implement in this paper already yields insights beyond those that can be seen by an asymptotic analysis alone.",
+  "page": true
+ },
+ {
+  "id": "2203.02968v3",
+  "link": "https://arxiv.org/abs/2203.02968",
+  "title": "Improved Quantum Query Upper Bounds Based on Classical Decision Trees",
+  "authors": [
+   [
+    "Arjan Cornelissen",
+    "Arjan Cornelissen"
+   ],
+   [
+    "Nikhil S. Mande",
+    "Nikhil Mande"
+   ],
+   [
+    "Subhasree Patro",
+    "Subhasree Patro"
+   ]
+  ],
+  "date": "2022-03-06",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CC"
+  ],
+  "abstract": "Given a classical query algorithm as a decision tree, when does there exist a quantum query algorithm with a speed-up over the classical one? We provide a general construction based on the structure of the underlying decision tree, and prove that this can give us an up-to-quadratic quantum speed-up. In particular, we obtain a bounded-error quantum query algorithm of cost $O(\\sqrt{s})$ to compute a Boolean function (more generally, a relation) that can be computed by a classical (even randomized) decision tree of size $s$. Lin and Lin [ToC'16] and Beigi and Taghavi [Quantum'20] showed results of a similar flavor, and gave upper bounds in terms of a quantity which we call the \"guessing complexity\" of a decision tree. We identify that the guessing complexity of a decision tree equals its rank, a notion introduced by Ehrenfeucht and Haussler [Inf. Comp.'89] in the context of learning theory. This answers a question posed by Lin and Lin, who asked whether the guessing complexity of a decision tree is related to any complexity-theoretic measure. We also show a polynomial separation between rank and randomized rank for the complete binary AND-OR tree. Beigi and Taghavi constructed span programs and dual adversary solutions for Boolean functions given classical decision trees computing them and an assignment of non-negative weights to its edges. We explore the effect of changing these weights on the resulting span program complexity and objective value of the dual adversary bound, and capture the best possible weighting scheme by an optimization program. We exhibit a solution to this program and argue its optimality from first principles. We also exhibit decision trees for which our bounds are asymptotically stronger than those of Lin and Lin, and Beigi and Taghavi. This answers a question of Beigi and Taghavi, who asked whether different weighting schemes could yield better upper bounds.",
   "page": true
  },
  {
@@ -9346,6 +12375,38 @@
   "page": true
  },
  {
+  "id": "2110.07583v3",
+  "link": "https://arxiv.org/abs/2110.07583",
+  "title": "Near optimal sample complexity for matrix and tensor normal models via geodesic convexity",
+  "authors": [
+   [
+    "Cole Franks",
+    null
+   ],
+   [
+    "Rafael Oliveira",
+    null
+   ],
+   [
+    "Akshay Ramachandran",
+    null
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ]
+  ],
+  "date": "2021-10-14",
+  "added": "2026-10-22",
+  "categories": [
+   "math.ST",
+   "cs.LG",
+   "quant-ph"
+  ],
+  "abstract": "The matrix normal model, i.e., the family of Gaussian matrix-variate distributions whose covariance matrices are the Kronecker product of two lower dimensional factors, is frequently used to model matrix-variate data. The tensor normal model generalizes this family to Kronecker products of three or more factors. We study the estimation of the Kronecker factors of the covariance matrix in the matrix and tensor normal models. For the above models, we show that the maximum likelihood estimator (MLE) achieves nearly optimal nonasymptotic sample complexity and nearly tight error rates in the Fisher-Rao and Thompson metrics. In contrast to prior work, our results do not rely on the factors being well-conditioned or sparse, nor do we need to assume an accurate enough initial guess. For the matrix normal model, all our bounds are minimax optimal up to logarithmic factors, and for the tensor normal model our bounds for the largest factor and for overall covariance matrix are minimax optimal up to constant factors provided there are enough samples for any estimator to obtain constant Frobenius error. In the same regimes as our sample complexity bounds, we show that the flip-flop algorithm, a practical and widely used iterative procedure to compute the MLE, converges linearly with high probability. Our main technical insight is that, given enough samples, the negative log-likelihood function is strongly geodesically convex in the geometry on positive-definite matrices induced by the Fisher information metric. This strong convexity is determined by the expansion of certain random quantum channels.",
+  "page": true
+ },
+ {
   "id": "2109.15282v1",
   "link": "https://arxiv.org/abs/2109.15282",
   "title": "Improved quantum lower and upper bounds for matrix scaling",
@@ -9479,6 +12540,34 @@
    "quant-ph"
   ],
   "abstract": "We consider the problem of estimating the expected outcomes of Monte Carlo processes whose outputs are described by multidimensional random variables. We tightly characterize the quantum query complexity of this problem for various choices of oracle access to the Monte Carlo process and various normalization conditions on its output variables and the estimates to be made. More specifically, we design quantum algorithms that provide a quadratic speed-up in query complexity with respect to the precision of the resulting estimates and show that these complexities are asymptotically optimal in each of our scenarios. Interestingly, we find that these speed-ups with respect to the precision come at the cost of a (up to exponential) slowdown with respect to the dimension of the Monte Carlo random variables, for most of the parameter settings we consider. We also describe several applications of our algorithms, notably in the field of machine learning, and discuss the implications of our results.",
+  "page": true
+ },
+ {
+  "id": "2107.02567v2",
+  "link": "https://arxiv.org/abs/2107.02567",
+  "title": "On a tracial version of Haemers bound",
+  "authors": [
+   [
+    "Li Gao",
+    null
+   ],
+   [
+    "Sander Gribling",
+    "Sander Gribling"
+   ],
+   [
+    "Yinan Li",
+    "Yinan Li"
+   ]
+  ],
+  "date": "2021-07-06",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.IT",
+   "math.CO"
+  ],
+  "abstract": "We extend upper bounds on the quantum independence number and the quantum Shannon capacity of graphs to their counterparts in the commuting operator model. We introduce a von Neumann algebraic generalization of the fractional Haemers bound (over $\\mathbb{C}$) and prove that the generalization upper bounds the commuting quantum independence number. We call our bound the tracial Haemers bound, and we prove that it is multiplicative with respect to the strong product. In particular, this makes it an upper bound on the Shannon capacity. The tracial Haemers bound is incomparable with the Lovász theta function, another well-known upper bound on the Shannon capacity. We show that separating the tracial and fractional Haemers bounds would refute Connes' embedding conjecture. Along the way, we prove that the tracial rank and tracial Haemers bound are elements of the (commuting quantum) asymptotic spectrum of graphs (Zuiddam, Combinatorica, 2019). We also show that the inertia bound (an upper bound on the quantum independence number) upper bounds the commuting quantum independence number.",
   "page": true
  },
  {
@@ -9823,6 +12912,33 @@
   "page": true
  },
  {
+  "id": "2104.06301v3",
+  "link": "https://arxiv.org/abs/2104.06301",
+  "title": "A single-qubit position verification protocol that is secure against multi-qubit attacks",
+  "authors": [
+   [
+    "Andreas Bluhm",
+    null
+   ],
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Florian Speelman",
+    "Florian Speelman"
+   ]
+  ],
+  "date": "2021-04-13",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CR"
+  ],
+  "abstract": "The position of a device or agent is an important security credential in today's society, both online and in the real world. Unless in direct proximity, however, the secure verification of a position is impossible without further assumptions. This is true classically, but also in any future quantum-equipped communications infrastructure. We show in this work that minimal quantum resources, in the form of a single qubit, combined with classical communication are sufficient to thwart quantum adversaries that pretend to be at a specific position and have the ability to coordinate their action with entanglement. More precisely, we show that the adversaries using an increasing amount of entanglement can be combatted solely by increasing the number of classical bits used in the protocol. The presented protocols are noise-robust and within reach of current quantum technology.",
+  "page": true
+ },
+ {
   "id": "2103.14510v3",
   "link": "https://arxiv.org/abs/2103.14510",
   "title": "Limitations on Uncloneable Encryption and Simultaneous One-Way-to-Hiding",
@@ -10024,6 +13140,25 @@
    "math-ph"
   ],
   "abstract": "Given a set of local dynamics, are they compatible with a global dynamics? We systematically formulate these questions as quantum channel marginal problems. These problems are strongly connected to the generalization of the no-signaling conditions to quantized inputs and outputs and can be understood as a general toolkit to study notions of quantum incompatibility. In fact, they include as special cases channel broadcasting, channel extendibility, measurement compatibility, and state marginal problems. After defining the notion of compatibility between global and local dynamics, we provide a solution to the channel marginal problem that takes the form of a semidefinite program. Using this formulation, we construct channel incompatibility witnesses, discuss their operational interpretation in terms of an advantage for a state-discrimination task, prove a gap between classical and quantum dynamical marginal problems and show that the latter is irreducible to state marginal problems.",
+  "page": true
+ },
+ {
+  "id": "2102.10018v3",
+  "link": "https://arxiv.org/abs/2102.10018",
+  "title": "Geometrical sets with forbidden configurations",
+  "authors": [
+   [
+    "Davi Castro-Silva",
+    "Davi Castro-Silva"
+   ]
+  ],
+  "date": "2021-02-19",
+  "added": "2026-10-22",
+  "categories": [
+   "math.CO",
+   "math.MG"
+  ],
+  "abstract": "Given finite configurations $P_1, \\dots, P_n \\subset \\mathbb{R}^d$, let us denote by $\\mathbf{m}_{\\mathbb{R}^d}(P_1, \\dots, P_n)$ the maximum density a set $A \\subseteq \\mathbb{R}^d$ can have without containing congruent copies of any $P_i$. We will initiate the study of this geometrical parameter, called the independence density of the considered configurations, and give several results we believe are interesting. For instance we show that, under suitable size and non-degeneracy conditions, $\\mathbf{m}_{\\mathbb{R}^d}(t_1 P_1, t_2 P_2, \\dots, t_n P_n)$ progressively `untangles' and tends to $\\prod_{i=1}^n \\mathbf{m}_{\\mathbb{R}^d}(P_i)$ as the ratios $t_{i+1}/t_i$ between consecutive dilation parameters grow large; this shows an exponential decay on the density when forbidding multiple dilates of a given configuration, and gives a common generalization of theorems by Bourgain and by Bukh in geometric Ramsey theory. We also consider the analogous parameter $\\mathbf{m}_{S^d}(P_1, \\dots, P_n)$ on the more complicated framework of sets on the unit sphere $S^d$, obtaining the corresponding results in this setting.",
   "page": true
  },
  {
@@ -10373,6 +13508,42 @@
   "page": true
  },
  {
+  "id": "2012.01920v2",
+  "link": "https://arxiv.org/abs/2012.01920",
+  "title": "Quantum learning algorithms imply circuit lower bounds",
+  "authors": [
+   [
+    "Srinivasan Arunachalam",
+    "Srinivasan Arunachalam"
+   ],
+   [
+    "Alex B. Grilo",
+    "Alex Grilo"
+   ],
+   [
+    "Tom Gur",
+    null
+   ],
+   [
+    "Igor C. Oliveira",
+    null
+   ],
+   [
+    "Aarthi Sundaram",
+    null
+   ]
+  ],
+  "date": "2020-12-03",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph",
+   "cs.CC",
+   "cs.LG"
+  ],
+  "abstract": "We establish the first general connection between the design of quantum algorithms and circuit lower bounds. Specifically, let $\\mathfrak{C}$ be a class of polynomial-size concepts, and suppose that $\\mathfrak{C}$ can be PAC-learned with membership queries under the uniform distribution with error $1/2 - γ$ by a time $T$ quantum algorithm. We prove that if $γ^2 \\cdot T \\ll 2^n/n$, then $\\mathsf{BQE} \\nsubseteq \\mathfrak{C}$, where $\\mathsf{BQE} = \\mathsf{BQTIME}[2^{O(n)}]$ is an exponential-time analogue of $\\mathsf{BQP}$. This result is optimal in both $γ$ and $T$, since it is not hard to learn any class $\\mathfrak{C}$ of functions in (classical) time $T = 2^n$ (with no error), or in quantum time $T = \\mathsf{poly}(n)$ with error at most $1/2 - Ω(2^{-n/2})$ via Fourier sampling. In other words, even a marginal improvement on these generic learning algorithms would lead to major consequences in complexity theory. Our proof builds on several works in learning theory, pseudorandomness, and computational complexity, and crucially, on a connection between non-trivial classical learning algorithms and circuit lower bounds established by Oliveira and Santhanam (CCC 2017). Extending their approach to quantum learning algorithms turns out to create significant challenges. To achieve that, we show among other results how pseudorandom generators imply learning-to-lower-bound connections in a generic fashion, construct the first conditional pseudorandom generator secure against uniform quantum computations, and extend the local list-decoding algorithm of Impagliazzo, Jaiswal, Kabanets and Wigderson (SICOMP 2010) to quantum circuits via a delicate analysis. We believe that these contributions are of independent interest and might find other applications.",
+  "page": true
+ },
+ {
   "id": "2012.00741v2",
   "link": "https://arxiv.org/abs/2012.00741",
   "title": "A converse to Lieb-Robinson bounds in one dimension using index theory",
@@ -10703,6 +13874,37 @@
   "page": true
  },
  {
+  "id": "2008.12110v1",
+  "link": "https://arxiv.org/abs/2008.12110",
+  "title": "Interior-point methods for unconstrained geometric programming and scaling problems",
+  "authors": [
+   [
+    "Peter Bürgisser",
+    null
+   ],
+   [
+    "Yinan Li",
+    "Yinan Li"
+   ],
+   [
+    "Harold Nieuwboer",
+    "Harold Nieuwboer"
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ]
+  ],
+  "date": "2020-08-27",
+  "added": "2026-10-22",
+  "categories": [
+   "math.OC",
+   "cs.DS"
+  ],
+  "abstract": "We provide a condition-based analysis of two interior-point methods for unconstrained geometric programs, a class of convex programs that arise naturally in applications including matrix scaling, matrix balancing, and entropy maximization. Our condition numbers are natural geometric quantities associated with the Newton polytope of the geometric program, and lead to diameter bounds on approximate minimizers. We also provide effective bounds on the condition numbers both in general and under combinatorial assumptions on the Newton polytope. In this way, we generalize the iteration complexity of recent interior-point methods for matrix scaling and matrix balancing. Recently, there has been much work on algorithms for certain optimization problems on Lie groups, known as capacity and scaling problems. For commutative groups, these problems reduce to unconstrained geometric programs, which serves as a particular source of motivation for our work.",
+  "page": true
+ },
+ {
   "id": "2005.06432v2",
   "link": "https://arxiv.org/abs/2005.06432",
   "title": "Impossibility of Quantum Virtual Black-Box Obfuscation of Classical Circuits",
@@ -10820,6 +14022,30 @@
    "hep-th"
   ],
   "abstract": "We propose a quantum simulation of a supersymmetric lattice model using atoms trapped in a 1D configuration and interacting through a Rydberg dressed potential. The elementary excitations in the model are kinks or (in a sector with one extra particle) their superpartners - the skinks. The two are connected by supersymmetry and display identical quantum dynamics. We provide an analytical description of the kink/skink quench dynamics and propose a protocol to prepare and detect these excitations in the quantum simulator. We make a detailed analysis, based on numerical simulation, of the Rydberg atom simulator and show that it accurately tracks the dynamics of the supersymmetric model.",
+  "page": true
+ },
+ {
+  "id": "2004.14872v2",
+  "link": "https://arxiv.org/abs/2004.14872",
+  "title": "Minimal length in an orbit closure as a semiclassical limit",
+  "authors": [
+   [
+    "Cole Franks",
+    null
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ]
+  ],
+  "date": "2020-04-30",
+  "added": "2026-10-22",
+  "categories": [
+   "math.AG",
+   "math-ph",
+   "quant-ph"
+  ],
+  "abstract": "Consider the action of a connected complex reductive group on a finite-dimensional vector space. A fundamental result in invariant theory states that the orbit closure of a vector v is separated from the origin if and only if some homogeneous invariant polynomial is nonzero on v, i.e. v is not in the null cone. Thus, efficiently finding the minimum distance between the orbit closure and the origin can lead to deterministic algorithms for null cone membership, an important polynomial identity testing problem including the non-commutative Edmonds problem. This connection to optimization has recently led to efficient algorithms for many problems in invariant theory. Here we explore a refinement of the famous duality between orbit closures and invariant polynomials, which holds that the following two quantities coincide: (1) the logarithm of the Euclidean distance between the orbit closure and the origin and (2) the rate of exponential growth of the 'invariant part' of $v^{\\otimes k}$ in the semiclassical limit as k tends to infinity. This result can be deduced from work of S. Zhang (Geometric reductivity at Archimedean places, 1994), which uses sophisticated tools in arithmetic geometry. We provide a new and independent elementary proof inspired by the Fourier-analytic proof of the local central limit theorem. We generalize the result to projections onto highest weight vectors and isotypical components, and explore connections between such semiclassical limits and the asymptotic behavior of multiplicities in representation theory, large deviations theory in classical and quantum statistics, and the Jacobian conjecture as reformulated by Mathieu. Our formulas imply that they can be computed, in many cases efficiently, to arbitrary precision.",
   "page": true
  },
  {
@@ -11701,6 +14927,34 @@
   "page": true
  },
  {
+  "id": "1905.03148v1",
+  "link": "https://arxiv.org/abs/1905.03148",
+  "title": "The asymptotic induced matching number of hypergraphs: balanced binary strings",
+  "authors": [
+   [
+    "Srinivasan Arunachalam",
+    "Srinivasan Arunachalam"
+   ],
+   [
+    "Péter Vrana",
+    null
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2019-05-08",
+  "added": "2026-10-22",
+  "categories": [
+   "math.CO",
+   "cs.CC",
+   "quant-ph"
+  ],
+  "abstract": "We compute the asymptotic induced matching number of the $k$-partite $k$-uniform hypergraphs whose edges are the $k$-bit strings of Hamming weight $k/2$, for any large enough even number $k$. Our lower bound relies on the higher-order extension of the well-known Coppersmith-Winograd method from algebraic complexity theory, which was proven by Christandl, Vrana and Zuiddam. Our result is motivated by the study of the power of this method as well as of the power of the Strassen support functionals (which provide upper bounds on the asymptotic induced matching number), and the connections to questions in tensor theory, quantum information theory and theoretical computer science. Phrased in the language of tensors, as a direct consequence of our result, we determine the asymptotic subrank of any tensor with support given by the aforementioned hypergraphs. In the context of quantum information theory, our result amounts to an asymptotically optimal $k$-party stochastic local operations and classical communication (slocc) protocol for the problem of distilling GHZ-type entanglement from a subfamily of Dicke-type entanglement.",
+  "page": true
+ },
+ {
   "id": "1905.02518v1",
   "link": "https://arxiv.org/abs/1905.02518",
   "title": "Incorporating Weisfeiler-Leman into algorithms for group isomorphism",
@@ -12016,6 +15270,34 @@
    "math.ST"
   ],
   "abstract": "A fundamental problem in statistics and learning theory is to test properties of distributions. We show that quantum computers can solve such problems with significant speed-ups. In particular, we give fast quantum algorithms for testing closeness between unknown distributions, testing independence between two distributions, and estimating the Shannon / von Neumann entropy of distributions. The distributions can be either classical or quantum, however our quantum algorithms require coherent quantum access to a process preparing the samples. Our results build on the recent technique of quantum singular value transformation, combined with more standard tricks such as divide-and-conquer. The presented approach is a natural fit for distributional property testing both in the classical and the quantum case, demonstrating the first speed-ups for testing properties of density operators that can be accessed coherently rather than only via sampling; for classical distributions our algorithms significantly improve the precision dependence of some earlier results.",
+  "page": true
+ },
+ {
+  "id": "1901.07194v5",
+  "link": "https://arxiv.org/abs/1901.07194",
+  "title": "Horn conditions for quiver subrepresentations and the moment map",
+  "authors": [
+   [
+    "Velleda Baldoni",
+    null
+   ],
+   [
+    "Michèle Vergne",
+    null
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ]
+  ],
+  "date": "2019-01-22",
+  "added": "2026-10-22",
+  "categories": [
+   "math.AG",
+   "math.RT",
+   "math.SG"
+  ],
+  "abstract": "We give inductive conditions that characterize the Schubert positions of subrepresentations of a general quiver representation. Our results generalize Belkale's criterion for the intersection of Schubert varieties in Grassmannians and refine Schofield's characterization of the dimension vectors of general subrepresentations. This implies Horn type inequalities for the moment cone associated to the linear representation of the group $G=\\prod_x \\operatorname{GL}(n_x)$ associated to a quiver and a dimension vector $\\mathbf n=(n_x)$.",
   "page": true
  },
  {
@@ -12673,6 +15955,25 @@
   "page": true
  },
  {
+  "id": "1807.00169v2",
+  "link": "https://arxiv.org/abs/1807.00169",
+  "title": "The asymptotic spectrum of graphs and the Shannon capacity",
+  "authors": [
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2018-06-30",
+  "added": "2026-10-22",
+  "categories": [
+   "math.CO",
+   "cs.DM"
+  ],
+  "abstract": "We introduce the asymptotic spectrum of graphs and apply the theory of asymptotic spectra of Strassen (J. Reine Angew. Math. 1988) to obtain a new dual characterisation of the Shannon capacity of graphs. Elements in the asymptotic spectrum of graphs include the Lovász theta number, the fractional clique cover number, the complement of the fractional orthogonal rank and the fractional Haemers bounds.",
+  "page": true
+ },
+ {
   "id": "1806.01838v1",
   "link": "https://arxiv.org/abs/1806.01838",
   "title": "Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics",
@@ -12848,6 +16149,34 @@
   "page": true
  },
  {
+  "id": "1804.00431v2",
+  "link": "https://arxiv.org/abs/1804.00431",
+  "title": "Horn inequalities and quivers",
+  "authors": [
+   [
+    "Velleda Baldoni",
+    null
+   ],
+   [
+    "Michèle Vergne",
+    null
+   ],
+   [
+    "Michael Walter",
+    "Michael Walter"
+   ]
+  ],
+  "date": "2018-04-02",
+  "added": "2026-10-22",
+  "categories": [
+   "math.RT",
+   "math.AG",
+   "math.SG"
+  ],
+  "abstract": "Let G be a complex reductive group acting on a finite-dimensional complex vector space H. Let B be a Borel subgroup of G and let T be the associated torus. The Mumford cone is the polyhedral cone generated by the T-weights of the polynomial functions on H which are semi-invariant under the Borel subgroup. In this article, we determine the inequalities of the Mumford cone in the case of the linear representation associated to a quiver and a dimension vector n=(n_x). We give these inequalities in terms of filtered dimension vectors, and we directly adapt Schofield's argument to inductively determine the dimension vectors of general subrepresentations in the filtered context. In particular, this gives one further proof of the Horn inequalities for tensor products.",
+  "page": true
+ },
+ {
   "id": "1803.03761v4",
   "link": "https://arxiv.org/abs/1803.03761",
   "title": "Quantum-secure message authentication via blind-unforgeability",
@@ -12974,6 +16303,92 @@
    "quant-ph"
   ],
   "abstract": "This paper considers the potential impact that the nascent technology of quantum computing may have on society. It focuses on three areas: cryptography, optimization, and simulation of quantum systems. We will also discuss some ethical aspects of these developments, and ways to mitigate the risks.",
+  "page": true
+ },
+ {
+  "id": "1712.03773v2",
+  "link": "https://arxiv.org/abs/1712.03773",
+  "title": "The European Quantum Technologies Roadmap",
+  "authors": [
+   [
+    "Antonio Acín",
+    null
+   ],
+   [
+    "Immanuel Bloch",
+    null
+   ],
+   [
+    "Harry Buhrman",
+    "Harry Buhrman"
+   ],
+   [
+    "Tommaso Calarco",
+    null
+   ],
+   [
+    "Christopher Eichler",
+    null
+   ],
+   [
+    "Jens Eisert",
+    null
+   ],
+   [
+    "Daniel Esteve",
+    null
+   ],
+   [
+    "Nicolas Gisin",
+    null
+   ],
+   [
+    "Steffen J. Glaser",
+    null
+   ],
+   [
+    "Fedor Jelezko",
+    null
+   ],
+   [
+    "Stefan Kuhr",
+    null
+   ],
+   [
+    "Maciej Lewenstein",
+    null
+   ],
+   [
+    "Max F. Riedel",
+    null
+   ],
+   [
+    "Piet O. Schmidt",
+    null
+   ],
+   [
+    "Rob Thew",
+    null
+   ],
+   [
+    "Andreas Wallraff",
+    null
+   ],
+   [
+    "Ian Walmsley",
+    null
+   ],
+   [
+    "Frank K. Wilhelm",
+    null
+   ]
+  ],
+  "date": "2017-12-11",
+  "added": "2026-10-22",
+  "categories": [
+   "quant-ph"
+  ],
+  "abstract": "Within the last two decades, Quantum Technologies (QT) have made tremendous progress, moving from Noble Prize award-winning experiments on quantum physics into a cross-disciplinary field of applied research. Technologies are being developed now that explicitly address individual quantum states and make use of the 'strange' quantum properties, such as superposition and entanglement. The field comprises four domains: Quantum Communication, Quantum Simulation, Quantum Computation, and Quantum Sensing and Metrology. One success factor for the rapid advancement of QT is a well-aligned global research community with a common understanding of the challenges and goals. In Europe, this community has profited from several coordination projects, which have orchestrated the creation of a 150-page QT Roadmap. This article presents an updated summary of this roadmap. Besides sections on the four domains of QT, we have included sections on Quantum Theory and Software, and on Quantum Control, as both are important areas of research that cut across all four domains. Each section, after a short introduction to the domain, gives an overview on its current status and main challenges and then describes the advances in science and technology foreseen for the next ten years and beyond.",
   "page": true
  },
  {
@@ -13310,6 +16725,62 @@
    "hep-th"
   ],
   "abstract": "Motivated by the black hole firewall problem, we find highly entangled pairs of spatially localized modes in quantum field theory. We demonstrate that appropriately chosen wavepackets localized outside the horizon are nearly purified by 'mirror' modes behind the horizon. In addition, we calculate the entanglement entropy of a single localized wavepacket in the Minkowski vacuum. In all cases we study, the quantum state of the system becomes pure in the limit that the wavepackets delocalize; we quantify the trade-off between localization and purity.",
+  "page": true
+ },
+ {
+  "id": "1705.09652v1",
+  "link": "https://arxiv.org/abs/1705.09652",
+  "title": "The border support rank of two-by-two matrix multiplication is seven",
+  "authors": [
+   [
+    "Markus Bläser",
+    null
+   ],
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2017-05-26",
+  "added": "2026-10-22",
+  "categories": [
+   "cs.CC",
+   "math.RT",
+   "quant-ph"
+  ],
+  "abstract": "We show that the border support rank of the tensor corresponding to two-by-two matrix multiplication is seven over the complex numbers. We do this by constructing two polynomials that vanish on all complex tensors with format four-by-four-by-four and border rank at most six, but that do not vanish simultaneously on any tensor with the same support as the two-by-two matrix multiplication tensor. This extends the work of Hauenstein, Ikenmeyer, and Landsberg. We also give two proofs that the support rank of the two-by-two matrix multiplication tensor is seven over any field: one proof using a result of De Groote saying that the decomposition of this tensor is unique up to sandwiching, and another proof via the substitution method. These results answer a question asked by Cohn and Umans. Studying the border support rank of the matrix multiplication tensor is relevant for the design of matrix multiplication algorithms, because upper bounds on the border support rank of the matrix multiplication tensor lead to upper bounds on the computational complexity of matrix multiplication, via a construction of Cohn and Umans. Moreover, support rank has applications in quantum communication complexity.",
+  "page": true
+ },
+ {
+  "id": "1705.09379v4",
+  "link": "https://arxiv.org/abs/1705.09379",
+  "title": "Tensor rank is not multiplicative under the tensor product",
+  "authors": [
+   [
+    "Matthias Christandl",
+    null
+   ],
+   [
+    "Asger Kjærulff Jensen",
+    null
+   ],
+   [
+    "Jeroen Zuiddam",
+    "Jeroen Zuiddam"
+   ]
+  ],
+  "date": "2017-05-25",
+  "added": "2026-10-22",
+  "categories": [
+   "math.AC",
+   "cs.CC",
+   "quant-ph"
+  ],
+  "abstract": "The tensor rank of a tensor t is the smallest number r such that t can be decomposed as a sum of r simple tensors. Let s be a k-tensor and let t be an l-tensor. The tensor product of s and t is a (k + l)-tensor. Tensor rank is sub-multiplicative under the tensor product. We revisit the connection between restrictions and degenerations. A result of our study is that tensor rank is not in general multiplicative under the tensor product. This answers a question of Draisma and Saptharishi. Specifically, if a tensor t has border rank strictly smaller than its rank, then the tensor rank of t is not multiplicative under taking a sufficiently hight tensor product power. The \"tensor Kronecker product\" from algebraic complexity theory is related to our tensor product but different, namely it multiplies two k-tensors to get a k-tensor. Nonmultiplicativity of the tensor Kronecker product has been known since the work of Strassen. It remains an open question whether border rank and asymptotic rank are multiplicative under the tensor product. Interestingly, lower bounds on border rank obtained from generalised flattenings (including Young flattenings) multiply under the tensor product.",
   "page": true
  },
  {

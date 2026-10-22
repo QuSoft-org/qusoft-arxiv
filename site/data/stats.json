@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-22T09:34",
- "papers": 448,
- "people": 105,
+ "updated": "2026-10-22T11:42",
+ "papers": 477,
+ "people": 106,
  "alumni": 46,
  "first_year": 2015,
  "by_year": [
@@ -21,73 +21,73 @@
   },
   {
    "year": 2017,
-   "papers": 20,
-   "contributors": 20,
+   "papers": 23,
+   "contributors": 21,
    "together": 8,
    "with_alumni": 12
   },
   {
    "year": 2018,
-   "papers": 28,
+   "papers": 30,
    "contributors": 25,
    "together": 15,
    "with_alumni": 20
   },
   {
    "year": 2019,
-   "papers": 32,
-   "contributors": 29,
-   "together": 15,
-   "with_alumni": 22
+   "papers": 34,
+   "contributors": 30,
+   "together": 16,
+   "with_alumni": 23
   },
   {
    "year": 2020,
-   "papers": 29,
+   "papers": 32,
    "contributors": 29,
-   "together": 18,
-   "with_alumni": 18
+   "together": 20,
+   "with_alumni": 20
   },
   {
    "year": 2021,
-   "papers": 39,
-   "contributors": 43,
-   "together": 21,
-   "with_alumni": 31
+   "papers": 43,
+   "contributors": 45,
+   "together": 22,
+   "with_alumni": 33
   },
   {
    "year": 2022,
-   "papers": 48,
-   "contributors": 54,
-   "together": 28,
-   "with_alumni": 34
+   "papers": 52,
+   "contributors": 56,
+   "together": 32,
+   "with_alumni": 38
   },
   {
    "year": 2023,
-   "papers": 47,
-   "contributors": 46,
+   "papers": 51,
+   "contributors": 49,
+   "together": 27,
+   "with_alumni": 41
+  },
+  {
+   "year": 2024,
+   "papers": 59,
+   "contributors": 43,
    "together": 24,
    "with_alumni": 38
   },
   {
-   "year": 2024,
-   "papers": 56,
-   "contributors": 41,
-   "together": 22,
-   "with_alumni": 35
-  },
-  {
    "year": 2025,
-   "papers": 72,
-   "contributors": 55,
-   "together": 41,
-   "with_alumni": 22
+   "papers": 76,
+   "contributors": 59,
+   "together": 45,
+   "with_alumni": 26
   },
   {
    "year": 2026,
    "papers": 60,
-   "contributors": 54,
+   "contributors": 55,
    "together": 36,
-   "with_alumni": 12
+   "with_alumni": 11
   }
  ],
  "edges": [
@@ -159,7 +159,7 @@
   [
    "Alex Grilo",
    "Srinivasan Arunachalam",
-   2
+   3
   ],
   [
    "Alex Grilo",
@@ -374,7 +374,7 @@
   [
    "Arjan Cornelissen",
    "Nikhil Mande",
-   2
+   3
   ],
   [
    "Arjan Cornelissen",
@@ -389,7 +389,7 @@
   [
    "Arjan Cornelissen",
    "Subhasree Patro",
-   1
+   2
   ],
   [
    "Arjan Cornelissen",
@@ -429,17 +429,17 @@
   [
    "Chris Cade",
    "Ido Niesen",
-   2
+   3
   ],
   [
    "Chris Cade",
    "Jordi Weggemans",
-   4
+   5
   ],
   [
    "Chris Cade",
    "Marten Folkertsma",
-   4
+   5
   ],
   [
    "Christian Majenz",
@@ -563,17 +563,27 @@
   ],
   [
    "Davi Castro-Silva",
+   "Harry Buhrman",
+   1
+  ],
+  [
+   "Davi Castro-Silva",
    "Jonas Helsen",
    1
   ],
   [
    "Davi Castro-Silva",
    "Jop Briët",
-   2
+   6
   ],
   [
    "Davi Castro-Silva",
    "Michael Walter",
+   1
+  ],
+  [
+   "Davi Castro-Silva",
+   "Niels Neumann",
    1
   ],
   [
@@ -739,7 +749,12 @@
   [
    "Florian Schreck",
    "Klaasjan van Druten",
-   3
+   4
+  ],
+  [
+   "Florian Schreck",
+   "Philippe Bouyer",
+   2
   ],
   [
    "Florian Schreck",
@@ -749,7 +764,7 @@
   [
    "Florian Schreck",
    "Shayne Bennetts",
-   4
+   5
   ],
   [
    "Florian Speelman",
@@ -864,7 +879,7 @@
   [
    "Francisco Escudero",
    "Jop Briët",
-   1
+   2
   ],
   [
    "Francisco Escudero",
@@ -953,13 +968,23 @@
   ],
   [
    "Harold Nieuwboer",
+   "Jeroen Zuiddam",
+   4
+  ],
+  [
+   "Harold Nieuwboer",
    "Joran van Apeldoorn",
    2
   ],
   [
    "Harold Nieuwboer",
-   "Michael Walter",
+   "Maxim van den Berg",
    3
+  ],
+  [
+   "Harold Nieuwboer",
+   "Michael Walter",
+   7
   ],
   [
    "Harold Nieuwboer",
@@ -974,7 +999,7 @@
   [
    "Harold Nieuwboer",
    "Yinan Li",
-   1
+   2
   ],
   [
    "Harry Buhrman",
@@ -989,7 +1014,7 @@
   [
    "Harry Buhrman",
    "Jop Briët",
-   2
+   3
   ],
   [
    "Harry Buhrman",
@@ -1019,7 +1044,7 @@
   [
    "Harry Buhrman",
    "Niels Neumann",
-   1
+   2
   ],
   [
    "Harry Buhrman",
@@ -1064,12 +1089,12 @@
   [
    "Ido Niesen",
    "Jordi Weggemans",
-   1
+   2
   ],
   [
    "Ido Niesen",
    "Marten Folkertsma",
-   1
+   2
   ],
   [
    "Ivo Knottnerus",
@@ -1102,13 +1127,23 @@
    2
   ],
   [
-   "Jelena Mackeprang",
-   "Yaroslav Herasymenko",
+   "Jeroen Zuiddam",
+   "Jop Briët",
    1
   ],
   [
    "Jeroen Zuiddam",
-   "Jop Briët",
+   "Maxim van den Berg",
+   3
+  ],
+  [
+   "Jeroen Zuiddam",
+   "Michael Walter",
+   3
+  ],
+  [
+   "Jeroen Zuiddam",
+   "Srinivasan Arunachalam",
    1
   ],
   [
@@ -1223,6 +1258,11 @@
   ],
   [
    "Jop Briët",
+   "Niels Neumann",
+   1
+  ],
+  [
+   "Jop Briët",
    "Philippe van Dordrecht",
    2
   ],
@@ -1284,7 +1324,7 @@
   [
    "Jordi Weggemans",
    "Marten Folkertsma",
-   4
+   5
   ],
   [
    "Jordi Weggemans",
@@ -1492,6 +1532,11 @@
    1
   ],
   [
+   "Maxim van den Berg",
+   "Michael Walter",
+   3
+  ],
+  [
    "Michael Walter",
    "Ronald de Wolf",
    1
@@ -1514,7 +1559,7 @@
   [
    "Michael Walter",
    "Yinan Li",
-   1
+   2
   ],
   [
    "Nikhil Mande",
@@ -1524,7 +1569,7 @@
   [
    "Nikhil Mande",
    "Subhasree Patro",
-   1
+   2
   ],
   [
    "Philip Verduyn Lunel",
@@ -1534,6 +1579,11 @@
   [
    "Philip Verduyn Lunel",
    "Yaroslav Herasymenko",
+   1
+  ],
+  [
+   "Philippe Bouyer",
+   "Shayne Bennetts",
    1
   ],
   [
@@ -1589,7 +1639,7 @@
   [
    "Sander Gribling",
    "Yinan Li",
-   2
+   3
   ],
   [
    "Sebastian Zur",

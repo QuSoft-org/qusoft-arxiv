@@ -2,7 +2,7 @@
 """Internal report for the QuSoft management team (local only, never published).
 
 Looks at every arXiv paper by a QuSoft person written while they were at QuSoft,
-including the ones that don't mention QuSoft on the first page, and counts papers
+including the ones that don't name QuSoft, and counts papers
 per person per year. Membership dates come from the private spreadsheet when it
 is present (exact dates), otherwise from the years in people.csv.
 
@@ -29,6 +29,7 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 
+from qusoft.firstpage import qusoft_page
 from qusoft.common import (PersonMatcher, base_id, is_alumnus, load_json, load_papers, load_people,
                            path, save_json)
 
@@ -37,8 +38,9 @@ META_CACHE = ROOT / "cache" / "report_papers.json"
 OLD_QUERY_CACHE = ROOT / "cache" / "query_cache.json"
 UA = {"User-Agent": "qusoft-arxiv internal report (https://github.com/cschaffner/qusoft-arxiv)"}
 
-QUSOFT_ON_FIRST_PAGE = "QuSoft on first page"
-QUSOFT_LATER = "QuSoft only on a later page"
+QUSOFT_ON_FIRST_PAGE = "QuSoft named (on the site)"  # name kept from when only the first page counted
+QUSOFT_LATER = "QuSoft only thanked"
+OLD_KINDS = {"QuSoft on first page": QUSOFT_ON_FIRST_PAGE, "QuSoft only on a later page": QUSOFT_LATER}
 CWI_UVA = "CWI or UvA, no QuSoft"
 NONE = "No QuSoft, CWI or UvA"
 UNREADABLE = "PDF not available"
@@ -153,7 +155,7 @@ def affiliation_kind(pdf):
     try:
         with fitz.open(pdf) as doc:
             first = doc[0].get_text()
-            if "qusoft" in first.lower():
+            if qusoft_page(doc):
                 return QUSOFT_ON_FIRST_PAGE
             if any("qusoft" in page.get_text().lower() for page in doc):
                 return QUSOFT_LATER
@@ -211,7 +213,7 @@ def collect(people):
         members = [m for m in dict.fromkeys(filter(None, map(match, p["authors"])))
                    if was_member(spans[m], d, is_alumnus(people[m]))]
         if members:
-            kind = p.get("kind", UNREADABLE)
+            kind = OLD_KINDS.get(p.get("kind"), p.get("kind", UNREADABLE))
             if kind == QUSOFT_ON_FIRST_PAGE:  # QuSoft is there after all (e.g. a later version)
                 kind = QUSOFT_LATER
             rows.append({"date": d, "id": p["id"], "title": p["title"], "kind": kind,
@@ -267,13 +269,13 @@ def main():
         total = sum(counts)
         unsure = sum(1 for r in rows if r["date"].year == y and r["unsure"] and set(r["unsure"]) == set(r["members"]))
         summary.append([y, total, *counts, round(100 * counts[0] / total) if total else None, unsure])
-    _sheet(wb, "Per year", ["Year", "Papers by members", *KINDS, "% with QuSoft on first page",
+    _sheet(wb, "Per year", ["Year", "Papers by members", *KINDS, "% naming QuSoft",
                             "Of these, maybe by someone else with the same name"], summary,
            [8, 12, 14, 14, 14, 14, 12, 14, 18],
            note=f"Papers by QuSoft people written while they were members ({source}). "
                 "Only papers that QuSoft's daily arXiv search found.")
 
-    # The papers without QuSoft on the first page.
+    # The papers that don't name QuSoft.
     without = [[r["date"], f"https://arxiv.org/abs/{base_id(r['id'])}", r["title"], r["kind"],
                 ", ".join(r["members"]), ", ".join(r["unsure"]) or None, ", ".join(r["categories"]),
                 ", ".join(r["authors"])]
@@ -303,7 +305,7 @@ def main():
     names = sorted(people, key=lambda n: (is_alumnus(people[n]), n))
     for title, counts, note in [
         ("Per person, all", total, "Papers per person per year while a member, with or without QuSoft as affiliation. Papers that may be by someone else with the same name are left out."),
-        ("Per person, QuSoft", with_qusoft, "Papers per person per year with QuSoft on the first page."),
+        ("Per person, QuSoft", with_qusoft, "Papers per person per year that name QuSoft."),
     ]:
         table = [[n, people[n].get("role", ""), "alumni" if is_alumnus(people[n]) else "current",
                   sum(counts[n].values()), *[counts[n][y] or None for y in years]] for n in names]
@@ -315,7 +317,7 @@ def main():
     wb.save(out)
     print(f"Wrote {out}")
     for y, t, *c, pct, _ in summary[:6]:
-        print(f"  {y}: {t} papers by members, {c[0]} with QuSoft on the first page ({pct}%)")
+        print(f"  {y}: {t} papers by members, {c[0]} naming QuSoft ({pct}%)")
 
 
 if __name__ == "__main__":

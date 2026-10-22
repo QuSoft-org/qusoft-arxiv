@@ -6,7 +6,8 @@
     python scripts/update.py --no-search             # only fill in missing first pages + site data
     python scripts/update.py --redo-pages            # remake every first page (e.g. after a layout change)
 
-A paper counts as QuSoft-affiliated when "QuSoft" appears on its first page.
+A paper counts when it names QuSoft: anywhere on the first page, or on a later page as an
+affiliation, supporter or funder (maths papers often give addresses after the references).
 Papers checked and found without it are remembered in data/rejected_ids.json.
 """
 
@@ -23,7 +24,7 @@ from qusoft import site_build
 from qusoft.arxiv_search import Searcher, fetch_by_ids, make_entry
 from qusoft.common import (PersonMatcher, base_id, find_portrait, load_json, load_papers, load_people,
                            path, save_json, save_papers, tenure)
-from qusoft.firstpage import has_qusoft_on_first_page, make_first_page, save_first_page
+from qusoft.firstpage import make_first_page, mentions_qusoft, save_first_page
 
 PENDING = "__pending__"  # key in search_state for papers whose PDF couldn't be fetched yet
 
@@ -132,7 +133,7 @@ def search(people, papers, state, rejected, pdfs, only_authors):
         if not src:
             pending.append(bid)
             continue
-        if not has_qusoft_on_first_page(src):
+        if not mentions_qusoft(src):
             rejected.append(bid)
             pdfs.done(src)
             continue
@@ -145,11 +146,34 @@ def search(people, papers, state, rejected, pdfs, only_authors):
     return added
 
 
+def recheck_rejected(people, papers, rejected, pdfs):
+    """Check earlier rejected papers again (after the QuSoft rule changed). Uses cached PDFs where present."""
+    match = PersonMatcher(people)
+    found = []
+    for i, bid in enumerate(list(rejected), 1):
+        cached = sorted(pdfs.cache.glob(f"{bid}v*.pdf"))
+        src = cached[-1] if cached else pdfs.get(bid)
+        if src and mentions_qusoft(src):
+            found.append(bid)
+        if i % 200 == 0:
+            print(f"  checked {i}/{len(rejected)}")
+    added = []
+    for result in fetch_by_ids(found) if found else []:
+        entry = make_entry(result, match)
+        entry["added"] = date.today().isoformat()
+        papers.append(entry)
+        added.append(entry)
+        rejected.remove(base_id(entry["id"]))
+        print(f"  + {entry['id']} {entry['title'][:70]}")
+    return added
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--authors", nargs="+", help="search only these people (names as in people.csv)")
     ap.add_argument("--no-search", action="store_true", help="skip arXiv search")
     ap.add_argument("--redo-pages", action="store_true", help="remake all first pages")
+    ap.add_argument("--recheck-rejected", action="store_true", help="check rejected papers again (after a rule change)")
     args = ap.parse_args()
 
     people = load_people()
@@ -171,6 +195,12 @@ def main():
             save_papers(papers)
             save_json(path("database", "search_state"), state)
             save_json(path("database", "rejected_ids"), sorted(set(rejected)))
+
+    if args.recheck_rejected:
+        print(f"Checking {len(rejected)} rejected papers again")
+        added += recheck_rejected(people, papers, rejected, pdfs)
+        save_papers(papers)
+        save_json(path("database", "rejected_ids"), sorted(set(rejected)))
 
     # People added to or changed in people.csv, and new portraits, show up on older papers too.
     stale = {p["id"] for p in refresh_authors(papers, people)}

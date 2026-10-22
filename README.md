@@ -1,6 +1,6 @@
 # QuSoft papers
 
-Finds every arXiv paper by current and former QuSoft members that mentions QuSoft on its first page, and publishes them at **https://cschaffner.github.io/qusoft-arxiv/**.
+Finds every arXiv paper by current and former QuSoft members that names QuSoft (as an affiliation or supporter), and publishes them at **https://cschaffner.github.io/qusoft-arxiv/**.
 
 The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
@@ -12,7 +12,7 @@ The site has three parts:
 A GitHub Action (`.github/workflows/update.yml`) runs every night:
 
 1. It searches arXiv for each person in `people.csv`, but only for papers since that person's last search.
-2. It downloads new candidates and keeps those with "QuSoft" on the first page. Papers without it are remembered in `data/rejected_ids.json` and are not checked again.
+2. It downloads new candidates and keeps those that name QuSoft: anywhere on the first page, or on a later page as an affiliation, supporter or funder (many maths papers give the addresses after the references). A thank-you for discussions or hospitality doesn't count. Papers without it are remembered in `data/rejected_ids.json` and are not checked again; after changing this rule, run `python scripts/update.py --no-search --recheck-rejected`.
 3. It makes the annotated first page (`site/firstpages/`) and a thumbnail (`site/thumbs/`) for each new paper.
 4. It rebuilds `site/data/`, commits the changes and deploys `site/` to GitHub Pages.
 
@@ -65,7 +65,7 @@ Settings such as portrait sizes, the QIP checkbox and search depth are in `confi
 | `people.csv` | QuSoft people searched for (public) |
 | `data/papers_database.json` | all QuSoft papers found |
 | `data/search_state.json` | per person: last search date and the query that finds them |
-| `data/rejected_ids.json` | papers checked without QuSoft on the first page |
+| `data/rejected_ids.json` | papers checked that don't name QuSoft |
 | `qusoft/` | shared code: search, first pages, site data |
 | `scripts/` | command-line tools above |
 | `site/` | the website (HTML, CSS, JS, generated data and pages) |
