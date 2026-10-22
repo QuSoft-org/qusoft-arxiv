@@ -10764,6 +10764,35 @@
   "page": true
  },
  {
+  "id": "eprint-2023-106",
+  "link": "https://eprint.iacr.org/2023/106",
+  "source": "eprint",
+  "title": "Deuring for the People: Supersingular Elliptic Curves with Prescribed Endomorphism Ring in General Characteristic",
+  "authors": [
+   [
+    "Jonathan Komada Eriksen",
+    null
+   ],
+   [
+    "Lorenz Panny",
+    null
+   ],
+   [
+    "Jana Sotáková",
+    "Jana Sotáková"
+   ],
+   [
+    "Mattia Veroni",
+    null
+   ]
+  ],
+  "date": "2023-01-27",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "Constructing a supersingular elliptic curve whose endomorphism ring is isomorphic to a given quaternion maximal order (one direction of the Deuring correspondence) is known to be polynomial-time assuming the generalized Riemann hypothesis [KLPT14; Wes21], but notoriously daunting in practice when not working over carefully selected base fields. In this work, we speed up the computation of the Deuring correspondence in general characteristic, i.e., without assuming any special form of the characteristic. Our algorithm follows the same overall strategy as earlier works, but we add simple (yet effective) optimizations to multiple subroutines to significantly improve the practical performance of the method. To demonstrate the impact of our improvements, we show that our implementation achieves highly practical running times even for examples of cryptographic size. One implication of these findings is that cryptographic security reductions based on KLPT-derived algorithms (such as [EHLMP18; Wes22]) have become tighter, and therefore more meaningful in practice. Another is the pure bliss of fast(er) computer algebra: We provide a Sage implementation which works for general primes and includes many necessary tools for computational number theorists' and cryptographers' needs when working with endomorphism rings of supersingular elliptic curves. This includes the KLPT algorithm, translation of ideals to isogenies, and finding supersingular elliptic curves with known endomorphism ring for general primes. Finally, the Deuring correspondence has recently received increased interest because of its role in the SQISign signature scheme [DeF+20]. We provide a short and self-contained summary of the state-of-the-art algorithms without going into any of the cryptographic intricacies of SQISign.",
+  "page": true
+ },
+ {
   "id": "eccc-2022-185",
   "link": "https://eccc.weizmann.ac.il/report/2022/185",
   "source": "eccc",
@@ -11390,6 +11419,51 @@
    "quant-ph"
   ],
   "abstract": "Robust and accurate acceleration tracking remains a challenge in many fields. For geophysics and economic geology, precise gravity mapping requires onboard sensors combined with accurate positioning and navigation systems. Cold-atom-based quantum inertial sensors can potentially provide such high-precision instruments. However, current scalar instruments require precise alignment with vector quantities. Here, we present the first hybrid three-axis accelerometer exploiting the quantum advantage to measure the full acceleration vector by combining three orthogonal atom interferometer measurements with a classical navigation-grade accelerometer triad. Its ultra-low bias permits tracking the acceleration vector over long timescales -- yielding a 50-fold improvement in stability ($6 \\times 10^{-8}~g$) over our classical accelerometers. We record the acceleration vector at a high data rate (1 kHz), with absolute magnitude accuracy below 10 $μg$, and pointing accuracy of 4 $μ$rad. This paves the way toward future strapdown applications with quantum sensors and highlights their potential as future inertial navigation units.",
+  "page": true
+ },
+ {
+  "id": "eprint-2022-1202",
+  "link": "https://eprint.iacr.org/2022/1202",
+  "source": "eprint",
+  "title": "Disorientation faults in CSIDH",
+  "authors": [
+   [
+    "Gustavo Banegas",
+    null
+   ],
+   [
+    "Juliane Krämer",
+    null
+   ],
+   [
+    "Tanja Lange",
+    null
+   ],
+   [
+    "Michael Meyer",
+    null
+   ],
+   [
+    "Lorenz Panny",
+    null
+   ],
+   [
+    "Krijn Reijnders",
+    null
+   ],
+   [
+    "Jana Sotáková",
+    "Jana Sotáková"
+   ],
+   [
+    "Monika Trimoska",
+    null
+   ]
+  ],
+  "date": "2022-09-12",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "We investigate a new class of fault-injection attacks against the CSIDH family of cryptographic group actions. Our disorientation attacks effectively flip the direction of some isogeny steps. We achieve this by faulting a specific subroutine, connected to the Legendre symbol or Elligator computations performed during the evaluation of the group action. These subroutines are present in almost all known CSIDH implementations. Post-processing a set of faulty samples allows us to infer constraints on the secret key. The details are implementation specific, but we show that in many cases, it is possible to recover the full secret key with only a modest number of successful fault injections and modest computational resources. We provide full details for attacking the original CSIDH proof-of-concept software as well as the CTIDH constant-time implementation. Finally, we present a set of lightweight countermeasures against the attack and discuss their security.",
   "page": true
  },
  {
@@ -13087,6 +13161,51 @@
   "page": true
  },
  {
+  "id": "eprint-2021-633",
+  "link": "https://eprint.iacr.org/2021/633",
+  "source": "eprint",
+  "title": "CTIDH: faster constant-time CSIDH",
+  "authors": [
+   [
+    "Gustavo Banegas",
+    null
+   ],
+   [
+    "Daniel J. Bernstein",
+    null
+   ],
+   [
+    "Fabio Campos",
+    null
+   ],
+   [
+    "Tung Chou",
+    null
+   ],
+   [
+    "Tanja Lange",
+    null
+   ],
+   [
+    "Michael Meyer",
+    null
+   ],
+   [
+    "Benjamin Smith",
+    null
+   ],
+   [
+    "Jana Sotáková",
+    "Jana Sotáková"
+   ]
+  ],
+  "date": "2021-05-17",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "This paper introduces a new key space for CSIDH and a new algorithm for constant-time evaluation of the CSIDH group action. The key space is not useful with previous algorithms, and the algorithm is not useful with previous key spaces, but combining the new key space with the new algorithm produces speed records for constant-time CSIDH. For example, for CSIDH-512 with a 256-bit key space, the best previous constant-time results used 789000 multiplications and more than 200 million Skylake cycles; this paper uses 438006 multiplications and 125.53 million cycles.",
+  "page": true
+ },
+ {
   "id": "2105.08091v3",
   "link": "https://arxiv.org/abs/2105.08091",
   "source": "arxiv",
@@ -13352,6 +13471,39 @@
    "cs.CR"
   ],
   "abstract": "Quantum-access security, where an attacker is granted superposition access to secret-keyed functionalities, is a fundamental security model and its study has inspired results in post-quantum security. We revisit, and fill a gap in, the quantum-access security analysis of the Lamport one-time signature scheme (OTS) in the quantum random oracle model (QROM) by Alagic et al.~(Eurocrypt 2020). We then go on to generalize the technique to the Winternitz OTS. Along the way, we develop a tool for the analysis of hash chains in the QROM based on the superposition oracle technique by Zhandry (Crypto 2019) which might be of independent interest.",
+  "page": true
+ },
+ {
+  "id": "eprint-2021-372",
+  "link": "https://eprint.iacr.org/2021/372",
+  "source": "eprint",
+  "title": "Explicit connections between supersingular isogeny graphs and Bruhat–Tits trees",
+  "authors": [
+   [
+    "Laia Amorós",
+    null
+   ],
+   [
+    "Annamaria Iezzi",
+    null
+   ],
+   [
+    "Kristin Lauter",
+    null
+   ],
+   [
+    "Chloe Martindale",
+    null
+   ],
+   [
+    "Jana Sotáková",
+    "Jana Sotáková"
+   ]
+  ],
+  "date": "2021-03-22",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "We give an exposition of supersingular isogeny graphs, quaternion ideal graphs and Bruhat–Tits trees, and of their connections. Bruhat–Tits trees are combinatorial objects whose vertices and edges have a very simple representation as two-by-two matrices, which, as we show, is useful for understanding certain aspects of the corresponding elliptic curves and isogenies. Moreover Bruhat–Tits trees can be given an orientation and a notion of depth that we translate into the setting of supersingular isogeny graphs. We give some suggestions towards using Bruhat–Tits trees as a tool for cryptanalysis of certain cryptosystems based on supersingular isogeny graphs.",
   "page": true
  },
  {
@@ -14736,6 +14888,31 @@
   "page": true
  },
  {
+  "id": "eprint-2020-151",
+  "link": "https://eprint.iacr.org/2020/151",
+  "source": "eprint",
+  "title": "Breaking the decisional Diffie-Hellman problem for class group actions using genus theory -- extended version",
+  "authors": [
+   [
+    "Wouter Castryck",
+    null
+   ],
+   [
+    "Jana Sotáková",
+    "Jana Sotáková"
+   ],
+   [
+    "Frederik Vercauteren",
+    null
+   ]
+  ],
+  "date": "2020-02-13",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "In this paper, we use genus theory to analyze the hardness of the decisional Diffie-Hellman problem for ideal class groups of imaginary quadratic orders acting on sets of elliptic curves through isogenies (DDH-CGA). Such actions are used in the Couveignes-Rostovtsev-Stolbunov protocol and in CSIDH. Concretely, genus theory equips every imaginary quadratic order $\\mathcal{O}$ with a set of assigned characters $\\chi : \\text{cl}(\\mathcal{O}) \\to \\{ \\pm 1\\}$, and for each such character and every secret ideal class $[\\mathfrak{a}]$ connecting two public elliptic curves $E$ and $E' = [\\mathfrak{a}] \\star E$, we show how to compute $\\chi([\\mathfrak{a}])$ given only $E$ and $E'$, i.e. without knowledge of $[\\mathfrak{a}]$. In practice, this breaks DDH-CGA as soon as the class number is even, which is true for a density $1$ subset of all imaginary quadratic orders. For instance, our attack works very efficiently for all supersingular elliptic curves over $\\mathbb{F}_p$ with $p \\equiv 1 \\bmod 4$. Our method relies on computing Tate pairings and walking down isogeny volcanoes. We also show that these ideas carry over, at least partly, to abelian varieties of arbitrary dimension. This is an extended version of the paper that was presented at Crypto 2020.",
+  "page": true
+ },
+ {
   "id": "2002.02743v1",
   "link": "https://arxiv.org/abs/2002.02743",
   "source": "arxiv",
@@ -15627,6 +15804,31 @@
   "page": true
  },
  {
+  "id": "eprint-2019-197",
+  "link": "https://eprint.iacr.org/2019/197",
+  "source": "eprint",
+  "title": "Non-interactive Cryptographic Timestamping based on Verifiable Delay Functions",
+  "authors": [
+   [
+    "Esteban Landerreche",
+    null
+   ],
+   [
+    "Marc Stevens",
+    null
+   ],
+   [
+    "Christian Schaffner",
+    "Christian Schaffner"
+   ]
+  ],
+  "date": "2019-02-27",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "We present the first treatment of non-interactive publicly-verifiable timestamping schemes in the Universal Composability framework. Similar to a simple construction by Mahmoody et al., we use non-parallelizable computational work that relates to elapsed time to avoid previous impossibility results on non-interactive timestamping. We extend these ideas to the UC-framework and show how to model verifiable delay functions (VDF) related to a global clock, and non-interactive timestamping, in the UC-framework. Furthermore, we present new constructions that are substantial improvements over Mahmoody et al.’s construction, such that any forged timestamps by the adversary are now limited to within a certain time-window that depends only on its ratio to compute VDFs more quickly and the time-window of corruption. Finally, we discuss natural applications for our construction in decentralized protocols.",
+  "page": true
+ },
+ {
   "id": "1902.07556v4",
   "link": "https://arxiv.org/abs/1902.07556",
   "source": "arxiv",
@@ -15708,6 +15910,31 @@
    "math.ST"
   ],
   "abstract": "A fundamental problem in statistics and learning theory is to test properties of distributions. We show that quantum computers can solve such problems with significant speed-ups. In particular, we give fast quantum algorithms for testing closeness between unknown distributions, testing independence between two distributions, and estimating the Shannon / von Neumann entropy of distributions. The distributions can be either classical or quantum, however our quantum algorithms require coherent quantum access to a process preparing the samples. Our results build on the recent technique of quantum singular value transformation, combined with more standard tricks such as divide-and-conquer. The presented approach is a natural fit for distributional property testing both in the classical and the quantum case, demonstrating the first speed-ups for testing properties of density operators that can be accessed coherently rather than only via sampling; for classical distributions our algorithms significantly improve the precision dependence of some earlier results.",
+  "page": true
+ },
+ {
+  "id": "eprint-2019-69",
+  "link": "https://eprint.iacr.org/2019/069",
+  "source": "eprint",
+  "title": "Quantum Indistinguishability of Random Sponges",
+  "authors": [
+   [
+    "Jan Czajkowski",
+    "Jan Czajkowski"
+   ],
+   [
+    "Andreas Hülsing",
+    null
+   ],
+   [
+    "Christian Schaffner",
+    "Christian Schaffner"
+   ]
+  ],
+  "date": "2019-01-25",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "In this work we show that the sponge construction can be used to construct quantum-secure pseudorandom functions. As our main result we prove that random sponges are quantum indistinguishable from random functions. In this setting the adversary is given superposition access to the input-output behavior of the construction but not to the internal function. Our proofs hold under the assumption that the internal function is a random function or permutation. We then use this result to obtain a quantum-security version of a result by Andreeva, Daemen, Mennink, and Van Assche (FSE'15) which shows that a sponge that uses a secure PRP or PRF as internal function is a secure PRF. This result also proves that the recent attacks against CBC-MAC in the quantum-access model by Kaplan, Leurent, Leverrier, and Naya-Plasencia (Crypto'16) and Santoli, and Schaffner (QIC'16) can be prevented by introducing a state with a non-trivial inner part. The proof of our main result is derived by analyzing the joint distribution of any $q$ input-output pairs. Our method analyzes the statistical behavior of the considered construction in great detail. The used techniques might prove useful in future analysis of different cryptographic primitives considering quantum adversaries. Using Zhandry's PRF/PRP switching lemma we then obtain that quantum indistinguishability also holds if the internal block function is a random permutation.",
   "page": true
  },
  {
@@ -16867,6 +17094,35 @@
   "page": true
  },
  {
+  "id": "eprint-2017-1171",
+  "link": "https://eprint.iacr.org/2017/1171",
+  "source": "eprint",
+  "title": "Attacks on the AJPS Mersenne-based cryptosystem",
+  "authors": [
+   [
+    "Koen de Boer",
+    null
+   ],
+   [
+    "Léo Ducas",
+    null
+   ],
+   [
+    "Stacey Jeffery",
+    "Stacey Jeffery"
+   ],
+   [
+    "Ronald de Wolf",
+    "Ronald de Wolf"
+   ]
+  ],
+  "date": "2017-12-06",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "Aggarwal, Joux, Prakash and Santha recently introduced a new potentially quantum-safe public-key cryptosystem, and suggested that a brute-force attack is essentially optimal against it. They consider but then dismiss both Meet-in-the-Middle attacks and LLL-based attacks. Very soon after their paper appeared, Beunardeau et al.\\ proposed a practical LLL-based technique that seemed to significantly reduce the security of the AJPS system. In this paper we do two things. First, we show that a Meet-in-the-Middle attack can also be made to work against the AJPS system, using locality-sensitive hashing to overcome the difficulty that Aggarwal et al.\\ saw for such attacks. We also present a quantum version of this attack. Second, we give a more precise analysis of the attack of Beunardeau et al., confirming and refining their results.",
+  "page": true
+ },
+ {
   "id": "1711.08039v1",
   "link": "https://arxiv.org/abs/1711.08039",
   "source": "arxiv",
@@ -16991,6 +17247,31 @@
   "page": true
  },
  {
+  "id": "eprint-2017-916",
+  "link": "https://eprint.iacr.org/2017/916",
+  "source": "eprint",
+  "title": "A Concrete Treatment of Fiat-Shamir Signatures in the Quantum Random-Oracle Model",
+  "authors": [
+   [
+    "Eike Kiltz",
+    null
+   ],
+   [
+    "Vadim Lyubashevsky",
+    null
+   ],
+   [
+    "Christian Schaffner",
+    "Christian Schaffner"
+   ]
+  ],
+  "date": "2017-09-24",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "The Fiat-Shamir transform is a technique for combining a hash function and an identification scheme to produce a digital signature scheme. The resulting scheme is known to be secure in the random oracle model (ROM), which does not, however, imply security in the scenario where the adversary also has quantum access to the oracle. The goal of this current paper is to create a generic framework for constructing tight reductions in the QROM from underlying hard problems to Fiat-Shamir signatures. Our generic reduction is composed of two results whose proofs, we believe, are simple and natural. We first consider a security notion (UF-NMA) in which the adversary obtains the public key and attempts to create a valid signature without accessing a signing oracle. We give a tight reduction showing that deterministic signatures (i.e., ones in which the randomness is derived from the message and the secret key) that are UF-NMA secure are also secure under the standard chosen message attack (UF-CMA) security definition. Our second result is showing that if the identification scheme is “lossy”, as defined in (Abdalla et al. Eurocrypt 2012), then the security of the UF-NMA scheme is tightly based on the hardness of distinguishing regular and lossy public keys of the identification scheme. This latter distinguishing problem is normally exactly the definition of some presumably-hard mathematical problem. The combination of these components gives our main result. As a concrete instantiation of our framework, we modify the recent lattice-based Dilithium digital signature scheme (Ducas et al., TCHES 2018) so that its underlying identification scheme admits lossy public keys. The original Dilithium scheme, which is proven secure in the classical ROM based on standard lattice assumptions, has 1.5KB public keys and 2.7KB signatures. The new scheme, which is tightly based on the hardness of the Module-LWE problem in the QROM using our generic reductions, has 7.7KB public keys and 5.7KB signatures for the same security level. Furthermore, due to our proof of equivalence between the UF-NMA and UF-CMA security notions of deterministic signature schemes, we can formulate a new non-interactive assumption under which the original Dilithium signature scheme is also tightly secure in the QROM.",
+  "page": true
+ },
+ {
   "id": "1708.09696v2",
   "link": "https://arxiv.org/abs/1708.09696",
   "source": "arxiv",
@@ -17104,6 +17385,39 @@
    "cs.CR"
   ],
   "abstract": "The problem of reliably certifying the outcome of a computation performed by a quantum device is rapidly gaining relevance. We present two protocols for a classical verifier to verifiably delegate a quantum computation to two non-communicating but entangled quantum provers. Our protocols have near-optimal complexity in terms of the total resources employed by the verifier and the honest provers, with the total number of operations of each party, including the number of entangled pairs of qubits required of the honest provers, scaling as $O(g\\log g)$ for delegating a circuit of size $g$. This is in contrast to previous protocols, which all require a prohibitively large polynomial overhead. Our first protocol requires a number of rounds that is linear in the depth of the circuit being delegated, and is blind, meaning neither prover can learn the circuit being delegated. The second protocol is not blind, but requires only a constant number of rounds of interaction. Our main technical innovation is an efficient rigidity theorem which allows a verifier to test that two entangled provers perform measurements specified by an arbitrary $m$-qubit tensor product of single-qubit Clifford observables on their respective halves of $m$ shared EPR pairs, with a robustness that is independent of $m$. Our two-prover classical-verifier delegation protocols are obtained by combining this rigidity theorem with a single-prover quantum-verifier protocol for the verifiable delegation of a quantum computation, introduced by Broadbent (Theory of Computing, 2018).",
+  "page": true
+ },
+ {
+  "id": "eprint-2017-771",
+  "link": "https://eprint.iacr.org/2017/771",
+  "source": "eprint",
+  "title": "Post-quantum security of the sponge construction",
+  "authors": [
+   [
+    "Jan Czajkowski",
+    "Jan Czajkowski"
+   ],
+   [
+    "Leon Groot Bruinderink",
+    null
+   ],
+   [
+    "Andreas Hülsing",
+    null
+   ],
+   [
+    "Christian Schaffner",
+    "Christian Schaffner"
+   ],
+   [
+    "Dominique Unruh",
+    null
+   ]
+  ],
+  "date": "2017-08-13",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "We investigate the post-quantum security of hash functions based on the sponge construction. A crucial property for hash functions in the post-quantum setting is the collapsing property (a strengthening of collision-resistance). We show that the sponge construction is collapsing (and in consequence quantum collision-resistant) under suitable assumptions about the underlying block function. In particular, if the block function is a random function or a (non-invertible) random permutation, the sponge construction is collapsing.",
   "page": true
  },
  {

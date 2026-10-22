@@ -124,8 +124,8 @@ def eprint(since):
                         "title": " ".join((md.findtext(f".//{DC}title") or "").split()),
                         "authors": [" ".join(e.text.split()) for e in md.iter(f"{DC}creator") if e.text],
                         "date": dates[0] if dates else f"{m.group(1)}-01-01",
-                        "link": f"https://eprint.iacr.org/{m.group(1)}/{int(m.group(2))}",
-                        "pdf": f"https://eprint.iacr.org/{m.group(1)}/{int(m.group(2))}.pdf",
+                        "link": f"https://eprint.iacr.org/{m.group(1)}/{int(m.group(2)):03d}",
+                        "pdf": f"https://eprint.iacr.org/{m.group(1)}/{int(m.group(2)):03d}.pdf",
                         "abstract": " ".join((md.findtext(f".//{DC}description") or "").split())})
         token = root.find(f".//{OAI}resumptionToken")
         url = (f"https://eprint.iacr.org/oai?verb=ListRecords&resumptionToken={requests.utils.quote(token.text)}"

@@ -1,8 +1,8 @@
 {
- "updated": "2026-10-22T13:01",
- "papers": 479,
- "people": 106,
- "alumni": 46,
+ "updated": "2026-10-22T15:29",
+ "papers": 489,
+ "people": 107,
+ "alumni": 47,
  "first_year": 2015,
  "by_year": [
   {
@@ -21,10 +21,10 @@
   },
   {
    "year": 2017,
-   "papers": 23,
-   "contributors": 21,
-   "together": 8,
-   "with_alumni": 12
+   "papers": 26,
+   "contributors": 22,
+   "together": 10,
+   "with_alumni": 13
   },
   {
    "year": 2018,
@@ -35,38 +35,38 @@
   },
   {
    "year": 2019,
-   "papers": 34,
+   "papers": 36,
    "contributors": 30,
-   "together": 16,
-   "with_alumni": 23
+   "together": 17,
+   "with_alumni": 24
   },
   {
    "year": 2020,
-   "papers": 32,
-   "contributors": 29,
+   "papers": 33,
+   "contributors": 30,
    "together": 20,
-   "with_alumni": 20
+   "with_alumni": 21
   },
   {
    "year": 2021,
-   "papers": 43,
-   "contributors": 45,
+   "papers": 45,
+   "contributors": 46,
    "together": 22,
-   "with_alumni": 33
+   "with_alumni": 35
   },
   {
    "year": 2022,
-   "papers": 53,
-   "contributors": 56,
+   "papers": 54,
+   "contributors": 57,
    "together": 32,
-   "with_alumni": 39
+   "with_alumni": 40
   },
   {
    "year": 2023,
-   "papers": 51,
-   "contributors": 49,
+   "papers": 52,
+   "contributors": 50,
    "together": 27,
-   "with_alumni": 41
+   "with_alumni": 42
   },
   {
    "year": 2024,
@@ -504,7 +504,7 @@
   [
    "Christian Schaffner",
    "Jan Czajkowski",
-   1
+   3
   ],
   [
    "Christian Schaffner",
@@ -1624,7 +1624,7 @@
   [
    "Ronald de Wolf",
    "Stacey Jeffery",
-   3
+   4
   ],
   [
    "Ronald de Wolf",

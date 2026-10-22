@@ -297,8 +297,8 @@
    "Sebastian R. Verschoor"
   ],
   "date": "2026-01-20",
-  "link": "https://eprint.iacr.org/2026/92",
-  "pdf": "https://eprint.iacr.org/2026/92.pdf",
+  "link": "https://eprint.iacr.org/2026/092",
+  "pdf": "https://eprint.iacr.org/2026/092.pdf",
   "abstract": "Quantum Key Distribution (QKD) allows secure communication without relying on computational assumptions, but can currently only be deployed over relatively short distances due to hardware constraints. To extend QKD over long distances, networks of trusted repeater nodes can be used, wherein QKD is executed between neighbouring nodes and messages between non-neighbouring nodes are forwarded using a relay protocol. Although these networks are being deployed worldwide, no protocol exists which provides provable guarantees of integrity against manipulation from both external adversaries and corrupted intermediates. In this work, we present the first protocol that provably provides both confidentiality and integrity. Our protocol combines an existing cryptographic technique, Algebraic Manipulation Detection (AMD) codes, with multi-path relaying over trusted repeater networks. This protocol achieves Information-Theoretic Security (ITS) against the detection of manipulation, which we prove formally through a sequence of games.",
   "people": [
    "Ailsa Robertson",
@@ -1289,7 +1289,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2026-27": {
@@ -1302,14 +1302,14 @@
    "Jiapeng Zhang"
   ],
   "date": "2026-01-07",
-  "link": "https://eprint.iacr.org/2026/27",
-  "pdf": "https://eprint.iacr.org/2026/27.pdf",
+  "link": "https://eprint.iacr.org/2026/027",
+  "pdf": "https://eprint.iacr.org/2026/027.pdf",
   "abstract": "Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data, without ever requiring decryption. This capability is particularly crucial for privacy-preserving outsourced computation in sensitive fields such as healthcare and finance. While FHE ensures data confidentiality under the honest-but-curious adversarial model, achieving full malicious security, encompassing both integrity and privacy, requires an additional layer of verifiability. To address this, a growing body of research has explored combining FHE with techniques from verifiable computation, leading to the notion of verifiable FHE (vFHE). However, the integration of these two paradigms often results in substantial computational overhead, making existing approaches largely impractical for real-world deployment. In this work, rather than targeting general-purpose verifiable FHE, we design a novel and practical verifiable homomorphic encryption scheme tailored for an important and widely used operation: matrix–vector multiplication. We provide an open-source implementation and our experimental results demonstrate that the proposed scheme achieves high efficiency, making it ready for practical adoption.",
   "people": [
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2025-2005": {
@@ -1328,7 +1328,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2025-699": {
@@ -1356,7 +1356,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2025-275": {
@@ -1375,7 +1375,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2024-1829": {
@@ -1397,7 +1397,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2024-1718": {
@@ -1418,7 +1418,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2024-1207": {
@@ -1436,7 +1436,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2024-451": {
@@ -1455,7 +1455,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2023-815": {
@@ -1481,7 +1481,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2023-140": {
@@ -1500,7 +1500,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2023-106": {
@@ -1521,7 +1521,7 @@
    "Jana Sotáková"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": true
  },
  "eprint-2022-1722": {
@@ -1539,7 +1539,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2022-1202": {
@@ -1564,7 +1564,7 @@
    "Jana Sotáková"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": true
  },
  "eprint-2022-1177": {
@@ -1583,7 +1583,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2022-251": {
@@ -1607,7 +1607,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2021-1267": {
@@ -1625,7 +1625,7 @@
    "Jan Czajkowski"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2021-1158": {
@@ -1650,7 +1650,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2021-633": {
@@ -1675,7 +1675,7 @@
    "Jana Sotáková"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": true
  },
  "eprint-2021-557": {
@@ -1694,7 +1694,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2021-372": {
@@ -1716,7 +1716,7 @@
    "Jana Sotáková"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": true
  },
  "eprint-2021-59": {
@@ -1730,14 +1730,14 @@
    "Michael Walter"
   ],
   "date": "2021-01-18",
-  "link": "https://eprint.iacr.org/2021/59",
-  "pdf": "https://eprint.iacr.org/2021/59.pdf",
+  "link": "https://eprint.iacr.org/2021/059",
+  "pdf": "https://eprint.iacr.org/2021/059.pdf",
   "abstract": "The security of cryptographic primitives and protocols against adversaries that are allowed to make adaptive choices (e.g., which parties to corrupt or which queries to make) is notoriously difficult to establish. A broad theoretical framework was introduced by Jafargholi et al. [Crypto'17] for this purpose. In this paper we initiate the study of lower bounds on loss in adaptive security for certain cryptographic protocols considered in the framework. We prove lower bounds that almost match the upper bounds (proven using the framework) for proxy re-encryption, prefix-constrained PRFs and generalized selective decryption, a security game that captures the security of certain group messaging and broadcast encryption schemes. Those primitives have in common that their security game involves an underlying graph that can be adaptively built by the adversary. Some of our lower bounds only apply to a restricted class of black-box reductions which we term \"oblivious\" (the existing upper bounds are of this restricted type), some apply to the broader but still restricted class of non-rewinding reductions, while our lower bound for proxy re-encryption applies to all black-box reductions. The fact that some of our lower bounds seem to crucially rely on obliviousness or at least a non-rewinding reduction hints to the exciting possibility that the existing upper bounds can be improved by using more sophisticated reductions. Our main conceptual contribution is a two-player multi-stage game called the Builder-Pebbler Game. We can translate bounds on the winning probabilities for various instantiations of this game into cryptographic lower bounds for the above-mentioned primitives using oracle separation techniques.",
   "people": [
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2020-1409": {
@@ -1755,7 +1755,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2020-670": {
@@ -1779,7 +1779,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2020-337": {
@@ -1800,7 +1800,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2020-151": {
@@ -1820,7 +1820,7 @@
    "Jana Sotáková"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": true
  },
  "eprint-2019-1489": {
@@ -1847,7 +1847,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2019-252": {
@@ -1869,7 +1869,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2019-197": {
@@ -1889,7 +1889,7 @@
    "Christian Schaffner"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": false
  },
  "eprint-2019-69": {
@@ -1902,15 +1902,15 @@
    "Christian Schaffner"
   ],
   "date": "2019-01-25",
-  "link": "https://eprint.iacr.org/2019/69",
-  "pdf": "https://eprint.iacr.org/2019/69.pdf",
+  "link": "https://eprint.iacr.org/2019/069",
+  "pdf": "https://eprint.iacr.org/2019/069.pdf",
   "abstract": "In this work we show that the sponge construction can be used to construct quantum-secure pseudorandom functions. As our main result we prove that random sponges are quantum indistinguishable from random functions. In this setting the adversary is given superposition access to the input-output behavior of the construction but not to the internal function. Our proofs hold under the assumption that the internal function is a random function or permutation. We then use this result to obtain a quantum-security version of a result by Andreeva, Daemen, Mennink, and Van Assche (FSE'15) which shows that a sponge that uses a secure PRP or PRF as internal function is a secure PRF. This result also proves that the recent attacks against CBC-MAC in the quantum-access model by Kaplan, Leurent, Leverrier, and Naya-Plasencia (Crypto'16) and Santoli, and Schaffner (QIC'16) can be prevented by introducing a state with a non-trivial inner part. The proof of our main result is derived by analyzing the joint distribution of any $q$ input-output pairs. Our method analyzes the statistical behavior of the considered construction in great detail. The used techniques might prove useful in future analysis of different cryptographic primitives considering quantum adversaries. Using Zhandry's PRF/PRP switching lemma we then obtain that quantum indistinguishability also holds if the internal block function is a random permutation.",
   "people": [
    "Jan Czajkowski",
    "Christian Schaffner"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": false
  },
  "eprint-2019-68": {
@@ -1921,14 +1921,14 @@
    "Michael Walter"
   ],
   "date": "2019-01-25",
-  "link": "https://eprint.iacr.org/2019/68",
-  "pdf": "https://eprint.iacr.org/2019/68.pdf",
+  "link": "https://eprint.iacr.org/2019/068",
+  "pdf": "https://eprint.iacr.org/2019/068.pdf",
   "abstract": "Randomness is an essential part of any secure cryptosystem, but many constructions rely on distributions that are not uniform. This is particularly true for lattice based cryptosystems, which more often than not make use of discrete Gaussian distributions over the integers. For practical purposes it is crucial to evaluate the impact that approximation errors have on the security of a scheme to provide the best possible trade-off between security and performance. Recent years have seen surprising results allowing to use relatively low precision while maintaining high levels of security. A key insight in these results is that sampling a distribution with low relative error can provide very strong security guarantees. Since floating point numbers provide guarantees on the relative approximation error, they seem a suitable tool in this setting, but it is not obvious which sampling algorithms can actually profit from them. While previous works have shown that inversion sampling can be adapted to provide a low relative error (Pöppelmann et al., CHES 2014; Prest, ASIACRYPT 2017), other works have called into question if this is possible for other sampling techniques (Zheng et al., Eprint report 2018/309). In this work, we consider all sampling algorithms that are popular in the cryptographic setting and analyze the relationship of floating point precision and the resulting relative error. We show that all of the algorithms either natively achieve a low relative error or can be adapted to do so.",
   "people": [
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2018-77": {
@@ -1940,14 +1940,14 @@
    "Michael Walter"
   ],
   "date": "2018-01-18",
-  "link": "https://eprint.iacr.org/2018/77",
-  "pdf": "https://eprint.iacr.org/2018/77.pdf",
+  "link": "https://eprint.iacr.org/2018/077",
+  "pdf": "https://eprint.iacr.org/2018/077.pdf",
   "abstract": "We introduce a formal quantitative notion of ``bit security'' for a general type of cryptographic games (capturing both decision and search problems), aimed at capturing the intuition that a cryptographic primitive with $k$-bit security is as hard to break as an ideal cryptographic function requiring a brute force attack on a $k$-bit key space. Our new definition matches the notion of bit security commonly used by cryptographers and cryptanalysts when studying search (e.g., key recovery) problems, where the use of the traditional definition is well established. However, it produces a quantitatively different metric in the case of decision (indistinguishability) problems, where the use of (a straightforward generalization of) the traditional definition is more problematic and leads to a number of paradoxical situations or mismatches between theoretical/provable security and practical/common sense intuition. Key to our new definition is to consider adversaries that may explicitly declare failure of the attack. We support and justify the new definition by proving a number of technical results, including tight reductions between several standard cryptographic problems, a new hybrid theorem that preserves bit security, and an application to the security analysis of indistinguishability primitives making use of (approximate) floating point numbers. This is the first result showing that (standard precision) 53-bit floating point numbers can be used to achieve 100-bit security in the context of cryptographic primitives with general indistinguishability-based security definitions. Previous results of this type applied only to search problems, or special types of decision problems.",
   "people": [
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2017-1171": {
@@ -1969,7 +1969,7 @@
    "Ronald de Wolf"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": false
  },
  "eprint-2017-916": {
@@ -1989,7 +1989,7 @@
    "Christian Schaffner"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": false
  },
  "eprint-2017-771": {
@@ -2012,7 +2012,7 @@
    "Christian Schaffner"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "added",
   "maybe_someone_else": false
  },
  "eprint-2017-606": {
@@ -2038,7 +2038,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "eprint-2017-259": {
@@ -2057,7 +2057,7 @@
    "Michael Walter"
   ],
   "found": "2026-10-22",
-  "status": "to check",
+  "status": "PDF doesn't name QuSoft",
   "maybe_someone_else": false
  },
  "ssrn-5030276": {

@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-10-22T13:01:12",
- "total_papers": 479,
+ "last_updated": "2026-10-22T15:29:39",
+ "total_papers": 489,
  "papers": [
   {
    "id": "2610.29762v1",
@@ -15994,6 +15994,48 @@
    ]
   },
   {
+   "id": "eprint-2023-106",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2023/106",
+   "title": "Deuring for the People: Supersingular Elliptic Curves with Prescribed Endomorphism Ring in General Characteristic",
+   "authors": [
+    {
+     "name": "Jonathan Komada Eriksen",
+     "person": null
+    },
+    {
+     "name": "Lorenz Panny",
+     "person": null
+    },
+    {
+     "name": "Jana Sotáková",
+     "person": "Jana Sotáková"
+    },
+    {
+     "name": "Mattia Veroni",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Jana Sotáková"
+   ],
+   "submitted": "2023-01-27T00:00:00",
+   "categories": [],
+   "abstract": "Constructing a supersingular elliptic curve whose endomorphism ring is isomorphic to a given quaternion maximal order (one direction of the Deuring correspondence) is known to be polynomial-time assuming the generalized Riemann hypothesis [KLPT14; Wes21], but notoriously daunting in practice when not working over carefully selected base fields. In this work, we speed up the computation of the Deuring correspondence in general characteristic, i.e., without assuming any special form of the characteristic. Our algorithm follows the same overall strategy as earlier works, but we add simple (yet effective) optimizations to multiple subroutines to significantly improve the practical performance of the method. To demonstrate the impact of our improvements, we show that our implementation achieves highly practical running times even for examples of cryptographic size. One implication of these findings is that cryptographic security reductions based on KLPT-derived algorithms (such as [EHLMP18; Wes22]) have become tighter, and therefore more meaningful in practice. Another is the pure bliss of fast(er) computer algebra: We provide a Sage implementation which works for general primes and includes many necessary tools for computational number theorists' and cryptographers' needs when working with endomorphism rings of supersingular elliptic curves. This includes the KLPT algorithm, translation of ideals to isogenies, and finding supersingular elliptic curves with known endomorphism ring for general primes. Finally, the Deuring correspondence has recently received increased interest because of its role in the SQISign signature scheme [DeF+20]. We provide a short and self-contained summary of the state-of-the-art algorithms without going into any of the cryptographic intricacies of SQISign.",
+   "pdf_url": "https://eprint.iacr.org/2023/106.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jana Sotáková",
+     "PhD Students",
+     "alumni",
+     "2019–2024",
+     "jana_sotakova.jpg",
+     13474
+    ]
+   ]
+  },
+  {
    "id": "eccc-2022-185",
    "source": "eccc",
    "link": "https://eccc.weizmann.ac.il/report/2022/185",
@@ -17059,6 +17101,64 @@
      "",
      "philippe_bouyer.jpg",
      22615
+    ]
+   ]
+  },
+  {
+   "id": "eprint-2022-1202",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2022/1202",
+   "title": "Disorientation faults in CSIDH",
+   "authors": [
+    {
+     "name": "Gustavo Banegas",
+     "person": null
+    },
+    {
+     "name": "Juliane Krämer",
+     "person": null
+    },
+    {
+     "name": "Tanja Lange",
+     "person": null
+    },
+    {
+     "name": "Michael Meyer",
+     "person": null
+    },
+    {
+     "name": "Lorenz Panny",
+     "person": null
+    },
+    {
+     "name": "Krijn Reijnders",
+     "person": null
+    },
+    {
+     "name": "Jana Sotáková",
+     "person": "Jana Sotáková"
+    },
+    {
+     "name": "Monika Trimoska",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Jana Sotáková"
+   ],
+   "submitted": "2022-09-12T00:00:00",
+   "categories": [],
+   "abstract": "We investigate a new class of fault-injection attacks against the CSIDH family of cryptographic group actions. Our disorientation attacks effectively flip the direction of some isogeny steps. We achieve this by faulting a specific subroutine, connected to the Legendre symbol or Elligator computations performed during the evaluation of the group action. These subroutines are present in almost all known CSIDH implementations. Post-processing a set of faulty samples allows us to infer constraints on the secret key. The details are implementation specific, but we show that in many cases, it is possible to recover the full secret key with only a modest number of successful fault injections and modest computational resources. We provide full details for attacking the original CSIDH proof-of-concept software as well as the CTIDH constant-time implementation. Finally, we present a set of lightweight countermeasures against the attack and discuss their security.",
+   "pdf_url": "https://eprint.iacr.org/2022/1202.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jana Sotáková",
+     "PhD Students",
+     "alumni",
+     "2019–2024",
+     "jana_sotakova.jpg",
+     13474
     ]
    ]
   },
@@ -19999,6 +20099,64 @@
    ]
   },
   {
+   "id": "eprint-2021-633",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2021/633",
+   "title": "CTIDH: faster constant-time CSIDH",
+   "authors": [
+    {
+     "name": "Gustavo Banegas",
+     "person": null
+    },
+    {
+     "name": "Daniel J. Bernstein",
+     "person": null
+    },
+    {
+     "name": "Fabio Campos",
+     "person": null
+    },
+    {
+     "name": "Tung Chou",
+     "person": null
+    },
+    {
+     "name": "Tanja Lange",
+     "person": null
+    },
+    {
+     "name": "Michael Meyer",
+     "person": null
+    },
+    {
+     "name": "Benjamin Smith",
+     "person": null
+    },
+    {
+     "name": "Jana Sotáková",
+     "person": "Jana Sotáková"
+    }
+   ],
+   "qusoft_authors": [
+    "Jana Sotáková"
+   ],
+   "submitted": "2021-05-17T00:00:00",
+   "categories": [],
+   "abstract": "This paper introduces a new key space for CSIDH and a new algorithm for constant-time evaluation of the CSIDH group action. The key space is not useful with previous algorithms, and the algorithm is not useful with previous key spaces, but combining the new key space with the new algorithm produces speed records for constant-time CSIDH. For example, for CSIDH-512 with a 256-bit key space, the best previous constant-time results used 789000 multiplications and more than 200 million Skylake cycles; this paper uses 438006 multiplications and 125.53 million cycles.",
+   "pdf_url": "https://eprint.iacr.org/2021/633.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jana Sotáková",
+     "PhD Students",
+     "alumni",
+     "2019–2024",
+     "jana_sotakova.jpg",
+     13474
+    ]
+   ]
+  },
+  {
    "id": "2105.08091v3",
    "link": "https://arxiv.org/abs/2105.08091",
    "title": "Attainability and lower semi-continuity of the relative entropy of entanglement, and variations on the theme",
@@ -20479,6 +20637,52 @@
      "",
      "maris_ozols.jpg",
      169475
+    ]
+   ]
+  },
+  {
+   "id": "eprint-2021-372",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2021/372",
+   "title": "Explicit connections between supersingular isogeny graphs and Bruhat–Tits trees",
+   "authors": [
+    {
+     "name": "Laia Amorós",
+     "person": null
+    },
+    {
+     "name": "Annamaria Iezzi",
+     "person": null
+    },
+    {
+     "name": "Kristin Lauter",
+     "person": null
+    },
+    {
+     "name": "Chloe Martindale",
+     "person": null
+    },
+    {
+     "name": "Jana Sotáková",
+     "person": "Jana Sotáková"
+    }
+   ],
+   "qusoft_authors": [
+    "Jana Sotáková"
+   ],
+   "submitted": "2021-03-22T00:00:00",
+   "categories": [],
+   "abstract": "We give an exposition of supersingular isogeny graphs, quaternion ideal graphs and Bruhat–Tits trees, and of their connections. Bruhat–Tits trees are combinatorial objects whose vertices and edges have a very simple representation as two-by-two matrices, which, as we show, is useful for understanding certain aspects of the corresponding elliptic curves and isogenies. Moreover Bruhat–Tits trees can be given an orientation and a notion of depth that we translate into the setting of supersingular isogeny graphs. We give some suggestions towards using Bruhat–Tits trees as a tool for cryptanalysis of certain cryptosystems based on supersingular isogeny graphs.",
+   "pdf_url": "https://eprint.iacr.org/2021/372.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jana Sotáková",
+     "PhD Students",
+     "alumni",
+     "2019–2024",
+     "jana_sotakova.jpg",
+     13474
     ]
    ]
   },
@@ -22729,6 +22933,44 @@
    ]
   },
   {
+   "id": "eprint-2020-151",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2020/151",
+   "title": "Breaking the decisional Diffie-Hellman problem for class group actions using genus theory -- extended version",
+   "authors": [
+    {
+     "name": "Wouter Castryck",
+     "person": null
+    },
+    {
+     "name": "Jana Sotáková",
+     "person": "Jana Sotáková"
+    },
+    {
+     "name": "Frederik Vercauteren",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Jana Sotáková"
+   ],
+   "submitted": "2020-02-13T00:00:00",
+   "categories": [],
+   "abstract": "In this paper, we use genus theory to analyze the hardness of the decisional Diffie-Hellman problem for ideal class groups of imaginary quadratic orders acting on sets of elliptic curves through isogenies (DDH-CGA). Such actions are used in the Couveignes-Rostovtsev-Stolbunov protocol and in CSIDH. Concretely, genus theory equips every imaginary quadratic order $\\mathcal{O}$ with a set of assigned characters $\\chi : \\text{cl}(\\mathcal{O}) \\to \\{ \\pm 1\\}$, and for each such character and every secret ideal class $[\\mathfrak{a}]$ connecting two public elliptic curves $E$ and $E' = [\\mathfrak{a}] \\star E$, we show how to compute $\\chi([\\mathfrak{a}])$ given only $E$ and $E'$, i.e. without knowledge of $[\\mathfrak{a}]$. In practice, this breaks DDH-CGA as soon as the class number is even, which is true for a density $1$ subset of all imaginary quadratic orders. For instance, our attack works very efficiently for all supersingular elliptic curves over $\\mathbb{F}_p$ with $p \\equiv 1 \\bmod 4$. Our method relies on computing Tate pairings and walking down isogeny volcanoes. We also show that these ideas carry over, at least partly, to abelian varieties of arbitrary dimension. This is an extended version of the paper that was presented at Crypto 2020.",
+   "pdf_url": "https://eprint.iacr.org/2020/151.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jana Sotáková",
+     "PhD Students",
+     "alumni",
+     "2019–2024",
+     "jana_sotakova.jpg",
+     13474
+    ]
+   ]
+  },
+  {
    "id": "2002.02743v1",
    "link": "https://arxiv.org/abs/2002.02743",
    "title": "The Haemers bound of noncommutative graphs",
@@ -24253,6 +24495,44 @@
    ]
   },
   {
+   "id": "eprint-2019-197",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2019/197",
+   "title": "Non-interactive Cryptographic Timestamping based on Verifiable Delay Functions",
+   "authors": [
+    {
+     "name": "Esteban Landerreche",
+     "person": null
+    },
+    {
+     "name": "Marc Stevens",
+     "person": null
+    },
+    {
+     "name": "Christian Schaffner",
+     "person": "Christian Schaffner"
+    }
+   ],
+   "qusoft_authors": [
+    "Christian Schaffner"
+   ],
+   "submitted": "2019-02-27T00:00:00",
+   "categories": [],
+   "abstract": "We present the first treatment of non-interactive publicly-verifiable timestamping schemes in the Universal Composability framework. Similar to a simple construction by Mahmoody et al., we use non-parallelizable computational work that relates to elapsed time to avoid previous impossibility results on non-interactive timestamping. We extend these ideas to the UC-framework and show how to model verifiable delay functions (VDF) related to a global clock, and non-interactive timestamping, in the UC-framework. Furthermore, we present new constructions that are substantial improvements over Mahmoody et al.’s construction, such that any forged timestamps by the adversary are now limited to within a certain time-window that depends only on its ratio to compute VDFs more quickly and the time-window of corruption. Finally, we discuss natural applications for our construction in decentralized protocols.",
+   "pdf_url": "https://eprint.iacr.org/2019/197.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Christian Schaffner",
+     "Senior Researchers",
+     "active",
+     "",
+     "christian_schaffner.jpg",
+     189516
+    ]
+   ]
+  },
+  {
    "id": "1902.07556v4",
    "link": "https://arxiv.org/abs/1902.07556",
    "title": "Security of the Fiat-Shamir Transformation in the Quantum Random-Oracle Model",
@@ -24381,6 +24661,53 @@
      "2015–2019",
      "andras_gilyen.jpg",
      78701
+    ]
+   ]
+  },
+  {
+   "id": "eprint-2019-69",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2019/069",
+   "title": "Quantum Indistinguishability of Random Sponges",
+   "authors": [
+    {
+     "name": "Jan Czajkowski",
+     "person": "Jan Czajkowski"
+    },
+    {
+     "name": "Andreas Hülsing",
+     "person": null
+    },
+    {
+     "name": "Christian Schaffner",
+     "person": "Christian Schaffner"
+    }
+   ],
+   "qusoft_authors": [
+    "Jan Czajkowski",
+    "Christian Schaffner"
+   ],
+   "submitted": "2019-01-25T00:00:00",
+   "categories": [],
+   "abstract": "In this work we show that the sponge construction can be used to construct quantum-secure pseudorandom functions. As our main result we prove that random sponges are quantum indistinguishable from random functions. In this setting the adversary is given superposition access to the input-output behavior of the construction but not to the internal function. Our proofs hold under the assumption that the internal function is a random function or permutation. We then use this result to obtain a quantum-security version of a result by Andreeva, Daemen, Mennink, and Van Assche (FSE'15) which shows that a sponge that uses a secure PRP or PRF as internal function is a secure PRF. This result also proves that the recent attacks against CBC-MAC in the quantum-access model by Kaplan, Leurent, Leverrier, and Naya-Plasencia (Crypto'16) and Santoli, and Schaffner (QIC'16) can be prevented by introducing a state with a non-trivial inner part. The proof of our main result is derived by analyzing the joint distribution of any $q$ input-output pairs. Our method analyzes the statistical behavior of the considered construction in great detail. The used techniques might prove useful in future analysis of different cryptographic primitives considering quantum adversaries. Using Zhandry's PRF/PRP switching lemma we then obtain that quantum indistinguishability also holds if the internal block function is a random permutation.",
+   "pdf_url": "https://eprint.iacr.org/2019/069.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jan Czajkowski",
+     "PhD Students",
+     "alumni",
+     "2016–2021",
+     "jan_czajkowski.jpg",
+     20026
+    ],
+    [
+     "Christian Schaffner",
+     "Senior Researchers",
+     "active",
+     "",
+     "christian_schaffner.jpg",
+     189516
     ]
    ]
   },
@@ -26229,6 +26556,57 @@
    ]
   },
   {
+   "id": "eprint-2017-1171",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2017/1171",
+   "title": "Attacks on the AJPS Mersenne-based cryptosystem",
+   "authors": [
+    {
+     "name": "Koen de Boer",
+     "person": null
+    },
+    {
+     "name": "Léo Ducas",
+     "person": null
+    },
+    {
+     "name": "Stacey Jeffery",
+     "person": "Stacey Jeffery"
+    },
+    {
+     "name": "Ronald de Wolf",
+     "person": "Ronald de Wolf"
+    }
+   ],
+   "qusoft_authors": [
+    "Stacey Jeffery",
+    "Ronald de Wolf"
+   ],
+   "submitted": "2017-12-06T00:00:00",
+   "categories": [],
+   "abstract": "Aggarwal, Joux, Prakash and Santha recently introduced a new potentially quantum-safe public-key cryptosystem, and suggested that a brute-force attack is essentially optimal against it. They consider but then dismiss both Meet-in-the-Middle attacks and LLL-based attacks. Very soon after their paper appeared, Beunardeau et al.\\ proposed a practical LLL-based technique that seemed to significantly reduce the security of the AJPS system. In this paper we do two things. First, we show that a Meet-in-the-Middle attack can also be made to work against the AJPS system, using locality-sensitive hashing to overcome the difficulty that Aggarwal et al.\\ saw for such attacks. We also present a quantum version of this attack. Second, we give a more precise analysis of the attack of Beunardeau et al., confirming and refining their results.",
+   "pdf_url": "https://eprint.iacr.org/2017/1171.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Stacey Jeffery",
+     "Senior Researchers",
+     "active",
+     "",
+     "stacey_jeffery.jpg",
+     65717
+    ],
+    [
+     "Ronald de Wolf",
+     "Senior Researchers",
+     "active",
+     "",
+     "ronald_de_wolf.jpg",
+     228745
+    ]
+   ]
+  },
+  {
    "id": "1711.08039v1",
    "link": "https://arxiv.org/abs/1711.08039",
    "title": "Alternating minimization, scaling algorithms, and the null-cone problem from invariant theory",
@@ -26419,6 +26797,44 @@
      "2014–2018",
      "srinivasan_arunachalam.jpg",
      84473
+    ]
+   ]
+  },
+  {
+   "id": "eprint-2017-916",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2017/916",
+   "title": "A Concrete Treatment of Fiat-Shamir Signatures in the Quantum Random-Oracle Model",
+   "authors": [
+    {
+     "name": "Eike Kiltz",
+     "person": null
+    },
+    {
+     "name": "Vadim Lyubashevsky",
+     "person": null
+    },
+    {
+     "name": "Christian Schaffner",
+     "person": "Christian Schaffner"
+    }
+   ],
+   "qusoft_authors": [
+    "Christian Schaffner"
+   ],
+   "submitted": "2017-09-24T00:00:00",
+   "categories": [],
+   "abstract": "The Fiat-Shamir transform is a technique for combining a hash function and an identification scheme to produce a digital signature scheme. The resulting scheme is known to be secure in the random oracle model (ROM), which does not, however, imply security in the scenario where the adversary also has quantum access to the oracle. The goal of this current paper is to create a generic framework for constructing tight reductions in the QROM from underlying hard problems to Fiat-Shamir signatures. Our generic reduction is composed of two results whose proofs, we believe, are simple and natural. We first consider a security notion (UF-NMA) in which the adversary obtains the public key and attempts to create a valid signature without accessing a signing oracle. We give a tight reduction showing that deterministic signatures (i.e., ones in which the randomness is derived from the message and the secret key) that are UF-NMA secure are also secure under the standard chosen message attack (UF-CMA) security definition. Our second result is showing that if the identification scheme is “lossy”, as defined in (Abdalla et al. Eurocrypt 2012), then the security of the UF-NMA scheme is tightly based on the hardness of distinguishing regular and lossy public keys of the identification scheme. This latter distinguishing problem is normally exactly the definition of some presumably-hard mathematical problem. The combination of these components gives our main result. As a concrete instantiation of our framework, we modify the recent lattice-based Dilithium digital signature scheme (Ducas et al., TCHES 2018) so that its underlying identification scheme admits lossy public keys. The original Dilithium scheme, which is proven secure in the classical ROM based on standard lattice assumptions, has 1.5KB public keys and 2.7KB signatures. The new scheme, which is tightly based on the hardness of the Module-LWE problem in the QROM using our generic reductions, has 7.7KB public keys and 5.7KB signatures for the same security level. Furthermore, due to our proof of equivalence between the UF-NMA and UF-CMA security notions of deterministic signature schemes, we can formulate a new non-interactive assumption under which the original Dilithium signature scheme is also tightly secure in the QROM.",
+   "pdf_url": "https://eprint.iacr.org/2017/916.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Christian Schaffner",
+     "Senior Researchers",
+     "active",
+     "",
+     "christian_schaffner.jpg",
+     189516
     ]
    ]
   },
@@ -26623,6 +27039,61 @@
      "",
      "stacey_jeffery.jpg",
      65717
+    ]
+   ]
+  },
+  {
+   "id": "eprint-2017-771",
+   "source": "eprint",
+   "link": "https://eprint.iacr.org/2017/771",
+   "title": "Post-quantum security of the sponge construction",
+   "authors": [
+    {
+     "name": "Jan Czajkowski",
+     "person": "Jan Czajkowski"
+    },
+    {
+     "name": "Leon Groot Bruinderink",
+     "person": null
+    },
+    {
+     "name": "Andreas Hülsing",
+     "person": null
+    },
+    {
+     "name": "Christian Schaffner",
+     "person": "Christian Schaffner"
+    },
+    {
+     "name": "Dominique Unruh",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Jan Czajkowski",
+    "Christian Schaffner"
+   ],
+   "submitted": "2017-08-13T00:00:00",
+   "categories": [],
+   "abstract": "We investigate the post-quantum security of hash functions based on the sponge construction. A crucial property for hash functions in the post-quantum setting is the collapsing property (a strengthening of collision-resistance). We show that the sponge construction is collapsing (and in consequence quantum collision-resistant) under suitable assumptions about the underlying block function. In particular, if the block function is a random function or a (non-invertible) random permutation, the sponge construction is collapsing.",
+   "pdf_url": "https://eprint.iacr.org/2017/771.pdf",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Jan Czajkowski",
+     "PhD Students",
+     "alumni",
+     "2016–2021",
+     "jan_czajkowski.jpg",
+     20026
+    ],
+    [
+     "Christian Schaffner",
+     "Senior Researchers",
+     "active",
+     "",
+     "christian_schaffner.jpg",
+     189516
     ]
    ]
   },
