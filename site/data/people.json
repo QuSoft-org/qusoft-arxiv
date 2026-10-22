@@ -567,13 +567,13 @@
   "role": "PhD Students",
   "alumni": true,
   "years": "2012–2016",
-  "portrait": null
+  "portrait": "portraits/teresa-piovesan.webp"
  },
  "Tom Bannink": {
   "role": "PhD Students",
   "alumni": true,
   "years": "2015–2019",
-  "portrait": null
+  "portrait": "portraits/tom-bannink.webp"
  },
  "Vincent Schmeits": {
   "role": "PhD Students",
@@ -615,7 +615,7 @@
   "role": "Postdocs",
   "alumni": true,
   "years": "2018–2020",
-  "portrait": null
+  "portrait": "portraits/yinan-li.webp"
  },
  "Zongbo Bao": {
   "role": "PhD Students",
