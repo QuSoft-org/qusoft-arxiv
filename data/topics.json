@@ -1,0 +1,3822 @@
+{
+ "taxonomy": {
+  "lines": [
+   {
+    "id": "algorithms",
+    "name": "Quantum algorithms",
+    "about": "Designing quantum algorithms and proving how fast they are.",
+    "topics": [
+     {
+      "id": "query-algorithms",
+      "name": "Query and time complexity of algorithms",
+      "about": "Search, quantum walks for search, span programs and transducers, graph and string problems, amplitude amplification, subroutines; upper and lower bounds for specific problems."
+     },
+     {
+      "id": "hamiltonians",
+      "name": "Hamiltonians, ground states and simulation",
+      "about": "Ground-state preparation and energy estimation, guided local Hamiltonians, Hamiltonian simulation, quantum PCP and QMA questions about local Hamiltonians."
+     },
+     {
+      "id": "optimisation-linear-algebra",
+      "name": "Optimisation and linear algebra",
+      "about": "Quantum algorithms for SDPs, convex and gradient-based optimisation, eigenvectors, linear systems, matrix problems."
+     },
+     {
+      "id": "learning-theory",
+      "name": "Quantum learning theory",
+      "about": "Learning classical functions with quantum resources: PAC and exact learning, statistical queries, sample complexity, learning and circuit lower bounds."
+     }
+    ]
+   },
+   {
+    "id": "complexity-maths",
+    "name": "Complexity and mathematics",
+    "about": "Complexity theory and the mathematics behind quantum information.",
+    "topics": [
+     {
+      "id": "complexity",
+      "name": "Complexity theory and lower bounds",
+      "about": "Quantum and classical complexity classes, the polynomial method, completely bounded forms, communication complexity, fine-grained complexity, classical simulation limits, query lower-bound techniques."
+     },
+     {
+      "id": "tensors-invariant-theory",
+      "name": "Tensors and invariant theory",
+      "about": "Tensor rank, matrix multiplication, asymptotic spectra, moment polytopes, scaling algorithms, non-commutative optimisation, Shannon capacity and Haemers bounds."
+     },
+     {
+      "id": "graphs-walks",
+      "name": "Graph theory and quantum walks",
+      "about": "Spectral and algebraic graph theory, perfect and peak state transfer, continuous- and discrete-time walks as mathematical objects, additive combinatorics."
+     }
+    ]
+   },
+   {
+    "id": "learning-testing",
+    "name": "Learning and testing quantum systems",
+    "about": "Finding out what an unknown quantum state, process or device is, and the symmetry tools for it.",
+    "topics": [
+     {
+      "id": "state-learning",
+      "name": "Testing and learning quantum states",
+      "about": "Property testing (stabilizer, product, Gaussian states), tomography, shadow tomography, learning Hamiltonians and channels, sample complexity."
+     },
+     {
+      "id": "symmetry-representation",
+      "name": "Symmetry and representation theory",
+      "about": "Schur-Weyl duality, port-based teleportation, cloning, purification, unitary designs, random unitaries, quantum Fourier transforms over groups."
+     },
+     {
+      "id": "benchmarking",
+      "name": "Benchmarking quantum hardware",
+      "about": "Randomized benchmarking, characterising gates and noise, benchmark suites for devices."
+     }
+    ]
+   },
+   {
+    "id": "information-theory",
+    "name": "Quantum information theory",
+    "about": "What quantum information is and what it can do, quantitatively.",
+    "topics": [
+     {
+      "id": "entanglement-resources",
+      "name": "Entanglement and resource theories",
+      "about": "Entanglement distillation and cost, relative entropies, resource theories, catalysis, continuity of entropies, asymptotic rates."
+     },
+     {
+      "id": "channels-communication",
+      "name": "Channels and communication",
+      "about": "Channel capacities, communication with quantum resources, teleportation and networks as information-theoretic questions, non-locality and Bell inequalities."
+     },
+     {
+      "id": "many-body-gravity",
+      "name": "Many-body physics, holography and gravity",
+      "about": "Entanglement in many-body systems, tensor networks, renormalisation, holography, quantum gravity, scars, field theory."
+     },
+     {
+      "id": "foundations-thermodynamics",
+      "name": "Foundations and thermodynamics",
+      "about": "Quantum foundations, measurement theory, quasiprobabilities, general probabilistic theories, tests of quantum gravity, quantum thermodynamics and batteries."
+     }
+    ]
+   },
+   {
+    "id": "cryptography",
+    "name": "Quantum cryptography and security",
+    "about": "Security with and against quantum computers.",
+    "topics": [
+     {
+      "id": "position-verification",
+      "name": "Position verification and non-local computation",
+      "about": "Quantum position verification, attacks on it, non-local quantum computation, related non-local games."
+     },
+     {
+      "id": "quantum-protocols",
+      "name": "Quantum cryptographic protocols",
+      "about": "QKD and device independence, oblivious transfer, multi-party computation, delegated and verifiable computation, uncloneable cryptography, quantum money and signatures of quantum states."
+     },
+     {
+      "id": "post-quantum",
+      "name": "Post-quantum and quantum-secure cryptography",
+      "about": "Security of classical cryptography against quantum attackers: QROM, Fiat-Shamir, hash functions and sponges, encryption notions, lattices, isogenies (CSIDH), attacks on schemes."
+     }
+    ]
+   },
+   {
+    "id": "fault-tolerance-compilation",
+    "name": "Error correction and quantum software",
+    "about": "Making quantum computers reliable and programmable.",
+    "topics": [
+     {
+      "id": "error-correction",
+      "name": "Error correction and fault tolerance",
+      "about": "Codes, decoding, fault-tolerant state preparation, logical operations, thresholds."
+     },
+     {
+      "id": "circuits-compilation",
+      "name": "Circuits, compilation and ZX-calculus",
+      "about": "Circuit synthesis and optimisation, rewrite rules, ZX-calculus, routing, catalytic and space-efficient circuits, classical simulation of circuits, programming languages and tools."
+     }
+    ]
+   },
+   {
+    "id": "simulation-applications",
+    "name": "Quantum simulation and applications",
+    "about": "Using quantum computers for chemistry, physics and other applications.",
+    "topics": [
+     {
+      "id": "chemistry-materials",
+      "name": "Chemistry and materials",
+      "about": "Electronic structure on quantum computers, quantum chemistry methods, catalysis, multiscale modelling, materials."
+     },
+     {
+      "id": "near-term-algorithms",
+      "name": "Near-term and variational algorithms",
+      "about": "Variational algorithms, QAOA, NISQ applications and resource estimates, quantum machine learning on near-term devices, industrial use cases."
+     }
+    ]
+   },
+   {
+    "id": "experiments",
+    "name": "Experimental quantum physics",
+    "about": "Building and controlling quantum systems in the lab.",
+    "topics": [
+     {
+      "id": "trapped-ions",
+      "name": "Trapped ions and ion-atom systems",
+      "about": "Trapped-ion gates and simulation, optical tweezers for ions, ion-atom collisions and molecules."
+     },
+     {
+      "id": "cold-atoms",
+      "name": "Cold atoms and laser cooling",
+      "about": "Strontium and other cold atoms, laser cooling, Bose-Einstein condensates, atomic clocks, optical tweezers for atoms, Rydberg atoms, polar molecules."
+     },
+     {
+      "id": "sensing-interferometry",
+      "name": "Sensing and atom interferometry",
+      "about": "Atom interferometers, inertial sensors, metrology, displacement sensing."
+     },
+     {
+      "id": "condensed-matter",
+      "name": "Condensed matter experiments",
+      "about": "Spectroscopy and transport in materials: superconductors, charge density waves, strange metals."
+     }
+    ]
+   },
+   {
+    "id": "society",
+    "name": "Quantum and society",
+    "about": "Philosophy, ethics, law and policy of quantum science and technology.",
+    "topics": [
+     {
+      "id": "philosophy",
+      "name": "Philosophy of physics and technology",
+      "about": "Interpretation, black holes and information, technological understanding, explanation."
+     },
+     {
+      "id": "ethics-policy",
+      "name": "Ethics, law and policy",
+      "about": "Responsible quantum technology, governance, regulation, security policy, societal impact."
+     }
+    ]
+   },
+   {
+    "id": "other",
+    "name": "Other",
+    "about": "Not research on quantum science, or purely classical work outside the lines above.",
+    "topics": []
+   }
+  ]
+ },
+ "papers": {
+  "1504.05255v4": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Quantum indistinguishability notions for classical symmetric encryption"
+  },
+  "1512.07550v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "circuits-compilation"
+   ],
+   "why": "Reduces gate count of Grover search"
+  },
+  "1601.02311v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Sum-of-squares degree bounds with complexity-theoretic applications"
+  },
+  "1602.01441v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "post-quantum"
+   ],
+   "why": "Computational encryption schemes for quantum data"
+  },
+  "1603.03757v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "tensors-invariant-theory"
+   ],
+   "why": "Quantum communication complexity characterised by tensor support rank"
+  },
+  "1603.07856v3": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "query-algorithms"
+   ],
+   "why": "Simon's algorithm attacks on symmetric-key primitives"
+  },
+  "1603.09717v2": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "position-verification"
+   ],
+   "why": "Quantum homomorphic encryption via non-local computation gadgets"
+  },
+  "1605.07948v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Communication complexity of clean protocols"
+  },
+  "1606.04085v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "New method for tensor rank upper bounds"
+  },
+  "1607.00932v3": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Tight quantum sample complexity for PAC learning"
+  },
+  "1608.02595v4": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "entanglement-resources"
+   ],
+   "why": "Multipartite entanglement in stabilizer tensor networks, holographic states"
+  },
+  "1608.06113v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "graphs-walks"
+   ],
+   "why": "Orthogonal rank of Cayley graphs for exact communication complexity"
+  },
+  "1608.07200v2": {
+   "line": "other",
+   "topics": [],
+   "why": "Classical parallel programming model for many-core accelerators"
+  },
+  "1609.06994v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Deconstruction cost of tripartite correlations, entropic rates"
+  },
+  "1609.07476v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Asymptotic tensor rank of graph tensors"
+  },
+  "1611.06917v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "symmetry-representation"
+   ],
+   "why": "Horn inequalities, tensor invariants, Schubert geometry exposition"
+  },
+  "1611.08571v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Efficient ground-state preparation for frustration-free Hamiltonians via QLLL"
+  },
+  "1701.06806v3": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Survey of quantum learning theory models"
+  },
+  "1704.00765v3": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Span-program query algorithms for connectivity and formulas"
+  },
+  "1704.05839v4": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "entanglement-resources"
+   ],
+   "why": "Recovery channels for entanglement wedge reconstruction in AdS/CFT"
+  },
+  "1704.05857v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction"
+   ],
+   "why": "Channel-adapted Bacon-Shor recovery for amplitude damping"
+  },
+  "1705.01843v4": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Improved quantum SDP solvers with lower bounds"
+  },
+  "1705.09379v4": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Tensor rank non-multiplicativity, degenerations"
+  },
+  "1705.09652v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Border support rank of matrix multiplication tensor"
+  },
+  "1707.04954v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Entangled field modes motivated by black hole firewalls"
+  },
+  "1707.05144v3": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "many-body-gravity"
+   ],
+   "why": "Engineering multi-qubit gates via many-body chain dynamics"
+  },
+  "1708.00048v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Continuous-variable oblivious transfer in noisy-storage model"
+  },
+  "1708.00360v4": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Disentanglement cost equals regularized relative entropy of entanglement"
+  },
+  "1708.07359v3": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Verifiable delegated quantum computation with entangled provers"
+  },
+  "1708.07429v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Quantum walk version of Pascal's triangle, fractals"
+  },
+  "1708.09156v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Quantum fully homomorphic encryption with verification"
+  },
+  "1708.09696v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "entanglement-resources",
+    "graphs-walks"
+   ],
+   "why": "SDP hierarchies bounding entanglement dimension of quantum correlations"
+  },
+  "1711.00465v3": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "query-algorithms"
+   ],
+   "why": "Quantum gradient computation for optimisation algorithms"
+  },
+  "1711.06137v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Sampling random graphs via switch Markov chains"
+  },
+  "1711.07285v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Query algorithms characterised as completely bounded polynomial forms"
+  },
+  "1711.08039v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Scaling algorithms for null-cone problem"
+  },
+  "1712.03773v2": {
+   "line": "society",
+   "topics": [
+    "ethics-policy"
+   ],
+   "why": "European roadmap and policy for quantum technologies"
+  },
+  "1712.05380v1": {
+   "line": "society",
+   "topics": [
+    "ethics-policy"
+   ],
+   "why": "Societal impact and ethics of quantum computing"
+  },
+  "1712.08628v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "state-learning"
+   ],
+   "why": "Clifford Schur-Weyl duality; stabilizer property testing"
+  },
+  "1712.09798v2": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "symmetry-representation"
+   ],
+   "why": "Solovay-Kitaev gate approximation without inverse-closed gate sets"
+  },
+  "1801.09106v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "tensors-invariant-theory"
+   ],
+   "why": "Tensor network geometry and quantum max-flow/min-cut"
+  },
+  "1803.03761v4": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Unforgeability definition for MACs against quantum-query adversaries"
+  },
+  "1804.00431v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Horn inequalities, moment cones via quivers"
+  },
+  "1804.01973v2": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "hamiltonians"
+   ],
+   "why": "Block-encodings for linear systems and regression algorithms"
+  },
+  "1804.02237v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "error-correction"
+   ],
+   "why": "Quantum authentication and key recycling from codes"
+  },
+  "1804.04739v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Tensor scaling algorithms and moment polytope membership"
+  },
+  "1804.05058v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Improved quantum SDP solving and applications"
+  },
+  "1804.10591v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "st-connectivity span program witness sizes and algorithms"
+  },
+  "1806.01838v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "hamiltonians"
+   ],
+   "why": "Quantum singular value transformation for matrix arithmetic"
+  },
+  "1807.00169v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "graphs-walks"
+   ],
+   "why": "Asymptotic spectrum characterisation of graph Shannon capacity"
+  },
+  "1808.00135v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Conditional mutual information as conditional decoupling cost"
+  },
+  "1808.00850v2": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking"
+   ],
+   "why": "Unitarity randomized benchmarking sample bounds"
+  },
+  "1808.05234v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Bit threads prove holographic monogamy of mutual information"
+  },
+  "1808.09655v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Quantum chosen-ciphertext security of LWE encryption"
+  },
+  "1809.00643v4": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum speedups for convex optimisation oracles"
+  },
+  "1809.01261v3": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction"
+   ],
+   "why": "Stability of decoherence-free subspaces under perturbations"
+  },
+  "1809.08158v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks",
+    "channels-communication"
+   ],
+   "why": "Adiabatic state transfer across spin networks on graphs"
+  },
+  "1809.09819v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Fourier entropy-influence bounds for Boolean functions"
+  },
+  "1809.10149v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Multiparty packing lemma for quantum relay channel"
+  },
+  "1809.10751v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "channels-communication"
+   ],
+   "why": "Asymptotic performance of port-based teleportation via representation theory"
+  },
+  "1810.00481v4": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Quantum exact learning of Fourier-sparse functions"
+  },
+  "1810.00744v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "channels-communication"
+   ],
+   "why": "Quantum Shannon capacities of graphs via asymptotic spectra"
+  },
+  "1810.03651v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "sensing-interferometry"
+   ],
+   "why": "Many-body effects on quantum metrology precision limits"
+  },
+  "1810.12030v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "complexity"
+   ],
+   "why": "Query complexity of Simon's problem for linear functions"
+  },
+  "1811.02149v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Experimental quantum homomorphic encryption and secure two-party protocol"
+  },
+  "1811.04909v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum-inspired classical low-rank regression (dequantisation)"
+  },
+  "1811.10090v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Quantum communication versus approximate rank separation"
+  },
+  "1811.11068v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "complexity"
+   ],
+   "why": "Entangled vs classical bias in multiplayer nonlocal games"
+  },
+  "1811.11858v5": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Possibility and impossibility of signing quantum states"
+  },
+  "1812.09290v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "graphs-walks"
+   ],
+   "why": "Exact communication complexity via chromatic number and orthogonal rank"
+  },
+  "1901.04921v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "SDP formulation of completely bounded tensor norm"
+  },
+  "1901.06144v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "many-body-gravity"
+   ],
+   "why": "Multi-qubit gates by resonant driving of many-body eigenstates"
+  },
+  "1901.07194v5": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "symmetry-representation"
+   ],
+   "why": "Horn conditions for quiver representations and moment cones"
+  },
+  "1902.00814v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "learning-theory"
+   ],
+   "why": "Quantum speedups for distribution property testing"
+  },
+  "1902.00870v4": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "quantum-protocols"
+   ],
+   "why": "Robust self-testing from Bell nonlocality"
+  },
+  "1902.07556v4": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Fiat-Shamir security in the quantum random-oracle model"
+  },
+  "1903.02840v2": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory",
+    "post-quantum"
+   ],
+   "why": "Quantum hardness of learning shallow circuits via cryptography"
+  },
+  "1903.07493v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum walk search finding marked vertices quadratically faster"
+  },
+  "1903.12607v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Power-series analysis of local random processes on graphs"
+  },
+  "1904.00102v2": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "near-term-algorithms"
+   ],
+   "why": "Simulating large circuits on small quantum devices via clustering"
+  },
+  "1904.03180v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Sublinear quantum algorithms for zero-sum games"
+  },
+  "1904.09915v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Adiabatic amplitude transfer on bipartite graphs"
+  },
+  "1904.11477v4": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Quantum lazy sampling for indifferentiability proofs"
+  },
+  "1905.02518v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks",
+    "complexity"
+   ],
+   "why": "Group isomorphism algorithms with Weisfeiler-Leman techniques"
+  },
+  "1905.03148v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Asymptotic induced matching number via tensor methods"
+  },
+  "1905.05490v3": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "quantum-protocols"
+   ],
+   "why": "Non-malleability notions for quantum public-key encryption"
+  },
+  "1905.08821v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "circuits-compilation"
+   ],
+   "why": "Entanglement renormalization circuits approximating Dirac CFT"
+  },
+  "1906.07948v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Group-theoretic analogues of graph connectivity for p-groups"
+  },
+  "1907.05568v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum-inspired classical algorithm for separable NMF"
+  },
+  "1907.09415v5": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "complexity"
+   ],
+   "why": "Lecture notes on quantum computing"
+  },
+  "1908.04232v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "complexity"
+   ],
+   "why": "Span program size characterises quantum space complexity"
+  },
+  "1908.06310v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks",
+    "channels-communication"
+   ],
+   "why": "Quasirandomness of graphs generalised to quantum channels"
+  },
+  "1909.02383v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Quantum Brascamp-Lieb duality for entropy inequalities"
+  },
+  "1909.13528v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "query-algorithms"
+   ],
+   "why": "Quantum gradient estimation query bounds for Gevrey functions"
+  },
+  "1909.13770v2": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Multi-party quantum computation with dishonest majority"
+  },
+  "1910.05729v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "quantum-protocols"
+   ],
+   "why": "Efficient simulation of Haar-random states and unitaries"
+  },
+  "1910.12375v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Non-commutative optimisation for moment maps and polytopes"
+  },
+  "1911.05686v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Quantum SETH and fine-grained quantum lower bounds"
+  },
+  "1911.06314v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Holographic teleportation protocols, traversable wormholes in lab"
+  },
+  "1911.06742v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "quantum-protocols"
+   ],
+   "why": "Approximate unitary designs applied to quantum encryption"
+  },
+  "1911.07306v4": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum speedup for graph sparsification and Laplacian solving"
+  },
+  "1912.04233v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Unified framework for quantum walk search"
+  },
+  "1912.04266v5": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction"
+   ],
+   "why": "Collective decoherence scaling in multi-qubit registers"
+  },
+  "1912.06007v3": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "chemistry-materials"
+   ],
+   "why": "Variational algorithms for Fermi-Hubbard ground states"
+  },
+  "2001.05231v3": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "trapped-ions"
+   ],
+   "why": "Compiling controlled rotations from trapped-ion MS gates"
+  },
+  "2002.02743v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "channels-communication"
+   ],
+   "why": "Haemers bound for zero-error capacity of noncommutative graphs"
+  },
+  "2002.07688v1": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory",
+    "state-learning"
+   ],
+   "why": "Learning a set from quantum superposition samples"
+  },
+  "2002.07955v6": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Classical and quantum SVP lattice algorithms"
+  },
+  "2002.08070v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Trapping coins for discrete-time walks on lattices"
+  },
+  "2002.08240v2": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Quantum statistical query learning model"
+  },
+  "2002.12397v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "many-body-gravity"
+   ],
+   "why": "Hypergraph min-cuts realised by stabilizer state entropies"
+  },
+  "2002.12400v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Statistically sound entanglement witnessing under correlated noise"
+  },
+  "2003.02831v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "optimisation-linear-algebra"
+   ],
+   "why": "Computing QSP angle sequences for Hamiltonian simulation and QSVT"
+  },
+  "2003.05207v3": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Multi-round Fiat-Shamir security in QROM"
+  },
+  "2004.11952v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Bosonic MERA circuits constructed from wavelet theory"
+  },
+  "2004.14872v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Orbit closure minimal length as semiclassical limit"
+  },
+  "2005.00607v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "cold-atoms"
+   ],
+   "why": "Supersymmetric lattice model dynamics, Rydberg quantum simulation proposal"
+  },
+  "2005.01323v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Span programs and quantum time complexity"
+  },
+  "2005.02607v5": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum linear-algebra algorithm for topological data analysis"
+  },
+  "2005.06432v2": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Impossibility of quantum VBB obfuscation"
+  },
+  "2008.12110v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Interior-point methods for geometric programming and scaling"
+  },
+  "2009.08360v1": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Faster quantum boosting algorithm"
+  },
+  "2009.08840v3": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "benchmarking"
+   ],
+   "why": "Testing whether implemented unitary deviates from intended circuit"
+  },
+  "2009.13865v5": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Quantum copy-protection in QROM; uncloneable cryptography"
+  },
+  "2010.04175v3": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "post-quantum"
+   ],
+   "why": "Device-independent QKD from computational assumptions"
+  },
+  "2010.07974v2": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking",
+    "symmetry-representation"
+   ],
+   "why": "General theoretical framework for randomized benchmarking"
+  },
+  "2010.08490v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Single-step multi-qubit Toffoli gate scheme in trapped ions"
+  },
+  "2010.15103v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Tight adaptive reprogramming in QROM"
+  },
+  "2010.15729v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "quantum-protocols"
+   ],
+   "why": "Key distillation bounds for Gaussian states and operations"
+  },
+  "2011.12823v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "tensors-invariant-theory"
+   ],
+   "why": "Quantum algorithms for matrix scaling and balancing"
+  },
+  "2011.13048v2": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking",
+    "symmetry-representation"
+   ],
+   "why": "Randomized benchmarking protocol for matchgate circuits"
+  },
+  "2012.00741v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Lieb-Robinson converse via QCA index theory"
+  },
+  "2012.01920v2": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory",
+    "complexity"
+   ],
+   "why": "Quantum learning algorithms imply circuit lower bounds"
+  },
+  "2012.05233v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Query-to-communication simulation and symmetric functions"
+  },
+  "2012.05310v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Quantum many-body scars in disordered Rydberg chains"
+  },
+  "2012.07605v2": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Continuous Bose-Einstein condensate of strontium"
+  },
+  "2101.03048v2": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Infrared optics of charge density wave in VSe2"
+  },
+  "2101.08313v2": {
+   "line": "cryptography",
+   "topics": [
+    "foundations-thermodynamics",
+    "post-quantum"
+   ],
+   "why": "On-state commuting measurements; resolves QROM-motivated conjecture"
+  },
+  "2101.11029v2": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Entanglement negativity in holography and random tensor networks"
+  },
+  "2101.11032v5": {
+   "line": "society",
+   "topics": [
+    "philosophy"
+   ],
+   "why": "Realist toy model resolving Wigner's friend"
+  },
+  "2101.12739v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Secure software leasing, uncloneable cryptography without assumptions"
+  },
+  "2102.01064v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Teleportation by size and wormholes, detailed analysis"
+  },
+  "2102.08656v2": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Species-selective cooling of SU(N) Fermi gases in lattices"
+  },
+  "2102.10018v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Independence density of geometric forbidden configurations"
+  },
+  "2102.10926v4": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Compatibility of local and global quantum channels"
+  },
+  "2103.01165v1": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking",
+    "channels-communication"
+   ],
+   "why": "Benchmarking quantum network links via randomized benchmarking"
+  },
+  "2103.03085v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Online extraction in the quantum random-oracle model"
+  },
+  "2103.07526v3": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "circuits-compilation"
+   ],
+   "why": "Value of noisy magic states; error mitigation"
+  },
+  "2103.10425v3": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Optical tweezers engineering spin interactions in ion crystals"
+  },
+  "2103.12448v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Quantum-access security of hash-based one-time signatures"
+  },
+  "2103.14510v3": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Limitations on uncloneable encryption"
+  },
+  "2104.06301v3": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Single-qubit position verification secure against multi-qubit attacks"
+  },
+  "2104.06814v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Steady-state strontium narrow-line MOT"
+  },
+  "2104.10698v1": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking"
+   ],
+   "why": "Hardware-agnostic benchmark suite for gate-based devices"
+  },
+  "2105.02773v1": {
+   "line": "other",
+   "topics": [],
+   "why": "Guide for new TCS program committee members"
+  },
+  "2105.04359v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Phase diagram of supersymmetric constrained fermion ladder"
+  },
+  "2105.05566v3": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "learning-theory"
+   ],
+   "why": "Generalisation of quantum linear classifiers in QML"
+  },
+  "2105.08091v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Properties of relative entropy of entanglement"
+  },
+  "2106.00850v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "SLOCC entanglement classification via a single measure"
+  },
+  "2106.02005v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "query-algorithms"
+   ],
+   "why": "Fine-grained lower bounds on quantum speed-ups"
+  },
+  "2106.11672v3": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "cold-atoms"
+   ],
+   "why": "QAOA correlation clustering on Rydberg qudit platform"
+  },
+  "2106.12911v2": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Loss-tolerant quantum position verification protocols"
+  },
+  "2107.00011v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "QMA-completeness of supersymmetric local Hamiltonians"
+  },
+  "2107.02567v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory",
+    "graphs-walks"
+   ],
+   "why": "Tracial Haemers bound on quantum Shannon capacity"
+  },
+  "2107.03410v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Optimal quantum query algorithms for multivariate Monte Carlo"
+  },
+  "2107.10551v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "circuits-compilation"
+   ],
+   "why": "Stabilizer rank lower bounds via higher-order Fourier analysis"
+  },
+  "2107.11806v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Communication complexity of Equality with small error"
+  },
+  "2108.02175v3": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "hamiltonians"
+   ],
+   "why": "VQE proposal for kagome Heisenberg antiferromagnet"
+  },
+  "2109.10215v3": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking",
+    "state-learning"
+   ],
+   "why": "Verifying QFT implementations on average inputs"
+  },
+  "2109.15282v1": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra",
+    "tensors-invariant-theory"
+   ],
+   "why": "Quantum bounds for matrix scaling"
+  },
+  "2110.07583v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Sample complexity of tensor normal models via geodesic convexity"
+  },
+  "2110.13086v2": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum algorithms and lower bounds for Lasso and Ridge"
+  },
+  "2111.01209v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "quantum-protocols"
+   ],
+   "why": "New non-communicating state discrimination task"
+  },
+  "2111.02438v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "No unique entanglement measure; no second law"
+  },
+  "2111.08045v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "error-correction"
+   ],
+   "why": "Constructing k-uniform and AME graph states via stabilizers"
+  },
+  "2111.09787v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Near-optimal quantum multivariate mean estimation"
+  },
+  "2111.12130v2": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "entanglement-resources"
+   ],
+   "why": "Thermomajorisation laws for Markovian thermal processes"
+  },
+  "2111.13222v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum graph motif clustering via Grover"
+  },
+  "2112.14682v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "complexity"
+   ],
+   "why": "Exact query complexity of Hamming weight modulo m"
+  },
+  "2201.09257v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "channels-communication"
+   ],
+   "why": "Computable lower bounds on channel entanglement cost"
+  },
+  "2201.12305v3": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "channels-communication"
+   ],
+   "why": "Associative memory dimension bounds in general probabilistic theories"
+  },
+  "2202.05727v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Narrow-line imaging of strontium atoms in tweezers"
+  },
+  "2202.06979v4": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms"
+   ],
+   "why": "Entangled measurements for variational algorithm expectation values"
+  },
+  "2202.10969v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Distributed quantum query algorithms in CONGEST model"
+  },
+  "2202.12616v2": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "entanglement-resources"
+   ],
+   "why": "Algorithmic optimisation of thermal processes via thermomajorisation"
+  },
+  "2202.13681v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Micromotion effects in tweezer trapped-ion simulation"
+  },
+  "2202.13730v1": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "NIZKs and signatures via Fiat-Shamir in the QROM"
+  },
+  "2203.00212v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Aaronson-Ambainis conjecture special case, classical simulation"
+  },
+  "2203.02968v3": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum query speedups from classical decision trees"
+  },
+  "2203.04975v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "near-term-algorithms"
+   ],
+   "why": "Practical Grover speedups beyond asymptotics"
+  },
+  "2203.05599v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "circuits-compilation"
+   ],
+   "why": "Memory compression for quantum algorithms with QRAM gates"
+  },
+  "2203.06208v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum Louvain community detection with empirical run-times"
+  },
+  "2204.01113v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Classical vs quantum Hamiltonian eigenvalue estimation"
+  },
+  "2204.06800v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "symmetry-representation"
+   ],
+   "why": "Structure of AME state solving Euler's 36 officers"
+  },
+  "2204.12303v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Converses to polynomial method, completely bounded forms"
+  },
+  "2205.00899v1": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Optical study of strange metal in cuprates"
+  },
+  "2205.02813v5": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Gap in generalised quantum Stein's lemma proof"
+  },
+  "2205.05736v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Exact capacities of bosonic dephasing channels"
+  },
+  "2205.09740v1": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Superconductivity breakdown in overdoped cuprates"
+  },
+  "2206.11783v3": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics"
+   ],
+   "why": "Review of Kirkwood-Dirac quasiprobabilities for incompatible observables"
+  },
+  "2206.14471v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions",
+    "cold-atoms"
+   ],
+   "why": "Review of ion-atom hybrid experiments"
+  },
+  "2207.05713v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Unitary-equivariant SDPs reduced via representation theory"
+  },
+  "2207.08643v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Sublinear-time quantum algorithm for partition functions"
+  },
+  "2207.08800v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "query-algorithms"
+   ],
+   "why": "Tomography query complexity with state-preparation unitaries"
+  },
+  "2207.10097v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "Complexity of guided local Hamiltonian problem"
+  },
+  "2207.10250v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "Hardness of guided local Hamiltonian problem"
+  },
+  "2207.11068v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Quantum fine-grained hardness of triangle problems"
+  },
+  "2207.12960v2": {
+   "line": "experiments",
+   "topics": [
+    "foundations-thermodynamics"
+   ],
+   "why": "NV-center experiment on nonclassical work extraction"
+  },
+  "2208.04341v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Quantum communication and loss in QPV attacks"
+  },
+  "2208.13492v4": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Multidimensional quantum walks give k-distinctness time bound"
+  },
+  "2208.14872v1": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Optical phonons in ionic conductor AgCrSe2"
+  },
+  "2209.01026v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Review of laser cooling for quantum gases"
+  },
+  "2209.13209v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Hybrid cold-atom accelerometer triad"
+  },
+  "2209.14146v3": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Composing quantum subroutines with variable costs"
+  },
+  "2209.14358v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "tensors-invariant-theory"
+   ],
+   "why": "Minimal canonical form for PEPS via invariant theory"
+  },
+  "2211.06456v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Parallel repetition of LSSD non-local game"
+  },
+  "2211.06497v5": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "entanglement-resources"
+   ],
+   "why": "Multiparty resource states generating EPR pairs"
+  },
+  "2211.07578v2": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Classical shadow tomography for continuous-variable systems"
+  },
+  "2211.09686v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "error-correction"
+   ],
+   "why": "Combining quantum error correction with authentication"
+  },
+  "2211.11729v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Optimal quantum majority vote via representation theory"
+  },
+  "2211.12841v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Perfect state transfer in walks on orientable maps"
+  },
+  "2211.15678v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Irreversibility of resource theories via norm-contractive maps"
+  },
+  "2211.16518v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Gaussian approximation of sparse fermionic ground energies"
+  },
+  "2212.00094v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum time-space bounds for st-connectivity"
+  },
+  "2212.03674v3": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Loss-tolerant BB84 QPV against entangled attackers"
+  },
+  "2212.05962v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Quantum many-body scars in holographic CFTs"
+  },
+  "2212.06240v2": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Shadow estimation with reused random circuits"
+  },
+  "2212.08559v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Grothendieck inequalities and converses to polynomial method"
+  },
+  "2212.09073v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Upper bounds on distillable randomness"
+  },
+  "2212.09328v1": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory",
+    "near-term-algorithms"
+   ],
+   "why": "Quantum policy gradient algorithms for reinforcement learning"
+  },
+  "2212.13728v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Tensor rank under random coordinate restrictions"
+  },
+  "2302.00365v2": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "philosophy",
+    "many-body-gravity"
+   ],
+   "why": "Testing quantum nature of gravity with nonlinear corrections"
+  },
+  "2302.02870v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "error-correction"
+   ],
+   "why": "Shallow-circuit decoding: classical limits versus quantum"
+  },
+  "2302.03075v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "entanglement-resources"
+   ],
+   "why": "LOCC inequalities to test quantum nature of gravity"
+  },
+  "2302.10244v3": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Gate-efficient finding marked elements and summing"
+  },
+  "2302.10332v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Relational complexity classes with quantum advice"
+  },
+  "2302.11499v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "entanglement-resources"
+   ],
+   "why": "Teleporting coherence with fewer classical bits"
+  },
+  "2302.11578v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "Guidable local Hamiltonian complexity and quantum PCP"
+  },
+  "2303.01476v3": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Quantum oblivious transfer from zero-knowledge proofs"
+  },
+  "2303.03319v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum path-edge sampling via graph query algorithms"
+  },
+  "2303.04771v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Riemannian interior-point methods for non-commutative optimisation"
+  },
+  "2303.04949v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Pretty good measurement for Gaussian state ensembles"
+  },
+  "2303.06703v1": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Near-field imaging of VO2 domain switching"
+  },
+  "2303.12867v4": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "quantum-protocols"
+   ],
+   "why": "Two-way capacities and CV-QKD excess noise bounds"
+  },
+  "2304.01940v3": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "complexity"
+   ],
+   "why": "Commuting-operator nonlocal correlations, MIPco"
+  },
+  "2304.03234v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks",
+    "complexity"
+   ],
+   "why": "Szemeredi random differences via locally decodable codes"
+  },
+  "2304.06713v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Fourier completely bounded polynomials, classical simulation"
+  },
+  "2305.01284v4": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "chemistry-materials"
+   ],
+   "why": "Adiabatic ground-state paths for fermionic many-body systems"
+  },
+  "2305.03012v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Quasirandomness of additive sets and Cayley hypergraphs"
+  },
+  "2305.03489v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Catalysis cannot distill bound entanglement"
+  },
+  "2305.04908v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Tight bounds for quantum phase estimation"
+  },
+  "2305.07645v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "graphs-walks"
+   ],
+   "why": "LC-invariant for graph states"
+  },
+  "2305.13362v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "near-term-algorithms"
+   ],
+   "why": "Quantum backpropagation via shadow tomography"
+  },
+  "2305.16803v4": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "entanglement-resources",
+    "channels-communication"
+   ],
+   "why": "Work extraction from noisy quantum batteries"
+  },
+  "2306.00532v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Orthonormal spin bases maximising anticoherence"
+  },
+  "2306.01730v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "hamiltonians"
+   ],
+   "why": "Optimal control with non-Gaussian ansatz for state preparation"
+  },
+  "2306.05385v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation"
+   ],
+   "why": "Line-graph qubit routing for hardware connectivity"
+  },
+  "2306.16462v6": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification",
+    "quantum-protocols"
+   ],
+   "why": "Non-local computation related to information-theoretic crypto primitives"
+  },
+  "2307.07394v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "entanglement-resources"
+   ],
+   "why": "Resource theory of tensor network entanglement"
+  },
+  "2307.10358v4": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "hamiltonians"
+   ],
+   "why": "Echo verification mitigating errors in adiabatic algorithms"
+  },
+  "2307.11008v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Distillable entanglement under dually non-entangling operations"
+  },
+  "2307.13730v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "Fermionic NLTS Hamiltonians, quantum PCP related"
+  },
+  "2307.14840v5": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "error-correction"
+   ],
+   "why": "Shallow circuits with feed-forward for state preparation"
+  },
+  "2308.00696v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Continuity of relative entropy of resource"
+  },
+  "2308.04166v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Continuous-variable quantum position verification security"
+  },
+  "2309.07206v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Reversible resource manipulation via probabilistic protocols"
+  },
+  "2309.07956v3": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Fermionic correlation measures classifying many-body states"
+  },
+  "2309.16387v4": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Swap-test based streaming purification for qudits"
+  },
+  "2309.16431v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "post-quantum"
+   ],
+   "why": "QSETH-based quantum lower bounds for lattice and other problems"
+  },
+  "2309.16655v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "symmetry-representation"
+   ],
+   "why": "Monogamy of symmetric states solved with representation theory"
+  },
+  "2309.17066v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Capacities of optical fibres with memory"
+  },
+  "2310.02252v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Walled Brauer algebra Gelfand-Tsetlin basis, mixed Schur-Weyl"
+  },
+  "2310.08183v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Workshop summary on very-long-baseline atom interferometry"
+  },
+  "2311.00677v3": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Orthogonality broadcasting applied to QPV security"
+  },
+  "2311.02941v2": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Faster repumping for strontium MOTs"
+  },
+  "2311.07372v7": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Multidimensional electrical networks for exponential graph speedups"
+  },
+  "2311.15791v1": {
+   "line": "experiments",
+   "topics": [
+    "condensed-matter"
+   ],
+   "why": "Optical and transport study of CDW mosaic phase"
+  },
+  "2311.15873v3": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Composition of quantum time complexity"
+  },
+  "2312.02279v3": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "optimisation-linear-algebra"
+   ],
+   "why": "Survey of quantum optimisation challenges"
+  },
+  "2312.03188v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "circuits-compilation"
+   ],
+   "why": "Efficient circuits for port-based teleportation"
+  },
+  "2312.05060v2": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms"
+   ],
+   "why": "Variational global circuits preparing symmetric states"
+  },
+  "2312.12614v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Loss-tolerant QPV protocols"
+  },
+  "2401.07912v3": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "state-learning"
+   ],
+   "why": "Lower bounds for unitary property testing"
+  },
+  "2401.08355v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Multidimensional quantum walks and quantum divide-and-conquer"
+  },
+  "2401.09554v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Entanglement cost in infinite-dimensional systems"
+  },
+  "2401.15634v3": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Capacities of bosonic loss-dephasing channel"
+  },
+  "2402.01445v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Composable security of graph state verification"
+  },
+  "2402.05793v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "sensing-interferometry"
+   ],
+   "why": "Discrimination and estimation limits for bosonic dephasing channels"
+  },
+  "2402.08726v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "learning-theory"
+   ],
+   "why": "Trained quantum neural networks as Gaussian processes"
+  },
+  "2402.13324v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Black-box impossibility of shrinking pseudorandom states"
+  },
+  "2402.18356v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Port-based state preparation via teleportation"
+  },
+  "2402.18440v5": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity",
+    "circuits-compilation"
+   ],
+   "why": "Brick wall circuits with integrable fermionic symmetry"
+  },
+  "2402.18665v3": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Learning fermionic states with few non-Gaussian gates"
+  },
+  "2402.18988v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Atom interferometer under arbitrary rotations"
+  },
+  "2403.04841v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "complexity"
+   ],
+   "why": "Quantum PCPs reduced to local Hamiltonians"
+  },
+  "2404.02236v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Open problems in continuous-time walks, state transfer"
+  },
+  "2404.06282v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Testing and learning local Hamiltonians"
+  },
+  "2404.14261v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Continuous-variable QPV against entangled attackers"
+  },
+  "2405.01431v4": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Tomography limits for continuous-variable states"
+  },
+  "2405.03517v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "graphs-walks"
+   ],
+   "why": "Equivalence of S_p quantum expansion notions"
+  },
+  "2405.09613v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Computable entanglement cost under PPT operations"
+  },
+  "2405.09626v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Optimal permutation tests for state identity"
+  },
+  "2405.10933v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "learning-theory"
+   ],
+   "why": "Learning low-degree channels and unitaries"
+  },
+  "2405.13717v2": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "position-verification"
+   ],
+   "why": "Extended non-local games bounds for cryptographic security"
+  },
+  "2405.14765v2": {
+   "line": "algorithms",
+   "topics": [
+    "optimisation-linear-algebra"
+   ],
+   "why": "Quantum speed-up for top eigenvector approximation"
+  },
+  "2406.07530v4": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Three-photon excitation of strontium clock transition"
+  },
+  "2406.07681v2": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms"
+   ],
+   "why": "Fewer variables in QUBO formulations"
+  },
+  "2406.08064v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Gate-based counterdiabatic driving with complexity bounds"
+  },
+  "2406.09956v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "LU-invariants distinguishing graph state entanglement classes"
+  },
+  "2407.02617v2": {
+   "line": "simulation-applications",
+   "topics": [
+    "chemistry-materials",
+    "many-body-gravity"
+   ],
+   "why": "Classical simulation methods for open spin-boson dynamics"
+  },
+  "2407.03073v3": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Ground energy estimation beating Grover bound"
+  },
+  "2407.07183v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Atom interferometry in microgravity Einstein Elevator"
+  },
+  "2407.07711v1": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "channels-communication"
+   ],
+   "why": "Measurement compatibility via Boolean Fourier analysis"
+  },
+  "2407.18668v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms",
+    "sensing-interferometry"
+   ],
+   "why": "Continuous cavity-QED machine with atomic beam"
+  },
+  "2408.03831v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "many-body-gravity"
+   ],
+   "why": "Mutual information and magic in random circuits"
+  },
+  "2408.03986v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "hamiltonians"
+   ],
+   "why": "Search-to-decision reductions for QMA witnesses"
+  },
+  "2408.06410v3": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Solution of generalised quantum Stein's lemma"
+  },
+  "2408.07067v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Single-copy entanglement distillation quantification"
+  },
+  "2408.11111v2": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking"
+   ],
+   "why": "Randomized benchmarking for bosonic passive operations"
+  },
+  "2408.12595v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "query-algorithms"
+   ],
+   "why": "Quantum sabotage query complexity"
+  },
+  "2408.15226v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Continuity bounds for entropies via integral representations"
+  },
+  "2408.16458v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "query-algorithms"
+   ],
+   "why": "Quantum sieving for code-based cryptanalysis"
+  },
+  "2409.03693v2": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Ion gates in presence of ultracold atomic gas"
+  },
+  "2409.04550v4": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Quantum algorithms for free fermion simulation problems"
+  },
+  "2409.05046v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "circuits-compilation"
+   ],
+   "why": "Characterising lossy catalytic space-bounded computation"
+  },
+  "2409.13469v2": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions",
+    "cold-atoms"
+   ],
+   "why": "Rydberg atom-ion molecules in hybrid traps"
+  },
+  "2410.03961v2": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "entanglement-resources"
+   ],
+   "why": "Algorithm for local equivalence of stabilizer states"
+  },
+  "2410.07986v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Single-copy stabilizer state testing bounds"
+  },
+  "2410.14555v3": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "many-body-gravity"
+   ],
+   "why": "Collective effects in waveguide-QED quantum battery"
+  },
+  "2410.21811v2": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Tolerant stabilizer state testing"
+  },
+  "2410.22157v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification",
+    "symmetry-representation"
+   ],
+   "why": "Cloning game bounding QPV attacks"
+  },
+  "2411.00082v2": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Testing and learning structured Hamiltonians"
+  },
+  "2411.00946v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "hamiltonians"
+   ],
+   "why": "Quantum-classical PCPs with quantum queries"
+  },
+  "2411.02368v4": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Trace distance bounds for learning Gaussian states"
+  },
+  "2411.03648v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "query-algorithms"
+   ],
+   "why": "Programmable quantum processor via reflections"
+  },
+  "2411.05560v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Peak state transfer in discrete-time walks"
+  },
+  "2411.15789v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Asymptotic tensor rank characterised by polynomials"
+  },
+  "2412.03182v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "learning-theory"
+   ],
+   "why": "Quantum neural networks converge to Gaussian process"
+  },
+  "2412.07058v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "many-body-gravity"
+   ],
+   "why": "Random graph states complexity and designs"
+  },
+  "2412.13274v2": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "query-algorithms"
+   ],
+   "why": "Resource estimates for fault-tolerant k-SAT advantage"
+  },
+  "2412.14960v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Second workshop summary on long-baseline atom interferometry"
+  },
+  "2501.01391v4": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Parallel rearrangement of tweezer atom arrays"
+  },
+  "2501.12447v4": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Equivalences between smooth relative entropies"
+  },
+  "2502.04125v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Experimental quantum position verification with single photons"
+  },
+  "2502.08721v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "learning-theory"
+   ],
+   "why": "Complement sampling: provable quantum sample-complexity advantage"
+  },
+  "2502.09240v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Composition framework for quantum algorithms"
+  },
+  "2502.09249v2": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "circuits-compilation"
+   ],
+   "why": "Space-efficient quantum error reduction"
+  },
+  "2502.18420v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "many-body-gravity"
+   ],
+   "why": "Trotter error for simulating SYK models"
+  },
+  "2503.01617v1": {
+   "line": "society",
+   "topics": [
+    "philosophy"
+   ],
+   "why": "Philosophical account of technological understanding"
+  },
+  "2503.05647v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "chemistry-materials"
+   ],
+   "why": "Randomised Hamiltonian simulation for phase estimation"
+  },
+  "2503.09544v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Parallel repetition of one-round QPV protocols"
+  },
+  "2503.18910v2": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Umlaut information: zero-rate sphere-packing channel quantity"
+  },
+  "2503.21437v1": {
+   "line": "society",
+   "topics": [
+    "philosophy"
+   ],
+   "why": "Contextual account of technological understanding"
+  },
+  "2503.21479v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "channels-communication"
+   ],
+   "why": "New relative-entropy correlation measure with hypothesis testing meaning"
+  },
+  "2503.22633v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Moment polytope of matrix multiplication not maximal"
+  },
+  "2503.22650v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Explicit non-free tensors"
+  },
+  "2503.23238v1": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Wagner's algorithm subexponential for SIS-infinity lattices"
+  },
+  "2504.00710v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "channels-communication"
+   ],
+   "why": "Two-step port-based teleportation analysis"
+  },
+  "2504.03336v1": {
+   "line": "society",
+   "topics": [
+    "ethics-policy"
+   ],
+   "why": "Aligning ethics approaches with technology readiness"
+  },
+  "2504.07702v1": {
+   "line": "society",
+   "topics": [
+    "ethics-policy",
+    "philosophy"
+   ],
+   "why": "Technological understanding needed for quantum ethics"
+  },
+  "2504.10363v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Quantum natural proofs support QSETH fine-grained bounds"
+  },
+  "2504.11242v2": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms",
+    "sensing-interferometry"
+   ],
+   "why": "Precision g-factor measurement of strontium"
+  },
+  "2504.17881v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation"
+   ],
+   "why": "HPC state-vector simulator software"
+  },
+  "2505.05964v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Catalytic entanglement concentration under noise"
+  },
+  "2505.11986v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Peak state transfer in continuous quantum walks"
+  },
+  "2505.13134v1": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory",
+    "graphs-walks"
+   ],
+   "why": "Quadratic Goldreich-Levin learning algorithm"
+  },
+  "2505.20117v1": {
+   "line": "other",
+   "topics": [],
+   "why": "8-rank of hyperelliptic class groups, governing fields"
+  },
+  "2505.21442v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "complexity"
+   ],
+   "why": "One-way functions from lossy reductions and ETH"
+  },
+  "2506.00292v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "graphs-walks"
+   ],
+   "why": "Edge-minimal graph states under local Cliffords"
+  },
+  "2506.01903v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication"
+   ],
+   "why": "Information recoverable from quantum random access codes"
+  },
+  "2506.02579v2": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Confinement-induced resonances for ultracold dimers"
+  },
+  "2506.07103v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "benchmarking"
+   ],
+   "why": "Influence sampling to characterize quantum processes experimentally"
+  },
+  "2506.14546v2": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Multilevel EIT cooling for trapped ions"
+  },
+  "2506.15551v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "QMA equals QMA1 with infinite counter"
+  },
+  "2506.15804v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Atom-ion ultracold collision theory in 1D"
+  },
+  "2506.16324v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "circuits-compilation"
+   ],
+   "why": "Quantum catalytic space complexity"
+  },
+  "2506.20587v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "chemistry-materials"
+   ],
+   "why": "Quantum computers for biomolecular free energies"
+  },
+  "2506.23925v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Short-depth designs for groups beyond unitary"
+  },
+  "2507.10856v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Exact dynamics of Richardson-Gaudin model"
+  },
+  "2507.19440v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Hidden shift algorithms for complex functions"
+  },
+  "2507.23617v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Sub-microkelvin strontium source with comb-stabilised laser"
+  },
+  "2508.17306v4": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "learning-theory"
+   ],
+   "why": "Tolerant junta testing of unitaries and functions"
+  },
+  "2509.03514v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms",
+    "many-body-gravity"
+   ],
+   "why": "Rydberg spin-flip control on fractal lattice"
+  },
+  "2509.07736v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Strontium MOT continuous spectroscopy for frequency locking"
+  },
+  "2509.07876v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "post-quantum"
+   ],
+   "why": "Compressed oracle versus adversary lower-bound methods"
+  },
+  "2509.07890v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms",
+    "chemistry-materials"
+   ],
+   "why": "Quantum walk algorithms for chemical reaction networks"
+  },
+  "2509.09813v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Optimal learning of sparse Hamiltonians"
+  },
+  "2509.12478v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "post-quantum"
+   ],
+   "why": "Combining QKD and post-quantum AKE securely"
+  },
+  "2509.19815v1": {
+   "line": "society",
+   "topics": [
+    "ethics-policy"
+   ],
+   "why": "Responsible quantum technologies community perspective"
+  },
+  "2509.19963v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "many-body-gravity"
+   ],
+   "why": "Contraction complexity of injective PEPS"
+  },
+  "2509.21131v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Limits of black-box QMA amplification"
+  },
+  "2509.22640v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "circuits-compilation"
+   ],
+   "why": "High-dimensional quantum Schur transform algorithms"
+  },
+  "2509.26623v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Simulating Haar random unitaries via Clebsch-Gordan transforms"
+  },
+  "2510.00791v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Non-interactive QKD via computational monogamy"
+  },
+  "2510.02122v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians",
+    "chemistry-materials"
+   ],
+   "why": "Optimising fermionic Hamiltonians with classical interactions"
+  },
+  "2510.03538v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "channels-communication"
+   ],
+   "why": "Optimal quantum data hiding under LOCC"
+  },
+  "2510.05089v1": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "QuantumBoost: faster quantum boosting algorithm"
+  },
+  "2510.05393v2": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols",
+    "complexity"
+   ],
+   "why": "Separations between notions of quantum pseudorandomness"
+  },
+  "2510.07100v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Circuit decomposition of symmetric quantum combs"
+  },
+  "2510.07162v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "channels-communication"
+   ],
+   "why": "MIPco equals coRE"
+  },
+  "2510.07164v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Clifford unitary testing algorithms and lower bounds"
+  },
+  "2510.07305v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Sample complexity of testing Gaussianity"
+  },
+  "2510.08336v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Algorithms computing moment polytopes of tensors"
+  },
+  "2510.08403v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum time-space tradeoff for directed st-connectivity"
+  },
+  "2510.08473v2": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "query-algorithms"
+   ],
+   "why": "Quantum speed-up for lattice tuple sieving attacks"
+  },
+  "2510.08518v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Optimal random mixtures approximating states by sparse ones"
+  },
+  "2510.10540v1": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Predicting module-lattice reduction for Kyber security"
+  },
+  "2510.18164v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Simple exponential-time MAX-k-SAT approximation algorithm"
+  },
+  "2510.23719v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Anti-concentration and designs of local random circuits"
+  },
+  "2510.25870v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Heisenberg-limited displacement sensing with spin-dependent squeezing"
+  },
+  "2511.05372v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Adaptive phase estimation beats non-adaptive"
+  },
+  "2511.11008v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "complexity"
+   ],
+   "why": "Unconditional exponential non-classicality test"
+  },
+  "2511.13822v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "symmetry-representation"
+   ],
+   "why": "Symmetry-based witnesses for multipartite entanglement partitions"
+  },
+  "2512.14611v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Engineering Zeeman-sublevel qudits in neutral atoms"
+  },
+  "2512.15690v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Random purification channel for arbitrary symmetries"
+  },
+  "2512.16974v1": {
+   "line": "society",
+   "topics": [
+    "ethics-policy",
+    "post-quantum"
+   ],
+   "why": "Governance of transition to quantum-safe cryptography"
+  },
+  "2512.17780v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms",
+    "hamiltonians"
+   ],
+   "why": "Adiabatic state preparation schedules on Rydberg simulator"
+  },
+  "2601.16564v3": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Strontium tweezer array apparatus for computing"
+  },
+  "2601.21553v2": {
+   "line": "complexity-maths",
+   "topics": [
+    "tensors-invariant-theory"
+   ],
+   "why": "Strassen support functionals equal quantum functionals"
+  },
+  "2601.21863v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction"
+   ],
+   "why": "Bravyi-König theorem for Floquet codes"
+  },
+  "2601.22981v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Observing optical Magnus effect with trapped ion"
+  },
+  "2602.00069v1": {
+   "line": "cryptography",
+   "topics": [
+    "quantum-protocols"
+   ],
+   "why": "Integrity guarantees for trusted-repeater QKD networks"
+  },
+  "2602.06114v3": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Dicke model simulation in 2D ion crystal"
+  },
+  "2602.08441v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity",
+    "symmetry-representation"
+   ],
+   "why": "Plethysm coefficients computable in #BQP"
+  },
+  "2602.13099v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Stronger Welch bounds characterising approximate designs"
+  },
+  "2602.20900v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "symmetry-representation"
+   ],
+   "why": "Random brickwork Clifford circuits as error-correcting codes"
+  },
+  "2603.05391v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "circuits-compilation"
+   ],
+   "why": "Optimal fault-tolerant cat state preparation"
+  },
+  "2603.09580v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation"
+   ],
+   "why": "Flow criterion for ZX-diagram determinism"
+  },
+  "2603.10981v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "symmetry-representation"
+   ],
+   "why": "Permutation-invariant qudit error-correcting codes"
+  },
+  "2603.21873v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Robust phase estimation post-processing for ground energies"
+  },
+  "2603.23628v3": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Optimal cloning and transposition are complementary"
+  },
+  "2603.29809v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Certifying and learning local Hamiltonians"
+  },
+  "2604.01429v2": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Classical shadows from general group representations"
+  },
+  "2605.00485v1": {
+   "line": "information-theory",
+   "topics": [
+    "foundations-thermodynamics",
+    "entanglement-resources",
+    "philosophy"
+   ],
+   "why": "Converting entanglement entropy into thermodynamic entropy"
+  },
+  "2605.03023v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Strong unitary designs on geometric grids"
+  },
+  "2605.07518v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Loop composition of variable-length quantum subroutines"
+  },
+  "2605.16494v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Dark-state effects on dissipative many-body spin dynamics"
+  },
+  "2605.26983v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Testing Clifford hierarchy via noncommutative uniformity norms"
+  },
+  "2606.25037v2": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Loss-tolerant single-execution QPV security"
+  },
+  "2606.26354v2": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Equivalences of non-local computation tasks"
+  },
+  "2607.11217v2": {
+   "line": "simulation-applications",
+   "topics": [
+    "chemistry-materials",
+    "hamiltonians"
+   ],
+   "why": "Composing quantum algorithms for multiscale chemical modelling"
+  },
+  "2607.11483v1": {
+   "line": "information-theory",
+   "topics": [
+    "many-body-gravity"
+   ],
+   "why": "Strong zero modes in supersymmetric quantum circuits"
+  },
+  "2607.11847v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Optimal tomography of Gaussian states"
+  },
+  "2607.15358v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "chemistry-materials",
+    "hamiltonians"
+   ],
+   "why": "Spectral amplification for electronic structure energy estimation"
+  },
+  "2607.24712v2": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources",
+    "state-learning"
+   ],
+   "why": "Sample complexity of quantum resource testing"
+  },
+  "2607.27957v1": {
+   "line": "information-theory",
+   "topics": [
+    "channels-communication",
+    "complexity",
+    "quantum-protocols"
+   ],
+   "why": "GHZ communication advantage applied to bounded-storage crypto"
+  },
+  "2607.28873v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Collimating dense atomic beams"
+  },
+  "2608.18650v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "circuits-compilation"
+   ],
+   "why": "Optimal-depth unitary designs in 1D"
+  },
+  "2608.18743v1": {
+   "line": "experiments",
+   "topics": [
+    "sensing-interferometry"
+   ],
+   "why": "Technical proposal for CERN atom interferometer facility"
+  },
+  "2608.20476v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Perfect state transfer on Cayley graphs"
+  },
+  "2608.24370v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation",
+    "benchmarking"
+   ],
+   "why": "Benchmark suite for Clifford+T simulators"
+  },
+  "2608.24493v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Optimal lower bound for guided ground-energy estimation"
+  },
+  "2608.24494v1": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Optimal guided ground-state energy estimation"
+  },
+  "2608.26282v1": {
+   "line": "society",
+   "topics": [
+    "philosophy",
+    "many-body-gravity"
+   ],
+   "why": "Information as guiding principle in quantum gravity"
+  },
+  "2608.27298v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation"
+   ],
+   "why": "Optimal cloning of mixed states"
+  },
+  "2608.28569v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "circuits-compilation"
+   ],
+   "why": "Gate complexity of symmetric-group quantum Fourier transform"
+  },
+  "2608.28573v2": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "circuits-compilation"
+   ],
+   "why": "Efficient QFT circuits over non-abelian groups"
+  },
+  "2609.28138v1": {
+   "line": "experiments",
+   "topics": [
+    "trapped-ions"
+   ],
+   "why": "Tweezer-based sub-Doppler cooling of trapped ions"
+  },
+  "2609.28694v1": {
+   "line": "experiments",
+   "topics": [
+    "cold-atoms"
+   ],
+   "why": "Rydberg-mediated gates between polar molecules"
+  },
+  "2609.38091v2": {
+   "line": "algorithms",
+   "topics": [
+    "hamiltonians"
+   ],
+   "why": "Optimal guided ground-state preparation"
+  },
+  "2609.39280v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Optimal tomography of covariant states and channels"
+  },
+  "2609.39452v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "chemistry-materials",
+    "hamiltonians"
+   ],
+   "why": "Quantum algorithms for transcorrelated electronic Hamiltonians"
+  },
+  "2609.39980v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction"
+   ],
+   "why": "Localising logical information via single-qubit measurements"
+  },
+  "2609.40080v1": {
+   "line": "information-theory",
+   "topics": [
+    "entanglement-resources"
+   ],
+   "why": "Universal distillation for unknown bipartite states"
+  },
+  "2609.40106v2": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation"
+   ],
+   "why": "Complete rewrite rules for qudit Clifford circuits"
+  },
+  "2609.40144v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "circuits-compilation"
+   ],
+   "why": "Low-depth Clifford circuits with catalytic qubits"
+  },
+  "2609.40228v1": {
+   "line": "cryptography",
+   "topics": [
+    "position-verification"
+   ],
+   "why": "Impossibility of perfect non-local quantum computation"
+  },
+  "2609.40231v1": {
+   "line": "algorithms",
+   "topics": [
+    "query-algorithms"
+   ],
+   "why": "Quantum algorithm for st-transport on unitary-labelled graphs"
+  },
+  "2609.40331v2": {
+   "line": "algorithms",
+   "topics": [
+    "learning-theory"
+   ],
+   "why": "Fast quantum algorithms learning linear threshold functions"
+  },
+  "2610.01979v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning"
+   ],
+   "why": "Tolerant product state testing and learning"
+  },
+  "2610.03714v1": {
+   "line": "fault-tolerance-compilation",
+   "topics": [
+    "error-correction",
+    "circuits-compilation"
+   ],
+   "why": "Scalable fault-tolerant CSS state preparation"
+  },
+  "2610.06723v1": {
+   "line": "learning-testing",
+   "topics": [
+    "symmetry-representation",
+    "state-learning"
+   ],
+   "why": "Sample complexity of approximate cloning for structured states"
+  },
+  "2610.06794v1": {
+   "line": "learning-testing",
+   "topics": [
+    "state-learning",
+    "symmetry-representation"
+   ],
+   "why": "Constant-copy testing of Gaussian states"
+  },
+  "2610.11540v1": {
+   "line": "learning-testing",
+   "topics": [
+    "benchmarking"
+   ],
+   "why": "Faster fidelity estimation in random circuit benchmarking"
+  },
+  "2610.17078v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Spectral radius and sustainable edges in trees"
+  },
+  "2610.20855v1": {
+   "line": "complexity-maths",
+   "topics": [
+    "graphs-walks"
+   ],
+   "why": "Running state-transfer quantum walks on IBM hardware"
+  },
+  "2610.28185v1": {
+   "line": "society",
+   "topics": [
+    "philosophy",
+    "many-body-gravity"
+   ],
+   "why": "Philosophical analysis of black hole information approaches"
+  },
+  "2610.29762v1": {
+   "line": "simulation-applications",
+   "topics": [
+    "near-term-algorithms",
+    "circuits-compilation"
+   ],
+   "why": "Qubit encodings of bosonic modes for simulation"
+  },
+  "eccc-2022-185": {
+   "line": "complexity-maths",
+   "topics": [
+    "complexity"
+   ],
+   "why": "Decision tree size: randomized versus deterministic"
+  },
+  "eprint-2017-1171": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Lattice attacks on Mersenne-based post-quantum cryptosystem"
+  },
+  "eprint-2017-771": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Post-quantum collapsing property of sponge hash construction"
+  },
+  "eprint-2017-916": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Fiat-Shamir signatures secure in QROM"
+  },
+  "eprint-2019-197": {
+   "line": "other",
+   "topics": [],
+   "why": "Classical UC timestamping from verifiable delay functions"
+  },
+  "eprint-2019-69": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Quantum indistinguishability of random sponges"
+  },
+  "eprint-2020-151": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Genus theory breaks DDH for class group actions"
+  },
+  "eprint-2021-372": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum",
+    "graphs-walks"
+   ],
+   "why": "Isogeny graphs and Bruhat-Tits trees for cryptanalysis"
+  },
+  "eprint-2021-633": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Faster constant-time CSIDH isogeny evaluation"
+  },
+  "eprint-2022-1202": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Fault-injection attacks on CSIDH implementations"
+  },
+  "eprint-2023-106": {
+   "line": "cryptography",
+   "topics": [
+    "post-quantum"
+   ],
+   "why": "Deuring correspondence for isogeny cryptography"
+  }
+ },
+ "method": "Topics inferred from titles and abstracts: word-based clusters to draft the taxonomy, then each paper read and tagged by Claude (claude-opus-5-5), checked against the clusters and a random sample.",
+ "made": "2026-10-22"
+}
