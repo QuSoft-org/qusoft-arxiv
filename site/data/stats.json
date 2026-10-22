@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T11:42",
- "papers": 477,
+ "updated": "2026-10-22T11:44",
+ "papers": 478,
  "people": 106,
  "alumni": 46,
  "first_year": 2015,
@@ -84,10 +84,10 @@
   },
   {
    "year": 2026,
-   "papers": 60,
+   "papers": 61,
    "contributors": 55,
-   "together": 36,
-   "with_alumni": 11
+   "together": 37,
+   "with_alumni": 12
   }
  ],
  "edges": [
@@ -1125,6 +1125,11 @@
    "Jelena Mackeprang",
    "Jonas Helsen",
    2
+  ],
+  [
+   "Jelena Mackeprang",
+   "Yaroslav Herasymenko",
+   1
   ],
   [
    "Jeroen Zuiddam",
