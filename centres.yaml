@@ -30,7 +30,7 @@ centres:
     cordis_orgs_label: 'TU Delft + TNO'
     pis:
       # Quantum Computing
-      - Leonardo DiCarlo
+      - {name: Leonardo DiCarlo, aliases: ["L. DiCarlo"]}
       - {name: Lieven Vandersypen, aliases: ["L. M. K. Vandersypen"]}
       - Menno Veldhorst
       - Giordano Scappucci
@@ -44,18 +44,18 @@ centres:
       - Maximilian Rimbach-Russ
       - Nadia Haider
       - David DiVincenzo         # secondary appointment (main post FZ Jülich)
-      - Viatcheslav Dobrovitski
+      - {name: Viatcheslav Dobrovitski, aliases: ["V. V. Dobrovitski"]}
       # Quantum Internet
-      - Ronald Hanson
+      - {name: Ronald Hanson, aliases: ["R. Hanson"]}
       - Stephanie Wehner
-      - Tim Taminiau
+      - {name: Tim Taminiau, aliases: ["T. H. Taminiau"]}
       - Ryoichi Ishihara
       - Carlos Errando-Herranz
       - Gayane Vardoyan
-      - Sophie Hermans
+      - {name: Sophie Hermans, aliases: ["S. L. N. Hermans"]}
       - Francisco Machado
       # Qubit Research
-      - Leo Kouwenhoven
+      - {name: Leo Kouwenhoven, aliases: ["L. P. Kouwenhoven"]}
       - Srijit Goswami
       - Michael Wimmer
       - Christian Kraglund Andersen
@@ -73,7 +73,7 @@ centres:
       - Alfons Laarman
       - Jordi Tura
       - Evert van Nieuwenburg
-      - {name: Hao Wang, categories: [quant-ph, cs.NE, cs.LG, cs.ET]}   # common name: only these arXiv subjects
+      - {name: Hao Wang, categories: [quant-ph, cs.NE]}   # common name: only these arXiv subjects
       - Anna Dawid
     left_out: ["Stefano Polla (QuSoft since April 2026)", "Julia Cramer (science communication)",
                "fellows such as Thomas O'Brien (Google)"]
@@ -91,15 +91,15 @@ centres:
       - Rianne Lous
       - Julius Huijts
       - Jaime Gómez Rivas
-      - Andrea Fiore
+      - {name: Andrea Fiore, aliases: ["A. Fiore"]}
       - {name: Paul Koenraad, aliases: ["P. M. Koenraad"]}
       - Michael E. Flatté          # part-time (main post Iowa)
       - Ewold Verhagen             # part-time (main post AMOLF)
-      - Andrei Silov
+      - {name: Andrei Silov, aliases: ["A. Yu. Silov", "A. Silov"]}
       - {name: Erik Bakkers, aliases: ["E. P. A. M. Bakkers"]}
       - Klaas-Jan Tielrooij
-      - Tanja Lange
-      - Andreas Hülsing
+      - Tanja Lange               # posts mostly to IACR ePrint, not arXiv
+      - Andreas Hülsing           # posts mostly to IACR ePrint, not arXiv
       - Boris Škorić
       - Aida Abiad
       - Oliver Tse
@@ -109,7 +109,7 @@ centres:
       - Idelfonso Tafur Monroy
       - Simon Rommel
       - Tom Bradley
-      - Xaveer Leijtens
+      - {name: Xaveer Leijtens, aliases: ["X. J. M. Leijtens"]}
     left_out: ["QT/e members without quantum work: Montazeri, Cantatore, Kessels, Knoops, Raz, Dolmans"]
 
   twente:
@@ -129,7 +129,7 @@ centres:
       - {name: Chuan Li, categories: [cond-mat, quant-ph]}   # common name
       - {name: İnanç Adagideli, aliases: ["Inanc Adagideli"]}
       - {name: Sander Smink, aliases: ["A. E. M. Smink"]}
-      - Floris Zwanenburg
+      - {name: Floris Zwanenburg, aliases: ["F. A. Zwanenburg"]}
       - Joost Ridderbos
       - Harold Zandvliet
       - Pantelis Bampoulis

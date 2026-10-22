@@ -79,37 +79,48 @@ def search(cfg, only=None):
         state = load_json(state_file, {})
         for pi in c["pis"]:
             s = state.get(pi, {})
-            if s.get("checked") == date.today().isoformat():
+            aliases = c["aliases"].get(pi, [])
+            if s.get("checked") == date.today().isoformat() and (not aliases or s.get("aliases_done")):
                 continue
-            start = date.fromisoformat(s["checked"]) if s.get("checked") else since
-            names = [pi] + c["aliases"].get(pi, [])
-            queries = [s["query"]] if s.get("query") else (
-                generate_search_queries(pi) + [f'au:"{a}"' for a in c["aliases"].get(pi, [])])
+            start = date.fromisoformat(s["checked"]) if s.get("checked") and (not aliases or s.get("aliases_done")) else since
+            names = [pi] + aliases
             cats = c["categories"].get(pi)
-            found, res = {}, None
-            for q in queries:
-                window = f"submittedDate:[{start:%Y%m%d}0000 TO {date.today():%Y%m%d}2359]"
+            window = f"submittedDate:[{start:%Y%m%d}0000 TO {date.today():%Y%m%d}2359]"
+
+            def run(q):
                 for attempt in range(4):
                     try:
                         res = list(client.results(arxiv.Search(query=f"({q}) AND {window}", max_results=1000,
                                                                sort_by=arxiv.SortCriterion.SubmittedDate)))
-                        break
+                        time.sleep(3)
+                        return {base_id(r.get_short_id()): {
+                            "id": r.get_short_id(), "title": " ".join(r.title.split()),
+                            "date": r.published.date().isoformat(), "authors": [a.name for a in r.authors],
+                            "categories": list(r.categories)}
+                            for r in res if any(is_same_person(n, a.name) for n in names for a in r.authors)
+                            and (not cats or any(x == k or x.startswith(k + ".") for x in r.categories for k in cats))}
                     except Exception as e:
                         print(f"    {pi}: {e}; retrying")
                         time.sleep(30 * (attempt + 1))
-                else:
-                    res = None
+                return None
+
+            # The first spelling that finds papers, plus every alias (people who sign with initials).
+            found, res = {}, {}
+            for q in [s["query"]] if s.get("query") else generate_search_queries(pi):
+                res = run(q)
                 if res is None:
                     break
-                time.sleep(3)
-                found = {base_id(r.get_short_id()): {
-                    "id": r.get_short_id(), "title": " ".join(r.title.split()), "date": r.published.date().isoformat(),
-                    "authors": [a.name for a in r.authors], "categories": list(r.categories)}
-                    for r in res if any(is_same_person(n, a.name) for n in names for a in r.authors)
-                    and (not cats or any(x == k or x.startswith(k + ".") for x in r.categories for k in cats))}
-                if found:
+                if res:
+                    found.update(res)
                     s["query"] = q
                     break
+            for a in aliases:
+                if res is None:
+                    break
+                res = run(f'au:"{a}"')
+                found.update(res or {})
+            if aliases and res is not None:
+                s["aliases_done"] = True
             if res is None:
                 continue  # try again next run
             s.setdefault("papers", {}).update(found)
@@ -132,7 +143,10 @@ def centre_papers(cfg, key):
     for pi, s in state.items():
         if pi not in c["pis"]:
             continue
+        cats = c["categories"].get(pi)
         for pid, p in s.get("papers", {}).items():
+            if cats and not any(x == k or x.startswith(k + ".") for x in p["categories"] for k in cats):
+                continue
             if p["date"] >= since:
                 by_id.setdefault(pid, {**p, "pis": []})["pis"].append(pi)
     todo = [pid for pid in by_id if pid not in kinds]

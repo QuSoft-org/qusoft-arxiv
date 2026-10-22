@@ -52,6 +52,9 @@ python scripts/make_booklet.py --year 2025     # one PDF of first pages → outp
 python scripts/export_excel.py --year 2025     # Excel list → output/
 python scripts/internal_report.py              # management report → output/ (internal, not published)
 python scripts/funding_report.py               # funding of PhD students and postdocs → output/ (internal)
+python scripts/funding_landscape.py            # projects of all researchers, all papers, NWO + CORDIS → output/ (internal)
+python scripts/compare_centres.py --search     # same measures for QuTech, aQa, TU/e, Twente (centres.yaml) → output/
+python scripts/funding_overview.py             # interactive HTML of the two above → output/funding_overview.html
 
 python -m http.server -d site                  # preview the site at http://localhost:8000
 ```
