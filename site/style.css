@@ -314,46 +314,7 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
   .year-label { position: static; margin-bottom: 1rem; }
 }
 
-/* ---- People: the network ---- */
-
-.legend { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); margin: 1.25rem 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; }
-.key { width: 0.9rem; height: 0.9rem; border-radius: 50%; display: inline-block; border: 2px solid var(--slate); }
-.key-alumni { border: 3px solid var(--gold); margin-left: 1rem; }
-
-.network-wrap { margin: 0 0 3rem; position: relative; }
-
-/* Year slider above the network */
-.timeline { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; font-family: var(--sans); margin: 0 0 0.5rem; }
-.timeline .button { min-width: 5.5rem; }
-.timeline-slider { flex: 1 1 16rem; max-width: 32rem; display: flex; }
-.timeline-slider input { width: 100%; accent-color: var(--red); cursor: pointer; }
-#network-year-out { font-size: var(--s2); font-weight: 600; color: var(--ink); min-width: 3em; }
-.timeline-count { flex-basis: 100%; margin: 0; font-size: var(--s-1); color: var(--slate); }
-.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-#network { width: 100%; height: min(78vh, 52rem); display: block; touch-action: none; }
-#network .edge { stroke: var(--red); stroke-opacity: 0.28; stroke-width: 1; }
-#network .edge.on { stroke-opacity: 0.9; stroke-width: 1.5; }
-#network .node { cursor: pointer; }
-#network .node circle.ring { fill: var(--paper); stroke: var(--slate); stroke-width: 1.5; }
-#network .node.alumni circle.ring { stroke: var(--gold); stroke-width: 3; }
-#network .node text.initials { font-family: var(--sans); font-size: 10px; fill: var(--slate); text-anchor: middle; dominant-baseline: central; }
-#network.focused .node { opacity: 0.25; }
-#network.focused .node.on { opacity: 1; }
-#network.focused .edge { stroke-opacity: 0.06; }
-#network.focused .edge.on { stroke-opacity: 0.9; }
-#network .node:focus-visible { outline: none; }
-#network .node:focus-visible circle.ring { stroke: var(--focus); stroke-width: 3; }
-#network .label {
-  font-family: var(--sans);
-  font-size: 13px;
-  fill: var(--ink);
-  paint-order: stroke;
-  stroke: var(--paper);
-  stroke-width: 4px;
-  pointer-events: none;
-}
-.network-wrap figcaption { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); min-height: 3em; max-width: var(--measure); }
-.network-wrap figcaption strong { color: var(--ink); font-weight: 600; }
+/* ---- Numbers ---- */
 
 .section-title { font-size: var(--s3); font-weight: 500; margin: 0 0 1.5rem; border-top: 2px solid var(--ink); padding-top: 1.25rem; }
 .numbers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 2.5rem 2rem; margin-bottom: 4rem; }

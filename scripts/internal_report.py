@@ -319,6 +319,11 @@ def main():
     for y, t, *c, pct, _ in summary[:6]:
         print(f"  {y}: {t} papers by members, {c[0]} naming QuSoft ({pct}%)")
 
+    # The co-author network, internal too (it singles people out).
+    import people_network
+    page, n, e = people_network.build()
+    print(f"Wrote {page}: co-author network of {n} people")
+
 
 if __name__ == "__main__":
     main()

@@ -4,7 +4,7 @@ Finds every arXiv paper by current and former QuSoft members that names QuSoft (
 
 The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
-- **People**: who has written with whom, plus a few numbers per year. These are group-level only: no rankings or per-person counts.
+- **Numbers**: papers, people publishing and papers written together, per year. Group-level only: no rankings or per-person counts.
 - **Print**: tick papers and download their annotated first pages as one PDF for the message board. Each page has portraits, highlighted affiliations and a QR code.
 
 ## How it updates
@@ -61,6 +61,7 @@ python scripts/make_booklet.py --year 2025     # one PDF of first pages → outp
 python scripts/export_excel.py --year 2025     # Excel list → output/
 python scripts/internal_report.py              # management report → output/ (internal, not published)
 python scripts/funding_report.py               # funding of PhD students and postdocs → output/ (internal)
+python scripts/people_network.py               # co-author network as a local page → output/ (internal)
 
 python -m http.server -d site                  # preview the site at http://localhost:8000
 ```

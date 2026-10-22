@@ -7,9 +7,7 @@ site/data/stats.json    numbers per year and the co-authorship network
 Statistics are about the group, never per person: no rankings, no paper counts per author.
 """
 
-from collections import Counter
 from datetime import datetime
-from itertools import combinations
 
 from PIL import Image, ImageOps
 
@@ -78,13 +76,6 @@ def build(papers, people):
         row["with_alumni"] += any(is_alumnus(people.get(n, {})) for n in q)
     by_year = [{**r, "contributors": len(r["contributors"])} for _, r in sorted(years.items())]
 
-    # Co-authorship network: who has written with whom. Edges only, no per-person totals.
-    pairs = Counter()
-    for p in papers:
-        for a, b in combinations(sorted(set(p["qusoft_authors"])), 2):
-            pairs[(a, b)] += 1
-    edges = [[a, b, n] for (a, b), n in sorted(pairs.items())]
-
     stats = {
         "updated": datetime.now().isoformat(timespec="minutes"),
         "papers": len(papers),
@@ -92,10 +83,9 @@ def build(papers, people):
         "alumni": sum(site_people[n]["alumni"] for n in site_people),
         "first_year": by_year[0]["year"] if by_year else None,
         "by_year": by_year,
-        "edges": edges,
     }
 
     save_json(SITE / "data" / "papers.json", site_papers)
     save_json(SITE / "data" / "people.json", site_people)
     save_json(SITE / "data" / "stats.json", stats)
-    print(f"Site data: {len(site_papers)} papers, {len(site_people)} people, {len(edges)} collaborations")
+    print(f"Site data: {len(site_papers)} papers, {len(site_people)} people")
