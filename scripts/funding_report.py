@@ -226,7 +226,10 @@ GRANT_IDS = [
 
 def grant_ids(statement):
     found = []
+    visit = re.search(r"hospitality|during\s+the\s+(?:program|workshop|semester|trimester)|participat|\bvisit", statement, re.I)
     for rx in GRANT_IDS:
+        if visit and rx is GRANT_IDS[-1]:
+            continue  # "during the program “Quantum Physics of Information”": a workshop, not a grant
         for m in rx.finditer(statement):
             g = re.sub(r"^(?:No|Nr)\.?\s*", "", (m.group(1) if m.groups() else m.group(0)).strip(" .,;()“”\""))
             if g and g not in found and g.upper() not in ("ERC", "NWO", "EU", "QSC", "QDNL", "NO"):

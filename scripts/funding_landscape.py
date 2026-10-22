@@ -245,6 +245,8 @@ def main():
     # Verdicts ----------------------------------------------------------------
     project_rows = []
     for key, p in projects.items():
+        if p["unnumbered"]:
+            p["title"] = f"No grant number: everything from this funder that names {key.split(' | ', 1)[1]}"
         group = p.get("lookup_group") or (p["groups"].most_common(1)[0][0] if p["groups"] else "")
         p["group"] = group
         affils = Counter(papers[x]["affil"] for x in p["papers"])
@@ -380,6 +382,7 @@ def main():
                                "uva_cwi", "elsewhere", "years", "named", "nwo_people", "guess", "orgs", "home_ec",
                                "nl_ec", "timing", "sources", "links", "statement"], r)) for r in project_rows],
         "papers_by_year": _papers_by_year(papers),
+        "funded_by_year": {y: dict(c) for y, c in sorted(_funded_by_year(papers).items())},
     }
     save_json(OUT / f"funding_landscape_{date.today()}.json", export)
 
@@ -391,10 +394,15 @@ def main():
               f"  papers {row[6]}, {row[8]}% with QuSoft")
 
 
+ONE_GRANT_EACH = {GROUPS[3][0], GROUPS[4][0]}  # Veni/Vidi/Vici, ERC
+
+
 def _merge_unnumbered(projects):
     for key in [k for k, p in projects.items() if p["unnumbered"]]:
         p = projects[key]
         group = p["groups"].most_common(1)[0][0]
+        if group not in ONE_GRANT_EACH:
+            continue  # someone can hold several grants from e.g. funders abroad: don't guess which
         person = key.split(" | ", 1)[1]
         targets = [q for q in projects.values() if not q["unnumbered"]
                    and (q.get("lookup_group") or (q["groups"].most_common(1)[0][0] if q["groups"] else "")) == group
@@ -407,6 +415,14 @@ def _merge_unnumbered(projects):
         t["groups"].update(p["groups"])
         t["statements"] = (t["statements"] + [x for x in p["statements"] if x not in t["statements"]])[:3]
         del projects[key]
+
+
+def _funded_by_year(papers):
+    out = defaultdict(Counter)
+    for x in papers.values():
+        if x["groups"]:
+            out[x["date"][:4]][x["affil"]] += 1
+    return out
 
 
 def _papers_by_year(papers):

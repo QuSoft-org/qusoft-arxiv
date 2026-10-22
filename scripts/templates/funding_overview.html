@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuSoft funding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #F7F8F9; --surface: #FFFFFF; --ink: #2E353C; --slate: #626C75; --rule: #D5DADF; --faint: #EEF1F3;
+  --red: #C02127; --red-deep: #921317;
+  /* "QuSoft involved?" — validated categorical trio (light) */
+  --v-qusoft: #C02127; --v-home: #A68B22; --v-else: #3F7CB0;
+  --other-centre: #88939F;
+  --serif: "STIX Two Text", Cambria, Georgia, serif;
+  --sans: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --margin: 15rem; --gutter: 16px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1B2026; --surface: #232A31; --ink: #E6E9EC; --slate: #9AA4AE; --rule: #3A434C; --faint: #2A3239;
+    --red: #E25A5E; --red-deep: #F08A8D;
+    --v-qusoft: #D83F45; --v-home: #CDB55E; --v-else: #4D8FD0; --other-centre: #7E8994;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1B2026; --surface: #232A31; --ink: #E6E9EC; --slate: #9AA4AE; --rule: #3A434C; --faint: #2A3239;
+  --red: #E25A5E; --red-deep: #F08A8D;
+  --v-qusoft: #D83F45; --v-home: #CDB55E; --v-else: #4D8FD0; --other-centre: #7E8994;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1rem/1.5 var(--sans); }
+a { color: var(--red-deep); }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+.wrap { max-width: 72rem; margin: 0 auto; padding: 0 var(--gutter); }
+
+header.top { padding: 2.5rem 0 0; }
+header.top h1 { font: 600 2.441rem/1.1 var(--serif); margin: 0; letter-spacing: -0.01em; }
+header.top .sub { color: var(--slate); margin: .5rem 0 0; max-width: 62ch; }
+nav.tabs { display: flex; gap: .25rem; margin-top: 1.75rem; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+nav.tabs button { font: 600 1rem var(--sans); color: var(--slate); background: none; border: 0; padding: .6rem .9rem;
+  border-bottom: 3px solid transparent; margin-bottom: -1px; cursor: pointer; }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--red); }
+section.panel { padding: 2rem 0 4rem; }
+section.panel[hidden] { display: none; }
+
+.lead { font: 400 1.4rem/1.45 var(--serif); max-width: 46ch; margin: 0 0 2rem; }
+.lead b { font-weight: 600; }
+h2 { font: 600 1.563rem/1.25 var(--serif); margin: 3rem 0 .4rem; }
+h2 + p.note { margin-top: 0; }
+p.note { color: var(--slate); max-width: 68ch; margin: .25rem 0 1rem; font-size: .9rem; }
+
+.key { display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 0 0 1rem; font-size: .9rem; }
+.key span { display: inline-flex; align-items: center; gap: .45rem; }
+.sw { width: .85rem; height: .85rem; border-radius: 3px; display: inline-block; }
+.sw.q { background: var(--v-qusoft); } .sw.h { background: var(--v-home); } .sw.e { background: var(--v-else); }
+
+/* Ledger: funder names in the margin, like the years on the papers page */
+.ledger { border-top: 1px solid var(--rule); }
+.ledger .row { display: grid; grid-template-columns: var(--margin) 1fr 13rem; gap: 1rem; align-items: center;
+  padding: .7rem 0; border-bottom: 1px solid var(--rule); }
+.ledger .name { font: 400 1.05rem/1.25 var(--serif); }
+.ledger .name small { display: block; color: var(--slate); font: .8rem var(--sans); margin-top: .1rem; }
+.ledger .bar { display: flex; gap: 2px; height: 1.6rem; }
+.ledger .seg { height: 100%; border-radius: 0; color: #fff; font: 600 .8rem/1.6rem var(--sans); text-align: center;
+  overflow: hidden; white-space: nowrap; cursor: default; min-width: 2px; }
+.ledger .seg:first-child { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.ledger .seg:last-child { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+.ledger .seg.q { background: var(--v-qusoft); } .ledger .seg.h { background: var(--v-home); color: #1d1a0b; }
+.ledger .seg.e { background: var(--v-else); }
+.ledger .papers { font-size: .9rem; color: var(--slate); }
+.ledger .papers b { color: var(--ink); font-weight: 600; }
+.ledger .row.head { font-size: .8rem; color: var(--slate); padding: .4rem 0; }
+
+/* Charts */
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { fill: var(--slate); font: 12px var(--sans); }
+.chart .grid line { stroke: var(--rule); stroke-width: 1; }
+.chart .axis-label { fill: var(--slate); }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--rule);
+  border-radius: 6px; padding: .45rem .6rem; font-size: .85rem; box-shadow: 0 4px 14px rgba(20,25,30,.14); max-width: 22rem;
+  z-index: 5; opacity: 0; transition: opacity .1s; }
+.tip.on { opacity: 1; }
+.tip b { font-weight: 600; }
+
+/* Project table */
+.filters { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; margin: 1rem 0; }
+.filters input, .filters select { font: 1rem var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 6px; padding: .45rem .6rem; }
+.filters input { flex: 1 1 16rem; }
+.filters .count { color: var(--slate); font-size: .9rem; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; padding: .5rem .65rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-weight: 600; color: var(--slate); background: var(--faint); position: sticky; top: 0; cursor: pointer; white-space: nowrap; }
+th[aria-sort="ascending"]::after { content: " ▲"; font-size: .7em; }
+th[aria-sort="descending"]::after { content: " ▼"; font-size: .7em; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr.proj { cursor: pointer; }
+tr.proj:hover td { background: var(--faint); }
+tr.detail td { background: var(--faint); color: var(--ink); }
+tr.detail blockquote { margin: 0 0 .5rem; font: italic 400 .95rem/1.5 var(--serif); max-width: 80ch; }
+.verdict { display: inline-flex; align-items: center; gap: .4rem; white-space: nowrap; }
+.grant { font-weight: 600; overflow-wrap: anywhere; }
+#projects { table-layout: fixed; min-width: 76rem; }
+#projects th:nth-child(1) { width: 9rem; } #projects th:nth-child(2) { width: 9rem; } #projects th:nth-child(3) { width: 19rem; }
+#projects th:nth-child(4) { width: 10rem; } #projects th:nth-child(5) { width: 5rem; } #projects th:nth-child(6) { width: 6.5rem; }
+#projects th:nth-child(7) { width: 6.5rem; } #projects th:nth-child(8) { width: 14rem; } #projects th:nth-child(9) { width: 7rem; }
+#projects th:nth-child(10) { width: 8rem; }
+#projects th { white-space: normal; }
+.muted { color: var(--slate); }
+
+/* Comparison */
+.centres-table td:first-child { font: 600 1rem var(--serif); }
+.centres-table tr.us td { background: color-mix(in srgb, var(--v-qusoft) 8%, var(--surface)); }
+.cellbar { display: inline-block; height: .55rem; border-radius: 0 3px 3px 0; background: var(--other-centre); vertical-align: middle; margin-left: .4rem; }
+tr.us .cellbar { background: var(--v-qusoft); }
+.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1.25rem; }
+.multiples h3 { font: 600 1rem var(--serif); margin: 0 0 .25rem; }
+.multiples .total { color: var(--slate); font-size: .85rem; margin: 0 0 .25rem; }
+.empty { border: 1px dashed var(--rule); border-radius: 8px; padding: 1.5rem; color: var(--slate); max-width: 60ch; }
+.empty code { font-size: .9em; }
+
+.method { max-width: 68ch; }
+.method p, .method li { font: 400 1.05rem/1.6 var(--serif); }
+.method h3 { font: 600 1.2rem var(--serif); margin: 2rem 0 .3rem; }
+.themebtn { position: absolute; top: 1rem; right: var(--gutter); font: .85rem var(--sans); background: none; color: var(--slate);
+  border: 1px solid var(--rule); border-radius: 6px; padding: .3rem .55rem; cursor: pointer; }
+header.top { position: relative; }
+
+@media (max-width: 760px) {
+  :root { --margin: 1fr; }
+  header.top h1 { font-size: 1.953rem; padding-right: 4rem; }
+  .ledger .row { grid-template-columns: 1fr; gap: .35rem; }
+  .ledger .row.head { display: none; }
+  .lead { font-size: 1.2rem; }
+}
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+@media print { nav.tabs, .themebtn, .filters { display: none; } section.panel[hidden] { display: block; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <button class="themebtn" id="theme" type="button" aria-label="Switch light or dark">Dark</button>
+  <h1>Where QuSoft's research money comes from</h1>
+  <p class="sub" id="sub"></p>
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" aria-controls="p-qusoft" id="t-qusoft">QuSoft</button>
+    <button role="tab" aria-selected="false" aria-controls="p-compare" id="t-compare">Compared with other centres</button>
+    <button role="tab" aria-selected="false" aria-controls="p-method" id="t-method">How this was measured</button>
+  </nav>
+</header>
+
+<section class="panel" id="p-qusoft" role="tabpanel" aria-labelledby="t-qusoft">
+  <p class="lead" id="lead"></p>
+  <div class="key" aria-hidden="true">
+    <span><i class="sw q"></i>QuSoft named on a paper</span>
+    <span><i class="sw h"></i>UvA or CWI, but QuSoft never named</span>
+    <span><i class="sw e"></i>Elsewhere (before or after QuSoft, or another host)</span>
+  </div>
+  <div class="ledger" id="ledger"></div>
+  <p class="note">Bars count projects: one per grant number, or per person and funder when a paper names no number.
+    Hover a bar for numbers. The right column counts papers that thank the funder, and how many of them carry the QuSoft affiliation.</p>
+
+  <h2>Funded papers per year</h2>
+  <p class="note">Papers by QuSoft researchers that thank at least one funder, by the affiliation on the paper.</p>
+  <div class="chart" id="years"></div>
+
+  <h2>All projects</h2>
+  <div class="filters">
+    <label class="sr" for="q" hidden>Search</label>
+    <input id="q" type="search" placeholder="Search grant, title or person" aria-label="Search projects">
+    <select id="fg" aria-label="Funding source"><option value="">All funding sources</option></select>
+    <select id="fv" aria-label="QuSoft involved?"><option value="">Any involvement</option></select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="tablewrap"><table id="projects"><thead></thead><tbody></tbody></table></div>
+  <p class="note">Click a row for an example acknowledgement and the papers. "Found in" says whether the grant was
+    found in NWO's project database or CORDIS; grants found only there are not thanked in any paper.</p>
+</section>
+
+<section class="panel" id="p-compare" role="tabpanel" aria-labelledby="t-compare" hidden>
+  <div id="compare"></div>
+</section>
+
+<section class="panel method" id="p-method" role="tabpanel" aria-labelledby="t-method" hidden>
+  <div id="method"></div>
+</section>
+</div>
+<div class="tip" id="tip" role="status"></div>
+
+<script>
+const L = /*LANDSCAPE*/null;
+const C = /*COMPARISON*/null;
+
+const $ = s => document.querySelector(s);
+const el = (tag, attrs = {}, html = "") => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (html) e.innerHTML = html; return e; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const fmt = n => n == null ? "" : Number(n).toLocaleString("en-GB");
+const euro = n => n ? (n >= 1e6 ? `€${(n / 1e6).toFixed(1)}M` : `€${Math.round(n / 1e3)}k`) : "";
+const VCLASS = {"QuSoft named": "q", "UvA/CWI, no QuSoft": "h", "Elsewhere": "e"};
+const VLABEL = {"QuSoft named": "QuSoft named", "UvA/CWI, no QuSoft": "UvA/CWI, no QuSoft", "Elsewhere": "Elsewhere"};
+
+// Theme: remembered per viewer; storage may be unavailable.
+const themeBtn = $("#theme");
+function applyTheme(t) {
+  if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme");
+  const dark = t ? t === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  themeBtn.textContent = dark ? "Light" : "Dark";
+}
+try { applyTheme(localStorage.getItem("funding-theme")); } catch (e) { applyTheme(null); }
+themeBtn.addEventListener("click", () => {
+  const dark = themeBtn.textContent === "Dark";
+  applyTheme(dark ? "dark" : "light");
+  try { localStorage.setItem("funding-theme", dark ? "dark" : "light"); } catch (e) {}
+  drawYears(); drawCompareCharts();
+});
+
+// Tabs
+const tabs = [...document.querySelectorAll('[role="tab"]')];
+tabs.forEach(t => t.addEventListener("click", () => {
+  tabs.forEach(o => { o.setAttribute("aria-selected", o === t); $("#" + o.getAttribute("aria-controls")).hidden = o !== t; });
+  if (t.id === "t-compare") drawCompareCharts();
+  if (t.id === "t-qusoft") drawYears();
+  try { history.replaceState(null, "", "#" + t.id.slice(2)); } catch (e) {}
+}));
+
+// Tooltip
+const tip = $("#tip");
+function showTip(html, ev) {
+  tip.innerHTML = html; tip.classList.add("on");
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.pageX + pad, y = ev.pageY + pad;
+  if (x + w > window.scrollX + innerWidth - 8) x = ev.pageX - w - pad;
+  if (y + h > window.scrollY + innerHeight - 8) y = ev.pageY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => tip.classList.remove("on");
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+// ---------------------------------------------------------------- QuSoft tab
+function renderQuSoft() {
+  const c = L.counts;
+  $("#sub").textContent = `Internal overview for the management team, generated ${L.generated}. Not for publication.`;
+  const P = L.projects;
+  const nQ = P.filter(p => p.verdict === "QuSoft named").length;
+  const nH = P.filter(p => p.verdict === "UvA/CWI, no QuSoft").length;
+  $("#lead").innerHTML = `Across ${fmt(c.papers)} papers by ${c.researchers} QuSoft researchers we found <b>${P.length} funded projects</b>. ` +
+    `${nQ} of them name QuSoft on at least one paper; another ${nH} were held at UvA or CWI without QuSoft ever being named.`;
+
+  const led = $("#ledger");
+  led.append(el("div", {class: "row head"}, `<span>Funding source</span><span>Projects, by where QuSoft is involved</span><span>Papers thanking it</span>`));
+  const max = Math.max(...L.overview.map(r => r[1]));
+  for (const r of L.overview) {
+    if (!r[1] && !r[6]) continue;
+    const [name, total, q, h, e, nwoOnly, papers, withQ, pct, people, ec] = r;
+    const row = el("div", {class: "row"});
+    row.append(el("div", {class: "name"}, `${esc(name)}${ec ? `<small>${euro(ec)} EU funding to UvA/CWI</small>` : ""}`));
+    const bar = el("div", {class: "bar", role: "img", "aria-label": `${name}: ${total} projects; ${q} QuSoft named, ${h} UvA/CWI without QuSoft, ${e} elsewhere`});
+    bar.style.width = `${Math.max(4, 100 * total / max)}%`;
+    for (const [n, cls, label] of [[q, "q", "QuSoft named"], [h, "h", "UvA/CWI, QuSoft never named"], [e, "e", "elsewhere"]]) {
+      if (!n) continue;
+      const s = el("div", {class: "seg " + cls}, n >= 3 && n / max > .04 ? String(n) : "");
+      s.style.flex = n;
+      s.addEventListener("mousemove", ev => showTip(`<b>${esc(name)}</b><br>${n} of ${total} projects: ${label}`, ev));
+      s.addEventListener("mouseleave", hideTip);
+      bar.append(s);
+    }
+    row.append(bar);
+    row.append(el("div", {class: "papers"}, papers ? `<b>${fmt(papers)}</b> papers, ${pct}% with QuSoft` : "no papers"));
+    led.append(row);
+  }
+  renderProjects();
+  drawYears();
+}
+
+function drawYears() {
+  const box = $("#years");
+  if (!L || box.offsetParent === null) return;
+  const data = Object.entries(L.funded_by_year).filter(([y]) => +y >= 2015);
+  const keys = [["QuSoft", "--v-qusoft", "QuSoft named"], ["UvA/CWI, no QuSoft", "--v-home", "UvA/CWI, no QuSoft"], ["Elsewhere", "--v-else", "Elsewhere"]];
+  const W = Math.max(320, box.clientWidth), H = 240, m = {l: 36, r: 8, t: 10, b: 26};
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const tot = data.map(([, v]) => keys.reduce((a, [k]) => a + (v[k] || 0), 0));
+  const raw = Math.max(...tot) || 10, step = [5, 10, 20, 25, 50, 100, 200].find(st => raw / st <= 5) || 500;
+  const ymax = Math.ceil(raw / step) * step;
+  const bw = iw / data.length;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Funded papers per year by affiliation">`;
+  s += `<g class="grid">`;
+  for (let v = 0; v <= ymax; v += step) { const y = m.t + ih - ih * v / ymax; s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y}" y2="${y}"/><text x="${m.l - 6}" y="${y + 4}" text-anchor="end">${v}</text>`; }
+  s += `</g>`;
+  data.forEach(([yr, v], i) => {
+    let y0 = m.t + ih; const x = m.l + i * bw + bw * .15, w = bw * .7;
+    keys.forEach(([k, col], j) => {
+      const n = v[k] || 0; if (!n) return;
+      const h = ih * n / ymax; const top = j === keys.length - 1 || keys.slice(j + 1).every(([kk]) => !(v[kk]));
+      s += `<rect x="${x}" y="${y0 - h + (j ? 1 : 0)}" width="${w}" height="${Math.max(0, h - (j ? 1 : 0))}" fill="${css(col)}" ${top ? 'rx="3"' : ""}/>`;
+      y0 -= h;
+    });
+    s += `<text x="${x + w / 2}" y="${H - 8}" text-anchor="middle">${bw < 44 && i % 2 ? "" : yr}</text>`;
+    s += `<rect class="hit" data-i="${i}" x="${m.l + i * bw}" y="${m.t}" width="${bw}" height="${ih}" fill="transparent"/>`;
+  });
+  s += `</svg>`;
+  box.innerHTML = s;
+  box.querySelectorAll(".hit").forEach(r => {
+    r.addEventListener("mousemove", ev => { const [yr, v] = data[+r.dataset.i]; const t = keys.reduce((a, [k]) => a + (v[k] || 0), 0);
+      showTip(`<b>${yr}</b>: ${t} funded papers<br>` + keys.map(([k, , lab]) => `${lab}: ${v[k] || 0}`).join("<br>"), ev); });
+    r.addEventListener("mouseleave", hideTip);
+  });
+}
+
+let sortKey = "papers", sortDir = -1;
+function shortList(s) {
+  const parts = String(s || "").split(/[;,]\s*/).filter(Boolean);
+  return parts.length > 4 ? `${parts.slice(0, 4).join(", ")} and ${parts.length - 4} more` : parts.join(", ");
+}
+const COLS = [
+  ["key", "Grant"], ["group", "Funding source"], ["title", "Title"], ["verdict", "QuSoft involved?"],
+  ["papers", "Papers", "num"], ["with_qusoft", "with QuSoft", "num"], ["years", "Years"], ["people", "QuSoft people"],
+  ["home_ec", "EU € to UvA/CWI", "num"], ["sources", "Found in"],
+];
+function renderProjects() {
+  const fg = $("#fg"), fv = $("#fv");
+  if (fg.options.length === 1) {
+    L.groups.forEach(g => fg.append(el("option", {value: g}, esc(g))));
+    L.verdicts.forEach(v => fv.append(el("option", {value: v}, esc(VLABEL[v]))));
+    ["input", "change"].forEach(evt => [$("#q"), fg, fv].forEach(x => x.addEventListener(evt, renderProjects)));
+    const tr = el("tr");
+    COLS.forEach(([k, label, cls]) => {
+      const th = el("th", {class: cls || "", scope: "col", tabindex: "0"}, esc(label));
+      const go = () => { sortDir = sortKey === k ? -sortDir : (cls === "num" ? -1 : 1); sortKey = k; renderProjects(); };
+      th.addEventListener("click", go); th.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+      th.dataset.k = k; tr.append(th);
+    });
+    $("#projects thead").append(tr);
+  }
+  document.querySelectorAll("#projects th").forEach(th => th.setAttribute("aria-sort", th.dataset.k === sortKey ? (sortDir > 0 ? "ascending" : "descending") : "none"));
+  const q = $("#q").value.trim().toLowerCase();
+  const rows = L.projects.map(p => ({...p, people: [p.named, p.nwo_people, p.guess ? p.guess + " (guess)" : ""].filter(Boolean).join("; ")}))
+    .filter(p => (!fg.value || p.group === fg.value) && (!fv.value || p.verdict === fv.value)
+      && (!q || [p.key, p.title, p.people, p.orgs].join(" ").toLowerCase().includes(q)))
+    .sort((a, b) => { const x = a[sortKey] ?? "", y = b[sortKey] ?? ""; return (typeof x === "number" || typeof y === "number" ? (x || 0) - (y || 0) : String(x).localeCompare(String(y))) * sortDir; });
+  $("#count").textContent = `${rows.length} of ${L.projects.length} projects`;
+  const tb = $("#projects tbody"); tb.innerHTML = "";
+  for (const p of rows.slice(0, 400)) {
+    const tr = el("tr", {class: "proj", tabindex: "0"});
+    tr.innerHTML = `<td class="grant">${esc(p.key.includes(" | ") ? "(no number)" : p.key)}</td><td>${esc(p.group)}</td>
+      <td>${esc(p.title) || '<span class="muted">—</span>'}${p.scheme ? `<br><span class="muted">${esc(p.scheme)}</span>` : ""}</td>
+      <td><span class="verdict"><i class="sw ${VCLASS[p.verdict]}"></i>${esc(VLABEL[p.verdict])}</span></td>
+      <td class="num">${p.papers || ""}</td><td class="num">${p.papers ? p.with_qusoft : ""}</td><td>${esc(p.years)}</td>
+      <td>${esc(shortList(p.people))}</td><td class="num">${euro(p.home_ec)}</td><td>${esc(p.sources)}</td>`;
+    const open = () => {
+      const next = tr.nextElementSibling;
+      if (next && next.classList.contains("detail")) { next.remove(); return; }
+      const d = el("tr", {class: "detail"});
+      const links = (p.links || "").split(" | ").filter(Boolean).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace("https://arxiv.org/abs/", "arXiv:"))}</a>`).join(", ");
+      d.innerHTML = `<td colspan="${COLS.length}">${p.statement ? `<blockquote>“${esc(p.statement)}”</blockquote>` : ""}
+        ${links ? `Papers: ${links}<br>` : ""}${p.people ? `<span class="muted">QuSoft people: ${esc(p.people)}</span><br>` : ""}${p.orgs ? `<span class="muted">Organisations: ${esc(p.orgs)}</span><br>` : ""}
+        ${p.nl_ec ? `<span class="muted">EU funding: ${esc(p.nl_ec)}</span><br>` : ""}${p.timing ? `<span class="muted">Paper timing vs. QuSoft years: ${esc(p.timing)}</span>` : ""}</td>`;
+      tr.after(d);
+    };
+    tr.addEventListener("click", open); tr.addEventListener("keydown", e => { if (e.key === "Enter") open(); });
+    tb.append(tr);
+  }
+}
+
+// ---------------------------------------------------------------- Comparison tab
+function renderCompare() {
+  const box = $("#compare");
+  if (!C) {
+    box.innerHTML = `<div class="empty">The comparison hasn't been run yet. Run <code>python scripts/compare_centres.py --search</code>
+      (the first time takes a few hours), then <code>python scripts/funding_overview.py</code> again.</div>`;
+    return;
+  }
+  const keys = Object.keys(C.centres);
+  const cs = keys.map(k => ({key: k, ...C.centres[k]}));
+  const per = (a, b) => b ? a / b : 0;
+  const nwoLead = c => Object.values(c.nwo_lead || {}).reduce((a, b) => a + b, 0);
+  const euTotal = c => Object.values(c.eu || {}).reduce((a, v) => a + v.ec, 0);
+  const erc = c => Object.entries(c.eu || {}).filter(([k]) => k.startsWith("ERC")).reduce((a, [, v]) => a + v.projects, 0);
+  const vvv = c => ["Veni", "Vidi", "Vici"].reduce((a, k) => a + ((c.nwo || {})[k] || 0), 0);
+  const q = cs.find(c => c.key === "qusoft");
+  const best = (f) => cs.slice().sort((a, b) => f(b) - f(a));
+
+  let h = `<p class="lead">Five Dutch quantum centres, measured the same way since ${C.since.slice(0, 4)}: what their papers thank,
+    the NWO grants their PIs hold, and the EU money for quantum projects at their host organisations.</p>`;
+  const cols = [
+    ["PIs with papers", c => c.active_pis, c => `${c.active_pis} of ${c.pis}`],
+    ["Papers", c => c.papers, c => fmt(c.papers)],
+    ["Papers per PI", c => per(c.papers, c.active_pis), c => per(c.papers, c.active_pis).toFixed(1)],
+    ["NWO grants led", c => nwoLead(c), c => nwoLead(c)],
+    ["…per PI", c => per(nwoLead(c), c.active_pis), c => per(nwoLead(c), c.active_pis).toFixed(2)],
+    ["Veni/Vidi/Vici", c => vvv(c), c => vvv(c)],
+    ["Growth Fund grants", c => (c.nwo || {})["Growth Fund (QDNL)"] || 0, c => (c.nwo || {})["Growth Fund (QDNL)"] || 0],
+    ["ERC grants (host)", c => erc(c), c => erc(c)],
+    ["EU quantum € (host)", c => euTotal(c), c => euro(euTotal(c))],
+    ["…per PI", c => per(euTotal(c), c.active_pis), c => euro(per(euTotal(c), c.active_pis))],
+  ];
+  h += `<h2>At a glance</h2><p class="note">Bars compare each column across centres. NWO grants count those where a listed PI is
+    main applicant or project leader. EU figures are for the whole host organisation (see the method tab).</p>`;
+  h += `<div class="tablewrap"><table class="centres-table"><thead><tr><th>Centre</th>${cols.map(([l]) => `<th class="num">${esc(l)}</th>`).join("")}</tr></thead><tbody>`;
+  for (const c of cs) {
+    h += `<tr class="${c.key === "qusoft" ? "us" : ""}"><td>${esc(c.name)}</td>`;
+    for (const [, f, show] of cols) {
+      const mx = Math.max(...cs.map(f)) || 1;
+      h += `<td class="num">${show(c)}<span class="cellbar" style="width:${(2.2 * f(c) / mx).toFixed(2)}rem"></span></td>`;
+    }
+    h += `</tr>`;
+  }
+  h += `</tbody></table></div>`;
+  h += `<h2>What their papers thank</h2><p class="note">Share of each centre's papers whose acknowledgements thank a funding source.
+    QuSoft in red; hover a dot for the centre. Papers also thank co-authors' funders, so read this as a profile, not a budget.</p>
+    <div class="chart" id="dots"></div>`;
+  h += `<h2>EU money for quantum projects, by start year</h2><p class="note">CORDIS contributions to the host organisation for
+    projects mentioning quantum, by the year the project started. Same scale in every panel.</p><div class="multiples" id="eu"></div>`;
+  h += `<h2>NWO grants held by PIs, by kind</h2><p class="note">Grants in NWO's database that list one of the centre's PIs in any role,
+    started since ${C.since.slice(0, 4)}. In brackets: as main applicant or project leader.</p><div class="tablewrap" id="nwo"></div>`;
+  box.innerHTML = h;
+
+  const kinds = [...new Set(cs.flatMap(c => Object.keys(c.nwo || {})))].sort();
+  let t = `<table><thead><tr><th>Kind</th>${cs.map(c => `<th class="num">${esc(c.name)}</th>`).join("")}</tr></thead><tbody>`;
+  for (const k of kinds) t += `<tr><td>${esc(k)}</td>${cs.map(c => `<td class="num">${(c.nwo || {})[k] || ""}${(c.nwo_lead || {})[k] ? ` <span class="muted">(${c.nwo_lead[k]})</span>` : ""}</td>`).join("")}</tr>`;
+  $("#nwo").innerHTML = t + `</tbody></table>`;
+  drawCompareCharts();
+}
+
+function drawCompareCharts() {
+  if (!C) return;
+  const dots = $("#dots");
+  if (!dots || dots.offsetParent === null) return;
+  const cs = Object.entries(C.centres).map(([k, v]) => ({key: k, ...v}));
+  const groups = C.groups.filter(g => cs.some(c => (c.share[g] || 0) > 0));
+  const W = Math.max(320, dots.clientWidth), rowH = 30, m = {l: Math.min(250, W * .38), r: 16, t: 20, b: 24};
+  const H = m.t + m.b + rowH * groups.length, iw = W - m.l - m.r;
+  const xmax = Math.ceil(Math.max(...cs.flatMap(c => groups.map(g => c.share[g] || 0))) / 10) * 10 || 10;
+  const X = v => m.l + iw * v / xmax;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Share of papers thanking each funding source, per centre"><g class="grid">`;
+  for (let v = 0; v <= xmax; v += xmax <= 40 ? 10 : 20) s += `<line x1="${X(v)}" x2="${X(v)}" y1="${m.t - 6}" y2="${H - m.b}"/><text x="${X(v)}" y="${H - 6}" text-anchor="middle">${v}%</text>`;
+  s += `</g>`;
+  groups.forEach((g, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    s += `<text x="${m.l - 10}" y="${y + 4}" text-anchor="end" style="fill:${css("--ink")}">${esc(g.length > 34 && W < 600 ? g.slice(0, 32) + "…" : g)}</text>`;
+    const vals = cs.map(c => c.share[g] || 0);
+    s += `<line x1="${X(Math.min(...vals))}" x2="${X(Math.max(...vals))}" y1="${y}" y2="${y}" stroke="${css("--rule")}" stroke-width="2"/>`;
+    cs.filter(c => c.key !== "qusoft").concat(cs.filter(c => c.key === "qusoft")).forEach(c => {
+      const us = c.key === "qusoft";
+      s += `<circle class="dot" data-c="${c.key}" data-g="${esc(g)}" cx="${X(c.share[g] || 0)}" cy="${y}" r="${us ? 6.5 : 5}"
+        fill="${css(us ? "--v-qusoft" : "--other-centre")}" stroke="${css("--surface")}" stroke-width="2"/>`;
+    });
+  });
+  s += `</svg>`;
+  dots.innerHTML = s;
+  dots.querySelectorAll(".dot").forEach(d => {
+    d.addEventListener("mousemove", ev => {
+      const g = d.dataset.g;
+      const lines = cs.slice().sort((a, b) => (b.share[g] || 0) - (a.share[g] || 0))
+        .map(c => `${c.key === d.dataset.c ? "<b>" : ""}${esc(c.name)}: ${c.share[g] || 0}%${c.key === d.dataset.c ? "</b>" : ""}`);
+      showTip(`<b>${esc(g)}</b><br>${lines.join("<br>")}`, ev);
+    });
+    d.addEventListener("mouseleave", hideTip);
+  });
+
+  const eu = $("#eu");
+  const years = Object.keys(cs[0].eu_by_year);
+  const ymax = Math.max(1, ...cs.flatMap(c => Object.values(c.eu_by_year)));
+  eu.innerHTML = "";
+  for (const c of cs) {
+    const card = el("div");
+    const total = Object.values(c.eu_by_year).reduce((a, b) => a + b, 0);
+    card.innerHTML = `<h3>${esc(c.name)}</h3><p class="total">${euro(total) || "€0"} to ${esc(c.eu_orgs)}</p>`;
+    const w = 220, h = 90, bw = w / years.length;
+    let s = `<svg viewBox="0 0 ${w} ${h + 16}" role="img" aria-label="${esc(c.name)} EU quantum funding by start year">`;
+    s += `<line x1="0" x2="${w}" y1="${h}" y2="${h}" stroke="${css("--rule")}"/>`;
+    years.forEach((y, i) => {
+      const v = c.eu_by_year[y] || 0, bh = h * v / ymax;
+      if (v) s += `<rect class="bar" data-y="${y}" data-v="${v}" x="${i * bw + 1}" y="${h - bh}" width="${bw - 2}" height="${bh}" rx="2" fill="${css(c.key === "qusoft" ? "--v-qusoft" : "--other-centre")}"/>`;
+      if (i === 0 || i === years.length - 1) s += `<text x="${i * bw + bw / 2}" y="${h + 13}" text-anchor="middle">${y}</text>`;
+    });
+    s += `</svg>`;
+    card.insertAdjacentHTML("beforeend", `<div class="chart">${s}</div>`);
+    card.querySelectorAll(".bar").forEach(b => {
+      b.addEventListener("mousemove", ev => showTip(`<b>${esc(c.name)}, ${b.dataset.y}</b><br>${euro(+b.dataset.v)} to ${esc(c.eu_orgs)}`, ev));
+      b.addEventListener("mouseleave", hideTip);
+    });
+    eu.append(card);
+  }
+}
+
+// ---------------------------------------------------------------- Method tab
+function renderMethod() {
+  $("#method").innerHTML = `
+  <h3>QuSoft</h3>
+  <p>We took every arXiv paper by the ${L.counts.researchers} researchers in QuSoft's people list (PhD students, postdocs and senior staff)
+  that the website's search found since 2015: ${fmt(L.counts.papers)} papers, from before, during and after their time at QuSoft.
+  For each paper we read the acknowledgements and the first-page footnotes, picked out sentences about funding, and sorted the funders into groups.</p>
+  <p>A sentence that names a QuSoft researcher ties the grant to them. A sentence that names only a co-author from elsewhere is left out.
+  Grant numbers were looked up in NWO's project database and in CORDIS, the EU's project database. NWO projects that list a QuSoft researcher
+  but are thanked in no paper were added too.</p>
+  <p>A project counts as <b>QuSoft named</b> if at least one of its papers has QuSoft on it, as <b>UvA/CWI, no QuSoft</b> if it was held at UvA
+  or CWI or its papers name UvA or CWI but never QuSoft, and as <b>elsewhere</b> otherwise.</p>
+  <h3>Other centres</h3>
+  <p>Each centre has a hand-made list of PIs (in <code>centres.yaml</code>). We searched arXiv for their papers since ${C ? C.since.slice(0, 4) : "2018"}
+  and kept those with the centre on the first page; QuSoft's papers come from the website's database, with at least one senior author.
+  The same funder rules apply to every centre. NWO grants are found by PI name; EU money is everything CORDIS lists for quantum projects
+  at the host organisations.</p>
+  <h3>Caveats</h3>
+  <ul>${[L.caveat, C ? C.caveat : ""].filter(Boolean).flatMap(s => s.split(/(?<=\.)\s+(?=[A-Z])/)).map(s => `<li>${esc(s)}</li>`).join("")}</ul>`;
+}
+
+renderQuSoft();
+renderCompare();
+renderMethod();
+const want = location.hash.slice(1);
+if (want) { const t = $("#t-" + want); if (t) t.click(); }
+let rT; addEventListener("resize", () => { clearTimeout(rT); rT = setTimeout(() => { drawYears(); drawCompareCharts(); }, 150); });
+</script>
+</body>
+</html>
