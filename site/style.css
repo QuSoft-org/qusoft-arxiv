@@ -269,18 +269,18 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
 .paper-title a:hover { color: var(--red); text-decoration: underline; }
 .authors { margin: 0 0 0.3rem; line-height: 1.5; }
 .authors .q { font-weight: 600; }
-.authors .alum { font-weight: 600; text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 0.22em; }
+.authors .alum { font-weight: 600; }
 .authors .who { white-space: nowrap; color: inherit; text-decoration: none; }
 .authors .who:hover .q, .authors .who:hover .alum { color: var(--red); text-decoration: underline; text-decoration-color: var(--red); }
 .authors .who:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
 .authors .head {
-  display: inline-block; box-sizing: border-box; width: 1.35em; height: 1.35em; border-radius: 50%;
-  object-fit: cover; vertical-align: -0.32em; margin-right: 0.3em; border: 1.5px solid var(--slate); background: var(--paper);
+  display: inline-block; box-sizing: border-box; width: 1.75em; height: 1.75em; border-radius: 50%;
+  object-fit: cover; vertical-align: -0.52em; margin-right: 0.3em; border: 1.5px solid var(--slate); background: var(--paper);
 }
 .authors .alumni .head { border: 2px solid var(--gold); }
 .authors .head.initials {
   font-family: var(--sans); font-size: 0.55em; font-weight: 600; color: var(--slate);
-  text-align: center; line-height: 2.2em; width: 2.45em; height: 2.45em; vertical-align: 0.05em;
+  text-align: center; line-height: 2.9em; width: 3.18em; height: 3.18em; vertical-align: -0.35em;
 }
 .authors .years { font-family: var(--sans); font-size: var(--s-1); color: var(--gold-text); margin-left: 0.2em; white-space: nowrap; }
 .meta {

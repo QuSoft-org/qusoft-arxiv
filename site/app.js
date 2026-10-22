@@ -147,7 +147,7 @@
       if (!info) { parts.push(name); return; }
       // A small portrait before the name (decorative: the name follows), initials when there's no photo.
       const head = info.portrait
-        ? el("img", { class: "head", src: info.portrait, alt: "", loading: "lazy", width: 20, height: 20 })
+        ? el("img", { class: "head", src: info.portrait, alt: "", loading: "lazy", width: 28, height: 28 })
         : el("span", { class: "head initials", "aria-hidden": "true" }, initials(person));
       const link = { href: `#papers?person=${encodeURIComponent(person)}`, title: `Show only papers with ${person}` };
       if (info.alumni) {

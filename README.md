@@ -3,7 +3,7 @@
 Finds every arXiv paper by current and former QuSoft members that mentions QuSoft on its first page, and publishes them at **https://cschaffner.github.io/qusoft-arxiv/**.
 
 The site has three parts:
-- **Papers**: every paper, searchable. QuSoft authors are in bold, and alumni are underlined in gold with their QuSoft years.
+- **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
 - **People**: who has written with whom, plus a few numbers per year. These are group-level only: no rankings or per-person counts.
 - **Print**: tick papers and download their annotated first pages as one PDF for the message board. Each page has portraits, highlighted affiliations and a QR code.
 
