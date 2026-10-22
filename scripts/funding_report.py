@@ -162,19 +162,67 @@ def name_patterns(author):
 # Report
 # ---------------------------------------------------------------------------
 
-def spreadsheet_funding():
-    """{name: funding text} from the private spreadsheet, where filled in."""
+def _cell(value):
+    text = " ".join(str(value or "").split())
+    return "" if text.upper() in ("", "NA", "N/A", "-", "NONE") else text
+
+
+def spreadsheet():
+    """({name: funding text}, {name: [supervisors]}) from the private spreadsheet."""
     excel = path("database", "excel_file")
-    out = {}
+    funding, supervisors = {}, {}
     if not excel.exists():
-        return out
-    ws = load_workbook(excel, read_only=True, data_only=True)["QuSoft People Database"]
-    for row in ws.iter_rows(min_row=3, values_only=True):
-        name = " ".join(str(row[0] or "").split())
-        value = row[22] if len(row) > 22 else None
-        if name and isinstance(value, str) and value.strip() and value.strip().upper() not in ("NA", "N/A", "-"):
-            out[name] = value.strip()
-    return out
+        return funding, supervisors
+    wb = load_workbook(excel, read_only=True, data_only=True)
+    # Main sheet: name A, supervisors H-J, funding W. Alumni sheet: name A, supervisors F-H.
+    for sheet, first_row, sup_cols, fund_col in (("QuSoft People Database", 3, (7, 8, 9), 22),
+                                                 ("Alumni & On Hold", 2, (5, 6, 7), None)):
+        if sheet not in wb.sheetnames:
+            continue
+        for row in wb[sheet].iter_rows(min_row=first_row, values_only=True):
+            name = _cell(row[0] if row else None)
+            if not name:
+                continue
+            sups = [re.sub(r"\s*\(.*?\)", "", _cell(row[c])) for c in sup_cols if c < len(row) and _cell(row[c])]
+            if sups and not supervisors.get(name):
+                supervisors[name] = sups
+            if fund_col is not None and fund_col < len(row) and _cell(row[fund_col]) and name not in funding:
+                funding[name] = _cell(row[fund_col])
+    return funding, supervisors
+
+
+# Grant names and numbers, as written in acknowledgements: "VI.Vidi.192.109", "NGF.1623.23.025",
+# "OCENW.KLEIN.267", "024.003.037", "101040907", "ERC Consolidator Grant QPROGRESS".
+GRANT_IDS = [
+    re.compile(r"\b(?:[A-Z][A-Za-z]*\.)+[A-Za-z]*\.?\d+(?:\.\d+)+\b"),
+    re.compile(r"\b\d{3}\.\d{3}\.\d{3}\b"),
+    re.compile(r"(?:agreement|grant|project)\s*(?:No\.?|number|nr\.?)?\s*[:#]?\s*(\d{6,9})\b", re.I),
+    re.compile(r"ERC[A-Za-z\s-]{0,30}?Grant\s+[“\"(]?([A-Z][A-Za-z0-9-]*[A-Z][A-Za-z0-9-]*)\b"),
+    re.compile(r"ERC\s+(?:grant\s+)?[“\"(]?([A-Z][A-Z0-9-]{3,})\b"),
+    re.compile(r"(?:grant|project|programme|program)[^“\"]{0,40}[“\"]([^”\"]{4,70})[”\"]", re.I),
+]
+
+
+def grant_ids(statement):
+    found = []
+    for rx in GRANT_IDS:
+        for m in rx.finditer(statement):
+            g = re.sub(r"^(?:No|Nr)\.?\s*", "", (m.group(1) if m.groups() else m.group(0)).strip(" .,;()“”\""))
+            if g and g not in found and g.upper() not in ("ERC", "NWO", "EU", "QSC", "QDNL", "NO"):
+                found.append(g)
+    return found
+
+
+def mentions(statement, person, author_names):
+    """Does a statement mention this person (as author initials, or by name, e.g. "de Wolf's ERC grant")?"""
+    on_paper = next((a for a in author_names if people_match(a, person)), None)
+    pats = name_patterns(on_paper or person)
+    last = person.split()[-1] if " " in person else person
+    for w in person.split()[1:]:
+        if w[:1].islower():  # "de Wolf", "van de Wetering"
+            last = person[person.index(w):]
+            break
+    return any(p.search(statement) for p in pats) or re.search(r"(?<![A-Za-z])" + re.escape(last) + r"\b", statement)
 
 
 def spreadsheet_groups(text):
@@ -185,10 +233,12 @@ def main():
     people = load_people()
     juniors = {n: i for n, i in people.items() if i["role"] in JUNIOR}
     spans, source = membership(people)
-    sheet = spreadsheet_funding()
+    sheet, supervisors = spreadsheet()
 
     rows, _ = collect(people)
     named = defaultdict(Counter)       # person -> group -> papers naming them with that funder
+    grants = defaultdict(lambda: defaultdict(Counter))  # person -> group -> grant name/number -> papers
+    pi_named = defaultdict(lambda: defaultdict(Counter))  # person -> group -> supervisor named alongside
     paperwide = defaultdict(Counter)   # person -> group -> papers with an unnamed statement
     checked = Counter()                # person -> papers read
     evidence = []
@@ -222,6 +272,13 @@ def main():
                 for m in who:
                     if member_name[m] in subjects:
                         named_here[m].update(gs)
+                        ids = grant_ids(s)
+                        sups = [p for p in supervisors.get(m, []) if mentions(s, p, r["authors"])]
+                        for g in gs:
+                            # With several funders in one statement, a grant id can't be tied to one of them.
+                            if len(gs) == 1:
+                                grants[m][g].update(set(ids))
+                            pi_named[m][g].update(set(sups))
                         evidence.append([m, r["date"].isoformat(), f"https://arxiv.org/abs/{r['id']}", "; ".join(gs),
                                          "names them", s[:600]])
             else:
@@ -236,6 +293,7 @@ def main():
     # Per person: the spreadsheet where filled in, otherwise statements that name them,
     # otherwise the funder in most of their papers' unnamed statements (weak).
     per_person, by_group = [], defaultdict(lambda: {"PhD student": [], "Postdoc": []})
+    pi_rows = []
     agree = disagree = 0
     for n, info in sorted(juniors.items()):
         role = JUNIOR[info["role"]]
@@ -261,9 +319,55 @@ def main():
             used, basis = ["Unknown"], "no information" if not papers else "papers say nothing usable"
         for g in used:
             by_group[g][role].append(n)
-        per_person.append([n, role, "alumni" if is_alumnus(info) else "current",
+        sups = supervisors.get(n, [])
+        per_person.append([n, role, ", ".join(sups), "alumni" if is_alumnus(info) else "current",
                            start.isoformat() if start else "", end.isoformat() if end else "",
                            sheet.get(n, ""), fmt(strong), fmt(weak), papers, "; ".join(used), basis])
+
+        # Whose project: a supervisor named with the grant, or named in the spreadsheet's
+        # funding text ("Florian's startup package"), otherwise the first supervisor.
+        for g in used:
+            named_pis = pi_named[n][g].most_common()
+            text = sheet.get(n, "")
+            in_text = [p for p in sups if re.search(r"\b(?:%s)\b" % "|".join(map(re.escape, p.split()[::max(1, len(p.split()) - 1)])), text)]
+            if in_text and basis == "spreadsheet":
+                pi, why = in_text[0], "named in the spreadsheet"
+            elif named_pis:
+                pi, why = named_pis[0][0], "named with the grant in a paper"
+            elif in_text:
+                pi, why = in_text[0], "named in the spreadsheet"
+            elif sups:
+                pi, why = sups[0], "first supervisor"
+            else:
+                pi, why = "(no supervisor in spreadsheet)", ""
+            if basis == "spreadsheet":
+                # "ERC, CAT-2": give each part to its own funding source.
+                parts = [x.strip() for x in re.split(r"[,;]", text) if x.strip()]
+                project = ", ".join(x for x in parts if g in spreadsheet_groups(x)) if len(used) > 1 else text
+            else:
+                ids = [k for k, _ in grants[n][g].most_common(3)]
+                project = ", ".join(ids)
+            pi_rows.append([pi, g.split(" (")[0], project, n, role,
+                            start.isoformat() if start else "", end.isoformat() if end else "",
+                            ", ".join(x for x in sups if x != pi), basis, why])
+    pi_rows.sort(key=lambda r: (r[0].startswith("("), r[0], r[1], r[5] or "9999", r[3]))
+
+    # One line per PI and funding source.
+    summary = defaultdict(lambda: {"PhD student": [], "Postdoc": [], "projects": Counter(), "from": [], "to": []})
+    for pi, g, project, n, role, frm, to, *_ in pi_rows:
+        e = summary[(pi, g)]
+        e[role].append(n)
+        if project and basis_of(project):
+            for item in re.split(r";\s*|,\s+", project):
+                if item and item.upper() not in (g.split(" ")[0].upper(),):
+                    e["projects"][item] += 1
+        if frm:
+            e["from"].append(frm)
+        e["to"].append(to or "now")
+    pi_summary = [[pi, g, ", ".join(p for p, _ in e["projects"].most_common()), len(e["PhD student"]), len(e["Postdoc"]),
+                   min(e["from"])[:4] if e["from"] else "", "now" if "now" in e["to"] else max(e["to"])[:4],
+                   ", ".join(e["PhD student"]), ", ".join(e["Postdoc"])]
+                  for (pi, g), e in summary.items()]
 
     order = [g for g, _ in GROUPS] + ["Other", "Unknown"]
     per_group = []
@@ -279,10 +383,20 @@ def main():
             f"written while at QuSoft. Someone funded from two sources counts in both. Generated {date.today()}.")
     _sheet(wb, "Per source", ["Funding source", "PhD students", "Postdocs", "PhD students (names)", "Postdocs (names)"],
            per_group, [48, 13, 10, 80, 80], note)
-    _sheet(wb, "Per person", ["Name", "Role", "Now", "Start", "End", "Spreadsheet says",
+    _sheet(wb, "PI projects", ["PI", "Funding source", "Project or grant", "PhD students", "Postdocs", "From", "To",
+                               "PhD students (names)", "Postdocs (names)"],
+           pi_summary, [24, 30, 48, 13, 10, 8, 8, 60, 60],
+           "Per PI and funding source: the PhD students and postdocs it paid for, and when. The PI is a supervisor named "
+           "with the grant in a paper or in the spreadsheet, otherwise the first supervisor; see 'PI projects, people'.")
+    _sheet(wb, "PI projects, people", ["PI", "Funding source", "Project or grant", "Person", "Role", "Start", "End",
+                                       "Other supervisors", "Funding based on", "Why this PI"],
+           pi_rows, [24, 30, 48, 24, 12, 11, 11, 34, 26, 30],
+           "One line per person and funding source. Grant names and numbers come from the spreadsheet, "
+           "or from acknowledgements that name the person.")
+    _sheet(wb, "Per person", ["Name", "Role", "Supervisors", "Now", "Start", "End", "Spreadsheet says",
                               "Papers name them with (papers)", "Papers, not naming anyone (papers)", "Papers read",
                               "Funding source used", "Based on"],
-           per_person, [24, 12, 9, 11, 11, 34, 44, 50, 8, 44, 26],
+           per_person, [24, 12, 34, 9, 11, 11, 34, 44, 50, 8, 44, 26],
            f"Membership dates: {source}. 'Papers name them' is the strongest evidence from the papers; "
            "the column after it lists funders thanked for the whole paper, which may belong to a co-author or the supervisor.")
     _sheet(wb, "Acknowledgements", ["Person", "Date", "Paper", "Funding groups", "Statement", "Text"],
@@ -297,6 +411,10 @@ def main():
     print(f"  spreadsheet vs. papers naming them: {agree} agree, {disagree} disagree")
     for g, phd, pd, *_ in per_group:
         print(f"  {phd:3d} PhD, {pd:3d} postdocs  {g}")
+
+
+def basis_of(project):
+    return bool(project.strip())
 
 
 _match_cache = {}
