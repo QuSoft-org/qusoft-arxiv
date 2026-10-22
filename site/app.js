@@ -96,6 +96,7 @@
   };
   const subject = (cats) => SUBJECTS[cats[0]] || cats[0] || "";
 
+  const SOURCE = { arxiv: "arXiv", eccc: "ECCC", eprint: "IACR ePrint", ssrn: "SSRN", chemrxiv: "ChemRxiv" };
   const ROLE = { "PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher", "Support Team": "support team", "Visitor": "visitor" };
 
   // ---------- data ----------
@@ -180,7 +181,7 @@
       el("p", { class: "meta" },
         isNew ? el("span", { class: "new" }, "Added this week") : null,
         el("span", {}, [formatDate(p.date), subject(p.categories)].filter(Boolean).join(", ")),
-        el("a", { href: p.link }, "arXiv"),
+        el("a", { href: p.link }, SOURCE[p.source] || "arXiv"),
         p.page ? el("a", { href: `firstpages/${p.id}.pdf` }, "First page") : null,
         p.abstract ? toggle : null),
       abstract);

@@ -45,6 +45,7 @@ def build(papers, people):
         site_papers.append({
             "id": p["id"],
             "link": p["link"],
+            "source": p.get("source", "arxiv"),
             "title": p["title"],
             "authors": [[a["name"], a["person"]] for a in p["authors"]],
             "date": p["submitted"][:10],

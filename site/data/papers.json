@@ -2,6 +2,7 @@
  {
   "id": "2610.29762v1",
   "link": "https://arxiv.org/abs/2610.29762",
+  "source": "arxiv",
   "title": "Encoding a bosonic mode into qubits for simulating boson-matter interactions",
   "authors": [
    [
@@ -32,6 +33,7 @@
  {
   "id": "2610.28185v1",
   "link": "https://arxiv.org/abs/2610.28185",
+  "source": "arxiv",
   "title": "Black Holes are about Quantum Information",
   "authors": [
    [
@@ -56,6 +58,7 @@
  {
   "id": "2610.20855v1",
   "link": "https://arxiv.org/abs/2610.20855",
+  "source": "arxiv",
   "title": "Perfect and peak state transfer on IBM quantum hardware",
   "authors": [
    [
@@ -79,6 +82,7 @@
  {
   "id": "2610.17078v1",
   "link": "https://arxiv.org/abs/2610.17078",
+  "source": "arxiv",
   "title": "Sustainable trees",
   "authors": [
    [
@@ -105,6 +109,7 @@
  {
   "id": "2610.11540v1",
   "link": "https://arxiv.org/abs/2610.11540",
+  "source": "arxiv",
   "title": "Quickly extracting fidelity decay rates in random circuit benchmarking experiments",
   "authors": [
    [
@@ -155,6 +160,7 @@
  {
   "id": "2610.06794v1",
   "link": "https://arxiv.org/abs/2610.06794",
+  "source": "arxiv",
   "title": "Testing bosonic and fermionic Gaussian states with a constant number of copies",
   "authors": [
    [
@@ -185,6 +191,7 @@
  {
   "id": "2610.06723v1",
   "link": "https://arxiv.org/abs/2610.06723",
+  "source": "arxiv",
   "title": "Approximate cloning of structured pure states",
   "authors": [
    [
@@ -216,6 +223,7 @@
  {
   "id": "2610.03714v1",
   "link": "https://arxiv.org/abs/2610.03714",
+  "source": "arxiv",
   "title": "SpiderCSS: Scalable Fault-Tolerant CSS State Preparation",
   "authors": [
    [
@@ -254,6 +262,7 @@
  {
   "id": "2610.01979v1",
   "link": "https://arxiv.org/abs/2610.01979",
+  "source": "arxiv",
   "title": "Fully tolerant product state testing and closest product state learning",
   "authors": [
    [
@@ -280,6 +289,7 @@
  {
   "id": "2609.40331v2",
   "link": "https://arxiv.org/abs/2609.40331",
+  "source": "arxiv",
   "title": "Fast Quantum Algorithms for Learning Linear Threshold Functions",
   "authors": [
    [
@@ -306,6 +316,7 @@
  {
   "id": "2609.40231v1",
   "link": "https://arxiv.org/abs/2609.40231",
+  "source": "arxiv",
   "title": "A Quantum Algorithm for $st$-Transport on Flat Connection Graphs",
   "authors": [
    [
@@ -332,6 +343,7 @@
  {
   "id": "2609.40228v1",
   "link": "https://arxiv.org/abs/2609.40228",
+  "source": "arxiv",
   "title": "Perfect non-local quantum computation is impossible",
   "authors": [
    [
@@ -362,6 +374,7 @@
  {
   "id": "2609.40144v1",
   "link": "https://arxiv.org/abs/2609.40144",
+  "source": "arxiv",
   "title": "Fast Cliffords When Your Quantum Memory Is Full",
   "authors": [
    [
@@ -392,6 +405,7 @@
  {
   "id": "2609.40106v2",
   "link": "https://arxiv.org/abs/2609.40106",
+  "source": "arxiv",
   "title": "A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions",
   "authors": [
    [
@@ -426,6 +440,7 @@
  {
   "id": "2609.40080v1",
   "link": "https://arxiv.org/abs/2609.40080",
+  "source": "arxiv",
   "title": "Universal Entanglement Distillation",
   "authors": [
    [
@@ -457,6 +472,7 @@
  {
   "id": "2609.39980v1",
   "link": "https://arxiv.org/abs/2609.39980",
+  "source": "arxiv",
   "title": "Logical information localisation in stabiliser codes via single-qubit measurements",
   "authors": [
    [
@@ -483,6 +499,7 @@
  {
   "id": "2609.39452v1",
   "link": "https://arxiv.org/abs/2609.39452",
+  "source": "arxiv",
   "title": "From Wavefunction Regularity to Eigenvector Conditioning: Accuracy--Cost Trade-offs of Quantum Algorithms for Non-Hermitian Transcorrelated Hamiltonians",
   "authors": [
    [
@@ -522,6 +539,7 @@
  {
   "id": "2609.39280v1",
   "link": "https://arxiv.org/abs/2609.39280",
+  "source": "arxiv",
   "title": "Optimal learning of covariant quantum states and channels",
   "authors": [
    [
@@ -552,6 +570,7 @@
  {
   "id": "2609.38091v2",
   "link": "https://arxiv.org/abs/2609.38091",
+  "source": "arxiv",
   "title": "Optimal Ground-State Preparation with a Guiding State",
   "authors": [
    [
@@ -582,6 +601,7 @@
  {
   "id": "2609.28694v1",
   "link": "https://arxiv.org/abs/2609.28694",
+  "source": "arxiv",
   "title": "Mediating gates between polar molecules using microwave-dressed Rydberg atoms",
   "authors": [
    [
@@ -616,6 +636,7 @@
  {
   "id": "2609.28138v1",
   "link": "https://arxiv.org/abs/2609.28138",
+  "source": "arxiv",
   "title": "Sub-Doppler cooling of trapped ions using optical tweezers",
   "authors": [
    [
@@ -655,6 +676,7 @@
  {
   "id": "2608.28573v2",
   "link": "https://arxiv.org/abs/2608.28573",
+  "source": "arxiv",
   "title": "Quantum Fourier transform toolbox",
   "authors": [
    [
@@ -690,6 +712,7 @@
  {
   "id": "2608.28569v2",
   "link": "https://arxiv.org/abs/2608.28569",
+  "source": "arxiv",
   "title": "Quantum Fourier transform for the symmetric group",
   "authors": [
    [
@@ -717,6 +740,7 @@
  {
   "id": "2608.27298v1",
   "link": "https://arxiv.org/abs/2608.27298",
+  "source": "arxiv",
   "title": "Optimal cloning of mixed states",
   "authors": [
    [
@@ -747,6 +771,7 @@
  {
   "id": "2608.26282v1",
   "link": "https://arxiv.org/abs/2608.26282",
+  "source": "arxiv",
   "title": "Holography as an Information Principle in Quantum Gravity",
   "authors": [
    [
@@ -775,6 +800,7 @@
  {
   "id": "2608.24494v1",
   "link": "https://arxiv.org/abs/2608.24494",
+  "source": "arxiv",
   "title": "Optimal Quantum Algorithm for Ground-State Energy Estimation with a Guiding State",
   "authors": [
    [
@@ -799,6 +825,7 @@
  {
   "id": "2608.24493v2",
   "link": "https://arxiv.org/abs/2608.24493",
+  "source": "arxiv",
   "title": "Optimal Lower Bound for Ground-State Energy Estimation with a Guiding State",
   "authors": [
    [
@@ -823,6 +850,7 @@
  {
   "id": "2608.24370v1",
   "link": "https://arxiv.org/abs/2608.24370",
+  "source": "arxiv",
   "title": "ABSTRACTS: Amsterdam Benchmark Suite for the Time and Resource Analysis of Clifford+T Simulators",
   "authors": [
    [
@@ -846,6 +874,7 @@
  {
   "id": "2608.20476v1",
   "link": "https://arxiv.org/abs/2608.20476",
+  "source": "arxiv",
   "title": "Perfect state transfer and Cayley presentations",
   "authors": [
    [
@@ -869,6 +898,7 @@
  {
   "id": "2608.18743v1",
   "link": "https://arxiv.org/abs/2608.18743",
+  "source": "arxiv",
   "title": "Technical Proposal for the Atom Interferometer CERN Experiment (AICE) Facility",
   "authors": [
    [
@@ -1216,6 +1246,7 @@
  {
   "id": "2608.18650v1",
   "link": "https://arxiv.org/abs/2608.18650",
+  "source": "arxiv",
   "title": "(Almost) quadruply optimal unitary designs in 1D",
   "authors": [
    [
@@ -1238,6 +1269,7 @@
  {
   "id": "2607.28873v1",
   "link": "https://arxiv.org/abs/2607.28873",
+  "source": "arxiv",
   "title": "Collimation of dense atomic beams by Swept Velocity Shelving",
   "authors": [
    [
@@ -1280,6 +1312,7 @@
  {
   "id": "2607.27957v1",
   "link": "https://arxiv.org/abs/2607.27957",
+  "source": "arxiv",
   "title": "Exponential Advantage of Multipartite Entanglement over Quantum Communication with Applications to Bounded-Storage Cryptography",
   "authors": [
    [
@@ -1306,6 +1339,7 @@
  {
   "id": "2607.24712v2",
   "link": "https://arxiv.org/abs/2607.24712",
+  "source": "arxiv",
   "title": "Sample complexity of quantum resource testing via one-shot quantum blurring",
   "authors": [
    [
@@ -1330,6 +1364,7 @@
  {
   "id": "2607.15358v1",
   "link": "https://arxiv.org/abs/2607.15358",
+  "source": "arxiv",
   "title": "Spectral amplification for ground-state energy estimation of electronic structure in first quantization",
   "authors": [
    [
@@ -1381,6 +1416,7 @@
  {
   "id": "2607.11847v1",
   "link": "https://arxiv.org/abs/2607.11847",
+  "source": "arxiv",
   "title": "Optimal tomography of bosonic and fermionic Gaussian states",
   "authors": [
    [
@@ -1425,6 +1461,7 @@
  {
   "id": "2607.11483v1",
   "link": "https://arxiv.org/abs/2607.11483",
+  "source": "arxiv",
   "title": "Strong Zero Modes in Supersymmetry-Inspired Quantum Circuits",
   "authors": [
    [
@@ -1455,6 +1492,7 @@
  {
   "id": "2607.11217v2",
   "link": "https://arxiv.org/abs/2607.11217",
+  "source": "arxiv",
   "title": "Quantum Multiscale Modeling: A Hierarchy of Algorithms for Complex Chemical Systems",
   "authors": [
    [
@@ -1486,6 +1524,7 @@
  {
   "id": "2606.26354v2",
   "link": "https://arxiv.org/abs/2606.26354",
+  "source": "arxiv",
   "title": "Equivalence of non-local computation tasks beyond Clifford operations",
   "authors": [
    [
@@ -1520,6 +1559,7 @@
  {
   "id": "2606.25037v2",
   "link": "https://arxiv.org/abs/2606.25037",
+  "source": "arxiv",
   "title": "Arbitrarily Loss-Tolerant Quantum Position Verification in a Single Execution",
   "authors": [
    [
@@ -1546,6 +1586,7 @@
  {
   "id": "2605.26983v1",
   "link": "https://arxiv.org/abs/2605.26983",
+  "source": "arxiv",
   "title": "On Clifford hierarchy testing and near-extremizers of noncommutative uniformity norms",
   "authors": [
    [
@@ -1584,6 +1625,7 @@
  {
   "id": "2605.16494v1",
   "link": "https://arxiv.org/abs/2605.16494",
+  "source": "arxiv",
   "title": "Universal dynamics from a single-particle dark state",
   "authors": [
    [
@@ -1616,6 +1658,7 @@
  {
   "id": "2605.07518v1",
   "link": "https://arxiv.org/abs/2605.07518",
+  "source": "arxiv",
   "title": "Loop Composition in Quantum Algorithms",
   "authors": [
    [
@@ -1643,6 +1686,7 @@
  {
   "id": "2605.03023v1",
   "link": "https://arxiv.org/abs/2605.03023",
+  "source": "arxiv",
   "title": "Arts & crafts: Strong random unitaries and geometric locality",
   "authors": [
    [
@@ -1673,6 +1717,7 @@
  {
   "id": "2605.00485v1",
   "link": "https://arxiv.org/abs/2605.00485",
+  "source": "arxiv",
   "title": "Entropy from Entanglement in Quantum State Reduction",
   "authors": [
    [
@@ -1695,6 +1740,7 @@
  {
   "id": "2604.01429v2",
   "link": "https://arxiv.org/abs/2604.01429",
+  "source": "arxiv",
   "title": "Classical shadows with arbitrary group representations",
   "authors": [
    [
@@ -1745,6 +1791,7 @@
  {
   "id": "2603.29809v1",
   "link": "https://arxiv.org/abs/2603.29809",
+  "source": "arxiv",
   "title": "Certifying and learning local quantum Hamiltonians",
   "authors": [
    [
@@ -1789,6 +1836,7 @@
  {
   "id": "2603.23628v3",
   "link": "https://arxiv.org/abs/2603.23628",
+  "source": "arxiv",
   "title": "Optimal physical approximations of pure-state cloning and transposition are complementary channels",
   "authors": [
    [
@@ -1819,6 +1867,7 @@
  {
   "id": "2603.21873v2",
   "link": "https://arxiv.org/abs/2603.21873",
+  "source": "arxiv",
   "title": "Accurate ground state energy estimation with noise and imperfect state preparation",
   "authors": [
    [
@@ -1845,6 +1894,7 @@
  {
   "id": "2603.10981v1",
   "link": "https://arxiv.org/abs/2603.10981",
+  "source": "arxiv",
   "title": "Permutation-invariant codes: a numerical study and qudit constructions",
   "authors": [
    [
@@ -1880,6 +1930,7 @@
  {
   "id": "2603.09580v1",
   "link": "https://arxiv.org/abs/2603.09580",
+  "source": "arxiv",
   "title": "ZX-Flow: A Flexible Criterion for Deterministic Computation with ZX-Diagrams",
   "authors": [
    [
@@ -1902,6 +1953,7 @@
  {
   "id": "2603.05391v1",
   "link": "https://arxiv.org/abs/2603.05391",
+  "source": "arxiv",
   "title": "SpiderCat: Optimal Fault-Tolerant Cat State Preparation",
   "authors": [
    [
@@ -1940,6 +1992,7 @@
  {
   "id": "2602.20900v1",
   "link": "https://arxiv.org/abs/2602.20900",
+  "source": "arxiv",
   "title": "Error correction with brickwork Clifford circuits",
   "authors": [
    [
@@ -1962,6 +2015,7 @@
  {
   "id": "2602.13099v3",
   "link": "https://arxiv.org/abs/2602.13099",
+  "source": "arxiv",
   "title": "Stronger Welch Bounds and Optimal Approximate $k$-Designs",
   "authors": [
    [
@@ -1997,6 +2051,7 @@
  {
   "id": "2602.08441v1",
   "link": "https://arxiv.org/abs/2602.08441",
+  "source": "arxiv",
   "title": "Plethysm is in #BQP",
   "authors": [
    [
@@ -2034,6 +2089,7 @@
  {
   "id": "2602.06114v3",
   "link": "https://arxiv.org/abs/2602.06114",
+  "source": "arxiv",
   "title": "Quantum simulation of the Dicke model in a two-dimensional ion crystal",
   "authors": [
    [
@@ -2085,6 +2141,7 @@
  {
   "id": "2601.22981v1",
   "link": "https://arxiv.org/abs/2601.22981",
+  "source": "arxiv",
   "title": "Direct observation of the optical Magnus effect with a trapped ion",
   "authors": [
    [
@@ -2140,6 +2197,7 @@
  {
   "id": "2601.21863v1",
   "link": "https://arxiv.org/abs/2601.21863",
+  "source": "arxiv",
   "title": "A Bravyi-König theorem for Floquet codes generated by locally conjugate instantaneous stabiliser groups",
   "authors": [
    [
@@ -2162,6 +2220,7 @@
  {
   "id": "2601.21553v2",
   "link": "https://arxiv.org/abs/2601.21553",
+  "source": "arxiv",
   "title": "Strassen's support functionals coincide with the quantum functionals",
   "authors": [
    [
@@ -2190,6 +2249,7 @@
  {
   "id": "2601.16564v3",
   "link": "https://arxiv.org/abs/2601.16564",
+  "source": "arxiv",
   "title": "A Robust Strontium Tweezer Apparatus for Quantum Computing",
   "authors": [
    [
@@ -2261,6 +2321,7 @@
  {
   "id": "2602.00069v1",
   "link": "https://arxiv.org/abs/2602.00069",
+  "source": "arxiv",
   "title": "Integrity from Algebraic Manipulation Detection in Trusted-Repeater QKD Networks",
   "authors": [
    [
@@ -2288,6 +2349,7 @@
  {
   "id": "2512.17780v1",
   "link": "https://arxiv.org/abs/2512.17780",
+  "source": "arxiv",
   "title": "Adiabatic preparation of many-body quantum states: getting the beginning and ending right",
   "authors": [
    [
@@ -2318,6 +2380,7 @@
  {
   "id": "2512.16974v1",
   "link": "https://arxiv.org/abs/2512.16974",
+  "source": "arxiv",
   "title": "Irrelevant carrots and non-existent sticks: trust, governance, and security in the transition to quantum-safe systems",
   "authors": [
    [
@@ -2350,6 +2413,7 @@
  {
   "id": "2512.15690v2",
   "link": "https://arxiv.org/abs/2512.15690",
+  "source": "arxiv",
   "title": "A random purification channel for arbitrary symmetries with applications to fermions and bosons",
   "authors": [
    [
@@ -2373,6 +2437,7 @@
  {
   "id": "2512.14611v1",
   "link": "https://arxiv.org/abs/2512.14611",
+  "source": "arxiv",
   "title": "Engineering Zeeman-manifold quintets using state-dependent light shifts in neutral atoms",
   "authors": [
    [
@@ -2416,6 +2481,7 @@
  {
   "id": "2511.13822v1",
   "link": "https://arxiv.org/abs/2511.13822",
+  "source": "arxiv",
   "title": "Detection of many-body entanglement partitions in a quantum computer",
   "authors": [
    [
@@ -2446,6 +2512,7 @@
  {
   "id": "2511.11008v1",
   "link": "https://arxiv.org/abs/2511.11008",
+  "source": "arxiv",
   "title": "Unconditional and exponentially large violation of classicality",
   "authors": [
    [
@@ -2480,6 +2547,7 @@
  {
   "id": "2511.05372v1",
   "link": "https://arxiv.org/abs/2511.05372",
+  "source": "arxiv",
   "title": "Adaptive quantum phase estimation can be better than non-adaptive",
   "authors": [
    [
@@ -2502,6 +2570,7 @@
  {
   "id": "2510.25870v1",
   "link": "https://arxiv.org/abs/2510.25870",
+  "source": "arxiv",
   "title": "Optimal Displacement Sensing with Spin-Dependent Squeezed States",
   "authors": [
    [
@@ -2536,6 +2605,7 @@
  {
   "id": "2510.23719v2",
   "link": "https://arxiv.org/abs/2510.23719",
+  "source": "arxiv",
   "title": "Anti-concentration is (almost) all you need",
   "authors": [
    [
@@ -2566,6 +2636,7 @@
  {
   "id": "2510.18164v1",
   "link": "https://arxiv.org/abs/2510.18164",
+  "source": "arxiv",
   "title": "A Simpler Exponential-Time Approximation Algorithm for MAX-k-SAT",
   "authors": [
    [
@@ -2605,6 +2676,7 @@
  {
   "id": "2510.10540v1",
   "link": "https://arxiv.org/abs/2510.10540",
+  "source": "arxiv",
   "title": "Predicting Module-Lattice Reduction",
   "authors": [
    [
@@ -2631,6 +2703,7 @@
  {
   "id": "2510.08518v1",
   "link": "https://arxiv.org/abs/2510.08518",
+  "source": "arxiv",
   "title": "Randomized truncation of quantum states",
   "authors": [
    [
@@ -2657,6 +2730,7 @@
  {
   "id": "2510.08473v2",
   "link": "https://arxiv.org/abs/2510.08473",
+  "source": "arxiv",
   "title": "An Improved Quantum Algorithm for 3-Tuple Lattice Sieving",
   "authors": [
    [
@@ -2696,6 +2770,7 @@
  {
   "id": "2510.08403v1",
   "link": "https://arxiv.org/abs/2510.08403",
+  "source": "arxiv",
   "title": "A Quantum Time-Space Tradeoff for Directed $st$-Connectivity",
   "authors": [
    [
@@ -2718,6 +2793,7 @@
  {
   "id": "2510.08336v1",
   "link": "https://arxiv.org/abs/2510.08336",
+  "source": "arxiv",
   "title": "Computing moment polytopes -- with a focus on tensors, entanglement and matrix multiplication",
   "authors": [
    [
@@ -2760,6 +2836,7 @@
  {
   "id": "2510.07305v1",
   "link": "https://arxiv.org/abs/2510.07305",
+  "source": "arxiv",
   "title": "Is it Gaussian? Testing bosonic quantum states",
   "authors": [
    [
@@ -2803,6 +2880,7 @@
  {
   "id": "2510.07164v1",
   "link": "https://arxiv.org/abs/2510.07164",
+  "source": "arxiv",
   "title": "Clifford testing: algorithms and lower bounds",
   "authors": [
    [
@@ -2843,6 +2921,7 @@
  {
   "id": "2510.07162v1",
   "link": "https://arxiv.org/abs/2510.07162",
+  "source": "arxiv",
   "title": "MIPco=coRE",
   "authors": [
    [
@@ -2863,6 +2942,7 @@
  {
   "id": "2510.07100v1",
   "link": "https://arxiv.org/abs/2510.07100",
+  "source": "arxiv",
   "title": "Sequential quantum processes with group symmetries",
   "authors": [
    [
@@ -2893,6 +2973,7 @@
  {
   "id": "2510.05393v2",
   "link": "https://arxiv.org/abs/2510.05393",
+  "source": "arxiv",
   "title": "On Limits on the Provable Consequences of Quantum Pseudorandomness",
   "authors": [
    [
@@ -2924,6 +3005,7 @@
  {
   "id": "2510.05089v1",
   "link": "https://arxiv.org/abs/2510.05089",
+  "source": "arxiv",
   "title": "QuantumBoost: A lazy, yet fast, quantum algorithm for learning with weak hypotheses",
   "authors": [
    [
@@ -2954,6 +3036,7 @@
  {
   "id": "2510.03538v1",
   "link": "https://arxiv.org/abs/2510.03538",
+  "source": "arxiv",
   "title": "Optimising quantum data hiding",
   "authors": [
    [
@@ -2976,6 +3059,7 @@
  {
   "id": "2510.02122v1",
   "link": "https://arxiv.org/abs/2510.02122",
+  "source": "arxiv",
   "title": "Optimizing fermionic Hamiltonians with classical interactions",
   "authors": [
    [
@@ -3002,6 +3086,7 @@
  {
   "id": "2510.00791v1",
   "link": "https://arxiv.org/abs/2510.00791",
+  "source": "arxiv",
   "title": "Computational Monogamy of Entanglement and Non-Interactive Quantum Key Distribution",
   "authors": [
    [
@@ -3034,6 +3119,7 @@
  {
   "id": "2509.26623v1",
   "link": "https://arxiv.org/abs/2509.26623",
+  "source": "arxiv",
   "title": "Quantum Simulation of Random Unitaries from Clebsch-Gordan Transforms",
   "authors": [
    [
@@ -3056,6 +3142,7 @@
  {
   "id": "2509.22640v1",
   "link": "https://arxiv.org/abs/2509.22640",
+  "source": "arxiv",
   "title": "High-dimensional quantum Schur transforms",
   "authors": [
    [
@@ -3101,6 +3188,7 @@
  {
   "id": "2509.21131v2",
   "link": "https://arxiv.org/abs/2509.21131",
+  "source": "arxiv",
   "title": "Limits to black-box amplification in QMA",
   "authors": [
    [
@@ -3127,6 +3215,7 @@
  {
   "id": "2509.19963v2",
   "link": "https://arxiv.org/abs/2509.19963",
+  "source": "arxiv",
   "title": "Computational complexity of injective projected entangled pair states",
   "authors": [
    [
@@ -3153,6 +3242,7 @@
  {
   "id": "2509.19815v1",
   "link": "https://arxiv.org/abs/2509.19815",
+  "source": "arxiv",
   "title": "Current and Future Directions for Responsible Quantum Technologies: A ResQT Community Perspective",
   "authors": [
    [
@@ -3268,6 +3358,7 @@
  {
   "id": "2509.12478v1",
   "link": "https://arxiv.org/abs/2509.12478",
+  "source": "arxiv",
   "title": "QKD Oracles for Authenticated Key Exchange",
   "authors": [
    [
@@ -3299,6 +3390,7 @@
  {
   "id": "2509.09813v1",
   "link": "https://arxiv.org/abs/2509.09813",
+  "source": "arxiv",
   "title": "Nearly optimal algorithms to learn sparse quantum Hamiltonians in physically motivated distances",
   "authors": [
    [
@@ -3339,6 +3431,7 @@
  {
   "id": "2509.07890v1",
   "link": "https://arxiv.org/abs/2509.07890",
+  "source": "arxiv",
   "title": "Quantum Walks for Chemical Reaction Networks",
   "authors": [
    [
@@ -3378,6 +3471,7 @@
  {
   "id": "2509.07876v1",
   "link": "https://arxiv.org/abs/2509.07876",
+  "source": "arxiv",
   "title": "The Compressed Oracle is a Worthy (Multiplicative) Adversary",
   "authors": [
    [
@@ -3400,6 +3494,7 @@
  {
   "id": "2509.07736v1",
   "link": "https://arxiv.org/abs/2509.07736",
+  "source": "arxiv",
   "title": "Continuous cloud position spectroscopy using a magneto-optical trap",
   "authors": [
    [
@@ -3443,6 +3538,7 @@
  {
   "id": "2509.03514v1",
   "link": "https://arxiv.org/abs/2509.03514",
+  "source": "arxiv",
   "title": "Control of single spin-flips in a Rydberg atomic fractal",
   "authors": [
    [
@@ -3495,6 +3591,7 @@
  {
   "id": "2508.17306v4",
   "link": "https://arxiv.org/abs/2508.17306",
+  "source": "arxiv",
   "title": "Efficient Non-Adaptive Quantum Algorithms for Tolerant Junta Testing",
   "authors": [
    [
@@ -3529,6 +3626,7 @@
  {
   "id": "2507.23617v1",
   "link": "https://arxiv.org/abs/2507.23617",
+  "source": "arxiv",
   "title": "Quasi-continuous sub-$μ$K strontium source without a high-finesse cavity stabilized laser",
   "authors": [
    [
@@ -3588,6 +3686,7 @@
  {
   "id": "2507.19440v1",
   "link": "https://arxiv.org/abs/2507.19440",
+  "source": "arxiv",
   "title": "Hidden shift problem for complex functions",
   "authors": [
    [
@@ -3618,6 +3717,7 @@
  {
   "id": "2507.10856v1",
   "link": "https://arxiv.org/abs/2507.10856",
+  "source": "arxiv",
   "title": "Higher spin Richardson-Gaudin model with time-dependent coupling: Exact dynamics",
   "authors": [
    [
@@ -3656,6 +3756,7 @@
  {
   "id": "2506.23925v3",
   "link": "https://arxiv.org/abs/2506.23925",
+  "source": "arxiv",
   "title": "Will it glue? On short-depth designs beyond the unitary group",
   "authors": [
    [
@@ -3698,6 +3799,7 @@
  {
   "id": "2506.20587v1",
   "link": "https://arxiv.org/abs/2506.20587",
+  "source": "arxiv",
   "title": "How to use quantum computers for biomolecular free energies",
   "authors": [
    [
@@ -3800,6 +3902,7 @@
  {
   "id": "2506.16324v1",
   "link": "https://arxiv.org/abs/2506.16324",
+  "source": "arxiv",
   "title": "Quantum Catalytic Space",
   "authors": [
    [
@@ -3842,6 +3945,7 @@
  {
   "id": "2506.15804v1",
   "link": "https://arxiv.org/abs/2506.15804",
+  "source": "arxiv",
   "title": "Ultracold collisions of a neutral atom with a trapped ion in 1D",
   "authors": [
    [
@@ -3876,6 +3980,7 @@
  {
   "id": "2506.15551v1",
   "link": "https://arxiv.org/abs/2506.15551",
+  "source": "arxiv",
   "title": "${\\sf QMA}={\\sf QMA}_1$ with an infinite counter",
   "authors": [
    [
@@ -3898,6 +4003,7 @@
  {
   "id": "2506.14546v2",
   "link": "https://arxiv.org/abs/2506.14546",
+  "source": "arxiv",
   "title": "Multilevel Electromagnetically Induced Transparency Cooling",
   "authors": [
    [
@@ -3929,6 +4035,7 @@
  {
   "id": "2506.07103v1",
   "link": "https://arxiv.org/abs/2506.07103",
+  "source": "arxiv",
   "title": "Experimental Efficient Influence Sampling of Quantum Processes",
   "authors": [
    [
@@ -3971,6 +4078,7 @@
  {
   "id": "2506.02579v2",
   "link": "https://arxiv.org/abs/2506.02579",
+  "source": "arxiv",
   "title": "Confinement-induced resonances for the creation of quasi-one-dimensional ultra cold gases of alkali--alkaline-earth dimers",
   "authors": [
    [
@@ -4013,6 +4121,7 @@
  {
   "id": "2506.01903v1",
   "link": "https://arxiv.org/abs/2506.01903",
+  "source": "arxiv",
   "title": "Getting almost all the bits from a quantum random access code",
   "authors": [
    [
@@ -4036,6 +4145,7 @@
  {
   "id": "2506.00292v1",
   "link": "https://arxiv.org/abs/2506.00292",
+  "source": "arxiv",
   "title": "Minimizing the number of edges in LC-equivalent graph states",
   "authors": [
    [
@@ -4070,6 +4180,7 @@
  {
   "id": "2505.21442v2",
   "link": "https://arxiv.org/abs/2505.21442",
+  "source": "arxiv",
   "title": "Cryptography from Lossy Reductions: Towards OWFs from ETH, and Beyond",
   "authors": [
    [
@@ -4101,6 +4212,7 @@
  {
   "id": "2505.20117v1",
   "link": "https://arxiv.org/abs/2505.20117",
+  "source": "arxiv",
   "title": "Governing fields for hyperelliptic function fields",
   "authors": [
    [
@@ -4119,6 +4231,7 @@
  {
   "id": "2505.13134v1",
   "link": "https://arxiv.org/abs/2505.13134",
+  "source": "arxiv",
   "title": "A near-optimal Quadratic Goldreich-Levin algorithm",
   "authors": [
    [
@@ -4142,6 +4255,7 @@
  {
   "id": "2505.11986v2",
   "link": "https://arxiv.org/abs/2505.11986",
+  "source": "arxiv",
   "title": "Peak state transfer in continuous quantum walks",
   "authors": [
    [
@@ -4169,6 +4283,7 @@
  {
   "id": "2505.05964v1",
   "link": "https://arxiv.org/abs/2505.05964",
+  "source": "arxiv",
   "title": "Catalytic entanglement transformations with noisy hardware",
   "authors": [
    [
@@ -4199,6 +4314,7 @@
  {
   "id": "2504.17881v1",
   "link": "https://arxiv.org/abs/2504.17881",
+  "source": "arxiv",
   "title": "phase2: Full-State Vector Simulation of Quantum Time Evolution at Scale",
   "authors": [
    [
@@ -4245,6 +4361,7 @@
  {
   "id": "2504.11242v2",
   "link": "https://arxiv.org/abs/2504.11242",
+  "source": "arxiv",
   "title": "Measurement of the g factor of ground-state 87Sr at the parts-per-million level using co-trapped ultracold atoms",
   "authors": [
    [
@@ -4280,6 +4397,7 @@
  {
   "id": "2504.10363v2",
   "link": "https://arxiv.org/abs/2504.10363",
+  "source": "arxiv",
   "title": "Fine-Grained Complexity via Quantum Natural Proofs",
   "authors": [
    [
@@ -4315,6 +4433,7 @@
  {
   "id": "2504.07702v1",
   "link": "https://arxiv.org/abs/2504.07702",
+  "source": "arxiv",
   "title": "Functional Understanding Of Quantum Technology Is Essential To The Ethical Debate About Its Impact",
   "authors": [
    [
@@ -4334,6 +4453,7 @@
  {
   "id": "2504.03336v1",
   "link": "https://arxiv.org/abs/2504.03336",
+  "source": "arxiv",
   "title": "Ethics Readiness of Technology: The case for aligning ethical approaches with technological maturity",
   "authors": [
    [
@@ -4353,6 +4473,7 @@
  {
   "id": "2504.00710v3",
   "link": "https://arxiv.org/abs/2504.00710",
+  "source": "arxiv",
   "title": "Entanglement recycling in two-step port-based teleportation",
   "authors": [
    [
@@ -4392,6 +4513,7 @@
  {
   "id": "2503.23238v1",
   "link": "https://arxiv.org/abs/2503.23238",
+  "source": "arxiv",
   "title": "Wagner's Algorithm Provably Runs in Subexponential Time for SIS$^\\infty$",
   "authors": [
    [
@@ -4419,6 +4541,7 @@
  {
   "id": "2503.22650v1",
   "link": "https://arxiv.org/abs/2503.22650",
+  "source": "arxiv",
   "title": "Explicit non-free tensors",
   "authors": [
    [
@@ -4461,6 +4584,7 @@
  {
   "id": "2503.22633v1",
   "link": "https://arxiv.org/abs/2503.22633",
+  "source": "arxiv",
   "title": "The moment polytope of matrix multiplication is not maximal",
   "authors": [
    [
@@ -4503,6 +4627,7 @@
  {
   "id": "2503.21479v2",
   "link": "https://arxiv.org/abs/2503.21479",
+  "source": "arxiv",
   "title": "Quantum umlaut information",
   "authors": [
    [
@@ -4543,6 +4668,7 @@
  {
   "id": "2503.21437v1",
   "link": "https://arxiv.org/abs/2503.21437",
+  "source": "arxiv",
   "title": "A Contextual Approach to Technological Understanding and Its Assessment",
   "authors": [
    [
@@ -4566,6 +4692,7 @@
  {
   "id": "2503.18910v2",
   "link": "https://arxiv.org/abs/2503.18910",
+  "source": "arxiv",
   "title": "Umlaut information",
   "authors": [
    [
@@ -4606,6 +4733,7 @@
  {
   "id": "2503.09544v1",
   "link": "https://arxiv.org/abs/2503.09544",
+  "source": "arxiv",
   "title": "Quantum position verification in one shot: parallel repetition of the $f$-BB84 and $f$-routing protocols",
   "authors": [
    [
@@ -4628,6 +4756,7 @@
  {
   "id": "2503.05647v1",
   "link": "https://arxiv.org/abs/2503.05647",
+  "source": "arxiv",
   "title": "Phase estimation with partially randomized time evolution",
   "authors": [
    [
@@ -4666,6 +4795,7 @@
  {
   "id": "2503.01617v1",
   "link": "https://arxiv.org/abs/2503.01617",
+  "source": "arxiv",
   "title": "Technological Understanding: On the cognitive skill involved in the design and use of technological artefacts",
   "authors": [
    [
@@ -4689,6 +4819,7 @@
  {
   "id": "2502.18420v1",
   "link": "https://arxiv.org/abs/2502.18420",
+  "source": "arxiv",
   "title": "Trotter error and gate complexity of the SYK and sparse SYK models",
   "authors": [
    [
@@ -4716,6 +4847,7 @@
  {
   "id": "2502.09249v2",
   "link": "https://arxiv.org/abs/2502.09249",
+  "source": "arxiv",
   "title": "Space-Efficient Quantum Error Reduction without log Factors",
   "authors": [
    [
@@ -4739,6 +4871,7 @@
  {
   "id": "2502.09240v1",
   "link": "https://arxiv.org/abs/2502.09240",
+  "source": "arxiv",
   "title": "Composing Quantum Algorithms",
   "authors": [
    [
@@ -4757,6 +4890,7 @@
  {
   "id": "2502.08721v2",
   "link": "https://arxiv.org/abs/2502.08721",
+  "source": "arxiv",
   "title": "Complement Sampling: Provable, Verifiable and NISQable Quantum Advantage in Sample Complexity",
   "authors": [
    [
@@ -4783,6 +4917,7 @@
  {
   "id": "2502.04125v1",
   "link": "https://arxiv.org/abs/2502.04125",
+  "source": "arxiv",
   "title": "Towards experimental demonstration of quantum position verification using true single photons",
   "authors": [
    [
@@ -4834,6 +4969,7 @@
  {
   "id": "2501.12447v4",
   "link": "https://arxiv.org/abs/2501.12447",
+  "source": "arxiv",
   "title": "Tight relations and equivalences between smooth relative entropies",
   "authors": [
    [
@@ -4862,6 +4998,7 @@
  {
   "id": "2501.01391v4",
   "link": "https://arxiv.org/abs/2501.01391",
+  "source": "arxiv",
   "title": "Parallel assembly of neutral atom arrays with an SLM using linear phase interpolation",
   "authors": [
    [
@@ -4897,6 +5034,7 @@
  {
   "id": "2412.14960v1",
   "link": "https://arxiv.org/abs/2412.14960",
+  "source": "arxiv",
   "title": "Terrestrial Very-Long-Baseline Atom Interferometry: Summary of the Second Workshop",
   "authors": [
    [
@@ -6155,6 +6293,7 @@
  {
   "id": "2412.13274v2",
   "link": "https://arxiv.org/abs/2412.13274",
+  "source": "arxiv",
   "title": "Assessing fault-tolerant quantum advantage for $k$-SAT with structure",
   "authors": [
    [
@@ -6178,6 +6317,7 @@
  {
   "id": "2412.07058v2",
   "link": "https://arxiv.org/abs/2412.07058",
+  "source": "arxiv",
   "title": "Random regular graph states are complex at almost any depth",
   "authors": [
    [
@@ -6206,6 +6346,7 @@
  {
   "id": "2412.03182v1",
   "link": "https://arxiv.org/abs/2412.03182",
+  "source": "arxiv",
   "title": "Quantitative convergence of trained quantum neural networks to a Gaussian process",
   "authors": [
    [
@@ -6238,6 +6379,7 @@
  {
   "id": "2411.15789v2",
   "link": "https://arxiv.org/abs/2411.15789",
+  "source": "arxiv",
   "title": "Asymptotic tensor rank is characterized by polynomials",
   "authors": [
    [
@@ -6274,6 +6416,7 @@
  {
   "id": "2411.05560v2",
   "link": "https://arxiv.org/abs/2411.05560",
+  "source": "arxiv",
   "title": "State transfer in discrete-time quantum walks via projected transition matrices",
   "authors": [
    [
@@ -6297,6 +6440,7 @@
  {
   "id": "2411.03648v1",
   "link": "https://arxiv.org/abs/2411.03648",
+  "source": "arxiv",
   "title": "Quantum Programmable Reflections",
   "authors": [
    [
@@ -6327,6 +6471,7 @@
  {
   "id": "2411.02368v4",
   "link": "https://arxiv.org/abs/2411.02368",
+  "source": "arxiv",
   "title": "Optimal estimates of trace distance between bosonic Gaussian states and applications to learning",
   "authors": [
    [
@@ -6361,6 +6506,7 @@
  {
   "id": "2411.00946v1",
   "link": "https://arxiv.org/abs/2411.00946",
+  "source": "arxiv",
   "title": "Classical versus quantum queries in quantum PCPs with classical proofs",
   "authors": [
    [
@@ -6388,6 +6534,7 @@
  {
   "id": "2411.00082v2",
   "link": "https://arxiv.org/abs/2411.00082",
+  "source": "arxiv",
   "title": "Testing and learning structured quantum Hamiltonians",
   "authors": [
    [
@@ -6416,6 +6563,7 @@
  {
   "id": "2410.22157v1",
   "link": "https://arxiv.org/abs/2410.22157",
+  "source": "arxiv",
   "title": "A quantum cloning game with applications to quantum position verification",
   "authors": [
    [
@@ -6442,6 +6590,7 @@
  {
   "id": "2410.21811v2",
   "link": "https://arxiv.org/abs/2410.21811",
+  "source": "arxiv",
   "title": "Tolerant testing of stabilizer states with a polynomial gap via a generalized uncertainty relation",
   "authors": [
    [
@@ -6468,6 +6617,7 @@
  {
   "id": "2410.14555v3",
   "link": "https://arxiv.org/abs/2410.14555",
+  "source": "arxiv",
   "title": "Many-body enhancement of energy storage in a waveguide-QED quantum battery",
   "authors": [
    [
@@ -6503,6 +6653,7 @@
  {
   "id": "2410.07986v1",
   "link": "https://arxiv.org/abs/2410.07986",
+  "source": "arxiv",
   "title": "Single-copy stabilizer testing",
   "authors": [
    [
@@ -6527,6 +6678,7 @@
  {
   "id": "2410.03961v2",
   "link": "https://arxiv.org/abs/2410.03961",
+  "source": "arxiv",
   "title": "Algorithm to Verify Local Equivalence of Stabilizer States",
   "authors": [
    [
@@ -6553,6 +6705,7 @@
  {
   "id": "2409.13469v2",
   "link": "https://arxiv.org/abs/2409.13469",
+  "source": "arxiv",
   "title": "Vibrationally coupled Rydberg atom-ion molecules",
   "authors": [
    [
@@ -6588,6 +6741,7 @@
  {
   "id": "2409.05046v1",
   "link": "https://arxiv.org/abs/2409.05046",
+  "source": "arxiv",
   "title": "Fully Characterizing Lossy Catalytic Computation",
   "authors": [
    [
@@ -6618,6 +6772,7 @@
  {
   "id": "2409.04550v4",
   "link": "https://arxiv.org/abs/2409.04550",
+  "source": "arxiv",
   "title": "Solving Free Fermion Problems on a Quantum Computer",
   "authors": [
    [
@@ -6649,6 +6804,7 @@
  {
   "id": "2409.03693v2",
   "link": "https://arxiv.org/abs/2409.03693",
+  "source": "arxiv",
   "title": "Phonon-mediated quantum gates in trapped ions coupled to an ultracold atomic gas",
   "authors": [
    [
@@ -6680,6 +6836,7 @@
  {
   "id": "2408.16458v2",
   "link": "https://arxiv.org/abs/2408.16458",
+  "source": "arxiv",
   "title": "Quantum Sieving for Code-Based Cryptanalysis and Its Limitations for ISD",
   "authors": [
    [
@@ -6707,6 +6864,7 @@
  {
   "id": "2408.15226v2",
   "link": "https://arxiv.org/abs/2408.15226",
+  "source": "arxiv",
   "title": "Continuity of entropies via integral representations",
   "authors": [
    [
@@ -6735,6 +6893,7 @@
  {
   "id": "2408.12595v1",
   "link": "https://arxiv.org/abs/2408.12595",
+  "source": "arxiv",
   "title": "Quantum Sabotage Complexity",
   "authors": [
    [
@@ -6762,6 +6921,7 @@
  {
   "id": "2408.11111v2",
   "link": "https://arxiv.org/abs/2408.11111",
+  "source": "arxiv",
   "title": "Bosonic randomized benchmarking with passive transformations",
   "authors": [
    [
@@ -6792,6 +6952,7 @@
  {
   "id": "2408.07067v2",
   "link": "https://arxiv.org/abs/2408.07067",
+  "source": "arxiv",
   "title": "Asymptotic quantification of entanglement with a single copy",
   "authors": [
    [
@@ -6820,6 +6981,7 @@
  {
   "id": "2408.06410v3",
   "link": "https://arxiv.org/abs/2408.06410",
+  "source": "arxiv",
   "title": "A solution of the generalised quantum Stein's lemma",
   "authors": [
    [
@@ -6839,6 +7001,7 @@
  {
   "id": "2408.03986v2",
   "link": "https://arxiv.org/abs/2408.03986",
+  "source": "arxiv",
   "title": "Finding quantum partial assignments by search-to-decision reductions",
   "authors": [
    [
@@ -6858,6 +7021,7 @@
  {
   "id": "2408.03831v2",
   "link": "https://arxiv.org/abs/2408.03831",
+  "source": "arxiv",
   "title": "Mutual information fluctuations and non-stabilizerness in random circuits",
   "authors": [
    [
@@ -6888,6 +7052,7 @@
  {
   "id": "2407.18668v1",
   "link": "https://arxiv.org/abs/2407.18668",
+  "source": "arxiv",
   "title": "Continuous cavity-QED with an atomic beam",
   "authors": [
    [
@@ -6935,6 +7100,7 @@
  {
   "id": "2407.07711v1",
   "link": "https://arxiv.org/abs/2407.07711",
+  "source": "arxiv",
   "title": "On compatibility of binary qubit measurements",
   "authors": [
    [
@@ -6957,6 +7123,7 @@
  {
   "id": "2407.07183v1",
   "link": "https://arxiv.org/abs/2407.07183",
+  "source": "arxiv",
   "title": "Atom interferometry in an Einstein Elevator",
   "authors": [
    [
@@ -7004,6 +7171,7 @@
  {
   "id": "2407.03073v3",
   "link": "https://arxiv.org/abs/2407.03073",
+  "source": "arxiv",
   "title": "Beating the natural Grover bound for low-energy estimation and state preparation",
   "authors": [
    [
@@ -7043,6 +7211,7 @@
  {
   "id": "2407.02617v2",
   "link": "https://arxiv.org/abs/2407.02617",
+  "source": "arxiv",
   "title": "Open quantum dynamics with variational non-Gaussian states and the truncated Wigner approximation",
   "authors": [
    [
@@ -7083,6 +7252,7 @@
  {
   "id": "2406.09956v2",
   "link": "https://arxiv.org/abs/2406.09956",
+  "source": "arxiv",
   "title": "Distinguishing Graph States by the Properties of Their Marginals",
   "authors": [
    [
@@ -7121,6 +7291,7 @@
  {
   "id": "2406.08064v3",
   "link": "https://arxiv.org/abs/2406.08064",
+  "source": "arxiv",
   "title": "Gate-based counterdiabatic driving with complexity guarantees",
   "authors": [
    [
@@ -7139,6 +7310,7 @@
  {
   "id": "2406.07681v2",
   "link": "https://arxiv.org/abs/2406.07681",
+  "source": "arxiv",
   "title": "Optimized QUBO formulation methods for quantum computing",
   "authors": [
    [
@@ -7169,6 +7341,7 @@
  {
   "id": "2406.07530v4",
   "link": "https://arxiv.org/abs/2406.07530",
+  "source": "arxiv",
   "title": "Coherent Three-Photon Excitation of the Strontium Clock Transition",
   "authors": [
    [
@@ -7208,6 +7381,7 @@
  {
   "id": "2405.14765v2",
   "link": "https://arxiv.org/abs/2405.14765",
+  "source": "arxiv",
   "title": "A Quantum Speed-Up for Approximating the Top Eigenvectors of a Matrix",
   "authors": [
    [
@@ -7235,6 +7409,7 @@
  {
   "id": "2405.13717v2",
   "link": "https://arxiv.org/abs/2405.13717",
+  "source": "arxiv",
   "title": "Lossy-and-Constrained Extended Non-Local Games with Applications to Quantum Cryptography",
   "authors": [
    [
@@ -7257,6 +7432,7 @@
  {
   "id": "2405.10933v1",
   "link": "https://arxiv.org/abs/2405.10933",
+  "source": "arxiv",
   "title": "Learning low-degree quantum objects",
   "authors": [
    [
@@ -7291,6 +7467,7 @@
  {
   "id": "2405.09626v1",
   "link": "https://arxiv.org/abs/2405.09626",
+  "source": "arxiv",
   "title": "Permutation tests for quantum state identity",
   "authors": [
    [
@@ -7321,6 +7498,7 @@
  {
   "id": "2405.09613v2",
   "link": "https://arxiv.org/abs/2405.09613",
+  "source": "arxiv",
   "title": "Computable entanglement cost under positive partial transpose operations",
   "authors": [
    [
@@ -7349,6 +7527,7 @@
  {
   "id": "2405.03517v1",
   "link": "https://arxiv.org/abs/2405.03517",
+  "source": "arxiv",
   "title": "All $S_p$ notions of quantum expansion are equivalent",
   "authors": [
    [
@@ -7374,6 +7553,7 @@
  {
   "id": "2405.01431v4",
   "link": "https://arxiv.org/abs/2405.01431",
+  "source": "arxiv",
   "title": "Learning quantum states of continuous variable systems",
   "authors": [
    [
@@ -7420,6 +7600,7 @@
  {
   "id": "2404.14261v1",
   "link": "https://arxiv.org/abs/2404.14261",
+  "source": "arxiv",
   "title": "Continuous-variable Quantum Position Verification secure against entangled attackers",
   "authors": [
    [
@@ -7454,6 +7635,7 @@
  {
   "id": "2404.06282v1",
   "link": "https://arxiv.org/abs/2404.06282",
+  "source": "arxiv",
   "title": "Simple algorithms to test and learn local Hamiltonians",
   "authors": [
    [
@@ -7476,6 +7658,7 @@
  {
   "id": "2404.02236v1",
   "link": "https://arxiv.org/abs/2404.02236",
+  "source": "arxiv",
   "title": "Selected Open Problems in Continuous-Time Quantum Walks",
   "authors": [
    [
@@ -7499,6 +7682,7 @@
  {
   "id": "2403.04841v3",
   "link": "https://arxiv.org/abs/2403.04841",
+  "source": "arxiv",
   "title": "Quantum PCPs: on Adaptivity, Multiple Provers and Reductions to Local Hamiltonians",
   "authors": [
    [
@@ -7526,6 +7710,7 @@
  {
   "id": "2402.18988v1",
   "link": "https://arxiv.org/abs/2402.18988",
+  "source": "arxiv",
   "title": "Atom interferometry at arbitrary orientations and rotation rates",
   "authors": [
    [
@@ -7578,6 +7763,7 @@
  {
   "id": "2402.18665v3",
   "link": "https://arxiv.org/abs/2402.18665",
+  "source": "arxiv",
   "title": "Efficient learning of quantum states prepared with few fermionic non-Gaussian gates",
   "authors": [
    [
@@ -7600,6 +7786,7 @@
  {
   "id": "2402.18440v5",
   "link": "https://arxiv.org/abs/2402.18440",
+  "source": "arxiv",
   "title": "Brick Wall Quantum Circuits with Global Fermionic Symmetry",
   "authors": [
    [
@@ -7626,6 +7813,7 @@
  {
   "id": "2402.18356v2",
   "link": "https://arxiv.org/abs/2402.18356",
+  "source": "arxiv",
   "title": "Port-Based State Preparation and Applications",
   "authors": [
    [
@@ -7648,6 +7836,7 @@
  {
   "id": "2402.13324v1",
   "link": "https://arxiv.org/abs/2402.13324",
+  "source": "arxiv",
   "title": "Quantum Pseudorandomness Cannot Be Shrunk In a Black-Box Way",
   "authors": [
    [
@@ -7671,6 +7860,7 @@
  {
   "id": "2402.08726v1",
   "link": "https://arxiv.org/abs/2402.08726",
+  "source": "arxiv",
   "title": "Trained quantum neural networks are Gaussian processes",
   "authors": [
    [
@@ -7696,6 +7886,7 @@
  {
   "id": "2402.05793v1",
   "link": "https://arxiv.org/abs/2402.05793",
+  "source": "arxiv",
   "title": "Exact quantum sensing limits for bosonic dephasing channels",
   "authors": [
    [
@@ -7724,6 +7915,7 @@
  {
   "id": "2402.01445v1",
   "link": "https://arxiv.org/abs/2402.01445",
+  "source": "arxiv",
   "title": "All graph state verification protocols are composably secure",
   "authors": [
    [
@@ -7751,6 +7943,7 @@
  {
   "id": "2401.15634v3",
   "link": "https://arxiv.org/abs/2401.15634",
+  "source": "arxiv",
   "title": "Quantum communication on the bosonic loss-dephasing channel",
   "authors": [
    [
@@ -7781,6 +7974,7 @@
  {
   "id": "2401.09554v1",
   "link": "https://arxiv.org/abs/2401.09554",
+  "source": "arxiv",
   "title": "Entanglement cost for infinite-dimensional physical systems",
   "authors": [
    [
@@ -7812,6 +8006,7 @@
  {
   "id": "2401.08355v2",
   "link": "https://arxiv.org/abs/2401.08355",
+  "source": "arxiv",
   "title": "Multidimensional Quantum Walks, Recursion, and Quantum Divide & Conquer",
   "authors": [
    [
@@ -7835,6 +8030,7 @@
  {
   "id": "2401.07912v3",
   "link": "https://arxiv.org/abs/2401.07912",
+  "source": "arxiv",
   "title": "Lower Bounds for Unitary Property Testing with Proofs and Advice",
   "authors": [
    [
@@ -7854,6 +8050,7 @@
  {
   "id": "2312.12614v1",
   "link": "https://arxiv.org/abs/2312.12614",
+  "source": "arxiv",
   "title": "Making Existing Quantum Position Verification Protocols Secure Against Arbitrary Transmission Loss",
   "authors": [
    [
@@ -7896,6 +8093,7 @@
  {
   "id": "2312.05060v2",
   "link": "https://arxiv.org/abs/2312.05060",
+  "source": "arxiv",
   "title": "Global Variational Quantum Circuits for Arbitrary Symmetric State Preparation",
   "authors": [
    [
@@ -7935,6 +8133,7 @@
  {
   "id": "2312.03188v2",
   "link": "https://arxiv.org/abs/2312.03188",
+  "source": "arxiv",
   "title": "Efficient quantum circuits for port-based teleportation",
   "authors": [
    [
@@ -7962,6 +8161,7 @@
  {
   "id": "2312.02279v3",
   "link": "https://arxiv.org/abs/2312.02279",
+  "source": "arxiv",
   "title": "Challenges and Opportunities in Quantum Optimization",
   "authors": [
    [
@@ -8161,6 +8361,7 @@
  {
   "id": "2311.15873v3",
   "link": "https://arxiv.org/abs/2311.15873",
+  "source": "arxiv",
   "title": "Taming Quantum Time Complexity",
   "authors": [
    [
@@ -8187,6 +8388,7 @@
  {
   "id": "2311.15791v1",
   "link": "https://arxiv.org/abs/2311.15791",
+  "source": "arxiv",
   "title": "Optical response of the bulk stabilized mosaic phase in Se doped TaS$_{2-x}$Se$_{x}$",
   "authors": [
    [
@@ -8226,6 +8428,7 @@
  {
   "id": "2311.07372v7",
   "link": "https://arxiv.org/abs/2311.07372",
+  "source": "arxiv",
   "title": "Multidimensional Electrical Networks and their Application to Exponential Speedups for Graph Problems",
   "authors": [
    [
@@ -8249,6 +8452,7 @@
  {
   "id": "2311.02941v2",
   "link": "https://arxiv.org/abs/2311.02941",
+  "source": "arxiv",
   "title": "Optical pumping of ${\\mathrm{5s4d} ^1\\mathrm{D}_2}$ strontium atoms for laser cooling and imaging",
   "authors": [
    [
@@ -8287,6 +8491,7 @@
  {
   "id": "2311.00677v3",
   "link": "https://arxiv.org/abs/2311.00677",
+  "source": "arxiv",
   "title": "Orthogonality Broadcasting and Quantum Position Verification",
   "authors": [
    [
@@ -8317,6 +8522,7 @@
  {
   "id": "2310.08183v1",
   "link": "https://arxiv.org/abs/2310.08183",
+  "source": "arxiv",
   "title": "Terrestrial Very-Long-Baseline Atom Interferometry: Workshop Summary",
   "authors": [
    [
@@ -9347,6 +9553,7 @@
  {
   "id": "2310.02252v1",
   "link": "https://arxiv.org/abs/2310.02252",
+  "source": "arxiv",
   "title": "Gelfand-Tsetlin basis for partially transposed permutations, with applications to quantum information",
   "authors": [
    [
@@ -9374,6 +9581,7 @@
  {
   "id": "2309.17066v2",
   "link": "https://arxiv.org/abs/2309.17066",
+  "source": "arxiv",
   "title": "Optical fibres with memory effects and their quantum communication capacities",
   "authors": [
    [
@@ -9408,6 +9616,7 @@
  {
   "id": "2309.16655v2",
   "link": "https://arxiv.org/abs/2309.16655",
+  "source": "arxiv",
   "title": "Monogamy of highly symmetric states",
   "authors": [
    [
@@ -9450,6 +9659,7 @@
  {
   "id": "2309.16431v2",
   "link": "https://arxiv.org/abs/2309.16431",
+  "source": "arxiv",
   "title": "QSETH strikes again: finer quantum lower bounds for lattice problem, strong simulation, hitting set problem, and more",
   "authors": [
    [
@@ -9485,6 +9695,7 @@
  {
   "id": "2309.16387v4",
   "link": "https://arxiv.org/abs/2309.16387",
+  "source": "arxiv",
   "title": "Streaming quantum state purification",
   "authors": [
    [
@@ -9523,6 +9734,7 @@
  {
   "id": "2309.07956v3",
   "link": "https://arxiv.org/abs/2309.07956",
+  "source": "arxiv",
   "title": "Classifying fermionic states via many-body correlation measures",
   "authors": [
    [
@@ -9552,6 +9764,7 @@
  {
   "id": "2309.07206v3",
   "link": "https://arxiv.org/abs/2309.07206",
+  "source": "arxiv",
   "title": "Reversibility of quantum resources through probabilistic protocols",
   "authors": [
    [
@@ -9574,6 +9787,7 @@
  {
   "id": "2308.04166v1",
   "link": "https://arxiv.org/abs/2308.04166",
+  "source": "arxiv",
   "title": "Security of a Continuous-Variable based Quantum Position Verification Protocol",
   "authors": [
    [
@@ -9612,6 +9826,7 @@
  {
   "id": "2308.00696v1",
   "link": "https://arxiv.org/abs/2308.00696",
+  "source": "arxiv",
   "title": "Continuity of the relative entropy of resource",
   "authors": [
    [
@@ -9635,6 +9850,7 @@
  {
   "id": "2307.14840v5",
   "link": "https://arxiv.org/abs/2307.14840",
+  "source": "arxiv",
   "title": "State preparation by shallow circuits using feed forward",
   "authors": [
    [
@@ -9665,6 +9881,7 @@
  {
   "id": "2307.13730v1",
   "link": "https://arxiv.org/abs/2307.13730",
+  "source": "arxiv",
   "title": "Fermionic Hamiltonians without trivial low-energy states",
   "authors": [
    [
@@ -9697,6 +9914,7 @@
  {
   "id": "2307.11008v2",
   "link": "https://arxiv.org/abs/2307.11008",
+  "source": "arxiv",
   "title": "Distillable entanglement under dually non-entangling operations",
   "authors": [
    [
@@ -9720,6 +9938,7 @@
  {
   "id": "2307.10358v4",
   "link": "https://arxiv.org/abs/2307.10358",
+  "source": "arxiv",
   "title": "Virtual mitigation of coherent non-adiabatic transitions by echo verification",
   "authors": [
    [
@@ -9750,6 +9969,7 @@
  {
   "id": "2307.07394v3",
   "link": "https://arxiv.org/abs/2307.07394",
+  "source": "arxiv",
   "title": "The resource theory of tensor networks",
   "authors": [
    [
@@ -9784,6 +10004,7 @@
  {
   "id": "2306.16462v6",
   "link": "https://arxiv.org/abs/2306.16462",
+  "source": "arxiv",
   "title": "Relating non-local quantum computation to information theoretic cryptography",
   "authors": [
    [
@@ -9818,6 +10039,7 @@
  {
   "id": "2306.05385v1",
   "link": "https://arxiv.org/abs/2306.05385",
+  "source": "arxiv",
   "title": "Line-graph qubit routing: from kagome to heavy-hex and more",
   "authors": [
    [
@@ -9841,6 +10063,7 @@
  {
   "id": "2306.01730v1",
   "link": "https://arxiv.org/abs/2306.01730",
+  "source": "arxiv",
   "title": "Fast quantum state preparation and bath dynamics using non-Gaussian variational ansatz and quantum optimal control",
   "authors": [
    [
@@ -9870,6 +10093,7 @@
  {
   "id": "2306.00532v3",
   "link": "https://arxiv.org/abs/2306.00532",
+  "source": "arxiv",
   "title": "Orthonormal bases of extreme quantumness",
   "authors": [
    [
@@ -9896,6 +10120,7 @@
  {
   "id": "2305.16803v4",
   "link": "https://arxiv.org/abs/2305.16803",
+  "source": "arxiv",
   "title": "Quantum work extraction efficiency for noisy quantum batteries: the role of coherence",
   "authors": [
    [
@@ -9926,6 +10151,7 @@
  {
   "id": "2305.13362v1",
   "link": "https://arxiv.org/abs/2305.13362",
+  "source": "arxiv",
   "title": "On quantum backpropagation, information reuse, and cheating measurement collapse",
   "authors": [
    [
@@ -9969,6 +10195,7 @@
  {
   "id": "2305.07645v2",
   "link": "https://arxiv.org/abs/2305.07645",
+  "source": "arxiv",
   "title": "The Foliage Partition: An Easy-to-Compute LC-Invariant for Graph States",
   "authors": [
    [
@@ -9991,6 +10218,7 @@
  {
   "id": "2305.04908v2",
   "link": "https://arxiv.org/abs/2305.04908",
+  "source": "arxiv",
   "title": "Tight Bounds for Quantum Phase Estimation and Related Problems",
   "authors": [
    [
@@ -10014,6 +10242,7 @@
  {
   "id": "2305.03489v3",
   "link": "https://arxiv.org/abs/2305.03489",
+  "source": "arxiv",
   "title": "No-go theorem for entanglement distillation using catalysis",
   "authors": [
    [
@@ -10040,6 +10269,7 @@
  {
   "id": "2305.03012v1",
   "link": "https://arxiv.org/abs/2305.03012",
+  "source": "arxiv",
   "title": "Quasirandom additive sets and Cayley hypergraphs",
   "authors": [
    [
@@ -10058,6 +10288,7 @@
  {
   "id": "2305.01284v4",
   "link": "https://arxiv.org/abs/2305.01284",
+  "source": "arxiv",
   "title": "Adiabatic ground state preparation of fermionic many-body systems from a two-body perspective",
   "authors": [
    [
@@ -10080,6 +10311,7 @@
  {
   "id": "2304.06713v2",
   "link": "https://arxiv.org/abs/2304.06713",
+  "source": "arxiv",
   "title": "Influences of Fourier Completely Bounded Polynomials and Classical Simulation of Quantum Algorithms",
   "authors": [
    [
@@ -10100,6 +10332,7 @@
  {
   "id": "2304.03234v3",
   "link": "https://arxiv.org/abs/2304.03234",
+  "source": "arxiv",
   "title": "On the threshold for Szemerédi's theorem with random differences",
   "authors": [
    [
@@ -10122,6 +10355,7 @@
  {
   "id": "2304.01940v3",
   "link": "https://arxiv.org/abs/2304.01940",
+  "source": "arxiv",
   "title": "Tracially embeddable strategies: Lifting MIP* tricks to MIPco",
   "authors": [
    [
@@ -10141,6 +10375,7 @@
  {
   "id": "2303.12867v4",
   "link": "https://arxiv.org/abs/2303.12867",
+  "source": "arxiv",
   "title": "Maximum tolerable excess noise in continuous-variable quantum key distribution and improved lower bound on two-way capacities",
   "authors": [
    [
@@ -10167,6 +10402,7 @@
  {
   "id": "2303.06703v1",
   "link": "https://arxiv.org/abs/2303.06703",
+  "source": "arxiv",
   "title": "Near-field imaging of domain switching in in-operando VO$_{2}$ devices",
   "authors": [
    [
@@ -10206,6 +10442,7 @@
  {
   "id": "2303.04949v2",
   "link": "https://arxiv.org/abs/2303.04949",
+  "source": "arxiv",
   "title": "Pretty good measurement for bosonic Gaussian ensembles",
   "authors": [
    [
@@ -10237,6 +10474,7 @@
  {
   "id": "2303.04771v2",
   "link": "https://arxiv.org/abs/2303.04771",
+  "source": "arxiv",
   "title": "Interior-point methods on manifolds: theory and applications",
   "authors": [
    [
@@ -10265,6 +10503,7 @@
  {
   "id": "2303.03319v1",
   "link": "https://arxiv.org/abs/2303.03319",
+  "source": "arxiv",
   "title": "Quantum Algorithm for Path-Edge Sampling",
   "authors": [
    [
@@ -10292,6 +10531,7 @@
  {
   "id": "2303.01476v3",
   "link": "https://arxiv.org/abs/2303.01476",
+  "source": "arxiv",
   "title": "Oblivious Transfer from Zero-Knowledge Proofs, or How to Achieve Round-Optimal Quantum Oblivious Transfer and Zero-Knowledge Proofs on Quantum States",
   "authors": [
    [
@@ -10319,6 +10559,7 @@
  {
   "id": "2302.11578v3",
   "link": "https://arxiv.org/abs/2302.11578",
+  "source": "arxiv",
   "title": "Guidable Local Hamiltonian Problems with Implications to Heuristic Ansätze State Preparation and the Quantum PCP Conjecture",
   "authors": [
    [
@@ -10346,6 +10587,7 @@
  {
   "id": "2302.11499v2",
   "link": "https://arxiv.org/abs/2302.11499",
+  "source": "arxiv",
   "title": "Teleportation of quantum coherence",
   "authors": [
    [
@@ -10380,6 +10622,7 @@
  {
   "id": "2302.10332v2",
   "link": "https://arxiv.org/abs/2302.10332",
+  "source": "arxiv",
   "title": "A Qubit, a Coin, and an Advice String Walk Into a Relational Problem",
   "authors": [
    [
@@ -10407,6 +10650,7 @@
  {
   "id": "2302.10244v3",
   "link": "https://arxiv.org/abs/2302.10244",
+  "source": "arxiv",
   "title": "Basic quantum subroutines: finding multiple marked elements and summing numbers",
   "authors": [
    [
@@ -10434,6 +10678,7 @@
  {
   "id": "2302.03075v3",
   "link": "https://arxiv.org/abs/2302.03075",
+  "source": "arxiv",
   "title": "Testing the quantum nature of gravity without entanglement",
   "authors": [
    [
@@ -10461,6 +10706,7 @@
  {
   "id": "2302.02870v2",
   "link": "https://arxiv.org/abs/2302.02870",
+  "source": "arxiv",
   "title": "Noisy decoding by shallow circuits with parities: classical and quantum",
   "authors": [
    [
@@ -10493,6 +10739,7 @@
  {
   "id": "2302.00365v2",
   "link": "https://arxiv.org/abs/2302.00365",
+  "source": "arxiv",
   "title": "On tests of the quantum nature of gravitational interactions in presence of non-linear corrections to quantum mechanics",
   "authors": [
    [
@@ -10517,8 +10764,42 @@
   "page": true
  },
  {
+  "id": "eccc-2022-185",
+  "link": "https://eccc.weizmann.ac.il/report/2022/185",
+  "source": "eccc",
+  "title": "Randomized versus Deterministic Decision Tree Size",
+  "authors": [
+   [
+    "Arkadev Chattopadhyay",
+    null
+   ],
+   [
+    "Yogesh Dahiya",
+    null
+   ],
+   [
+    "Nikhil Mande",
+    "Nikhil Mande"
+   ],
+   [
+    "Jaikumar Radhakrishnan",
+    null
+   ],
+   [
+    "Swagato Sanyal",
+    null
+   ]
+  ],
+  "date": "2022-12-29",
+  "added": "2026-10-22",
+  "categories": [],
+  "abstract": "",
+  "page": true
+ },
+ {
   "id": "2212.13728v2",
   "link": "https://arxiv.org/abs/2212.13728",
+  "source": "arxiv",
   "title": "Random restrictions of high-rank tensors and polynomial maps",
   "authors": [
    [
@@ -10542,6 +10823,7 @@
  {
   "id": "2212.09328v1",
   "link": "https://arxiv.org/abs/2212.09328",
+  "source": "arxiv",
   "title": "Quantum policy gradient algorithms",
   "authors": [
    [
@@ -10575,6 +10857,7 @@
  {
   "id": "2212.09073v1",
   "link": "https://arxiv.org/abs/2212.09073",
+  "source": "arxiv",
   "title": "Upper Bounds on the Distillable Randomness of Bipartite Quantum States",
   "authors": [
    [
@@ -10606,6 +10889,7 @@
  {
   "id": "2212.08559v3",
   "link": "https://arxiv.org/abs/2212.08559",
+  "source": "arxiv",
   "title": "Grothendieck inequalities characterize converses to the polynomial method",
   "authors": [
    [
@@ -10633,6 +10917,7 @@
  {
   "id": "2212.06240v2",
   "link": "https://arxiv.org/abs/2212.06240",
+  "source": "arxiv",
   "title": "Thrifty shadow estimation: re-using quantum circuits and bounding tails",
   "authors": [
    [
@@ -10656,6 +10941,7 @@
  {
   "id": "2212.05962v3",
   "link": "https://arxiv.org/abs/2212.05962",
+  "source": "arxiv",
   "title": "Holographic Quantum Scars",
   "authors": [
    [
@@ -10689,6 +10975,7 @@
  {
   "id": "2212.03674v3",
   "link": "https://arxiv.org/abs/2212.03674",
+  "source": "arxiv",
   "title": "Single-qubit loss-tolerant quantum position verification protocol secure against entangled attackers",
   "authors": [
    [
@@ -10711,6 +10998,7 @@
  {
   "id": "2212.00094v1",
   "link": "https://arxiv.org/abs/2212.00094",
+  "source": "arxiv",
   "title": "(No) Quantum space-time tradeoff for USTCON",
   "authors": [
    [
@@ -10742,6 +11030,7 @@
  {
   "id": "2211.16518v2",
   "link": "https://arxiv.org/abs/2211.16518",
+  "source": "arxiv",
   "title": "Optimizing sparse fermionic Hamiltonians",
   "authors": [
    [
@@ -10775,6 +11064,7 @@
  {
   "id": "2211.15678v3",
   "link": "https://arxiv.org/abs/2211.15678",
+  "source": "arxiv",
   "title": "Functional analytic insights into irreversibility of quantum resources",
   "authors": [
    [
@@ -10798,6 +11088,7 @@
  {
   "id": "2211.12841v1",
   "link": "https://arxiv.org/abs/2211.12841",
+  "source": "arxiv",
   "title": "Perfect state transfer in quantum walks on orientable maps",
   "authors": [
    [
@@ -10821,6 +11112,7 @@
  {
   "id": "2211.11729v1",
   "link": "https://arxiv.org/abs/2211.11729",
+  "source": "arxiv",
   "title": "Quantum majority vote",
   "authors": [
    [
@@ -10856,6 +11148,7 @@
  {
   "id": "2211.09686v1",
   "link": "https://arxiv.org/abs/2211.09686",
+  "source": "arxiv",
   "title": "An efficient combination of quantum error correction and authentication",
   "authors": [
    [
@@ -10883,6 +11176,7 @@
  {
   "id": "2211.07578v2",
   "link": "https://arxiv.org/abs/2211.07578",
+  "source": "arxiv",
   "title": "Classical shadow tomography for continuous variables quantum systems",
   "authors": [
    [
@@ -10916,6 +11210,7 @@
  {
   "id": "2211.06497v5",
   "link": "https://arxiv.org/abs/2211.06497",
+  "source": "arxiv",
   "title": "Generating $k$ EPR-pairs from an $n$-party resource state",
   "authors": [
    [
@@ -10946,6 +11241,7 @@
  {
   "id": "2211.06456v2",
   "link": "https://arxiv.org/abs/2211.06456",
+  "source": "arxiv",
   "title": "Parallel repetition of local simultaneous state discrimination",
   "authors": [
    [
@@ -10980,6 +11276,7 @@
  {
   "id": "2209.14358v1",
   "link": "https://arxiv.org/abs/2209.14358",
+  "source": "arxiv",
   "title": "The minimal canonical form of a tensor network",
   "authors": [
    [
@@ -11026,6 +11323,7 @@
  {
   "id": "2209.14146v3",
   "link": "https://arxiv.org/abs/2209.14146",
+  "source": "arxiv",
   "title": "Quantum Subroutine Composition",
   "authors": [
    [
@@ -11045,6 +11343,7 @@
  {
   "id": "2209.13209v1",
   "link": "https://arxiv.org/abs/2209.13209",
+  "source": "arxiv",
   "title": "Tracking the Vector Acceleration with a Hybrid Quantum Accelerometer Triad",
   "authors": [
    [
@@ -11096,6 +11395,7 @@
  {
   "id": "2209.01026v1",
   "link": "https://arxiv.org/abs/2209.01026",
+  "source": "arxiv",
   "title": "Laser cooling for quantum gases",
   "authors": [
    [
@@ -11119,6 +11419,7 @@
  {
   "id": "2208.14872v1",
   "link": "https://arxiv.org/abs/2208.14872",
+  "source": "arxiv",
   "title": "Optical phonons and magneto-elastic coupling in the ionic conductor AgCrSe$_2$",
   "authors": [
    [
@@ -11154,6 +11455,7 @@
  {
   "id": "2208.13492v4",
   "link": "https://arxiv.org/abs/2208.13492",
+  "source": "arxiv",
   "title": "Multidimensional Quantum Walks, with Application to $k$-Distinctness",
   "authors": [
    [
@@ -11177,6 +11479,7 @@
  {
   "id": "2208.04341v1",
   "link": "https://arxiv.org/abs/2208.04341",
+  "source": "arxiv",
   "title": "On the Role of Quantum Communication and Loss in Attacks on Quantum Position Verification",
   "authors": [
    [
@@ -11207,6 +11510,7 @@
  {
   "id": "2207.12960v2",
   "link": "https://arxiv.org/abs/2207.12960",
+  "source": "arxiv",
   "title": "Projective measurements can probe non-classical work extraction and time-correlations",
   "authors": [
    [
@@ -11246,6 +11550,7 @@
  {
   "id": "2207.11068v1",
   "link": "https://arxiv.org/abs/2207.11068",
+  "source": "arxiv",
   "title": "Matching Triangles and Triangle Collection: Hardness based on a Weak Quantum Conjecture",
   "authors": [
    [
@@ -11281,6 +11586,7 @@
  {
   "id": "2207.10250v3",
   "link": "https://arxiv.org/abs/2207.10250",
+  "source": "arxiv",
   "title": "Improved Hardness Results for the Guided Local Hamiltonian Problem",
   "authors": [
    [
@@ -11324,6 +11630,7 @@
  {
   "id": "2207.10097v3",
   "link": "https://arxiv.org/abs/2207.10097",
+  "source": "arxiv",
   "title": "Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States",
   "authors": [
    [
@@ -11351,6 +11658,7 @@
  {
   "id": "2207.08800v1",
   "link": "https://arxiv.org/abs/2207.08800",
+  "source": "arxiv",
   "title": "Quantum tomography using state-preparation unitaries",
   "authors": [
    [
@@ -11383,6 +11691,7 @@
  {
   "id": "2207.08643v2",
   "link": "https://arxiv.org/abs/2207.08643",
+  "source": "arxiv",
   "title": "A Sublinear-Time Quantum Algorithm for Approximating Partition Functions",
   "authors": [
    [
@@ -11409,6 +11718,7 @@
  {
   "id": "2207.05713v2",
   "link": "https://arxiv.org/abs/2207.05713",
+  "source": "arxiv",
   "title": "Linear programming with unitary-equivariant constraints",
   "authors": [
    [
@@ -11433,6 +11743,7 @@
  {
   "id": "2206.14471v1",
   "link": "https://arxiv.org/abs/2206.14471",
+  "source": "arxiv",
   "title": "Ultracold ion-atom experiments: cooling, chemistry, and quantum effects",
   "authors": [
    [
@@ -11457,6 +11768,7 @@
  {
   "id": "2206.11783v3",
   "link": "https://arxiv.org/abs/2206.11783",
+  "source": "arxiv",
   "title": "Kirkwood-Dirac quasiprobability approach to the statistics of incompatible observables",
   "authors": [
    [
@@ -11496,6 +11808,7 @@
  {
   "id": "2205.09740v1",
   "link": "https://arxiv.org/abs/2205.09740",
+  "source": "arxiv",
   "title": "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ",
   "authors": [
    [
@@ -11578,6 +11891,7 @@
  {
   "id": "2205.05736v2",
   "link": "https://arxiv.org/abs/2205.05736",
+  "source": "arxiv",
   "title": "Exact solution for the quantum and private capacities of bosonic dephasing channels",
   "authors": [
    [
@@ -11602,6 +11916,7 @@
  {
   "id": "2205.02813v5",
   "link": "https://arxiv.org/abs/2205.02813",
+  "source": "arxiv",
   "title": "On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources",
   "authors": [
    [
@@ -11645,6 +11960,7 @@
  {
   "id": "2205.00899v1",
   "link": "https://arxiv.org/abs/2205.00899",
+  "source": "arxiv",
   "title": "Strange metal dynamics across the phase diagram of Bi$_{2}$Sr$_{2}$CuO$_{6+δ}$ cuprates",
   "authors": [
    [
@@ -11700,6 +12016,7 @@
  {
   "id": "2204.12303v3",
   "link": "https://arxiv.org/abs/2204.12303",
+  "source": "arxiv",
   "title": "On converses to the polynomial method",
   "authors": [
    [
@@ -11723,6 +12040,7 @@
  {
   "id": "2204.06800v2",
   "link": "https://arxiv.org/abs/2204.06800",
+  "source": "arxiv",
   "title": "9 $\\times$ 4 = 6 $\\times$ 6: Understanding the quantum solution to the Euler's problem of 36 officers",
   "authors": [
    [
@@ -11761,6 +12079,7 @@
  {
   "id": "2204.01113v2",
   "link": "https://arxiv.org/abs/2204.01113",
+  "source": "arxiv",
   "title": "Spectral estimation for Hamiltonians: a comparison between classical imaginary-time evolution and quantum real-time evolution",
   "authors": [
    [
@@ -11787,6 +12106,7 @@
  {
   "id": "2203.06208v1",
   "link": "https://arxiv.org/abs/2203.06208",
+  "source": "arxiv",
   "title": "Quantum Algorithms for Community Detection and their Empirical Run-times",
   "authors": [
    [
@@ -11817,6 +12137,7 @@
  {
   "id": "2203.05599v1",
   "link": "https://arxiv.org/abs/2203.05599",
+  "source": "arxiv",
   "title": "Memory Compression with Quantum Random-Access Gates",
   "authors": [
    [
@@ -11849,6 +12170,7 @@
  {
   "id": "2203.04975v2",
   "link": "https://arxiv.org/abs/2203.04975",
+  "source": "arxiv",
   "title": "Quantifying Grover speed-ups beyond asymptotic analysis",
   "authors": [
    [
@@ -11880,6 +12202,7 @@
  {
   "id": "2203.02968v3",
   "link": "https://arxiv.org/abs/2203.02968",
+  "source": "arxiv",
   "title": "Improved Quantum Query Upper Bounds Based on Classical Decision Trees",
   "authors": [
    [
@@ -11907,6 +12230,7 @@
  {
   "id": "2203.00212v1",
   "link": "https://arxiv.org/abs/2203.00212",
+  "source": "arxiv",
   "title": "Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms",
   "authors": [
    [
@@ -11935,6 +12259,7 @@
  {
   "id": "2202.13730v1",
   "link": "https://arxiv.org/abs/2202.13730",
+  "source": "arxiv",
   "title": "Efficient NIZKs and Signatures from Commit-and-Open Protocols in the QROM",
   "authors": [
    [
@@ -11966,6 +12291,7 @@
  {
   "id": "2202.13681v1",
   "link": "https://arxiv.org/abs/2202.13681",
+  "source": "arxiv",
   "title": "The Effect of Micromotion and Local Stress in Quantum simulation with Trapped Ions in Optical Tweezers",
   "authors": [
    [
@@ -11998,6 +12324,7 @@
  {
   "id": "2202.12616v2",
   "link": "https://arxiv.org/abs/2202.12616",
+  "source": "arxiv",
   "title": "Optimizing thermalizations",
   "authors": [
    [
@@ -12020,6 +12347,7 @@
  {
   "id": "2202.10969v2",
   "link": "https://arxiv.org/abs/2202.10969",
+  "source": "arxiv",
   "title": "A Framework for Distributed Quantum Queries in the CONGEST Model",
   "authors": [
    [
@@ -12043,6 +12371,7 @@
  {
   "id": "2202.06979v4",
   "link": "https://arxiv.org/abs/2202.06979",
+  "source": "arxiv",
   "title": "Hardware-efficient entangled measurements for variational quantum algorithms",
   "authors": [
    [
@@ -12077,6 +12406,7 @@
  {
   "id": "2202.05727v1",
   "link": "https://arxiv.org/abs/2202.05727",
+  "source": "arxiv",
   "title": "Narrow-line imaging of single strontium atoms in shallow optical tweezers",
   "authors": [
    [
@@ -12108,6 +12438,7 @@
  {
   "id": "2201.12305v3",
   "link": "https://arxiv.org/abs/2201.12305",
+  "source": "arxiv",
   "title": "A Post-Quantum Associative Memory",
   "authors": [
    [
@@ -12138,6 +12469,7 @@
  {
   "id": "2201.09257v2",
   "link": "https://arxiv.org/abs/2201.09257",
+  "source": "arxiv",
   "title": "Computable lower bounds on the entanglement cost of quantum channels",
   "authors": [
    [
@@ -12161,6 +12493,7 @@
  {
   "id": "2112.14682v1",
   "link": "https://arxiv.org/abs/2112.14682",
+  "source": "arxiv",
   "title": "Exact quantum query complexity of computing Hamming weight modulo powers of two and three",
   "authors": [
    [
@@ -12193,6 +12526,7 @@
  {
   "id": "2111.13222v2",
   "link": "https://arxiv.org/abs/2111.13222",
+  "source": "arxiv",
   "title": "Quantum Motif Clustering",
   "authors": [
    [
@@ -12220,6 +12554,7 @@
  {
   "id": "2111.12130v2",
   "link": "https://arxiv.org/abs/2111.12130",
+  "source": "arxiv",
   "title": "Continuous thermomajorization and a complete set of laws for Markovian thermal processes",
   "authors": [
    [
@@ -12242,6 +12577,7 @@
  {
   "id": "2111.09787v2",
   "link": "https://arxiv.org/abs/2111.09787",
+  "source": "arxiv",
   "title": "Near-Optimal Quantum Algorithms for Multivariate Mean Estimation",
   "authors": [
    [
@@ -12272,6 +12608,7 @@
  {
   "id": "2111.08045v2",
   "link": "https://arxiv.org/abs/2111.08045",
+  "source": "arxiv",
   "title": "General stabilizer approach for constructing highly entangled graph states",
   "authors": [
    [
@@ -12298,6 +12635,7 @@
  {
   "id": "2111.02438v3",
   "link": "https://arxiv.org/abs/2111.02438",
+  "source": "arxiv",
   "title": "No second law of entanglement manipulation after all",
   "authors": [
    [
@@ -12322,6 +12660,7 @@
  {
   "id": "2111.01209v1",
   "link": "https://arxiv.org/abs/2111.01209",
+  "source": "arxiv",
   "title": "Local simultaneous state discrimination",
   "authors": [
    [
@@ -12352,6 +12691,7 @@
  {
   "id": "2110.13086v2",
   "link": "https://arxiv.org/abs/2110.13086",
+  "source": "arxiv",
   "title": "Quantum Algorithms and Lower Bounds for Linear Regression with Norm Constraints",
   "authors": [
    [
@@ -12377,6 +12717,7 @@
  {
   "id": "2110.07583v3",
   "link": "https://arxiv.org/abs/2110.07583",
+  "source": "arxiv",
   "title": "Near optimal sample complexity for matrix and tensor normal models via geodesic convexity",
   "authors": [
    [
@@ -12409,6 +12750,7 @@
  {
   "id": "2109.15282v1",
   "link": "https://arxiv.org/abs/2109.15282",
+  "source": "arxiv",
   "title": "Improved quantum lower and upper bounds for matrix scaling",
   "authors": [
    [
@@ -12433,6 +12775,7 @@
  {
   "id": "2109.10215v3",
   "link": "https://arxiv.org/abs/2109.10215",
+  "source": "arxiv",
   "title": "Average-Case Verification of the Quantum Fourier Transform Enables Worst-Case Phase Estimation",
   "authors": [
    [
@@ -12455,6 +12798,7 @@
  {
   "id": "2108.02175v3",
   "link": "https://arxiv.org/abs/2108.02175",
+  "source": "arxiv",
   "title": "Variational quantum eigensolver for the Heisenberg antiferromagnet on the kagome lattice",
   "authors": [
    [
@@ -12478,6 +12822,7 @@
  {
   "id": "2107.11806v2",
   "link": "https://arxiv.org/abs/2107.11806",
+  "source": "arxiv",
   "title": "Tight Bounds for the Randomized and Quantum Communication Complexities of Equality with Small Error",
   "authors": [
    [
@@ -12505,6 +12850,7 @@
  {
   "id": "2107.10551v2",
   "link": "https://arxiv.org/abs/2107.10551",
+  "source": "arxiv",
   "title": "Stabilizer rank and higher-order Fourier analysis",
   "authors": [
    [
@@ -12523,6 +12869,7 @@
  {
   "id": "2107.03410v1",
   "link": "https://arxiv.org/abs/2107.03410",
+  "source": "arxiv",
   "title": "Quantum algorithms for multivariate Monte Carlo estimation",
   "authors": [
    [
@@ -12545,6 +12892,7 @@
  {
   "id": "2107.02567v2",
   "link": "https://arxiv.org/abs/2107.02567",
+  "source": "arxiv",
   "title": "On a tracial version of Haemers bound",
   "authors": [
    [
@@ -12573,6 +12921,7 @@
  {
   "id": "2107.00011v2",
   "link": "https://arxiv.org/abs/2107.00011",
+  "source": "arxiv",
   "title": "Complexity of Supersymmetric Systems and the Cohomology Problem",
   "authors": [
    [
@@ -12597,6 +12946,7 @@
  {
   "id": "2106.12911v2",
   "link": "https://arxiv.org/abs/2106.12911",
+  "source": "arxiv",
   "title": "Towards practical and error-robust quantum position verification",
   "authors": [
    [
@@ -12627,6 +12977,7 @@
  {
   "id": "2106.11672v3",
   "link": "https://arxiv.org/abs/2106.11672",
+  "source": "arxiv",
   "title": "Solving correlation clustering with QAOA and a Rydberg qudit system: a full-stack approach",
   "authors": [
    [
@@ -12679,6 +13030,7 @@
  {
   "id": "2106.02005v1",
   "link": "https://arxiv.org/abs/2106.02005",
+  "source": "arxiv",
   "title": "Limits of quantum speed-ups for computational geometry and other problems: Fine-grained complexity via quantum walks",
   "authors": [
    [
@@ -12710,6 +13062,7 @@
  {
   "id": "2106.00850v3",
   "link": "https://arxiv.org/abs/2106.00850",
+  "source": "arxiv",
   "title": "Entanglement Classification via Single Entanglement Measure",
   "authors": [
    [
@@ -12736,6 +13089,7 @@
  {
   "id": "2105.08091v3",
   "link": "https://arxiv.org/abs/2105.08091",
+  "source": "arxiv",
   "title": "Attainability and lower semi-continuity of the relative entropy of entanglement, and variations on the theme",
   "authors": [
    [
@@ -12760,6 +13114,7 @@
  {
   "id": "2105.05566v3",
   "link": "https://arxiv.org/abs/2105.05566",
+  "source": "arxiv",
   "title": "Structural risk minimization for quantum linear classifiers",
   "authors": [
    [
@@ -12787,6 +13142,7 @@
  {
   "id": "2105.04359v3",
   "link": "https://arxiv.org/abs/2105.04359",
+  "source": "arxiv",
   "title": "Supersymmetry and multicriticality in a ladder of constrained fermions",
   "authors": [
    [
@@ -12815,6 +13171,7 @@
  {
   "id": "2105.02773v1",
   "link": "https://arxiv.org/abs/2105.02773",
+  "source": "arxiv",
   "title": "A Guide for New Program Committee Members at Theoretical Computer Science Conferences",
   "authors": [
    [
@@ -12853,6 +13210,7 @@
  {
   "id": "2104.10698v1",
   "link": "https://arxiv.org/abs/2104.10698",
+  "source": "arxiv",
   "title": "Scalable Benchmarks for Gate-Based Quantum Computers",
   "authors": [
    [
@@ -12880,6 +13238,7 @@
  {
   "id": "2104.06814v1",
   "link": "https://arxiv.org/abs/2104.06814",
+  "source": "arxiv",
   "title": "A steady-state magneto-optical trap of fermionic strontium on a narrow-line transition",
   "authors": [
    [
@@ -12914,6 +13273,7 @@
  {
   "id": "2104.06301v3",
   "link": "https://arxiv.org/abs/2104.06301",
+  "source": "arxiv",
   "title": "A single-qubit position verification protocol that is secure against multi-qubit attacks",
   "authors": [
    [
@@ -12941,6 +13301,7 @@
  {
   "id": "2103.14510v3",
   "link": "https://arxiv.org/abs/2103.14510",
+  "source": "arxiv",
   "title": "Limitations on Uncloneable Encryption and Simultaneous One-Way-to-Hiding",
   "authors": [
    [
@@ -12968,6 +13329,7 @@
  {
   "id": "2103.12448v2",
   "link": "https://arxiv.org/abs/2103.12448",
+  "source": "arxiv",
   "title": "Quantum-access security of the Winternitz one-time signature scheme",
   "authors": [
    [
@@ -12995,6 +13357,7 @@
  {
   "id": "2103.10425v3",
   "link": "https://arxiv.org/abs/2103.10425",
+  "source": "arxiv",
   "title": "Engineering spin-spin interactions with optical tweezers in trapped ions",
   "authors": [
    [
@@ -13043,6 +13406,7 @@
  {
   "id": "2103.07526v3",
   "link": "https://arxiv.org/abs/2103.07526",
+  "source": "arxiv",
   "title": "Error mitigation and quantum-assisted simulation in the error corrected regime",
   "authors": [
    [
@@ -13065,6 +13429,7 @@
  {
   "id": "2103.03085v2",
   "link": "https://arxiv.org/abs/2103.03085",
+  "source": "arxiv",
   "title": "Online-Extractability in the Quantum Random-Oracle Model",
   "authors": [
    [
@@ -13096,6 +13461,7 @@
  {
   "id": "2103.01165v1",
   "link": "https://arxiv.org/abs/2103.01165",
+  "source": "arxiv",
   "title": "A benchmarking procedure for quantum networks",
   "authors": [
    [
@@ -13118,6 +13484,7 @@
  {
   "id": "2102.10926v4",
   "link": "https://arxiv.org/abs/2102.10926",
+  "source": "arxiv",
   "title": "Quantum Channel Marginal Problem",
   "authors": [
    [
@@ -13145,6 +13512,7 @@
  {
   "id": "2102.10018v3",
   "link": "https://arxiv.org/abs/2102.10018",
+  "source": "arxiv",
   "title": "Geometrical sets with forbidden configurations",
   "authors": [
    [
@@ -13164,6 +13532,7 @@
  {
   "id": "2102.08656v2",
   "link": "https://arxiv.org/abs/2102.08656",
+  "source": "arxiv",
   "title": "State selective cooling of $\\mathrm{SU}(N)$ Fermi-gases",
   "authors": [
    [
@@ -13200,6 +13569,7 @@
  {
   "id": "2102.01064v1",
   "link": "https://arxiv.org/abs/2102.01064",
+  "source": "arxiv",
   "title": "Quantum Gravity in the Lab: Teleportation by Size and Traversable Wormholes, Part II",
   "authors": [
    [
@@ -13251,6 +13621,7 @@
  {
   "id": "2101.12739v1",
   "link": "https://arxiv.org/abs/2101.12739",
+  "source": "arxiv",
   "title": "Secure Software Leasing Without Assumptions",
   "authors": [
    [
@@ -13285,6 +13656,7 @@
  {
   "id": "2101.11032v5",
   "link": "https://arxiv.org/abs/2101.11032",
+  "source": "arxiv",
   "title": "The original Wigner's friend paradox within a realist toy model",
   "authors": [
    [
@@ -13307,6 +13679,7 @@
  {
   "id": "2101.11029v2",
   "link": "https://arxiv.org/abs/2101.11029",
+  "source": "arxiv",
   "title": "Holographic entanglement negativity and replica symmetry breaking",
   "authors": [
    [
@@ -13335,6 +13708,7 @@
  {
   "id": "2101.08313v2",
   "link": "https://arxiv.org/abs/2101.08313",
+  "source": "arxiv",
   "title": "On-State Commutativity of Measurements and Joint Distributions of Their Outcomes",
   "authors": [
    [
@@ -13357,6 +13731,7 @@
  {
   "id": "2101.03048v2",
   "link": "https://arxiv.org/abs/2101.03048",
+  "source": "arxiv",
   "title": "Observation of the charge density wave collective mode in the infrared optical response of VSe$_2$",
   "authors": [
    [
@@ -13399,6 +13774,7 @@
  {
   "id": "2012.07605v2",
   "link": "https://arxiv.org/abs/2012.07605",
+  "source": "arxiv",
   "title": "Continuous Bose-Einstein condensation",
   "authors": [
    [
@@ -13438,6 +13814,7 @@
  {
   "id": "2012.05310v1",
   "link": "https://arxiv.org/abs/2012.05310",
+  "source": "arxiv",
   "title": "Disorder enhanced quantum many-body scars in Hilbert crystals",
   "authors": [
    [
@@ -13471,6 +13848,7 @@
  {
   "id": "2012.05233v2",
   "link": "https://arxiv.org/abs/2012.05233",
+  "source": "arxiv",
   "title": "The Role of Symmetry in Quantum Query-to-Communication Simulation",
   "authors": [
    [
@@ -13510,6 +13888,7 @@
  {
   "id": "2012.01920v2",
   "link": "https://arxiv.org/abs/2012.01920",
+  "source": "arxiv",
   "title": "Quantum learning algorithms imply circuit lower bounds",
   "authors": [
    [
@@ -13546,6 +13925,7 @@
  {
   "id": "2012.00741v2",
   "link": "https://arxiv.org/abs/2012.00741",
+  "source": "arxiv",
   "title": "A converse to Lieb-Robinson bounds in one dimension using index theory",
   "authors": [
    [
@@ -13574,6 +13954,7 @@
  {
   "id": "2011.13048v2",
   "link": "https://arxiv.org/abs/2011.13048",
+  "source": "arxiv",
   "title": "Matchgate benchmarking: Scalable benchmarking of a continuous family of many-qubit gates",
   "authors": [
    [
@@ -13605,6 +13986,7 @@
  {
   "id": "2011.12823v1",
   "link": "https://arxiv.org/abs/2011.12823",
+  "source": "arxiv",
   "title": "Quantum algorithms for matrix scaling and matrix balancing",
   "authors": [
    [
@@ -13646,6 +14028,7 @@
  {
   "id": "2010.15729v2",
   "link": "https://arxiv.org/abs/2010.15729",
+  "source": "arxiv",
   "title": "Fundamental limitations to key distillation from Gaussian states with Gaussian operations",
   "authors": [
    [
@@ -13674,6 +14057,7 @@
  {
   "id": "2010.15103v2",
   "link": "https://arxiv.org/abs/2010.15103",
+  "source": "arxiv",
   "title": "Tight adaptive reprogramming in the QROM",
   "authors": [
    [
@@ -13705,6 +14089,7 @@
  {
   "id": "2010.08490v1",
   "link": "https://arxiv.org/abs/2010.08490",
+  "source": "arxiv",
   "title": "A high-fidelity method for a single-step $N$-bit Toffoli gate in trapped ions",
   "authors": [
    [
@@ -13739,6 +14124,7 @@
  {
   "id": "2010.07974v2",
   "link": "https://arxiv.org/abs/2010.07974",
+  "source": "arxiv",
   "title": "A general framework for randomized benchmarking",
   "authors": [
    [
@@ -13773,6 +14159,7 @@
  {
   "id": "2010.04175v3",
   "link": "https://arxiv.org/abs/2010.04175",
+  "source": "arxiv",
   "title": "Device-independent quantum key distribution from computational assumptions",
   "authors": [
    [
@@ -13803,6 +14190,7 @@
  {
   "id": "2009.13865v5",
   "link": "https://arxiv.org/abs/2009.13865",
+  "source": "arxiv",
   "title": "Quantum copy-protection of compute-and-compare programs in the quantum random oracle model",
   "authors": [
    [
@@ -13830,6 +14218,7 @@
  {
   "id": "2009.08840v3",
   "link": "https://arxiv.org/abs/2009.08840",
+  "source": "arxiv",
   "title": "Lightweight Detection of a Small Number of Large Errors in a Quantum Circuit",
   "authors": [
    [
@@ -13852,6 +14241,7 @@
  {
   "id": "2009.08360v1",
   "link": "https://arxiv.org/abs/2009.08360",
+  "source": "arxiv",
   "title": "Improved Quantum Boosting",
   "authors": [
    [
@@ -13876,6 +14266,7 @@
  {
   "id": "2008.12110v1",
   "link": "https://arxiv.org/abs/2008.12110",
+  "source": "arxiv",
   "title": "Interior-point methods for unconstrained geometric programming and scaling problems",
   "authors": [
    [
@@ -13907,6 +14298,7 @@
  {
   "id": "2005.06432v2",
   "link": "https://arxiv.org/abs/2005.06432",
+  "source": "arxiv",
   "title": "Impossibility of Quantum Virtual Black-Box Obfuscation of Classical Circuits",
   "authors": [
    [
@@ -13938,6 +14330,7 @@
  {
   "id": "2005.02607v5",
   "link": "https://arxiv.org/abs/2005.02607",
+  "source": "arxiv",
   "title": "Towards quantum advantage via topological data analysis",
   "authors": [
    [
@@ -13966,6 +14359,7 @@
  {
   "id": "2005.01323v1",
   "link": "https://arxiv.org/abs/2005.01323",
+  "source": "arxiv",
   "title": "Span programs and quantum time complexity",
   "authors": [
    [
@@ -13997,6 +14391,7 @@
  {
   "id": "2005.00607v2",
   "link": "https://arxiv.org/abs/2005.00607",
+  "source": "arxiv",
   "title": "Kink dynamics and quantum simulation of supersymmetric lattice Hamiltonians",
   "authors": [
    [
@@ -14027,6 +14422,7 @@
  {
   "id": "2004.14872v2",
   "link": "https://arxiv.org/abs/2004.14872",
+  "source": "arxiv",
   "title": "Minimal length in an orbit closure as a semiclassical limit",
   "authors": [
    [
@@ -14051,6 +14447,7 @@
  {
   "id": "2004.11952v3",
   "link": "https://arxiv.org/abs/2004.11952",
+  "source": "arxiv",
   "title": "Bosonic entanglement renormalization circuits from wavelet theory",
   "authors": [
    [
@@ -14076,6 +14473,7 @@
  {
   "id": "2003.05207v3",
   "link": "https://arxiv.org/abs/2003.05207",
+  "source": "arxiv",
   "title": "The Measure-and-Reprogram Technique 2.0: Multi-Round Fiat-Shamir and More",
   "authors": [
    [
@@ -14103,6 +14501,7 @@
  {
   "id": "2003.02831v2",
   "link": "https://arxiv.org/abs/2003.02831",
+  "source": "arxiv",
   "title": "Finding Angles for Quantum Signal Processing with Machine Precision",
   "authors": [
    [
@@ -14137,6 +14536,7 @@
  {
   "id": "2002.12400v2",
   "link": "https://arxiv.org/abs/2002.12400",
+  "source": "arxiv",
   "title": "Witnessing Entanglement in Experiments with Correlated Noise",
   "authors": [
    [
@@ -14172,6 +14572,7 @@
  {
   "id": "2002.12397v2",
   "link": "https://arxiv.org/abs/2002.12397",
+  "source": "arxiv",
   "title": "Hypergraph min-cuts from quantum entropies",
   "authors": [
    [
@@ -14197,6 +14598,7 @@
  {
   "id": "2002.08240v2",
   "link": "https://arxiv.org/abs/2002.08240",
+  "source": "arxiv",
   "title": "Quantum statistical query learning",
   "authors": [
    [
@@ -14225,6 +14627,7 @@
  {
   "id": "2002.08070v2",
   "link": "https://arxiv.org/abs/2002.08070",
+  "source": "arxiv",
   "title": "Complete classification of trapping coins for quantum walks on the 2D square lattice",
   "authors": [
    [
@@ -14263,6 +14666,7 @@
  {
   "id": "2002.07955v6",
   "link": "https://arxiv.org/abs/2002.07955",
+  "source": "arxiv",
   "title": "Improved Classical and Quantum Algorithms for the Shortest Vector Problem via Bounded Distance Decoding",
   "authors": [
    [
@@ -14294,6 +14698,7 @@
  {
   "id": "2002.07688v1",
   "link": "https://arxiv.org/abs/2002.07688",
+  "source": "arxiv",
   "title": "Quantum Coupon Collector",
   "authors": [
    [
@@ -14333,6 +14738,7 @@
  {
   "id": "2002.02743v1",
   "link": "https://arxiv.org/abs/2002.02743",
+  "source": "arxiv",
   "title": "The Haemers bound of noncommutative graphs",
   "authors": [
    [
@@ -14356,6 +14762,7 @@
  {
   "id": "2001.05231v3",
   "link": "https://arxiv.org/abs/2001.05231",
+  "source": "arxiv",
   "title": "Signal processing techniques for efficient compilation of controlled rotations in trapped ions",
   "authors": [
    [
@@ -14387,6 +14794,7 @@
  {
   "id": "1912.06007v3",
   "link": "https://arxiv.org/abs/1912.06007",
+  "source": "arxiv",
   "title": "Strategies for solving the Fermi-Hubbard model on near-term quantum computers",
   "authors": [
    [
@@ -14417,6 +14825,7 @@
  {
   "id": "1912.04266v5",
   "link": "https://arxiv.org/abs/1912.04266",
+  "source": "arxiv",
   "title": "Conditions for superdecoherence",
   "authors": [
    [
@@ -14439,6 +14848,7 @@
  {
   "id": "1912.04233v1",
   "link": "https://arxiv.org/abs/1912.04233",
+  "source": "arxiv",
   "title": "A Unified Framework of Quantum Walk Search",
   "authors": [
    [
@@ -14466,6 +14876,7 @@
  {
   "id": "1911.07306v4",
   "link": "https://arxiv.org/abs/1911.07306",
+  "source": "arxiv",
   "title": "Quantum Speedup for Graph Sparsification, Cut Approximation and Laplacian Solving",
   "authors": [
    [
@@ -14490,6 +14901,7 @@
  {
   "id": "1911.06742v2",
   "link": "https://arxiv.org/abs/1911.06742",
+  "source": "arxiv",
   "title": "Weak approximate unitary designs and applications to quantum encryption",
   "authors": [
    [
@@ -14515,6 +14927,7 @@
  {
   "id": "1911.06314v2",
   "link": "https://arxiv.org/abs/1911.06314",
+  "source": "arxiv",
   "title": "Quantum Gravity in the Lab: Teleportation by Size and Traversable Wormholes",
   "authors": [
    [
@@ -14566,6 +14979,7 @@
  {
   "id": "1911.05686v2",
   "link": "https://arxiv.org/abs/1911.05686",
+  "source": "arxiv",
   "title": "The Quantum Strong Exponential-Time Hypothesis",
   "authors": [
    [
@@ -14593,6 +15007,7 @@
  {
   "id": "1910.12375v3",
   "link": "https://arxiv.org/abs/1910.12375",
+  "source": "arxiv",
   "title": "Towards a theory of non-commutative optimization: geodesic first and second order methods for moment maps and polytopes",
   "authors": [
    [
@@ -14635,6 +15050,7 @@
  {
   "id": "1910.05729v1",
   "link": "https://arxiv.org/abs/1910.05729",
+  "source": "arxiv",
   "title": "Efficient simulation of random states and random unitaries",
   "authors": [
    [
@@ -14662,6 +15078,7 @@
  {
   "id": "1909.13770v2",
   "link": "https://arxiv.org/abs/1909.13770",
+  "source": "arxiv",
   "title": "Secure Multi-party Quantum Computation with a Dishonest Majority",
   "authors": [
    [
@@ -14697,6 +15114,7 @@
  {
   "id": "1909.13528v1",
   "link": "https://arxiv.org/abs/1909.13528",
+  "source": "arxiv",
   "title": "Quantum gradient estimation of Gevrey functions",
   "authors": [
    [
@@ -14715,6 +15133,7 @@
  {
   "id": "1909.02383v3",
   "link": "https://arxiv.org/abs/1909.02383",
+  "source": "arxiv",
   "title": "Quantum Brascamp-Lieb Dualities",
   "authors": [
    [
@@ -14742,6 +15161,7 @@
  {
   "id": "1908.06310v3",
   "link": "https://arxiv.org/abs/1908.06310",
+  "source": "arxiv",
   "title": "Quasirandom quantum channels",
   "authors": [
    [
@@ -14773,6 +15193,7 @@
  {
   "id": "1908.04232v2",
   "link": "https://arxiv.org/abs/1908.04232",
+  "source": "arxiv",
   "title": "Span Programs and Quantum Space Complexity",
   "authors": [
    [
@@ -14792,6 +15213,7 @@
  {
   "id": "1907.09415v5",
   "link": "https://arxiv.org/abs/1907.09415",
+  "source": "arxiv",
   "title": "Quantum Computing: Lecture Notes",
   "authors": [
    [
@@ -14813,6 +15235,7 @@
  {
   "id": "1907.05568v1",
   "link": "https://arxiv.org/abs/1907.05568",
+  "source": "arxiv",
   "title": "A Quantum-inspired Classical Algorithm for Separable Non-negative Matrix Factorization",
   "authors": [
    [
@@ -14847,6 +15270,7 @@
  {
   "id": "1906.07948v2",
   "link": "https://arxiv.org/abs/1906.07948",
+  "source": "arxiv",
   "title": "Group-theoretic generalisations of vertex and edge connectivities",
   "authors": [
    [
@@ -14870,6 +15294,7 @@
  {
   "id": "1905.08821v2",
   "link": "https://arxiv.org/abs/1905.08821",
+  "source": "arxiv",
   "title": "Quantum circuit approximations and entanglement renormalization for the Dirac field in 1+1 dimensions",
   "authors": [
    [
@@ -14902,6 +15327,7 @@
  {
   "id": "1905.05490v3",
   "link": "https://arxiv.org/abs/1905.05490",
+  "source": "arxiv",
   "title": "Non-malleability for quantum public-key encryption",
   "authors": [
    [
@@ -14929,6 +15355,7 @@
  {
   "id": "1905.03148v1",
   "link": "https://arxiv.org/abs/1905.03148",
+  "source": "arxiv",
   "title": "The asymptotic induced matching number of hypergraphs: balanced binary strings",
   "authors": [
    [
@@ -14957,6 +15384,7 @@
  {
   "id": "1905.02518v1",
   "link": "https://arxiv.org/abs/1905.02518",
+  "source": "arxiv",
   "title": "Incorporating Weisfeiler-Leman into algorithms for group isomorphism",
   "authors": [
    [
@@ -14992,6 +15420,7 @@
  {
   "id": "1904.11477v4",
   "link": "https://arxiv.org/abs/1904.11477",
+  "source": "arxiv",
   "title": "Quantum Lazy Sampling and Game-Playing Proofs for Quantum Indifferentiability",
   "authors": [
    [
@@ -15023,6 +15452,7 @@
  {
   "id": "1904.09915v2",
   "link": "https://arxiv.org/abs/1904.09915",
+  "source": "arxiv",
   "title": "Stimulated Raman adiabatic passage-like protocols for amplitude transfer generalize to many bipartite graphs",
   "authors": [
    [
@@ -15051,6 +15481,7 @@
  {
   "id": "1904.03180v1",
   "link": "https://arxiv.org/abs/1904.03180",
+  "source": "arxiv",
   "title": "Quantum algorithms for zero-sum games",
   "authors": [
    [
@@ -15073,6 +15504,7 @@
  {
   "id": "1904.00102v2",
   "link": "https://arxiv.org/abs/1904.00102",
+  "source": "arxiv",
   "title": "Simulating Large Quantum Circuits on a Small Quantum Computer",
   "authors": [
    [
@@ -15103,6 +15535,7 @@
  {
   "id": "1903.12607v1",
   "link": "https://arxiv.org/abs/1903.12607",
+  "source": "arxiv",
   "title": "The Power Light Cone of the Discrete Bak-Sneppen, Contact and other local processes",
   "authors": [
    [
@@ -15134,6 +15567,7 @@
  {
   "id": "1903.07493v1",
   "link": "https://arxiv.org/abs/1903.07493",
+  "source": "arxiv",
   "title": "Quadratic speedup for finding marked vertices by quantum walks",
   "authors": [
    [
@@ -15166,6 +15600,7 @@
  {
   "id": "1903.02840v2",
   "link": "https://arxiv.org/abs/1903.02840",
+  "source": "arxiv",
   "title": "Quantum hardness of learning shallow classical circuits",
   "authors": [
    [
@@ -15194,6 +15629,7 @@
  {
   "id": "1902.07556v4",
   "link": "https://arxiv.org/abs/1902.07556",
+  "source": "arxiv",
   "title": "Security of the Fiat-Shamir Transformation in the Quantum Random-Oracle Model",
   "authors": [
    [
@@ -15225,6 +15661,7 @@
  {
   "id": "1902.00870v4",
   "link": "https://arxiv.org/abs/1902.00870",
+  "source": "arxiv",
   "title": "Robust self-testing of two-qubit states",
   "authors": [
    [
@@ -15251,6 +15688,7 @@
  {
   "id": "1902.00814v1",
   "link": "https://arxiv.org/abs/1902.00814",
+  "source": "arxiv",
   "title": "Distributional property testing in a quantum world",
   "authors": [
    [
@@ -15275,6 +15713,7 @@
  {
   "id": "1901.07194v5",
   "link": "https://arxiv.org/abs/1901.07194",
+  "source": "arxiv",
   "title": "Horn conditions for quiver subrepresentations and the moment map",
   "authors": [
    [
@@ -15303,6 +15742,7 @@
  {
   "id": "1901.06144v1",
   "link": "https://arxiv.org/abs/1901.06144",
+  "source": "arxiv",
   "title": "Quantum gates by resonantly driving many-body eigenstates, with a focus on Polychronakos' model",
   "authors": [
    [
@@ -15326,6 +15766,7 @@
  {
   "id": "1901.04921v1",
   "link": "https://arxiv.org/abs/1901.04921",
+  "source": "arxiv",
   "title": "Semidefinite programming formulations for the completely bounded norm of a tensor",
   "authors": [
    [
@@ -15349,6 +15790,7 @@
  {
   "id": "1812.09290v1",
   "link": "https://arxiv.org/abs/1812.09290",
+  "source": "arxiv",
   "title": "Round elimination in exact communication complexity",
   "authors": [
    [
@@ -15384,6 +15826,7 @@
  {
   "id": "1811.11858v5",
   "link": "https://arxiv.org/abs/1811.11858",
+  "source": "arxiv",
   "title": "Can you sign a quantum state?",
   "authors": [
    [
@@ -15411,6 +15854,7 @@
  {
   "id": "1811.11068v1",
   "link": "https://arxiv.org/abs/1811.11068",
+  "source": "arxiv",
   "title": "Bounding quantum-classical separations for classes of nonlocal games",
   "authors": [
    [
@@ -15445,6 +15889,7 @@
  {
   "id": "1811.10090v1",
   "link": "https://arxiv.org/abs/1811.10090",
+  "source": "arxiv",
   "title": "Exponential Separation between Quantum Communication and Logarithm of Approximate Rank",
   "authors": [
    [
@@ -15468,6 +15913,7 @@
  {
   "id": "1811.04909v1",
   "link": "https://arxiv.org/abs/1811.04909",
+  "source": "arxiv",
   "title": "Quantum-inspired low-rank stochastic regression with logarithmic dependence on the dimension",
   "authors": [
    [
@@ -15495,6 +15941,7 @@
  {
   "id": "1811.02149v1",
   "link": "https://arxiv.org/abs/1811.02149",
+  "source": "arxiv",
   "title": "Experimental Demonstration of Quantum Fully Homomorphic Encryption with Application in a Two-Party Secure Protocol",
   "authors": [
    [
@@ -15538,6 +15985,7 @@
  {
   "id": "1810.12030v2",
   "link": "https://arxiv.org/abs/1810.12030",
+  "source": "arxiv",
   "title": "Simon's problem for linear functions",
   "authors": [
    [
@@ -15562,6 +16010,7 @@
  {
   "id": "1810.03651v2",
   "link": "https://arxiv.org/abs/1810.03651",
+  "source": "arxiv",
   "title": "Many-body effects in quantum metrology",
   "authors": [
    [
@@ -15588,6 +16037,7 @@
  {
   "id": "1810.00744v3",
   "link": "https://arxiv.org/abs/1810.00744",
+  "source": "arxiv",
   "title": "Quantum asymptotic spectra of graphs and non-commutative graphs, and quantum Shannon capacities",
   "authors": [
    [
@@ -15612,6 +16062,7 @@
  {
   "id": "1810.00481v4",
   "link": "https://arxiv.org/abs/1810.00481",
+  "source": "arxiv",
   "title": "Two new results about quantum exact learning",
   "authors": [
    [
@@ -15648,6 +16099,7 @@
  {
   "id": "1809.10751v2",
   "link": "https://arxiv.org/abs/1809.10751",
+  "source": "arxiv",
   "title": "Asymptotic performance of port-based teleportation",
   "authors": [
    [
@@ -15687,6 +16139,7 @@
  {
   "id": "1809.10149v2",
   "link": "https://arxiv.org/abs/1809.10149",
+  "source": "arxiv",
   "title": "A Quantum Multiparty Packing Lemma and the Relay Channel",
   "authors": [
    [
@@ -15719,6 +16172,7 @@
  {
   "id": "1809.09819v2",
   "link": "https://arxiv.org/abs/1809.09819",
+  "source": "arxiv",
   "title": "Improved bounds on Fourier entropy and Min-entropy",
   "authors": [
    [
@@ -15753,6 +16207,7 @@
  {
   "id": "1809.08158v2",
   "link": "https://arxiv.org/abs/1809.08158",
+  "source": "arxiv",
   "title": "Adiabatic state distribution using anti-ferromagnetic spin systems",
   "authors": [
    [
@@ -15772,6 +16227,7 @@
  {
   "id": "1809.01261v3",
   "link": "https://arxiv.org/abs/1809.01261",
+  "source": "arxiv",
   "title": "Dynamical fidelity susceptibility of decoherence-free subspaces",
   "authors": [
    [
@@ -15794,6 +16250,7 @@
  {
   "id": "1809.00643v4",
   "link": "https://arxiv.org/abs/1809.00643",
+  "source": "arxiv",
   "title": "Convex optimization using quantum oracles",
   "authors": [
    [
@@ -15826,6 +16283,7 @@
  {
   "id": "1808.09655v2",
   "link": "https://arxiv.org/abs/1808.09655",
+  "source": "arxiv",
   "title": "On Quantum Chosen-Ciphertext Attacks and Learning with Errors",
   "authors": [
    [
@@ -15857,6 +16315,7 @@
  {
   "id": "1808.05234v2",
   "link": "https://arxiv.org/abs/1808.05234",
+  "source": "arxiv",
   "title": "Bit Threads and Holographic Monogamy",
   "authors": [
    [
@@ -15898,6 +16357,7 @@
  {
   "id": "1808.00850v2",
   "link": "https://arxiv.org/abs/1808.00850",
+  "source": "arxiv",
   "title": "Efficient Unitarity Randomized Benchmarking of Few-qubit Clifford Gates",
   "authors": [
    [
@@ -15924,6 +16384,7 @@
  {
   "id": "1808.00135v1",
   "link": "https://arxiv.org/abs/1808.00135",
+  "source": "arxiv",
   "title": "Conditional Decoupling of Quantum Information",
   "authors": [
    [
@@ -15957,6 +16418,7 @@
  {
   "id": "1807.00169v2",
   "link": "https://arxiv.org/abs/1807.00169",
+  "source": "arxiv",
   "title": "The asymptotic spectrum of graphs and the Shannon capacity",
   "authors": [
    [
@@ -15976,6 +16438,7 @@
  {
   "id": "1806.01838v1",
   "link": "https://arxiv.org/abs/1806.01838",
+  "source": "arxiv",
   "title": "Quantum singular value transformation and beyond: exponential improvements for quantum matrix arithmetics",
   "authors": [
    [
@@ -16007,6 +16470,7 @@
  {
   "id": "1804.10591v1",
   "link": "https://arxiv.org/abs/1804.10591",
+  "source": "arxiv",
   "title": "Quantum Algorithms for Connectivity and Related Problems",
   "authors": [
    [
@@ -16038,6 +16502,7 @@
  {
   "id": "1804.05058v1",
   "link": "https://arxiv.org/abs/1804.05058",
+  "source": "arxiv",
   "title": "Improvements in Quantum SDP-Solving with Applications",
   "authors": [
    [
@@ -16060,6 +16525,7 @@
  {
   "id": "1804.04739v2",
   "link": "https://arxiv.org/abs/1804.04739",
+  "source": "arxiv",
   "title": "Efficient algorithms for tensor scaling, quantum marginals and moment polytopes",
   "authors": [
    [
@@ -16101,6 +16567,7 @@
  {
   "id": "1804.02237v1",
   "link": "https://arxiv.org/abs/1804.02237",
+  "source": "arxiv",
   "title": "Quantum ciphertext authentication and key recycling with the trap code",
   "authors": [
    [
@@ -16124,6 +16591,7 @@
  {
   "id": "1804.01973v2",
   "link": "https://arxiv.org/abs/1804.01973",
+  "source": "arxiv",
   "title": "The power of block-encoded matrix powers: improved regression techniques via faster Hamiltonian simulation",
   "authors": [
    [
@@ -16151,6 +16619,7 @@
  {
   "id": "1804.00431v2",
   "link": "https://arxiv.org/abs/1804.00431",
+  "source": "arxiv",
   "title": "Horn inequalities and quivers",
   "authors": [
    [
@@ -16179,6 +16648,7 @@
  {
   "id": "1803.03761v4",
   "link": "https://arxiv.org/abs/1803.03761",
+  "source": "arxiv",
   "title": "Quantum-secure message authentication via blind-unforgeability",
   "authors": [
    [
@@ -16210,6 +16680,7 @@
  {
   "id": "1801.09106v2",
   "link": "https://arxiv.org/abs/1801.09106",
+  "source": "arxiv",
   "title": "Matrix product states and the quantum max-flow/min-cut conjectures",
   "authors": [
    [
@@ -16237,6 +16708,7 @@
  {
   "id": "1712.09798v2",
   "link": "https://arxiv.org/abs/1712.09798",
+  "source": "arxiv",
   "title": "Trading inverses for an irrep in the Solovay-Kitaev theorem",
   "authors": [
    [
@@ -16261,6 +16733,7 @@
  {
   "id": "1712.08628v3",
   "link": "https://arxiv.org/abs/1712.08628",
+  "source": "arxiv",
   "title": "Schur-Weyl Duality for the Clifford Group with Applications: Property Testing, a Robust Hudson Theorem, and de Finetti Representations",
   "authors": [
    [
@@ -16289,6 +16762,7 @@
  {
   "id": "1712.05380v1",
   "link": "https://arxiv.org/abs/1712.05380",
+  "source": "arxiv",
   "title": "The Potential Impact of Quantum Computers on Society",
   "authors": [
    [
@@ -16308,6 +16782,7 @@
  {
   "id": "1712.03773v2",
   "link": "https://arxiv.org/abs/1712.03773",
+  "source": "arxiv",
   "title": "The European Quantum Technologies Roadmap",
   "authors": [
    [
@@ -16394,6 +16869,7 @@
  {
   "id": "1711.08039v1",
   "link": "https://arxiv.org/abs/1711.08039",
+  "source": "arxiv",
   "title": "Alternating minimization, scaling algorithms, and the null-cone problem from invariant theory",
   "authors": [
    [
@@ -16431,6 +16907,7 @@
  {
   "id": "1711.07285v3",
   "link": "https://arxiv.org/abs/1711.07285",
+  "source": "arxiv",
   "title": "Quantum Query Algorithms are Completely Bounded Forms",
   "authors": [
    [
@@ -16460,6 +16937,7 @@
  {
   "id": "1711.06137v1",
   "link": "https://arxiv.org/abs/1711.06137",
+  "source": "arxiv",
   "title": "Switch chain mixing times through triangle counts",
   "authors": [
    [
@@ -16487,6 +16965,7 @@
  {
   "id": "1711.00465v3",
   "link": "https://arxiv.org/abs/1711.00465",
+  "source": "arxiv",
   "title": "Optimizing quantum optimization algorithms via faster quantum gradient computation",
   "authors": [
    [
@@ -16514,6 +16993,7 @@
  {
   "id": "1708.09696v2",
   "link": "https://arxiv.org/abs/1708.09696",
+  "source": "arxiv",
   "title": "Bounds on entanglement dimensions and quantum graph parameters via noncommutative polynomial optimization",
   "authors": [
    [
@@ -16541,6 +17021,7 @@
  {
   "id": "1708.09156v1",
   "link": "https://arxiv.org/abs/1708.09156",
+  "source": "arxiv",
   "title": "Quantum Fully Homomorphic Encryption With Verification",
   "authors": [
    [
@@ -16572,6 +17053,7 @@
  {
   "id": "1708.07429v1",
   "link": "https://arxiv.org/abs/1708.07429",
+  "source": "arxiv",
   "title": "Quantum Pascal's Triangle and Sierpinski's carpet",
   "authors": [
    [
@@ -16594,6 +17076,7 @@
  {
   "id": "1708.07359v3",
   "link": "https://arxiv.org/abs/1708.07359",
+  "source": "arxiv",
   "title": "Verifier-on-a-Leash: new schemes for verifiable delegated quantum computation, with quasilinear resources",
   "authors": [
    [
@@ -16626,6 +17109,7 @@
  {
   "id": "1708.00360v4",
   "link": "https://arxiv.org/abs/1708.00360",
+  "source": "arxiv",
   "title": "Disentanglement Cost of Quantum States",
   "authors": [
    [
@@ -16648,6 +17132,7 @@
  {
   "id": "1708.00048v1",
   "link": "https://arxiv.org/abs/1708.00048",
+  "source": "arxiv",
   "title": "Continuous-Variable Protocol for Oblivious Transfer in the Noisy-Storage Model",
   "authors": [
    [
@@ -16686,6 +17171,7 @@
  {
   "id": "1707.05144v3",
   "link": "https://arxiv.org/abs/1707.05144",
+  "source": "arxiv",
   "title": "Many-body strategies for multi-qubit gates - quantum control through Krawtchouk chain dynamics",
   "authors": [
    [
@@ -16708,6 +17194,7 @@
  {
   "id": "1707.04954v3",
   "link": "https://arxiv.org/abs/1707.04954",
+  "source": "arxiv",
   "title": "Entangled wavepackets in the vacuum",
   "authors": [
    [
@@ -16730,6 +17217,7 @@
  {
   "id": "1705.09652v1",
   "link": "https://arxiv.org/abs/1705.09652",
+  "source": "arxiv",
   "title": "The border support rank of two-by-two matrix multiplication is seven",
   "authors": [
    [
@@ -16758,6 +17246,7 @@
  {
   "id": "1705.09379v4",
   "link": "https://arxiv.org/abs/1705.09379",
+  "source": "arxiv",
   "title": "Tensor rank is not multiplicative under the tensor product",
   "authors": [
    [
@@ -16786,6 +17275,7 @@
  {
   "id": "1705.01843v4",
   "link": "https://arxiv.org/abs/1705.01843",
+  "source": "arxiv",
   "title": "Quantum SDP-Solvers: Better upper and lower bounds",
   "authors": [
    [
@@ -16818,6 +17308,7 @@
  {
   "id": "1704.05857v1",
   "link": "https://arxiv.org/abs/1704.05857",
+  "source": "arxiv",
   "title": "Reliable channel-adapted error correction: Bacon-Shor code recovery from amplitude damping",
   "authors": [
    [
@@ -16840,6 +17331,7 @@
  {
   "id": "1704.05839v4",
   "link": "https://arxiv.org/abs/1704.05839",
+  "source": "arxiv",
   "title": "Entanglement Wedge Reconstruction via Universal Recovery Channels",
   "authors": [
    [
@@ -16880,6 +17372,7 @@
  {
   "id": "1704.00765v3",
   "link": "https://arxiv.org/abs/1704.00765",
+  "source": "arxiv",
   "title": "Quantum Algorithms for Graph Connectivity and Formula Evaluation",
   "authors": [
    [
@@ -16904,6 +17397,7 @@
  {
   "id": "1701.06806v3",
   "link": "https://arxiv.org/abs/1701.06806",
+  "source": "arxiv",
   "title": "A Survey of Quantum Learning Theory",
   "authors": [
    [
@@ -16928,6 +17422,7 @@
  {
   "id": "1611.08571v1",
   "link": "https://arxiv.org/abs/1611.08571",
+  "source": "arxiv",
   "title": "On preparing ground states of gapped Hamiltonians: An efficient Quantum Lovász Local Lemma",
   "authors": [
    [
@@ -16951,6 +17446,7 @@
  {
   "id": "1611.06917v3",
   "link": "https://arxiv.org/abs/1611.06917",
+  "source": "arxiv",
   "title": "The Horn inequalities from a geometric point of view",
   "authors": [
    [
@@ -16981,6 +17477,7 @@
  {
   "id": "1609.07476v2",
   "link": "https://arxiv.org/abs/1609.07476",
+  "source": "arxiv",
   "title": "Asymptotic tensor rank of graph tensors: beyond matrix multiplication",
   "authors": [
    [
@@ -17009,6 +17506,7 @@
  {
   "id": "1609.06994v2",
   "link": "https://arxiv.org/abs/1609.06994",
+  "source": "arxiv",
   "title": "Deconstruction and conditional erasure of quantum correlations",
   "authors": [
    [
@@ -17040,6 +17538,7 @@
  {
   "id": "1608.07200v2",
   "link": "https://arxiv.org/abs/1608.07200",
+  "source": "arxiv",
   "title": "Bulk-synchronous pseudo-streaming algorithms for many-core accelerators",
   "authors": [
    [
@@ -17066,6 +17565,7 @@
  {
   "id": "1608.06113v1",
   "link": "https://arxiv.org/abs/1608.06113",
+  "source": "arxiv",
   "title": "On the orthogonal rank of Cayley graphs and impossibility of quantum round elimination",
   "authors": [
    [
@@ -17090,6 +17590,7 @@
  {
   "id": "1608.02595v4",
   "link": "https://arxiv.org/abs/1608.02595",
+  "source": "arxiv",
   "title": "Multipartite Entanglement in Stabilizer Tensor Networks",
   "authors": [
    [
@@ -17114,6 +17615,7 @@
  {
   "id": "1607.00932v3",
   "link": "https://arxiv.org/abs/1607.00932",
+  "source": "arxiv",
   "title": "Optimal Quantum Sample Complexity of Learning Algorithms",
   "authors": [
    [
@@ -17138,6 +17640,7 @@
  {
   "id": "1606.04085v3",
   "link": "https://arxiv.org/abs/1606.04085",
+  "source": "arxiv",
   "title": "Tensor surgery and tensor rank",
   "authors": [
    [
@@ -17162,6 +17665,7 @@
  {
   "id": "1605.07948v3",
   "link": "https://arxiv.org/abs/1605.07948",
+  "source": "arxiv",
   "title": "Clean quantum and classical communication protocols",
   "authors": [
    [
@@ -17192,6 +17696,7 @@
  {
   "id": "1603.09717v2",
   "link": "https://arxiv.org/abs/1603.09717",
+  "source": "arxiv",
   "title": "Quantum homomorphic encryption for polynomial-sized circuits",
   "authors": [
    [
@@ -17219,6 +17724,7 @@
  {
   "id": "1603.07856v3",
   "link": "https://arxiv.org/abs/1603.07856",
+  "source": "arxiv",
   "title": "Using Simon's Algorithm to Attack Symmetric-Key Cryptographic Primitives",
   "authors": [
    [
@@ -17242,6 +17748,7 @@
  {
   "id": "1603.03757v2",
   "link": "https://arxiv.org/abs/1603.03757",
+  "source": "arxiv",
   "title": "Nondeterministic quantum communication complexity: the cyclic equality game and iterated matrix multiplication",
   "authors": [
    [
@@ -17269,6 +17776,7 @@
  {
   "id": "1602.01441v1",
   "link": "https://arxiv.org/abs/1602.01441",
+  "source": "arxiv",
   "title": "Computational Security of Quantum Encryption",
   "authors": [
    [
@@ -17308,6 +17816,7 @@
  {
   "id": "1601.02311v2",
   "link": "https://arxiv.org/abs/1601.02311",
+  "source": "arxiv",
   "title": "On the sum-of-squares degree of symmetric quadratic functions",
   "authors": [
    [
@@ -17339,6 +17848,7 @@
  {
   "id": "1512.07550v2",
   "link": "https://arxiv.org/abs/1512.07550",
+  "source": "arxiv",
   "title": "Optimizing the Number of Gates in Quantum Search",
   "authors": [
    [
@@ -17362,6 +17872,7 @@
  {
   "id": "1504.05255v4",
   "link": "https://arxiv.org/abs/1504.05255",
+  "source": "arxiv",
   "title": "Semantic Security and Indistinguishability in the Quantum World",
   "authors": [
    [

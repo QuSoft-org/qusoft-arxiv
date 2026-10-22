@@ -20,7 +20,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from qusoft import site_build
+from qusoft import other_servers, site_build
 from qusoft.arxiv_search import Searcher, fetch_by_ids, make_entry
 from qusoft.common import (PersonMatcher, base_id, find_portrait, load_json, load_papers, load_people,
                            path, save_json, save_papers, tenure)
@@ -59,7 +59,10 @@ class PdfSource:
 
 def make_page(paper, pdfs, people, result=None):
     pdf_out, thumb_out = site_build.page_files(paper)
-    src = pdfs.get(paper["id"], result)
+    if paper.get("source", "arxiv") != "arxiv":  # ECCC, ePrint, SSRN, ...
+        src = other_servers.fetch_pdf({"id": paper["id"], "source": paper["source"], "pdf": paper.get("pdf_url")})
+    else:
+        src = pdfs.get(paper["id"], result)
     if not src:
         return False
     try:
@@ -173,6 +176,7 @@ def main():
     ap.add_argument("--authors", nargs="+", help="search only these people (names as in people.csv)")
     ap.add_argument("--no-search", action="store_true", help="skip arXiv search")
     ap.add_argument("--redo-pages", action="store_true", help="remake all first pages")
+    ap.add_argument("--no-other-servers", action="store_true", help="search arXiv only")
     ap.add_argument("--recheck-rejected", action="store_true", help="check rejected papers again (after a rule change)")
     args = ap.parse_args()
 
@@ -195,6 +199,15 @@ def main():
             save_papers(papers)
             save_json(path("database", "search_state"), state)
             save_json(path("database", "rejected_ids"), sorted(set(rejected)))
+        if not args.no_other_servers and not args.authors:
+            print("Other servers")
+            to_check = load_json(path("database", "to_check"), {})
+            try:
+                added += other_servers.run(people, papers, state, to_check, mentions_qusoft)
+            finally:
+                save_papers(papers)
+                save_json(path("database", "search_state"), state)
+                save_json(path("database", "to_check"), to_check)
 
     if args.recheck_rejected:
         print(f"Checking {len(rejected)} rejected papers again")
@@ -223,6 +236,11 @@ def main():
         with open(summary, "a", encoding="utf-8") as f:
             f.write(f"### {len(added)} new QuSoft papers\n\n")
             f.writelines(f"- [{p['title']}]({p['link']})\n" for p in added)
+            waiting = [c for c in load_json(path("database", "to_check"), {}).values() if c["status"] == other_servers.TO_CHECK]
+            if waiting:
+                f.write(f"\n### {len(waiting)} papers on other servers to check\n\n"
+                        "Run `python scripts/to_check.py` to see and decide them.\n\n")
+                f.writelines(f"- [{c['title']}]({c['link']}) ({', '.join(c['people'])})\n" for c in waiting)
     output = os.environ.get("GITHUB_OUTPUT")
     if output:
         with open(output, "a", encoding="utf-8") as f:

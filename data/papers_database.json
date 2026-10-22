@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-10-22T09:44:47",
- "total_papers": 478,
+ "last_updated": "2026-10-22T15:00:01",
+ "total_papers": 479,
  "papers": [
   {
    "id": "2610.29762v1",
@@ -15990,6 +15990,52 @@
      "2022–2024",
      "ludovico_lami.png",
      88439
+    ]
+   ]
+  },
+  {
+   "id": "eccc-2022-185",
+   "source": "eccc",
+   "link": "https://eccc.weizmann.ac.il/report/2022/185",
+   "title": "Randomized versus Deterministic Decision Tree Size",
+   "authors": [
+    {
+     "name": "Arkadev Chattopadhyay",
+     "person": null
+    },
+    {
+     "name": "Yogesh Dahiya",
+     "person": null
+    },
+    {
+     "name": "Nikhil Mande",
+     "person": "Nikhil Mande"
+    },
+    {
+     "name": "Jaikumar Radhakrishnan",
+     "person": null
+    },
+    {
+     "name": "Swagato Sanyal",
+     "person": null
+    }
+   ],
+   "qusoft_authors": [
+    "Nikhil Mande"
+   ],
+   "submitted": "2022-12-29T00:00:00",
+   "categories": [],
+   "abstract": "",
+   "pdf_url": "https://eccc.weizmann.ac.il/report/2022/185/download/",
+   "added": "2026-10-22",
+   "page_people": [
+    [
+     "Nikhil Mande",
+     "Postdocs",
+     "alumni",
+     "2020–2022",
+     "nikhil_mande.jpg",
+     7329
     ]
    ]
   },

@@ -13,8 +13,17 @@ A GitHub Action (`.github/workflows/update.yml`) runs every night:
 
 1. It searches arXiv for each person in `people.csv`, but only for papers since that person's last search.
 2. It downloads new candidates and keeps those that name QuSoft: anywhere on the first page, or on a later page as an affiliation, supporter or funder (many maths papers give the addresses after the references). A thank-you for discussions or hospitality doesn't count. Papers without it are remembered in `data/rejected_ids.json` and are not checked again; after changing this rule, run `python scripts/update.py --no-search --recheck-rejected`.
-3. It makes the annotated first page (`site/firstpages/`) and a thumbnail (`site/thumbs/`) for each new paper.
-4. It rebuilds `site/data/`, commits the changes and deploys `site/` to GitHub Pages.
+3. It also looks at other preprint servers: ECCC (complexity), IACR ePrint (cryptography), and SSRN and ChemRxiv (through Crossref). Papers there by QuSoft people, from their time at QuSoft, that aren't on arXiv are added when their PDF names QuSoft. ePrint, SSRN and ChemRxiv don't let scripts download PDFs, so those papers go on a list to check (`data/to_check.json`):
+
+   ```bash
+   python scripts/to_check.py                  # list the papers to check
+   python scripts/to_check.py add eprint-2017-771
+   python scripts/to_check.py reject eprint-2017-771
+   ```
+
+   Or save the PDF by hand as `cache/other_pdfs/<ID>.pdf` and run `python scripts/to_check.py pdfs`: it is then checked like an arXiv paper and used for the first page.
+4. It makes the annotated first page (`site/firstpages/`) and a thumbnail (`site/thumbs/`) for each new paper.
+5. It rebuilds `site/data/`, commits the changes and deploys `site/` to GitHub Pages.
 
 To run it now, go to **Actions → Daily update → Run workflow**.
 
@@ -65,6 +74,7 @@ Settings such as portrait sizes, the QIP checkbox and search depth are in `confi
 | `people.csv` | QuSoft people searched for (public) |
 | `data/papers_database.json` | all QuSoft papers found |
 | `data/search_state.json` | per person: last search date and the query that finds them |
+| `data/to_check.json` | papers on other servers waiting to be checked, and the ones decided |
 | `data/rejected_ids.json` | papers checked that don't name QuSoft |
 | `qusoft/` | shared code: search, first pages, site data |
 | `scripts/` | command-line tools above |

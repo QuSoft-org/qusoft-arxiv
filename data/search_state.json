@@ -477,93 +477,96 @@
   "query": "au:\"Paola Grosso\""
  },
  "Philip Verduyn Lunel": {
-  "last_checked": "2026-01-04",
-  "all_variants_tried": "2026-10-20"
+  "last_checked": "2026-10-22",
+  "all_variants_tried": "2026-10-20",
+  "query": "au:\"Philip Verduyn Lunel\""
  },
  "Philippe Bouyer": {
-  "last_checked": "2026-01-04",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Philippe Corboz": {
-  "last_checked": "2026-01-04",
-  "all_variants_tried": "2026-10-20"
+  "last_checked": "2026-10-22",
+  "all_variants_tried": "2026-10-20",
+  "query": "au:\"Philippe Corboz\""
  },
  "Philippe van Dordrecht": {
-  "last_checked": "2026-01-04",
-  "all_variants_tried": "2026-10-20"
+  "last_checked": "2026-10-22",
+  "all_variants_tried": "2026-10-20",
+  "query": "au:\"Philippe van Dordrecht\""
  },
  "Poojith Umesh Rao": {
-  "last_checked": "2026-01-04",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Quinten Marcus Tupker": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Rene Allerstorfer": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Rene Gerritsma": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Rene Gerritsma\""
  },
  "Richard van Harderwijk": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Robert Spreeuw": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Robert Spreeuw\""
  },
  "Ronald de Wolf": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Ronald de Wolf\""
  },
  "Salvatore Tirone": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Salvatore Tirone\""
  },
  "Samuel van Beek": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Sander Gribling": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Sander Gribling\""
  },
  "Sarah Meng Li": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Sarah Meng Li\""
  },
  "Sebastian De Haro": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Sebastian De Haro\""
  },
  "Sebastian Verschoor": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Sebastian Verschoor\""
  },
  "Sebastian Zur": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Sebastian Zur\""
  },
  "Seenivasan Hariharan": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20",
   "query": "au:\"Seenivasan Hariharan\""
  },
  "Shayne Bennetts": {
-  "last_checked": "2026-10-21",
+  "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
  "Simon Apers": {
@@ -668,10 +671,17 @@
   "last_checked": "2026-10-22",
   "all_variants_tried": "2026-10-20"
  },
- "__pending__": [],
+ "__pending__": [
+  "2607.10877"
+ ],
  "Priscilla Awuah": {
   "all_variants_tried": "2026-10-21",
   "query": "au:\"Priscilla Awuah\"",
-  "last_checked": "2026-10-21"
+  "last_checked": "2026-10-22"
+ },
+ "__other_servers__": {
+  "eccc": "2026",
+  "eprint": "2026-10-22",
+  "crossref": "2026-10-22"
  }
 }

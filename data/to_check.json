@@ -1,0 +1,2359 @@
+{
+ "eccc-2015-86": {
+  "id": "eccc-2015-86",
+  "source": "eccc",
+  "title": "On Embeddings of $\\ell_1^k$ from Locally Decodable Codes",
+  "authors": [
+   "Jop Briet"
+  ],
+  "date": "2015-05-28",
+  "link": "https://eccc.weizmann.ac.il/report/2015/086",
+  "pdf": "https://eccc.weizmann.ac.il/report/2015/086/download/",
+  "abstract": "",
+  "people": [
+   "Jop Briët"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2017-34": {
+  "id": "eccc-2017-34",
+  "source": "eccc",
+  "title": "On algebraic branching programs of small width",
+  "authors": [
+   "Karl Bringmann",
+   "Christian Ikenmeyer",
+   "Jeroen Zuiddam"
+  ],
+  "date": "2017-02-21",
+  "link": "https://eccc.weizmann.ac.il/report/2017/034",
+  "pdf": "https://eccc.weizmann.ac.il/report/2017/034/download/",
+  "abstract": "",
+  "people": [
+   "Jeroen Zuiddam"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2018-167": {
+  "id": "eccc-2018-167",
+  "source": "eccc",
+  "title": "Improved bounds on Fourier entropy and Min-entropy",
+  "authors": [
+   "Srinivasan Arunachalam",
+   "Sourav Chakraborty",
+   "Michal Koucky",
+   "Nitin Saurabh",
+   "Ronald de Wolf"
+  ],
+  "date": "2018-09-25",
+  "link": "https://eccc.weizmann.ac.il/report/2018/167",
+  "pdf": "https://eccc.weizmann.ac.il/report/2018/167/download/",
+  "abstract": "",
+  "people": [
+   "Srinivasan Arunachalam",
+   "Ronald de Wolf"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2018-204": {
+  "id": "eccc-2018-204",
+  "source": "eccc",
+  "title": "Exponential Separation between Quantum Communication and Logarithm of Approximate Rank",
+  "authors": [
+   "Makrand Sinha",
+   "Ronald de Wolf"
+  ],
+  "date": "2018-11-30",
+  "link": "https://eccc.weizmann.ac.il/report/2018/204",
+  "pdf": "https://eccc.weizmann.ac.il/report/2018/204/download/",
+  "abstract": "",
+  "people": [
+   "Ronald de Wolf"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2020-20": {
+  "id": "eccc-2020-20",
+  "source": "eccc",
+  "title": "Improved Approximate Degree Bounds For $k$-distinctness",
+  "authors": [
+   "Nikhil Mande",
+   "Justin Thaler",
+   "Shuchen Zhu"
+  ],
+  "date": "2020-02-21",
+  "link": "https://eccc.weizmann.ac.il/report/2020/020",
+  "pdf": "https://eccc.weizmann.ac.il/report/2020/020/download/",
+  "abstract": "",
+  "people": [
+   "Nikhil Mande"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2020-29": {
+  "id": "eccc-2020-29",
+  "source": "eccc",
+  "title": "Geometric Rank of Tensors and Subrank of Matrix Multiplication",
+  "authors": [
+   "Swastik Kopparty",
+   "Guy Moshkovitz",
+   "Jeroen Zuiddam"
+  ],
+  "date": "2020-03-06",
+  "link": "https://eccc.weizmann.ac.il/report/2020/029",
+  "pdf": "https://eccc.weizmann.ac.il/report/2020/029/download/",
+  "abstract": "",
+  "people": [
+   "Jeroen Zuiddam"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2020-30": {
+  "id": "eccc-2020-30",
+  "source": "eccc",
+  "title": "Barriers for Rectangular Matrix Multiplication",
+  "authors": [
+   "Matthias Christandl",
+   "François Le Gall",
+   "Vladimir Lysikov",
+   "Jeroen Zuiddam"
+  ],
+  "date": "2020-03-09",
+  "link": "https://eccc.weizmann.ac.il/report/2020/030",
+  "pdf": "https://eccc.weizmann.ac.il/report/2020/030/download/",
+  "abstract": "",
+  "people": [
+   "Jeroen Zuiddam"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2020-119": {
+  "id": "eccc-2020-119",
+  "source": "eccc",
+  "title": "On parity decision trees for Fourier-sparse Boolean functions",
+  "authors": [
+   "Nikhil Mande",
+   "Swagato Sanyal"
+  ],
+  "date": "2020-08-01",
+  "link": "https://eccc.weizmann.ac.il/report/2020/119",
+  "pdf": "https://eccc.weizmann.ac.il/report/2020/119/download/",
+  "abstract": "",
+  "people": [
+   "Nikhil Mande"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2020-185": {
+  "id": "eccc-2020-185",
+  "source": "eccc",
+  "title": "Quantum learning algorithms imply circuit lower bounds",
+  "authors": [
+   "Srinivasan Arunachalam",
+   "Alex Grilo",
+   "Tom Gur",
+   "Igor Oliveira",
+   "Aarthi Sundaram"
+  ],
+  "date": "2020-12-01",
+  "link": "https://eccc.weizmann.ac.il/report/2020/185",
+  "pdf": "https://eccc.weizmann.ac.il/report/2020/185/download/",
+  "abstract": "",
+  "people": [
+   "Alex Grilo"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2021-65": {
+  "id": "eccc-2021-65",
+  "source": "eccc",
+  "title": "One-way communication complexity and non-adaptive decision trees",
+  "authors": [
+   "Nikhil Mande",
+   "Swagato Sanyal"
+  ],
+  "date": "2021-05-05",
+  "link": "https://eccc.weizmann.ac.il/report/2021/065",
+  "pdf": "https://eccc.weizmann.ac.il/report/2021/065/download/",
+  "abstract": "",
+  "people": [
+   "Nikhil Mande"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2021-113": {
+  "id": "eccc-2021-113",
+  "source": "eccc",
+  "title": "Tight Bounds for the Randomized and Quantum Communication Complexities of Equality with Small Error",
+  "authors": [
+   "Nikhil Mande",
+   "Ronald de Wolf"
+  ],
+  "date": "2021-07-25",
+  "link": "https://eccc.weizmann.ac.il/report/2021/113",
+  "pdf": "https://eccc.weizmann.ac.il/report/2021/113/download/",
+  "abstract": "We investigate the randomized and quantum communication complexities of the well-studied Equality function with small error probability $\\epsilon$, getting the optimal constant factors in the leading terms in a number of different models.",
+  "people": [
+   "Nikhil Mande",
+   "Ronald de Wolf"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2022-172": {
+  "id": "eccc-2022-172",
+  "source": "eccc",
+  "title": "Lifting to Parity Decision Trees Via Stifling",
+  "authors": [
+   "Arkadev Chattopadhyay",
+   "Nikhil Mande",
+   "Swagato Sanyal",
+   "Suhail Sherif"
+  ],
+  "date": "2022-12-02",
+  "link": "https://eccc.weizmann.ac.il/report/2022/172",
+  "pdf": "https://eccc.weizmann.ac.il/report/2022/172/download/",
+  "abstract": "",
+  "people": [
+   "Nikhil Mande"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2023-15": {
+  "id": "eccc-2023-15",
+  "source": "eccc",
+  "title": "A Qubit, a Coin, and an Advice String Walk Into a Relational Problem",
+  "authors": [
+   "Scott Aaronson",
+   "Harry Buhrman",
+   "William Kretschmer"
+  ],
+  "date": "2023-02-20",
+  "link": "https://eccc.weizmann.ac.il/report/2023/015",
+  "pdf": "https://eccc.weizmann.ac.il/report/2023/015/download/",
+  "abstract": "",
+  "people": [
+   "Harry Buhrman"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2024-138": {
+  "id": "eccc-2024-138",
+  "source": "eccc",
+  "title": "Fully Characterizing Lossy Catalytic Computation",
+  "authors": [
+   "Marten Folkertsma",
+   "Ian Mertz",
+   "Florian Speelman",
+   "Quinten Tupker"
+  ],
+  "date": "2024-09-08",
+  "link": "https://eccc.weizmann.ac.il/report/2024/138",
+  "pdf": "https://eccc.weizmann.ac.il/report/2024/138/download/",
+  "abstract": "",
+  "people": [
+   "Marten Folkertsma",
+   "Florian Speelman"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2025-137": {
+  "id": "eccc-2025-137",
+  "source": "eccc",
+  "title": "Limits to black-box amplification in QMA",
+  "authors": [
+   "Scott Aaronson",
+   "Freek Witteveen"
+  ],
+  "date": "2025-09-27",
+  "link": "https://eccc.weizmann.ac.il/report/2025/137",
+  "pdf": "https://eccc.weizmann.ac.il/report/2025/137/download/",
+  "abstract": "",
+  "people": [
+   "Freek Witteveen"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2026-92": {
+  "id": "eprint-2026-92",
+  "source": "eprint",
+  "title": "Integrity from Algebraic Manipulation Detection in Trusted-Repeater QKD Networks",
+  "authors": [
+   "Ailsa Robertson",
+   "Christian Schaffner",
+   "Sebastian R. Verschoor"
+  ],
+  "date": "2026-01-20",
+  "link": "https://eprint.iacr.org/2026/92",
+  "pdf": "https://eprint.iacr.org/2026/92.pdf",
+  "abstract": "Quantum Key Distribution (QKD) allows secure communication without relying on computational assumptions, but can currently only be deployed over relatively short distances due to hardware constraints. To extend QKD over long distances, networks of trusted repeater nodes can be used, wherein QKD is executed between neighbouring nodes and messages between non-neighbouring nodes are forwarded using a relay protocol. Although these networks are being deployed worldwide, no protocol exists which provides provable guarantees of integrity against manipulation from both external adversaries and corrupted intermediates. In this work, we present the first protocol that provably provides both confidentiality and integrity. Our protocol combines an existing cryptographic technique, Algebraic Manipulation Detection (AMD) codes, with multi-path relaying over trusted repeater networks. This protocol achieves Information-Theoretic Security (ITS) against the detection of manipulation, which we prove formally through a sequence of games.",
+  "people": [
+   "Ailsa Robertson",
+   "Christian Schaffner",
+   "Sebastian Verschoor"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-2189": {
+  "id": "eprint-2025-2189",
+  "source": "eprint",
+  "title": "An Improved Quantum Algorithm for 3-Tuple Lattice Sieving",
+  "authors": [
+   "Lynn Engelberts",
+   "Yanlin Chen",
+   "Amin Shiraz Gilani",
+   "Maya-Iggy van Hoof",
+   "Stacey Jeffery",
+   "Ronald de Wolf"
+  ],
+  "date": "2025-12-02",
+  "link": "https://eprint.iacr.org/2025/2189",
+  "pdf": "https://eprint.iacr.org/2025/2189.pdf",
+  "abstract": "The assumed hardness of the Shortest Vector Problem in high-dimensional lattices is one of the cornerstones of post-quantum cryptography. The fastest known heuristic attacks on SVP are via so-called sieving methods. While these still take exponential time in the dimension $d$, they are significantly faster than non-heuristic approaches and their heuristic assumptions are verified by extensive experiments. $k$-Tuple sieving is an iterative method where each iteration takes as input a large number of lattice vectors of a certain norm, and produces an equal number of lattice vectors of slightly smaller norm, by taking sums and differences of $k$ of the input vectors. Iterating these ''sieving steps'' sufficiently many times produces a short lattice vector. The fastest attacks (both classical and quantum) are for $k=2$, but taking larger $k$ reduces the amount of memory required for the attack. In this paper we improve the quantum time complexity of 3-tuple sieving from $2^{0.3098 d}$ to $2^{0.2846 d}$, using a two-level amplitude amplification aided by a preprocessing step that associates the given lattice vectors with nearby ''center points'' to focus the search on the neighborhoods of these center points. Our algorithm uses $2^{0.1887d}$ classical bits and QCRAM bits, and $2^{o(d)}$ qubits. This is the fastest known quantum algorithm for SVP when total memory is limited to $2^{0.1887d}$.",
+  "people": [
+   "Lynn Engelberts",
+   "Stacey Jeffery",
+   "Ronald de Wolf"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-1904": {
+  "id": "eprint-2025-1904",
+  "source": "eprint",
+  "title": "Predicting Module-Lattice Reduction",
+  "authors": [
+   "Léo Ducas",
+   "Lynn Engelberts",
+   "Paola de Perthuis"
+  ],
+  "date": "2025-10-12",
+  "link": "https://eprint.iacr.org/2025/1904",
+  "pdf": "https://eprint.iacr.org/2025/1904.pdf",
+  "abstract": "Is module-lattice reduction better than unstructured lattice reduction? This question was highlighted as 'Q8' in the Kyber NIST standardization submission (Avanzi et al., 2021), as potentially affecting the concrete security of Kyber and other module-lattice-based schemes. Foundational works on module-lattice reduction (Lee, Pellet-Mary, Stehlé, and Wallet, ASIACRYPT 2019; Mukherjee and Stephens-Davidowitz, CRYPTO 2020) confirmed the existence of such module variants of LLL and block-reduction algorithms, but focus only on provable worst-case asymptotic behavior. In this work, we present a concrete average-case analysis of module-lattice reduction. Specifically, we address the question of the expected slope after running module-BKZ, and pinpoint the discriminant $\\Delta_K$ of the number field at hand as the main quantity driving this slope. We convert this back into a gain or loss on the blocksize $\\beta$: module-BKZ in a number field $K$ of degree $d$ requires an SVP oracle of dimension $\\beta + \\log(|\\Delta_K| / d^d)\\beta /(d\\log \\beta) + o(\\beta / \\log \\beta)$ to reach the same slope as unstructured BKZ with blocksize $\\beta$. This asymptotic summary hides further terms that we predict concretely using experimentally verified heuristics. Incidentally, we provide the first open-source implementation of module-BKZ for some cyclotomic fields. For power-of-two cyclotomic fields, we have $|\\Delta_K| = d^d$, and conclude that module-BKZ requires a blocksize larger than its unstructured counterpart by $d-1+o(1)$. On the contrary, for all other cyclotomic fields we have $|\\Delta_K| < d^d$, so module-BKZ provides a sublinear $\\Theta(\\beta/\\log \\beta)$ gain on the required blocksize, yielding a subexponential speedup of $\\exp(\\Theta(\\beta/\\log \\beta))$.",
+  "people": [
+   "Lynn Engelberts"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-1863": {
+  "id": "eprint-2025-1863",
+  "source": "eprint",
+  "title": "On Limits on the Provable Consequences of Quantum Pseudorandomness",
+  "authors": [
+   "Samuel Bouaziz--Ermann",
+   "Minki Hhan",
+   "Garazi Muguruza",
+   "Quoc-Huy Vu"
+  ],
+  "date": "2025-10-08",
+  "link": "https://eprint.iacr.org/2025/1863",
+  "pdf": "https://eprint.iacr.org/2025/1863.pdf",
+  "abstract": "There are various notions of quantum pseudorandomness, such as pseudorandom unitaries (PRUs), pseudorandom state generators (PRSGs), pseudorandom function-like state generators (PRFSGs) and quantum-computable PRGs. Unlike the different notions of classical pseudorandomness, which are known to be existentially equivalent to each other, the relations among quantum pseudorandomness have yet to be fully established. We present evidence suggesting that some forms of quantum pseudorandomness are unlikely to be constructed from the others. This indicates that quantum pseudorandomness behaves quite differently from classical pseudorandomness. Our main result is a unitary oracle separation where log-length output PRFSGs exist but quantum-computable pseudorandom generators (QPRGs) with negligible correctness error do not. This result suggests that the inverse-polynomial error in the state-of-the-art construction of QPRGs from log-length PRSGs is inherent. To achieve this, we prove a novel differential geometric \\emph{barrier theorem} for the product Haar measure on quantum states which replaces the usual concentration inequalities by certifying a non-negligible ``gap'' between two large trace-separated sets. Our separation is based on an oracle that outputs Haar random quantum states for each bit string, which can be viewed as a quantum version of the random oracle model, where output strings are replaced by quantum states. Variations of this oracle can be used to study other relationships between quantum cryptographic primitives, and we use it to achieve partial separations, that highlight technical difficulties when dealing with ancillary registers, measurements, and adaptivity in the quantum setting. More precisely, we obtain separations showing limitations of: (i) deriving ancilla-free pseudorandom unitaries (PRUs) from PRFSGs, and (ii) a natural way of constructing super-log-length output PRSGs from log-length output PRFSGs. The latter partly complements the known hardness of shrinking the PRSG output lengths.",
+  "people": [
+   "Garazi Muguruza Lasa"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-1671": {
+  "id": "eprint-2025-1671",
+  "source": "eprint",
+  "title": "QKD Oracles for Authenticated Key Exchange",
+  "authors": [
+   "Kathrin Hövelmanns",
+   "Daan Planken",
+   "Christian Schaffner",
+   "Sebastian Verschoor"
+  ],
+  "date": "2025-09-15",
+  "link": "https://eprint.iacr.org/2025/1671",
+  "pdf": "https://eprint.iacr.org/2025/1671.pdf",
+  "abstract": "Authenticated Key Exchange (AKE) establishes shared ('symmetric') cryptographic keys which are essential for secure online communication. AKE protocols can be constructed from public-key cryptography like Key Encapsulation Mechanisms (KEMs). Another approach is to use Quantum Key Distribution (QKD) to establish a symmetric key, which uses quantum communication. Combining post-quantum AKE and QKD appropriately may provide security against quantum attacks even if only one of the two approaches turns out to be secure. We provide an extensive review of existing security analyses for combined AKE and their formal security models, and identify some gaps in their treatment of QKD key IDs. In particular, improper handling of QKD key IDs leads to Dependent-Key attacks on AKE. As our main conceptual contribution, we model QKD as an oracle that closely resembles the standard ETSI 014 QKD interface. We demonstrate the usability of our QKD oracle for cryptographic security analyses by integrating it into a prominent security model for AKE, called CK+ model, thereby obtaining a security model for combined AKE that catches Dependent-Key attacks. In this model, we formally prove security of a new protocol that combines QKD with a triple-KEM handshake. This is the first provably secure hybrid protocol that maintains information-theoretic security of QKD.",
+  "people": [
+   "Daan Planken",
+   "Christian Schaffner",
+   "Sebastian Verschoor"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-778": {
+  "id": "eprint-2025-778",
+  "source": "eprint",
+  "title": "Amplifying Randomized Encodings & Applications",
+  "authors": [
+   "Pouria Fallahpour",
+   "Alex B. Grilo",
+   "Garazi Muguruza",
+   "Mahshid Riahinia"
+  ],
+  "date": "2025-04-30",
+  "link": "https://eprint.iacr.org/2025/778",
+  "pdf": "https://eprint.iacr.org/2025/778.pdf",
+  "abstract": "A randomized encoding for a promise problem is a randomized reduction whose outcome distribution on input $x$ can be simulated within some distance $d$, called privacy, using only one bit of information about $x$: whether it is a YES or NO instance. The encoding is one-sided if this property holds only for YES instances. Our main contribution is showing that (classical and quantum) one-sided randomized encodings have privacy and correctness amplification: any problem with a randomized encoding with privacy $1-1/poly(n)$ and error $1/2-1/poly(n)$, also has an encoding with negligible privacy and error. We then use this result to obtain the following statements: - We show that NISZK, the class of problems that have a non-interactive (statistical) zero-knowledge proof, has strong zero-knowledge amplification, i.e., every problem with a non-interactive zero-knowledge proof with zero-knowledge error $1-1/poly(n)$, also has a non-interactive zero-knowledge proof with negligible zero-knowledge error. This solves a problem open since the work of Goldreich, Sahai, and Vadhan (CRYPTO '99). - The worst-case hardness of a problem that has a perfect (i.e., zero error) one-sided encoding implies one-way functions (OWFs). And if the encoding is quantum, it implies one-way state generators (OWSGs). We then conclude that by removing the error from one-sided randomized encodings, the worst-case hardness of the complexity class SZK becomes sufficient for the existence of OWFs. - Weak and imperfect indistinguishability obfuscation (iO) implies OWFs assuming that the Polynomial Hierarchy does not collapse to its third level. Here, weakness means that the computational distance between the obfuscated circuit and the original circuit is $1-1/poly(n)$, and imperfectness means that the error is $1/2-1/poly(n)$. To achieve this privacy and correctness amplification, we study randomized encodings through the lens of lossy reductions (Ball et al. ITCS 2020). In particular, we introduce an extended and flexible notion of lossy reductions, and show that it is equivalent to randomized encodings. This equivalence serves as the base of our main results and might be of independent interest.",
+  "people": [
+   "Garazi Muguruza Lasa"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-575": {
+  "id": "eprint-2025-575",
+  "source": "eprint",
+  "title": "Wagner's Algorithm Provably Runs in Subexponential Time for SIS$^\\infty$",
+  "authors": [
+   "Léo Ducas",
+   "Lynn Engelberts",
+   "Johanna Loyer"
+  ],
+  "date": "2025-03-29",
+  "link": "https://eprint.iacr.org/2025/575",
+  "pdf": "https://eprint.iacr.org/2025/575.pdf",
+  "abstract": "At CRYPTO 2015, Kirchner and Fouque claimed that a carefully tuned variant of the Blum-Kalai-Wasserman (BKW) algorithm (JACM 2003) should solve the Learning with Errors problem (LWE) in slightly subexponential time for modulus $q=\\mathrm{poly}(n)$ and narrow error distribution, when given enough LWE samples. Taking a modular view, one may regard BKW as a combination of Wagner's algorithm (CRYPTO 2002), run over the corresponding dual problem, and the Aharonov-Regev distinguisher (JACM 2005). Hence the subexponential Wagner step alone should be of interest for solving this dual problem - namely, the Short Integer Solution problem (SIS) - but this appears to be undocumented so far. We re-interpret this Wagner step as walking backward through a chain of projected lattices, zigzagging through some auxiliary superlattices. We further randomize the bucketing step using Gaussian randomized rounding to exploit the powerful discrete Gaussian machinery. This approach avoids sample amplification and turns Wagner's algorithm into an approximate discrete Gaussian sampler for $q$-ary lattices. For an SIS lattice with $n$ equations modulo $q$, this algorithm runs in subexponential time $\\exp(O(n/\\log \\log n))$ to reach a Gaussian width parameter $s = q/\\mathrm{polylog}(n)$ only requiring $m = n + \\omega(n/\\log \\log n)$ many SIS variables. This directly provides a provable algorithm for solving the Short Integer Solution problem in the infinity norm ($\\mathrm{SIS}^\\infty$) for norm bounds $\\beta = q/\\mathrm{polylog}(n)$. This variant of SIS underlies the security of the NIST post-quantum cryptography standard Dilithium. Despite its subexponential complexity, Wagner's algorithm does not appear to threaten Dilithium's concrete security.",
+  "people": [
+   "Lynn Engelberts"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2025-173": {
+  "id": "eprint-2025-173",
+  "source": "eprint",
+  "title": "A Critical Analysis of Deployed Use Cases for Quantum Key Distribution and Comparison with Post-Quantum Cryptography",
+  "authors": [
+   "Nick Aquina",
+   "Bruno Cimoli",
+   "Soumya Das",
+   "Kathrin Hövelmanns",
+   "Fiona Johanna Weber",
+   "Chigo Okonkwo",
+   "Simon Rommel",
+   "Boris Škorić",
+   "Idelfonso Tafur Monroy",
+   "Sebastian Verschoor"
+  ],
+  "date": "2025-02-05",
+  "link": "https://eprint.iacr.org/2025/173",
+  "pdf": "https://eprint.iacr.org/2025/173.pdf",
+  "abstract": "Quantum Key Distribution (QKD) is currently being discussed as a technology to safeguard communication in a future where quantum computers compromise traditional public-key cryptosystems. In this paper, we conduct a comprehensive security evaluation of QKD-based solutions, focusing on real-world use cases sourced from academic literature and industry reports. We analyze these use cases, assess their security and identify the possible advantages of deploying QKD-based solutions. We further compare QKD-based solutions with Post-Quantum Cryptography (PQC), the alternative approach to achieving security when quantum computers compromise traditional public-key cryptosystems, evaluating their respective suitability for each scenario. Based on this comparative analysis, we critically discuss and comment on which use cases QKD is suited for, considering factors such as implementation complexity, scalability, and long-term security. Our findings contribute to a better understanding of the role QKD could play in future cryptographic infrastructures and offer guidance to decision-makers considering the deployment of QKD.",
+  "people": [
+   "Sebastian Verschoor"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2024-1358": {
+  "id": "eprint-2024-1358",
+  "source": "eprint",
+  "title": "Quantum Sieving for Code-Based Cryptanalysis and Its Limitations for ISD",
+  "authors": [
+   "Lynn Engelberts",
+   "Simona Etinski",
+   "Johanna Loyer"
+  ],
+  "date": "2024-08-29",
+  "link": "https://eprint.iacr.org/2024/1358",
+  "pdf": "https://eprint.iacr.org/2024/1358.pdf",
+  "abstract": "Sieving using near-neighbor search techniques is a well-known method in lattice-based cryptanalysis, yielding the current best runtime for the shortest vector problem in both the classical [BDGL16] and quantum [BCSS23] setting. Recently, sieving has also become an important tool in code-based cryptanalysis. Specifically, using a sieving subroutine, [GJN23, DEEK24] presented a variant of the information-set decoding (ISD) framework, which is commonly used for attacking cryptographically relevant instances of the decoding problem. The resulting sieving-based ISD framework yields complexities close to the best-performing classical algorithms for the decoding problem such as [BJMM12, BM18]. It is therefore natural to ask how well quantum versions perform. In this work, we introduce the first quantum algorithms for code sieving by designing quantum variants of the aforementioned sieving subroutine. In particular, using quantum-walk techniques, we provide a speed-up over the best known classical algorithm from [DEEK24] and over a variant using Grover's algorithm [Gro96]. Our quantum-walk algorithm exploits the structure of the underlying search problem by adding a layer of locality-sensitive filtering, inspired by the quantum-walk algorithm for lattice sieving from [CL21]. We complement our asymptotic analysis of the quantum algorithms with numerical results, and observe that our quantum speed-ups for code sieving behave similarly as those observed in lattice sieving. In addition, we show that a natural quantum analog of the sieving-based ISD framework does not provide any speed-up over the first presented quantum ISD algorithm [Ber10]. Our analysis highlights that the framework should be adapted in order to outperform the state-of-the-art of quantum ISD algorithms [KT17, Kir18].",
+  "people": [
+   "Lynn Engelberts"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2024-1276": {
+  "id": "eprint-2024-1276",
+  "source": "eprint",
+  "title": "A bound on the quantum value of all compiled nonlocal games",
+  "authors": [
+   "Alexander Kulpe",
+   "Giulio Malavolta",
+   "Connor Paddock",
+   "Simon Schmidt",
+   "Michael Walter"
+  ],
+  "date": "2024-08-13",
+  "link": "https://eprint.iacr.org/2024/1276",
+  "pdf": "https://eprint.iacr.org/2024/1276.pdf",
+  "abstract": "A cryptographic compiler introduced by Kalai, Lombardi, Vaikuntanathan, and Yang (STOC’23) converts any nonlocal game into an interactive protocol with a single computa- tionally bounded prover. Although the compiler is known to be sound in the case of classical provers and complete in the quantum case, quantum soundness has so far only been established for special classes of games. In this work, we establish a quantum soundness result for all compiled two-player nonlocal games. In particular, we prove that the quantum commuting operator value of the underlying nonlocal game is an upper bound on the quantum value of the compiled game. Our result employs techniques from operator algebras in a computational and cryptographic setting to establish information-theoretic objects in the asymptotic limit of the security parameter. It further relies on a sequential characterization of quantum commuting operator correlations, which may be of independent interest.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2024-1140": {
+  "id": "eprint-2024-1140",
+  "source": "eprint",
+  "title": "Permutation Superposition Oracles for Quantum Query Lower Bounds",
+  "authors": [
+   "Christian Majenz",
+   "Giulio Malavolta",
+   "Michael Walter"
+  ],
+  "date": "2024-07-13",
+  "link": "https://eprint.iacr.org/2024/1140",
+  "pdf": "https://eprint.iacr.org/2024/1140.pdf",
+  "abstract": "We propose a generalization of Zhandry’s compressed oracle method to random permutations, where an algorithm can query both the permutation and its inverse. We show how to use the resulting oracle simulation to bound the success probability of an algorithm for any predicate on input-output pairs, a key feature of Zhandry’s technique that had hitherto resisted attempts at generalization to random permutations. One key technical ingredient is to use strictly monotone factorizations to represent the permutation in the oracle’s database. As an application of our framework, we show that the one-round sponge construction is unconditionally preimage resistant in the random permutation model. This proves a conjecture by Unruh.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2024-348": {
+  "id": "eprint-2024-348",
+  "source": "eprint",
+  "title": "A Computational Tsirelson's Theorem for the Value of Compiled XOR Games",
+  "authors": [
+   "David Cui",
+   "Giulio Malavolta",
+   "Arthur Mehta",
+   "Anand Natarajan",
+   "Connor Paddock",
+   "Simon Schmidt",
+   "Michael Walter",
+   "Tina Zhang"
+  ],
+  "date": "2024-02-27",
+  "link": "https://eprint.iacr.org/2024/348",
+  "pdf": "https://eprint.iacr.org/2024/348.pdf",
+  "abstract": "Nonlocal games are a foundational tool for understanding entanglement and constructing quantum protocols in settings with multiple spatially separated quantum devices. In this work, we continue the study initiated by Kalai et al. (STOC '23) of compiled nonlocal games, played between a classical verifier and a single cryptographically limited quantum device. Our main result is that the compiler proposed by Kalai et al. is sound for any two-player XOR game. A celebrated theorem of Tsirelson shows that for XOR games, the quantum value is exactly given by a semidefinite program, and we obtain our result by showing that the SDP upper bound holds for the compiled game up to a negligible error arising from the compilation. This answers a question raised by Natarajan and Zhang (FOCS '23), who showed soundness for the specific case of the CHSH game. Using our techniques, we obtain several additional results, including (1) tight bounds on the compiled value of parallel-repeated XOR games, (2) operator self-testing statements for any compiled XOR game, and (3) a ``nice\" sum-of-squares certificate for any XOR game, from which operator rigidity is manifest.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2024-291": {
+  "id": "eprint-2024-291",
+  "source": "eprint",
+  "title": "Quantum Pseudorandomness Cannot Be Shrunk In a Black-Box Way",
+  "authors": [
+   "Samuel Bouaziz--Ermann",
+   "Garazi Muguruza"
+  ],
+  "date": "2024-02-20",
+  "link": "https://eprint.iacr.org/2024/291",
+  "pdf": "https://eprint.iacr.org/2024/291.pdf",
+  "abstract": "Pseudorandom Quantum States (PRS) were introduced by Ji, Liu and Song as quantum analogous to Pseudorandom Generators. They are an ensemble of states efficiently computable but computationally indistinguishable from Haar random states. Subsequent works have shown that some cryptographic primitives can be constructed from PRSs. Moreover, recent classical and quantum oracle separations of PRS from One-Way Functions strengthen the interest in a purely quantum alternative building block for quantum cryptography, potentially weaker than OWFs. However, our lack of knowledge of extending or shrinking the number of qubits of the PRS output still makes it difficult to reproduce some of the classical proof techniques and results. Short-PRSs, that is PRSs with logarithmic size output, have been introduced in the literature along with cryptographic applications, but we still do not know how they relate to PRSs. Here we answer half of the question, by showing that it is not possible to shrink the output of a PRS from polynomial to logarithmic qubit length while still preserving the pseudorandomness property, in a relativized way. More precisely, we show that relative to Kretschmer's quantum oracle (TQC 2021) short-PRSs cannot exist (while PRSs exist, as shown by Kretschmer's work).",
+  "people": [
+   "Garazi Muguruza Lasa"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-877": {
+  "id": "eprint-2023-877",
+  "source": "eprint",
+  "title": "Public-Key Encryption with Quantum Keys",
+  "authors": [
+   "Khashayar Barooti",
+   "Alex B. Grilo",
+   "Loïs Huguenin-Dumittan",
+   "Giulio Malavolta",
+   "Or Sattath",
+   "Quoc-Huy Vu",
+   "Michael Walter"
+  ],
+  "date": "2023-06-08",
+  "link": "https://eprint.iacr.org/2023/877",
+  "pdf": "https://eprint.iacr.org/2023/877.pdf",
+  "abstract": "In the framework of Impagliazzo's five worlds, a distinction is often made between two worlds, one where public-key encryption exists (Cryptomania), and one in which only one-way functions exist (MiniCrypt). However, the boundaries between these worlds can change when quantum information is taken into account. Recent work has shown that quantum variants of oblivious transfer and multi-party computation, both primitives that are classically in Cryptomania, can be constructed from one-way functions, placing them in the realm of quantum MiniCrypt (the so-called MiniQCrypt). This naturally raises the following question: Is it possible to construct a quantum variant of public-key encryption, which is at the heart of Cryptomania, from one-way functions or potentially weaker assumptions? In this work, we initiate the formal study of the notion of quantum public-key encryption (qPKE), i.e., public-key encryption where keys are allowed to be quantum states. We propose new definitions of security and several constructions of qPKE based on the existence of one-way functions (OWF), or even weaker assumptions, such as pseudorandom function-like states (PRFS) and pseudorandom function-like states with proof of destruction (PRFSPD). Finally, to give a tight characterization of this primitive, we show that computational assumptions are necessary to build quantum public-key encryption. That is, we give a self-contained proof that no quantum public-key encryption scheme can provide information-theoretic security.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-559": {
+  "id": "eprint-2023-559",
+  "source": "eprint",
+  "title": "Weakening Assumptions for Publicly-Verifiable Deletion",
+  "authors": [
+   "James Bartusek",
+   "Dakshita Khurana",
+   "Giulio Malavolta",
+   "Alexander Poremba",
+   "Michael Walter"
+  ],
+  "date": "2023-04-19",
+  "link": "https://eprint.iacr.org/2023/559",
+  "pdf": "https://eprint.iacr.org/2023/559.pdf",
+  "abstract": "We develop a simple compiler that generically adds publicly-verifiable deletion to a variety of cryptosystems. Our compiler only makes use of one-way functions (or one-way state generators, if we allow the public verification key to be quantum). Previously, similar compilers either relied on the use of indistinguishability obfuscation (Bartusek et. al., ePrint:2023/265) or almost-regular one-way functions (Bartusek, Khurana and Poremba, arXiv:2303.08676).",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-500": {
+  "id": "eprint-2023-500",
+  "source": "eprint",
+  "title": "Robust Quantum Public-Key Encryption with Applications to Quantum Key Distribution",
+  "authors": [
+   "Giulio Malavolta",
+   "Michael Walter"
+  ],
+  "date": "2023-04-06",
+  "link": "https://eprint.iacr.org/2023/500",
+  "pdf": "https://eprint.iacr.org/2023/500.pdf",
+  "abstract": "Quantum key distribution (QKD) allows Alice and Bob to agree on a shared secret key, while communicating over a public (untrusted) quantum channel. Compared to classical key exchange, it has two main advantages: (i) The key is unconditionally hidden to the eyes of any attacker, and (ii) its security assumes only the existence of authenticated classical channels which, in practice, can be realized using Minicrypt assumptions, such as the existence of digital signatures. On the flip side, QKD protocols typically require multiple rounds of interactions, whereas classical key exchange can be realized with the minimal amount of two messages using public-key encryption. A long-standing open question is whether QKD requires more rounds of interaction than classical key exchange. In this work, we propose a two-message QKD protocol that satisfies everlasting security, assuming only the existence of quantum-secure one-way functions. That is, the shared key is unconditionally hidden, provided computational assumptions hold during the protocol execution. Our result follows from a new construction of quantum public-key encryption (QPKE) whose security, much like its classical counterpart, only relies on authenticated classical channels.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-340": {
+  "id": "eprint-2023-340",
+  "source": "eprint",
+  "title": "SALSA PICANTE: a machine learning attack on LWE with binary secrets",
+  "authors": [
+   "Cathy Li",
+   "Jana Sotáková",
+   "Emily Wenger",
+   "Mohamed Malhou",
+   "Evrard Garcelon",
+   "Francois Charton",
+   "Kristin Lauter"
+  ],
+  "date": "2023-03-07",
+  "link": "https://eprint.iacr.org/2023/340",
+  "pdf": "https://eprint.iacr.org/2023/340.pdf",
+  "abstract": "Learning with Errors (LWE) is a hard math problem underpinning many proposed post-quantum cryptographic (PQC) systems. The only PQC Key Exchange Mechanism (KEM) standardized by NIST is based on module~LWE, and current publicly available PQ Homomorphic Encryption (HE) libraries are based on ring LWE. The security of LWE-based PQ cryptosystems is critical, but certain implementation choices could weaken them. One such choice is sparse binary secrets, desirable for PQ HE schemes for efficiency reasons. Prior work, SALSA, demonstrated a machine learning-based attack on LWE with sparse binary secrets in small dimensions ($n \\le 128$) and low Hamming weights ($h \\le 4$). However, this attack assumes access to millions of eavesdropped LWE samples and fails at higher Hamming weights or dimensions. We present PICANTE, an enhanced machine learning attack on LWE with sparse binary secrets, which recovers secrets in much larger dimensions (up to $n=350$) and with larger Hamming weights (roughly $n/10$, and up to $h=60$ for $n=350$). We achieve this dramatic improvement via a novel preprocessing step, which allows us to generate training data from a linear number of eavesdropped LWE samples ($4n$) and changes the distribution of the data to improve transformer training. We also improve the secret recovery methods of SALSA and introduce a novel cross-attention recovery mechanism allowing us to read off the secret directly from the trained models. While PICANTE does not threaten NIST's proposed LWE standards, it demonstrates significant improvement over SALSA and could scale further, highlighting the need for future investigation into machine learning attacks on LWE with sparse binary secrets.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-311": {
+  "id": "eprint-2023-311",
+  "source": "eprint",
+  "title": "Oblivious Transfer from Zero-Knowledge Proofs, or How to Achieve Round-Optimal Quantum Oblivious Transfer and Zero-Knowledge Proofs on Quantum States",
+  "authors": [
+   "Léo Colisson",
+   "Garazi Muguruza",
+   "Florian Speelman"
+  ],
+  "date": "2023-03-02",
+  "link": "https://eprint.iacr.org/2023/311",
+  "pdf": "https://eprint.iacr.org/2023/311.pdf",
+  "abstract": "We provide a generic construction to turn any classical Zero-Knowledge (ZK) protocol into a composable (quantum) oblivious transfer (OT) protocol, mostly lifting the round-complexity properties and security guarantees (plain-model/statistical security/unstructured functions…) of the ZK protocol to the resulting OT protocol. Such a construction is unlikely to exist classically as Cryptomania is believed to be different from Minicrypt. In particular, by instantiating our construction using Non-Interactive ZK (NIZK), we provide the first round-optimal (2-message) quantum OT protocol secure in the random oracle model, and round-optimal extensions to string and k-out-of-n OT. At the heart of our construction lies a new method that allows us to prove properties on a received quantum state without revealing additional information on it, even in a non-interactive way, without public-key primitives, and/or with statistical guarantees when using an appropriate classical ZK protocol. We can notably prove that a state has been partially measured (with arbitrary constraints on the set of measured qubits), without revealing any additional information on this set. This notion can be seen as an analog of ZK to quantum states, and we expect it to be of independent interest as it extends complexity theory to quantum languages, as illustrated by the two new complexity classes we introduce, ZKstatesQIP and ZKstatesQMA.",
+  "people": [
+   "Léo Colisson",
+   "Garazi Muguruza Lasa",
+   "Florian Speelman"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2023-306": {
+  "id": "eprint-2023-306",
+  "source": "eprint",
+  "title": "A Simple Construction of Quantum Public-Key Encryption from Quantum-Secure One-Way Functions",
+  "authors": [
+   "Khashayar Barooti",
+   "Giulio Malavolta",
+   "Michael Walter"
+  ],
+  "date": "2023-03-01",
+  "link": "https://eprint.iacr.org/2023/306",
+  "pdf": "https://eprint.iacr.org/2023/306.pdf",
+  "abstract": "Quantum public-key encryption [Gottesman; Kawachi et al., Eurocrypt’05] generalizes public-key encryption (PKE) by allowing the public keys to be quantum states. Prior work indicated that quantum PKE can be constructed from assumptions that are potentially weaker than those needed to realize its classical counterpart. In this work, we show that quantum PKE can be constructed from any quantum-secure one-way function. In contrast, classical PKE is believed to require more structured assumptions. Our construction is simple, uses only classical ciphertexts, and satisfies the strong notion of CCA security.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2022-270": {
+  "id": "eprint-2022-270",
+  "source": "eprint",
+  "title": "Efficient NIZKs and Signatures from Commit-and-Open Protocols in the QROM",
+  "authors": [
+   "Jelle Don",
+   "Serge Fehr",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "date": "2022-03-02",
+  "link": "https://eprint.iacr.org/2022/270",
+  "pdf": "https://eprint.iacr.org/2022/270.pdf",
+  "abstract": "Commit-and-open Sigma-protocols are a popular class of protocols for constructing non-interactive zero-knowledge arguments and digital-signature schemes via the Fiat-Shamir transformation. Instantiated with hash-based commitments, the resulting non-interactive schemes enjoy tight online-extractability in the random oracle model. Online extractability improves the tightness of security proofs for the resulting digital-signature schemes by avoiding lossy rewinding or forking-lemma based extraction. In this work, we prove tight online extractability in the quantum random oracle model (QROM), showing that the construction supports post-quantum security. First, we consider the default case where committing is done by element-wise hashing. In a second part, we extend our result to Merkle-tree based commitments. Our results yield a significant improvement of the provable post-quantum security of the digital-signature scheme Picnic. Our analysis makes use of a recent framework by Chung et al. for analysing quantum algorithms in the QROM using purely classical reasoning. Therefore, our results can to a large extent be understood and verified without prior knowledge of quantum information science.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2021-1601": {
+  "id": "eprint-2021-1601",
+  "source": "eprint",
+  "title": "Post-Quantum Security of the Even-Mansour Cipher",
+  "authors": [
+   "Gorjan Alagic",
+   "Chen Bai",
+   "Jonathan Katz",
+   "Christian Majenz"
+  ],
+  "date": "2021-12-09",
+  "link": "https://eprint.iacr.org/2021/1601",
+  "pdf": "https://eprint.iacr.org/2021/1601.pdf",
+  "abstract": "The Even-Mansour cipher is a simple method for constructing a (keyed) pseudorandom permutation $E$ from a public random permutation $P:\\{0,1\\}^n \\rightarrow \\{0,1\\}^n$. It is a core ingredient in a wide array of symmetric-key constructions, including several lightweight cryptosystems presently under consideration for standardization by NIST. It is secure against classical attacks, with optimal attacks requiring $q_E$ queries to $E$ and $q_P$ queries to $P$ such that $q_E \\cdot q_P \\approx 2^n$. If the attacker is given *quantum* access to both $E$ and $P$, however, the cipher is completely insecure, with attacks using $q_E, q_P = O(n)$ queries known. In any plausible real-world setting, however, a quantum attacker would have only *classical* access to the keyed permutation $E$ implemented by honest parties, while retaining quantum access to $P$. Attacks in this setting with $q_E \\cdot q_P^2 \\approx 2^n$ are known, showing that security degrades as compared to the purely classical case, but leaving open the question as to whether the Even-Mansour cipher can still be proven secure in this natural ``post-quantum'' setting. We resolve this question, showing that any attack in that setting requires $q_E \\cdot q^2_P + q_P \\cdot q_E^2 \\approx 2^n$. Our results apply to both the two-key and single-key variants of Even-Mansour. Along the way, we establish several generalizations of results from prior work on quantum-query lower bounds that may be of independent interest.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2021-408": {
+  "id": "eprint-2021-408",
+  "source": "eprint",
+  "title": "Limitations on Uncloneable Encryption and Simultaneous One-Way-to-Hiding",
+  "authors": [
+   "Christian Majenz",
+   "Christian Schaffner",
+   "Mehrdad Tahmasbi"
+  ],
+  "date": "2021-03-27",
+  "link": "https://eprint.iacr.org/2021/408",
+  "pdf": "https://eprint.iacr.org/2021/408.pdf",
+  "abstract": "We study uncloneable quantum encryption schemes for classical messages as recently proposed by Broadbent and Lord. We focus on the information-theoretic setting and give several limitations on the structure and security of these schemes: Concretely, 1) We give an explicit cloning-indistinguishable attack that succeeds with probability $\\frac12 + \\mu/16$ where $\\mu$ is related to the largest eigenvalue of the resulting quantum ciphertexts. 2) For a uniform message distribution, we partially characterize the scheme with the minimal success probability for cloning attacks. 3) Under natural symmetry conditions, we prove that the rank of the ciphertext density operators has to grow at least logarithmically in the number of messages to ensure uncloneable security. 4) The \\emph{simultaneous} one-way-to-hiding (O2H) lemma is an important technique in recent works on uncloneable encryption and quantum copy protection. We give an explicit example which shatters the hope of reducing the multiplicative \"security loss\" constant in this lemma to below 9/8.",
+  "people": [
+   "Christian Majenz",
+   "Christian Schaffner",
+   "Mehrdad Tahmasbi"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2021-387": {
+  "id": "eprint-2021-387",
+  "source": "eprint",
+  "title": "Quantum-access security of the Winternitz one-time signature scheme",
+  "authors": [
+   "Christian Majenz",
+   "Chanelle Matadah Manfouo",
+   "Maris Ozols"
+  ],
+  "date": "2021-03-27",
+  "link": "https://eprint.iacr.org/2021/387",
+  "pdf": "https://eprint.iacr.org/2021/387.pdf",
+  "abstract": "Quantum-access security, where an attacker is granted superposition access to secret-keyed functionalities, is a fundamental security model and its study has inspired results in post-quantum security. We revisit, and fill a gap in, the quantum-access security analysis of the Lamport one-time signature scheme (OTS) in the quantum random oracle model (QROM) by Alagic et al.~(Eurocrypt 2020). We then go on to generalize the technique to the Winternitz OTS. Along the way, we develop a tool for the analysis of hash chains in the QROM based on the superposition oracle technique by Zhandry (Crypto 2019) which might be of independent interest.",
+  "people": [
+   "Christian Majenz",
+   "Maris Ozols"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2021-280": {
+  "id": "eprint-2021-280",
+  "source": "eprint",
+  "title": "Online-Extractability in the Quantum Random-Oracle Model",
+  "authors": [
+   "Jelle Don",
+   "Serge Fehr",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "date": "2021-03-07",
+  "link": "https://eprint.iacr.org/2021/280",
+  "pdf": "https://eprint.iacr.org/2021/280.pdf",
+  "abstract": "We show the following generic result. Whenever a quantum query algorithm in the quantum random-oracle model outputs a classical value $t$ that is promised to be in some tight relation with $H(x)$ for some $x$, then $x$ can be efficiently extracted with almost certainty. The extraction is by means of a suitable simulation of the random oracle and works *online*, meaning that it is *straightline*, i.e., without rewinding, and *on-the-fly*, i.e., during the protocol execution and without disturbing it. The technical core of our result is a new commutator bound that bounds the operator norm of the commutator of the unitary operator that describes the evolution of the compressed oracle (which is used to simulate the random oracle above) and of the measurement that extracts $x$. We show two applications of our generic online extractability result. We show *tight* online extractability of commit-and-open $\\Sigma$-protocols in the quantum setting, and we offer the first non-asymptotic post-quantum security proof of the *textbook* Fujisaki-Okamoto transformation, i.e, without adjustments to facilitate the proof.",
+  "people": [
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2020-1500": {
+  "id": "eprint-2020-1500",
+  "source": "eprint",
+  "title": "Oblivious Transfer is in MiniQCrypt",
+  "authors": [
+   "Alex B. Grilo",
+   "Huijia Lin",
+   "Fang Song",
+   "Vinod Vaikuntanathan"
+  ],
+  "date": "2020-12-02",
+  "link": "https://eprint.iacr.org/2020/1500",
+  "pdf": "https://eprint.iacr.org/2020/1500.pdf",
+  "abstract": "MiniQCrypt is a world where quantum-secure one-way functions exist, and quantum communication is possible. We construct an oblivious transfer (OT) protocol in MiniQCrypt that achieves simulation-security in the plain model against malicious quantum polynomial-time adversaries, building on the foundational work of Bennett, Brassard, Crépeau and Skubiszewska (CRYPTO 1991). Combining the OT protocol with prior works, we obtain secure two-party and multi-party computation protocols also in MiniQCrypt. This is in contrast to the classical world, where it is widely believed that one-way functions alone do not give us OT. In the common random string model, we achieve a constant-round universally composable (UC) OT protocol.",
+  "people": [
+   "Alex Grilo"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2020-1422": {
+  "id": "eprint-2020-1422",
+  "source": "eprint",
+  "title": "Non-interactive classical verification of quantum computation",
+  "authors": [
+   "Gorjan Alagic",
+   "Andrew M. Childs",
+   "Alex B. Grilo",
+   "Shih-Han Hung"
+  ],
+  "date": "2020-11-15",
+  "link": "https://eprint.iacr.org/2020/1422",
+  "pdf": "https://eprint.iacr.org/2020/1422.pdf",
+  "abstract": "In a recent breakthrough, Mahadev constructed an interactive protocol that enables a purely classical party to delegate any quantum computation to an untrusted quantum prover. We show that this same task can in fact be performed non-interactively (with setup) and in zero-knowledge. Our protocols result from a sequence of significant improvements to the original four-message protocol of Mahadev. We begin by making the first message instance-independent and moving it to an offline setup phase. We then establish a parallel repetition theorem for the resulting three-message protocol, with an asymptotically optimal rate. This, in turn, enables an application of the Fiat-Shamir heuristic, eliminating the second message and giving a non-interactive protocol. Finally, we employ classical non-interactive zero-knowledge (NIZK) arguments and classical fully homomorphic encryption (FHE) to give a zero-knowledge variant of this construction. This yields the first purely classical NIZK argument system for QMA, a quantum analogue of NP. We establish the security of our protocols under standard assumptions in quantum-secure cryptography. Specifically, our protocols are secure in the Quantum Random Oracle Model, under the assumption that Learning with Errors is quantumly hard. The NIZK construction also requires circuit-private FHE.",
+  "people": [
+   "Alex Grilo"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2020-1361": {
+  "id": "eprint-2020-1361",
+  "source": "eprint",
+  "title": "Tight adaptive reprogramming in the QROM",
+  "authors": [
+   "Alex B. Grilo",
+   "Kathrin Hövelmanns",
+   "Andreas Hülsing",
+   "Christian Majenz"
+  ],
+  "date": "2020-10-29",
+  "link": "https://eprint.iacr.org/2020/1361",
+  "pdf": "https://eprint.iacr.org/2020/1361.pdf",
+  "abstract": "The random oracle model (ROM) enjoys widespread popularity, mostly because it tends to allow for tight and conceptually simple proofs where provable security in the standard model is elusive or costly. While being the adequate replacement of the ROM in the post-quantum security setting, the quantum-accessible random oracle model (QROM) has thus far failed to provide these advantages in many settings. In this work, we focus on adaptive reprogrammability, a feature of the ROM enabling tight and simple proofs in many settings. We show that the straightforward quantum-accessible generalization of adaptive reprogramming is feasible by proving a bound on the adversarial advantage in distinguishing whether a random oracle has been reprogrammed or not. We show that our bound is tight by providing a matching attack. We go on to demonstrate that our technique recovers the mentioned advantages of the ROM in three QROM applications: 1) We give a tighter proof of security of the message compression routine as used by XMSS. 2) We show that the standard ROM proof of chosen-message security for Fiat-Shamir signatures can be lifted to the QROM, straightforwardly, achieving a tighter reduction than previously known. 3) We give the first QROM proof of security against fault injection and nonce attacks for the hedged Fiat-Shamir transform.",
+  "people": [
+   "Alex Grilo",
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2020-1194": {
+  "id": "eprint-2020-1194",
+  "source": "eprint",
+  "title": "Quantum copy-protection of compute-and-compare programs in the quantum random oracle model",
+  "authors": [
+   "Andrea Coladangelo",
+   "Christian Majenz",
+   "Alexander Poremba"
+  ],
+  "date": "2020-10-06",
+  "link": "https://eprint.iacr.org/2020/1194",
+  "pdf": "https://eprint.iacr.org/2020/1194.pdf",
+  "abstract": "Copy-protection allows a software distributor to encode a program in such a way that it can be evaluated on any input, yet it cannot be \"pirated\" - a notion that is impossible to achieve in a classical setting. Aaronson (CCC 2009) initiated the formal study of quantum copy-protection schemes, and speculated that quantum cryptography could offer a solution to the problem thanks to the quantum no-cloning theorem. In this work, we introduce a quantum copy-protection scheme for a large class of evasive functions known as \"compute-and-compare programs\" - a more expressive generalization of point functions. A compute-and-compare program $\\mathsf{CC}[f,y]$ is specified by a function $f$ and a string $y$ within its range: on input $x$, $\\mathsf{CC}[f,y]$ outputs $1$, if $f(x) = y$, and $0$ otherwise. We prove that our scheme achieves non-trivial security against fully malicious adversaries in the quantum random oracle model (QROM), which makes it the first copy-protection scheme to enjoy any level of provable security in a standard cryptographic model. As a complementary result, we show that the same scheme fulfils a weaker notion of software protection, called \"secure software leasing\", introduced very recently by Ananth and La Placa (eprint 2020), with a standard security bound in the QROM, i.e. guaranteeing negligible adversarial advantage. Finally, as a third contribution, we elucidate the relationship between unclonable encryption and copy-protection for multi-bit output point functions.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2020-282": {
+  "id": "eprint-2020-282",
+  "source": "eprint",
+  "title": "The Measure-and-Reprogram Technique 2.0: Multi-Round Fiat-Shamir and More",
+  "authors": [
+   "Jelle Don",
+   "Serge Fehr",
+   "Christian Majenz"
+  ],
+  "date": "2020-03-04",
+  "link": "https://eprint.iacr.org/2020/282",
+  "pdf": "https://eprint.iacr.org/2020/282.pdf",
+  "abstract": "We revisit recent works by Don, Fehr, Majenz and Schaffner and by Liu and Zhandry on the security of the Fiat-Shamir transformation of $\\Sigma$-protocols in the quantum random oracle model (QROM). Two natural questions that arise in this context are: (1) whether the results extend to the Fiat-Shamir transformation of *multi-round* interactive proofs, and (2) whether Don et al.'s $O(q^2)$ loss in security is optimal. Firstly, we answer question (1) in the affirmative. As a byproduct of solving a technical difficulty in proving this result, we slightly improve the result of Don et al., equipping it with a cleaner bound and an even simpler proof. We apply our result to digital signature schemes showing that it can be used to prove strong security for schemes like MQDSS in the QROM. As another application we prove QROM-security of a non-interactive OR proof by Liu, Wei and Wong. As for question (2), we show via a Grover-search based attack that Don et al.'s quadratic security loss for the Fiat-Shamir transformation of $\\Sigma$-protocols is optimal up to a small constant factor. This extends to our new multi-round result, proving it tight up to a factor that depends on the number of rounds only, i.e. is constant for any constant-round interactive proof.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-1205": {
+  "id": "eprint-2019-1205",
+  "source": "eprint",
+  "title": "Secure Multi-party Quantum Computation with a Dishonest Majority",
+  "authors": [
+   "Yfke Dulek",
+   "Alex Grilo",
+   "Stacey Jeffery",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "date": "2019-10-16",
+  "link": "https://eprint.iacr.org/2019/1205",
+  "pdf": "https://eprint.iacr.org/2019/1205.pdf",
+  "abstract": "The cryptographic task of secure multi-party (classical) computation has received a lot of attention in the last decades. Even in the extreme case where a computation is performed between k mutually distrustful players, and security is required even for the single honest player if all other players are colluding adversaries, secure protocols are known. For quantum computation, on the other hand, protocols allowing arbitrary dishonest majority have only been proven for k = 2. In this work, we generalize the approach taken by Dupuis, Nielsen and Salvail (CRYPTO 2012) in the two-party setting to devise a secure, efficient protocol for multi-party quantum computation for any number of players k, and prove security against up to k &#8722; 1 colluding adversaries. The quantum round complexity of the protocol for computing a quantum circuit with g gates acting on w qubits is O((w + g)k). To achieve efficiency, we develop a novel public verification protocol for the Clifford authentication code, and a testing protocol for magic-state inputs, both using classical multi-party computation.",
+  "people": [
+   "Yfke Dulek",
+   "Alex Grilo",
+   "Stacey Jeffery",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-1204": {
+  "id": "eprint-2019-1204",
+  "source": "eprint",
+  "title": "Efficient simulation of random states and random unitaries",
+  "authors": [
+   "Gorjan Alagic",
+   "Christian Majenz",
+   "Alexander Russell"
+  ],
+  "date": "2019-10-15",
+  "link": "https://eprint.iacr.org/2019/1204",
+  "pdf": "https://eprint.iacr.org/2019/1204.pdf",
+  "abstract": "We consider the problem of efficiently simulating random quantum states and random unitary operators, in a manner which is convincing to unbounded adversaries with black-box oracle access. This problem has previously only been considered for restricted adversaries. Against adversaries with an a priori bound on the number of queries, it is well-known that t-designs suffice. Against polynomial-time adversaries, one can use pseudorandom states (PRS) and pseudorandom unitaries (PRU), as defined in a recent work of Ji, Liu, and Song; unfortunately, no provably secure construction is known for PRUs. In our setting, we are concerned with unbounded adversaries. Nonetheless, we are able to give stateful quantum algorithms which simulate the ideal object in both settings of interest. In the case of Haar- random states, our simulator is polynomial-time, has negligible error, and can also simulate verification and reflection through the simulated state. This yields an immediate application to quantum money: a money scheme which is information-theoretically unforgeable and untraceable. In the case of Haar-random unitaries, our simulator takes polynomial space, but simulates both forward and inverse access with zero error. These results can be seen as the first significant steps in developing a theory of lazy sampling for random quantum objects.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-1056": {
+  "id": "eprint-2019-1056",
+  "source": "eprint",
+  "title": "Adventures in Supersingularland",
+  "authors": [
+   "Sarah Arpin",
+   "Catalina Camacho-Navarro",
+   "Kristin Lauter",
+   "Joelle Lim",
+   "Kristina Nelson",
+   "Travis Scholl",
+   "Jana Sotáková"
+  ],
+  "date": "2019-09-18",
+  "link": "https://eprint.iacr.org/2019/1056",
+  "pdf": "https://eprint.iacr.org/2019/1056.pdf",
+  "abstract": "In this paper, we study isogeny graphs of supersingular elliptic curves. Supersingular isogeny graphs were introduced as a hard problem into cryptography by Charles, Goren, and Lauter for the construction of cryptographic hash functions. These are large expander graphs, and the hard problem is to find an efficient algorithm for routing, or path-finding, between two vertices of the graph. We consider four aspects of supersingular isogeny graphs, study each thoroughly and, where appropriate, discuss how they relate to one another. First, we consider two related graphs that help us understand the structure: the `spine' $\\mathcal{S}$, which is the subgraph of $\\mathcal{G}_\\ell(\\overline{\\mathbb{F}_p})$ given by the $j$-invariants in $\\mathbb{F}_p$, and the graph $\\mathcal{G}_\\ell(\\mathbb{F}_p)$, in which both curves and isogenies must be defined over $\\mathbb{F}_p$. We show how to pass from the latter to the former. The graph $\\mathcal{S}$ is relevant for cryptanalysis because routing between vertices in $\\mathbb{F}_p$ is easier than in the full isogeny graph. The $\\mathbb{F}_p$-vertices are typically assumed to be randomly distributed in the graph, which is far from true. We provide an analysis of the distances of connected components of $\\mathcal{S}$. Next, we study the involution on $\\mathcal{G}_\\ell(\\overline{\\mathbb{F}_p})$ that is given by the Frobenius of $\\mathbb{F}_p$ and give heuristics on how often shortest paths between two conjugate $j$-invariants are preserved by this involution (mirror paths). We also study the related question of what proportion of conjugate $j$-invariants are $\\ell$-isogenous for $\\ell = 2,3$. We conclude with experimental data on the diameters of supersingular isogeny graphs when $\\ell = 2$ and compare this with previous results on diameters of LPS graphs and random Ramanujan graphs.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-496": {
+  "id": "eprint-2019-496",
+  "source": "eprint",
+  "title": "Non-malleability for quantum public-key encryption",
+  "authors": [
+   "Christian Majenz",
+   "Christian Schaffner",
+   "Jeroen van Wier"
+  ],
+  "date": "2019-05-20",
+  "link": "https://eprint.iacr.org/2019/496",
+  "pdf": "https://eprint.iacr.org/2019/496.pdf",
+  "abstract": "Non-malleability is an important security property for public-key encryption (PKE). Its significance is due to the fundamental unachievability of integrity and authenticity guarantees in this setting, rendering it the strongest integrity-like property achievable using only PKE, without digital signatures. In this work, we generalize this notion to the setting of quantum public-key encryption. Overcoming the notorious \"recording barrier\" known from generalizing other integrity-like security notions to quantum encryption, we generalize one of the equivalent classical definitions, comparison-based non-malleability, and show how it can be fulfilled. In addition, we explore one-time non-malleability notions for symmetric-key encryption from the literature by defining plaintext and ciphertext variants and by characterizing their relation.",
+  "people": [
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-428": {
+  "id": "eprint-2019-428",
+  "source": "eprint",
+  "title": "Quantum Lazy Sampling and Game-Playing Proofs for Quantum Indifferentiability",
+  "authors": [
+   "Jan Czajkowski",
+   "Christian Majenz",
+   "Christian Schaffner",
+   "Sebastian Zur"
+  ],
+  "date": "2019-04-28",
+  "link": "https://eprint.iacr.org/2019/428",
+  "pdf": "https://eprint.iacr.org/2019/428.pdf",
+  "abstract": "Game-playing proofs constitute a powerful framework for non-quantum cryptographic security arguments, most notably applied in the context of indifferentiability. An essential ingredient in such proofs is lazy sampling of random primitives. We develop a quantum game-playing proof framework by generalizing two recently developed proof techniques. First, we describe how Zhandry's compressed quantum oracles~(Crypto'19) can be used to do quantum lazy sampling of a class of non-uniform function distributions. Second, we observe how Unruh's one-way-to-hiding lemma~(Eurocrypt'14) can also be applied to compressed oracles, providing a quantum counterpart to the fundamental lemma of game-playing. Subsequently, we use our game-playing framework to prove quantum indifferentiability of the sponge construction, assuming a random internal function.",
+  "people": [
+   "Jan Czajkowski",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-247": {
+  "id": "eprint-2019-247",
+  "source": "eprint",
+  "title": "Verifier-on-a-Leash: new schemes for verifiable delegated quantum computation, with quasilinear resources",
+  "authors": [
+   "Andrea Coladangelo",
+   "Alex B. Grilo",
+   "Stacey Jeffery",
+   "Thomas Vidick"
+  ],
+  "date": "2019-02-28",
+  "link": "https://eprint.iacr.org/2019/247",
+  "pdf": "https://eprint.iacr.org/2019/247.pdf",
+  "abstract": "The problem of reliably certifying the outcome of a computation performed by a quantum device is rapidly gaining relevance. We present two protocols for a classical verifier to verifiably delegate a quantum computation to two non-communicating but entangled quantum provers. Our protocols have near-optimal complexity in terms of the total resources employed by the verifier and the honest provers, with the total number of operations of each party, including the number of entangled pairs of qubits required of the honest provers, scaling as O ( g log g ) for delegating a circuit of size g. This is in contrast to previous protocols, whose overhead in terms of resources employed, while polynomial, is far beyond what is feasible in practice. Our first protocol requires a number of rounds that is linear in the depth of the circuit being delegated, and is blind, meaning neither prover can learn the circuit or its input. The second protocol is not blind, but requires only a constant number of rounds of interaction. Our main technical innovation is an efficient rigidity theorem which allows a verifier to test that two entangled provers perform measurements specified by an arbitrary m-qubit tensor product of single-qubit Clifford observables on their respective halves of m shared EPR pairs, with a robustness that is independent of m. Our two-prover classical-verifier delegation protocols are obtained by combining this rigidity theorem with a single-prover quantum-verifier protocol for the verifiable delegation of a quantum computation, introduced by Broadbent.",
+  "people": [
+   "Alex Grilo",
+   "Stacey Jeffery"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2019-190": {
+  "id": "eprint-2019-190",
+  "source": "eprint",
+  "title": "Security of the Fiat-Shamir Transformation in the Quantum Random-Oracle Model",
+  "authors": [
+   "Jelle Don",
+   "Serge Fehr",
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "date": "2019-02-26",
+  "link": "https://eprint.iacr.org/2019/190",
+  "pdf": "https://eprint.iacr.org/2019/190.pdf",
+  "abstract": "The famous Fiat-Shamir transformation turns any public-coin three-round interactive proof, i.e., any so-called sigma-protocol, into a non-interactive proof in the random-oracle model. We study this transformation in the setting of a quantum adversary that in particular may query the random oracle in quantum superposition. Our main result is a generic reduction that transforms any quantum dishonest prover attacking the Fiat-Shamir transformation in the quantum random-oracle model into a similarly successful quantum dishonest prover attacking the underlying sigma-protocol (in the standard model). Applied to the standard soundness and proof-of-knowledge definitions, our reduction implies that both these security properties, in both the computational and the statistical variant, are preserved under the Fiat-Shamir transformation even when allowing quantum attacks. Our result improves and completes the partial results that have been known so far, but it also proves wrong certain claims made in the literature. In the context of post-quantum secure signature schemes, our results imply that for any sigma-protocol that is a proof-of-knowledge against quantum dishonest provers (and that satisfies some additional natural properties), the corresponding Fiat-Shamir signature scheme is secure in the quantum random-oracle model. For example, we can conclude that the non-optimized version of Fish, which is the bare Fiat-Shamir variant of the NIST candidate Picnic, is secure in the quantum random-oracle model.",
+  "people": [
+   "Christian Majenz",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2018-1185": {
+  "id": "eprint-2018-1185",
+  "source": "eprint",
+  "title": "On Quantum Chosen-Ciphertext Attacks and Learning with Errors",
+  "authors": [
+   "Gorjan Alagic",
+   "Stacey Jeffery",
+   "Maris Ozols",
+   "Alexander Poremba"
+  ],
+  "date": "2018-12-10",
+  "link": "https://eprint.iacr.org/2018/1185",
+  "pdf": "https://eprint.iacr.org/2018/1185.pdf",
+  "abstract": "Large-scale quantum computing is a significant threat to classical public-key cryptography. In strong “quantum access” security models, numerous symmetric-key cryptosystems are also vulnerable. We consider classical encryption in a model which grants the adversary quantum oracle access to encryption and decryption, but where the latter is restricted to non-adaptive (i.e., pre-challenge) queries only. We define this model formally using appropriate notions of ciphertext indistinguishability and semantic security (which are equivalent by standard arguments) and call it QCCA1 in analogy to the classical CCA1 security model. Using a bound on quantum random-access codes, we show that the standard PRF- and PRP-based encryption schemes are QCCA1-secure when instantiated with quantum-secure primitives. We then revisit standard IND-CPA-secure Learning with Errors (LWE) encryption and show that leaking just one quantum decryption query (and no other queries or leakage of any kind) allows the adversary to recover the full secret key with constant success probability. In the classical setting, by contrast, recovering the key uses a linear number of decryption queries, and this is optimal. The algorithm at the core of our attack is a (large-modulus version of) the well-known Bernstein-Vazirani algorithm. We emphasize that our results should not be interpreted as a weakness of these cryptosystems in their stated security setting (i.e., post-quantum chosen-plaintext secrecy). Rather, our results mean that, if these cryptosystems are exposed to chosen-ciphertext attacks (e.g., as a result of deployment in an inappropriate real-world setting) then quantum attacks are even more devastating than classical ones.",
+  "people": [
+   "Stacey Jeffery",
+   "Maris Ozols"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2018-1164": {
+  "id": "eprint-2018-1164",
+  "source": "eprint",
+  "title": "Can you sign a quantum state",
+  "authors": [
+   "Gorjan Alagic",
+   "Tommaso Gagliardoni",
+   "Christian Majenz"
+  ],
+  "date": "2018-12-03",
+  "link": "https://eprint.iacr.org/2018/1164",
+  "pdf": "https://eprint.iacr.org/2018/1164.pdf",
+  "abstract": "Cryptography with quantum states exhibits a number of surprising and counterintuitive features. In a 2002 work, Barnum et al. argued informally that these strange features should imply that digital signatures for quantum states are impossible (Barnum et al., FOCS 2002). In this work, we perform the first rigorous study of the problem of signing quantum states. We first show that the intuition of Barnum et al. was correct, by proving an impossibility result which rules out even very weak forms of signing quantum states. Essentially, we show that any non-trivial combination of correctness and security requirements results in negligible security. This rules out all quantum signature schemes except those which simply measure the state and then sign the outcome using a classical scheme. In other words, only classical signature schemes exist. We then show a positive result: it is possible to sign quantum states, provided that they are also encrypted with the public key of the intended recipient. Following classical nomenclature, we call this notion quantum signcryption. Classically, signcryption is only interesting if it provides superior efficiency to simultaneous encryption and signing. Our results imply that, quantumly, it is far more interesting: by the laws of quantum mechanics, it is the only signing method available. We develop security definitions for quantum signcryption, ranging from a simple one-time two-user setting, to a chosen-ciphertext-secure many-time multi-user setting. We also give secure constructions based on post-quantum public-key primitives. Along the way, we show that a natural hybrid method of combining classical and quantum schemes can be used to \"upgrade\" a secure classical scheme to the fully-quantum setting, in a wide range of cryptographic settings including signcryption, authenticated encryption, and chosen-ciphertext security.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2018-1150": {
+  "id": "eprint-2018-1150",
+  "source": "eprint",
+  "title": "Quantum-secure message authentication via blind-unforgeability",
+  "authors": [
+   "Gorjan Alagic",
+   "Christian Majenz",
+   "Alexander Russell",
+   "Fang Song"
+  ],
+  "date": "2018-12-03",
+  "link": "https://eprint.iacr.org/2018/1150",
+  "pdf": "https://eprint.iacr.org/2018/1150.pdf",
+  "abstract": "Formulating and designing authentication of classical messages in the presence of adversaries with quantum query access has been a longstanding challenge, as the familiar classical notions of unforgeability do not directly translate into meaningful notions in the quantum setting. A particular difficulty is how to fairly capture the notion of \"predicting an unqueried value\" when the adversary can query in quantum superposition. We propose a natural definition of unforgeability against quantum adversaries called blind unforgeability. This notion defines a function to be predictable if there exists an adversary who can use \"partially blinded\" oracle access to predict values in the blinded region. We support the proposal with a number of technical results. We begin by establishing that the notion coincides with EUF-CMA in the classical setting and go on to demonstrate that the notion is satisfied by a number of simple guiding examples, such as random functions and quantum-query-secure pseudorandom functions. We then show the suitability of blind unforgeability for supporting canonical constructions and reductions. We prove that the \"hash-and-MAC\" paradigm and the Lamport one-time digital signature scheme are indeed unforgeable according to the definition. To support our analysis, we additionally define and study a new variety of quantum-secure hash functions called Bernoulli-preserving. Finally, we demonstrate that blind unforgeability is stronger than a previous definition of Boneh and Zhandry [EUROCRYPT '13, CRYPTO '13] in the sense that we can construct an explicit function family which is forgeable by an attack that is recognized by blind-unforgeability, yet satisfies the definition by Boneh and Zhandry.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2017-960": {
+  "id": "eprint-2017-960",
+  "source": "eprint",
+  "title": "Unforgeable Quantum Encryption",
+  "authors": [
+   "Gorjan Alagic",
+   "Tommaso Gagliardoni",
+   "Christian Majenz"
+  ],
+  "date": "2017-09-30",
+  "link": "https://eprint.iacr.org/2017/960",
+  "pdf": "https://eprint.iacr.org/2017/960.pdf",
+  "abstract": "We study the problem of encrypting and authenticating quantum data in the presence of adversaries making adaptive chosen plaintext and chosen ciphertext queries. Classically, security games use string copying and comparison to detect adversarial cheating in such scenarios. Quantumly, this approach would violate no-cloning. We develop new techniques to overcome this problem: we use entanglement to detect cheating, and rely on recent results for characterizing quantum encryption schemes. We give denitions for (i.) ciphertext unforgeability , (ii.) indistinguishability under adaptive chosen-ciphertext attack, and (iii.) authenticated encryption. The restriction of each denition to the classical setting is at least as strong as the corresponding classical notion: (i) implies INT-CTXT, (ii) implies IND-CCA2, and (iii) implies AE. All of our new notions also imply QIND-CPA privacy. Combining one-time authentication and classical pseudorandomness, we construct schemes for each of these new quantum security notions, and provide several separation examples. Along the way, we also give a new denition of one-time quantum authentication which, unlike all previous approaches, authenticates ciphertexts rather than plaintexts.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2017-533": {
+  "id": "eprint-2017-533",
+  "source": "eprint",
+  "title": "Quantum non-malleability and authentication",
+  "authors": [
+   "Gorjan Alagic",
+   "Christian Majenz"
+  ],
+  "date": "2017-06-07",
+  "link": "https://eprint.iacr.org/2017/533",
+  "pdf": "https://eprint.iacr.org/2017/533.pdf",
+  "abstract": "In encryption, non-malleability is a highly desirable property: it ensures that adversaries cannot manipulate the plaintext by acting on the ciphertext. Ambainis et al. gave a definition of non-malleability for the encryption of quantum data. In this work, we show that this definition is too weak, as it allows adversaries to ``inject'' plaintexts of their choice into the ciphertext. We give a new definition of quantum non-malleability which resolves this problem. Our definition is expressed in terms of entropic quantities, considers stronger adversaries, and does not assume secrecy. Rather, we prove that quantum non-malleability implies secrecy; this is in stark contrast to the classical setting, where the two properties are completely independent. For unitary schemes, our notion of non-malleability is equivalent to encryption with a two-design (and hence also to the definition of Ambainis et al.). Our techniques also yield new results regarding the closely-related task of quantum authentication. We show that ``total authentication'' (a notion recently proposed by Garg et al.) can be satisfied with two-designs, a significant improvement over their eight-design-based construction. We also show that, under a mild adaptation of the rejection procedure, both total authentication and our notion of non-malleability yield quantum authentication as defined by Dupuis et al.",
+  "people": [
+   "Christian Majenz"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2016-559": {
+  "id": "eprint-2016-559",
+  "source": "eprint",
+  "title": "Quantum homomorphic encryption for polynomial-sized circuits",
+  "authors": [
+   "Yfke Dulek",
+   "Christian Schaffner",
+   "Florian Speelman"
+  ],
+  "date": "2016-06-03",
+  "link": "https://eprint.iacr.org/2016/559",
+  "pdf": "https://eprint.iacr.org/2016/559.pdf",
+  "abstract": "We present a new scheme for quantum homomorphic encryption which is compact and allows for efficient evaluation of arbitrary polynomial-sized quantum circuits. Building on the framework of Broad- bent and Jeffery and recent results in the area of instantaneous non-local quantum computation, we show how to construct quantum gadgets that allow perfect correction of the errors which occur during the homomorphic evaluation of T gates on encrypted quantum data. Our scheme can be based on any classical (leveled) fully homomorphic encryption (FHE) scheme and requires no computational assumptions besides those already used by the classical scheme. The size of our quantum gadget depends on the space complexity of the classical decryption function - which aligns well with the current efforts to minimize the complexity of the decryption function. Our scheme (or slight variants of it) offers a number of additional advantages such as ideal compactness, the ability to supply gadgets \"on demand\", circuit privacy for the evaluator against passive adversaries, and a three-round scheme for blind delegated quantum computation which puts only very limited demands on the quantum abilities of the client.",
+  "people": [
+   "Yfke Dulek",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2016-424": {
+  "id": "eprint-2016-424",
+  "source": "eprint",
+  "title": "Computational Security of Quantum Encryption",
+  "authors": [
+   "Gorjan Alagic",
+   "Anne Broadbent",
+   "Bill Fefferman",
+   "Tommaso Gagliardoni",
+   "Christian Schaffner",
+   "Michael St. Jules"
+  ],
+  "date": "2016-05-01",
+  "link": "https://eprint.iacr.org/2016/424",
+  "pdf": "https://eprint.iacr.org/2016/424.pdf",
+  "abstract": "Quantum-mechanical devices have the potential to transform cryptography. Most research in this area has focused either on the information-theoretic advantages of quantum protocols or on the security of classical cryptographic schemes against quantum attacks. In this work, we initiate the study of another relevant topic: the encryption of quantum data in the computational setting. In this direction, we establish quantum versions of several fundamental classical results. First, we develop natural definitions for private-key and public-key encryption schemes for quantum data. We then define notions of semantic security and indistinguishability, and, in analogy with the classical work of Goldwasser and Micali, show that these notions are equivalent. Finally, we construct secure quantum encryption schemes from basic primitives. In particular, we show that quantum-secure one-way functions imply IND-CCA1-secure symmetric-key quantum encryption, and that quantum-secure trapdoor one-way permutations imply semantically-secure public-key quantum encryption.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2015-1242": {
+  "id": "eprint-2015-1242",
+  "source": "eprint",
+  "title": "Quantum Cryptography Beyond Quantum Key Distribution",
+  "authors": [
+   "Anne Broadbent",
+   "Christian Schaffner"
+  ],
+  "date": "2015-12-31",
+  "link": "https://eprint.iacr.org/2015/1242",
+  "pdf": "https://eprint.iacr.org/2015/1242.pdf",
+  "abstract": "Quantum cryptography is the art and science of exploiting quantum mechanical effects in order to perform cryptographic tasks. While the most well-known example of this discipline is quantum key distribution (QKD), there exist many other applications such as quantum money, randomness generation, secure two- and multi-party computation and delegated quantum computation. Quantum cryptography also studies the limitations and challenges resulting from quantum adversaries---including the impossibility of quantum bit commitment, the difficulty of quantum rewinding and the definition of quantum security models for classical primitives. In this review article, aimed primarily at cryptographers unfamiliar with the quantum world, we survey the area of theoretical quantum cryptography, with an emphasis on the constructions and limitations beyond the realm of QKD.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2015-551": {
+  "id": "eprint-2015-551",
+  "source": "eprint",
+  "title": "Quantum homomorphic encryption for circuits of low $T$-gate complexity",
+  "authors": [
+   "Anne Broadbent",
+   "Stacey Jeffery"
+  ],
+  "date": "2015-06-12",
+  "link": "https://eprint.iacr.org/2015/551",
+  "pdf": "https://eprint.iacr.org/2015/551.pdf",
+  "abstract": "Fully homomorphic encryption is an encryption method with the property that any computation on the plaintext can be performed by a party having access to the ciphertext only. Here, we formally define and give schemes for \\emph{quantum} homomorphic encryption, which is the encryption of \\emph{quantum} information such that \\emph{quantum} computations can be performed given the ciphertext only. Our schemes allow for arbitrary Clifford group gates, but become inefficient for circuits with large complexity, measured in terms of the non-Clifford portion of the circuit (we use the ``$\\pi/8$'' non-Clifford group gate, also known as the $T$-gate). More specifically, two schemes are proposed: the first scheme has a decryption procedure whose complexity scales with the square of the \\emph{number} of $T$-gates (compared with a trivial scheme in which the complexity scales with the total number of gates); the second scheme uses a quantum evaluation key of length given by a polynomial of degree exponential in the circuit's $T$-gate depth, yielding a homomorphic scheme for quantum circuits with constant $T$-depth. Both schemes build on a classical fully homomorphic encryption scheme. A further contribution of ours is to formally define the security of encryption schemes for quantum messages: we define \\emph{quantum indistinguishability under chosen plaintext attacks} in both the public- and private-key settings. In this context, we show the equivalence of several definitions. Our schemes are the first of their kind that are secure under modern cryptographic definitions, and can be seen as a quantum analogue of classical results establishing homomorphic encryption for circuits with a limited number of \\emph{multiplication} gates. Historically, such results appeared as precursors to the breakthrough result establishing classical fully homomorphic encryption.",
+  "people": [
+   "Stacey Jeffery"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eprint-2015-355": {
+  "id": "eprint-2015-355",
+  "source": "eprint",
+  "title": "Semantic Security and Indistinguishability in the Quantum World",
+  "authors": [
+   "Tommaso Gagliardoni",
+   "Andreas Hülsing",
+   "Christian Schaffner"
+  ],
+  "date": "2015-04-23",
+  "link": "https://eprint.iacr.org/2015/355",
+  "pdf": "https://eprint.iacr.org/2015/355.pdf",
+  "abstract": "At CRYPTO 2013, Boneh and Zhandry initiated the study of quantum-secure encryption. They proposed first indistinguishability definitions for the quantum world where the actual indistinguishability only holds for classical messages, and they provide arguments why it might be hard to achieve a stronger notion. In this work, we show that stronger notions are achievable, where the indistinguishability holds for quantum superpositions of messages. We investigate exhaustively the possibilities and subtle differences in defining such a quantum indistinguishability notion for symmetric-key encryption schemes. We justify our stronger definition by showing its equivalence to novel quantum semantic-security notions that we introduce. Furthermore, we show that our new security definitions cannot be achieved by a large class of ciphers -- those which are quasi-preserving the message length. On the other hand, we provide a secure construction based on quantum-resistant pseudorandom permutations; this construction can be used as a generic transformation for turning a large class of encryption schemes into quantum indistinguishable and hence quantum semantically secure ones. Moreover, our construction is the first completely classical encryption scheme shown to be secure against an even stronger notion of indistinguishability, which was previously known to be achievable only by using quantum messages and arbitrary quantum encryption circuits.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv"
+ },
+ "eccc-2021-35": {
+  "id": "eccc-2021-35",
+  "source": "eccc",
+  "title": "Amortized Circuit Complexity, Formal Complexity Measures, and Catalytic Algorithms",
+  "authors": [
+   "Robert Robere",
+   "Jeroen Zuiddam"
+  ],
+  "date": "2021-03-13",
+  "link": "https://eccc.weizmann.ac.il/report/2021/035",
+  "pdf": "https://eccc.weizmann.ac.il/report/2021/035/download/",
+  "abstract": "",
+  "people": [
+   "Jeroen Zuiddam"
+  ],
+  "found": "2026-10-22",
+  "status": "PDF doesn't name QuSoft",
+  "maybe_someone_else": true
+ },
+ "eccc-2022-185": {
+  "id": "eccc-2022-185",
+  "source": "eccc",
+  "title": "Randomized versus Deterministic Decision Tree Size",
+  "authors": [
+   "Arkadev Chattopadhyay",
+   "Yogesh Dahiya",
+   "Nikhil Mande",
+   "Jaikumar Radhakrishnan",
+   "Swagato Sanyal"
+  ],
+  "date": "2022-12-29",
+  "link": "https://eccc.weizmann.ac.il/report/2022/185",
+  "pdf": "https://eccc.weizmann.ac.il/report/2022/185/download/",
+  "abstract": "",
+  "people": [
+   "Nikhil Mande"
+  ],
+  "found": "2026-10-22",
+  "status": "added",
+  "maybe_someone_else": false
+ },
+ "eprint-2026-2403": {
+  "id": "eprint-2026-2403",
+  "source": "eprint",
+  "title": "Practical and Efficient MPC from FHE, without ZKPoKs",
+  "authors": [
+   "Kelong Cong",
+   "Nigel P. Smart",
+   "Titouan Tanguy",
+   "MIchael Walter"
+  ],
+  "date": "2026-10-07",
+  "link": "https://eprint.iacr.org/2026/2403",
+  "pdf": "https://eprint.iacr.org/2026/2403.pdf",
+  "abstract": "Fully Homomorphic Encryption (FHE) enables one to implement low-round and low-communication complexity Multi-Party Computation (MPC) which is secure in the static malicious corruption model. By expanding on an idea presented in the full version of the FHE-based MPC protocol of Smart (IMA, 2023), we show how to completely remove the need for Zero-Knowledge Proofs-of-Knowledge in that protocol. This simplification makes the final security proof of the MPC protocol much simpler, and more modular. The new protocol makes use of an FHE scheme with an encrypted PRF functionality, and in addition to our main result we formalize the security of such encrypted PRFs and prove the construction of Deo et al. (CCS 2025) secure in this model.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2026-27": {
+  "id": "eprint-2026-27",
+  "source": "eprint",
+  "title": "Practical SNARGs for Matrix Multiplications over Encrypted Data",
+  "authors": [
+   "Louis Tremblay Thibault",
+   "Michael Walter",
+   "Jiapeng Zhang"
+  ],
+  "date": "2026-01-07",
+  "link": "https://eprint.iacr.org/2026/27",
+  "pdf": "https://eprint.iacr.org/2026/27.pdf",
+  "abstract": "Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data, without ever requiring decryption. This capability is particularly crucial for privacy-preserving outsourced computation in sensitive fields such as healthcare and finance. While FHE ensures data confidentiality under the honest-but-curious adversarial model, achieving full malicious security, encompassing both integrity and privacy, requires an additional layer of verifiability. To address this, a growing body of research has explored combining FHE with techniques from verifiable computation, leading to the notion of verifiable FHE (vFHE). However, the integration of these two paradigms often results in substantial computational overhead, making existing approaches largely impractical for real-world deployment. In this work, rather than targeting general-purpose verifiable FHE, we design a novel and practical verifiable homomorphic encryption scheme tailored for an important and widely used operation: matrix–vector multiplication. We provide an open-source implementation and our experimental results demonstrate that the proposed scheme achieves high efficiency, making it ready for practical adoption.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2025-2005": {
+  "id": "eprint-2025-2005",
+  "source": "eprint",
+  "title": "Reactive Correctness, sINDCPA-D-Security and Deterministic Evaluation for TFHE",
+  "authors": [
+   "Nigel Smart",
+   "Michael Walter"
+  ],
+  "date": "2025-10-27",
+  "link": "https://eprint.iacr.org/2025/2005",
+  "pdf": "https://eprint.iacr.org/2025/2005.pdf",
+  "abstract": "We examine the relationship between correctness definitions for Fully Homomorphic Encryption (FHE) and the associated security definitions. We show that reactive notions of correctness imply INDCPA-D and sINDCPA-D security. But that to obtain both INDCPA-D and sINDCPA-D security we need to use a randomized version of the evaluation procedure. Such randomized evaluation procedures cause problems in real life deployments of FHE solutions, so we then go on to show how one can de-randomize the evaluation procedure and still obtain sINDCPA-D security in the random oracle model for the specific FHE scheme of TFHE.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2025-699": {
+  "id": "eprint-2025-699",
+  "source": "eprint",
+  "title": "Threshold (Fully) Homomorphic Encryption",
+  "authors": [
+   "Carl Bootland",
+   "Kelong Cong",
+   "Daniel Demmler",
+   "Tore Kasper Frederiksen",
+   "Benoit Libert",
+   "Jean-Baptiste Orfila",
+   "Dragos Rotaru",
+   "Nigel P. Smart",
+   "Titouan Tanguy",
+   "Samuel Tap",
+   "Michael Walter"
+  ],
+  "date": "2025-04-17",
+  "link": "https://eprint.iacr.org/2025/699",
+  "pdf": "https://eprint.iacr.org/2025/699.pdf",
+  "abstract": "This document is a preliminary version of what is intended to be submitted to NIST by Zama as part of their threshold call. The document also serves as partial documentation of the protocols used in the Zama MPC system for threshold TFHE. However, note that the Zama software includes many optimizations built on top of the simple specifications given here. In particular the TFHE parameters given here are larger than those used by the Zama software. This is because the Zama TFHE library contains optimizations which are beyond the scope of this document. Thus the parameters given in this document are compatible with the description of TFHE given here, and take no account of the extra optimizations in the Zama software. Also note that we describe more protocols than that provided in the Zama software. In particular this document describes BGV and BFV threshold implementations, MPC-in-the-Head based proofs of correct encryption. We present mechanisms to perform robust threshold key generation and decryption for Fully Homomorphic Encryption schemes such as BGV, BFV and TFHE, in the case of super honest majority, t < n/3, or t < n/4, in the presence of malicious adversaries. The main mechanism for threshold decryptions follow the noise flooding principle, which we argue is sufficient for BGV and BFV. For TFHE a more subtle technique is needed to apply noise flooding, since TFHE parameters are small. To deal with all three FHE scheme, and obtain a unified framework for all such schemes, we are led to consider secret sharing over Galois Rings and not just finite fields. We consider two sets of threshold profiles, depending on whether binomial(n,t) is big or small. In the small case we obtain for all schemes an asynchronous protocol for robust threshold decryption, and we obtain a robust synchronous protocol for threshold key generation; both with t < n/3. For the large case we only support TFHE, and our protocols require an “offline phase” which requires synchronous networks and can “only” tolerate t < n/4. The threshold key generation operation, and the above mentioned offline phase, require access to a generic offline MPC functionality over arbitrary Galois Rings. This functionality is fully specified here. Finally, we present Zero-Knowledge proof techniques for proving the valid encryption of an FHE ciphertext. These proofs are important in a number of application contexts.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2025-275": {
+  "id": "eprint-2025-275",
+  "source": "eprint",
+  "title": "Error-Simulatable Sanitization for TFHE and Applications",
+  "authors": [
+   "Nigel P. Smart",
+   "Michael Walter"
+  ],
+  "date": "2025-02-18",
+  "link": "https://eprint.iacr.org/2025/275",
+  "pdf": "https://eprint.iacr.org/2025/275.pdf",
+  "abstract": "We show that the randomized TFHE bootstrapping technique of Bourse and Izabechéne provides a form of sanitization which is error-simulatable. This means that the randomized bootstrap can be used not only for sanitization of ciphertexts (i.e. to hide the function that has been computed), but that it can also be used in server-assisted threshold decryption. Thus we extend the server-assisted threshold decryption method of Passelégue and Stehlé (ASIACRYPT '24) to FHE schemes which have small ciphertext modulus (such as TFHE). In addition the error-simulatable sanitization enables us to obtain FuncCPA security for TFHE essentially for free.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2024-1829": {
+  "id": "eprint-2024-1829",
+  "source": "eprint",
+  "title": "Compiled Nonlocal Games from any Trapdoor Claw-Free Function",
+  "authors": [
+   "Kaniuar Bacho",
+   "Alexander Kulpe",
+   "Giulio Malavolta",
+   "Simon Schmidt",
+   "Michael Walter"
+  ],
+  "date": "2024-11-07",
+  "link": "https://eprint.iacr.org/2024/1829",
+  "pdf": "https://eprint.iacr.org/2024/1829.pdf",
+  "abstract": "A recent work of Kalai et al. (STOC 2023) shows how to compile any multi-player nonlocal game into a protocol with a single computationally-bounded prover. Subsequent works have built on this to develop new cryptographic protocols, where a completely classical client can verify the validity of quantum computations done by a quantum server — classical verification of quantum computations, for short. Their compiler relies on the existence of quantum fully homomorphic encryption. In this work, we propose a new compiler for transforming nonlocal games into single-prover protocols. Our compiler is based on a novel blind classical delegation of quantum computation protocol, constructed within the framework of measurement-based quantum computation. The latter construction combines a new blind remote state preparation protocol with a generalization of the universal blind quantum computation protocol by Broadbent, Fitzsimons, and Kashefi (FOCS 2009). These two constructions may also be of independent interest, as the techniques employed could enable the blind construction of more specific quantum states, and the generalized framework allows for the use of blind quantum computation in a broader range of applications, particularly in quantum cryptographic protocols. The compiler can be instantiated assuming the existence of any plain trapdoor claw-free function. Leveraging results by Natarajan and Zhang (FOCS 2023) on compiled nonlocal games, our work implies the existence of new protocols for classically verifying quantum computations based on a broader range of computational assumptions, potentially weaker than those previously known.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2024-1718": {
+  "id": "eprint-2024-1718",
+  "source": "eprint",
+  "title": "Drifting Towards Better Error Probabilities in Fully Homomorphic Encryption Schemes",
+  "authors": [
+   "Olivier Bernard",
+   "Marc Joye",
+   "Nigel P. Smart",
+   "Michael Walter"
+  ],
+  "date": "2024-10-21",
+  "link": "https://eprint.iacr.org/2024/1718",
+  "pdf": "https://eprint.iacr.org/2024/1718.pdf",
+  "abstract": "There are two security notions for FHE schemes the traditional notion of IND-CPA, and a more stringent notion of IND-CPA$^D$. The notions are equivalent if the FHE schemes are perfectly correct, however for schemes with negligible failure probability the FHE parameters needed to obtain IND-CPA$^D$ security can be much larger than those needed to obtain IND-CPA security. This paper uses the notion of ciphertext drift in order to understand the practical difference between IND-CPA and IND-CPA$^D$ security in schemes such as FHEW, TFHE, and FINAL. This notion allows us to define a modulus switching operation (the main culprit for the difference in parameters) such that one does not require adapting IND-CPA cryptographic parameters to meet the IND-CPA$^D$ security level. Further, the extra cost incurred by the new techniques has no noticeable performance impact in practical applications. The paper also formally defines a stronger version for IND-CPA$^D$ security called sIND-CPA$^D$, which is proved to be strictly separated from the IND-CPA$^D$ notion. Criterion for turning an IND-CPA$^D$ secure public-key encryption into an sIND-CPA$^D$ one is also provided.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2024-1207": {
+  "id": "eprint-2024-1207",
+  "source": "eprint",
+  "title": "What Have SNARGs Ever Done for FHE?",
+  "authors": [
+   "Michael Walter"
+  ],
+  "date": "2024-07-26",
+  "link": "https://eprint.iacr.org/2024/1207",
+  "pdf": "https://eprint.iacr.org/2024/1207.pdf",
+  "abstract": "In recent years, there have been several constructions combining FHE with SNARGs to add integrity guarantees to FHE schemes. Most of these works focused on improving efficiency, while the precise security model with regards to client side input privacy has remained understudied. Only recently it was shown by Manulis and Nguyen (Eurocrypt'24) that this combination does not yield IND-CCA1 security. So an interesting open question is: does the SNARG actually add any meaningful security to input privacy? We address this question in this note and give a security definition that meaningfully captures the security of the FHE plus SNARG construction.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2024-451": {
+  "id": "eprint-2024-451",
+  "source": "eprint",
+  "title": "Towards Verifiable FHE in Practice: Proving Correct Execution of TFHE's Bootstrapping using plonky2",
+  "authors": [
+   "Louis Tremblay Thibault",
+   "Michael Walter"
+  ],
+  "date": "2024-03-15",
+  "link": "https://eprint.iacr.org/2024/451",
+  "pdf": "https://eprint.iacr.org/2024/451.pdf",
+  "abstract": "In this work we demonstrate for the first time that a full FHE bootstrapping operation can be proven using a SNARK in practice. We do so by designing an arithmetic circuit for the bootstrapping operation and prove it using plonky2. We are able to prove the circuit on an AWS Hpc7a instance in under 20 minutes. Proof size is about 200kB and verification takes less than 10ms. As the basis of our bootstrapping operation we use TFHE's programmable bootstrapping and modify it in a few places to more efficiently represent it as an arithmetic circuit (while maintaining full functionality and security). In order to achieve our results in a memory-efficient way, we take advantage of the structure of the computation and plonky2's ability to efficiently prove its own verification circuit to implement a recursion-based IVC scheme. Lastly, we present a security proof in the UC model that captures active attacks in real world applications of verifiable FHE and augment our prototype to fit such applications.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2023-815": {
+  "id": "eprint-2023-815",
+  "source": "eprint",
+  "title": "Noah's Ark: Efficient Threshold-FHE Using Noise Flooding",
+  "authors": [
+   "Morten Dahl",
+   "Daniel Demmler",
+   "Sarah El Kazdadi",
+   "Arthur Meyre",
+   "Jean-Baptiste Orfila",
+   "Dragos Rotaru",
+   "Nigel P. Smart",
+   "Samuel Tap",
+   "Michael Walter"
+  ],
+  "date": "2023-06-02",
+  "link": "https://eprint.iacr.org/2023/815",
+  "pdf": "https://eprint.iacr.org/2023/815.pdf",
+  "abstract": "We outline a secure and efficient methodology to do threshold distributed decryption for LWE based Fully Homomorphic Encryption schemes. Due to the smaller parameters used in some FHE schemes, such as Torus-FHE (TFHE), the standard technique of ``noise flooding'' seems not to apply. We show that noise flooding can also be used with schemes with such small parameters, by utilizing a switch to a scheme with slightly higher parameters and then utilizing the efficient bootstrapping operations which TFHE offers. Our protocol is proved secure via a simulation argument, making its integration in bigger protocols easier to manage.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2023-140": {
+  "id": "eprint-2023-140",
+  "source": "eprint",
+  "title": "Improving Convergence and Practicality of Slide-type Reductions",
+  "authors": [
+   "Jianwei Li",
+   "Michael Walter"
+  ],
+  "date": "2023-02-06",
+  "link": "https://eprint.iacr.org/2023/140",
+  "pdf": "https://eprint.iacr.org/2023/140.pdf",
+  "abstract": "The best lattice reduction algorithm known in theory for approximating the Shortest Vector Problem (SVP) over lattices is the slide reduction algorithm (STOC '08 & CRYPTO '20). In this paper, we first improve the running time analysis of computing slide-reduced bases based on potential functions. This analysis applies to a generic slide reduction algorithm that includes (natural variants of) slide reduction and block-Rankin reduction (ANTS '14). We then present a rigorous dynamic analysis of generic slide reduction using techniques originally applied to a variant of BKZ (CRYPTO '11). This provides guarantees on the quality of the current lattice basis during execution. This dynamic analysis not only implies sharper convergence for these algorithms to find a short nonzero vector (rather than a fully reduced basis), but also allows to heuristically model/trace the practical behaviour of slide reduction. Interestingly, this dynamic analysis inspires us to introduce a new slide reduction variant with better time/quality trade-offs. This is confirmed by both our experiments and simulation, which also show that our variant is competitive with state-of-the-art reduction algorithms. To the best of our knowledge, this work is the first attempt of improving the practical performance of slide reduction beyond speeding up the SVP oracle.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2023-106": {
+  "id": "eprint-2023-106",
+  "source": "eprint",
+  "title": "Deuring for the People: Supersingular Elliptic Curves with Prescribed Endomorphism Ring in General Characteristic",
+  "authors": [
+   "Jonathan Komada Eriksen",
+   "Lorenz Panny",
+   "Jana Sotáková",
+   "Mattia Veroni"
+  ],
+  "date": "2023-01-27",
+  "link": "https://eprint.iacr.org/2023/106",
+  "pdf": "https://eprint.iacr.org/2023/106.pdf",
+  "abstract": "Constructing a supersingular elliptic curve whose endomorphism ring is isomorphic to a given quaternion maximal order (one direction of the Deuring correspondence) is known to be polynomial-time assuming the generalized Riemann hypothesis [KLPT14; Wes21], but notoriously daunting in practice when not working over carefully selected base fields. In this work, we speed up the computation of the Deuring correspondence in general characteristic, i.e., without assuming any special form of the characteristic. Our algorithm follows the same overall strategy as earlier works, but we add simple (yet effective) optimizations to multiple subroutines to significantly improve the practical performance of the method. To demonstrate the impact of our improvements, we show that our implementation achieves highly practical running times even for examples of cryptographic size. One implication of these findings is that cryptographic security reductions based on KLPT-derived algorithms (such as [EHLMP18; Wes22]) have become tighter, and therefore more meaningful in practice. Another is the pure bliss of fast(er) computer algebra: We provide a Sage implementation which works for general primes and includes many necessary tools for computational number theorists' and cryptographers' needs when working with endomorphism rings of supersingular elliptic curves. This includes the KLPT algorithm, translation of ideals to isogenies, and finding supersingular elliptic curves with known endomorphism ring for general primes. Finally, the Deuring correspondence has recently received increased interest because of its role in the SQISign signature scheme [DeF+20]. We provide a short and self-contained summary of the state-of-the-art algorithms without going into any of the cryptographic intricacies of SQISign.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": true
+ },
+ "eprint-2022-1722": {
+  "id": "eprint-2022-1722",
+  "source": "eprint",
+  "title": "On Side-Channel and CVO Attacks against TFHE and FHEW",
+  "authors": [
+   "Michael Walter"
+  ],
+  "date": "2022-12-14",
+  "link": "https://eprint.iacr.org/2022/1722",
+  "pdf": "https://eprint.iacr.org/2022/1722.pdf",
+  "abstract": "The recent work of Chaturvedi et al. (ePrint 2022/685) claims to observe leakage about secret information in a ciphertext of TFHE through a timing side-channel on the (untrusted) server. In (Chaturvedi et al., ePrint 2022/1563) this is combined with an active attack against TFHE and FHEW. The claims in (Chaturvedi et al., ePrint 2022/685) about the non-trivial leakage from a ciphertext would have far-reaching implications, since the server does not have any secret inputs. In particular, this would mean a weakening of LWE in general, since an adversary could always simulate a server on which there is side channel leakage. In this short note, we show that the claims made in the two aforementioned works with regards to the leakage through the timing side channel are false. We demonstrate that the active attack, a standard attack against IND-CPA secure LWE-based encryption, can be mounted just as efficiently without the \"side channel information\".",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2022-1202": {
+  "id": "eprint-2022-1202",
+  "source": "eprint",
+  "title": "Disorientation faults in CSIDH",
+  "authors": [
+   "Gustavo Banegas",
+   "Juliane Krämer",
+   "Tanja Lange",
+   "Michael Meyer",
+   "Lorenz Panny",
+   "Krijn Reijnders",
+   "Jana Sotáková",
+   "Monika Trimoska"
+  ],
+  "date": "2022-09-12",
+  "link": "https://eprint.iacr.org/2022/1202",
+  "pdf": "https://eprint.iacr.org/2022/1202.pdf",
+  "abstract": "We investigate a new class of fault-injection attacks against the CSIDH family of cryptographic group actions. Our disorientation attacks effectively flip the direction of some isogeny steps. We achieve this by faulting a specific subroutine, connected to the Legendre symbol or Elligator computations performed during the evaluation of the group action. These subroutines are present in almost all known CSIDH implementations. Post-processing a set of faulty samples allows us to infer constraints on the secret key. The details are implementation specific, but we show that in many cases, it is possible to recover the full secret key with only a modest number of successful fault injections and modest computational resources. We provide full details for attacking the original CSIDH proof-of-concept software as well as the CTIDH constant-time implementation. Finally, we present a set of lightweight countermeasures against the attack and discuss their security.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": true
+ },
+ "eprint-2022-1177": {
+  "id": "eprint-2022-1177",
+  "source": "eprint",
+  "title": "Liberating TFHE: Programmable Bootstrapping with General Quotient Polynomials",
+  "authors": [
+   "Marc Joye",
+   "Michael Walter"
+  ],
+  "date": "2022-09-08",
+  "link": "https://eprint.iacr.org/2022/1177",
+  "pdf": "https://eprint.iacr.org/2022/1177.pdf",
+  "abstract": "All known instantiations for fully homomorphic encryption (FHE) produce noisy ciphertexts and rely on a technique called bootstrapping to reduce the noise so as to enable an arbitrary number of homomorphic operations. Bootstrapping is the main performance bottleneck and arguably the biggest obstacle to widespread adoption of FHE. Among the FHE schemes, TFHE and its variations present the appealing property of having a bootstrapping procedure---as well as its extension to programmable bootstrapping---that is relatively light-weight. The essential operations consist of a series of multiplications in $(Z/qZ)[X]/(X^N+1)$. While the NTT is seemingly the natural candidate for evaluating these multiplications in a fast and exact way, it restricts the possible choices for $q$ and $N$. To the authors' knowledge, all current implementations of TFHE with $q$ a power of two actually employ the FFT over the complex numbers instead. This introduces real numbers to the otherwise purely discrete algorithms, including all the drawbacks of the need to approximate them using finite precision. This work studies the avenues available to apply the NTT in the context of TFHE-like schemes. In particular, it considers various combinations of coefficient rings and quotient polynomials that are compatible with the requirements of the underlying scheme. Importantly, this work provides methods for adapting the (programmable) bootstrapping to quotient polynomials beyond power-of-two cyclotomics. As a side effect, it also demonstrates how this may enhance the programmability of the bootstrapping.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2022-251": {
+  "id": "eprint-2022-251",
+  "source": "eprint",
+  "title": "CoCoA: Concurrent Continuous Group Key Agreement",
+  "authors": [
+   "Joël Alwen",
+   "Benedikt Auerbach",
+   "Miguel Cueto Noval",
+   "Karen Klein",
+   "Guillermo Pascual-Perez",
+   "Krzysztof Pietrzak",
+   "Michael Walter"
+  ],
+  "date": "2022-03-02",
+  "link": "https://eprint.iacr.org/2022/251",
+  "pdf": "https://eprint.iacr.org/2022/251.pdf",
+  "abstract": "Messaging platforms like Signal are widely deployed and provide strong security in an asynchronous setting. It is a challenging problem to construct a protocol with similar security guarantees that can \\emph{efficiently} scale to large groups. A major bottleneck are the frequent key rotations users need to perform to achieve post compromise forward security. In current proposals -- most notably in TreeKEM (which is part of the IETF's Messaging Layer Security (MLS) protocol draft) -- for users in a group of size $n$ to rotate their keys, they must each craft a message of size $\\log(n)$ to be broadcast to the group using an (untrusted) delivery server. In larger groups, having users sequentially rotate their keys requires too much bandwidth (or takes too long), so variants allowing any $T \\leq n$ users to simultaneously rotate their keys in just $2$ communication rounds have been suggested (e.g. \"Propose and Commit\" by MLS). Unfortunately, $2$-round concurrent updates are either damaging or expensive (or both); i.e. they either result in future operations being more costly (e.g. via \"blanking'' or \"tainting'') or are costly themselves requiring $\\Omega(T)$ communication for each user [Bienstock et al., TCC'20]. In this paper we propose CoCoA; a scheme that allows for $T$ concurrent updates that are neither damaging nor costly. That is, they add no cost to future operations yet they only require $\\Omega(\\log^2(n))$ communication per user. To circumvent the [Bienstock et al.] lower bound, CoCoA increases the number of rounds needed to complete all updates from $2$ up to (at most) $\\log(n)$; though typically fewer rounds are needed. The key insight of the protocol is the following: in the (non-concurrent version of) TreeKEM, a delivery server which gets $T$ concurrent update requests will approve one and reject the remaining $T-1$. In contrast, our server attempts to apply all of them. If more than one user requests to rotate the same key during a round, the server arbitrarily picks a winner. Surprisingly, we prove that regardless of how the server chooses the winners, all previously compromised users will recover after at most $\\log(n)$ such update rounds. To keep the communication complexity low, CoCoA is a server-aided CGKA. That is, the delivery server no longer blindly forwards packets, but instead actively computes individualized packets tailored to each user. As the server is untrusted, this change requires us to develop new mechanisms ensuring robustness of the protocol.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2021-1267": {
+  "id": "eprint-2021-1267",
+  "source": "eprint",
+  "title": "Tight Quantum Indifferentiability of a Rate-1/3 Compression Function",
+  "authors": [
+   "Jan Czajkowski"
+  ],
+  "date": "2021-09-22",
+  "link": "https://eprint.iacr.org/2021/1267",
+  "pdf": "https://eprint.iacr.org/2021/1267.pdf",
+  "abstract": "We prove classical and quantum indifferentiability of a rate-1/3 compression function introduced by Shrimpton and Stam (ICALP '08). This construction was one of the first constructions based on three random functions that achieved optimal collision-resistance. We also prove that our result is tight, we define a classical and a quantum attackers that match the indifferentiability security level. Our tight indifferentiability results provide a negative result on the optimality of security of the construction by Shrimpton and Stam, security level of the strong indifferentiability notion is below that of collision-resistance. To arrive at these results, we generalize the results of Czajkowski, Majenz, Schaffner, and Zur (arXiv '19). Our generalization allows to analyze quantum security of constructions based on multiple independent random functions, something not possible before.",
+  "people": [
+   "Jan Czajkowski"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2021-1158": {
+  "id": "eprint-2021-1158",
+  "source": "eprint",
+  "title": "Grafting Key Trees: Efficient Key Management for Overlapping Groups",
+  "authors": [
+   "Joël Alwen",
+   "Benedikt Auerbach",
+   "Mirza Ahad Baig",
+   "Miguel Cueto",
+   "Karen Klein",
+   "Guillermo Pascual-Perez",
+   "Krzysztof Pietrzak",
+   "Michael Walter"
+  ],
+  "date": "2021-09-14",
+  "link": "https://eprint.iacr.org/2021/1158",
+  "pdf": "https://eprint.iacr.org/2021/1158.pdf",
+  "abstract": "Key trees are often the best solution in terms of transmission cost and storage requirements for managing keys in a setting where a group needs to share a secret key, while being able to efficiently rotate the key material of users (in order to recover from a potential compromise, or to add or remove users). Applications include multicast encryption protocols like LKH (Logical Key Hierarchies) or group messaging like the current IETF proposal TreeKEM. A key tree is a (typically balanced) binary tree, where each node is identified with a key: leaf nodes hold users' secret keys while the root is the shared group key. For a group of size $N$, each user just holds $\\log(N)$ keys (the keys on the path from its leaf to the root) and its entire key material can be rotated by broadcasting $2\\log(N)$ ciphertexts (encrypting each fresh key on the path under the keys of its parents). In this work we consider the natural setting where we have many groups with partially overlapping sets of users, and ask if we can find solutions where the cost of rotating a key is better than in the trivial one where we have a separate key tree for each group. We show that in an asymptotic setting (where the number $m$ of groups is fixed while the number $N$ of users grows) there exist more general key graphs whose cost converges to the cost of a single group, thus saving a factor linear in the number of groups over the trivial solution. As our asymptotic ``solution\" converges very slowly and performs poorly on concrete examples, we propose an algorithm that uses a natural heuristic to compute a key graph for any given group structure. Our algorithm combines two greedy algorithms, and is thus very efficient: it first converts the group structure into a ``lattice graph\", which is then turned into a key graph by repeatedly applying the algorithm for constructing a Huffman code. To better understand how far our proposal is from an optimal solution, we prove lower bounds on the update cost of continuous group-key agreement and multicast encryption in a symbolic model admitting (asymmetric) encryption, pseudorandom generators, and secret sharing as building blocks.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2021-633": {
+  "id": "eprint-2021-633",
+  "source": "eprint",
+  "title": "CTIDH: faster constant-time CSIDH",
+  "authors": [
+   "Gustavo Banegas",
+   "Daniel J. Bernstein",
+   "Fabio Campos",
+   "Tung Chou",
+   "Tanja Lange",
+   "Michael Meyer",
+   "Benjamin Smith",
+   "Jana Sotáková"
+  ],
+  "date": "2021-05-17",
+  "link": "https://eprint.iacr.org/2021/633",
+  "pdf": "https://eprint.iacr.org/2021/633.pdf",
+  "abstract": "This paper introduces a new key space for CSIDH and a new algorithm for constant-time evaluation of the CSIDH group action. The key space is not useful with previous algorithms, and the algorithm is not useful with previous key spaces, but combining the new key space with the new algorithm produces speed records for constant-time CSIDH. For example, for CSIDH-512 with a 256-bit key space, the best previous constant-time results used 789000 multiplications and more than 200 million Skylake cycles; this paper uses 438006 multiplications and 125.53 million cycles.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": true
+ },
+ "eprint-2021-557": {
+  "id": "eprint-2021-557",
+  "source": "eprint",
+  "title": "Dual lattice attacks for closest vector problems (with preprocessing)",
+  "authors": [
+   "Thijs Laarhoven",
+   "Michael Walter"
+  ],
+  "date": "2021-04-28",
+  "link": "https://eprint.iacr.org/2021/557",
+  "pdf": "https://eprint.iacr.org/2021/557.pdf",
+  "abstract": "The dual attack has long been considered a relevant attack on lattice-based cryptographic schemes relying on the hardness of learning with errors (LWE) and its structured variants. As solving LWE corresponds to finding a nearest point on a lattice, one may naturally wonder how efficient this dual approach is for solving more general closest vector problems, such as the classical closest vector problem (CVP), the variants bounded distance decoding (BDD) and approximate CVP, and preprocessing versions of these problems. While primal, sieving-based solutions to these problems (with preprocessing) were recently studied in a series of works on approximate Voronoi cells, for the dual attack no such overview exists, especially for problems with preprocessing. With one of the take-away messages of the approximate Voronoi cell line of work being that primal attacks work well for approximate CVP(P) but scale poorly for BDD(P), one may wonder if the dual attack suffers the same drawbacks, or if it is a better method for solving BDD(P). In this work we provide an overview of cost estimates for dual algorithms for solving these ''classical'' closest lattice vector problems. Heuristically we expect to solve the search version of average-case CVPP in time and space $2^{0.293d + o(d)}$. For the distinguishing version of average-case CVPP, where we wish to distinguish between random targets and targets planted at distance approximately the Gaussian heuristic from the lattice, we obtain the same complexity in the single-target model, and we obtain query time and space complexities of $2^{0.195d + o(d)}$ in the multi-target setting, where we are given a large number of targets from either target distribution. This suggests an inequivalence between distinguishing and searching, as we do not expect a similar improvement in the multi-target setting to hold for search-CVPP. We analyze three slightly different decoders, both for distinguishing and searching, and experimentally obtain concrete cost estimates for the dual attack in dimensions $50$ to $80$, which confirm our heuristic assumptions, and show that the hidden order terms in the asymptotic estimates are quite small. Our main take-away message is that the dual attack appears to mirror the approximate Voronoi cell line of work -- whereas using approximate Voronoi cells works well for approximate CVP(P) but scales poorly for BDD(P), the dual approach scales well for BDD(P) instances but performs poorly on approximate CVP(P).",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2021-372": {
+  "id": "eprint-2021-372",
+  "source": "eprint",
+  "title": "Explicit connections between supersingular isogeny graphs and Bruhat–Tits trees",
+  "authors": [
+   "Laia Amorós",
+   "Annamaria Iezzi",
+   "Kristin Lauter",
+   "Chloe Martindale",
+   "Jana Sotáková"
+  ],
+  "date": "2021-03-22",
+  "link": "https://eprint.iacr.org/2021/372",
+  "pdf": "https://eprint.iacr.org/2021/372.pdf",
+  "abstract": "We give an exposition of supersingular isogeny graphs, quaternion ideal graphs and Bruhat–Tits trees, and of their connections. Bruhat–Tits trees are combinatorial objects whose vertices and edges have a very simple representation as two-by-two matrices, which, as we show, is useful for understanding certain aspects of the corresponding elliptic curves and isogenies. Moreover Bruhat–Tits trees can be given an orientation and a notion of depth that we translate into the setting of supersingular isogeny graphs. We give some suggestions towards using Bruhat–Tits trees as a tool for cryptanalysis of certain cryptosystems based on supersingular isogeny graphs.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": true
+ },
+ "eprint-2021-59": {
+  "id": "eprint-2021-59",
+  "source": "eprint",
+  "title": "The Cost of Adaptivity in Security Games on Graphs",
+  "authors": [
+   "Chethan Kamath",
+   "Karen Klein",
+   "Krzysztof Pietrzak",
+   "Michael Walter"
+  ],
+  "date": "2021-01-18",
+  "link": "https://eprint.iacr.org/2021/59",
+  "pdf": "https://eprint.iacr.org/2021/59.pdf",
+  "abstract": "The security of cryptographic primitives and protocols against adversaries that are allowed to make adaptive choices (e.g., which parties to corrupt or which queries to make) is notoriously difficult to establish. A broad theoretical framework was introduced by Jafargholi et al. [Crypto'17] for this purpose. In this paper we initiate the study of lower bounds on loss in adaptive security for certain cryptographic protocols considered in the framework. We prove lower bounds that almost match the upper bounds (proven using the framework) for proxy re-encryption, prefix-constrained PRFs and generalized selective decryption, a security game that captures the security of certain group messaging and broadcast encryption schemes. Those primitives have in common that their security game involves an underlying graph that can be adaptively built by the adversary. Some of our lower bounds only apply to a restricted class of black-box reductions which we term \"oblivious\" (the existing upper bounds are of this restricted type), some apply to the broader but still restricted class of non-rewinding reductions, while our lower bound for proxy re-encryption applies to all black-box reductions. The fact that some of our lower bounds seem to crucially rely on obliviousness or at least a non-rewinding reduction hints to the exciting possibility that the existing upper bounds can be improved by using more sophisticated reductions. Our main conceptual contribution is a two-player multi-stage game called the Builder-Pebbler Game. We can translate bounds on the winning probabilities for various instantiations of this game into cryptographic lower bounds for the above-mentioned primitives using oracle separation techniques.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2020-1409": {
+  "id": "eprint-2020-1409",
+  "source": "eprint",
+  "title": "The Convergence of Slide-type Reductions",
+  "authors": [
+   "Michael Walter"
+  ],
+  "date": "2020-11-15",
+  "link": "https://eprint.iacr.org/2020/1409",
+  "pdf": "https://eprint.iacr.org/2020/1409.pdf",
+  "abstract": "In this work we apply the dynamical systems analysis of Hanrot et al. (CRYPTO'11) to a class of lattice block reduction algorithms that includes (natural variants of) slide reduction and block-Rankin reduction. This implies sharper bounds on the polynomial running times (in the query model) for these algorithms and opens the door to faster practical variants of slide reduction. We give heuristic arguments showing that such variants can indeed speed up slide reduction significantly in practice. This is confirmed by experimental evidence, which also shows that our variants are competitive with state-of-the-art reduction algorithms.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2020-670": {
+  "id": "eprint-2020-670",
+  "source": "eprint",
+  "title": "Inverse-Sybil Attacks in Automated Contact Tracing",
+  "authors": [
+   "Benedikt Auerbach",
+   "Suvradip Chakraborty",
+   "Karen Klein",
+   "Guillermo Pascual-Perez",
+   "Krzysztof Pietrzak",
+   "Michael Walter",
+   "Michelle Yeo"
+  ],
+  "date": "2020-06-05",
+  "link": "https://eprint.iacr.org/2020/670",
+  "pdf": "https://eprint.iacr.org/2020/670.pdf",
+  "abstract": "Automated contract tracing aims at supporting manual contact tracing during pandemics by alerting users of encounters with infected people. There are currently many proposals for protocols (like the “decentralized” DP-3T and PACT or the “centralized” ROBERT and DESIRE) to be run on mobile phones, where the basic idea is to regularly broadcast (using low energy Bluetooth) some values, and at the same time store (a function of) incoming messages broadcasted by users in their proximity. In the existing proposals one can trigger false positives on a massive scale by an “inverse-Sybil” attack, where a large number of devices (malicious users or hacked phones) pretend to be the same user, such that later, just a single person needs to be diagnosed (and allowed to upload) to trigger an alert for all users who were in proximity to any of this large group of devices. We propose the first protocols that do not succumb to such attacks assuming the devices involved in the attack do not constantly communicate, which we observe is a necessary assumption. The high level idea of the protocols is to derive the values to be broadcasted by a hash chain, so that two (or more) devices who want to launch an inverse-Sybil attack will not be able to connect their respective chains and thus only one of them will be able to upload. Our protocols also achieve security against replay, belated replay, and one of them even against relay attacks.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2020-337": {
+  "id": "eprint-2020-337",
+  "source": "eprint",
+  "title": "Improved Discrete Gaussian and Subgaussian Analysis for Lattice Cryptography",
+  "authors": [
+   "Nicholas Genise",
+   "Daniele Micciancio",
+   "Chris Peikert",
+   "Michael Walter"
+  ],
+  "date": "2020-03-18",
+  "link": "https://eprint.iacr.org/2020/337",
+  "pdf": "https://eprint.iacr.org/2020/337.pdf",
+  "abstract": "Discrete Gaussian distributions over lattices are central to lattice-based cryptography, and to the computational and mathematical aspects of lattices more broadly. The literature contains a wealth of useful theorems about the behavior of discrete Gaussians under convolutions and related operations. Yet despite their structural similarities, most of these theorems are formally incomparable, and their proofs tend to be monolithic and written nearly \"from scratch,'' making them unnecessarily hard to verify, understand, and extend. In this work we present a modular framework for analyzing linear operations on discrete Gaussian distributions. The framework abstracts away the particulars of Gaussians, and usually reduces proofs to the choice of appropriate linear transformations and elementary linear algebra. To showcase the approach, we establish several general properties of discrete Gaussians, and show how to obtain all prior convolution theorems (along with some new ones) as straightforward corollaries. As another application, we describe a self-reduction for Learning With Errors~(LWE) that uses a fixed number of samples to generate an unlimited number of additional ones (having somewhat larger error). The distinguishing features of our reduction are its simple analysis in our framework, and its exclusive use of discrete Gaussians without any loss in parameters relative to a prior mixed discrete-and-continuous approach. As a contribution of independent interest, for subgaussian random matrices we prove a singular value concentration bound with explicitly stated constants, and we give tighter heuristics for specific distributions that are commonly used for generating lattice trapdoors. These bounds yield improvements in the concrete bit-security estimates for trapdoor lattice cryptosystems.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2020-151": {
+  "id": "eprint-2020-151",
+  "source": "eprint",
+  "title": "Breaking the decisional Diffie-Hellman problem for class group actions using genus theory -- extended version",
+  "authors": [
+   "Wouter Castryck",
+   "Jana Sotáková",
+   "Frederik Vercauteren"
+  ],
+  "date": "2020-02-13",
+  "link": "https://eprint.iacr.org/2020/151",
+  "pdf": "https://eprint.iacr.org/2020/151.pdf",
+  "abstract": "In this paper, we use genus theory to analyze the hardness of the decisional Diffie-Hellman problem for ideal class groups of imaginary quadratic orders acting on sets of elliptic curves through isogenies (DDH-CGA). Such actions are used in the Couveignes-Rostovtsev-Stolbunov protocol and in CSIDH. Concretely, genus theory equips every imaginary quadratic order $\\mathcal{O}$ with a set of assigned characters $\\chi : \\text{cl}(\\mathcal{O}) \\to \\{ \\pm 1\\}$, and for each such character and every secret ideal class $[\\mathfrak{a}]$ connecting two public elliptic curves $E$ and $E' = [\\mathfrak{a}] \\star E$, we show how to compute $\\chi([\\mathfrak{a}])$ given only $E$ and $E'$, i.e. without knowledge of $[\\mathfrak{a}]$. In practice, this breaks DDH-CGA as soon as the class number is even, which is true for a density $1$ subset of all imaginary quadratic orders. For instance, our attack works very efficiently for all supersingular elliptic curves over $\\mathbb{F}_p$ with $p \\equiv 1 \\bmod 4$. Our method relies on computing Tate pairings and walking down isogeny volcanoes. We also show that these ideas carry over, at least partly, to abelian varieties of arbitrary dimension. This is an extended version of the paper that was presented at Crypto 2020.",
+  "people": [
+   "Jana Sotáková"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": true
+ },
+ "eprint-2019-1489": {
+  "id": "eprint-2019-1489",
+  "source": "eprint",
+  "title": "Keep the Dirt: Tainted TreeKEM, Adaptively and Actively Secure Continuous Group Key Agreement",
+  "authors": [
+   "Joël Alwen",
+   "Margarita Capretto",
+   "Miguel Cueto",
+   "Chethan Kamath",
+   "Karen Klein",
+   "Ilia Markov",
+   "Guillermo Pascual-Perez",
+   "Krzysztof Pietrzak",
+   "Michael Walter",
+   "Michelle Yeo"
+  ],
+  "date": "2019-12-30",
+  "link": "https://eprint.iacr.org/2019/1489",
+  "pdf": "https://eprint.iacr.org/2019/1489.pdf",
+  "abstract": "While messaging systems with strong security guarantees are widely used in practice, designing a protocol that scales efficiently to large groups and enjoys similar security guarantees remains largely open. The two existing proposals to date are ART (Cohn-Gordon et al., CCS18) and TreeKEM (IETF, The Messaging Layer Security Protocol, draft). TreeKEM is the currently considered candidate by the IETF MLS working group, but dynamic group operations (i.e. adding and removing users) can cause efficiency issues. In this paper we formalize and analyze a variant of TreeKEM which we term Tainted TreeKEM (TTKEM for short). The basic idea underlying TTKEM was suggested by Millican (MLS mailing list, February 2018). This version is more efficient than TreeKEM for some natural distributions of group operations, we quantify this through simulations. Our second contribution is two security proofs for TTKEM which establish post compromise and forward secrecy even against adaptive attackers. If $n$ is the group size and $Q$ the number of operations, the security loss (to the underlying PKE) in the Random Oracle Model is a polynomial factor $(Qn)^2$, and in the Standard Model a quasipolynomial $Q^{\\log(n)}$. Our proofs can be adapted to TreeKEM as well. Before our work no security proof for any TreeKEM-like protocol establishing tight security against an adversary who can adaptively choose the sequence of operations was known. We also are the first to prove (or even formalize) active security where the server can arbitrarily deviate from the protocol specification. Proving fully active security - where also the users can arbitrarily deviate - remains open.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2019-252": {
+  "id": "eprint-2019-252",
+  "source": "eprint",
+  "title": "Reversible Proofs of Sequential Work",
+  "authors": [
+   "Hamza Abusalah",
+   "Chethan Kamath",
+   "Karen Klein",
+   "Krzysztof Pietrzak",
+   "Michael Walter"
+  ],
+  "date": "2019-02-28",
+  "link": "https://eprint.iacr.org/2019/252",
+  "pdf": "https://eprint.iacr.org/2019/252.pdf",
+  "abstract": "Proofs of sequential work (PoSW) are proof systems where a prover, upon receiving a statement $\\chi$ and a time parameter $T$ computes a proof $\\phi(\\chi,T)$ which is efficiently and publicly verifiable. The proof can be computed in $T$ sequential steps, but not much less, even by a malicious party having large parallelism. A PoSW thus serves as a proof that $T$ units of time have passed since $\\chi$ was received. PoSW were introduced by Mahmoody, Moran and Vadhan [MMV11], a simple and practical construction was only recently proposed by Cohen and Pietrzak [CP18]. In this work we construct a new simple PoSW in the random permutation model which is almost as simple and efficient as [CP18] but conceptually very different. Whereas the structure underlying [CP18] is a hash tree, our construction is based on skip lists and has the interesting property that computing the PoSW is a reversible computation. The fact that the construction is reversible can potentially be used for new applications like constructing \\emph{proofs of replication}. We also show how to ``embed\" the sloth function of Lenstra and Weselowski [LW17] into our PoSW to get a PoSW where one additionally can verify correctness of the output much more efficiently than recomputing it (though recent constructions of ``verifiable delay functions\" subsume most of the applications this construction was aiming at).",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2019-197": {
+  "id": "eprint-2019-197",
+  "source": "eprint",
+  "title": "Non-interactive Cryptographic Timestamping based on Verifiable Delay Functions",
+  "authors": [
+   "Esteban Landerreche",
+   "Marc Stevens",
+   "Christian Schaffner"
+  ],
+  "date": "2019-02-27",
+  "link": "https://eprint.iacr.org/2019/197",
+  "pdf": "https://eprint.iacr.org/2019/197.pdf",
+  "abstract": "We present the first treatment of non-interactive publicly-verifiable timestamping schemes in the Universal Composability framework. Similar to a simple construction by Mahmoody et al., we use non-parallelizable computational work that relates to elapsed time to avoid previous impossibility results on non-interactive timestamping. We extend these ideas to the UC-framework and show how to model verifiable delay functions (VDF) related to a global clock, and non-interactive timestamping, in the UC-framework. Furthermore, we present new constructions that are substantial improvements over Mahmoody et al.’s construction, such that any forged timestamps by the adversary are now limited to within a certain time-window that depends only on its ratio to compute VDFs more quickly and the time-window of corruption. Finally, we discuss natural applications for our construction in decentralized protocols.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2019-69": {
+  "id": "eprint-2019-69",
+  "source": "eprint",
+  "title": "Quantum Indistinguishability of Random Sponges",
+  "authors": [
+   "Jan Czajkowski",
+   "Andreas Hülsing",
+   "Christian Schaffner"
+  ],
+  "date": "2019-01-25",
+  "link": "https://eprint.iacr.org/2019/69",
+  "pdf": "https://eprint.iacr.org/2019/69.pdf",
+  "abstract": "In this work we show that the sponge construction can be used to construct quantum-secure pseudorandom functions. As our main result we prove that random sponges are quantum indistinguishable from random functions. In this setting the adversary is given superposition access to the input-output behavior of the construction but not to the internal function. Our proofs hold under the assumption that the internal function is a random function or permutation. We then use this result to obtain a quantum-security version of a result by Andreeva, Daemen, Mennink, and Van Assche (FSE'15) which shows that a sponge that uses a secure PRP or PRF as internal function is a secure PRF. This result also proves that the recent attacks against CBC-MAC in the quantum-access model by Kaplan, Leurent, Leverrier, and Naya-Plasencia (Crypto'16) and Santoli, and Schaffner (QIC'16) can be prevented by introducing a state with a non-trivial inner part. The proof of our main result is derived by analyzing the joint distribution of any $q$ input-output pairs. Our method analyzes the statistical behavior of the considered construction in great detail. The used techniques might prove useful in future analysis of different cryptographic primitives considering quantum adversaries. Using Zhandry's PRF/PRP switching lemma we then obtain that quantum indistinguishability also holds if the internal block function is a random permutation.",
+  "people": [
+   "Jan Czajkowski",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2019-68": {
+  "id": "eprint-2019-68",
+  "source": "eprint",
+  "title": "Sampling the Integers with Low Relative Error",
+  "authors": [
+   "Michael Walter"
+  ],
+  "date": "2019-01-25",
+  "link": "https://eprint.iacr.org/2019/68",
+  "pdf": "https://eprint.iacr.org/2019/68.pdf",
+  "abstract": "Randomness is an essential part of any secure cryptosystem, but many constructions rely on distributions that are not uniform. This is particularly true for lattice based cryptosystems, which more often than not make use of discrete Gaussian distributions over the integers. For practical purposes it is crucial to evaluate the impact that approximation errors have on the security of a scheme to provide the best possible trade-off between security and performance. Recent years have seen surprising results allowing to use relatively low precision while maintaining high levels of security. A key insight in these results is that sampling a distribution with low relative error can provide very strong security guarantees. Since floating point numbers provide guarantees on the relative approximation error, they seem a suitable tool in this setting, but it is not obvious which sampling algorithms can actually profit from them. While previous works have shown that inversion sampling can be adapted to provide a low relative error (Pöppelmann et al., CHES 2014; Prest, ASIACRYPT 2017), other works have called into question if this is possible for other sampling techniques (Zheng et al., Eprint report 2018/309). In this work, we consider all sampling algorithms that are popular in the cryptographic setting and analyze the relationship of floating point precision and the resulting relative error. We show that all of the algorithms either natively achieve a low relative error or can be adapted to do so.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2018-77": {
+  "id": "eprint-2018-77",
+  "source": "eprint",
+  "title": "On the Bit Security of Cryptographic Primitives",
+  "authors": [
+   "Daniele Micciancio",
+   "Michael Walter"
+  ],
+  "date": "2018-01-18",
+  "link": "https://eprint.iacr.org/2018/77",
+  "pdf": "https://eprint.iacr.org/2018/77.pdf",
+  "abstract": "We introduce a formal quantitative notion of ``bit security'' for a general type of cryptographic games (capturing both decision and search problems), aimed at capturing the intuition that a cryptographic primitive with $k$-bit security is as hard to break as an ideal cryptographic function requiring a brute force attack on a $k$-bit key space. Our new definition matches the notion of bit security commonly used by cryptographers and cryptanalysts when studying search (e.g., key recovery) problems, where the use of the traditional definition is well established. However, it produces a quantitatively different metric in the case of decision (indistinguishability) problems, where the use of (a straightforward generalization of) the traditional definition is more problematic and leads to a number of paradoxical situations or mismatches between theoretical/provable security and practical/common sense intuition. Key to our new definition is to consider adversaries that may explicitly declare failure of the attack. We support and justify the new definition by proving a number of technical results, including tight reductions between several standard cryptographic problems, a new hybrid theorem that preserves bit security, and an application to the security analysis of indistinguishability primitives making use of (approximate) floating point numbers. This is the first result showing that (standard precision) 53-bit floating point numbers can be used to achieve 100-bit security in the context of cryptographic primitives with general indistinguishability-based security definitions. Previous results of this type applied only to search problems, or special types of decision problems.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2017-1171": {
+  "id": "eprint-2017-1171",
+  "source": "eprint",
+  "title": "Attacks on the AJPS Mersenne-based cryptosystem",
+  "authors": [
+   "Koen de Boer",
+   "Léo Ducas",
+   "Stacey Jeffery",
+   "Ronald de Wolf"
+  ],
+  "date": "2017-12-06",
+  "link": "https://eprint.iacr.org/2017/1171",
+  "pdf": "https://eprint.iacr.org/2017/1171.pdf",
+  "abstract": "Aggarwal, Joux, Prakash and Santha recently introduced a new potentially quantum-safe public-key cryptosystem, and suggested that a brute-force attack is essentially optimal against it. They consider but then dismiss both Meet-in-the-Middle attacks and LLL-based attacks. Very soon after their paper appeared, Beunardeau et al.\\ proposed a practical LLL-based technique that seemed to significantly reduce the security of the AJPS system. In this paper we do two things. First, we show that a Meet-in-the-Middle attack can also be made to work against the AJPS system, using locality-sensitive hashing to overcome the difficulty that Aggarwal et al.\\ saw for such attacks. We also present a quantum version of this attack. Second, we give a more precise analysis of the attack of Beunardeau et al., confirming and refining their results.",
+  "people": [
+   "Stacey Jeffery",
+   "Ronald de Wolf"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2017-916": {
+  "id": "eprint-2017-916",
+  "source": "eprint",
+  "title": "A Concrete Treatment of Fiat-Shamir Signatures in the Quantum Random-Oracle Model",
+  "authors": [
+   "Eike Kiltz",
+   "Vadim Lyubashevsky",
+   "Christian Schaffner"
+  ],
+  "date": "2017-09-24",
+  "link": "https://eprint.iacr.org/2017/916",
+  "pdf": "https://eprint.iacr.org/2017/916.pdf",
+  "abstract": "The Fiat-Shamir transform is a technique for combining a hash function and an identification scheme to produce a digital signature scheme. The resulting scheme is known to be secure in the random oracle model (ROM), which does not, however, imply security in the scenario where the adversary also has quantum access to the oracle. The goal of this current paper is to create a generic framework for constructing tight reductions in the QROM from underlying hard problems to Fiat-Shamir signatures. Our generic reduction is composed of two results whose proofs, we believe, are simple and natural. We first consider a security notion (UF-NMA) in which the adversary obtains the public key and attempts to create a valid signature without accessing a signing oracle. We give a tight reduction showing that deterministic signatures (i.e., ones in which the randomness is derived from the message and the secret key) that are UF-NMA secure are also secure under the standard chosen message attack (UF-CMA) security definition. Our second result is showing that if the identification scheme is “lossy”, as defined in (Abdalla et al. Eurocrypt 2012), then the security of the UF-NMA scheme is tightly based on the hardness of distinguishing regular and lossy public keys of the identification scheme. This latter distinguishing problem is normally exactly the definition of some presumably-hard mathematical problem. The combination of these components gives our main result. As a concrete instantiation of our framework, we modify the recent lattice-based Dilithium digital signature scheme (Ducas et al., TCHES 2018) so that its underlying identification scheme admits lossy public keys. The original Dilithium scheme, which is proven secure in the classical ROM based on standard lattice assumptions, has 1.5KB public keys and 2.7KB signatures. The new scheme, which is tightly based on the hardness of the Module-LWE problem in the QROM using our generic reductions, has 7.7KB public keys and 5.7KB signatures for the same security level. Furthermore, due to our proof of equivalence between the UF-NMA and UF-CMA security notions of deterministic signature schemes, we can formulate a new non-interactive assumption under which the original Dilithium signature scheme is also tightly secure in the QROM.",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2017-771": {
+  "id": "eprint-2017-771",
+  "source": "eprint",
+  "title": "Post-quantum security of the sponge construction",
+  "authors": [
+   "Jan Czajkowski",
+   "Leon Groot Bruinderink",
+   "Andreas Hülsing",
+   "Christian Schaffner",
+   "Dominique Unruh"
+  ],
+  "date": "2017-08-13",
+  "link": "https://eprint.iacr.org/2017/771",
+  "pdf": "https://eprint.iacr.org/2017/771.pdf",
+  "abstract": "We investigate the post-quantum security of hash functions based on the sponge construction. A crucial property for hash functions in the post-quantum setting is the collapsing property (a strengthening of collision-resistance). We show that the sponge construction is collapsing (and in consequence quantum collision-resistant) under suitable assumptions about the underlying block function. In particular, if the block function is a random function or a (non-invertible) random permutation, the sponge construction is collapsing.",
+  "people": [
+   "Jan Czajkowski",
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2017-606": {
+  "id": "eprint-2017-606",
+  "source": "eprint",
+  "title": "Creating Cryptographic Challenges Using Multi-Party Computation: The LWE Challenge",
+  "authors": [
+   "Johannes Buchmann",
+   "Niklas Büscher",
+   "Florian Göpfert",
+   "Stefan Katzenbeisser",
+   "Juliane Krämer",
+   "Daniele Micciancio",
+   "Sander Siim",
+   "Christine van Vredendaal",
+   "Michael Walter"
+  ],
+  "date": "2017-06-26",
+  "link": "https://eprint.iacr.org/2017/606",
+  "pdf": "https://eprint.iacr.org/2017/606.pdf",
+  "abstract": "Practical hardness results are necessary to select parameters for cryptographic schemes. Cryptographic challenges proved to be useful for determining the practical hardness of computational problems that are used to build public-key cryptography. However, several of these problems have the drawback that it is not known how to create a challenge for them without knowing the solutions. Hence, for these problems the creators of the challenges are excluded from participating. In this work, we present a method to create cryptographic challenges without excluding anyone from participating. This method is based on secure multi-party computation (MPC). We demonstrate that the MPC-based approach is indeed feasible by using it to build a challenge for the learning with errors (LWE) problem. The LWE problem is one of the most important problems in lattice-based cryptography. The security of many cryptographic schemes that have been proposed in the last decade is directly based on it. We identify parameters for LWE instances that provide the appropriate hardness level for a challenge while representing instances used to instantiate encryption schemes as close as possible. The LWE challenge is designed to determine the practical hardness of LWE, to gain an overview of the best known LWE solvers, and to motivate additional research effort in this direction.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "eprint-2017-259": {
+  "id": "eprint-2017-259",
+  "source": "eprint",
+  "title": "Gaussian Sampling over the Integers: Efficient, Generic, Constant-Time",
+  "authors": [
+   "Daniele Micciancio",
+   "Michael Walter"
+  ],
+  "date": "2017-03-25",
+  "link": "https://eprint.iacr.org/2017/259",
+  "pdf": "https://eprint.iacr.org/2017/259.pdf",
+  "abstract": "Sampling integers with Gaussian distribution is a fundamental problem that arises in almost every application of lattice cryptography, and it can be both time consuming and challenging to implement. Most previous work has focused on the optimization and implementation of integer Gaussian sampling in the context of specific applications, with fixed sets of parameters. We present new algorithms for discrete Gaussian sampling that are both generic (application independent), efficient, and more easily implemented in constant time without incurring a substantial slow-down, making them more resilient to side-channel (e.g., timing) attacks. As an additional contribution, we present new analytical techniques that can be used to simplify the precision/security evaluation of floating point cryptographic algorithms, and an experimental comparison of our algorithms with previous algorithms from the literature.",
+  "people": [
+   "Michael Walter"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-5030276": {
+  "id": "ssrn-5030276",
+  "source": "ssrn",
+  "title": "The Value of Power-to-Gas-to-Power in Switzerland's Electricity System Planning",
+  "authors": [
+   "Elena Raycheva",
+   "Behnam Akbari",
+   "Jared Garrison",
+   "Gabriela Hug",
+   "Christian Schaffner",
+   "Giovanni Sansavini"
+  ],
+  "date": "2024-01-01",
+  "link": "https://doi.org/10.2139/ssrn.5030276",
+  "pdf": null,
+  "abstract": "",
+  "people": [
+   "Christian Schaffner"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-5162579": {
+  "id": "ssrn-5162579",
+  "source": "ssrn",
+  "title": "Technological Understanding: On the Cognitive Skill Involved in the Design and Use of Technological Artefacts",
+  "authors": [
+   "Eline De Jong",
+   "Sebastian De Haro"
+  ],
+  "date": "2025-01-01",
+  "link": "https://doi.org/10.2139/ssrn.5162579",
+  "pdf": null,
+  "abstract": "",
+  "people": [
+   "Eline de Jong",
+   "Sebastian De Haro"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv",
+  "maybe_someone_else": false
+ },
+ "ssrn-5195814": {
+  "id": "ssrn-5195814",
+  "source": "ssrn",
+  "title": "A Contextual Approach to Technological Understanding and Its Assessment",
+  "authors": [
+   "Eline De Jong",
+   "Sebastian De Haro"
+  ],
+  "date": "2025-01-01",
+  "link": "https://doi.org/10.2139/ssrn.5195814",
+  "pdf": null,
+  "abstract": "Technological understanding is not a singular concept but varies depending on context. Building on De Jong and De Haro's (2025) notion of technological understanding as the ability to realise an aim through the use of a technological artefact, this paper refines the concept as an ability that differs by context and degree. We extend the original specification developed for a design context by introducing two additional contexts: operation and innovation. Each context represents a distinct way of realising an aim through technology, yielding three types of technological understanding. To clarify the nature of technological understanding further, we propose an assessment framework based on counterfactual reasoning. Each type of understanding is associated with the ability to answer a specific set of what-if questions concerning changes in an artefact's structure, performance, or appropriateness. Distinguishing these different types helps focus efforts to improve technological understanding, clarifies the epistemic requirements of different forms of engagement with technology, and supports a pluralistic perspective on expertise.",
+  "people": [
+   "Eline de Jong",
+   "Sebastian De Haro"
+  ],
+  "found": "2026-10-22",
+  "status": "on arXiv",
+  "maybe_someone_else": false
+ },
+ "ssrn-4393248": {
+  "id": "ssrn-4393248",
+  "source": "ssrn",
+  "title": "Towards Responsible Quantum Technology",
+  "authors": [
+   "Mauritz Kop",
+   "Mateo Aboy",
+   "Eline De Jong",
+   "Urs Gasser",
+   "Timo Minssen",
+   "I. Glenn Cohen",
+   "Mark Brongersma",
+   "Teresa Quintel",
+   "Luciano Floridi",
+   "Ray Laflamme"
+  ],
+  "date": "2023-01-01",
+  "link": "https://doi.org/10.2139/ssrn.4393248",
+  "pdf": null,
+  "abstract": "The expected societal impact of quantum technologies (QT) urges us to proceed and innovate responsibly. This article proposes a conceptual framework for Responsible QT that seeks to integrate considerations about ethical, legal, social, and policy implications (ELSPI) into quantum R&amp;D, while responding to the Responsible Research and Innovation dimensions of anticipation, inclusion, reflection and responsiveness. After examining what makes QT unique, we argue that quantum innovation should be guided by a methodological framework for Responsible QT, aimed at jointly safeguarding against risks by proactively addressing them, engaging stakeholders in the innovation process, and continue advancing QT (‘SEA’). We further suggest operationalizing the SEA-framework by establishing quantum-specific guiding principles. The impact of quantum computing on information security is used as a case study to illustrate (1) the need for a framework that guides Responsible QT, and (2) the usefulness of the SEA-framework for QT generally. Additionally, we examine how our proposed SEA-framework for responsible innovation can inform the emergent regulatory landscape affecting QT, and provide an outlook of how regulatory interventions for QT as base-layer technology could be designed, contextualized, and tailored to their exceptional nature in order to reduce the risk of unintended counterproductive effects of policy interventions. <br><br>Laying the groundwork for a responsible quantum ecosystem, the research community and other stakeholders are called upon to further develop the recommended guiding principles, and discuss their operationalization into best practices and real-world applications. Our proposed framework should be considered a starting point for these much needed, highly interdisciplinary efforts.",
+  "people": [
+   "Eline de Jong"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-4475556": {
+  "id": "ssrn-4475556",
+  "source": "ssrn",
+  "title": "10 Principles for Responsible Quantum Innovation",
+  "authors": [
+   "Mauritz Kop",
+   "Mateo Aboy",
+   "Eline De Jong",
+   "Urs Gasser",
+   "Timo Minssen",
+   "I. Glenn Cohen",
+   "Mark Brongersma",
+   "Teresa Quintel",
+   "Luciano Floridi",
+   "Ray Laflamme"
+  ],
+  "date": "2023-01-01",
+  "link": "https://doi.org/10.2139/ssrn.4475556",
+  "pdf": null,
+  "abstract": "This paper proposes a set of guiding principles for responsible quantum innovation. The principles are organized into three functional categories: safeguarding, engaging, and advancing (SEA), and are grounded in the values of responsible research and innovation (RRI). Utilizing a global equity normative framework, we link the Quantum-SEA categories to promise and perils specific to quantum technology. The paper operationalizes the Responsible Quantum Technology framework by proposing ten actionable principles to help address the risks, challenges, and opportunities associated with quantum technology. Our proposal aims to catalyze a much-needed interdisciplinary effort within the quantum community to establish a foundation of quantum-specific and quantum-tailored principles for responsible quantum innovation. The overarching objective of this interdisciplinary effort is to steer the development and use of quantum technology in a direction not only consistent with a values-based society but also a direction that contributes to addressing some of society's most pressing needs and goals.",
+  "people": [
+   "Eline de Jong"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-7364718": {
+  "id": "ssrn-7364718",
+  "source": "ssrn",
+  "title": "Governing the Post-Quantum Cryptography Transition in the US and the EU: A Comparative Analysis",
+  "authors": [
+   "Laima Jančiūtė",
+   "Joris V. J. van Hoboken"
+  ],
+  "date": "2026-01-01",
+  "link": "https://doi.org/10.2139/ssrn.7364718",
+  "pdf": null,
+  "abstract": "Large scale quantum computers are anticipated to pose serious threat to the current digital infrastructure in that they will enable decryption of much of information encrypted with conventional methods used today. This threat has been gaining momentum as a next cybersecurity frontier. Post-quantum cryptography (PQC) is deemed to be the main solution in mitigating this threat and the necessity to act upon it has already been embraced by numerous governments around the world. This article analyses how two jurisdictions-the US and the EU-have been governing their transition to PQC. It discusses the state of play, the relevant actors, policies as well as the main challenges and future trajectories. This process has been unfolding in different ways in the US and the EU which are now both pursuing the same ultimate quantum-readiness timeline of 2035. Alongside, the considerations surrounding PQC algorithmic choices are also explored.",
+  "people": [
+   "Laima Janciute",
+   "Joris van Hoboken"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-5461374": {
+  "id": "ssrn-5461374",
+  "source": "ssrn",
+  "title": "The EU's Digital Sovereignty and Quantum Technologies: To What End?",
+  "authors": [
+   "Plixavra Vogiatzoglou",
+   "Joris V. J. van Hoboken"
+  ],
+  "date": "2025-01-01",
+  "link": "https://doi.org/10.2139/ssrn.5461374",
+  "pdf": null,
+  "abstract": "Digital sovereignty, as a core EU policy objective, conveys the urgency of reducing dependencies, safeguarding European values, and regaining control over data, infrastructure, and technologies through regulation, strategic investments and geopolitical partnerships. However, it is a broad term encompassing different elements, and achieving some form of digital sovereignty remains questionable. This paper argues that digital sovereignty is less about what the term tends to convey and more about legitimising points of control. First, we examine the evolution of sovereignty and resulting regulation in relation to digital infrastructures and technologies. Second, we focus on the less-studied field of quantum technologies, which has become a recent anchor point for EU digital sovereignty policy. We highlight how, underlying the efforts to assert control and attain independence, digital sovereignty operates performatively to construct the European identity and produces tangible effects, such as the allocation of funds towards uncertain technological goals and select European actors.",
+  "people": [
+   "Joris van Hoboken"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-6167790": {
+  "id": "ssrn-6167790",
+  "source": "ssrn",
+  "title": "Encryption Debates, Regulation Thereof and the Implications for the Quantum-safe Cryptography Transition: the Case of the EU",
+  "authors": [
+   "Laima Jančiūtė",
+   "Sebastian De Haro"
+  ],
+  "date": "2026-01-01",
+  "link": "https://doi.org/10.2139/ssrn.6167790",
+  "pdf": null,
+  "abstract": "Encryption is a key building block of digital society in that it protects the security of the online environment and enables a meaningful exercise of civil liberties. This technology endows its users with power that does not always sit well with law enforcement and intelligence authorities that accordingly lose their control over information exchanges within society. The arguments, albeit yet to be substantiated, that this dynamics significantly impacts the fight against crime or other domestic and foreign threats, have spurred decades-long 'crypto-wars' that endure to this day. These crypto-tensions are compounded by the reality that at present no technological solutions are known that could grant security agencies with a so-called 'exceptional excess' to communications and data without compromising cybersecurity and fundamental rights. This paper has two aims: first, it comprehensively explores encryption policy in the EU. Second, it discusses how these debates have been playing out in the face of quantum threat that requires to be mitigated with new methods of encryption.",
+  "people": [
+   "Laima Janciute",
+   "Sebastian De Haro"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "chemrxiv-2024-d2l1k": {
+  "id": "chemrxiv-2024-d2l1k",
+  "source": "chemrxiv",
+  "title": "Modelling Heterogeneous Catalysis using Quantum Computers: An academic and industry perspective",
+  "authors": [
+   "Seenivasan Hariharan",
+   "Sachin Kinge",
+   "Lucas Visscher"
+  ],
+  "date": "2024-04-22",
+  "link": "https://doi.org/10.26434/chemrxiv-2024-d2l1k",
+  "pdf": null,
+  "abstract": "Heterogeneous catalysis plays a critical role in many industrial processes, including the production of fuels, chemicals, and pharmaceuticals, and research to improve current catalytic processes is important to make chemical industry more sustainable. Despite its importance, the challenge of identifying optimal catalysts with the required activity and selectivity persists, demanding a detailed understanding of the complex interactions between catalysts and reactants at various length and time scales. Density functional theory (DFT) has been the workhorse in modelling heterogeneous catalysis for more than three decades. While DFT has been instrumental, this review explores the application of quantum computing algorithms in modelling heterogeneous catalysis, marking a paradigm shift in our approach to understanding catalytic interfaces. Bridging academic and industrial perspectives, focusing on emerging materials such as multi-component alloys, single-atom catalysts, and magnetic catalysts, we delve into the limitations of DFT in capturing strong correlation effects and spin-related phenomena. The review also presents important algorithms and their applications relevant to heterogeneous catalysis modelling, showcasing advancements in the field. Additionally, the review explores embedding strategies where quantum computing algorithms handle strongly correlated regions, while traditional quantum chemistry algorithms address the remainder, offering a promising approach for large-scale heterogeneous catalysis modelling. Looking forward, ongoing investments by academia and industry reflect a growing enthusiasm for quantum computing's potential in heterogeneous catalysis research. The review concludes by envisioning a future where quantum computing algorithms seamlessly integrate into research workflows, propelling us into a new era of computational chemistry and thereby reshaping the landscape of heterogeneous catalysis.",
+  "people": [
+   "Seenivasan Hariharan"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-7516499": {
+  "id": "ssrn-7516499",
+  "source": "ssrn",
+  "title": "A Theory of Technological Understanding and Technology Assessment",
+  "authors": [
+   "Sebastian De Haro"
+  ],
+  "date": "2026-01-01",
+  "link": "https://doi.org/10.2139/ssrn.7516499",
+  "pdf": null,
+  "abstract": "This paper develops the account of De Jong and De Haro (2026a,b) into a more systematic theory of technological understanding (TU) that can fruitfully interact with technology assessment (TA). While TA has often focussed on knowledge as its key epistemic resource, this focus under-articulates practical, contextual, and actor-centred dimensions of understanding that matter in assessing technology. Thus I propose TU as a complementary epistemic category for TA, distinguishing contexts of innovation, design, and operation. Conversely, the interaction between TU and TA prompts us to broaden TU both beyond individual artefacts to whole technologies, and to large contexts, including socio-technical public deliberation. I recast TU in a six-element schema that I apply systematically across the three contexts, thereby structuring how different actors understand aims and artefacts. I then show how TA's and TU's subjects and objects can be mapped onto each other. Drawing on TU, I reconstruct Grunwald's hermeneutic circle for TA as a combination of inter-level feedback and intra-level collective deliberation. I argue that this explains the co-evolution of technology and societal meaning, and that it puts TA's hermeneutic talk on a more rigorous footing. Taken together, these results illustrate how TU and TA mutually illuminate and complement each other.",
+  "people": [
+   "Sebastian De Haro"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "chemrxiv-15009674": {
+  "id": "chemrxiv-15009674",
+  "source": "chemrxiv",
+  "title": "Product Accelerated Photodegradation of Nitro-Spirothiopyrans",
+  "authors": [
+   "Andy S. Sardjan",
+   "Ruben Feringa",
+   "Wybren Jan Buma",
+   "Denis Jacquemin",
+   "Wesley R. Browne"
+  ],
+  "date": "2026-09-29",
+  "link": "https://doi.org/10.26434/chemrxiv.15009674/v1",
+  "pdf": null,
+  "abstract": "The long term stability of conjugated fluorescent and photochromic compounds is essential for their application in materials and devices, but is often highly sensitive to changes in molecular structure. This aspect is particularly prominent in the 6'-nitro-spiropyran and 6'-nitro-spirothiopyran photochromes, which differ only in a O/S atom at the spiro center but show remarkably different stability under UV irradiation. Here, we show, using femtosecond and nanosecond transient absorption and NIR emission spectroscopy supported by quantum chemical calculations, that from a photo-physical and -chemical perspective the two compounds are remarkably similar. Time-resolved NIR emission of 1 O 2 , gas chromatography and NMR spectroscopy, reveal that the difference in observed photostability is due to the greater quantum yield for 1 O 2 generation of the photodegradation products in the case of NSTP .",
+  "people": [
+   "Wybren Jan Buma"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-7224815": {
+  "id": "ssrn-7224815",
+  "source": "ssrn",
+  "title": "Tuning the photochemical isomerization in azobenzene analogues containing phenol groups and heterocyclic rings",
+  "authors": [
+   "Ruggero Rossi",
+   "Dominika Jaďuďová",
+   "Sandra Doria",
+   "Alessandro Iagatti",
+   "Camilla Parmeggiani",
+   "Diederik  Sybolt Wiersma",
+   "Wybren  Jan Buma",
+   "Tim Prins",
+   "Michiel Hilbers",
+   "Adèle Laurent",
+   "Miroslav Medveď",
+   "Daniele Martella",
+   "Mariangela Di Donato"
+  ],
+  "date": "2026-01-01",
+  "link": "https://doi.org/10.2139/ssrn.7224815",
+  "pdf": null,
+  "abstract": "Azobenzenes and their heterocyclic analogues, such as azopyrazoles and azoisoxazoles, are versatile photoswitches with applications in responsive materials. Fully exploiting these systems requires a comprehensive understanding on how structural modifications and environmental factors control their isomerization kinetics and the stability of their Z (cis) isomers. In this work, we synthesized and systematically investigated the photochromic properties of a series of new azobenzene and azoheteroarene derivatives. We combined experimental and theoretical methods to correlate molecular structure with photoswitching behavior. The photoinduced dynamics were studied using steady-state UV-vis and ultrafast time-resolved pump-probe spectroscopy, while the underlying molecular mechanisms were investigated using density functional theory (DFT). We show that structural modifications, including phenol groups, secondary amines, alkoxy chains, and ortho-methyl substituents, strongly affect ground-state thermal relaxation. By comparing the photoswitching behavior in toluene (non-polar solvent) and methanol (polar protic solvent), we show that the thermal half-lives of the Z isomers can be tuned over six orders of magnitude, from hundreds of milliseconds to several days. For derivatives bearing phenol or secondary amine groups, protic environments strongly accelerate relaxation. Quantum chemical calculations support these observations and show that solvent-assisted proton transfer opens an energetically favorable, low-barrier zwitterionic pathway with a single nitrogen-nitrogen bond that allows free rotation. These results provide guidelines for designing molecular switches with tailored properties.",
+  "people": [
+   "Wybren Jan Buma"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ },
+ "ssrn-7224816": {
+  "id": "ssrn-7224816",
+  "source": "ssrn",
+  "title": "Tuning the photochemical isomerization in azobenzene analogues containing phenol groups and heterocyclic rings",
+  "authors": [
+   "Ruggero Rossi",
+   "Dominika Jaďuďová",
+   "Sandra Doria",
+   "Alessandro Iagatti",
+   "Camilla Parmeggiani",
+   "Diederik  Sybolt Wiersma",
+   "Wybren  Jan Buma",
+   "Tim Prins",
+   "Michiel Hilbers",
+   "Adèle Laurent",
+   "Miroslav Medveď",
+   "Daniele Martella",
+   "Mariangela Di Donato"
+  ],
+  "date": "2026-01-01",
+  "link": "https://doi.org/10.2139/ssrn.7224816",
+  "pdf": null,
+  "abstract": "Azobenzenes and their heterocyclic analogues, such as azopyrazoles and azoisoxazoles, are versatile photoswitches with applications in responsive materials. Fully exploiting these systems requires a comprehensive understanding on how structural modifications and environmental factors control their isomerization kinetics and the stability of their Z (cis) isomers. In this work, we synthesized and systematically investigated the photochromic properties of a series of new azobenzene and azoheteroarene derivatives. We combined experimental and theoretical methods to correlate molecular structure with photoswitching behavior. The photoinduced dynamics were studied using steady-state UV-vis and ultrafast time-resolved pump-probe spectroscopy, while the underlying molecular mechanisms were investigated using density functional theory (DFT). We show that structural modifications, including phenol groups, secondary amines, alkoxy chains, and ortho-methyl substituents, strongly affect ground-state thermal relaxation. By comparing the photoswitching behavior in toluene (non-polar solvent) and methanol (polar protic solvent), we show that the thermal half-lives of the Z isomers can be tuned over six orders of magnitude, from hundreds of milliseconds to several days. For derivatives bearing phenol or secondary amine groups, protic environments strongly accelerate relaxation. Quantum chemical calculations support these observations and show that solvent-assisted proton transfer opens an energetically favorable, low-barrier zwitterionic pathway with a single nitrogen-nitrogen bond that allows free rotation. These results provide guidelines for designing molecular switches with tailored properties.",
+  "people": [
+   "Wybren Jan Buma"
+  ],
+  "found": "2026-10-22",
+  "status": "to check",
+  "maybe_someone_else": false
+ }
+}
