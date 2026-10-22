@@ -149,12 +149,13 @@
       const head = info.portrait
         ? el("img", { class: "head", src: info.portrait, alt: "", loading: "lazy", width: 20, height: 20 })
         : el("span", { class: "head initials", "aria-hidden": "true" }, initials(person));
+      const link = { href: `#papers?person=${encodeURIComponent(person)}`, title: `Show only papers with ${person}` };
       if (info.alumni) {
-        parts.push(el("span", { class: "who alumni" }, head,
+        parts.push(el("a", { class: "who alumni", ...link }, head,
           el("span", { class: "alum", title: info.years ? `QuSoft ${info.years}` : "QuSoft alumni" }, name)));
         if (info.years) parts.push(el("span", { class: "years" }, info.years));
       } else {
-        parts.push(el("span", { class: "who" }, head, el("span", { class: "q" }, name)));
+        parts.push(el("a", { class: "who", ...link }, head, el("span", { class: "q" }, name)));
       }
     });
     return el("p", { class: "authors" }, parts);
