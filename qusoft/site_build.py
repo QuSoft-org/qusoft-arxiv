@@ -38,6 +38,8 @@ def build(papers, people):
     papers = sorted(papers, key=lambda p: p["submitted"], reverse=True)
 
     summaries = load_json(ROOT / "data" / "summaries.json", {})  # plain-language abstracts
+    topics = load_json(ROOT / "data" / "topics.json", {})  # research lines and topics, inferred from the papers
+    tags = topics.get("papers", {})
     site_papers = []
     for p in papers:
         pdf, thumb = page_files(p)
@@ -51,6 +53,8 @@ def build(papers, people):
             "added": p.get("added", p["submitted"][:10]),
             "categories": p.get("categories", []),
             "abstract": p.get("abstract", ""),
+            "line": tags.get(p["id"], {}).get("line"),
+            "topics": tags.get(p["id"], {}).get("topics", []),
             "summary": ({"accessible": summaries[p["id"]]["accessible"], "simple": summaries[p["id"]]["simple"],
                          "checked": bool(summaries[p["id"]].get("checked_by"))} if p["id"] in summaries else None),
             "page": pdf.exists() and thumb.exists(),
@@ -91,4 +95,10 @@ def build(papers, people):
     save_json(SITE / "data" / "papers.json", site_papers)
     save_json(SITE / "data" / "people.json", site_people)
     save_json(SITE / "data" / "stats.json", stats)
+    if topics:
+        taxonomy = {"lines": [{"id": l["id"], "name": l["name"], "about": l["about"], "slot": l["slot"],
+                               "topics": [{"id": t["id"], "name": t["name"], "about": t["about"]} for t in l["topics"]]}
+                              for l in topics["taxonomy"]["lines"]],
+                    "method": topics.get("method", "")}
+        save_json(SITE / "data" / "topics.json", taxonomy)
     print(f"Site data: {len(site_papers)} papers, {len(site_people)} people")

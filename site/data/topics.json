@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "id": "algorithms-complexity",
+   "name": "Algorithms and complexity",
+   "about": "What quantum computers can compute, how fast, and what they cannot do: algorithms, complexity theory and the mathematics behind them.",
+   "slot": 1,
+   "topics": [
+    {
+     "id": "query-algorithms",
+     "name": "Query and time complexity of algorithms",
+     "about": "Search, quantum walks for search, span programs and transducers, graph and string problems, amplitude amplification, subroutines; upper and lower bounds for specific problems."
+    },
+    {
+     "id": "hamiltonians",
+     "name": "Hamiltonians, ground states and simulation",
+     "about": "Ground-state preparation and energy estimation, guided local Hamiltonians, Hamiltonian simulation, quantum PCP and QMA questions about local Hamiltonians."
+    },
+    {
+     "id": "optimisation-linear-algebra",
+     "name": "Optimisation and linear algebra",
+     "about": "Quantum algorithms for SDPs, convex and gradient-based optimisation, eigenvectors, linear systems, matrix problems."
+    },
+    {
+     "id": "learning-theory",
+     "name": "Quantum learning theory",
+     "about": "Learning classical functions with quantum resources: PAC and exact learning, statistical queries, sample complexity, learning and circuit lower bounds."
+    },
+    {
+     "id": "complexity",
+     "name": "Complexity theory and lower bounds",
+     "about": "Quantum and classical complexity classes, the polynomial method, completely bounded forms, communication complexity, fine-grained complexity, classical simulation limits, query lower-bound techniques."
+    },
+    {
+     "id": "tensors-invariant-theory",
+     "name": "Tensors and invariant theory",
+     "about": "Tensor rank, matrix multiplication, asymptotic spectra, moment polytopes, scaling algorithms, non-commutative optimisation, Shannon capacity and Haemers bounds."
+    },
+    {
+     "id": "graphs-walks",
+     "name": "Graph theory and quantum walks",
+     "about": "Spectral and algebraic graph theory, perfect and peak state transfer, continuous- and discrete-time walks as mathematical objects, additive combinatorics."
+    }
+   ]
+  },
+  {
+   "id": "information-learning",
+   "name": "Quantum information and learning",
+   "about": "What quantum information is and how to learn it: entanglement, communication, foundations, and testing and learning quantum systems.",
+   "slot": 2,
+   "topics": [
+    {
+     "id": "entanglement-resources",
+     "name": "Entanglement and resource theories",
+     "about": "Entanglement distillation and cost, relative entropies, resource theories, catalysis, continuity of entropies, asymptotic rates."
+    },
+    {
+     "id": "channels-communication",
+     "name": "Channels and communication",
+     "about": "Channel capacities, communication with quantum resources, teleportation and networks as information-theoretic questions, non-locality and Bell inequalities."
+    },
+    {
+     "id": "many-body-gravity",
+     "name": "Many-body physics, holography and gravity",
+     "about": "Entanglement in many-body systems, tensor networks, renormalisation, holography, quantum gravity, scars, field theory."
+    },
+    {
+     "id": "foundations-thermodynamics",
+     "name": "Foundations and thermodynamics",
+     "about": "Quantum foundations, measurement theory, quasiprobabilities, general probabilistic theories, tests of quantum gravity, quantum thermodynamics and batteries."
+    },
+    {
+     "id": "state-learning",
+     "name": "Testing and learning quantum states",
+     "about": "Property testing (stabilizer, product, Gaussian states), tomography, shadow tomography, learning Hamiltonians and channels, sample complexity."
+    },
+    {
+     "id": "symmetry-representation",
+     "name": "Symmetry and representation theory",
+     "about": "Schur-Weyl duality, port-based teleportation, cloning, purification, unitary designs, random unitaries, quantum Fourier transforms over groups."
+    },
+    {
+     "id": "benchmarking",
+     "name": "Benchmarking quantum hardware",
+     "about": "Randomized benchmarking, characterising gates and noise, benchmark suites for devices."
+    }
+   ]
+  },
+  {
+   "id": "cryptography",
+   "name": "Cryptography and security",
+   "about": "Security with and against quantum computers: quantum protocols, position verification and post-quantum cryptography.",
+   "slot": 3,
+   "topics": [
+    {
+     "id": "position-verification",
+     "name": "Position verification and non-local computation",
+     "about": "Quantum position verification, attacks on it, non-local quantum computation, related non-local games."
+    },
+    {
+     "id": "quantum-protocols",
+     "name": "Quantum cryptographic protocols",
+     "about": "QKD and device independence, oblivious transfer, multi-party computation, delegated and verifiable computation, uncloneable cryptography, quantum money and signatures of quantum states."
+    },
+    {
+     "id": "post-quantum",
+     "name": "Post-quantum and quantum-secure cryptography",
+     "about": "Security of classical cryptography against quantum attackers: QROM, Fiat-Shamir, hash functions and sponges, encryption notions, lattices, isogenies (CSIDH), attacks on schemes."
+    }
+   ]
+  },
+  {
+   "id": "hardware-software",
+   "name": "Hardware, software and applications",
+   "about": "Building and using quantum computers: atoms and ions in the lab, error correction, compilation, and applications such as chemistry.",
+   "slot": 4,
+   "topics": [
+    {
+     "id": "trapped-ions",
+     "name": "Trapped ions and ion-atom systems",
+     "about": "Trapped-ion gates and simulation, optical tweezers for ions, ion-atom collisions and molecules."
+    },
+    {
+     "id": "cold-atoms",
+     "name": "Cold atoms and laser cooling",
+     "about": "Strontium and other cold atoms, laser cooling, Bose-Einstein condensates, atomic clocks, optical tweezers for atoms, Rydberg atoms, polar molecules."
+    },
+    {
+     "id": "sensing-interferometry",
+     "name": "Sensing and atom interferometry",
+     "about": "Atom interferometers, inertial sensors, metrology, displacement sensing."
+    },
+    {
+     "id": "condensed-matter",
+     "name": "Condensed matter experiments",
+     "about": "Spectroscopy and transport in materials: superconductors, charge density waves, strange metals."
+    },
+    {
+     "id": "error-correction",
+     "name": "Error correction and fault tolerance",
+     "about": "Codes, decoding, fault-tolerant state preparation, logical operations, thresholds."
+    },
+    {
+     "id": "circuits-compilation",
+     "name": "Circuits, compilation and ZX-calculus",
+     "about": "Circuit synthesis and optimisation, rewrite rules, ZX-calculus, routing, catalytic and space-efficient circuits, classical simulation of circuits, programming languages and tools."
+    },
+    {
+     "id": "chemistry-materials",
+     "name": "Chemistry and materials",
+     "about": "Electronic structure on quantum computers, quantum chemistry methods, catalysis, multiscale modelling, materials."
+    },
+    {
+     "id": "near-term-algorithms",
+     "name": "Near-term and variational algorithms",
+     "about": "Variational algorithms, QAOA, NISQ applications and resource estimates, quantum machine learning on near-term devices, industrial use cases."
+    }
+   ]
+  },
+  {
+   "id": "society",
+   "name": "Quantum and society",
+   "about": "Philosophy, ethics, law and policy of quantum science and technology.",
+   "slot": 5,
+   "topics": [
+    {
+     "id": "philosophy",
+     "name": "Philosophy of physics and technology",
+     "about": "Interpretation, black holes and information, technological understanding, explanation."
+    },
+    {
+     "id": "ethics-policy",
+     "name": "Ethics, law and policy",
+     "about": "Responsible quantum technology, governance, regulation, security policy, societal impact."
+    }
+   ]
+  }
+ ],
+ "method": "Topics inferred from titles and abstracts: word-based clusters to draft the taxonomy, then each paper read and tagged by Claude (claude-opus-5-5), checked against the clusters and a random sample."
+}

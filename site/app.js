@@ -103,14 +103,20 @@
 
   // ---------- data ----------
 
-  let papers = [], people = {}, stats = {};
+  let papers = [], people = {}, stats = {}, taxonomy = { lines: [] };
+  const lineById = {}, topicById = {};
 
   async function load() {
     const get = (f) => fetch(`data/${f}`, { cache: "no-cache" }).then((r) => {
       if (!r.ok) throw new Error(`${f}: ${r.status}`);
       return r.json();
     });
-    [papers, people, stats] = await Promise.all([get("papers.json"), get("people.json"), get("stats.json")]);
+    [papers, people, stats, taxonomy] = await Promise.all([get("papers.json"), get("people.json"), get("stats.json"),
+      get("topics.json").catch(() => ({ lines: [] }))]);
+    for (const l of taxonomy.lines) {
+      lineById[l.id] = l;
+      for (const t of l.topics) topicById[t.id] = { ...t, line: l.id };
+    }
     for (const p of papers) {
       p.year = p.date.slice(0, 4);
       p.qusoft = p.authors.filter(([, person]) => person).map(([, person]) => person);
@@ -120,25 +126,26 @@
 
   // ---------- routing ----------
 
-  const views = ["papers", "numbers", "print"];
+  const views = ["papers", "research", "print"];
   const rendered = {};
 
   function route() {
     const [view, query] = (location.hash.slice(1) || "papers").split("?");
-    const name = view === "people" ? "numbers" : views.includes(view) ? view : "papers"; // old #people links
+    const old = { people: "research", numbers: "research" }; // earlier tabs
+    const name = old[view] || (views.includes(view) ? view : "papers");
     for (const v of views) $(`#view-${v}`).hidden = v !== name;
     document.querySelectorAll("nav a").forEach((a) => {
       if (a.dataset.view === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
     const params = new URLSearchParams(query || "");
     if (name === "papers") showPapers(params);
-    if (name === "numbers" && !rendered.numbers) { renderNumbers(); rendered.numbers = true; }
+    if (name === "research" && !rendered.research) { renderResearch(); renderNumbers(); rendered.research = true; }
     if (name === "print" && !rendered.print) { renderPrint(); rendered.print = true; }
   }
 
   // ---------- papers ----------
 
-  const filter = { q: "", year: "", who: "", person: "" };
+  const filter = { q: "", year: "", who: "", person: "", topic: "", line: "" };
 
   const initials = (name) => name.split(/\s+/).filter((w) => /^[A-ZÀ-Ž]/.test(w)).map((w) => w[0]).slice(0, 2).join("");
 
@@ -177,6 +184,19 @@
         : "Plain-language summary written with AI from the abstract; not checked by the authors."));
   }
 
+  function topicLine(p) {
+    const ts = (p.topics || []).filter((t) => topicById[t]);
+    if (!ts.length) return null;
+    const parts = [];
+    ts.forEach((t, i) => {
+      if (i) parts.push(", ");
+      parts.push(el("a", { href: `#papers?topic=${t}` }, topicById[t].name));
+    });
+    return el("p", { class: "topics" },
+      el("span", { class: "swatch", style: `--c: var(--line-${lineById[p.line]?.slot || 0})`, title: lineById[p.line]?.name || "" }),
+      parts);
+  }
+
   function paperItem(p) {
     const abstract = el("p", { class: "abstract", hidden: true }, latexText(p.abstract));
     const toggle = el("button", {
@@ -199,6 +219,7 @@
         el("a", { href: p.link }, SOURCE[p.source] || "arXiv"),
         p.page ? el("a", { href: `firstpages/${p.id}.pdf` }, "First page") : null,
         p.abstract ? toggle : null),
+      topicLine(p),
       summaryBlock(p),
       abstract);
   }
@@ -238,6 +259,8 @@
   function matches(p) {
     if (filter.year && p.year !== filter.year) return false;
     if (filter.person && !p.qusoft.includes(filter.person)) return false;
+    if (filter.topic && !(p.topics || []).includes(filter.topic)) return false;
+    if (filter.line && p.line !== filter.line) return false;
     if (filter.who === "alumni" && !p.qusoft.some((n) => people[n]?.alumni)) return false;
     if (filter.who === "current" && !p.qusoft.some((n) => people[n] && !people[n].alumni)) return false;
     if (filter.q) return fold(filter.q).split(/\s+/).every((w) => p.haystack.includes(w));
@@ -251,8 +274,11 @@
 
     const count = $("#result-count");
     const total = shown.length === papers.length ? `All ${papers.length} papers` : `${shown.length} of ${papers.length} papers`;
-    count.replaceChildren(filter.person ? `${total} with ${filter.person}` : total);
-    if (filter.person) {
+    const about = filter.person ? ` with ${filter.person}`
+      : filter.topic ? ` on ${topicById[filter.topic]?.name || filter.topic}`
+      : filter.line ? ` in ${lineById[filter.line]?.name || filter.line}` : "";
+    count.replaceChildren(total + about);
+    if (filter.person || filter.topic || filter.line) {
       count.append(el("button", { type: "button", class: "link-button", onclick: () => { location.hash = "papers"; } }, "Show everyone's papers"));
     }
 
@@ -286,8 +312,152 @@
       rendered.papers = true;
     }
     filter.person = params.get("person") || "";
+    filter.topic = params.get("topic") || "";
+    filter.line = params.get("line") || "";
     renderList();
-    if (filter.person) $("#result-count").scrollIntoView({ block: "start" });
+    if (filter.person || filter.topic || filter.line) $("#result-count").scrollIntoView({ block: "start" });
+  }
+
+  // ---------- research: lines and topics (group level only) ----------
+
+  const lineColor = (id) => `var(--line-${lineById[id]?.slot || 0})`;
+
+  function tooltip() {
+    let tip = $("#viz-tip");
+    if (!tip) { tip = el("div", { id: "viz-tip", class: "viz-tip", role: "status", hidden: true }); document.body.append(tip); }
+    return {
+      show(e, html) {
+        tip.replaceChildren(...html); tip.hidden = false;
+        const r = tip.getBoundingClientRect();
+        const x = Math.min(e.clientX + 14, innerWidth - r.width - 8), y = Math.max(8, e.clientY - r.height - 10);
+        tip.style.left = `${x}px`; tip.style.top = `${y}px`;
+      },
+      hide() { tip.hidden = true; },
+    };
+  }
+
+  function renderResearch() {
+    const lines = taxonomy.lines;
+    if (!lines.length) return;
+    const tagged = papers.filter((p) => lineById[p.line]);
+    const years = d3.range(d3.min(tagged, (p) => +p.year), d3.max(tagged, (p) => +p.year) + 1);
+    const thisYear = new Date().getFullYear();
+    const count = (pred) => years.map((y) => tagged.filter((p) => +p.year === y && pred(p)).length);
+    const perLine = Object.fromEntries(lines.map((l) => [l.id, count((p) => p.line === l.id)]));
+    const tip = tooltip();
+
+    $("#research-lede").textContent = `${tagged.length} papers in five research lines, with ${Object.keys(topicById).length} topics ` +
+      "within them, inferred from the titles and abstracts of the papers.";
+    $("#topics-method").textContent = "How this was made: papers were grouped by the words in their titles and abstracts, " +
+      "the groups were named as research lines and topics, and each paper was then read and tagged with AI, " +
+      "checked against the groups and by hand on a sample. A paper has one main line and up to three topics.";
+
+    // Legend: one entry per line, linking to its papers.
+    $("#line-legend").replaceChildren(...lines.map((l) => el("li", {},
+      el("a", { href: `#papers?line=${l.id}`, title: l.about },
+        el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name,
+        el("span", { class: "n" }, String(d3.sum(perLine[l.id])))))));
+
+    // Stacked columns: papers per year, by main research line.
+    const W = 720, H = 300, m = { t: 12, r: 8, b: 26, l: 30 };
+    const x = d3.scaleBand().domain(years).range([m.l, W - m.r]).paddingInner(0.22).paddingOuter(0.05);
+    const totals = years.map((_, i) => d3.sum(lines, (l) => perLine[l.id][i]));
+    const y = d3.scaleLinear().domain([0, d3.max(totals) || 1]).nice().range([H - m.b, m.t]);
+    const svg = d3.create("svg").attr("viewBox", [0, 0, W, H]).attr("role", "img").attr("class", "stack")
+      .attr("aria-label", "Papers per year by research line. A table version follows.");
+    svg.append("g").attr("class", "grid").selectAll("line").data(y.ticks(5).slice(1)).join("line")
+      .attr("x1", m.l).attr("x2", W - m.r).attr("y1", (d) => y(d)).attr("y2", (d) => y(d));
+    svg.append("g").attr("class", "axis").selectAll("text").data(y.ticks(5)).join("text")
+      .attr("x", m.l - 6).attr("y", (d) => y(d) + 4).attr("text-anchor", "end").text((d) => d);
+    svg.append("g").attr("class", "axis").selectAll("text").data(years).join("text")
+      .attr("x", (d) => x(d) + x.bandwidth() / 2).attr("y", H - 8).attr("text-anchor", "middle")
+      .text((d) => (d === thisYear ? `${d}*` : x.bandwidth() > 30 || d % 2 === 0 ? d : ""));
+    years.forEach((yr, i) => {
+      let base = 0;
+      lines.forEach((l, k) => {
+        const v = perLine[l.id][i];
+        if (!v) return;
+        const y0 = y(base), y1 = y(base + v);
+        const top = lines.slice(k + 1).every((o) => !perLine[o.id][i]);
+        const h = Math.max(1, y0 - y1 - (base ? 2 : 0)); // 2px surface gap between stacked segments
+        svg.append("rect").attr("class", "seg").attr("x", x(yr)).attr("width", x.bandwidth())
+          .attr("y", y1).attr("height", h).attr("rx", top ? 3 : 0).attr("fill", lineColor(l.id)).attr("tabindex", -1)
+          .on("mousemove", (e) => tip.show(e, [el("strong", {}, `${l.name}, ${yr}`), el("br"), `${v} papers of ${totals[i]}`]))
+          .on("mouseleave", () => tip.hide())
+          .on("click", () => { location.hash = `papers?line=${l.id}`; });
+        base += v;
+      });
+    });
+    $("#lines-chart").replaceChildren(svg.node());
+    const peak = years[totals.indexOf(d3.max(totals))];
+    $("#lines-caption").textContent = `Papers per year by main research line. ${thisYear}* is the year so far. ` +
+      `The busiest year was ${peak}, with ${d3.max(totals)} papers.`;
+
+    // Table version of the same numbers.
+    const table = el("table", { class: "data-table" },
+      el("thead", {}, el("tr", {}, el("th", { scope: "col" }, "Year"), lines.map((l) => el("th", { scope: "col" }, l.name)), el("th", { scope: "col" }, "All"))),
+      el("tbody", {}, years.map((yr, i) => el("tr", {}, el("th", { scope: "row" }, yr),
+        lines.map((l) => el("td", {}, perLine[l.id][i])), el("td", {}, totals[i])))));
+    $("#lines-table").replaceChildren(table);
+    const toggle = $("#lines-table-toggle");
+    toggle.onclick = () => {
+      const open = $("#lines-table").hidden;
+      $("#lines-table").hidden = !open;
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.textContent = open ? "Hide the table" : "Show as a table";
+    };
+
+    // Topics: per line, each topic with its papers per year on one shared scale.
+    const perTopic = Object.fromEntries(Object.keys(topicById).map((t) => [t, count((p) => (p.topics || []).includes(t))]));
+    const tmax = d3.max(Object.values(perTopic), (a) => d3.max(a)) || 1;
+    const sw = 168, sh = 30;
+    const sx = d3.scaleBand().domain(years).range([0, sw]).paddingInner(0.18);
+    const sy = d3.scaleLinear().domain([0, tmax]).range([sh, 2]);
+    const spark = (t, line) => {
+      const s = d3.create("svg").attr("viewBox", [0, 0, sw, sh]).attr("class", "spark").attr("aria-hidden", "true");
+      s.append("line").attr("class", "base").attr("x1", 0).attr("x2", sw).attr("y1", sh - 0.5).attr("y2", sh - 0.5);
+      s.selectAll("rect").data(years.map((yr, i) => [yr, perTopic[t][i]]).filter((d) => d[1])).join("rect")
+        .attr("x", (d) => sx(d[0])).attr("width", sx.bandwidth()).attr("y", (d) => sy(d[1])).attr("height", (d) => sh - sy(d[1]))
+        .attr("rx", 1.5).attr("fill", lineColor(line))
+        .on("mousemove", (e, d) => tip.show(e, [el("strong", {}, `${topicById[t].name}, ${d[0]}`), el("br"), `${d[1]} papers`]))
+        .on("mouseleave", () => tip.hide());
+      return s.node();
+    };
+    $("#topic-lines").replaceChildren(...lines.map((l) => {
+      const ts = l.topics.map((t) => t.id).filter((t) => d3.sum(perTopic[t])).sort((a, b) => d3.sum(perTopic[b]) - d3.sum(perTopic[a]));
+      return el("section", { class: "topic-line", "aria-labelledby": `tl-${l.id}` },
+        el("h3", { id: `tl-${l.id}` }, el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name),
+        el("p", { class: "about" }, l.about),
+        el("ol", { class: "topic-rows" }, ts.map((t) => el("li", {},
+          el("a", { href: `#papers?topic=${t}`, title: topicById[t].about }, topicById[t].name),
+          el("span", { class: "n" }, String(d3.sum(perTopic[t]))),
+          spark(t, l.id)))));
+    }));
+
+    // People: how many QuSoft people publish in each line per year (no names).
+    const peopleIn = (lid) => years.map((yr) => new Set(tagged.filter((p) => +p.year === yr && p.line === lid).flatMap((p) => p.qusoft)).size);
+    const perPeople = Object.fromEntries(lines.map((l) => [l.id, peopleIn(l.id)]));
+    const pmax = d3.max(Object.values(perPeople), (a) => d3.max(a)) || 1;
+    const pw = 300, ph = 110, pm = { t: 14, b: 18 };
+    const px = d3.scaleBand().domain(years).range([0, pw]).paddingInner(0.2);
+    const py = d3.scaleLinear().domain([0, pmax]).range([ph - pm.b, pm.t]);
+    $("#people-lines").replaceChildren(...lines.map((l) => {
+      const s = d3.create("svg").attr("viewBox", [0, 0, pw, ph]).attr("role", "img")
+        .attr("aria-label", `${l.name}: ` + years.map((yr, i) => `${yr} ${perPeople[l.id][i]}`).join(", "));
+      s.append("line").attr("class", "base").attr("x1", 0).attr("x2", pw).attr("y1", ph - pm.b + 0.5).attr("y2", ph - pm.b + 0.5);
+      s.selectAll("rect").data(years.map((yr, i) => [yr, perPeople[l.id][i]]).filter((d) => d[1])).join("rect")
+        .attr("x", (d) => px(d[0])).attr("width", px.bandwidth()).attr("y", (d) => py(d[1])).attr("height", (d) => ph - pm.b - py(d[1]))
+        .attr("rx", 2).attr("fill", lineColor(l.id))
+        .on("mousemove", (e, d) => tip.show(e, [el("strong", {}, `${l.name}, ${d[0]}`), el("br"), `${d[1]} people`]))
+        .on("mouseleave", () => tip.hide());
+      const ends = [years[0], years[years.length - 1]];
+      s.append("g").attr("class", "axis").selectAll("text").data(ends).join("text")
+        .attr("x", (d) => px(d) + px.bandwidth() / 2).attr("y", ph - 3).attr("text-anchor", "middle").text((d) => d);
+      const vals = perPeople[l.id], top = d3.max(vals), at = years[vals.lastIndexOf(top)];
+      s.append("text").attr("class", "value").attr("x", px(at) + px.bandwidth() / 2).attr("y", py(top) - 4)
+        .attr("text-anchor", "middle").text(top);
+      return el("div", { class: "chart" }, el("h3", {}, el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name), s.node());
+    }));
   }
 
   // ---------- numbers: year by year (group level only) ----------

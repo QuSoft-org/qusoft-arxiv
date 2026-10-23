@@ -4,7 +4,7 @@ Finds every arXiv paper by current and former QuSoft members that names QuSoft (
 
 The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
-- **Numbers**: papers, people publishing and papers written together, per year. Group-level only: no rankings or per-person counts.
+- **Research**: what QuSoft works on, in five research lines with 27 topics inferred from the papers (`data/topics.json`): papers per line per year, papers per topic, and how many people publish in each line. Group-level only: no rankings or per-person counts.
 - **Print**: tick papers and download their annotated first pages as one PDF for the message board. Each page has portraits, highlighted affiliations and a QR code.
 
 ## How it updates
@@ -62,6 +62,8 @@ python scripts/export_excel.py --year 2025     # Excel list → output/
 python scripts/internal_report.py              # management report → output/ (internal, not published)
 python scripts/funding_report.py               # funding of PhD students and postdocs → output/ (internal)
 python scripts/people_network.py               # co-author network as a local page → output/ (internal)
+python scripts/people_lines.py                 # who works on what, per person → output/ (internal)
+python scripts/topics.py discover|compare       # topic clusters; inferred vs. official research lines → output/ (internal)
 python scripts/conference_talks.py             # QuSoft talks at QIP, QCrypt, TQC (from QuantumDB) → output/ (internal)
 
 python -m http.server -d site                  # preview the site at http://localhost:8000

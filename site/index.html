@@ -22,7 +22,7 @@
   </a>
   <nav aria-label="Sections">
     <a href="#papers" data-view="papers">Papers</a>
-    <a href="#numbers" data-view="numbers">Numbers</a>
+    <a href="#research" data-view="research">Research</a>
     <a href="#print" data-view="print">Print</a>
   </nav>
 </header>
@@ -68,13 +68,32 @@
     <div id="paper-list"></div>
   </section>
 
-  <!-- Numbers (group level only) -->
-  <section id="view-numbers" class="view" aria-labelledby="numbers-title" hidden>
+  <!-- Research: what QuSoft works on (group level only) -->
+  <section id="view-research" class="view" aria-labelledby="research-title" hidden>
     <div class="intro">
-      <h1 id="numbers-title">Year by year</h1>
-      <p class="lede">How many QuSoft papers appear each year, how many people write them, and how often they write together.</p>
+      <h1 id="research-title">What QuSoft works on</h1>
+      <p class="lede" id="research-lede">Five research lines, with the topics within them, inferred from the titles and abstracts of the papers.</p>
     </div>
+
+    <figure class="lines-figure">
+      <ul class="line-legend" id="line-legend"></ul>
+      <div class="lines-chart" id="lines-chart"></div>
+      <figcaption id="lines-caption"></figcaption>
+      <button type="button" class="link-button" id="lines-table-toggle" aria-expanded="false" aria-controls="lines-table">Show as a table</button>
+      <div id="lines-table" hidden></div>
+    </figure>
+
+    <h2 class="section-title">Topics</h2>
+    <p class="section-note">Papers per year on each topic, all on the same scale. A paper can have up to three topics. Pick a topic to see its papers.</p>
+    <div id="topic-lines"></div>
+
+    <h2 class="section-title">People in each line</h2>
+    <p class="section-note">QuSoft people with at least one paper in the line that year. People who work across lines count in each.</p>
+    <div class="people-lines" id="people-lines"></div>
+
+    <h2 class="section-title">Year by year</h2>
     <div class="numbers" id="numbers"></div>
+    <p class="method" id="topics-method"></p>
   </section>
 
   <!-- Print -->

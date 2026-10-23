@@ -75,6 +75,57 @@ def discover(k):
     print(f"Wrote {out}")
 
 
+SELECTED = [("QIP", r"\\bQIP\\b"), ("STOC", r"\\bSTOC\\b|Symposium on Theory of Computing"),
+            ("FOCS", r"\\bFOCS\\b|Foundations of Computer Science"), ("SODA", r"\\bSODA\\b"),
+            ("CCC", r"\\bCCC\\b|Computational Complexity Conference"), ("ICALP", r"\\bICALP\\b"), ("ITCS", r"\\bITCS\\b"),
+            ("CRYPTO", r"\\bCRYPTO\\b"), ("EUROCRYPT", r"EUROCRYPT|Eurocrypt"), ("ASIACRYPT", r"ASIACRYPT|Asiacrypt"),
+            ("TCC", r"\\bTCC\\b"), ("Nature family", r"\\bNature\\b|Nat\\. ?(Phys|Commun)"), ("Science", r"^Science\\b"),
+            ("PRL", r"Phys\\.? ?Rev\\.? ?Lett|Physical Review Letters|\\bPRL\\b"), ("PRX", r"\\bPRX\\b|Phys\\. Rev\\. X"),
+            ("Quantum (journal)", r"^Quantum\\b|Quantum \\d+, \\d")]
+
+
+def venues_and_citations(topics, names, papers):
+    """Internal: selected venues and citations per line, from cache/venues.json (scripts/fetch_venues.py)."""
+    import json
+    import statistics
+    from datetime import date
+    from qusoft.common import base_id
+    f = ROOT / "cache" / "venues.json"
+    if not f.exists():
+        return []
+    V = json.loads(f.read_text())
+    rows, top = {}, {}
+    for pid, tag in topics["papers"].items():
+        p, v = papers.get(pid), V.get(base_id(pid), {})
+        if not p:
+            continue
+        text = " | ".join([v.get("journal_ref", ""), v.get("comment", ""), v.get("venue", "")])
+        sel = [n for n, rx in SELECTED if re.search(rx, text)]
+        age = max(0.5, (date.today() - date.fromisoformat(p["submitted"][:10])).days / 365)
+        cpy = v["citations"] / age if v.get("citations") is not None else None
+        rows.setdefault(tag["line"], []).append((cpy, sel))
+        if cpy is not None:
+            top.setdefault(tag["line"], []).append((cpy, v["citations"], p["title"], p["submitted"][:4], sel))
+    out = ["", "## Venues and citations per line (internal)", "",
+           "Venues from arXiv journal references and comments, and Semantic Scholar; selected venues: "
+           + ", ".join(n for n, _ in SELECTED) + ". Citations per year since the paper appeared. "
+           "Fields cite at very different rates, so compare lines with care.", "",
+           "| Line | Papers | In a selected venue | Median citations per year | 20+ citations per year |", "|---|---:|---:|---:|---:|"]
+    for l in sorted(rows, key=lambda l: -len(rows[l])):
+        r = rows[l]
+        c = [x for x, _ in r if x is not None]
+        n = sum(1 for _, v in r if v)
+        out.append(f"| {names.get(l, l)} | {len(r)} | {n} ({round(100 * n / len(r))}%) | "
+                   f"{statistics.median(c):.1f} | {sum(1 for x in c if x >= 20)} |" if c else f"| {names.get(l, l)} | {len(r)} | | | |")
+    out += ["", "### Most cited per year, per line (top 5)", ""]
+    for l in sorted(top, key=lambda l: -len(rows[l])):
+        out += [f"**{names.get(l, l)}**", ""]
+        out += [f"- {t} ({y}): {c} citations, {x:.0f} per year{'; ' + ', '.join(s) if s else ''}"
+                for x, c, t, y, s in sorted(top[l], reverse=True)[:5]]
+        out.append("")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("action", choices=["discover", "compare"])
@@ -108,6 +159,7 @@ def compare():
     import json
     topics = json.loads((ROOT / "data" / "topics.json").read_text())
     names = {l["id"]: l["name"] for l in topics["taxonomy"]["lines"]}
+    names["other"] = "Other"
     tnames = {t["id"]: t["name"] for l in topics["taxonomy"]["lines"] for t in l["topics"]}
     papers = {p["id"]: p for p in load_papers()}
     official = official_lines()
@@ -146,6 +198,7 @@ def compare():
     tc = Counter(t for tag in topics["papers"].values() for t in tag["topics"])
     out += ["", "## Topics", "", "| Topic | Papers (as any of its 1-3 topics) |", "|---|---:|"]
     out += [f"| {tnames.get(t, t)} | {n} |" for t, n in tc.most_common()]
+    out += venues_and_citations(topics, names, papers)
     OUT.mkdir(exist_ok=True)
     f = OUT / "research_lines_comparison.md"
     f.write_text("\n".join(out) + "\n", encoding="utf-8")
