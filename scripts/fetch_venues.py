@@ -24,7 +24,7 @@ from qusoft.common import base_id, load_papers
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "cache" / "venues.json"
-UA = {"User-Agent": "qusoft-arxiv internal report (https://github.com/cschaffner/qusoft-arxiv)"}
+UA = {"User-Agent": "qusoft-arxiv internal report (https://github.com/QuSoft-org/qusoft-arxiv)"}
 
 
 def arxiv_meta(ids):

@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from qusoft.common import is_alumnus, load_papers, load_people, name_key, tenure
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE_URL = "https://cschaffner.github.io/qusoft-arxiv/"
+SITE_URL = "https://qusoft-org.github.io/qusoft-arxiv/"
 
 
 def portrait_uri(name):

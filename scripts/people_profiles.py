@@ -27,7 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from qusoft.common import find_portrait, is_alumnus, load_papers, load_people, name_key, open_portrait, tenure
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE_URL = "https://cschaffner.github.io/qusoft-arxiv/"
+SITE_URL = "https://qusoft-org.github.io/qusoft-arxiv/"
 ROLE = {"PhD Students": "PhD student", "Postdocs": "postdoc", "Senior Researchers": "senior researcher",
         "Support Team": "support team", "Visitor": "visitor", "Turing Chair": "Turing chair"}
 

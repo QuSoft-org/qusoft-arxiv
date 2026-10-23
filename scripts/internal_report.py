@@ -36,7 +36,7 @@ from qusoft.common import (PersonMatcher, base_id, is_alumnus, load_json, load_p
 ROOT = Path(__file__).resolve().parent.parent
 META_CACHE = ROOT / "cache" / "report_papers.json"
 OLD_QUERY_CACHE = ROOT / "cache" / "query_cache.json"
-UA = {"User-Agent": "qusoft-arxiv internal report (https://github.com/cschaffner/qusoft-arxiv)"}
+UA = {"User-Agent": "qusoft-arxiv internal report (https://github.com/QuSoft-org/qusoft-arxiv)"}
 
 QUSOFT_ON_FIRST_PAGE = "QuSoft named (on the site)"  # name kept from when only the first page counted
 QUSOFT_LATER = "QuSoft only thanked"

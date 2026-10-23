@@ -22,7 +22,7 @@ import requests
 
 from .common import CONFIG, ROOT, PersonMatcher
 
-UA = {"User-Agent": "qusoft-arxiv (https://github.com/cschaffner/qusoft-arxiv)"}
+UA = {"User-Agent": "qusoft-arxiv (https://github.com/QuSoft-org/qusoft-arxiv)"}
 OTHER_PDFS = ROOT / "cache" / "other_pdfs"
 SOURCES = {"eccc": "ECCC", "eprint": "IACR ePrint", "ssrn": "SSRN", "chemrxiv": "ChemRxiv"}
 CROSSREF_PREFIXES = {"10.2139": "ssrn", "10.26434": "chemrxiv"}

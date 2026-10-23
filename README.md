@@ -1,6 +1,6 @@
 # QuSoft papers
 
-Finds every arXiv paper by current and former QuSoft members that names QuSoft (as an affiliation or supporter), and publishes them at **https://cschaffner.github.io/qusoft-arxiv/**.
+Finds every arXiv paper by current and former QuSoft members that names QuSoft (as an affiliation or supporter), and publishes them at **https://qusoft-org.github.io/qusoft-arxiv/**.
 
 The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
