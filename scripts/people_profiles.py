@@ -10,9 +10,8 @@ Two views, made to include everyone equally:
 2. Who to talk to about...: every topic with the faces of the people who have written on it,
    alphabetically, without counts.
 
-Lines and topics come from data/topics.json (inferred from titles and abstracts, with AI);
-descriptions from the private spreadsheet (Topic, Main Research Interests). People should
-check their own profile before any of this is published.
+Lines and topics come from data/topics.json (inferred from titles and abstracts, with AI).
+People should check their own profile before any of this is published.
 """
 
 import base64
@@ -25,7 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from qusoft.common import find_portrait, is_alumnus, load_papers, load_people, name_key, open_portrait, path, tenure
+from qusoft.common import find_portrait, is_alumnus, load_papers, load_people, name_key, open_portrait, tenure
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://cschaffner.github.io/qusoft-arxiv/"
@@ -48,28 +47,11 @@ def portrait(name):
     return "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
-def own_words():
-    """{name: text} from the spreadsheet's Topic and Main Research Interests columns."""
-    from openpyxl import load_workbook
-    excel = path("database", "excel_file")
-    out = {}
-    if not excel.exists():
-        return out
-    ws = load_workbook(excel, read_only=True, data_only=True)["QuSoft People Database"]
-    for row in ws.iter_rows(min_row=3, values_only=True):
-        name = " ".join(str(row[0] or "").split())
-        bits = [" ".join(str(x).split()) for x in (row[23], row[25]) if x and str(x).strip() not in ("NA", "-", "None")]
-        if name and bits:
-            out[name] = ". ".join(dict.fromkeys(bits))
-    return out
-
-
 def build():
     topics = json.loads((ROOT / "data" / "topics.json").read_text())
     lines = [{"id": l["id"], "name": l["name"], "slot": l["slot"],
               "topics": [{"id": t["id"], "name": t["name"]} for t in l["topics"]]} for l in topics["taxonomy"]["lines"]]
     people = load_people()
-    words = own_words()
     line_count, topic_set = {}, {}
     for p in load_papers():
         tag = topics["papers"].get(p["id"])
@@ -89,7 +71,6 @@ def build():
             "shares": {k: round(v / total, 3) for k, v in c.items()} if total else {},
             # Topics in order of how central they are to the person, but shown without numbers.
             "topics": [t for t, _ in topic_set.get(name, Counter()).most_common()],
-            "words": words.get(name, ""),
             "portrait": portrait(name),
         })
     data = {"lines": lines, "people": persons, "site": SITE_URL, "made": date.today().isoformat()}
@@ -141,7 +122,6 @@ h2 { font-weight:500; font-size:1.55rem; margin:3rem 0 .4rem; border-top:2px sol
 .detail .bar span { display:block; }
 .detail ul { list-style:none; padding:0; margin:.3rem 0; display:flex; flex-wrap:wrap; gap:.3rem .6rem; }
 .detail li { border:1px solid var(--rule); border-radius:3px; padding:.1rem .45rem; font-size:.82rem; }
-.detail .own { font-family:var(--serif); font-size:1rem; }
 .detail a { color:var(--red); }
 .muted { color:var(--slate); }
 .topic-line { margin:1.8rem 0 0; }
@@ -162,7 +142,7 @@ h2 { font-weight:500; font-size:1.55rem; margin:3rem 0 .4rem; border-top:2px sol
 <main>
   <h1>Research profiles</h1>
   <p class="lede">What each QuSoft person works on, shown so that everyone carries the same weight: shares instead of counts, the same size for everyone, and people without papers on the site included.</p>
-  <p class="note"><strong>Internal draft</strong> for the QuSoft management team, made <span id="made"></span>. Research lines and topics are inferred with AI from the titles and abstracts of papers on the site; descriptions come from the QuSoft database. Everyone should check their own profile before anything like this is published.</p>
+  <p class="note"><strong>Internal draft</strong> for the QuSoft management team, made <span id="made"></span>. Research lines and topics are inferred with AI from the titles and abstracts of papers on the site. Everyone should check their own profile before anything like this is published.</p>
 
   <div class="controls">
     <span class="toggle" role="group" aria-label="Show">
@@ -227,7 +207,6 @@ function detail(p) {
   const parts = DATA.lines.filter((l) => p.shares[l.id]).sort((a, b) => p.shares[b.id] - p.shares[a.id]);
   return el("li", { class: "detail", id: "detail" },
     el("h3", {}, p.name), el("span", { class: "muted" }, p.who),
-    p.words ? el("p", { class: "own" }, `In the QuSoft database: “${p.words}”`) : null,
     parts.length
       ? [el("div", { class: "bar", "aria-hidden": "true" }, parts.map((l) => el("span", { style: `flex:${p.shares[l.id]};background:${color(l.id)}` }))),
          el("p", {}, "Mostly ", parts.map((l) => l.name.toLowerCase()).join(", then "), "."),
