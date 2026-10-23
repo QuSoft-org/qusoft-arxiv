@@ -63,6 +63,7 @@ python scripts/internal_report.py              # management report → output/ (
 python scripts/funding_report.py               # funding of PhD students and postdocs → output/ (internal)
 python scripts/people_network.py               # co-author network as a local page → output/ (internal)
 python scripts/people_lines.py                 # who works on what, per person → output/ (internal)
+python scripts/people_profiles.py              # research profiles draft: fingerprints, who to talk to → output/ (internal)
 python scripts/topics.py discover|compare       # topic clusters; inferred vs. official research lines → output/ (internal)
 python scripts/conference_talks.py             # QuSoft talks at QIP, QCrypt, TQC (from QuantumDB) → output/ (internal)
 
