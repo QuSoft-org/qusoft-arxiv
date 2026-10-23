@@ -9,6 +9,8 @@ Statistics are about the group, never per person: no rankings, no paper counts p
 
 from datetime import datetime
 
+from collections import Counter
+
 from PIL import Image, ImageOps
 
 from .common import CONFIG, ROOT, find_portrait, load_json, open_portrait, is_alumnus, name_key, paper_date, path, save_json, tenure
@@ -94,6 +96,29 @@ def build(papers, people):
 
     save_json(SITE / "data" / "papers.json", site_papers)
     save_json(SITE / "data" / "people.json", site_people)
+
+    # Research profiles for the People page: everyone in people.csv, also those without papers yet.
+    # Shares of research lines and topics only, never counts.
+    if topics:
+        line_n, topic_n = {}, {}
+        for p in papers:
+            tag = tags.get(p["id"])
+            if not tag or tag.get("line") in (None, "other"):
+                continue
+            for q in set(p["qusoft_authors"]):
+                line_n.setdefault(q, Counter())[tag["line"]] += 1
+                topic_n.setdefault(q, Counter()).update(tag.get("topics", []))
+        profiles = []
+        for name, info in sorted(people.items(), key=lambda kv: (kv[0].split()[-1].lower(), kv[0])):
+            c = line_n.get(name, Counter())
+            total = sum(c.values())
+            profiles.append({
+                "name": name, "role": info.get("role", ""), "alumni": is_alumnus(info), "years": tenure(info),
+                "shares": {k: round(v / total, 3) for k, v in c.items()} if total else {},
+                "topics": [t for t, _ in topic_n.get(name, Counter()).most_common()],
+                "portrait": _web_portrait(name),
+            })
+        save_json(SITE / "data" / "profiles.json", profiles)
     save_json(SITE / "data" / "stats.json", stats)
     if topics:
         taxonomy = {"lines": [{"id": l["id"], "name": l["name"], "about": l["about"], "slot": l["slot"],

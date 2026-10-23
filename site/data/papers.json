@@ -862,7 +862,11 @@
   "topics": [
    "trapped-ions"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Trapped ions, charged atoms held in place by electric fields, are a leading platform for quantum computers, but their motion must first be cooled to very low energies. Standard 'Doppler' laser cooling leaves some motion behind, and the next step, 'sideband' cooling, needs ions that are already quite cold. The authors propose a stage in between. A hollow, tightly focused laser beam (an optical tweezer) combined with microwaves makes the ion lose energy as it repeatedly climbs a hill, a trick called Sisyphus cooling. Only one ion needs to be addressed to cool the shared motion of small crystals of ytterbium ions. Simulations with up to three ions show the joint motion cooling in under two milliseconds.",
+   "simple": "Ions are charged atoms. Scientists trap them to build quantum computers. First, the ions must be made very cold, so they barely move. Normal laser cooling stops at some point. Another method gets them colder, but it only works once they are already cold. The authors suggest a step in between. They shine a thin, hollow laser beam and microwaves on just one ion. Computer tests with up to three ions show that it cools them quickly.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -904,7 +908,11 @@
    "symmetry-representation",
    "circuits-compilation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "The quantum Fourier transform is a basic building block of many quantum algorithms, used to reveal hidden structure linked to symmetries. For simple, 'commutative' symmetry groups (called abelian groups), efficient circuits for it are known. For more complicated, non-commutative (non-abelian) groups, efficient constructions exist for only a few families. The authors develop two new methods for building these circuits, based on two tools from the mathematics of symmetry: Mackey theory and Clifford theory. With them they obtain exponentially cheaper circuits for specific families of groups, including a family of matrix groups and so-called wreath products, where they remove a size restriction needed by earlier general methods. Together, the methods give systematic tools for many finite groups.",
+   "simple": "Many quantum algorithms use a step called the quantum Fourier transform. It helps find hidden patterns linked to symmetry. For simple kinds of symmetry, we know how to do this step fast. For more complex kinds, we often do not. The authors give two new recipes for building this step on a quantum computer. For some families of complex symmetries, their recipes are much cheaper than before. The recipes also cover many other cases.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -938,7 +946,11 @@
    "symmetry-representation",
    "circuits-compilation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "The quantum Fourier transform is a key building block of many quantum algorithms. It can be defined not only for simple number systems but for general groups, including 'non-abelian' groups, where the order of operations matters. A standard example is the symmetric group: all the ways to reorder a list of items. A quantum circuit for this transform was outlined in 1997 and analysed in more detail in 2016. The authors revisit that construction, carefully recount its cost, and give revised estimates for the number of gates and the depth of the circuit. They also notice that one design choice in the earlier construction was not optimal, and propose a simpler way to build the transform.",
+   "simple": "The quantum Fourier transform is an important tool used inside many quantum programs. It can be built for many kinds of mathematical structures. One of them describes all the ways to shuffle a list of items. A quantum circuit for this case was first sketched in 1997 and studied again in 2016. The authors check this circuit carefully. They give a corrected count of how many steps it needs. They also find a simpler way to build it.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -974,7 +986,11 @@
   "topics": [
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum mechanics forbids making perfect copies of an unknown quantum state, but approximate copies are possible. The question is how many originals are needed to produce a given number of extra copies of good quality. For 'pure' states, which are described with full precision, the best method has long been known. For 'mixed' states, which contain some randomness, a simple trick extends that method, and its cost grows with the state's 'rank', a measure of how mixed it is. The authors prove that no method can do better, so this simple approach is optimal. They show the same for a related task, approximate transposition, which turns copies of a state into copies of a mathematically 'transposed' version of it.",
+   "simple": "In the quantum world, you cannot make a perfect copy of an unknown object. But you can make rough copies if you start with several originals. How many originals do you need? For the simplest kind of quantum object, the answer was known. For more mixed-up objects, there was a simple method. The authors prove that no method can beat it. They show the same for a related task that turns objects into a flipped version of themselves.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1009,7 +1025,11 @@
    "philosophy",
    "many-body-gravity"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "The holographic principle says that what happens inside a region of space can be described by information on its boundary, a bit like a hologram. Starting from 't Hooft's original formulation, this philosophy-of-physics paper examines the role of 'information' in quantum gravity, the attempt to unite quantum theory and gravity. The authors identify three roles: limits on how much information a region can hold help select viable theories; the inside and boundary descriptions must carry the same physical content; and the way information is encoded links to current ideas in which space emerges from patterns of entanglement. They argue that everyday or Shannon-style notions of information fall short here, and call for a more systematic philosophical treatment.",
+   "simple": "Physicists try to join quantum physics and gravity. One idea, called holography, says that what happens inside a region of space can be fully described on its edge. The authors, writing from philosophy, look at what 'information' means in this idea. They find it plays three roles. It helps rule out theories, it links two descriptions of the same thing, and it ties space to quantum links. They say the usual idea of information is not enough here.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1039,7 +1059,11 @@
   "topics": [
    "hamiltonians"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Finding the lowest possible energy of a quantum system, its 'ground-state energy', is a central problem in physics and chemistry. Often one has a 'guiding state': a rough guess that partly overlaps with the true lowest-energy state. The usual approach lets the system evolve in time and estimates a property of the resulting operation, called an eigenphase. The authors give a quantum algorithm that needs fewer uses of this operation than the previous best method, saving more as the guess gets worse. This matches a known lower limit, so it cannot be improved, and answers an earlier open question. The algorithm is built from 'transducers', a way of combining quantum algorithms without extra cost for error reduction.",
+   "simple": "Scientists often want to know the lowest energy a molecule or material can have. Often they start with a rough guess of the answer. The authors give a new quantum method that uses this guess. It needs fewer runs of a key step than the best earlier method. They also show that no method can do better. The method joins smaller quantum programs together without wasting effort on reducing errors.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1069,7 +1093,11 @@
   "topics": [
    "hamiltonians"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "A central quantum computing task is estimating the 'ground-state energy', the lowest possible energy, of a physical system. A common approach starts from a 'guiding state', an initial guess that partly overlaps with the true lowest-energy state, and lets the system evolve in time. The key cost is the total evolution time needed. A faster method was found recently, but matching limits were known only in special cases. The authors prove that this method is optimal: no algorithm can do better in general, taking into account the accuracy wanted, the quality of the guess and the allowed chance of failure all at once. Similar limits hold for preparing the ground state itself and for several variants of the problem.",
+   "simple": "Every physical system has a lowest energy. Knowing it helps in chemistry and materials science. Quantum computers can estimate it if they start from a good guess. The work takes time, and faster is better. A fast method was found recently. The authors prove that no method can be faster in general. The limit depends on how good the guess is, how precise the answer must be and how sure we want to be. Similar limits hold for related tasks.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1099,7 +1127,11 @@
    "circuits-compilation",
    "benchmarking"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Ordinary computers can simulate quantum circuits, but this becomes hard when circuits contain 'non-Clifford' gates, the ingredients that make quantum circuits difficult to imitate. Many new simulation methods have appeared, using techniques such as stabiliser decompositions or tensor contraction, and each works better for some kinds of circuits than for others. The problem is that every paper tests its method in its own way, on its own circuits and on its own hardware, so results are hard to compare. The authors present ABSTRACTS, a standard benchmark suite: a fixed collection of test circuits together with consistent (virtual) hardware and supporting infrastructure, so that different simulators can be compared fairly.",
+   "simple": "Scientists often use normal computers to imitate quantum computers. Many new methods for this have appeared. But each team tests its method in its own way, on its own test cases and its own machines. This makes it hard to know which method is best. The authors build a shared test set. It has a fixed list of quantum circuits and the same virtual machines for everyone. This allows fair comparisons between methods.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1128,7 +1160,11 @@
   "topics": [
    "graphs-walks"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "In a quantum walk, a quantum state spreads over a network, or graph. 'Perfect state transfer' happens when the state moves exactly from one node to another. Many examples use Cayley graphs, networks built from a mathematical group. The authors argue that state transfer belongs to the graph, not the group. They show that the constructions in six earlier papers, based on 'non-abelian' groups where the order of operations matters, in fact describe graphs that also come from simpler 'abelian' groups. They then give what is, to their knowledge, the first infinite family of such graphs with perfect state transfer that come from no abelian group, and list small symmetric examples up to 30 nodes.",
+   "simple": "Imagine a network of points joined by lines. In a quantum walk, a quantum signal moves through this network. Sometimes the signal arrives perfectly at another point. Many such networks are built from patterns of symmetry. The authors show that many known examples really come from simple patterns, even though they looked complicated. They also find a whole family of networks where this is not the case. Finally, they list all small examples.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1481,7 +1517,11 @@
   "topics": [
    "sensing-interferometry"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "This technical proposal describes AICE, a 100-metre atom interferometer planned for an access shaft of the Large Hadron Collider at CERN. An atom interferometer uses laser light to split clouds of very cold atoms into two paths and recombine them; tiny differences between the paths reveal faint forces. AICE's main goal is to search for 'ultralight dark matter', a hypothetical form of the invisible matter in the universe, in a mass range other experiments cannot reach. It would also pioneer the search for low-frequency gravitational waves and test Einstein's equivalence principle. The design uses ultracold strontium atoms, with later upgrades planned. Studies found no technical showstoppers at the site. The proposal is endorsed by 57 institutions in 22 countries.",
+   "simple": "Scientists plan a new experiment at CERN called AICE. It would be about 100 metres tall, inside a deep shaft. In it, very cold atoms are split and joined again using lasers. This makes them very sensitive to tiny forces. The main goal is to look for a very light kind of dark matter, the unseen matter in space. It could also look for ripples in space called gravitational waves. Studies say the site is ready to use.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1510,7 +1550,11 @@
    "symmetry-representation",
    "circuits-compilation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Truly random quantum operations are too costly to build, so researchers use unitary designs: collections of circuits that imitate randomness well enough, up to a chosen level of detail. The authors build such designs for qubits arranged in a line (1D), where gates act only on neighbours. Their circuits are nearly as shallow as possible and use nearly the smallest possible number of 'magic' gates, the costly gates needed beyond the easier Clifford gates. They match known lower bounds in all parameters at once, up to a small factor, by refining and combining two earlier constructions. As a by-product, they give a small fixed set of local 1D circuits that generates the whole Clifford group.",
+   "simple": "Many quantum experiments need operations that look random. Making truly random ones is too expensive. So scientists build circuits that are 'random enough'. The authors do this for qubits sitting in a line, where each step only touches neighbours. Their circuits are almost as short as possible. They also use almost the fewest costly 'magic' steps possible. They get this by improving two older methods and joining them together.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1558,7 +1602,11 @@
   "topics": [
    "cold-atoms"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Beams of atoms that are continuous, dense and well aligned ('collimated') are useful for precise measurement and for depositing materials, and have been important for cold-atom experiments. Standard methods narrow the beam with laser light pushing equally from opposite sides, but at high atom densities the atoms absorb light unevenly and this balance breaks down. The authors propose a different scheme. One laser transition, covering a broad range of frequencies, shifts the speeds of atoms, while a second, very narrow transition picks out atoms with the right speed. Selected atoms are 'shelved' in a long-lived internal state, which reduces light scattering and marks them as collimated. Simulations with strontium show effective collimation, and experiments agree well with them.",
+   "simple": "Some experiments need a steady stream of atoms all flying in the same direction. The usual way to straighten such a stream uses laser light pushing evenly from both sides. When the stream is dense, this works badly. The authors use two kinds of laser light instead. One changes the speed of the atoms. The other picks out atoms moving the right way and stores them in a special state. Tests with strontium atoms show that it works well.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1592,7 +1640,11 @@
    "complexity",
    "quantum-protocols"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Entanglement is a quantum link between particles. The authors design a task in which several separated senders each send a message to a single receiver. If the senders share a special multi-party entangled state, called a GHZ state, each needs to send only a very small number of ordinary bits. Without shared entanglement, at least one sender must send far more, even if quantum messages are allowed. So ordinary messages plus shared entanglement can be exponentially more powerful than quantum messages alone. For cryptography, the authors build a 'randomness extractor', a tool for distilling secure random bits. Breaking it needs a large quantum memory when the stored states are unentangled, but exponentially less with a little shared entanglement.",
+   "simple": "Entanglement is a special quantum link between particles. The authors look at a task where several people each send a message to one receiver. If the senders share entangled particles, they need only very short messages. Without this link, at least one sender must send much longer messages, even quantum ones. The authors also use this idea in cryptography. An attacker with a little shared entanglement needs much less memory to break a certain security tool.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1623,7 +1675,11 @@
    "entanglement-resources",
    "state-learning"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Some quantum states are valuable 'resources', for example because they are entangled or contain 'magic', a property needed for powerful quantum computation. Resource testing asks how reliably one can tell such a state apart from all resource-free states, given many copies of it. A recent result, the Generalised Quantum Stein's Lemma, describes how fast the errors shrink, but only in the limit of infinitely many copies, so it gives no guarantee for any real, finite number. The authors prove the first rigorous bounds for a finite number of copies, with explicit estimates of how many are needed. As consequences, they settle an open problem about certain entropy measures and give the first bound of its kind on the copies required.",
+   "simple": "Some quantum states are useful, like fuel for quantum computers. Scientists want to test if a state is really useful or not. To do this, they look at many copies of it. An older result says how well this works with endless copies. But real labs only have a limited number. The authors give the first exact limits for a finite number of copies. This tells you how many copies you need. It also solves an open maths question.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1681,7 +1737,11 @@
    "chemistry-materials",
    "hamiltonians"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Estimating the lowest energy of the electrons in a molecule or material, its 'ground-state energy', is a major target for quantum computers. Here electrons are described on a grid in space ('first quantization'). The authors use a technique called sum-of-squares spectral gap amplification: they rewrite the energy operator as a sum of squared terms, built from the total charge density. This gives a guaranteed lower bound and a cheaper way to load the operator into a quantum circuit (a 'block encoding'). As a result, the standard energy-estimation routine, quantum phase estimation, needs fewer gates. For example materials and chemical systems, estimated resources fall by a factor of 2 to 44, the lowest cost estimates yet for such simulations.",
+   "simple": "Quantum computers may one day help us understand how electrons behave in molecules and materials. A key task is finding the lowest energy of these electrons. The authors find a smarter way to write down this energy, as a sum of squared parts. This makes the quantum calculation cheaper. For several example materials and molecules, the estimated cost drops by between 2 and 44 times. These are the lowest cost estimates so far.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1731,7 +1791,11 @@
   "topics": [
    "state-learning"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Learning a quantum state means measuring many copies of it to build a full description; the minimum number of copies needed is called the 'sample complexity'. Gaussian states are an important family of quantum states, both for bosons (such as particles of light) and for fermions (such as electrons). They are used across physics, chemistry and quantum computing, yet their sample complexity had not been fully worked out. The authors settle this question: in both cases the number of copies needed grows with the square of the number of 'modes', the independent parts of the system. This holds for pure and mixed states and needs no limit on the state's energy. The proof uses a generalised 'random purification' technique.",
+   "simple": "To learn what a quantum object looks like, you must measure many copies of it. How many copies are needed? For one important family, called Gaussian states, nobody knew for sure. These states appear in light, in chemistry and in quantum computers. The authors find the answer. The number of copies grows with the square of the size of the system. This is true for both main kinds of particles and for any amount of energy.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1767,7 +1831,11 @@
   "topics": [
    "many-body-gravity"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum circuits can model how physical systems change in discrete time steps. The authors study circuits whose gates are taken from a supersymmetric quantum field theory in one space and one time dimension. Arranged in a 'brick-wall' pattern, these circuits support strong zero modes: special quantities that stay conserved as the system evolves. How many there are depends on the circuit parameters. Some stay localised at the edges of the system, while others travel steadily through it, steered by the choice of parameters; the authors explain this motion through a particular interaction term in the dynamics. They describe how the travelling modes could be used to transport quantum information and discuss how robust this is to various kinds of noise.",
+   "simple": "Quantum circuits can imitate how nature changes step by step. The authors build circuits from parts taken from a theory of particles with a special symmetry. In these circuits, some quantities never change over time. Some of them stay at the edges. Others move through the circuit at a steady speed. The circuit settings steer them. The authors explain how these moving quantities could carry quantum information, and how well this copes with noise.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1805,7 +1873,11 @@
    "chemistry-materials",
    "hamiltonians"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Chemical processes play out on many scales at once, from electrons to whole reactors. Quantum algorithms have been proposed for each scale, but there is no systematic way to link them. The authors match four known quantum algorithms to four scales and ask when a quantum speed-up at each scale might survive these links. They stress that such speed-ups are not guaranteed: they depend on preparing inputs, memory design, numerical properties and the cost of reading out results. Using the oxidation of carbon monoxide on a platinum surface as an example, they set out six open questions and suggest that how information passes between scales mainly decides any overall advantage.",
+   "simple": "Chemistry happens at many sizes at once. Tiny electrons, atoms, bigger groups of molecules and whole reactors all matter. There are quantum computer methods for each size. But nobody knows how to join them well. The authors match a quantum method to each size. They explain that a speed-up is not guaranteed. They list six open questions, using a reaction on platinum as an example. They suggest that how information passes between sizes matters most.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1845,7 +1917,11 @@
   "topics": [
    "position-verification"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "In non-local quantum computation, two cooperating players who share entanglement, and may exchange only one simultaneous round of messages, try to carry out a quantum operation on a system split between them. This matters for quantum position-verification, which proves one's physical location cryptographically, and even quantum gravity. Such tasks are linked by 'reductions': a method for one task yields a method for another, which ranks their difficulty. The authors find many new links in the most practical setting, with large classical and small quantum inputs. For example, simply redirecting a qubit based on a classical bit already enables many more complex operations. So many practical position-verification schemes have similar entanglement costs and hence similar security.",
+   "simple": "Imagine two partners far apart who want to do a quantum task together. They share specially linked particles and can each send one quick message. Such tasks help to check where someone really is, using quantum physics. The authors show that many of these tasks are connected. If you can do a simple one, you can also do much harder ones. This means that many location-checking schemes are about equally secure.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1877,7 +1953,11 @@
   "topics": [
    "position-verification"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum position verification aims to check where someone is located without trusting them, using quantum signals. It faces two obstacles: attackers who share entanglement (a quantum link between particles) could cheat, and in experiments many photons are lost on the way. An earlier 'commitment' trick tackles both, but its proof only works when the protocol is repeated round after round. With a different proof, the authors show security when all rounds are run at once, in parallel, against attackers with limited entanglement. The resulting protocol tolerates any amount of photon loss and noise up to 3.7%, so loss no longer limits the verification distance. They also correct and strengthen the earlier analysis of the round-by-round version.",
+   "simple": "Quantum position checking tries to do this with light signals. But cheaters with linked quantum particles could fool it, and light often gets lost on the way. An older trick fixed both problems, but only when the test is repeated one round at a time. The authors show it also works when all rounds happen at once. Now any amount of lost light is fine. They also correct and improve the older proof.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1921,7 +2001,11 @@
   "topics": [
    "state-learning"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum operations, called unitaries, can be sorted into a series of levels known as the Clifford hierarchy. The task studied here is testing: given an unknown operation, decide whether it is close to a chosen level. An earlier proposal linked this to quantum versions of 'uniformity norms', mathematical measures that detect hidden structure, but how efficient that test is remained unknown. The authors describe which operations come close to the largest possible value of the fourth such norm. As a consequence, they obtain an efficient test for the third level of the hierarchy. They also discuss possible routes to testing higher levels and the main obstacles that remain.",
+   "simple": "Quantum computers carry out operations on data. These operations can be sorted into levels, a bit like floors of a building. The question is: given an unknown operation, can we check which level it is close to? An earlier idea suggested a test for this, but nobody knew how well it worked. The authors prove that the test works efficiently for the third level. They also explain what still blocks a test for higher levels.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1959,7 +2043,11 @@
   "topics": [
    "many-body-gravity"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "In open quantum systems, which lose energy to their surroundings, some states are 'dark': they hardly decay at all. Such states are well understood for one or a few excitations, but their effect on many interacting particles is largely unexplored. The authors study a chain of spins (tiny quantum magnets) in which neighbouring sites lose energy together, creating a dark state for a single particle. They show that this state changes how the whole many-particle system behaves at long times. Through interactions with other modes, the dark state itself slowly decays, and the system follows universal patterns over time. The results help explain conflicting findings in recent work and are backed by computer simulations.",
+   "simple": "Some quantum systems slowly lose energy to their surroundings. But certain states, called dark states, barely lose any. The authors study a chain of tiny quantum magnets that has one such dark state. They show that this dark state changes how the whole chain behaves over long times. The chain follows simple, general rules as it fades. Computer simulations agree. This helps explain why some earlier studies disagreed.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -1992,7 +2080,11 @@
   "topics": [
    "query-algorithms"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "The standard quantum circuit model treats every quantum algorithm as a straight-line program: a fixed list of steps. This makes it awkward to run subroutines of different lengths in superposition, that is, several at once in a quantum way. Quantum walks, an alternative way to describe quantum algorithms, can model such branching. Applied to Grover's search algorithm, however, branching alone gives a variable-time search that is worse than earlier results. The authors trace this to a second feature of real programs that was missing: loops. By extending the method to handle looping as well, they match the complexity of previous work. This shows the importance of modelling a program's control flow properly when designing quantum algorithms.",
+   "simple": "A quantum algorithm is usually written as a fixed list of steps, one after another. But real programs have branches and loops, and some parts take longer than others. The authors use another way of describing quantum algorithms that can handle branches. For a famous quantum search method, branches alone give a worse result than known before. When they also include loops, they match the earlier result. So it matters how you describe the flow of a program.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2028,7 +2120,11 @@
   "topics": [
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "'Unitary designs' are operations that imitate truly random ones well enough for many quantum tasks, and 'strong' designs are a stricter version of this idea. Earlier work showed how to build strong designs on a line of qubits, or when every qubit can interact with every other. The authors build them on grids of two, three or more dimensions, where qubits only interact with their neighbours. One construction combines the all-to-all result with routing techniques and works for any layout, though slightly less efficiently. A second, direct construction needs no extra helper qubits and has the best possible circuit depth on grids. Combining the two, they also obtain 'pseudorandom' operations on grids with optimal depth.",
+   "simple": "Many quantum tasks need operations that look random. Making them is not easy. In real quantum chips, each qubit can often only talk to its neighbours on a grid. Earlier work showed how to make such operations on a line of qubits. The authors show how to do it on flat grids and grids with more dimensions. One method works for any layout. Another method is as fast as possible on grids.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2058,7 +2154,11 @@
    "entanglement-resources",
    "philosophy"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "'Entanglement entropy' measures how strongly two parts of a quantum system are entangled. Despite its name, it cannot directly be used to drive heat flows, as ordinary thermodynamic entropy can. To do so, the entangled state must first become a random mixture through 'quantum state reduction', the collapse-like process associated with measurement. The authors show that, even in the simplest system with two parts, entanglement entropy does not turn into thermodynamic entropy one-for-one. The random dynamics of state reduction also allow several different definitions of entropy. They explain why this still forbids perpetual motion, and show that physical models of state reduction leave thermodynamic signatures that can be told apart from the loss of quantum coherence caused by the environment.",
+   "simple": "Two quantum particles can be linked, or entangled. Scientists measure this link with a number called entanglement entropy. But you cannot use it directly to make heat flow. First, the link must be broken by a random process, like what happens in a measurement. The authors show that this change is not one-to-one. They explain why it still cannot power a machine that runs forever. They also point to signs that experiments could look for.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2115,7 +2215,11 @@
    "state-learning",
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Classical shadows are a technique for efficiently predicting properties of an unknown quantum state from measurements. A common recipe is to measure the state in a randomly chosen basis, with the randomness coming from a symmetry group; many such recipes have been studied one at a time. The authors give a unified theory covering recipes based on general group representations (the ways a symmetry group can act on a quantum system), going beyond earlier simplified settings. They identify 'centralizing bases', which make the analysis exact and the classical post-processing cheap, and give general bounds on how many measurements are needed for a given precision. It also yields new protocols, for example based on the exceptional group G2.",
+   "simple": "Scientists want to learn about an unknown quantum state. A method called classical shadows does this efficiently. It measures the state in a randomly chosen way. Many versions of this method exist, each studied on its own. The authors build one theory that covers many of them. It shows how to keep the computer work after measuring small. It also tells how many measurements you need. And it helps create new versions.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2165,7 +2269,11 @@
   "topics": [
    "state-learning"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "A Hamiltonian describes the energy of a quantum system and how it changes over time. The authors study 'local' Hamiltonians, where each term involves only a few particles, and ask how to check (certify) or learn them. First, they certify a Hamiltonian by letting the system evolve, using a total evolution time that is provably optimal; to their knowledge this is the first optimal test of a Hamiltonian property. Second, they learn 'Gibbs states', the states a system settles into at a given temperature, with an efficient number of samples, whereas earlier methods needed exponentially many samples at low temperatures. Third, they certify Gibbs states efficiently in both samples and running time, answering an open question from 2022.",
+   "simple": "Physicists describe a quantum system by a rule for its energy. The authors ask how to check or learn this rule from experiments. They give a way to check the rule that takes as little time as possible. They also show how to learn the state a system settles into at a given temperature. Earlier methods needed far too many measurements when the system is cold. The new method does not.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2201,7 +2309,11 @@
   "topics": [
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum theory forbids two seemingly useful operations: making perfect copies (cloning) of an unknown quantum state, and producing its 'transpose', a mathematically flipped version. The reasons differ: cloning clashes with linearity, transposition with 'complete positivity', a consistency rule for physical processes. The authors show that, despite this, the best possible approximations of both come from a single physical process: one output carries the best clone, the other, 'complementary', output the best transpose. Using this, they determine exactly how much quantum and private classical information the optimal cloning machine can transmit, closing an open gap. They give an explicit circuit doing both tasks equally well, prove that the optimal transposition is unique, and also study a mixed-state case.",
+   "simple": "Quantum physics forbids making perfect copies of an unknown quantum object. It also forbids making a perfect flipped version of it. The two bans have different reasons. The authors show that the best rough copy and the best rough flipped version come from one single process. This helps them answer an open question about how much information a copying machine can carry. They also give a circuit that does both tasks equally well.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2233,7 +2345,11 @@
   "topics": [
    "hamiltonians"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum phase estimation is a standard quantum method for finding the lowest energy of a physical system, its 'ground state energy'. Its data must then be processed on an ordinary computer. The authors introduce a new classical estimator for the common case where the wanted value lies in a known interval. It filters the data to that interval, which makes it robust both to unwanted extra signals and to experimental noise. Without noise, its systematic error (bias) shrinks exponentially compared with a simple average; it also copes better with a common noise model. Combined with an existing error-mitigation scheme, it can handle realistic noise. The authors argue this makes limited-depth phase estimation practical for early fault-tolerant quantum experiments.",
+   "simple": "Quantum computers may help find the lowest energy of a material. One method for this gives raw data that a normal computer must then process. The authors build a new way to process this data. It works when you roughly know where the answer is. It ignores signals outside that range. This makes it less sensitive to noise and to unwanted signals. Tests on a small computer model worked even better than expected.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2275,7 +2391,11 @@
    "error-correction",
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum error-correcting codes protect information by spreading it over many physical units. In permutation-invariant codes, the encoded states stay the same when the physical units are swapped around. The authors study such codes for qubits and for 'qudits', units with more than two levels, focusing on deletion errors, where units are lost. They extend the standard conditions for error correction to qudits and search numerically for codes. They conjecture a minimum number of qubits needed to correct a given number of deletions, and find that using physical qudits with more levels steadily reduces the number of units needed, approaching a known theoretical limit. They also extend an existing construction to qudits by solving a linear program.",
+   "simple": "Quantum information is easily damaged. Error-correcting codes protect it by spreading it over many small parts. The authors study codes that do not change when the parts are shuffled. They look at parts with two levels and parts with more levels. Using computer searches, they guess how many parts are needed to recover from lost parts. They find that parts with more levels mean fewer parts are needed. They also give a new way to build such codes.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2303,7 +2423,11 @@
   "topics": [
    "circuits-compilation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "The ZX-calculus is a graphical language in which quantum computations are drawn as diagrams and simplified with rewrite rules. To turn a diagram back into a runnable program, such as a quantum circuit or a sequence of measurements, one needs a 'flow' condition guaranteeing that the computation is deterministic. Existing flow conditions require diagrams in a rigid special form, which ordinary rewrite rules easily break. The authors introduce ZX-flow, a condition stated directly in the ZX language using new markings called Pauli semiwebs. ZX-flow survives all basic (Clifford) rewrites and matches an established condition, Pauli flow, up to such rewrites. Any diagram with ZX-flow can be read as a deterministic measurement-based computation or efficiently turned into a quantum circuit.",
+   "simple": "Some scientists draw quantum programs as pictures, using a method called the ZX-calculus. They can change the pictures with simple rules to improve the programs. But in the end, the picture must turn back into a working program. Older checks for this only work on pictures with a strict shape. The authors give a new, more flexible check. It keeps working when the picture is changed. Pictures that pass can be turned into working quantum programs.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2348,7 +2472,11 @@
    "error-correction",
    "circuits-compilation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Cat states, also called GHZ states, are states in which many qubits are linked together at once. Preparing them 'fault-tolerantly', so that a single fault cannot spread into many errors, is an important step in quantum error correction. Earlier methods relied on expensive computer searches; the authors take a more scalable, constructive route. Using ZX-diagrams, a graphical language for quantum circuits, they reduce the problem to studying certain simple graphs and prove lower bounds on the number of two-qubit CNOT gates needed. They then find circuits matching these bounds for all cat states up to 50 qubits and nearly all up to 100, for the fault levels considered. They also show how to trade gate count for circuit depth.",
+   "simple": "Quantum computers make many errors, so they need error correction. One helpful tool is a 'cat state', where many qubits are linked together. It must be made carefully, so that one small error does not spread. Older methods found good recipes by slow computer searches. The authors use a picture-based language for circuits to find the best recipes in a smarter way. They prove how many steps are needed. Then they find recipes that use exactly that many.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2377,7 +2505,11 @@
    "error-correction",
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum error-correcting codes protect information by spreading it across many qubits. The authors study 'brickwork' circuits: layers of random operations on neighbouring pairs of qubits along a line, arranged like bricks in a wall, using a restricted class of operations called Clifford gates. They prove that, on average, these circuits form good approximate error-correcting codes after a number of layers that grows only logarithmically with the number of qubits. The proof adapts statistical-mechanics methods developed earlier for studying random circuits. For exact error correction, where no error at all is allowed, they give matching upper and lower bounds on the number of layers needed before such circuits become error-correcting.",
+   "simple": "Quantum information breaks easily, so it needs protection. One way to protect it is to spread it over many qubits in a clever pattern. The authors look at a simple random circuit. The qubits sit in a line and are mixed in a pattern like bricks in a wall. They prove that this random mixing protects information well after relatively few layers. They also find how many layers are needed for perfect protection.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2418,7 +2550,11 @@
   "topics": [
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "A 'k-design' is a finite set of states that mimics a truly random choice up to a certain level of detail, k. Welch bounds, inequalities first found in signal processing, tell exactly when a set is a perfect design. The authors derive stronger Welch bounds that measure how close a set comes to being a design; this characterises approximate designs. The bounds are often tight, which identifies the best approximate designs among small sets. For example, complete sets of 'mutually unbiased bases', a well-known structure in quantum theory, turn out to be optimal in this sense. This leads to a new numerical way to test whether such sets exist in dimension six.",
+   "simple": "Many quantum tasks need a set of states that behaves as if picked at random. Perfect sets of this kind are rare. The authors find better ways to measure how close a small set comes to being perfect. With these tools, they can spot the best possible small sets. One famous family of sets turns out to be among the best. This gives a new way to search for such sets with computers.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2462,7 +2598,11 @@
    "complexity",
    "symmetry-representation"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "In the mathematics of symmetry, numbers called multiplicities count how often a basic building block appears inside a larger structure. Some, such as Kostka and Littlewood-Richardson coefficients, have a counting interpretation that places them in the complexity class #P, which captures counting problems. Whether this holds more widely is an important open question, relevant to geometric complexity theory and quantum information. The authors show that a broad class of these multiplicities, including the plethysm coefficients, lies in #BQP, a quantum counterpart of #P. This unifies, simplifies and extends earlier results. The proof uses repeated applications of the Schur transform, a quantum circuit tied to symmetry. They also give fast classical algorithms when certain parameters are fixed.",
+   "simple": "In maths, some numbers count how often a basic piece of symmetry appears inside a bigger one. For some of these numbers, we know a neat way to count them. For many others, we do not. The authors show that a large group of these numbers can be counted, in a certain sense, with a quantum computer. This includes numbers called plethysm coefficients. Their result also covers earlier work. When some settings are fixed, normal computers can find them fast.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2519,7 +2659,11 @@
   "topics": [
    "trapped-ions"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum systems of many particles, pushed far from equilibrium, can show phase transitions, chaos and entanglement, but these are hard to study in large, well-isolated systems. The Dicke model, in which many two-level systems all couple to a single mode of light or vibration, is a basic picture of how light and matter interact. The authors realise this model with a flat crystal of about 100 trapped ions, whose shared vibration plays the role of the mode. They observe dynamical phase transitions between ordered and disordered spin phases, signs of chaos, and behaviour consistent with quantum thermalisation. Calculations, supported by measurements, indicate quantum correlations ('squeezing') 2.6 dB below the standard quantum limit, a resource for quantum-enhanced sensing.",
+   "simple": "Physicists want to understand how many tiny particles behave together when they are pushed out of balance. A well-known model describes many tiny 'switches' that all share one vibration. It is a simple picture of light meeting matter. The authors build this model with about 100 charged atoms held in a flat crystal. They see the system switch between different behaviours, signs of chaos, and settling down. They also find quantum links that could help make better sensors.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2580,7 +2724,11 @@
   "topics": [
    "trapped-ions"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Light carries 'spin', linked to its polarisation, which can couple to its motion. In the optical Magnus effect, this coupling shifts sideways the place where light acts most strongly, in a direction that depends on its spin. The authors directly observe and map this effect, using a single trapped calcium ion as a tiny probe. With a tightly focused laser beam, the spot where the ion interacts most strongly with the light moves sideways by several hundred nanometres. This comes from parts of the light's electric field that point along the beam, which appear only in a tight focus. The results matter for controlling atoms and ions with focused light, as in optical tweezers.",
+   "simple": "Light can spin in two directions. A very tightly focused laser beam behaves in a surprising way. The spot where it acts most strongly on an atom shifts a little to the side. The direction of the shift depends on how the light spins. The authors see this shift directly, using one trapped charged atom. The shift is less than a thousandth of a millimetre. This matters for controlling atoms with focused laser light.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2608,7 +2756,11 @@
   "topics": [
    "error-correction"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum error-correcting codes protect information by spreading it over many qubits. The Bravyi-König theorem is an important 'no-go' result for topological stabiliser codes, a family of such codes: it limits which logical operations short, shallow circuits can perform, depending on the dimension of the code. A newer type, Floquet codes, in which repeated measurements create the protected space anew at each time step. The authors show that the Bravyi-König theorem also holds for Floquet codes, under a definition based on 'locally conjugate' stabiliser groups. They also define a broader class of operations that need not preserve the protected space at every step but, together with the measurements, still act validly, and show the theorem holds for these too.",
+   "simple": "Quantum computers need protection from errors. Error-correcting codes give this protection. An important rule says that, for one big family of codes, quick and simple operations can only do a limited set of things. A newer kind of code, called a Floquet code, keeps changing over time through repeated measurements. The authors show that the rule also applies to these new codes. It even applies to a wider set of operations that they define.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2642,7 +2794,11 @@
   "topics": [
    "tensors-invariant-theory"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Tensors, multi-dimensional arrays of numbers, appear across computer science, mathematics and quantum information. Strassen's 'asymptotic spectrum' is a framework for measuring how complex tensors are, using special measures called spectral points. A question open since 1991 asked whether Strassen's 'support functionals' are such universal spectral points. The authors answer yes for tensors over the complex numbers, by showing that these functionals equal the 'quantum functionals', which are defined by optimising entropy over sets linked to entanglement. This follows from a general formula that acts as a bridge between classical and quantum versions of a problem. The results also give a simpler, unified approach to several other tensor measures.",
+   "simple": "Tensors are tables of numbers that can have many directions, not just rows and columns. They appear in computer science, mathematics and quantum physics. A well-known question from 1991 asked whether certain ways of measuring tensors have a special property. The authors prove that the answer is yes. They show that these measures are the same as other measures that come from quantum physics. Their method also makes several other results simpler.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2719,7 +2875,11 @@
   "topics": [
    "cold-atoms"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Neutral atoms are promising for quantum computers because many can be arranged and connected flexibly. The authors describe a new apparatus that holds single strontium atoms in a 5 by 5 grid of 'optical tweezers', tightly focused laser beams that each trap one atom. Atoms leave a custom-built oven, are slowed and guided into an ultra-high-vacuum chamber, and are then cooled by two laser stages to a few millionths of a degree above absolute zero. The tweezers load atoms at random, and the atoms can be imaged very reliably, almost always surviving. The machine also offers flexible magnetic field control and good optical access. It forms the core of a full quantum computer aimed at quantum chemistry problems.",
+   "simple": "Quantum computers can be built from single atoms. The authors built a machine that holds strontium atoms with laser beams. Each beam, called a tweezer, holds one atom. There are 25 tweezers in a 5 by 5 grid. The atoms are first cooled with lasers until they are extremely cold. Then the machine can take pictures of each atom, almost without losing any. This machine is the heart of a quantum computer for chemistry problems.",
+   "checked": false
+  },
   "page": true
  },
  {
@@ -2752,7 +2912,11 @@
   "topics": [
    "quantum-protocols"
   ],
-  "summary": null,
+  "summary": {
+   "accessible": "Quantum key distribution (QKD) lets two parties share secret keys without relying on assumptions about computing power, but current hardware limits it to fairly short distances. To go further, networks of trusted repeater nodes are used: QKD runs between neighbouring nodes, and messages are relayed through the network. Such networks are being deployed worldwide, yet no protocol had provable guarantees that messages cannot be tampered with, either by outside attackers or by corrupted nodes along the way. The authors present the first protocol that provably provides both secrecy and integrity. It combines Algebraic Manipulation Detection codes, an existing cryptographic tool for spotting tampering, with relaying messages along several paths, and its security is proven formally.",
+   "simple": "Quantum key distribution lets two people share secret codes very safely. But it only works over short distances. To reach further, messages hop between trusted stations. Such networks are being built around the world. Until now, no method could prove that nobody changed a message along the way. The authors give the first method that keeps messages both secret and unchanged. It sends messages along several routes and uses a special code that spots tampering.",
+   "checked": false
+  },
   "page": true
  },
  {

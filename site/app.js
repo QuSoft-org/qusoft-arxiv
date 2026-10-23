@@ -128,12 +128,12 @@
 
   // ---------- routing ----------
 
-  const views = ["papers", "research", "print"];
+  const views = ["papers", "research", "people", "print"];
   const rendered = {};
 
   function route() {
     const [view, query] = (location.hash.slice(1) || "papers").split("?");
-    const old = { people: "research", numbers: "research" }; // earlier tabs
+    const old = { numbers: "research" }; // earlier tab
     const name = old[view] || (views.includes(view) ? view : "papers");
     for (const v of views) $(`#view-${v}`).hidden = v !== name;
     document.querySelectorAll("nav a").forEach((a) => {
@@ -142,6 +142,7 @@
     const params = new URLSearchParams(query || "");
     if (name === "papers") showPapers(params);
     if (name === "research" && !rendered.research) { renderResearch(); renderNumbers(); rendered.research = true; }
+    if (name === "people" && !rendered.people) { renderPeople(); rendered.people = true; }
     if (name === "print" && !rendered.print) { renderPrint(); rendered.print = true; }
   }
 
@@ -609,6 +610,108 @@
       timer = setInterval(() => { if (year >= last) return stop(); slider.value = year + 1; show(year + 1); }, 1200);
     });
     show(last);
+  }
+
+  // ---------- people: research profiles, everyone with the same weight ----------
+
+  let profiles = null;
+  const SVG = "http://www.w3.org/2000/svg";
+  const svgEl = (tag, attrs = {}) => {
+    const n = document.createElementNS(SVG, tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    return n;
+  };
+  const roleLabel = (p) => (p.alumni ? `alumni${p.years ? ` ${p.years}` : ""}` : ROLE[p.role] || "");
+
+  function profileRing(p) {
+    // The same size for everyone; the ring shows shares of research lines, starting at the top.
+    const R = 45, C = 2 * Math.PI * R;
+    const svg = svgEl("svg", { viewBox: "0 0 100 100", class: "ring", "aria-hidden": "true" });
+    const id = `pc-${initials(p.name)}-${Math.random().toString(36).slice(2, 7)}`;
+    const defs = svgEl("defs"), clip = svgEl("clipPath", { id });
+    clip.append(svgEl("circle", { cx: 50, cy: 50, r: 37 })); defs.append(clip); svg.append(defs);
+    const parts = taxonomy.lines.filter((l) => p.shares[l.id]);
+    if (!parts.length) svg.append(svgEl("circle", { cx: 50, cy: 50, r: R, fill: "none", stroke: "var(--rule)", "stroke-width": 7 }));
+    let at = 0;
+    for (const l of parts) {
+      const len = p.shares[l.id] * C;
+      svg.append(svgEl("circle", { cx: 50, cy: 50, r: R, fill: "none", stroke: lineColor(l.id), "stroke-width": 7,
+        "stroke-dasharray": `${Math.max(len - (parts.length > 1 ? 3 : 0), 0.5)} ${C}`, "stroke-dashoffset": -at, transform: "rotate(-90 50 50)" }));
+      at += len;
+    }
+    if (p.portrait) {
+      svg.append(svgEl("image", { href: p.portrait, x: 13, y: 13, width: 74, height: 74, "clip-path": `url(#${id})`, preserveAspectRatio: "xMidYMid slice" }));
+    } else {
+      svg.append(svgEl("circle", { cx: 50, cy: 50, r: 37, fill: "var(--rule)" }));
+      const t = svgEl("text", { x: 50, y: 50, "text-anchor": "middle", "dominant-baseline": "central", class: "ring-initials" });
+      t.textContent = initials(p.name); svg.append(t);
+    }
+    return svg;
+  }
+
+  function profileCard(p) {
+    const parts = taxonomy.lines.filter((l) => p.shares[l.id]).sort((a, b) => p.shares[b.id] - p.shares[a.id]);
+    const topicsOf = (list) => list.filter((t) => topicById[t]).map((t) => topicById[t].name);
+    return el("li", { class: "profile-card", id: "profile-card" },
+      el("h3", {}, p.name), el("p", { class: "muted" }, roleLabel(p)),
+      parts.length ? [
+        el("div", { class: "share-bar", "aria-hidden": "true" }, parts.map((l) => el("span", { style: `flex:${p.shares[l.id]}; background:${lineColor(l.id)}` }))),
+        el("p", {}, "Mostly ", parts.map((l) => l.name.toLowerCase()).join(", then "), "."),
+        el("ul", { class: "chips" }, topicsOf(p.topics.slice(0, 6)).map((t, i) => el("li", {}, el("a", { href: `#papers?topic=${p.topics[i]}` }, t)))),
+        p.topics.length > 6 ? el("p", { class: "muted" }, "Also: ", topicsOf(p.topics.slice(6)).join(", "), ".") : null,
+        el("p", {}, el("a", { href: `#papers?person=${encodeURIComponent(p.name)}` }, `Papers with ${p.name}`)),
+      ] : el("p", { class: "muted" }, "No papers on this site yet."));
+  }
+
+  async function renderPeople() {
+    if (!profiles) {
+      try { profiles = await fetch("data/profiles.json", { cache: "no-cache" }).then((r) => r.json()); }
+      catch (err) { $("#profile-grid").replaceChildren(el("li", { class: "empty" }, "The profiles could not be loaded. Reload the page to try again.")); return; }
+      $("#people-legend").replaceChildren(...taxonomy.lines.map((l) => el("li", {},
+        el("a", { href: `#papers?line=${l.id}` }, el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name))));
+      document.querySelectorAll('input[name="whom"]').forEach((r) => r.addEventListener("change", () => { openProfile = null; drawPeople(); }));
+    }
+    drawPeople();
+  }
+
+  let openProfile = null;
+  function drawPeople() {
+    const whom = document.querySelector('input[name="whom"]:checked')?.value || "current";
+    const shown = profiles.filter((p) => whom === "all" || (whom === "alumni" ? p.alumni : !p.alumni));
+
+    // Research profiles: a grid of equal faces; a picked face opens its card below its row.
+    const items = [];
+    let picked = null;
+    for (const p of shown) {
+      const btn = el("button", { type: "button", class: "profile", "aria-expanded": String(openProfile === p.name), "aria-controls": "profile-card",
+        onclick: () => { openProfile = openProfile === p.name ? null : p.name; drawPeople(); } },
+        profileRing(p), el("span", { class: "pname" }, p.name), el("span", { class: "prole" }, roleLabel(p)));
+      const li = el("li", {}, btn);
+      if (openProfile === p.name) picked = [li, p];
+      items.push(li);
+    }
+    $("#profile-grid").replaceChildren(...items);
+    if (picked) {
+      let last = picked[0];
+      while (last.nextElementSibling && last.nextElementSibling.offsetTop === picked[0].offsetTop) last = last.nextElementSibling;
+      last.after(profileCard(picked[1]));
+      picked[0].querySelector("button").focus({ preventScroll: true });
+      $("#profile-card").scrollIntoView({ block: "nearest" });
+    }
+
+    // Who to talk to about...: every topic with its people, alphabetically, without counts.
+    $("#talk-to").replaceChildren(...taxonomy.lines.map((l) => el("section", { class: "talk-line" },
+      el("h3", {}, el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name),
+      l.topics.map((t) => {
+        const who = shown.filter((p) => p.topics.includes(t.id));
+        return el("div", { class: "talk-topic" },
+          el("a", { class: "talk-name", href: `#papers?topic=${t.id}` }, t.name),
+          who.length ? el("div", { class: "talk-faces" }, who.map((p) => el("a", {
+            href: `#papers?person=${encodeURIComponent(p.name)}`, title: `${p.name}, ${roleLabel(p)}`, "aria-label": `${p.name}, ${roleLabel(p)}` },
+            p.portrait ? el("img", { class: `talk-face${p.alumni ? " alum" : ""}`, src: p.portrait, alt: "", loading: "lazy", width: 44, height: 44 })
+                       : el("span", { class: `talk-face initials${p.alumni ? " alum" : ""}` }, initials(p.name)))))
+            : el("span", { class: "muted" }, whom === "current" ? "No current members yet." : "Nobody yet."));
+      }))));
   }
 
   // ---------- numbers: year by year (group level only) ----------

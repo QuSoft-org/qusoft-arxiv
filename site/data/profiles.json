@@ -1,0 +1,2269 @@
+[
+ {
+  "name": "Amira Abbas",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2023–2025",
+  "shares": {
+   "algorithms-complexity": 0.25,
+   "information-learning": 0.5,
+   "hardware-software": 0.25
+  },
+  "topics": [
+   "state-learning",
+   "near-term-algorithms",
+   "learning-theory",
+   "optimisation-linear-algebra"
+  ],
+  "portrait": "portraits/amira-abbas.webp"
+ },
+ {
+  "name": "Doutzen Abma",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/doutzen-abma.webp"
+ },
+ {
+  "name": "Rene Allerstorfer",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "shares": {
+   "cryptography": 0.889,
+   "information-learning": 0.111
+  },
+  "topics": [
+   "position-verification",
+   "entanglement-resources",
+   "symmetry-representation",
+   "quantum-protocols"
+  ],
+  "portrait": "portraits/rene-allerstorfer.webp"
+ },
+ {
+  "name": "Joran van Apeldoorn",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2022",
+  "shares": {
+   "algorithms-complexity": 0.889,
+   "information-learning": 0.111
+  },
+  "topics": [
+   "optimisation-linear-algebra",
+   "query-algorithms",
+   "state-learning",
+   "tensors-invariant-theory",
+   "complexity"
+  ],
+  "portrait": "portraits/joran-van-apeldoorn.webp"
+ },
+ {
+  "name": "Simon Apers",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2019",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "query-algorithms",
+   "optimisation-linear-algebra"
+  ],
+  "portrait": "portraits/simon-apers.webp"
+ },
+ {
+  "name": "Srinivasan Arunachalam",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2014–2018",
+  "shares": {
+   "information-learning": 0.143,
+   "algorithms-complexity": 0.857
+  },
+  "topics": [
+   "learning-theory",
+   "state-learning",
+   "complexity",
+   "query-algorithms",
+   "tensors-invariant-theory",
+   "post-quantum",
+   "optimisation-linear-algebra",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/srinivasan-arunachalam.webp"
+ },
+ {
+  "name": "Carla Witte - van Asperen",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/carla-witte---van-asperen.webp"
+ },
+ {
+  "name": "Priscilla Awuah",
+  "role": "Visitor",
+  "alumni": true,
+  "years": "2026",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "graphs-walks"
+  ],
+  "portrait": "portraits/priscilla-awuah.webp"
+ },
+ {
+  "name": "Lieuwe Bakker",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/lieuwe-bakker.webp"
+ },
+ {
+  "name": "Tom Bannink",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2019",
+  "shares": {
+   "algorithms-complexity": 0.8,
+   "information-learning": 0.2
+  },
+  "topics": [
+   "graphs-walks",
+   "channels-communication",
+   "complexity"
+  ],
+  "portrait": "portraits/tom-bannink.webp"
+ },
+ {
+  "name": "Zongbo Bao",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "state-learning",
+   "learning-theory",
+   "benchmarking"
+  ],
+  "portrait": "portraits/zongbo-bao.webp"
+ },
+ {
+  "name": "Marc Farreras Bartra",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2024–2025",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/marc-farreras-bartra.webp"
+ },
+ {
+  "name": "Samuel van Beek",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/samuel-van-beek.webp"
+ },
+ {
+  "name": "Shayne Bennetts",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "sensing-interferometry"
+  ],
+  "portrait": "portraits/shayne-bennetts.webp"
+ },
+ {
+  "name": "Maxim van den Berg",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "tensors-invariant-theory"
+  ],
+  "portrait": "portraits/maxim-van-den-berg.webp"
+ },
+ {
+  "name": "Liam Bond",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "trapped-ions",
+   "near-term-algorithms",
+   "error-correction",
+   "symmetry-representation",
+   "sensing-interferometry",
+   "cold-atoms",
+   "chemistry-materials",
+   "many-body-gravity",
+   "hamiltonians"
+  ],
+  "portrait": "portraits/liam-bond.webp"
+ },
+ {
+  "name": "Philippe Bouyer",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "sensing-interferometry"
+  ],
+  "portrait": "portraits/philippe-bouyer.webp"
+ },
+ {
+  "name": "Gilles Brassard",
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2024",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "quantum-protocols",
+   "post-quantum",
+   "query-algorithms"
+  ],
+  "portrait": "portraits/gilles-brassard.webp"
+ },
+ {
+  "name": "Aldo Brinkman",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/aldo-brinkman.webp"
+ },
+ {
+  "name": "Jop Briët",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.286,
+   "algorithms-complexity": 0.714
+  },
+  "topics": [
+   "complexity",
+   "graphs-walks",
+   "state-learning",
+   "channels-communication",
+   "symmetry-representation",
+   "learning-theory",
+   "error-correction",
+   "tensors-invariant-theory"
+  ],
+  "portrait": "portraits/jop-briet.webp"
+ },
+ {
+  "name": "Carli Bruinsma",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "symmetry-representation",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/carli-bruinsma.webp"
+ },
+ {
+  "name": "Harry Buhrman",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.138,
+   "algorithms-complexity": 0.586,
+   "cryptography": 0.172,
+   "hardware-software": 0.069,
+   "society": 0.034
+  },
+  "topics": [
+   "complexity",
+   "position-verification",
+   "circuits-compilation",
+   "hamiltonians",
+   "graphs-walks",
+   "channels-communication",
+   "symmetry-representation",
+   "error-correction",
+   "query-algorithms",
+   "learning-theory",
+   "state-learning",
+   "near-term-algorithms",
+   "optimisation-linear-algebra",
+   "quantum-protocols",
+   "ethics-policy",
+   "tensors-invariant-theory"
+  ],
+  "portrait": "portraits/harry-buhrman.webp"
+ },
+ {
+  "name": "Wybren Jan Buma",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/wybren-jan-buma.webp"
+ },
+ {
+  "name": "Adam Burchardt",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2024",
+  "shares": {
+   "information-learning": 0.909,
+   "hardware-software": 0.091
+  },
+  "topics": [
+   "symmetry-representation",
+   "entanglement-resources",
+   "circuits-compilation",
+   "error-correction",
+   "channels-communication",
+   "graphs-walks"
+  ],
+  "portrait": "portraits/adam-burchardt.webp"
+ },
+ {
+  "name": "Chris Cade",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2019–2021",
+  "shares": {
+   "algorithms-complexity": 0.889,
+   "hardware-software": 0.111
+  },
+  "topics": [
+   "hamiltonians",
+   "complexity",
+   "query-algorithms",
+   "near-term-algorithms",
+   "optimisation-linear-algebra",
+   "chemistry-materials"
+  ],
+  "portrait": "portraits/chris-cade.webp"
+ },
+ {
+  "name": "Davi Castro-Silva",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2023",
+  "shares": {
+   "information-learning": 0.25,
+   "algorithms-complexity": 0.75
+  },
+  "topics": [
+   "graphs-walks",
+   "state-learning",
+   "complexity",
+   "symmetry-representation",
+   "learning-theory",
+   "error-correction",
+   "tensors-invariant-theory"
+  ],
+  "portrait": "portraits/davi-castro-silva.webp"
+ },
+ {
+  "name": "Jean-Sébastien Caux",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/jean-sebastien-caux.webp"
+ },
+ {
+  "name": "Yanlin Chen",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "shares": {
+   "cryptography": 0.286,
+   "algorithms-complexity": 0.714
+  },
+  "topics": [
+   "post-quantum",
+   "complexity",
+   "optimisation-linear-algebra",
+   "query-algorithms",
+   "learning-theory"
+  ],
+  "portrait": "portraits/yanlin-chen.webp"
+ },
+ {
+  "name": "Matthias Christandl",
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2024",
+  "shares": {
+   "algorithms-complexity": 0.545,
+   "hardware-software": 0.227,
+   "cryptography": 0.091,
+   "information-learning": 0.136
+  },
+  "topics": [
+   "tensors-invariant-theory",
+   "complexity",
+   "symmetry-representation",
+   "hamiltonians",
+   "error-correction",
+   "chemistry-materials",
+   "channels-communication",
+   "position-verification",
+   "entanglement-resources",
+   "cold-atoms",
+   "circuits-compilation",
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/matthias-christandl.webp"
+ },
+ {
+  "name": "Léo Colisson",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2025",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "quantum-protocols",
+   "position-verification",
+   "symmetry-representation"
+  ],
+  "portrait": "portraits/leo-colisson.webp"
+ },
+ {
+  "name": "Philippe Corboz",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "trapped-ions"
+  ],
+  "portrait": "portraits/philippe-corboz.webp"
+ },
+ {
+  "name": "Arjan Cornelissen",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2022",
+  "shares": {
+   "algorithms-complexity": 0.818,
+   "information-learning": 0.182
+  },
+  "topics": [
+   "query-algorithms",
+   "complexity",
+   "learning-theory",
+   "near-term-algorithms",
+   "state-learning",
+   "benchmarking",
+   "optimisation-linear-algebra"
+  ],
+  "portrait": "portraits/arjan-cornelissen.webp"
+ },
+ {
+  "name": "Jan Czajkowski",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2021",
+  "shares": {
+   "cryptography": 0.8,
+   "information-learning": 0.2
+  },
+  "topics": [
+   "post-quantum",
+   "foundations-thermodynamics",
+   "many-body-gravity",
+   "sensing-interferometry"
+  ],
+  "portrait": "portraits/jan-czajkowski.webp"
+ },
+ {
+  "name": "Ot van Dalen",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/ot-van-dalen.webp"
+ },
+ {
+  "name": "Susanne van Dam",
+  "role": "Support Team",
+  "alumni": true,
+  "years": "1992–2024",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/susanne-van-dam.webp"
+ },
+ {
+  "name": "Vania Lopez Diaz",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/vania-lopez-diaz.webp"
+ },
+ {
+  "name": "Bas Dirkse",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2021",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "entanglement-resources",
+   "benchmarking"
+  ],
+  "portrait": "portraits/bas-dirkse.webp"
+ },
+ {
+  "name": "Philippe van Dordrecht",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "state-learning"
+  ],
+  "portrait": "portraits/philippe-van-dordrecht.webp"
+ },
+ {
+  "name": "Klaasjan van Druten",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "sensing-interferometry"
+  ],
+  "portrait": "portraits/klaasjan-van-druten.webp"
+ },
+ {
+  "name": "Yfke Dulek",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2022",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "quantum-protocols",
+   "error-correction",
+   "post-quantum",
+   "position-verification"
+  ],
+  "portrait": "portraits/yfke-dulek.webp"
+ },
+ {
+  "name": "Alicja Dutkiewicz",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.333,
+   "information-learning": 0.333,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "hamiltonians",
+   "chemistry-materials",
+   "symmetry-representation"
+  ],
+  "portrait": "portraits/alicja-dutkiewicz.webp"
+ },
+ {
+  "name": "Lynn Engelberts",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "post-quantum",
+   "query-algorithms"
+  ],
+  "portrait": "portraits/lynn-engelberts.webp"
+ },
+ {
+  "name": "Llorenç Escolà-Farràs",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "cryptography": 0.889,
+   "information-learning": 0.111
+  },
+  "topics": [
+   "position-verification",
+   "symmetry-representation",
+   "quantum-protocols",
+   "channels-communication"
+  ],
+  "portrait": "portraits/llorenc-escola-farras.webp"
+ },
+ {
+  "name": "Francisco Escudero",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2026",
+  "shares": {
+   "information-learning": 0.5,
+   "algorithms-complexity": 0.4,
+   "hardware-software": 0.1
+  },
+  "topics": [
+   "state-learning",
+   "complexity",
+   "learning-theory",
+   "graphs-walks",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/francisco-escudero.webp"
+ },
+ {
+  "name": "Matteo Fabbri",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Xuanbo Feng",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2019–2023",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "condensed-matter"
+  ],
+  "portrait": "portraits/xuanbo-feng.webp"
+ },
+ {
+  "name": "César Feniou",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/cesar-feniou.webp"
+ },
+ {
+  "name": "Marten Folkertsma",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 0.091,
+   "hardware-software": 0.182,
+   "information-learning": 0.091,
+   "algorithms-complexity": 0.636
+  },
+  "topics": [
+   "complexity",
+   "circuits-compilation",
+   "hamiltonians",
+   "query-algorithms",
+   "position-verification",
+   "symmetry-representation",
+   "error-correction",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/marten-folkertsma.webp"
+ },
+ {
+  "name": "Arno Förster",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/arno-forster.webp"
+ },
+ {
+  "name": "Giada La Gala",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/giada-la-gala.webp"
+ },
+ {
+  "name": "Rene Gerritsma",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "trapped-ions",
+   "cold-atoms",
+   "near-term-algorithms",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/rene-gerritsma.webp"
+ },
+ {
+  "name": "Andras Gilyen",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2019",
+  "shares": {
+   "algorithms-complexity": 0.889,
+   "information-learning": 0.111
+  },
+  "topics": [
+   "optimisation-linear-algebra",
+   "query-algorithms",
+   "hamiltonians",
+   "graphs-walks",
+   "state-learning",
+   "benchmarking",
+   "learning-theory"
+  ],
+  "portrait": "portraits/andras-gilyen.webp"
+ },
+ {
+  "name": "Filippo Girardi",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2023–2024",
+  "shares": {
+   "information-learning": 0.667,
+   "hardware-software": 0.333
+  },
+  "topics": [
+   "state-learning",
+   "channels-communication",
+   "near-term-algorithms",
+   "learning-theory",
+   "symmetry-representation",
+   "entanglement-resources"
+  ],
+  "portrait": "portraits/filippo-girardi.webp"
+ },
+ {
+  "name": "Mark Golden",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "condensed-matter"
+  ],
+  "portrait": "portraits/mark-golden.webp"
+ },
+ {
+  "name": "Paola Gori-Giorgi",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/paola-gori-giorgi.webp"
+ },
+ {
+  "name": "Lorenzo Grevink",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "symmetry-representation"
+  ],
+  "portrait": "portraits/lorenzo-grevink.webp"
+ },
+ {
+  "name": "Sander Gribling",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2015–2020",
+  "shares": {
+   "hardware-software": 0.083,
+   "algorithms-complexity": 0.833,
+   "information-learning": 0.083
+  },
+  "topics": [
+   "optimisation-linear-algebra",
+   "tensors-invariant-theory",
+   "complexity",
+   "query-algorithms",
+   "graphs-walks",
+   "channels-communication",
+   "near-term-algorithms",
+   "entanglement-resources"
+  ],
+  "portrait": "portraits/sander-gribling.webp"
+ },
+ {
+  "name": "Alex Grilo",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2020",
+  "shares": {
+   "cryptography": 0.667,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "post-quantum",
+   "quantum-protocols",
+   "learning-theory",
+   "complexity",
+   "foundations-thermodynamics"
+  ],
+  "portrait": "portraits/alex-grilo.webp"
+ },
+ {
+  "name": "Dmitry Grinko",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.958,
+   "cryptography": 0.042
+  },
+  "topics": [
+   "symmetry-representation",
+   "state-learning",
+   "circuits-compilation",
+   "entanglement-resources",
+   "channels-communication",
+   "position-verification",
+   "query-algorithms",
+   "benchmarking",
+   "foundations-thermodynamics"
+  ],
+  "portrait": "portraits/dmitry-grinko.webp"
+ },
+ {
+  "name": "Vladimir Gritsev",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/vladimir-gritsev.webp"
+ },
+ {
+  "name": "Koen Groenland",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.667,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "circuits-compilation",
+   "trapped-ions",
+   "graphs-walks",
+   "many-body-gravity",
+   "channels-communication"
+  ],
+  "portrait": "portraits/koen-groenland.webp"
+ },
+ {
+  "name": "Paola Grosso",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/paola-grosso.webp"
+ },
+ {
+  "name": "Krystal Guo",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "graphs-walks"
+  ],
+  "portrait": "portraits/krystal-guo.webp"
+ },
+ {
+  "name": "Richard van Harderwijk",
+  "role": "Support Team",
+  "alumni": true,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Seenivasan Hariharan",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "hardware-software": 0.667,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "chemistry-materials",
+   "hamiltonians",
+   "query-algorithms",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/seenivasan-hariharan.webp"
+ },
+ {
+  "name": "Sebastian De Haro",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "society": 1.0
+  },
+  "topics": [
+   "philosophy",
+   "many-body-gravity",
+   "ethics-policy",
+   "post-quantum"
+  ],
+  "portrait": "portraits/sebastian-de-haro.webp"
+ },
+ {
+  "name": "Jonas Helsen",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.667,
+   "hardware-software": 0.148,
+   "algorithms-complexity": 0.185
+  },
+  "topics": [
+   "symmetry-representation",
+   "state-learning",
+   "benchmarking",
+   "hamiltonians",
+   "error-correction",
+   "many-body-gravity",
+   "circuits-compilation",
+   "entanglement-resources",
+   "complexity",
+   "graphs-walks",
+   "channels-communication"
+  ],
+  "portrait": "portraits/jonas-helsen.webp"
+ },
+ {
+  "name": "Yaroslav Herasymenko",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2022–2025",
+  "shares": {
+   "hardware-software": 0.125,
+   "information-learning": 0.375,
+   "algorithms-complexity": 0.5
+  },
+  "topics": [
+   "hamiltonians",
+   "state-learning",
+   "near-term-algorithms",
+   "circuits-compilation",
+   "symmetry-representation",
+   "chemistry-materials",
+   "many-body-gravity",
+   "complexity"
+  ],
+  "portrait": "portraits/yaroslav-herasymenko.webp"
+ },
+ {
+  "name": "Erik van Heumen",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "condensed-matter"
+  ],
+  "portrait": "portraits/erik-van-heumen.webp"
+ },
+ {
+  "name": "Joris van Hoboken",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/joris-van-hoboken.webp"
+ },
+ {
+  "name": "Alfons Hoekstra",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/alfons-hoekstra.webp"
+ },
+ {
+  "name": "Laima Janciute",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2024–2026",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/laima-janciute.webp"
+ },
+ {
+  "name": "Stacey Jeffery",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 0.767,
+   "cryptography": 0.233
+  },
+  "topics": [
+   "query-algorithms",
+   "post-quantum",
+   "quantum-protocols",
+   "hamiltonians",
+   "complexity",
+   "chemistry-materials",
+   "circuits-compilation",
+   "optimisation-linear-algebra"
+  ],
+  "portrait": "portraits/stacey-jeffery.webp"
+ },
+ {
+  "name": "Eline de Jong",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "society": 1.0
+  },
+  "topics": [
+   "ethics-policy",
+   "philosophy"
+  ],
+  "portrait": "portraits/eline-de-jong.webp"
+ },
+ {
+  "name": "Joris Kattemölle",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2016–2021",
+  "shares": {
+   "hardware-software": 0.8,
+   "information-learning": 0.2
+  },
+  "topics": [
+   "error-correction",
+   "circuits-compilation",
+   "near-term-algorithms",
+   "hamiltonians",
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/joris-kattemolle.webp"
+ },
+ {
+  "name": "Ivo Knottnerus",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/ivo-knottnerus.webp"
+ },
+ {
+  "name": "Tamara Kohler",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/tamara-kohler.webp"
+ },
+ {
+  "name": "Fedor Kuyanov",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/fedor-kuyanov.webp"
+ },
+ {
+  "name": "Ake Köhne",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "benchmarking"
+  ],
+  "portrait": "portraits/ake-kohne.webp"
+ },
+ {
+  "name": "Cees de Laat",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/cees-de-laat.webp"
+ },
+ {
+  "name": "Farrokh Labib",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2017–2021",
+  "shares": {
+   "algorithms-complexity": 0.75,
+   "information-learning": 0.25
+  },
+  "topics": [
+   "complexity",
+   "channels-communication",
+   "query-algorithms",
+   "circuits-compilation",
+   "graphs-walks"
+  ],
+  "portrait": "portraits/farrokh-labib.webp"
+ },
+ {
+  "name": "Ludovico Lami",
+  "role": "Senior Researchers",
+  "alumni": true,
+  "years": "2022–2024",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "entanglement-resources",
+   "channels-communication",
+   "state-learning",
+   "quantum-protocols",
+   "many-body-gravity",
+   "foundations-thermodynamics",
+   "sensing-interferometry",
+   "philosophy"
+  ],
+  "portrait": "portraits/ludovico-lami.webp"
+ },
+ {
+  "name": "Victor Land",
+  "role": "Support Team",
+  "alumni": true,
+  "years": "2019–2025",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/victor-land.webp"
+ },
+ {
+  "name": "Garazi Muguruza Lasa",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "cryptography": 0.714,
+   "algorithms-complexity": 0.143,
+   "information-learning": 0.143
+  },
+  "topics": [
+   "quantum-protocols",
+   "complexity",
+   "post-quantum",
+   "graphs-walks",
+   "symmetry-representation",
+   "error-correction"
+  ],
+  "portrait": "portraits/garazi-muguruza-lasa.webp"
+ },
+ {
+  "name": "Koen Leijnse",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "complexity"
+  ],
+  "portrait": "portraits/koen-leijnse.webp"
+ },
+ {
+  "name": "Lisa Lenstra",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.5,
+   "hardware-software": 0.5
+  },
+  "topics": [
+   "foundations-thermodynamics",
+   "entanglement-resources",
+   "philosophy",
+   "trapped-ions"
+  ],
+  "portrait": "portraits/lisa-lenstra.webp"
+ },
+ {
+  "name": "Sarah Meng Li",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "circuits-compilation",
+   "error-correction"
+  ],
+  "portrait": "portraits/sarah-meng-li.webp"
+ },
+ {
+  "name": "Yinan Li",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2020",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "tensors-invariant-theory",
+   "graphs-walks",
+   "optimisation-linear-algebra",
+   "channels-communication",
+   "complexity"
+  ],
+  "portrait": "portraits/yinan-li.webp"
+ },
+ {
+  "name": "Junqiao (Randy) Lin",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.667,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "complexity",
+   "channels-communication",
+   "symmetry-representation",
+   "state-learning"
+  ],
+  "portrait": "portraits/junqiao-lin.webp"
+ },
+ {
+  "name": "Matteo Lostaglio",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2021–2022",
+  "shares": {
+   "hardware-software": 0.286,
+   "information-learning": 0.571,
+   "society": 0.143
+  },
+  "topics": [
+   "foundations-thermodynamics",
+   "entanglement-resources",
+   "error-correction",
+   "circuits-compilation",
+   "channels-communication",
+   "philosophy"
+  ],
+  "portrait": "portraits/matteo-lostaglio.webp"
+ },
+ {
+  "name": "Anna Luchnikov",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/anna-luchnikov.webp"
+ },
+ {
+  "name": "Philip Verduyn Lunel",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2024",
+  "shares": {
+   "information-learning": 0.273,
+   "cryptography": 0.727
+  },
+  "topics": [
+   "position-verification",
+   "symmetry-representation",
+   "state-learning",
+   "entanglement-resources",
+   "quantum-protocols"
+  ],
+  "portrait": "portraits/philip-verduyn-lunel.webp"
+ },
+ {
+  "name": "Jelena Mackeprang",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "error-correction",
+   "near-term-algorithms",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/jelena-mackeprang.webp"
+ },
+ {
+  "name": "Christian Majenz",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2017–2021",
+  "shares": {
+   "cryptography": 0.65,
+   "information-learning": 0.35
+  },
+  "topics": [
+   "post-quantum",
+   "quantum-protocols",
+   "symmetry-representation",
+   "entanglement-resources",
+   "channels-communication"
+  ],
+  "portrait": "portraits/christian-majenz.webp"
+ },
+ {
+  "name": "Joost van Mameren",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/joost-van-mameren.webp"
+ },
+ {
+  "name": "Manideep Mamindlapally",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "query-algorithms"
+  ],
+  "portrait": "portraits/manideep-mamindlapally.webp"
+ },
+ {
+  "name": "Nikhil Mande",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2020–2022",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "complexity",
+   "query-algorithms"
+  ],
+  "portrait": "portraits/nikhil-mande.webp"
+ },
+ {
+  "name": "Evert-Jan Meijer",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/evert-jan-meijer.webp"
+ },
+ {
+  "name": "Jiri Minar",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.571,
+   "information-learning": 0.429
+  },
+  "topics": [
+   "many-body-gravity",
+   "cold-atoms",
+   "near-term-algorithms",
+   "trapped-ions",
+   "error-correction",
+   "symmetry-representation",
+   "chemistry-materials",
+   "hamiltonians"
+  ],
+  "portrait": "portraits/jiri-minar.webp"
+ },
+ {
+  "name": "Gina Muuss",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "position-verification"
+  ],
+  "portrait": "portraits/gina-muuss.webp"
+ },
+ {
+  "name": "Niels Neumann",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "hardware-software": 0.5,
+   "algorithms-complexity": 0.5
+  },
+  "topics": [
+   "error-correction",
+   "circuits-compilation",
+   "complexity"
+  ],
+  "portrait": "portraits/niels-neumann.webp"
+ },
+ {
+  "name": "Ido Niesen",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2019–2021",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "query-algorithms",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/ido-niesen.webp"
+ },
+ {
+  "name": "Harold Nieuwboer",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2019–2023",
+  "shares": {
+   "algorithms-complexity": 0.9,
+   "information-learning": 0.1
+  },
+  "topics": [
+   "tensors-invariant-theory",
+   "optimisation-linear-algebra",
+   "query-algorithms",
+   "many-body-gravity"
+  ],
+  "portrait": "portraits/harold-nieuwboer.webp"
+ },
+ {
+  "name": "Eric Opdam",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/eric-opdam.webp"
+ },
+ {
+  "name": "Maris Ozols",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.565,
+   "hardware-software": 0.13,
+   "algorithms-complexity": 0.217,
+   "cryptography": 0.087
+  },
+  "topics": [
+   "symmetry-representation",
+   "circuits-compilation",
+   "query-algorithms",
+   "channels-communication",
+   "near-term-algorithms",
+   "post-quantum",
+   "error-correction",
+   "hamiltonians",
+   "many-body-gravity",
+   "entanglement-resources",
+   "learning-theory",
+   "complexity",
+   "quantum-protocols"
+  ],
+  "portrait": "portraits/maris-ozols.webp"
+ },
+ {
+  "name": "Galina Pass",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "query-algorithms"
+  ],
+  "portrait": "portraits/galina-pass.webp"
+ },
+ {
+  "name": "Subhasree Patro",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2018–2024",
+  "shares": {
+   "algorithms-complexity": 0.889,
+   "information-learning": 0.111
+  },
+  "topics": [
+   "complexity",
+   "query-algorithms",
+   "post-quantum",
+   "channels-communication",
+   "entanglement-resources",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/subhasree-patro.webp"
+ },
+ {
+  "name": "Clara Pereira",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Tony Gomez Perez",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/tony-gomez-perez.webp"
+ },
+ {
+  "name": "Álvaro Piedrafita",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2017–2021",
+  "shares": {
+   "algorithms-complexity": 0.75,
+   "hardware-software": 0.25
+  },
+  "topics": [
+   "query-algorithms",
+   "error-correction"
+  ],
+  "portrait": "portraits/alvaro-piedrafita.webp"
+ },
+ {
+  "name": "Teresa Piovesan",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2012–2016",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "complexity",
+   "graphs-walks"
+  ],
+  "portrait": "portraits/teresa-piovesan.webp"
+ },
+ {
+  "name": "Daan Planken",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "quantum-protocols",
+   "post-quantum"
+  ],
+  "portrait": "portraits/daan-planken.webp"
+ },
+ {
+  "name": "Stefano Polla",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.667,
+   "algorithms-complexity": 0.333
+  },
+  "topics": [
+   "hamiltonians",
+   "chemistry-materials",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/stefano-polla.webp"
+ },
+ {
+  "name": "Poojith Umesh Rao",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2023–2025",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/poojith-umesh-rao.webp"
+ },
+ {
+  "name": "Mathys Rennela",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2018–2019",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/mathys-rennela.webp"
+ },
+ {
+  "name": "Ailsa Robertson",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 0.5,
+   "society": 0.5
+  },
+  "topics": [
+   "quantum-protocols",
+   "ethics-policy",
+   "post-quantum"
+  ],
+  "portrait": "portraits/ailsa-robertson.webp"
+ },
+ {
+  "name": "Arghavan Safavi-Naini",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.941,
+   "information-learning": 0.059
+  },
+  "topics": [
+   "trapped-ions",
+   "cold-atoms",
+   "many-body-gravity",
+   "near-term-algorithms",
+   "error-correction",
+   "symmetry-representation",
+   "sensing-interferometry",
+   "chemistry-materials",
+   "hamiltonians"
+  ],
+  "portrait": "portraits/arghavan-safavi-naini.webp"
+ },
+ {
+  "name": "Maria Sapova",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Christian Schaffner",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 0.826,
+   "society": 0.043,
+   "information-learning": 0.13
+  },
+  "topics": [
+   "post-quantum",
+   "quantum-protocols",
+   "channels-communication",
+   "ethics-policy",
+   "position-verification",
+   "query-algorithms"
+  ],
+  "portrait": "portraits/christian-schaffner.webp"
+ },
+ {
+  "name": "Vincent Schmeits",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "graphs-walks"
+  ],
+  "portrait": "portraits/vincent-schmeits.webp"
+ },
+ {
+  "name": "Daan Schoneveld",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Kareljan Schoutens",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.385,
+   "hardware-software": 0.462,
+   "algorithms-complexity": 0.154
+  },
+  "topics": [
+   "many-body-gravity",
+   "circuits-compilation",
+   "chemistry-materials",
+   "hamiltonians",
+   "cold-atoms",
+   "trapped-ions",
+   "query-algorithms",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/kareljan-schoutens.webp"
+ },
+ {
+  "name": "Florian Schreck",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "sensing-interferometry",
+   "many-body-gravity",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/florian-schreck.webp"
+ },
+ {
+  "name": "Hemant Sharma",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 0.667,
+   "information-learning": 0.333
+  },
+  "topics": [
+   "error-correction",
+   "circuits-compilation",
+   "graphs-walks",
+   "entanglement-resources"
+  ],
+  "portrait": "portraits/hemant-sharma.webp"
+ },
+ {
+  "name": "Yvonne Smit",
+  "role": "Support Team",
+  "alumni": true,
+  "years": "2020–2023",
+  "shares": {},
+  "topics": [],
+  "portrait": null
+ },
+ {
+  "name": "Artemis Song",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/artemis-song.webp"
+ },
+ {
+  "name": "Jana Sotáková",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2019–2024",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "post-quantum",
+   "graphs-walks"
+  ],
+  "portrait": "portraits/jana-sotakova.webp"
+ },
+ {
+  "name": "Florian Speelman",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 0.625,
+   "algorithms-complexity": 0.281,
+   "information-learning": 0.062,
+   "hardware-software": 0.031
+  },
+  "topics": [
+   "position-verification",
+   "complexity",
+   "quantum-protocols",
+   "circuits-compilation",
+   "symmetry-representation",
+   "error-correction",
+   "query-algorithms",
+   "post-quantum",
+   "near-term-algorithms",
+   "cold-atoms",
+   "graphs-walks",
+   "channels-communication"
+  ],
+  "portrait": "portraits/florian-speelman.webp"
+ },
+ {
+  "name": "Robert Spreeuw",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "trapped-ions",
+   "many-body-gravity",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/robert-spreeuw.webp"
+ },
+ {
+  "name": "Joppe Stokvis",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.5,
+   "algorithms-complexity": 0.5
+  },
+  "topics": [
+   "symmetry-representation",
+   "circuits-compilation",
+   "query-algorithms"
+  ],
+  "portrait": "portraits/joppe-stokvis.webp"
+ },
+ {
+  "name": "Matthew Sutcliffe",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "circuits-compilation",
+   "benchmarking"
+  ],
+  "portrait": "portraits/matthew-sutcliffe.webp"
+ },
+ {
+  "name": "Mehrdad Tahmasbi",
+  "role": "Postdocs",
+  "alumni": true,
+  "years": "2020–2022",
+  "shares": {
+   "information-learning": 0.667,
+   "cryptography": 0.333
+  },
+  "topics": [
+   "channels-communication",
+   "quantum-protocols"
+  ],
+  "portrait": "portraits/mehrdad-tahmasbi.webp"
+ },
+ {
+  "name": "Barbara Terhal",
+  "role": "Turing Chair",
+  "alumni": true,
+  "years": "2026",
+  "shares": {
+   "hardware-software": 0.167,
+   "algorithms-complexity": 0.833
+  },
+  "topics": [
+   "hamiltonians",
+   "near-term-algorithms",
+   "circuits-compilation",
+   "chemistry-materials",
+   "complexity"
+  ],
+  "portrait": "portraits/barbara-terhal.webp"
+ },
+ {
+  "name": "Salvatore Tirone",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.8,
+   "hardware-software": 0.2
+  },
+  "topics": [
+   "entanglement-resources",
+   "foundations-thermodynamics",
+   "state-learning",
+   "many-body-gravity",
+   "near-term-algorithms",
+   "channels-communication"
+  ],
+  "portrait": "portraits/salvatore-tirone.webp"
+ },
+ {
+  "name": "Quinten Marcus Tupker",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/quinten-marcus-tupker.webp"
+ },
+ {
+  "name": "Alexander Urech",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "cold-atoms",
+   "many-body-gravity",
+   "sensing-interferometry",
+   "near-term-algorithms"
+  ],
+  "portrait": "portraits/alexander-urech.webp"
+ },
+ {
+  "name": "Sebastian Verschoor",
+  "role": "Postdocs",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "cryptography": 1.0
+  },
+  "topics": [
+   "quantum-protocols",
+   "post-quantum"
+  ],
+  "portrait": "portraits/sebastian-verschoor.webp"
+ },
+ {
+  "name": "Luuk Visscher",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/luuk-visscher.webp"
+ },
+ {
+  "name": "Dyon van Vreumingen",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "algorithms-complexity": 0.5,
+   "hardware-software": 0.5
+  },
+  "topics": [
+   "hamiltonians",
+   "near-term-algorithms",
+   "chemistry-materials",
+   "learning-theory"
+  ],
+  "portrait": "portraits/dyon-van-vreumingen.webp"
+ },
+ {
+  "name": "Michael Walter",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.561,
+   "algorithms-complexity": 0.415,
+   "cryptography": 0.024
+  },
+  "topics": [
+   "tensors-invariant-theory",
+   "many-body-gravity",
+   "symmetry-representation",
+   "state-learning",
+   "entanglement-resources",
+   "channels-communication",
+   "complexity",
+   "quantum-protocols",
+   "query-algorithms",
+   "benchmarking",
+   "optimisation-linear-algebra",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/michael-walter.webp"
+ },
+ {
+  "name": "Jordi Weggemans",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2021–2025",
+  "shares": {
+   "information-learning": 0.143,
+   "algorithms-complexity": 0.714,
+   "hardware-software": 0.143
+  },
+  "topics": [
+   "complexity",
+   "hamiltonians",
+   "near-term-algorithms",
+   "query-algorithms",
+   "state-learning",
+   "channels-communication",
+   "learning-theory",
+   "symmetry-representation",
+   "cold-atoms"
+  ],
+  "portrait": "portraits/jordi-weggemans.webp"
+ },
+ {
+  "name": "John van de Wetering",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "hardware-software": 1.0
+  },
+  "topics": [
+   "circuits-compilation",
+   "error-correction",
+   "benchmarking"
+  ],
+  "portrait": "portraits/john-van-de-wetering.webp"
+ },
+ {
+  "name": "Jasper van Wezel",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.2,
+   "hardware-software": 0.8
+  },
+  "topics": [
+   "error-correction",
+   "foundations-thermodynamics",
+   "entanglement-resources",
+   "philosophy",
+   "near-term-algorithms",
+   "hamiltonians",
+   "condensed-matter"
+  ],
+  "portrait": "portraits/jasper-van-wezel.webp"
+ },
+ {
+  "name": "Amal Whyte",
+  "role": "Support Team",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/amal-whyte.webp"
+ },
+ {
+  "name": "Freek Witteveen",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 0.524,
+   "algorithms-complexity": 0.286,
+   "hardware-software": 0.19
+  },
+  "topics": [
+   "many-body-gravity",
+   "hamiltonians",
+   "state-learning",
+   "symmetry-representation",
+   "entanglement-resources",
+   "complexity",
+   "circuits-compilation",
+   "chemistry-materials",
+   "cold-atoms",
+   "tensors-invariant-theory",
+   "trapped-ions"
+  ],
+  "portrait": "portraits/freek-witteveen.webp"
+ },
+ {
+  "name": "Ronald de Wolf",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 0.765,
+   "information-learning": 0.147,
+   "cryptography": 0.059,
+   "society": 0.029
+  },
+  "topics": [
+   "complexity",
+   "learning-theory",
+   "query-algorithms",
+   "optimisation-linear-algebra",
+   "channels-communication",
+   "state-learning",
+   "hamiltonians",
+   "post-quantum",
+   "benchmarking",
+   "quantum-protocols",
+   "entanglement-resources",
+   "tensors-invariant-theory",
+   "ethics-policy",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/ronald-de-wolf.webp"
+ },
+ {
+  "name": "Alberto Zorzato",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "information-learning": 1.0
+  },
+  "topics": [
+   "many-body-gravity",
+   "circuits-compilation"
+  ],
+  "portrait": "portraits/alberto-zorzato.webp"
+ },
+ {
+  "name": "Jeroen Zuiddam",
+  "role": "Senior Researchers",
+  "alumni": false,
+  "years": "",
+  "shares": {
+   "algorithms-complexity": 1.0
+  },
+  "topics": [
+   "tensors-invariant-theory",
+   "complexity",
+   "graphs-walks",
+   "channels-communication"
+  ],
+  "portrait": "portraits/jeroen-zuiddam.webp"
+ },
+ {
+  "name": "Sebastian Zur",
+  "role": "PhD Students",
+  "alumni": true,
+  "years": "2020–2025",
+  "shares": {
+   "algorithms-complexity": 0.8,
+   "cryptography": 0.2
+  },
+  "topics": [
+   "query-algorithms",
+   "post-quantum",
+   "chemistry-materials",
+   "complexity"
+  ],
+  "portrait": "portraits/sebastian-zur.webp"
+ },
+ {
+  "name": "Gabriëlle Zwaneveld",
+  "role": "PhD Students",
+  "alumni": false,
+  "years": "",
+  "shares": {},
+  "topics": [],
+  "portrait": "portraits/gabrielle-zwaneveld.webp"
+ }
+]

@@ -23,6 +23,7 @@
   <nav aria-label="Sections">
     <a href="#papers" data-view="papers">Papers</a>
     <a href="#research" data-view="research">Research</a>
+    <a href="#people" data-view="people">People</a>
     <a href="#print" data-view="print">Print</a>
   </nav>
 </header>
@@ -110,6 +111,32 @@
     <h2 class="section-title">Year by year</h2>
     <div class="numbers" id="numbers"></div>
     <p class="method" id="topics-method"></p>
+  </section>
+
+  <!-- People: research profiles, everyone with the same weight -->
+  <section id="view-people" class="view" aria-labelledby="people-title" hidden>
+    <div class="intro">
+      <h1 id="people-title">Who works on what</h1>
+      <p class="lede">The people of QuSoft and what they work on. The ring around each portrait shows how a person's papers spread over the five research lines: its share of the circle, not the number of papers.</p>
+      <p class="method-note">Research lines and topics are inferred with AI from the titles and abstracts of the papers on this site, so a profile can be off. People without papers here yet have a plain ring. Spotted a mistake? <a href="https://github.com/cschaffner/qusoft-arxiv/issues">Let us know</a>.</p>
+    </div>
+    <div class="people-controls">
+      <fieldset class="field toggle">
+        <legend class="field-label">Show</legend>
+        <label><input type="radio" name="whom" value="current" checked><span>Current members</span></label>
+        <label><input type="radio" name="whom" value="alumni"><span>Alumni</span></label>
+        <label><input type="radio" name="whom" value="all"><span>Everyone</span></label>
+      </fieldset>
+      <ul class="line-legend" id="people-legend"></ul>
+    </div>
+
+    <h2 class="section-title">Research profiles</h2>
+    <p class="section-note">Pick a face for that person's topics and papers.</p>
+    <ul class="profile-grid" id="profile-grid"></ul>
+
+    <h2 class="section-title">Who to talk to about&hellip;</h2>
+    <p class="section-note">Every topic with the people who have written about it, in alphabetical order. Someone working on several topics appears under each.</p>
+    <div id="talk-to"></div>
   </section>
 
   <!-- Print -->
