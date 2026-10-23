@@ -409,6 +409,8 @@
       toggle.textContent = open ? "Hide the table" : "Show as a table";
     };
 
+    renderTopicNetwork(tip);
+
     // Topics: per line, each topic with its papers per year on one shared scale.
     const perTopic = Object.fromEntries(Object.keys(topicById).map((t) => [t, count((p) => (p.topics || []).includes(t))]));
     const tmax = d3.max(Object.values(perTopic), (a) => d3.max(a)) || 1;
@@ -460,6 +462,153 @@
         .attr("text-anchor", "middle").text(top);
       return el("div", { class: "chart" }, el("h3", {}, el("span", { class: "swatch", style: `--c: ${lineColor(l.id)}` }), l.name), s.node());
     }));
+  }
+
+
+  // Topics as a network: circles sized by papers, links for papers shared between topics, with a year slider.
+  function renderTopicNetwork(tip) {
+    const svg = d3.select("#topic-net");
+    const box = svg.node().getBoundingClientRect();
+    const W = box.width || 800, H = box.height || 560;
+    svg.attr("viewBox", [0, 0, W, H]);
+    const tagged = papers.filter((p) => (p.topics || []).some((t) => topicById[t]));
+    const first = d3.min(tagged, (p) => +p.year), last = d3.max(tagged, (p) => +p.year);
+    const key = (a, b) => (a < b ? `${a}|${b}` : `${b}|${a}`);
+
+    // Running totals per year: papers per topic, and papers shared by each pair of topics.
+    const nodes = Object.values(topicById).map((t) => ({ ...t, short: t.short || t.name, byYear: {} }));
+    const byId = new Map(nodes.map((n) => [n.id, n]));
+    const pairs = new Map();
+    for (const p of tagged) {
+      const ts = [...new Set(p.topics.filter((t) => topicById[t]))];
+      for (const t of ts) byId.get(t).byYear[p.year] = (byId.get(t).byYear[p.year] || 0) + 1;
+      for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) {
+        const k = key(ts[i], ts[j]);
+        if (!pairs.has(k)) pairs.set(k, { source: ts[i], target: ts[j], byYear: {} });
+        pairs.get(k).byYear[p.year] = (pairs.get(k).byYear[p.year] || 0) + 1;
+      }
+    }
+    const upTo = (byYear, y) => Object.entries(byYear).reduce((s, [yr, n]) => s + (+yr <= y ? n : 0), 0);
+    const links = [...pairs.values()];
+    const maxN = d3.max(nodes, (n) => upTo(n.byYear, last)) || 1;
+    const maxL = d3.max(links, (l) => upTo(l.byYear, last)) || 1;
+    const rScale = d3.scaleSqrt().domain([0, maxN]).range([0, Math.max(26, Math.min(46, W / 18))]);
+    const wScale = d3.scaleLinear().domain([1, maxL]).range([1, 7]);
+
+    // Each research line pulls its topics towards its own spot around the centre.
+    const lines = taxonomy.lines;
+    const anchor = Object.fromEntries(lines.map((l, i) => {
+      const a = -Math.PI / 2 + (2 * Math.PI * i) / lines.length;
+      return [l.id, [W / 2 + Math.cos(a) * W * 0.24, H / 2 + Math.sin(a) * H * 0.26]];
+    }));
+    for (const n of nodes) { n.x = anchor[n.line][0] + (Math.random() - 0.5) * 40; n.y = anchor[n.line][1] + (Math.random() - 0.5) * 40; }
+
+    const edge = svg.append("g").attr("class", "tn-edges").selectAll("line").data(links).join("line").attr("class", "tn-edge");
+    const node = svg.append("g").selectAll("g").data(nodes).join("g").attr("class", "tn-node").attr("role", "button");
+    node.append("circle").attr("fill", (d) => lineColor(d.line));
+    node.append("text").attr("class", "tn-label").attr("text-anchor", "middle");
+
+    const sim = d3.forceSimulation(nodes)
+      .force("link", d3.forceLink().id((d) => d.id).distance(90).strength((l) => Math.min(0.5, 0.06 * l.n)))
+      .force("charge", d3.forceManyBody().strength(-160))
+      .force("collide", d3.forceCollide((d) => d.r + 6))
+      .force("x", d3.forceX((d) => anchor[d.line][0]).strength(0.08))
+      .force("y", d3.forceY((d) => anchor[d.line][1]).strength(0.08))
+      .stop();
+    const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+    // Names: biggest topics first; a name that would overlap one already placed is left out (it shows on hover).
+    const fontPx = W < 640 ? 10.5 : 12;
+    let pinned = new Set();
+    function placeLabels() {
+      const boxes = [];
+      for (const d of [...nodes].filter((n) => n.n).sort((a, b) => b.r - a.r)) {
+        const w = d.short.length * fontPx * 0.56, h = fontPx + 2;
+        d.dx = clamp(d.x, w / 2 + 2, W - w / 2 - 2) - d.x; // keep names inside the picture
+        const b = { x0: d.x + d.dx - w / 2, x1: d.x + d.dx + w / 2, y0: d.y + d.r + 3, y1: d.y + d.r + 3 + h };
+        const free = !boxes.some((o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0);
+        d.labelled = pinned.has(d.id) || (free && d.r >= (W < 640 ? 9 : 6));
+        if (d.labelled) boxes.push(b);
+      }
+      node.select("text").attr("x", (d) => d.dx || 0).text((d) => (d.labelled ? d.short : ""));
+    }
+    function draw() {
+      for (const d of nodes) { d.x = clamp(d.x, d.r + 4, W - d.r - 4); d.y = clamp(d.y, d.r + 4, H - d.r - 18); }
+      placeLabels();
+      edge.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
+      node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+    }
+    sim.on("tick", draw);
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    let year = last, focused = null, started = false;
+    function show(y) {
+      year = y;
+      for (const n of nodes) { n.n = upTo(n.byYear, y); n.r = n.n ? Math.max(4, rScale(n.n)) : 0; }
+      for (const l of links) l.n = upTo(l.byYear, y);
+      const live = links.filter((l) => l.n > 0);
+      node.attr("display", (d) => (d.n ? null : "none")).attr("tabindex", (d) => (d.n ? 0 : -1))
+        .attr("aria-label", (d) => `${d.name}: ${d.n} papers`);
+      node.select("circle").attr("r", (d) => d.r);
+      // Name every topic that is big enough; small ones get their name on hover.
+      node.select("text").attr("y", (d) => d.r + 3 + fontPx).style("font-size", `${fontPx}px`);
+      edge.attr("display", (d) => (d.n ? null : "none")).attr("stroke-width", (d) => wScale(Math.max(1, d.n)));
+      sim.force("link").links(live);
+      sim.force("collide").radius((d) => d.r + 6);
+      if (still) { sim.alpha(1); for (let i = 0; i < 300; i++) sim.tick(); draw(); }
+      else sim.alpha(started ? 0.4 : 1).restart();
+      started = true;
+      const shown = nodes.filter((n) => n.n).length;
+      const total = tagged.filter((p) => +p.year <= y).length;
+      $("#topic-year-out").textContent = y;
+      $("#topic-count").textContent = `${y === last ? "All" : `Up to ${y}:`} ${total} papers on ${shown} topics, ` +
+        `with ${live.length} pairs of topics sharing papers.`;
+      if (focused) (focused.n ? focus(focused) : clear());
+    }
+    function neighbours(d) {
+      return links.filter((l) => l.n && (l.source.id === d.id || l.target.id === d.id))
+        .map((l) => ({ t: l.source.id === d.id ? l.target : l.source, n: l.n })).sort((a, b) => b.n - a.n);
+    }
+    function focus(d) {
+      focused = d;
+      const near = neighbours(d);
+      const ids = new Set([d.id, ...near.map((x) => x.t.id)]);
+      svg.classed("focused", true);
+      node.classed("on", (n) => ids.has(n.id));
+      pinned = ids;
+      placeLabels();
+      edge.classed("on", (l) => l.source.id === d.id || l.target.id === d.id);
+      $("#topic-net-caption").replaceChildren(
+        el("strong", {}, d.name), `, ${lineById[d.line].name.toLowerCase()}: ${d.n} papers${year === last ? "" : ` up to ${year}`}. `,
+        near.length ? `Shares papers with ${near.map((x) => `${x.t.name} (${x.n})`).join(", ")}. ` : "No shared papers yet. ",
+        el("a", { href: `#papers?topic=${d.id}` }, `See the papers on ${d.name.toLowerCase()}`));
+    }
+    function clear() {
+      focused = null;
+      svg.classed("focused", false); node.classed("on", false); edge.classed("on", false);
+      pinned = new Set();
+      placeLabels();
+      $("#topic-net-caption").textContent = "Pick a topic to see which topics it connects to.";
+    }
+    node.on("click", (e, d) => { e.stopPropagation(); focused === d ? clear() : focus(d); })
+      .on("keydown", (e, d) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); focus(d); } if (e.key === "Escape") clear(); })
+      .on("mousemove", (e, d) => tip.show(e, [el("strong", {}, d.name), el("br"), `${d.n} papers${year === last ? "" : ` up to ${year}`}`]))
+      .on("mouseleave", () => tip.hide());
+    edge.on("mousemove", (e, l) => tip.show(e, [el("strong", {}, `${l.source.name} and ${l.target.name}`), el("br"), `${l.n} shared papers`]))
+      .on("mouseleave", () => tip.hide());
+    svg.on("click", clear);
+
+    const slider = $("#topic-year"), play = $("#topic-play");
+    slider.min = first; slider.max = last; slider.value = last;
+    let timer = null;
+    const stop = () => { clearInterval(timer); timer = null; play.textContent = "Play"; };
+    slider.addEventListener("input", () => { stop(); show(+slider.value); });
+    play.addEventListener("click", () => {
+      if (timer) return stop();
+      if (year >= last) { slider.value = first; show(first); }
+      play.textContent = "Pause";
+      timer = setInterval(() => { if (year >= last) return stop(); slider.value = year + 1; show(year + 1); }, 1200);
+    });
+    show(last);
   }
 
   // ---------- numbers: year by year (group level only) ----------

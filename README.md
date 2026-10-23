@@ -4,7 +4,7 @@ Finds every arXiv paper by current and former QuSoft members that names QuSoft (
 
 The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
-- **Research**: what QuSoft works on, in five research lines with 27 topics inferred from the papers (`data/topics.json`): papers per line per year, papers per topic, and how many people publish in each line. Group-level only: no rankings or per-person counts.
+- **Research**: what QuSoft works on, in five research lines with 27 topics inferred from the papers (`data/topics.json`): papers per line per year, a network of how topics connect (with a year slider), papers per topic, and how many people publish in each line. Group-level only: no rankings or per-person counts.
 - **Print**: tick papers and download their annotated first pages as one PDF for the message board. Each page has portraits, highlighted affiliations and a QR code.
 
 ## How it updates

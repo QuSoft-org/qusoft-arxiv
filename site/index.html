@@ -83,6 +83,22 @@
       <div id="lines-table" hidden></div>
     </figure>
 
+    <h2 class="section-title">How topics connect</h2>
+    <p class="section-note">Each circle is a topic, sized by its papers up to the chosen year, in the colour of its research line. A line joins two topics that share papers, thicker when they share more. Pick a topic to see what it connects to.</p>
+    <figure class="topic-net-wrap">
+      <div class="timeline">
+        <button type="button" class="button secondary" id="topic-play" aria-controls="topic-net">Play</button>
+        <label class="timeline-slider">
+          <span class="visually-hidden">Show topics up to the year</span>
+          <input type="range" id="topic-year" step="1">
+        </label>
+        <output id="topic-year-out" for="topic-year"></output>
+        <p class="timeline-count" id="topic-count" aria-live="polite"></p>
+      </div>
+      <svg id="topic-net" role="img" aria-label="Network of research topics: circles sized by papers, lines for papers shared between topics"></svg>
+      <figcaption id="topic-net-caption">Pick a topic to see which topics it connects to.</figcaption>
+    </figure>
+
     <h2 class="section-title">Topics</h2>
     <p class="section-note">Papers per year on each topic, all on the same scale. A paper can have up to three topics. Pick a topic to see its papers.</p>
     <div id="topic-lines"></div>

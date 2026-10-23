@@ -9,36 +9,43 @@
     {
      "id": "query-algorithms",
      "name": "Query and time complexity of algorithms",
+     "short": "Query algorithms",
      "about": "Search, quantum walks for search, span programs and transducers, graph and string problems, amplitude amplification, subroutines; upper and lower bounds for specific problems."
     },
     {
      "id": "hamiltonians",
      "name": "Hamiltonians, ground states and simulation",
+     "short": "Hamiltonians",
      "about": "Ground-state preparation and energy estimation, guided local Hamiltonians, Hamiltonian simulation, quantum PCP and QMA questions about local Hamiltonians."
     },
     {
      "id": "optimisation-linear-algebra",
      "name": "Optimisation and linear algebra",
+     "short": "Optimisation",
      "about": "Quantum algorithms for SDPs, convex and gradient-based optimisation, eigenvectors, linear systems, matrix problems."
     },
     {
      "id": "learning-theory",
      "name": "Quantum learning theory",
+     "short": "Learning theory",
      "about": "Learning classical functions with quantum resources: PAC and exact learning, statistical queries, sample complexity, learning and circuit lower bounds."
     },
     {
      "id": "complexity",
      "name": "Complexity theory and lower bounds",
+     "short": "Complexity",
      "about": "Quantum and classical complexity classes, the polynomial method, completely bounded forms, communication complexity, fine-grained complexity, classical simulation limits, query lower-bound techniques."
     },
     {
      "id": "tensors-invariant-theory",
      "name": "Tensors and invariant theory",
+     "short": "Tensors",
      "about": "Tensor rank, matrix multiplication, asymptotic spectra, moment polytopes, scaling algorithms, non-commutative optimisation, Shannon capacity and Haemers bounds."
     },
     {
      "id": "graphs-walks",
      "name": "Graph theory and quantum walks",
+     "short": "Graphs and walks",
      "about": "Spectral and algebraic graph theory, perfect and peak state transfer, continuous- and discrete-time walks as mathematical objects, additive combinatorics."
     }
    ]
@@ -52,36 +59,43 @@
     {
      "id": "entanglement-resources",
      "name": "Entanglement and resource theories",
+     "short": "Entanglement",
      "about": "Entanglement distillation and cost, relative entropies, resource theories, catalysis, continuity of entropies, asymptotic rates."
     },
     {
      "id": "channels-communication",
      "name": "Channels and communication",
+     "short": "Communication",
      "about": "Channel capacities, communication with quantum resources, teleportation and networks as information-theoretic questions, non-locality and Bell inequalities."
     },
     {
      "id": "many-body-gravity",
      "name": "Many-body physics, holography and gravity",
+     "short": "Many-body and gravity",
      "about": "Entanglement in many-body systems, tensor networks, renormalisation, holography, quantum gravity, scars, field theory."
     },
     {
      "id": "foundations-thermodynamics",
      "name": "Foundations and thermodynamics",
+     "short": "Foundations",
      "about": "Quantum foundations, measurement theory, quasiprobabilities, general probabilistic theories, tests of quantum gravity, quantum thermodynamics and batteries."
     },
     {
      "id": "state-learning",
      "name": "Testing and learning quantum states",
+     "short": "Learning states",
      "about": "Property testing (stabilizer, product, Gaussian states), tomography, shadow tomography, learning Hamiltonians and channels, sample complexity."
     },
     {
      "id": "symmetry-representation",
      "name": "Symmetry and representation theory",
+     "short": "Symmetry",
      "about": "Schur-Weyl duality, port-based teleportation, cloning, purification, unitary designs, random unitaries, quantum Fourier transforms over groups."
     },
     {
      "id": "benchmarking",
      "name": "Benchmarking quantum hardware",
+     "short": "Benchmarking",
      "about": "Randomized benchmarking, characterising gates and noise, benchmark suites for devices."
     }
    ]
@@ -95,16 +109,19 @@
     {
      "id": "position-verification",
      "name": "Position verification and non-local computation",
+     "short": "Position verification",
      "about": "Quantum position verification, attacks on it, non-local quantum computation, related non-local games."
     },
     {
      "id": "quantum-protocols",
      "name": "Quantum cryptographic protocols",
+     "short": "Crypto protocols",
      "about": "QKD and device independence, oblivious transfer, multi-party computation, delegated and verifiable computation, uncloneable cryptography, quantum money and signatures of quantum states."
     },
     {
      "id": "post-quantum",
      "name": "Post-quantum and quantum-secure cryptography",
+     "short": "Post-quantum crypto",
      "about": "Security of classical cryptography against quantum attackers: QROM, Fiat-Shamir, hash functions and sponges, encryption notions, lattices, isogenies (CSIDH), attacks on schemes."
     }
    ]
@@ -118,41 +135,49 @@
     {
      "id": "trapped-ions",
      "name": "Trapped ions and ion-atom systems",
+     "short": "Trapped ions",
      "about": "Trapped-ion gates and simulation, optical tweezers for ions, ion-atom collisions and molecules."
     },
     {
      "id": "cold-atoms",
      "name": "Cold atoms and laser cooling",
+     "short": "Cold atoms",
      "about": "Strontium and other cold atoms, laser cooling, Bose-Einstein condensates, atomic clocks, optical tweezers for atoms, Rydberg atoms, polar molecules."
     },
     {
      "id": "sensing-interferometry",
      "name": "Sensing and atom interferometry",
+     "short": "Sensing",
      "about": "Atom interferometers, inertial sensors, metrology, displacement sensing."
     },
     {
      "id": "condensed-matter",
      "name": "Condensed matter experiments",
+     "short": "Condensed matter",
      "about": "Spectroscopy and transport in materials: superconductors, charge density waves, strange metals."
     },
     {
      "id": "error-correction",
      "name": "Error correction and fault tolerance",
+     "short": "Error correction",
      "about": "Codes, decoding, fault-tolerant state preparation, logical operations, thresholds."
     },
     {
      "id": "circuits-compilation",
      "name": "Circuits, compilation and ZX-calculus",
+     "short": "Compilation",
      "about": "Circuit synthesis and optimisation, rewrite rules, ZX-calculus, routing, catalytic and space-efficient circuits, classical simulation of circuits, programming languages and tools."
     },
     {
      "id": "chemistry-materials",
      "name": "Chemistry and materials",
+     "short": "Chemistry",
      "about": "Electronic structure on quantum computers, quantum chemistry methods, catalysis, multiscale modelling, materials."
     },
     {
      "id": "near-term-algorithms",
      "name": "Near-term and variational algorithms",
+     "short": "Near-term algorithms",
      "about": "Variational algorithms, QAOA, NISQ applications and resource estimates, quantum machine learning on near-term devices, industrial use cases."
     }
    ]
@@ -166,11 +191,13 @@
     {
      "id": "philosophy",
      "name": "Philosophy of physics and technology",
+     "short": "Philosophy",
      "about": "Interpretation, black holes and information, technological understanding, explanation."
     },
     {
      "id": "ethics-policy",
      "name": "Ethics, law and policy",
+     "short": "Ethics and policy",
      "about": "Responsible quantum technology, governance, regulation, security policy, societal impact."
     }
    ]

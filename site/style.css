@@ -375,6 +375,30 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
 .topics a { color: var(--slate); }
 .topics a:hover { color: var(--red); }
 
+/* Topic network with a year slider */
+.topic-net-wrap { margin: 0 0 3.5rem; }
+.timeline { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; font-family: var(--sans); margin: 0 0 0.5rem; }
+.timeline .button { min-width: 5.5rem; }
+.timeline-slider { flex: 1 1 16rem; max-width: 32rem; display: flex; }
+.timeline-slider input { width: 100%; accent-color: var(--red); cursor: pointer; }
+#topic-year-out { font-size: var(--s2); font-weight: 600; color: var(--ink); min-width: 3em; }
+.timeline-count { flex-basis: 100%; margin: 0; font-size: var(--s-1); color: var(--slate); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+#topic-net { width: 100%; height: min(75vh, 44rem); display: block; touch-action: none; }
+.tn-edge { stroke: var(--slate); stroke-opacity: 0.22; stroke-linecap: round; }
+.tn-edge:hover { stroke-opacity: 0.6; }
+.tn-node { cursor: pointer; }
+.tn-node circle { stroke: var(--paper); stroke-width: 2; }
+.tn-label { font-family: var(--sans); font-size: 12px; fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; pointer-events: none; }
+#topic-net.focused .tn-node { opacity: 0.25; }
+#topic-net.focused .tn-node.on { opacity: 1; }
+#topic-net.focused .tn-edge { stroke-opacity: 0.05; }
+#topic-net.focused .tn-edge.on { stroke-opacity: 0.75; }
+.tn-node:focus-visible { outline: none; }
+.tn-node:focus-visible circle { stroke: var(--focus); stroke-width: 3; }
+.topic-net-wrap figcaption { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); min-height: 3em; max-width: var(--measure); }
+.topic-net-wrap figcaption strong { color: var(--ink); font-weight: 600; }
+
 /* ---- Numbers ---- */
 
 .section-title { font-size: var(--s3); font-weight: 500; margin: 0 0 1.5rem; border-top: 2px solid var(--ink); padding-top: 1.25rem; }

@@ -97,7 +97,7 @@ def build(papers, people):
     save_json(SITE / "data" / "stats.json", stats)
     if topics:
         taxonomy = {"lines": [{"id": l["id"], "name": l["name"], "about": l["about"], "slot": l["slot"],
-                               "topics": [{"id": t["id"], "name": t["name"], "about": t["about"]} for t in l["topics"]]}
+                               "topics": [{"id": t["id"], "name": t["name"], "short": t.get("short", t["name"]), "about": t["about"]} for t in l["topics"]]}
                               for l in topics["taxonomy"]["lines"]],
                     "method": topics.get("method", "")}
         save_json(SITE / "data" / "topics.json", taxonomy)
