@@ -27,8 +27,10 @@
   const formatDate = (iso) => dateFmt.format(new Date(iso + "T12:00:00"));
   const daysAgo = (iso) => (Date.now() - new Date(iso + "T12:00:00")) / 864e5;
   const today = () => new Date().toISOString().slice(0, 10);
-  // New on the site and also recent: older papers found later (other servers, rule changes) don't count as news.
-  const isFresh = (p, days) => daysAgo(p.added) <= days && daysAgo(p.date) <= 60;
+  // A paper is news only if the site found it soon after it appeared. Papers found later (the launch
+  // import, other servers, rule changes) keep their real date but don't count as new.
+  const foundWithin = (p, days) => daysAgo(p.date) - daysAgo(p.added) <= days;
+  const isFresh = (p, days) => daysAgo(p.added) <= days && foundWithin(p, 14);
 
   // LaTeX in titles and abstracts, typeset by MathJax once it has loaded (see index.html).
   const hasMath = (text) => /\$|\\\(/.test(text || "");
@@ -507,7 +509,7 @@
     const printed = new Set(saved.ids);
     const since = saved.last || new Date(Date.now() - 14 * 864e5).toISOString().slice(0, 10);
     const all = papers.filter((p) => p.page).sort((a, b) => b.date.localeCompare(a.date));
-    const unprinted = (p) => !printed.has(p.id) && p.added >= since && daysAgo(p.date) <= 60;
+    const unprinted = (p) => !printed.has(p.id) && p.added >= since && foundWithin(p, 30);
     const ticked = new Set(all.filter(unprinted).map((p) => p.id));
     let limit = Math.max(24, all.filter((p) => daysAgo(p.date) <= 90).length);
 
