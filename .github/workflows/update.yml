@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # "Run workflow" button on the Actions tab
   push:
     branches: [main]
-    paths: ["site/**", "people.csv"]
+    paths: ["site/**", "people.csv", "data/theses.json"]
 
 permissions:
   contents: write

@@ -24,6 +24,7 @@
     <a href="#papers" data-view="papers">Papers</a>
     <a href="#research" data-view="research">Research</a>
     <a href="#people" data-view="people">People</a>
+    <a href="#theses" data-view="theses">Theses</a>
     <a href="#print" data-view="print">Print</a>
   </nav>
 </header>
@@ -137,6 +138,29 @@
     <h2 class="section-title">Who to talk to about&hellip;</h2>
     <p class="section-note">Every topic with the people who have written about it, in alphabetical order. Someone working on several topics appears under each.</p>
     <div id="talk-to"></div>
+  </section>
+
+  <!-- Theses: the wall of PhD thesis covers -->
+  <section id="view-theses" class="view" aria-labelledby="theses-title" hidden>
+    <div class="intro">
+      <h1 id="theses-title">PhD theses written at QuSoft</h1>
+      <p class="lede" id="theses-lede">Loading theses…</p>
+      <p class="method-note">The plain-language versions are written with AI from the thesis abstracts and have not been checked by the authors. Missing a thesis? <a href="https://github.com/QuSoft-org/qusoft-arxiv/issues">Let us know</a>.</p>
+    </div>
+    <form class="filters thesis-filters" onsubmit="return false">
+      <fieldset class="field toggle">
+        <legend class="field-label">Abstract</legend>
+        <label><input type="radio" name="thesis-level" value="technical" checked><span>Technical</span></label>
+        <label><input type="radio" name="thesis-level" value="accessible"><span>Accessible</span></label>
+        <label><input type="radio" name="thesis-level" value="simple"><span>Simple English</span></label>
+      </fieldset>
+    </form>
+    <ol class="wall" id="thesis-wall" aria-label="Thesis covers, newest first"></ol>
+
+    <dialog class="thesis-dialog" id="thesis-dialog" aria-labelledby="thesis-dialog-title">
+      <div class="thesis-dialog-body" id="thesis-dialog-body"></div>
+      <form method="dialog"><button class="dialog-close" aria-label="Close" autofocus>×</button></form>
+    </dialog>
   </section>
 
   <!-- Print -->

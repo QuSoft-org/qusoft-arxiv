@@ -128,7 +128,7 @@
 
   // ---------- routing ----------
 
-  const views = ["papers", "research", "people", "print"];
+  const views = ["papers", "research", "people", "theses", "print"];
   const rendered = {};
 
   function route() {
@@ -143,6 +143,7 @@
     if (name === "papers") showPapers(params);
     if (name === "research" && !rendered.research) { renderResearch(); renderNumbers(); rendered.research = true; }
     if (name === "people" && !rendered.people) { renderPeople(); rendered.people = true; }
+    if (name === "theses") showTheses(params);
     if (name === "print" && !rendered.print) { renderPrint(); rendered.print = true; }
   }
 
@@ -314,6 +315,7 @@
       }));
       rendered.papers = true;
     }
+    document.querySelectorAll('input[name="level"]').forEach((r) => { r.checked = r.value === level; });
     filter.person = params.get("person") || "";
     filter.topic = params.get("topic") || "";
     filter.line = params.get("line") || "";
@@ -712,6 +714,129 @@
                        : el("span", { class: `talk-face initials${p.alumni ? " alum" : ""}` }, initials(p.name)))))
             : el("span", { class: "muted" }, whom === "current" ? "No current members yet." : "Nobody yet."));
       }))));
+  }
+
+  // ---------- theses: a wall of covers that turn over ----------
+
+  let theses = null;
+  const canHover = window.matchMedia("(hover: hover) and (pointer: fine)");
+  const paragraphs = (text) => (text || "").split(/\n\s*\n/).filter(Boolean);
+
+  // The text on the back of a cover, at the chosen level. Technical: the first paragraph.
+  function thesisBlurb(t) {
+    if (level !== "technical" && t.summary) return t.summary[level];
+    return paragraphs(t.abstract)[0] || "";
+  }
+
+  function authorHead(t, size) {
+    return t.portrait
+      ? el("img", { class: "thesis-head", src: t.portrait, alt: "", loading: "lazy", width: size, height: size })
+      : el("span", { class: "thesis-head initials", "aria-hidden": "true" }, initials(t.author));
+  }
+
+  function thesisCard(t) {
+    const style = `--back: ${t.back}`;
+    const front = t.cover
+      ? el("img", { class: "cover-img", src: t.cover, alt: "", loading: "lazy", width: 480, height: 679 })
+      : el("span", { class: "cover-plain", "aria-hidden": "true" },   // no cover image: a plain cloth binding
+          el("span", { class: "plain-title" }, t.title), el("span", { class: "plain-author" }, t.author));
+    const open = el("button", { type: "button", class: "thesis-open", "aria-haspopup": "dialog",
+      onclick: (e) => { e.stopPropagation(); openThesis(t); } }, t.title);
+    const card = el("article", { class: `thesis ink-${t.ink}`, style, "data-slug": t.slug },
+      el("div", { class: "thesis-inner" },
+        el("div", { class: "face front" }, front),
+        el("div", { class: "face back" },
+          el("p", { class: "thesis-by" }, authorHead(t, 36), el("span", {}, t.author)),
+          el("h3", { class: "thesis-title" }, open),
+          el("p", { class: "thesis-year" }, String(t.year)),
+          el("p", { class: "thesis-blurb" }, latexText(thesisBlurb(t))),
+          el("span", { class: "thesis-more", "aria-hidden": "true" }, "Read more"))));
+    // With a mouse, hovering turns the cover and a click opens the thesis. On touch screens
+    // the first tap turns the cover over, the second opens it.
+    card.addEventListener("click", () => {
+      if (canHover.matches || card.classList.contains("turned")) openThesis(t);
+      else {
+        document.querySelectorAll(".thesis.turned").forEach((c) => c.classList.remove("turned"));
+        card.classList.add("turned");
+      }
+    });
+    return card;
+  }
+
+  function drawWall() {
+    const items = [];
+    let year = null;
+    for (const t of theses) {
+      if (t.year !== year) {
+        year = t.year;
+        // A spine for each year, read bottom to top like the books on a European shelf.
+        items.push(el("li", { class: "year-spine", "aria-hidden": "true" }, el("span", {}, String(year))));
+      }
+      items.push(el("li", { class: "wall-item" }, el("p", { class: "visually-hidden" }, String(t.year)), thesisCard(t)));
+    }
+    const wall = $("#thesis-wall");
+    untypeset(wall);
+    wall.replaceChildren(...items);
+    typeset(wall.querySelectorAll(".thesis-title, .thesis-blurb"));
+  }
+
+  function openThesis(t, fromRoute = false) {
+    const dlg = $("#thesis-dialog");
+    const abstract = level !== "technical" && t.summary
+      ? [el("p", {}, latexText(t.summary[level])),
+         el("p", { class: "ai-note" }, t.summary.checked ? "Plain-language summary, checked by the author."
+           : "Plain-language summary written with AI from the abstract; not checked by the author.")]
+      : paragraphs(t.abstract).map((para) => el("p", {}, latexText(para)));
+    const body = $("#thesis-dialog-body");
+    untypeset(body);
+    body.replaceChildren(
+      t.cover ? el("img", { class: "dialog-cover", src: t.cover, alt: `Cover of ${t.title}`, width: 480, height: 679 })
+              : el("div", { class: "dialog-cover cover-plain", style: `--back: ${t.back}` }, el("span", { class: "plain-title" }, t.title)),
+      el("div", { class: "dialog-text" },
+        el("p", { class: "thesis-by" }, authorHead(t, 44), el("span", {}, t.author)),
+        el("h2", { id: "thesis-dialog-title" }, latexText(t.title)),
+        el("p", { class: "dialog-meta" }, `PhD thesis, ${t.year}`,
+          t.supervisors.length ? `. Supervised by ${t.supervisors.join(", ")}` : ""),
+        el("div", { class: "dialog-abstract" }, abstract),
+        el("p", { class: "dialog-links" },
+          el("a", { href: t.link }, "Read the thesis"),
+          t.pdf ? el("a", { href: t.pdf }, "Download the PDF") : null,
+          el("a", { href: `#papers?person=${encodeURIComponent(t.author)}` }, `Papers with ${t.author}`))));
+    if (!dlg.open) dlg.showModal();
+    body.scrollTop = 0;
+    typeset(body.querySelectorAll("h2, .dialog-abstract p"));
+    if (!fromRoute) history.replaceState(null, "", `#theses?thesis=${t.slug}`);
+  }
+
+  async function showTheses(params) {
+    if (!theses) {
+      try { theses = await fetch("data/theses.json", { cache: "no-cache" }).then((r) => r.json()); }
+      catch (err) { $("#theses-lede").textContent = "The theses could not be loaded. Reload the page to try again."; return; }
+      const first = Math.min(...theses.map((t) => t.year));
+      $("#theses-lede").textContent = `Every PhD thesis written at QuSoft since ${first}, newest first: ${theses.length} so far. `
+        + (canHover.matches ? "Point at a cover to turn it over; click it to read more." : "Tap a cover to turn it over; tap again to read more.");
+      const levels = document.querySelectorAll('input[name="thesis-level"]');
+      levels.forEach((r) => { r.checked = r.value === level; });
+      levels.forEach((r) => r.addEventListener("change", (e) => {
+        level = e.target.value;   // the same preference as on the papers page
+        try { localStorage.setItem(LEVEL, level); } catch (err) { /* private mode: not remembered */ }
+        if (rendered.papers) renderList();
+        drawWall();
+      }));
+      const dlg = $("#thesis-dialog");
+      dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });   // click outside closes
+      dlg.addEventListener("close", () => {
+        const slug = new URLSearchParams(location.hash.split("?")[1] || "").get("thesis");
+        history.replaceState(null, "", "#theses");
+        document.querySelector(`.thesis[data-slug="${slug}"] .thesis-open`)?.focus({ preventScroll: true });
+      });
+      drawWall();
+    } else {
+      document.querySelectorAll('input[name="thesis-level"]').forEach((r) => { r.checked = r.value === level; });
+      drawWall();
+    }
+    const want = theses.find((t) => t.slug === params.get("thesis"));
+    if (want) openThesis(want, true);
   }
 
   // ---------- numbers: year by year (group level only) ----------

@@ -6,6 +6,7 @@ The site has three parts:
 - **Papers**: every paper, searchable. QuSoft authors are in bold with a small portrait (click one to see only their papers); alumni have a gold ring and their QuSoft years.
 - **Research**: what QuSoft works on, in five research lines with 27 topics inferred from the papers (`data/topics.json`): papers per line per year, a network of how topics connect (with a year slider), papers per topic, and how many people publish in each line. Group-level only: no rankings or per-person counts.
 - **People**: who works on what. Every QuSoft person with an equal-size ring showing how their papers spread over the research lines (shares, never counts; people without papers included), and every topic with the people who have written about it.
+- **Theses**: a wall of the covers of every PhD thesis written at QuSoft, newest first. Point at a cover (or tap it) to turn it over: the back cover, in the colour of the front, shows the author, title and abstract, technical or in plain language. Click for the whole abstract and links to the thesis.
 - **Print**: tick papers and download their annotated first pages as one PDF for the message board. Each page has portraits, highlighted affiliations and a QR code.
 
 ## How it updates
@@ -47,6 +48,18 @@ python scripts/excel_to_people_csv.py
 
 A portrait goes in `qusofters/portraits/` as `firstname_lastname.jpg`. `scripts/download_portraits.py` fetches missing ones from the people page on qusoft.org and lists people whose photo there has changed; `--update` replaces those. Then run `python scripts/update.py --redo-pages` (or push, and let the nightly run pick it up for new papers only).
 
+## Adding a PhD thesis
+
+The theses are listed in `data/theses.json`. To add one, give the author and the thesis's repository page (UvA-DARE, Leiden, ILLC and other repositories work):
+
+```bash
+python scripts/theses.py add "Name" https://dare.uva.nl/id/...
+python scripts/theses.py fetch       # title, year, supervisors, abstract, PDF and cover
+python scripts/theses.py list        # what is there, and what is missing
+```
+
+`python scripts/theses.py import` adds any thesis links from the private spreadsheet that aren't in the list yet. The cover is taken from the PDF (`site/covers/`); if it comes out wrong, set `cover_page` or `cover_crop` for that thesis, or `no_cover` when the PDF has no cover, and run `python scripts/theses.py covers --redo`. The plain-language versions go in the thesis's `summary`, like the papers' ones in `data/summaries.json`. Pushing the change rebuilds the site.
+
 ## Running locally
 
 ```bash
@@ -81,6 +94,7 @@ Settings such as portrait sizes, the QIP checkbox and search depth are in `confi
 | `people.csv` | QuSoft people searched for (public) |
 | `data/papers_database.json` | all QuSoft papers found |
 | `data/search_state.json` | per person: last search date and the query that finds them |
+| `data/theses.json` | PhD theses written at QuSoft, with plain-language abstracts |
 | `data/to_check.json` | papers on other servers waiting to be checked, and the ones decided |
 | `data/rejected_ids.json` | papers checked that don't name QuSoft |
 | `qusoft/` | shared code: search, first pages, site data |

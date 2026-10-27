@@ -137,7 +137,8 @@ main, .masthead, .footer {
   border-left: 1px solid var(--rule);
 }
 
-nav { display: flex; gap: 1.75rem; font-family: var(--sans); font-size: var(--s0); }
+nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.75rem; font-family: var(--sans); font-size: var(--s0); }
+@media (max-width: 480px) { nav { gap: 0.25rem 1.1rem; } }
 nav a { color: var(--slate); text-decoration: none; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
 nav a:hover { color: var(--ink); }
 nav a[aria-current="page"] { color: var(--ink); border-bottom-color: var(--red); }
@@ -518,6 +519,142 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
 .button.secondary { background: transparent; color: var(--ink); border-color: var(--rule); }
 .button.secondary:hover { border-color: var(--ink); background: transparent; }
 .button:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* ---- Theses: a wall of covers that turn over ---- */
+
+.thesis-filters { margin-bottom: 2rem; }
+.wall {
+  --cover-w: 14rem;
+  list-style: none; margin: 0 0 4rem; padding: 0;
+  display: flex; flex-wrap: wrap; align-items: stretch; gap: 1.75rem 1.25rem;
+}
+.wall-item { width: var(--cover-w); }
+
+/* A year divider shaped like a book spine; its year runs bottom to top. */
+.year-spine {
+  width: 2.2rem;
+  display: flex; align-items: flex-end; justify-content: center;
+  border-left: 1px solid var(--rule); border-right: 1px solid var(--rule);
+  padding: 0.6rem 0;
+}
+.year-spine span {
+  writing-mode: vertical-rl; transform: rotate(180deg);
+  font-size: var(--s2); line-height: 1; color: var(--slate);
+  font-variant-numeric: lining-nums; letter-spacing: 0.04em;
+}
+
+.thesis { position: relative; aspect-ratio: 480 / 679; perspective: 1400px; cursor: pointer; }
+.thesis-inner {
+  position: absolute; inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.3, 0.1, 0.2, 1);
+}
+.thesis.turned .thesis-inner,
+.thesis:focus-within .thesis-inner { transform: rotateY(180deg); }
+@media (hover: hover) and (pointer: fine) {
+  .thesis:hover .thesis-inner { transform: rotateY(180deg); }
+}
+.face {
+  position: absolute; inset: 0;
+  backface-visibility: hidden; -webkit-backface-visibility: hidden;
+  border-radius: 1px 3px 3px 1px;
+  overflow: hidden;
+  /* light from the top left: a soft contact shadow and a wider one below */
+  box-shadow: 1px 1px 1px rgba(20, 25, 30, 0.18), 4px 8px 18px -6px rgba(20, 25, 30, 0.35);
+}
+/* the hinge of a bound cover */
+.front::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(90deg, rgba(0,0,0,0.22) 0, rgba(255,255,255,0.18) 1.6%, rgba(0,0,0,0.06) 3.2%, transparent 6%);
+}
+.cover-img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.cover-plain {
+  display: flex; flex-direction: column; justify-content: space-between;
+  height: 100%; box-sizing: border-box; padding: 18% 12% 12%;
+  background: var(--back, #2e353c); color: #fff; text-align: center;
+}
+.plain-title { font-size: var(--s0); line-height: 1.25; text-wrap: balance; }
+.plain-author { font-family: var(--sans); font-size: var(--s-1); }
+
+.back {
+  transform: rotateY(180deg);
+  background: var(--back);
+  display: flex; flex-direction: column;
+  padding: 0.9rem 0.9rem 0.8rem 1rem; box-sizing: border-box;
+  font-family: var(--sans);
+}
+.ink-light .back { color: #fff; --soft: rgba(255,255,255,0.78); }
+.ink-dark .back { color: #22282e; --soft: rgba(34,40,46,0.78); }
+.thesis-by { display: flex; align-items: center; gap: 0.55rem; margin: 0 0 0.6rem; font-weight: 600; font-size: 0.85rem; line-height: 1.2; }
+.thesis-head { width: 2.25rem; height: 2.25rem; border-radius: 50%; object-fit: cover; flex: none; border: 2px solid var(--gold); box-sizing: border-box; }
+.thesis-head.initials { display: inline-grid; place-items: center; background: rgba(127,127,127,0.25); font-size: 0.8rem; }
+.thesis-title { font-family: var(--serif); font-weight: 500; font-size: 0.98rem; line-height: 1.25; margin: 0 0 0.2rem; text-wrap: pretty; }
+.thesis-open { all: unset; cursor: pointer; }
+.thesis-open:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.thesis-year { font-size: 0.75rem; color: var(--soft); margin: 0 0 0.55rem; font-variant-numeric: lining-nums; }
+.thesis-blurb {
+  flex: 1 1 auto; min-height: 0; overflow: hidden; margin: 0;
+  font-size: 0.76rem; line-height: 1.42;
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 2.2em), transparent);
+          mask-image: linear-gradient(180deg, #000 calc(100% - 2.2em), transparent);
+}
+.thesis-more { font-size: 0.75rem; font-weight: 600; margin-top: 0.35rem; text-decoration: underline; text-underline-offset: 0.2em; }
+
+@media (prefers-reduced-motion: reduce) {
+  /* no turning: the back fades in over the front */
+  .thesis-inner { transition: none; transform: none !important; }
+  .back { transform: none; opacity: 0; transition: opacity 0.2s; }
+  .thesis.turned .back, .thesis:focus-within .back { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) and (hover: hover) and (pointer: fine) {
+  .thesis:hover .back { opacity: 1; }
+}
+
+@media (max-width: 560px) {
+  .wall { --cover-w: calc(50% - 0.5rem); gap: 1.5rem 1rem; }
+  .year-spine { width: 100%; border: 0; border-bottom: 1px solid var(--rule); padding: 0 0 0.3rem; justify-content: flex-start; }
+  .year-spine span { writing-mode: horizontal-tb; transform: none; }
+  /* too small for the abstract: the back shows who and what, the dialog the rest */
+  .thesis-blurb { display: none; }
+  .back { justify-content: flex-start; padding: 0.7rem; }
+  .thesis-title { font-size: 0.9rem; }
+  .thesis-more { margin-top: auto; }
+}
+
+/* The opened thesis */
+.thesis-dialog {
+  width: min(58rem, calc(100vw - 2 * var(--gutter))); max-height: calc(100dvh - 2 * var(--gutter));
+  padding: 0; border: 0; border-radius: 4px;
+  background: var(--surface); color: var(--ink);
+  box-shadow: 0 20px 60px -20px rgba(0,0,0,0.45);
+}
+.thesis-dialog::backdrop { background: rgba(27, 32, 38, 0.6); }
+.thesis-dialog-body {
+  display: grid; grid-template-columns: minmax(0, 17rem) minmax(0, 1fr); gap: 2rem;
+  padding: 2rem; max-height: calc(100dvh - 2 * var(--gutter)); overflow: auto; box-sizing: border-box;
+}
+.dialog-cover { width: 100%; height: auto; display: block; box-shadow: 1px 1px 1px rgba(20,25,30,0.18), 4px 8px 18px -6px rgba(20,25,30,0.35); position: sticky; top: 0; }
+.dialog-cover.cover-plain { aspect-ratio: 480 / 679; height: auto; }
+.dialog-text { min-width: 0; }
+.dialog-text .thesis-by { font-family: var(--sans); font-size: var(--s0); }
+.dialog-text .thesis-head { width: 2.75rem; height: 2.75rem; }
+.dialog-text h2 { font-size: var(--s3); font-weight: 500; line-height: 1.15; margin: 0 2rem 0.5rem 0; text-wrap: balance; }
+.dialog-meta { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); margin: 0 0 1.25rem; }
+.dialog-abstract { max-width: var(--measure); }
+.dialog-abstract p { margin: 0 0 0.8rem; line-height: 1.6; }
+.dialog-abstract .ai-note { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); }
+.dialog-links { font-family: var(--sans); font-size: var(--s-1); display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 1.25rem 0 0; }
+.dialog-close {
+  position: absolute; top: 0.6rem; right: 0.6rem;
+  width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%;
+  background: transparent; color: var(--slate); font-size: 1.6rem; line-height: 1; cursor: pointer;
+}
+.dialog-close:hover { color: var(--ink); background: var(--paper); }
+@media (max-width: 640px) {
+  .thesis-dialog-body { grid-template-columns: 1fr; padding: 1.25rem; gap: 1.25rem; }
+  .dialog-cover { width: 9rem; position: static; }
+  .dialog-text h2 { font-size: var(--s2); }
+}
 
 /* ---- Footer ---- */
 

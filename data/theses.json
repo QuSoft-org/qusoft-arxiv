@@ -1,0 +1,774 @@
+[
+  {
+    "author": "Florian Speelman",
+    "url": "https://dare.uva.nl/id/cfaf412b-0ac5-4c53-9700-e5b604ecbbba",
+    "page": "https://dare.uva.nl/id/cfaf412b-0ac5-4c53-9700-e5b604ecbbba",
+    "title": "Position-based quantum cryptography and catalytic computation",
+    "year": 2016,
+    "pdf_url": "https://pure.uva.nl/ws/files/2806609/177919_Speelman_thesis_final_complete.pdf",
+    "supervisors": [
+      "H. Buhrman"
+    ],
+    "abstract": "In this thesis, we present several results along two different lines of research. The first part concerns the study of position-based quantum cryptography, a topic in quantum cryptography. By combining quantum mechanics with special relativity theory, new cryptographic tasks can be developed that use the causality constraints of relativity theory in a constructive way. Position-based cryptography is a type of cryptography that wants to use location as a credential, instead of (or in addition to) a secret key – for instance to create a protocol to send messages that can only be read at one specific location. In the second part we introduce a new notion of computation, catalytic computation, and study this new model within complexity theory. Catalytic computation is a computation that has a small amount of clean space available and is equipped with additional auxiliary space, with the caveat that the additional space is initially in an arbitrary, possibly incompressible, state and must be returned to this state when the computation is finished. The term ‘catalytic’ comes from chemistry, where it refers to a reactant which speeds up a chemical reaction but is not consumed – just like the extra space available to the computation. Show more",
+    "summary": {
+      "accessible": "This thesis studies two topics. The first is position-based cryptography: could where you are serve as your password, instead of a secret key? Combining quantum mechanics with the speed-of-light limit from relativity, the author studies when such schemes could be secure and how attackers working together could break them. The second is catalytic computation, a new model where a computer has a little free memory plus a large memory that is already full of data, which it may use but must restore exactly. The author shows mathematically that this borrowed memory can add surprising computing power.",
+      "simple": "This thesis has two parts. The first asks: can your location be your password? The idea uses quantum physics and the fact that nothing goes faster than light. The author studies when this is safe and how attackers could cheat. The second part is about a computer that borrows full memory and must give it back unchanged. Using maths, the author shows that this still helps.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Teresa Piovesan",
+    "url": "https://hdl.handle.net/11245/1.542487",
+    "page": "https://dare.uva.nl/id/a9de7939-ae5f-4f09-a3bc-9b56725b59b8",
+    "title": "Quantum entanglement: Insights via graph parameters and conic optimization",
+    "year": 2016,
+    "pdf_url": "https://pure.uva.nl/ws/files/2774923/177244_Piovesan_thesis_complete.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "M. Laurent"
+    ],
+    "abstract": "In this PhD thesis we study the effects of quantum entanglement, one of quantum mechanics most peculiar features, in nonlocal games and communication problems in zero-error information theory. A nonlocal game is a thought experiment in which two cooperating players, who are forbidden to communicate, want to perform a certain task. Zero-error information theory is the mathematical field that studies communication problems where no error is tolerated. The unifying link among the various scenarios we consider is their combinatorial nature and in particular their reformulations as graph theoretical problems, mainly concerning the chromatic and stability numbers and some quantum generalizations thereof. In this thesis we propose a novel approach to the study of these quantum graph parameters using the paradigm of conic optimization. For that, we introduce and study the completely positive semidefinite cone, a new matrix cone consisting of all symmetric matrices that admit a Gram representation by positive semidefinite matrices. Furthermore, we investigate whether entanglement allows for better-than-classical communication schemes in some well-known problems from zero-error information theory. For example we study the channel coding problem, which asks a sender to transmit data reliably to a receiver in the presence of noise, as well as some of its generalizations. Show more",
+    "summary": {
+      "accessible": "Entanglement creates correlations between quantum particles that no classical system can reproduce. This thesis asks when such correlations actually help: in cooperative games where players may not talk, and in sending messages over a noisy channel with zero chance of error. Both questions can be rephrased as problems about graphs, such as how many colours are needed to colour a network. The thesis studies quantum versions of these graph quantities using a mathematical framework called conic optimization, and introduces a new family of matrices to do so. The results are mathematical proofs.",
+      "simple": "Entanglement is a special link between quantum particles. Can it help people work together without talking? Can it help send messages with no mistakes at all? The author turns these questions into puzzles about networks of dots and lines. For example: how many colours do you need to colour the dots? Using maths, the author builds new tools to study the quantum versions of these puzzles.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Jeroen Zuiddam",
+    "url": "https://dare.uva.nl/id/9a8030e9-f708-4c95-9d50-f2a5919e75ed",
+    "page": "https://dare.uva.nl/id/9a8030e9-f708-4c95-9d50-f2a5919e75ed",
+    "title": "Algebraic complexity, asymptotic spectra and entanglement polytopes",
+    "year": 2018,
+    "pdf_url": "https://pure.uva.nl/ws/files/29154711/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "M. Christandl"
+    ],
+    "abstract": "Matrix rank is multiplicative under the Kronecker product, additive under the direct sum, normalised on identity matrices and non-increasing under multiplying from the left and from the right by any matrices. It is the only real matrix parameter with these properties. Strassen studied the tensor extension: find all maps from k-tensors to the reals that are multiplicative under the tensor Kronecker product, additive under the direct sum, normalised on \"identity tensors\", and non-increasing under acting with linear maps on the k tensor factors. These maps form the \"asymptotic spectrum of k-tensors\" and capture the asymptotic relations among tensors, including the asymptotic tensor rank. We give the first explicit construction of an infinite family of elements in the asymptotic spectrum of complex k-tensors, based on information theory and entanglement polytopes. Other results on tensors include an extension of the Coppersmith-Winograd method to higher-order tensors. In graph theory, as a new instantiation of the abstract theory of asymptotic spectra, we introduce the asymptotic spectrum of graphs, which captures the Shannon capacity, a graph parameter characterizing zero-error communication complexity. Examples of elements in the asymptotic spectrum of graphs are the Lovász theta number and the fractional Haemers bounds. Finally, we study algebraic branching programs, an algebraic model of computation. Ben-Or and Cleve proved that width-3 abps can compute any polynomial efficiently in the formula size, and Allender and Wang proved that some polynomials cannot be computed by any width-2 abp. We prove that any polynomial can be efficiently approximated by a width-2 abp. Show more",
+    "no_cover": true,
+    "summary": {
+      "accessible": "Tensors are multi-dimensional arrays of numbers, and how complex they are decides, for example, how fast matrices can be multiplied. A theory by Strassen describes this complexity through a set of special measurements called the asymptotic spectrum, but few of them were known. This thesis gives the first explicit infinite family of them, using ideas from quantum information and entanglement. It applies the same theory to graphs, where it captures how much information can be sent without any errors. It also shows that very simple algebraic programs can approximate any polynomial. The results are mathematical proofs.",
+      "simple": "Tensors are tables of numbers with many directions. Some are more complex than others. This decides, for example, how fast a computer can multiply big tables of numbers. Few good ways to measure this complexity were known. Using maths, the author finds a whole new family of such measures, with ideas from quantum physics. The same ideas help to study sending messages with no errors.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Srinivasan Arunachalam",
+    "url": "https://hdl.handle.net/11245.1/dbec2fe6-4eb3-4b4a-b758-bda4aa66798a",
+    "page": "https://dare.uva.nl/id/dbec2fe6-4eb3-4b4a-b758-bda4aa66798a",
+    "title": "Quantum algorithms and learning theory",
+    "year": 2018,
+    "pdf_url": "https://pure.uva.nl/ws/files/23484149/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf",
+      "H.M. Buhrman"
+    ],
+    "abstract": "This thesis studies strengths and weaknesses of quantum computers. In the first part we present three contributions to quantum algorithms. 1) consider a search space of N elements. One of these elements is \"marked\" and our goal is to find this. We describe a quantum algorithm to solve this problem using essentially sqrt{N} queries and other operations, improving over the gate count of Grover's algorithm. 2) We give a succinct characterization of quantum algorithms in terms of polynomials, and develop a new technique for showing upper and lower bounds on quantum query complexity based on this. 3) One generic technique used to compute the minimum of a given function is \"gradient descent\". We present a quantum gradient-calculation algorithm and a gradient-optimization algorithm that is quadratically faster than classical algorithms. In the second part of this thesis we look at quantum learning theory. 1) We survey quantum learning theory, describing the main results known for three models of learning, using classical as well as quantum data: exact learning from membership queries, the probably approximately correct (PAC) learning model, and the agnostic learning model. 2) We then consider if a quantum learner can PAC-learn a given concept class from fewer quantum examples. We give a negative answer by showing that quantum examples are not more powerful than classical random examples, both for PAC learning and for agnostic learning. Show more",
+    "summary": {
+      "accessible": "What can quantum computers do better than ordinary computers, and what can they not? This thesis looks at both sides. It gives quantum algorithms for searching a large collection for one marked item with fewer operations, and for finding the lowest point of a function quadratically faster than classical methods. It also develops a new way, based on polynomials, to prove limits on quantum algorithms. In machine learning, it proves that learning from quantum data is not more powerful than learning from classical random examples in two standard models. All results are mathematical proofs.",
+      "simple": "What can quantum computers do better than normal computers? And what can they not do better? The author studies both questions using maths. Some quantum methods are faster, for example for searching or for finding the lowest point of a curve. But for one kind of learning from examples, the author proves that quantum examples do not help: you need about as many as with normal examples.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Andras Gilyen",
+    "url": "https://hdl.handle.net/11245.1/20e9733e-6014-402d-afa9-20f3cc4a0568",
+    "page": "https://dare.uva.nl/id/20e9733e-6014-402d-afa9-20f3cc4a0568",
+    "title": "Quantum Singular Value Transformation & Its Algorithmic Applications",
+    "year": 2019,
+    "pdf_url": "https://pure.uva.nl/ws/files/35292358/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf"
+    ],
+    "abstract": "In this dissertation we study how efficiently quantum computers can solve various problems, and how large speedups can be achieved compared to classical computers. In particular we develop a generic quantum algorithmic framework that we call \"quantum singular value transformation\", capable of working with exponentially large matrices, that can apply polynomial transformations to the singular values of a block of a unitary. We show how quantum singular value transformation unifies a large number of prominent quantum algorithms, and show several problems where it leads to new quantum algorithms or improves earlier approaches. We develop an improved version of Jordan's quantum algorithm for gradient computation that can speed up the training of variational quantum optimization, and prove an essentially matching lower bound on quantum gradient computation. We also show that a quantum computer can very efficiently compute an approximate subgradient of a convex Lipschitz function. Combining this with some recent classical results we get improvements for black-box convex optimization problems. Then we take a new perspective on quantum SDP-solvers, introducing several new techniques, and improve on all prior quantum algorithms for SDP-solving. Finally we study the variable version of the Lovász Local Lemma (LLL) and its quantum generalization. We improve on the previous constructive quantum results by designing an algorithm that works efficiently for non-commuting terms as well, assuming that the system is \"uniformly\" gapped. For the variable version of the classical LLL we find optimal bounds for the \"guaranteed-to-be-feasible\" probabilities on cyclic dependency graphs. Show more",
+    "summary": {
+      "accessible": "Many quantum algorithms were invented separately, each with its own tricks. This thesis develops a single framework, called quantum singular value transformation, that lets a quantum computer reshape the numbers that describe very large matrices. Many well-known quantum algorithms turn out to be special cases of it, and it also leads to new or faster ones. The thesis further gives faster quantum methods for computing gradients and for certain optimization problems, and proves limits showing some of these speed-ups cannot be improved much. The results are mathematical proofs, not experiments.",
+      "simple": "Many quantum computer programs were invented one by one, each with its own trick. The author finds one general method that covers many of them. It works with huge tables of numbers, called matrices. With this method, old quantum programs become easier to understand, and some new, faster ones appear. Using maths, the author also proves how much faster some of these programs can and cannot be.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Sander Gribling",
+    "url": "https://doi.org/10.26116/center-lis-1925",
+    "page": "https://research.tilburguniversity.edu/en/publications/applications-of-optimization-to-factorization-ranks-and-quantum-i/",
+    "title": "Applications of optimization to factorization ranks and quantum information theory",
+    "year": 2019,
+    "pdf_url": "https://research.tilburguniversity.edu/files/31113709/Thesis_Sander_Gribling.pdf",
+    "abstract": "Optimization is a fundamental area in mathematics and computer science, with many real-world applications. In this thesis we study the efficiency with which we can solve certain optimization problems from two different perspectives. Firstly, we study it from the perspective of matrix factorization ranks, which comes with connections to quantum information theory. Secondly, we study it from the perspective of quantum computing. This thesis is accordingly divided into two parts, where we take these perspectives. In the first part of this thesis we study several matrix factorization ranks and their connections to quantum information theory. In Chapter 5, we first give a unified approach to lower bounding matrix factorization ranks, using polynomial optimization techniques. In Chapter 6, we exploit the connection between one particular factorization rank, the completely positive semidefinite rank, and quantum correlations to provide an explicit family of matrices with a large completely positive semidefinite factorization rank. In Chapter 8, we use the same connection to study quantum versions of classical graph parameters from the perspective of polynomial optimization (albeit in noncommutative variables). In Chapter 7 we propose and study a new measure for the amount of entanglement needed to realize quantum correlations. We can approximate this new measure using our approach to matrix factorization ranks, i.e., through polynomial optimization in noncommutative variables. In the second part of this thesis we turn our attention to the question: Can we solve optimization problems faster on a quantum computer? First, in Chapter 10, we look at the problem of evaluating a Boolean function. We give a new semidefinite programming characterization of the minimum number of quantum queries to the input that are needed to determine the corresponding function value. In Chapter 11 we revisit the semidefinite programming problem that plays a crucial role in the rest of the thesis; we provide a quantum algorithm for solving semidefinite programs. Finally, in Chapter 12, we study the general problem of solving convex optimization problems in the oracle model. We provide both upper and lower bounds on the efficiency of various reductions in the quantum setting. In particular, we show that quantum computers are more efficient than classical computers for the task of answering separation queries when access to the convex problem is given through membership queries.",
+    "summary": {
+      "accessible": "Optimization means finding the best solution among many options, and it is central to mathematics and computer science. This thesis studies it from two angles. First, it develops mathematical techniques to bound how many building blocks are needed to write a matrix as a product of simpler ones, and connects this to quantum correlations and the amount of entanglement they require. Second, it asks whether quantum computers can solve optimization problems faster, giving quantum algorithms and proving both speed-ups and limits for some problems. The results are mathematical proofs.",
+      "simple": "Optimization means finding the best choice among many options. The author studies it in two ways. First: how can you split a big table of numbers into simpler pieces? This question is linked to entanglement, a special quantum link between particles. Second: can quantum computers find the best choice faster? Using maths, the author proves that sometimes they can, and sometimes there are limits.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    },
+    "supervisors": [
+      "M. Laurent",
+      "R.M. de Wolf"
+    ]
+  },
+  {
+    "author": "Joran van Apeldoorn",
+    "url": "https://hdl.handle.net/11245.1/cf4a77ff-835c-4169-bd2c-3e983cfa83a9",
+    "page": "https://dare.uva.nl/id/cf4a77ff-835c-4169-bd2c-3e983cfa83a9",
+    "title": "A quantum view on convex optimization",
+    "year": 2020,
+    "pdf_url": "https://pure.uva.nl/ws/files/44224479/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf",
+      "M. Laurent"
+    ],
+    "abstract": "In this dissertation we consider quantum algorithms for convex optimization. We start by considering a black-box setting of convex optimization. In this setting we show that quantum computers require exponentially fewer queries to a membership oracle for a convex set in order to implement a separation oracle for that set. We do so by proving that Jordan's quantum gradient algorithm can also be applied to find sub-gradients of convex Lipschitz functions, even though these functions might not even be differentiable. As a corollary we get a quadraticly faster algorithm for convex optimization using membership queries. As a second set of results we give sub-linear time quantum algorithms for semidefinite optimization by speeding up the iterations of the Arora-Kale algorithm. For the problem of finding approximate Nash equilibria for zero-sum games we then give specific algorithms that improve the error-dependence and only depend on the sparsity of the game, not it's size. These last results yield improved algorithms for linear programming as a corollary. We also show several lower bounds in these settings, matching the upper bounds in most or all parameters. Show more",
+    "summary": {
+      "accessible": "Convex optimization is a broad class of problems, such as finding the lowest point of a bowl-shaped landscape, used everywhere from logistics to machine learning. This thesis asks how much quantum computers can speed it up. It proves that, in a setting where the problem can only be accessed by asking yes/no questions, a quantum computer needs far fewer questions for a key step. It also gives faster quantum algorithms for semidefinite and linear programs and for two-player zero-sum games, and proves lower bounds showing many of these results cannot be improved much.",
+      "simple": "Many real problems ask: what is the best choice? Often these problems have a nice shape, like a bowl, and you look for the lowest point. The author studies how quantum computers can solve such problems. Using maths, the author shows that quantum computers can be faster for several kinds of these problems. The author also proves limits: in many cases, you cannot do much better.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Koen Groenland",
+    "url": "https://dare.uva.nl/id/dc65f93d-9c45-4499-aea9-f36091b5735f",
+    "pdf_url": "https://pure.uva.nl/ws/files/43833415/Thesis.pdf",
+    "title": "Quantum protocols for few-qubit devices",
+    "year": 2020,
+    "abstract": "With the advent of scalable quantum information technology, accurate control of quantum systems is becoming increasingly important. We study theoretical control protocols tailored for near-term experiments. The main results can be grouped in two categories. Part II deals with the construction of multiqubit logic gates through resonant driving, whereas in Part III we focus on adiabatic transfer of quantum states. The preceding chapters in Part I contain preliminaries to these subjects.\n\nIn Part II, we consider multiqubit gates, such as the Toffoli$_N$. These are essential for most quantum algorithms, but turn out to be hard to perform on current quantum computer experiments in practice. As opposed to the standard approach of compiling larger unitaries into sequences of elementary gates that act on at most two qubits, we propose a continuously evolving Hamiltonian which implements highly selective multiqubit gates in a strongly-coupled many-body quantum system. We exploit the selectiveness of resonant driving to exchange only 2 out of $2^N$ eigenstates of some background Hamiltonian, leading to a unitary time evolution we call iSWAP$_{t_1,t_2}$. The basis in which these states are exchanged is the eigenbasis of the background Hamiltonian, and to make this operation relevant to the computational basis, we introduce the concept of eigengates, operations that map between the two bases.",
+    "summary": {
+      "accessible": "Quantum computers need operations that act on many qubits at once, but hardware usually builds them from long sequences of small steps on one or two qubits, and errors pile up. This thesis proposes instead to use the natural interactions in a chain or network of qubits, plus a carefully tuned driving signal, to perform such multi-qubit operations in one go. It also designs methods that slowly move a quantum state from one place to another through a network, extending known methods from simple chains to more general networks. The results are theory and simulations, aimed at small near-term devices.",
+      "simple": "Quantum computers often need steps that use many qubits at once. Today, such steps are built from many small steps, and errors add up. This thesis suggests a different way: use the way neighbouring qubits naturally act on each other, plus a well-tuned signal, to do the big step at once. The author also shows how to move quantum information slowly and safely across a network. The work uses maths and computer simulations.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    },
+    "page": "https://dare.uva.nl/id/dc65f93d-9c45-4499-aea9-f36091b5735f",
+    "supervisors": [
+      "H.M. Buhrman",
+      "C.J.M. Schoutens"
+    ]
+  },
+  {
+    "author": "Tom Bannink",
+    "url": "https://hdl.handle.net/11245.1/0c187569-8efb-4dfc-8a9d-4bfc0e9ddb52",
+    "page": "https://dare.uva.nl/id/0c187569-8efb-4dfc-8a9d-4bfc0e9ddb52",
+    "title": "Quantum and stochastic processes",
+    "year": 2020,
+    "pdf_url": "https://pure.uva.nl/ws/files/44255992/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "W.T.F. den Hollander"
+    ],
+    "abstract": "In this dissertation we present results for various quantum and stochastic processes. First, we bound separations between the entangled and classical values for several classes of nonlocal t-player games. We show that for many general classes of such games, the entangled winning probability can not be much higher than the classical one. The proofs use semidefinite-programming techniques and hypergraph norms. Next, we study so-called quasirandom properties of graphs, and extend this to the quantum realm. For a certain class of quantum channels we generalize several results on equivalence between different quasirandom properties, using the non-commutative Grothendieck inequality. We also look at methods for sampling random graphs with power-law degree distributions, using Markov Chain switching methods. Using these samples we present a conjecture on the asymptotic number of triangles in the uniform random graph model. Next we study a class of stochastic processes on graphs that include the discrete Bak-Sneppen process and the contact process. These processes exhibit a phenomenon which we call the Power Light Cone, that has been used in the physics community for a long time but had not yet been proven. We provide this proof, which allows for numerical computations that estimate critical exponents. Finally, we consider a quantum version of Pascal's triangle. When Pascal's triangle is plotted modulo 2, the Sierpinski triangle appears. We prove that when the quantum version of this triangle is plotted modulo 3, a fractal known as the Sierpinski carpet emerges. Show more",
+    "summary": {
+      "accessible": "This thesis studies a wide range of random and quantum processes using mathematical tools. It shows that in many cooperative games between several players, entanglement cannot raise the chance of winning by much. It extends ideas about how 'random-looking' a network is to quantum channels. It proves a property of certain random processes on networks that physicists had long assumed but not proven, which makes better computer estimates possible. And it shows that a quantum version of Pascal's triangle, drawn in a certain way, produces the Sierpinski carpet fractal.",
+      "simple": "This thesis is about processes where chance or quantum physics plays a role. Using maths, the author proves several results. In some team games, a quantum link between players does not help them win much more often. The author also proves a rule about random processes on networks that physicists used for years without proof. And a quantum version of a famous number triangle makes a beautiful pattern.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Joris Kattemölle",
+    "url": "https://hdl.handle.net/11245.1/40c56524-9c9a-4019-96b1-8b3d8c44c7ce",
+    "page": "https://dare.uva.nl/id/40c56524-9c9a-4019-96b1-8b3d8c44c7ce",
+    "title": "Many-body physics meets quantum computation",
+    "year": 2021,
+    "pdf_url": "https://pure.uva.nl/ws/files/61819155/Thesis.pdf",
+    "supervisors": [
+      "C.J.M. Schoutens"
+    ],
+    "abstract": "Quantum computers are built directly from units that follow the laws of quantum mechanics. This allows them to perform computational tasks that are intractable on classical computers. There is an intricate interplay between the fields of quantum computing and many-body physics. First of all, we may gain a better understanding of quantum many-body systems by simulating them on quantum computers. We contribute towards this goal by designing and testing an explicit method for the quantum simulation of the Heisenberg anti-ferromagnet on the kagome lattice. Conversely, as quantum computers are scaled up, they themselves become many-body systems. Hence, we may gain a better understanding of quantum computers by using analytical techniques from many-body physics. We do so by studying the system-size dependence of the decoherence rate in the single-reservoir pure dephasing model. We determine the conditions under which this dependence scales quadratically, rather than linearly with the number of qubits. This difference in system-size staling is especially important for quantum computers with many qubits. Additionally, we study the effects that perturbations of the register-bath interaction have on decoherence-free subspaces. We find that a linear response to these perturbations is not a property of decoherence-free subspaces but is in fact generic for any register subspace. We derive a concise formula for the quadratic, leading order response. This formula can be used to identify the situations where decoherence-free subspaces work well in practice. Show more",
+    "summary": {
+      "accessible": "Quantum computers and materials made of many interacting particles have a lot in common. This thesis works in both directions. It designs and tests, in simulation, a method to study a hard-to-understand magnetic material on a quantum computer. In the other direction, it uses physics of many particles to understand how quantum computers lose their information to their surroundings. It finds when errors grow with the square of the number of qubits rather than proportionally, which matters for large machines, and studies when special error-protected parts of a quantum computer work well in practice.",
+      "simple": "A quantum computer is made of many small quantum parts. Materials, like magnets, are also made of many quantum parts. The author uses each to learn about the other. First, the author designs a way to study a hard kind of magnet with a quantum computer. Second, the author studies how quantum computers lose information to their surroundings, and how this gets worse as they grow bigger.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Yfke Dulek",
+    "url": "https://hdl.handle.net/11245.1/9dc13d0d-95d5-403b-b4eb-b496956fec41",
+    "page": "https://dare.uva.nl/id/9dc13d0d-95d5-403b-b4eb-b496956fec41",
+    "title": "Delegated and distributed quantum computation",
+    "year": 2021,
+    "pdf_url": "https://pure.uva.nl/ws/files/53763481/Thesis.pdf",
+    "supervisors": [
+      "C. Schaffner",
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC dissertation series, DS-2021-01",
+    "abstract": "This dissertation explores the possibilities and impossibilities of securely delegating and distributing quantum computations. We construct explicit protocols for several quantum-cryptographic primitives (quantum message authentication, multi-party quantum computation, and verifiable quantum homomorphic encryption), but show that one other primitive is impossible to achieve in general (quantum virtual black-box obfuscation). For the primitives that we do realize, we often need to make assumptions on the computational power of the adversary's quantum computer. Such computational assumptions are necessary because the variants of the primitives that we wish to achieve are impossible information-theoretically. Nonetheless, our protocols are information-theoretic upgrades from their classical variants: the only computational assumptions are those that are already required to achieve the classical primitives. The advantage of this approach is that advances in classical and post-quantum cryptography directly influence our protocols as well. In all of the cryptographic primitives studied in this dissertation, verification plays a crucial role. Whether a client wants to check the outcome of a computation he delegated to an untrustworthy server, or whether a player in a multi-party protocol wants to monitor the honesty of the other players in the protocol, an honest party always needs some kind of mechanism to ensure that the dishonest parties are not deviating from the protocol without being noticed. Show more",
+    "summary": {
+      "accessible": "In the future, people may send quantum computations to a powerful remote quantum computer, or compute something together without trusting each other. How can this be done safely? This thesis builds protocols for several such tasks, such as checking that a quantum message was not changed, or verifying a computation done on encrypted data. It also proves that one goal, hiding how a quantum program works while still letting others run it, is impossible in general. A common thread is verification: honest parties must be able to detect cheating.",
+      "simple": "Imagine you ask someone else's quantum computer to do a calculation for you. How do you know they did it honestly, and did not read your secrets? The author designs safe ways to share quantum work like this, including ways to check the results. The author also proves that one kind of security goal is impossible. Checking for cheating is the key idea in all of the work.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Álvaro Piedrafita",
+    "url": "https://hdl.handle.net/11245.1/e3acb446-a42c-4a56-9f86-a4065463331f",
+    "page": "https://dare.uva.nl/id/e3acb446-a42c-4a56-9f86-a4065463331f",
+    "title": "On span programs and quantum algorithms",
+    "year": 2021,
+    "pdf_url": "https://pure.uva.nl/ws/files/64706648/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC dissertation series",
+    "abstract": "This dissertation is an in-depth discussion of the theory and applications of span programs. These objects, first introduced by Karchmer and Wigderson, encode 2-output functions and can be compiled into quantum query algorithms. Moreover, it was known before our work that the resulting span-program-based algorithms can be query and space optimal. Part I of this thesis contains the introduction and mathematical preliminaries. In Part II, we study the features and structure that are common to all - or at least large families - of span programs. First, we review two existing formulations of span programs before presenting a new formulation thatncontains and generalizes the previous two. Next, we present a plethora of quantum algorithms that can be compiled out of a span program, with special emphasis put on the flexibility of span programs for the purposes of algorithm design, an often-underappreciated feature. In Chapter 4 we study a correspondence between quantum query algorithms and span programs. We conclude that for a broad category of functions, an optimal time, query and space span-program-based algorithm always exists, which implies that all these flavours of optimality are simultaneously achievable. In Part III we use the st-connectivity span program to design quantum algorithms for graph connectivity and other related graph problems. We end the dissertation with a discussion of the st-connectivity problem as a boundary problem and a particular instance of the simplicial homology problem, and give span programs (and thus, quantum algorithms) for a few instances of this problem. Show more",
+    "summary": {
+      "accessible": "Span programs are a mathematical tool that can be turned automatically into quantum algorithms, and those algorithms can be very efficient. This thesis studies span programs in depth. It gives a new, more general way to write them down and shows how flexible they are for designing algorithms. It proves that for a broad class of problems, one span-program algorithm can be optimal in time, number of input look-ups and memory all at once. It then uses span programs to build quantum algorithms for questions about networks, such as whether two points are connected.",
+      "simple": "A span program is a maths tool. You can turn it into a quantum computer program in a fixed way. The author studies these tools in detail. Using maths, the author shows that for many problems, one program can be the best at speed and memory at the same time. The author also uses span programs to solve network questions, like: can you get from point A to point B?",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Farrokh Labib",
+    "url": "https://hdl.handle.net/11245.1/a115031e-f4f6-4f71-b69d-fdfba3e1865d",
+    "page": "https://dare.uva.nl/id/a115031e-f4f6-4f71-b69d-fdfba3e1865d",
+    "title": "Quasirandomness in quantum information theory",
+    "year": 2022,
+    "pdf_url": "https://pure.uva.nl/ws/files/66862928/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC dissertation series, DS-2022-03",
+    "abstract": "We study quasirandomness in several contexts in quantum information theory. Roughly speaking, an object is quasirandom if it shares properties with a random object. What these properties are, depends on the context. Consider, for example, uniformly random 3-regular graphs. They have the property that they are likely highly connected, while at the same time the number of edges is quite small (the graph is “sparse”). Highly connected refers to the property that, for example, a random walk on the graph mixes very rapidly: after a small number of steps, the position of the walker is close to uniformly random. So when an explicit 3-regular graph has this property as well, we say that it is quasirandom. Among other things, interesting objects whose quasirandomness we study in this dissertation are linear maps from matrices to matrices or complex-valued functions on a finite abelian group. These objects appear in quantum information theory in the form of quantum channels or the amplitudes of quantum states for example. For quantum channels, we study the equivalence of certain quasirandom properties: we generalize the theory of quasirandom graphs to quantum information theory showing that “expansion” and “uniformity” are equivalent for very symmetric quantum channels. For quantum states we consider the notion of rank, where you want to express a quantum state in terms of a minimal number of simpler states called stabilizer states, this is the stabilizer rank. In this case, random quantum states have “high” stabilizer rank and we want to know if an explicit quantum state, say the magic state, has high stabilizer rank. Here we shed light on this problem by looking at this problem from a different perspective, through the lens of higher-order Fourier analysis. Show more",
+    "summary": {
+      "accessible": "Some objects are 'quasirandom': they are built on purpose, yet behave like random ones. For example, a well-built network can be as well-connected as a random one. This thesis brings this idea to quantum information. For quantum channels, which describe how quantum states change, it shows that two quasirandom properties are equivalent for highly symmetric channels. For quantum states, it studies how many simple 'stabilizer' states are needed to build a given state, a question tied to how hard quantum computers are to simulate, using tools from higher-order Fourier analysis.",
+      "simple": "Some things are made by careful design, but still look random. Mathematicians call them quasirandom. The author studies this idea in quantum physics. One question is about quantum states, which describe a quantum system. How many simple building blocks do you need to make a certain state? Random states need many. The author uses new maths tools to study this question for special states.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Freek Witteveen",
+    "url": "https://eprints.illc.uva.nl/id/eprint/2305/",
+    "page": "https://eprints.illc.uva.nl/id/eprint/2305/",
+    "abstract": "In this dissertation we study the fascinating interaction between quantum information theory and many-body physics. Many-body physics broadly are physical systems which are made up of a large number of subsystems. While the laws and principles of quantum mechanics are well known and can be formulated in compact equations, understanding many-body physics and the emergent phenomena related to it gives rise to a whole new set of challenges. In this dissertation we contribute to this field by showing how in three different domains perspectives from quantum information theory and computation can be useful in the study of many-body physics.\n\nIn Part I we investigate quantum systems in one spatial dimension. We show that the ground state, the lowest energy state, of a class of free systems can be prepared efficiently on a quantum computer using a certain circuit structure. Free quantum systems can be simulated efficiently by classical computers; so the possibility of preparing such ground states on a quantum computer is well-known. However, we show that this is possible using a method which implements an important physical principle: real-space renormalization. This method is known as entanglement renormalization. There is an associated tensor network ansatz, the multiscale entanglement renormalization ansatz (MERA). We show that entanglement renormalization in free systems is closely related to the theory of wavelets. Wavelets allow a decomposition of functions into a basis set of functions, similar to Fourier analysis. However, in the case of wavelets, the basis functions are not plane waves but localized ‘wave packets’. Quantization of appropriately chosen wavelets yields an entanglement renormalization scheme. We explain how to find such wavelets, and we show that if one has wavelets with the right properties one can obtain accurate MERA approximation. We show that this has a natural continuum limit, which is related to free quantum field theories.\n\nIn Part II we study a different aspect of many-body quantum mechanics. Whereas in the first part we focussed on finding ground states, here we are interested in the dynamics of one-dimensional quantum systems. This means that we have a system with a state changing over time. Closed systems have unitary time evolution. Moreover, in physical systems with local interactions, one finds that time evolution also conserves a certain amount of locality. Based on these two general principles we dynamics which consist of a single time step which are both unitary and (approximately) locality preserving, which we call approximately locality preserving unitary (ALPU). If one imposes strict locality this is known as a quantum cellular automaton. In one spatial dimension these have been classified by an index which measures an information flow. We show that this classification extends to approximately local dynamics, using tools from the theory of operator algebras. We prove that a one-dimensional ALPU can be connected by a continuous path of ALPUs to the identity if and only if the ALPU has no net information flow to the left or the right.\n\nFinally, Part III is inspired by the interaction between quantum information theory and gravity. Developing a theory of quantum gravity which can describe our universe is one the great outstanding challenges of theoretical physical. An important physical phenomenon where such a theory would be relevant are black holes. Based on general physical principles, it appears that black holes have an entropy (that is, a number of degrees of freedom) corresponding to their area. This has lead to the development of holographic quantum gravity, where a d + 1-dimensional gravitational theory is dual to a d -dimensional non-gravitational quantum theory, which lives on the boundary of the gravitational spacetime. We study a simple toy model for this phenomenon: while it is certainly not describing a theory of quantum gravity, it shows in a surprisingly accurate way certain mechanisms which are crucial in holographic gravity. The model is a tensor network model where we choose uniformly random tensors. We generalize this model by adapting the usual PEPS model to use different link states and we deduce properties of the entanglement spectrum. These results closely mirror conjectured properties of holographic systems.",
+    "title": "Quantum information theory and many-body physics",
+    "year": 2022,
+    "pdf_url": "https://eprints.illc.uva.nl/id/eprint/2305/1/DS-2022-07.text.pdf",
+    "no_cover": true,
+    "summary": {
+      "accessible": "Systems made of very many quantum particles show behaviour that is hard to predict from the basic equations alone. This thesis shows how ideas from quantum information help in three areas. It links a method for preparing low-energy states on a quantum computer to wavelets, a mathematical tool for analysing signals at different scales. It classifies one-dimensional dynamics that keep information roughly local, by how much information flows left or right. And it studies random tensor networks, a toy model that mimics features of theories of quantum gravity. The results are mathematical proofs.",
+      "simple": "Some systems are made of very many small quantum parts. They are hard to understand. This thesis uses ideas from quantum information to study them. Using maths, the author shows how to build the lowest-energy state of some systems on a quantum computer. The author also studies how information moves in a chain of particles. A last part studies a simple model linked to black holes.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    },
+    "supervisors": [
+      "E.M. Opdam",
+      "M. Walter"
+    ]
+  },
+  {
+    "author": "Jan Czajkowski",
+    "url": "https://hdl.handle.net/11245.1/42811548-373d-4a54-81b8-d7835e2aed85",
+    "page": "https://dare.uva.nl/id/42811548-373d-4a54-81b8-d7835e2aed85",
+    "title": "Post-quantum security of hash functions",
+    "year": 2022,
+    "pdf_url": "https://pure.uva.nl/ws/files/66792257/Thesis.pdf",
+    "supervisors": [
+      "C. Schaffner",
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC dissertation series, DS-2022-02",
+    "abstract": "The research covered in this thesis is dedicated to provable post-quantum security of hash functions. Post-quantum security provides security guarantees against quantum attackers. We focus on analyzing the sponge construction, a cryptographic construction used in the standardized hash function SHA3. Our main results are proving a number of quantum security statements. These include standard-model security: collision-resistance and collapsingness, and more idealized notions such as indistinguishability and indifferentiability from a random oracle. All these results concern quantum security of the classical cryptosystems. From a more high-level perspective we find new applications and generalize several important proof techniques in post-quantum cryptography. We use the polynomial method to prove quantum indistinguishability of the sponge construction. We also develop a framework for quantum game-playing proofs, using the recently introduced techniques of compressed random oracles and the One-way-To-Hiding lemma. To establish the usefulness of the new framework we also prove a number of quantum indifferentiability results for other cryptographic constructions. On the way to these results, though, we address an open problem concerning quantum indifferentiability. Namely, we disprove a conjecture that forms the basis of a no-go theorem for a version of quantum indifferentiability. Show more",
+    "summary": {
+      "accessible": "Hash functions turn any data into a short fingerprint and underpin digital signatures, passwords and much more. Once large quantum computers exist, attackers could use them too, so we need proof that today's hash functions stay secure. This thesis studies the sponge construction behind the SHA-3 standard and proves mathematically that it keeps several key security properties against quantum attackers. Along the way, it extends proof techniques for post-quantum cryptography and disproves a conjecture that had seemed to rule out one kind of quantum security proof.",
+      "simple": "A hash function makes a short fingerprint of any data. Computers use them everywhere to keep things safe. Future quantum computers could help attackers. Is the standard hash function SHA-3 still safe then? Using maths, the author proves that its basic design stays secure against attackers with quantum computers. The thesis also builds new proof tools that other researchers can use.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Arjan Cornelissen",
+    "url": "https://hdl.handle.net/11245.1/b92448b2-9c30-4624-8dee-9830ec271fd4",
+    "page": "https://dare.uva.nl/id/b92448b2-9c30-4624-8dee-9830ec271fd4",
+    "title": "Quantum multivariate estimation and span program algorithms",
+    "year": 2023,
+    "pdf_url": "https://pure.uva.nl/ws/files/110460991/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf"
+    ],
+    "series": "ILLC Dissertation series, DS-2023-02",
+    "abstract": "Over the past half century, the advent of the computer has increased our ability to perform computations tremendously. Consequently, we can now solve computational problems much more efficiently than ever before, the effects of which have revolutionized many aspects of society, ranging from how government keeps track of tax records, to how we use routing software to navigate to our destination. However, over the last decade it has become increasingly apparent that the development of conventional computational hardware is reaching its physical limits. In an attempt to overcome this barrier, new research areas have focused on rethinking the very physical principles based on which we perform computations. Quantum computing has emerged among the most promising of these new areas, and as such has experienced an explosive increase of interest over the past twenty years. Quantum computing loosely speaking encapsulates the idea of performing computations based on the principles of quantum mechanics, and as such describes a computational model that is fundamentally different from its conventional counterpart. The central question we address in this thesis is how powerful this new computational model is, i.e., we take computational problems and assess how efficiently they can be solved on a quantum computer. Oftentimes, we compare the obtained results to those in the conventional setting, to quantify the computational advantage that quantum computers provide us with on a theoretical level. Show more",
+    "summary": {
+      "accessible": "How much faster can a quantum computer solve a problem than an ordinary one? This thesis answers that question for concrete tasks. The first part gives quantum algorithms for estimation: finding averages of many quantities at once, learning an unknown quantum state, and computing partition functions, a key quantity in statistical physics. Matching limits show some of these algorithms cannot be improved. The second part develops span programs, a mathematical framework for designing quantum algorithms and proving their limits. All results are mathematical proofs, not experiments.",
+      "simple": "Quantum computers work in a very different way from normal computers. For which tasks are they faster? This thesis looks at tasks like estimating averages and learning about an unknown quantum state. Using maths, the author designs quantum methods for these tasks and proves how fast they are. Sometimes the author also proves that no method can do better. The thesis also improves a general tool for designing quantum methods.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Subhasree Patro",
+    "url": "https://hdl.handle.net/11245.1/fd099079-10c2-4872-9276-a213616a94f2",
+    "page": "https://dare.uva.nl/id/fd099079-10c2-4872-9276-a213616a94f2",
+    "title": "Quantum fine-grained complexity",
+    "year": 2023,
+    "pdf_url": "https://pure.uva.nl/ws/files/109882553/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "F. Speelman"
+    ],
+    "series": "ILLC Dissertation Series, DS-2023-01",
+    "abstract": "One of the major challenges in the field of complexity theory is the inability to prove unconditional time lower bounds, including for practical problems within the complexity class P. One way around this is the study of fine-grained complexity where we use special reductions to prove time-lower bounds for many diverse problems in P based on the conjectured hardness of some key problems. For example, computing the edit distance between two strings, a problem that has a practical interest in the comparing of DNA strings, has an algorithm that takes O(n^2) time. Using a fine-grained reduction it can be shown that faster algorithms for edit distance also imply a faster algorithm for the Boolean Satisfiability (SAT) problem (that is believed to not exist) - strong evidence that it will be very hard to solve the edit distance problem faster. Other than SAT, 3SUM and APSP are other such key problems that are very suitable to use as a basis for such reductions, since they are natural to describe and well-studied. The situation in the quantum regime is no better; almost all known lower bounds for quantum algorithms are defined in terms of query complexity, which doesn’t help much for problems for which the best-known algorithms take superlinear time. Therefore, employing fine-grained reductions in the quantum setting seems a natural way forward. However, translating the classical fine-grained reductions directly into the quantum regime is not always possible for various reasons. In this thesis, we present results in which we circumvent these challenges and prove quantum time lower bounds for some problems in BQP conditioned on the conjectured quantum hardness of SAT (and its variants), 3SUM and the APSP problem. Show more",
+    "summary": {
+      "accessible": "For many everyday computing problems, such as comparing two DNA strings, we know reasonably fast algorithms but cannot prove that faster ones do not exist. Fine-grained complexity offers a way out: it shows that a faster algorithm would also solve a famous hard problem faster, which is believed impossible. This thesis brings that approach to quantum computers. It proves quantum time limits for several problems, based on believed quantum hardness of well-studied problems such as satisfiability, 3SUM and shortest paths. These are conditional proofs: they hold if those hardness beliefs are true.",
+      "simple": "Some computer problems seem to need a lot of time. But it is very hard to prove that no faster method exists. One trick is to link problems: if one becomes fast, a famous hard problem becomes fast too. Experts believe that cannot happen. This thesis uses the same trick for quantum computers. Using maths, the author shows that several problems are likely hard even for quantum computers.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Xuanbo Feng",
+    "url": "https://hdl.handle.net/11245.1/1e99b149-f68b-4886-9bdb-6268ce579da9",
+    "page": "https://dare.uva.nl/id/1e99b149-f68b-4886-9bdb-6268ce579da9",
+    "title": "The colour of charge density wave order",
+    "year": 2023,
+    "pdf_url": "https://pure.uva.nl/ws/files/118884597/Thesis_complete_.pdf",
+    "supervisors": [
+      "E. van Heumen"
+    ],
+    "abstract": "Charge density wave (CDW) orders are ubiquitous in the transition metal dichalcogenide (TMD) system, where the CDW orders could be quite different even though the host materials have the same structure and symmetry. This thesis focuses on the CDW orders in two TMD materials, whose temperature evolutions of the electronic structures are obtained by infrared spectroscopy. 1T-VSe 2 hosts a weakly-coupled CDW phase. The rearrangement of the spectral weight is observed within the low energy range. The Drude response present at high temperature is suppressed during the CDW transition, while a new interband response appears around 100 meV. The spectral weight redistribution shows that part of the spectral weight is transferred to the collective excitation of the CDW order, which is also supported by the asymptotic behaviour of the optical functions. The IR-active collective mode of the CDW, the sliding mode, was rarely reported in TMD materials before. For comparison, 1T-TaS 2 - x Se x hosts strongly-coupled CDW orders with non-equilibrium features. Two doping levels x = 0.8 and 1.0 are investigated. We obtain the phase diagram of TaS 2 - x Se x containing an island of the meta-stable CDW phase induced by rapid cooling. Within this island, the optical response shows a bulk pseudogap of 200 meV. The stable commensurate CDW is obtained by heating from the meta-stable phase, where an optical gap of 100 meV is opened. Our data suggest that the formation of the meta-stable phase is accompanied by the appearance of charged defects as domain walls and the absence of long-range commensurability. Show more",
+    "summary": {
+      "accessible": "In some layered materials, electrons arrange themselves into a regular wave-like pattern of charge at low temperature, called a charge density wave. Materials with the same structure can form very different patterns, and why is not fully understood. This experimental thesis shines infrared light on two such materials and measures how their electronic behaviour changes with temperature. In one, the pattern forms gently and shows a rarely observed collective motion. In the other, rapid cooling creates a temporary, disordered state with an energy gap, which the data link to charged defects.",
+      "simple": "In some materials, electrons can form a regular pattern when it gets cold. Scientists call this a charge density wave. Why do similar materials form different patterns? In experiments, the author shines infrared light on two such materials at different temperatures. The light shows how the electrons behave. One material forms its pattern gently. In the other, cooling it very fast creates a strange, unstable state.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Harold Nieuwboer",
+    "url": "https://hdl.handle.net/11245.1/0c64f620-5420-4978-845a-f95987c18384",
+    "page": "https://dare.uva.nl/id/0c64f620-5420-4978-845a-f95987c18384",
+    "title": "Classical and quantum algorithms for scaling problems",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/151583055/Thesis.pdf",
+    "supervisors": [
+      "M. Walter",
+      "E.M. Opdam"
+    ],
+    "abstract": "This thesis is concerned with scaling problems, which have a plethora of connections to different areas of mathematics, physics and computer science. Although many structural aspects of these problems are understood by now, we only know how to solve them efficiently in special cases. We give new algorithms for non-commutative scaling problems with complexity guarantees that match the prior state of the art. To this end, we extend the well-known (self-concordance based) interior-point method (IPM) framework to Riemannian manifolds, motivated by its success in the commutative setting. Moreover, the IPM framework does not obviously suffer from the same obstructions to efficiency as previous methods. It also yields the first high-precision algorithms for other natural geometric problems in non-positive curvature. For the (commutative) problems of matrix scaling and balancing, we show that quantum algorithms can outperform the (already very efficient) state-of-the-art classical algorithms. Their time complexity can be sublinear in the input size; in certain parameter regimes they are also optimal, whereas in others we show no quantum speedup over the classical methods is possible. Along the way, we provide improvements over the long-standing state of the art for searching for all marked elements in a list, and computing the sum of a list of numbers. We identify a new application in the context of tensor networks for quantum many-body physics. We define a computable canonical form for uniform projected entangled pair states (as the solution to a scaling problem), circumventing previously known undecidability results. We also show, by characterizing the invariant polynomials, that the canonical form is determined by evaluating the tensor network contractions on networks of bounded size. Show more",
+    "summary": {
+      "accessible": "Scaling problems ask how to rescale the rows and columns of a matrix, or more general objects, until they are balanced. They show up in statistics, physics and computer science, yet efficient algorithms are known only in special cases. This thesis adapts interior-point methods, a powerful optimisation technique, to curved geometric spaces, giving new algorithms for the hardest versions. For the simplest version, matrix scaling, it proves that quantum algorithms can beat the best classical ones in some settings, and that in others no quantum speedup is possible. It also applies scaling to tensor networks used in quantum physics.",
+      "simple": "Imagine a table of numbers. Can you multiply each row and each column by some number so all row sums and column sums are equal? This is a scaling problem. Such problems appear in maths, physics and computer science. The author designs new methods to solve them. Using maths, the author proves that quantum computers can sometimes solve them faster, but sometimes not.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Jana Sotáková",
+    "url": "https://hdl.handle.net/11245.1/2fd0b79e-e86d-4839-87bf-c328d3aa5f3c",
+    "page": "https://dare.uva.nl/id/2fd0b79e-e86d-4839-87bf-c328d3aa5f3c",
+    "title": "Isogenies and cryptography",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/179141348/Thesis.pdf",
+    "supervisors": [
+      "C. Schaffner",
+      "S. Fehr"
+    ],
+    "series": "ILLC Dissertation series, DS-2024-06",
+    "abstract": "Cryptography is an essential tool for enabling privacy of electronic communication. However, many of the cryptographic protocols we use nowadays, would be insecure after the development of large-scale quantum computers. Therefore, the cryptographic community is preparing new protocols to replace the would-be broken ones. Protocols based on lattices are the most popular choices. Isogeny-based cryptography is another possible direction. This thesis focuses on studying isogenies of elliptic curves, and the graphs (collections of nodes connected by lines) constructed from them. Different constraints on the isogenies and elliptic curves allowed give isogeny graphs with different properties. This thesis studies some of the properties of the isogeny graphs, before delving more in depth into studying properties of one particular isogeny protocol, CSIDH. After studying the underlying mathematical assumptions, the focus turns to secure implementations. Properly implemented cryptographic protocols need to be implemented in such a way that the running time of the computation does not reveal information about the secrets, and even against malicious actors possibly forcing an error during the computation. This thesis contains two background chapters on the mathematical foundations of isogenies and the implementations of the cryptographic scheme CSIDH. The remaining four chapters are based on collaborations published as Arpin et al. (Experimental Mathematics), Castryck et al. (Crypto 2020), Banegas et al. (CHES 2021), and Banegas et al. (Eurocrypt 2023). Show more",
+    "summary": {
+      "accessible": "Much of today's encryption could be broken by a large quantum computer, so researchers are building replacements. One candidate family uses isogenies: special maps between elliptic curves, which can be pictured as graphs of points joined by lines. This thesis studies the mathematical structure of these isogeny graphs and the hardness assumptions behind one protocol, CSIDH. It then turns to safe implementation: making sure the running time leaks nothing about secret keys, and that attackers cannot learn secrets by forcing errors during the computation.",
+      "simple": "Large quantum computers could break much of today's encryption. So experts are building new kinds of encryption. One kind uses curves from maths, called elliptic curves, and special links between them. The author studies the maths behind one such method, called CSIDH. The thesis also shows how to program it safely, so that attackers cannot learn secrets from its timing or by causing errors.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Juan Diego Arias Espinoza",
+    "url": "https://dare.uva.nl/id/69c5e201-b2bb-4422-965b-8878c7ab93b6",
+    "page": "https://dare.uva.nl/id/69c5e201-b2bb-4422-965b-8878c7ab93b6",
+    "title": "Simulation and dynamics of entanglement and quantum information in strongly correlated systems",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/175498401/Thesis.pdf",
+    "supervisors": [
+      "R. Gerritsma",
+      "P.R. Corboz"
+    ],
+    "abstract": "Quantum information theory is the study of how information can be encoded, measured, and manipulated in quantum systems. A notable subfield of it is quantum computation which studies protocols and algorithms that use quantum systems to perform computations. Quantum information provides a powerful new perspective on the framework of quantum many body physics that looks beyond traditional quantities such as correlation and partition functions to describe systems. Concepts such as entanglement and complexity yield valuable new insights into many aspects of quantum systems such as their ground states properties, their phases and of course, their dynamical properties. Furthermore it has inspired very powerful methods, such as tensor networks, to study quantum systems. In this work I study dynamical processes of many body systems from a quantum information perspective and some practical applications in quantum computing and simulation, such as the realization of a Toffoli gate and tunable Ising Hamiltonian in trapped ion platforms. I use tensor network methods to study the relation between scrambling of information and non-locality in 1D systems and also explore the forefront of these methods to study dynamics in 2D systems, using what is known as Projected Entangled Pair States . Show more",
+    "summary": {
+      "accessible": "Systems of many interacting quantum particles are hard to describe, because the information needed grows enormously with their size. This thesis looks at such systems through the lens of quantum information. It proposes theoretical schemes for trapped-ion devices, chains of charged atoms held by electric fields, to perform a three-qubit Toffoli gate and to create interactions with tunable strength and range. Using tensor-network simulations, the author then studies how quickly information spreads and becomes hidden in one-dimensional systems, and shows such methods can follow the dynamics of two-dimensional systems.",
+      "simple": "Many quantum particles that act on each other are hard to study. This thesis does two things. First, the author designs plans for how devices made of trapped charged atoms could do useful quantum operations. These are designs on paper, not lab tests. Second, the author uses computer simulations to study how information spreads and gets mixed up in such systems over time.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Philip Verduyn Lunel",
+    "url": "https://hdl.handle.net/11245.1/99cf6f30-80bd-4bd6-b1ed-b0d1931f3a65",
+    "page": "https://dare.uva.nl/id/99cf6f30-80bd-4bd6-b1ed-b0d1931f3a65",
+    "title": "Quantum position verification",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/192852420/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "F. Speelman"
+    ],
+    "series": "ILLC Dissertation series, DS-2024-08",
+    "abstract": "In this thesis we explore position-based quantum cryptography zooming in on the task of position verification. In position verification, the idea is to use an individual's geographical location as a cryptographic credential. In practice, such protocols can authenticate that a message originated from a specific location or ensure that messages can only be read at a certain location. In a position-verification protocol, the limitations imposed by the speed of light, as described by special relativity, are used to verify that a party is at their claimed location. It has been shown that any QPV protocol can be broken by attackers that use an amount of entanglement exponential in the input size. However, from a practical point of view, not all is lost. We can still hope for QPV protocols that are secure in practice. This raises the problem of designing protocols that are secure in a practical setting. An important problem that arises is that of signal loss. Signal loss can be detrimental as it allows attackers to only answer on a subset of rounds. We investigate several questions related to the practical implementation of such protocols. We propose a new experimentally feasible protocol, which is fully loss-tolerant against attackers restricted to classical communication. Furthermore, we consider the role of allowing quantum communication with no pre-shared entanglement for attackers and show that this setting is strictly stronger than the classical one, indicating that allowing for quantum communication may break security. Conversely, we then show that any protocol secure against classical communication can be transformed into a protocol secure against quantum communication. Finally, we invert the picture, and consider the task of non-local quantum computation (NLQC), which corresponds to the operations of the attackers in a QPV protocol. We connect NLQC to the wider context of information-theoretic cryptography by relating it to a number of other cryptographic primitives. Show more",
+    "summary": {
+      "accessible": "Could your location serve as a password? Quantum position verification tries to confirm where someone is, using the fact that signals cannot travel faster than light. It is known that attackers sharing huge amounts of entanglement could break any such scheme, but that may be out of reach in practice. This thesis looks for schemes that are secure in realistic settings. It proposes a protocol that tolerates lost signals, studies how much quantum communication helps attackers, and connects these attacks to other areas of cryptography. The results are mathematical proofs and protocol designs.",
+      "simple": "Can you prove where you are? Some quantum methods try to do this. They use the fact that nothing travels faster than light. Strong attackers could in theory break all such methods, but they would need huge quantum resources. The author designs a method that still works when some signals get lost. Using maths, the author also studies what attackers can do with quantum messages.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Rene Allerstorfer",
+    "url": "https://hdl.handle.net/11245.1/45523b48-5c09-416f-86c7-f6bafa92b4df",
+    "page": "https://dare.uva.nl/id/45523b48-5c09-416f-86c7-f6bafa92b4df",
+    "title": "Position-based quantum cryptography",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/196068808/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC Dissertation series, DS-2024-09",
+    "abstract": "This thesis deals with position-based quantum cryptography (PBQC), a type of quantum cryptography. More concretely, we focus on the design and study of quantum position verification (QPV) protocols, which act as a building block for PBQC. We prioritise the development of QPV protocols that are loss-tolerant, error-robust, and feasible with current or near-future technology, concentrating on photon-based protocols and linear-optical equipment. We also theoretically study different attack settings on QPV in the context of state discrimination, dealing with the interplay between non-locality and interaction. We introduce a new QPV protocol based on the SWAP test and Hong-Ou-Mandel interference and study it in detail regarding attacks and practical feasibility. We further provide a solution to a major practical issue of QPV -- signal loss. A minor modification of the standard structure of QPV, namely introducing a small time delay and a commitment to play from the honest prover, allows us to provably make the transmission loss between the verifiers and the honest party irrelevant for security for a class of QPV protocols. Moreover, we generalise and study QPV protocols in the continuous-variable setting. Exploring theoretical aspects of QPV attacks, we focus on the difference between quantum and classical communication. We show new bounds on existing protocols, construct protocols that can be attacked with quantum communication but not locally, show a separation between quantum and classical communication attacks on QPV, and derive a necessary condition on the attack error based on the structure of the QPV input ensemble. Show more",
+    "summary": {
+      "accessible": "Position-based quantum cryptography aims to use a person's physical location as a credential, checked by timing quantum signals against the speed of light. This thesis focuses on making such position checks practical with light and current optical equipment. It proposes a new protocol based on comparing two photons, and shows that a small time delay plus a commitment from the honest party can make signal loss irrelevant for security, a major practical obstacle. It also proves new limits on attacks and shows that attackers who can send quantum messages can be stronger than those who cannot.",
+      "simple": "Can a location work like a password? Quantum position checks try to prove that someone is at a certain place. They send light signals and measure the time. Nothing travels faster than light, so cheaters can be caught. But real signals often get lost. The author designs methods that still work with lost signals and with today's equipment. Using maths, the author also studies how cheaters could attack.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Yanlin Chen",
+    "url": "https://hdl.handle.net/11245.1/0f325128-e0ff-45a4-bf0a-1f6243ceb4e5",
+    "page": "https://dare.uva.nl/id/0f325128-e0ff-45a4-bf0a-1f6243ceb4e5",
+    "title": "On quantum algorithms and limitations for convex optimization and lattice problems",
+    "year": 2024,
+    "pdf_url": "https://pure.uva.nl/ws/files/199690039/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf"
+    ],
+    "series": "ILLC Dissertation series, DS-2024-12",
+    "abstract": "Optimization is the process of selecting the best option from all possibilities, and problems related to finding the best option among many options are called optimization problems. A few examples of such problems are route picking, partial loading, crew scheduling, and portfolio optimization, and those problems naturally appear everywhere in society and in our daily lives. Most optimization problems could be solved by listing all possibilities and then searching for the best one, but we aim to find a systematic strategy (known as an algorithm) that finds the optimal solution in the least amount of time, as brute-force searching is often too time-consuming. That is, we would like to find optimal algorithms for finding optimal solutions. Quantum physics provides a more accurate explanation and prediction of nature in many cases than classical physics. Therefore, a quantum computer has the potential to be more powerful and useful than a classical one for solving optimization problems, though the extent of this advantage remains an active area of research. Moreover, designing algorithms for a quantum computer requires fundamentally different ideas and concepts than for a classical computer. In this thesis, we explore the uses of quantum computers in solving several fundamental optimization problems. We specifically consider solving linear regression, finding the top eigenvectors of a matrix, and finding the shortest nonzero vector of a lattice. More precisely, we provide near-optimal quantum algorithms that are asymptotically better than the best-possible classical algorithms for linear regression with $\\ell_1$-norm constraint (known as Lasso) and for approximating the top eigenvectors of a matrix. Our algorithms for finding the shortest nonzero vector of a lattice are asymptotically better than the best known classical algorithms. On the other hand, there are some problems for which no useful computational advantage is possible, even when we use quantum computers. This situation, however, can sometimes be beneficial if we do not want quantum computers to solve specific problems fast - say, problems relevant to post-quantum cryptography. In such a situation, we would like evidence demonstrating the difficulty of solving these problems on a quantum computer. To this end, we propose variants of Boolean satisfiability problems that are believed to not be more efficiently solvable on a quantum computer, and then via reductions use those (conjectured) quantum lower bounds to study the quantum limitations of several popular optimization problems like lattice problems, quantum strong simulation, and hitting set problems. Show more",
+    "summary": {
+      "accessible": "Optimisation means finding the best option among many, from planning routes to building investment portfolios. This thesis asks where quantum computers help. It gives quantum algorithms that are provably faster than any classical method for a form of linear regression called Lasso and for finding the most important directions in a matrix, plus faster algorithms for finding short vectors in lattices, a problem central to modern encryption. It also points to limits: based on new hardness assumptions, it gives evidence that some problems, including lattice problems used in post-quantum cryptography, stay hard for quantum computers.",
+      "simple": "Many problems ask for the best choice among many options. This is called optimisation. Can quantum computers find the best choice faster? The author designs quantum methods that are faster for some of these problems. Using maths, the author also gives reasons to believe that other problems stay hard, even for quantum computers. That is good news for new types of encryption, which rely on such hard problems.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Dmitry Grinko",
+    "url": "https://dare.uva.nl/id/d9e16c26-ef20-40c5-b847-53c13d1a8a1a",
+    "page": "https://dare.uva.nl/id/d9e16c26-ef20-40c5-b847-53c13d1a8a1a",
+    "title": "Mixed Schur–Weyl duality in quantum information",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/215788755/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman"
+    ],
+    "series": "ILLC Dissertation series, DS-2025-02",
+    "abstract": "This thesis explores the interplay between representation theory and quantum information. Specifically, we focus on mixed Schur–Weyl duality, which considers the action of the unitary group on mixed tensors. This setting naturally arises in quantum information tasks involving unitary-equivariant channels, such as port-based teleportation, quantum majority vote, and universal transposition of unitary operators. A key contribution of this thesis is an explicit derivation of the action of the generators of the partially transposed permutation matrix algebra—the commutant of the mixed unitary action—in the Gelfand–Tsetlin basis. As another key result of this thesis, we develop efficient quantum circuits for the mixed quantum Schur transform, a novel primitive in quantum information. The key ingredient of our construction is new efficient circuits for the dual Clebsch–Gordan transform of the unitary group. A significant application of our findings is the construction of efficient quantum algorithms for port-based teleportation, a variant of quantum teleportation that eliminates the need for corrective operations. Another application is a symmetry reduction of semidefinite optimisation problems with unitary equivariance symmetry. Finally, we study the extendibility of quantum states possessing unitary, mixed unitary, or orthogonal symmetry on the complete graph. We obtain analytically the exact maximum values for projections onto the maximally entangled state and the antisymmetric state for each of the three symmetry classes. This thesis demonstrates the usefulness of mixed Schur–Weyl duality in quantum information and computing. We expect that our tools will help address other problems in other areas of quantum information processing, such as communication, cryptography, and simulation. Show more",
+    "summary": {
+      "accessible": "Many quantum tasks have a built-in symmetry: they should work the same way whatever basis or rotation is used to describe the qubits. Representation theory, the mathematics of symmetry, is the natural tool for such tasks. This thesis develops one piece of that mathematics, called mixed Schur-Weyl duality, and turns it into efficient quantum circuits. A key application is port-based teleportation, a form of teleportation in which the receiver needs no correction step. Other results simplify certain optimisation problems and settle exact limits for states with these symmetries. The results are mathematical proofs and circuit constructions.",
+      "simple": "Many quantum tasks have symmetry. This means they should work the same way, however you turn the qubits. Mathematics has strong tools to study symmetry. The author develops one such tool and uses it to build efficient quantum circuits. One use is a special kind of quantum teleportation, where the receiver does not need to fix anything at the end. The results are mathematical proofs.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Dyon van Vreumingen",
+    "url": "https://hdl.handle.net/11245.1/2353583e-7ef4-4869-9824-c6e0c1b41c64",
+    "page": "https://dare.uva.nl/id/2353583e-7ef4-4869-9824-c6e0c1b41c64",
+    "title": "Strategies for adiabatic state preparation of quantum many-body systems",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/218682461/Thesis.pdf",
+    "supervisors": [
+      "C.J.M. Schoutens",
+      "L. Visscher"
+    ],
+    "abstract": "Quantum computers represent a relatively new and promising development in computing technology. One of the applications of quantum computers is modelling quantum many-body systems, which describe interactions between particles on atomic and subatomic scales. Such systems are highly complex and challenging to model with classical computers due to the vast number of possible states and entanglement of the particles. In this dissertation, we examine the extent to which quantum computers can accelerate the modelling of quantum many-body systems compared to classical computers. Specifically, this dissertation presents research on adiabatic state preparation: a quantum algorithmic technique that uses the adiabatic principle from quantum mechanics to approximate eigenstates. We describe three new techniques that fall within this category and, in certain cases, offer advantages over standard methods. First, we consider cases of ground state preparation for fermionic many-body systems, where standard direct interpolation between the initial and final hamiltonian is hindered by level crossings due to discrete symmetries. As an alternative to direct interpolation, we propose adiabatic paths in a higher-dimensional space, which break the relevant symmetries. Next, we present an adiabatic echo verification protocol which mitigates both coherent and incoherent errors, arising from non-adiabatic transitions and hardware noise, respectively. We show that the estimator bias of the observable is reduced when compared to standard adiabatic preparation, achieving up to a quadratic improvement. \\par Finally, we propose a general, fully gate-based and nonvariational quantum algorithm for counterdiabatic driving. We provide a rigorous quantum gate complexity upper bound in terms of the minimum gap $\\Delta$ around this eigenstate. We find that, in the worst case, the algorithm can be run with at most $\\tilde O(\\Delta^{-(3 + o(1))} \\epsilon^{-(1 + o(1))})$ quantum gates such that a target state fidelity of at least $1 - \\epsilon^2$ is achieved. In certain cases, the gap dependence can be improved to quadratic. Show more",
+    "summary": {
+      "accessible": "Simulating molecules and materials means finding special quantum states, such as the lowest-energy state, which classical computers struggle to describe. One quantum method, adiabatic state preparation, starts from an easy state and changes the system slowly enough that it stays on track. This thesis develops three improvements: a detour that avoids points where the slow change normally fails, an 'echo' check that reduces errors from imperfect hardware, and a gate-based version of a technique that keeps the system on track faster. The results combine mathematical bounds on cost with analysis of when they help.",
+      "simple": "Quantum computers may help us study molecules and materials. For this, they must first make a special quantum state. One way is to start from an easy state and change it very slowly. If it goes well, you end in the state you want. The author finds three new ways to make this work better: avoiding places where it fails, reducing errors, and going faster.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Emiel Koridon",
+    "url": "https://hdl.handle.net/1871.1/bdc8765d-73e6-4f44-b05d-92c0d61e917b",
+    "page": "https://research.vu.nl/en/publications/quantum-algorithms-for-electronic-structure-beyond-ground-state-e/",
+    "title": "Quantum algorithms for electronic structure beyond ground state energies",
+    "year": 2025,
+    "pdf_url": "https://research.vu.nl/files/404234832/onlineversion%20-%2067eab9b3e72ec.pdf",
+    "pdf_parts": [
+      "https://research.vu.nl/files/404234832/onlineversion%20-%2067eab9b3e72ec.pdf",
+      "https://research.vu.nl/files/404234836/inhoudsopgave%20-%2067eaba126b778.pdf",
+      "https://research.vu.nl/files/404234838/titlepage%20-%2067b492f83b0b5.pdf"
+    ],
+    "abstract": "Quantum chemistry models atoms and molecules using quantum mechanics, with the electronic structure problem at its core. This problem, which determines the energy and properties of electrons in a molecule, is exponentially hard to solve exactly on classical computers. To approximate solutions, effective models introduce layers of simplifications. However, these approximations can fail for strongly correlated systems, necessitating alternative approaches. Quantum computers, capable of processing quantum information natively, offer a promising path to simulate molecular systems beyond classical reach, with potential applications in catalysis, materials science, and photochemistry. Despite rapid advancements in quantum hardware, practical quantum computations remain challenging due to limited resources. This thesis optimizes quantum resource usage in computational chemistry, introducing novel embedding techniques and exploring applications beyond ground-state energies. Chapter 1 establishes the foundation by reviewing quantum chemistry methods, from Hartree-Fock and Density Functional Theory (DFT) to active space approaches. It also provides an introduction to quantum computing for chemistry, focusing on near-term algorithms. The following chapters present novel methods aimed at reducing quantum resource requirements and tackling problems classical methods struggle with. Chapter 2 introduces a technique to reduce the $\\lambda$-norm of the electronic structure Hamiltonian, a key measure of quantum resource demand. By transforming molecular orbitals, this method enhances sampling efficiency in Noisy Intermediate-Scale Quantum (NISQ) algorithms and reduces runtime in Fault-Tolerant Quantum Computing (FTQC). Localized orbitals outperform canonical ones, and an orbital-optimization scheme is proposed to minimize the $\\lambda$-norm. Benchmarks on hydrogen chains, FeMoco, and Ruthenium complexes demonstrate its effectiveness. Chapter 3 presents the FragPT2 framework for simulating large systems with multiple interacting fragments. This method embeds each fragment in the mean field of others and applies multi-reference perturbation theory to capture inter-fragment correlations such as dispersion and charge transfer efficiently. The approach reduces computational overhead and enables scalable simulations, as shown in applications to \\ce{N2} dimers, aromatic dimers, and butadiene. Chapter 4 focuses on photochemical systems, where multiple electronic states must be treated equally. The state-averaged orbital-optimized variational quantum eigensolver (SAOOVQE) is extended with analytical energy gradients and non-adiabatic couplings, enabling geometry optimizations and simulations of non-adiabatic dynamics on quantum hardware. This is demonstrated by locating the conical intersection in formaldimine, highlighting SAOOVQE’s potential for studying photoisomerization in biomolecules. Building on this, Chapter 5 develops a quantum algorithm to detect conical intersections, where the Born-Oppenheimer approximation breaks down. These intersections are characterized by a discrete Berry phase (0 or $\\pi$), representing their topological nature. The algorithm extracts this phase as a single bit of information, ensuring resilience to noise. Analytical proof and numerical validation using a toy molecular model illustrate its effectiveness for studying light-perception biochemistry and related photochemical processes. Finally, Chapter 6 explores machine learning density functionals trained on noisy quantum data. While DFT is computationally efficient, its accuracy depends on approximated exchange-correlation functionals. This work proposes a neural network-based approach to learn the exact functional from quantum data, showing that training on noisy outputs from NISQ devices can mitigate sampling errors. Applications to the Fermi-Hubbard model and other systems demonstrate its potential to generalize and provide accurate results under noise. This thesis advances quantum computational chemistry by optimizing quantum resource usage, developing new embedding strategies, and expanding the scope of quantum simulations beyond ground-state properties. These contributions pave the way for practical quantum algorithms that could revolutionize molecular simulations in the near future.",
+    "summary": {
+      "accessible": "Predicting how molecules behave means solving equations for their electrons, which quickly becomes too hard for ordinary computers. Quantum computers may help, but early machines will be small and noisy. This thesis develops methods to use scarce quantum resources wisely: rewriting molecular problems so they need fewer measurements, splitting large molecules into interacting fragments, and going beyond the lowest energy to processes driven by light, such as those in vision. The methods are tested with numerical simulations on example molecules, and one approach also comes with a mathematical proof.",
+      "simple": "To understand a molecule, scientists must compute how its electrons behave. This is very hard for normal computers. Quantum computers may help, but they are still small and make errors. The author designs methods that need less from a quantum computer. Some help with big molecules. Others study what happens when light hits a molecule. The methods are tested with computer simulations.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    },
+    "supervisors": [
+      "L. Visscher",
+      "F. Buda"
+    ]
+  },
+  {
+    "author": "Garazi Muguruza Lasa",
+    "url": "https://hdl.handle.net/11245.1/67e8cbb2-3e33-487b-8bce-62a6ee591ab9",
+    "page": "https://dare.uva.nl/id/67e8cbb2-3e33-487b-8bce-62a6ee591ab9",
+    "title": "Resource requirements for quantum cryptography",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/257520446/Thesis.pdf",
+    "supervisors": [
+      "P. Grosso",
+      "C. Schaffner"
+    ],
+    "abstract": "In this thesis we explore communication between parties with access to quantum resources, such as channels, qudits, and computers. We start by studying types of quantum channels. In particular, we consider a scenario where the sender knows a classical description of the qudit they intend to send, and the receiver’s operations are restricted to classical ones. Our main result is that the accuracy of the transmission scales inverse exponentially with the number of pre-shared entangled qudits. We later look into possible extra properties of quantum channels by giving a protocol for authenticating a noisy channel. Moreover, we prove that our protocol requires access to poly-logarithmic fewer qubits than the previously known techniques. For the rest of the dissertation we look at what ideal quantum channels could be useful for. Our first result is a round-optimal quantum protocol for oblivious transfer which can be instantiated both in the plain and quantum random oracle models (by basically lifting the properties of an underlying zero-knowledge protocol), but we obtain round optimality in the quantum random oracle model only. The last chapters of this dissertation are an exploration of a particular set-up assumption, quantum pseudorandomness; i.e. assuming the existence of random (looking) quantum states. We first show that in contrast to the classical case, the size of a quantum pseudorandom object cannot be shrunk. Finally, we prove that if there is a promise problem that admits a quantum reduction that loses information about its input, then certain quantum pseudorandom primitives exit. Show more",
+    "summary": {
+      "accessible": "Quantum cryptography uses quantum effects to protect communication and computation. This thesis asks how many quantum resources such tasks need. It shows how well a quantum state can be sent when the receiver can only do classical operations, and gives a way to check a noisy quantum channel that needs fewer qubits than before. It also builds a protocol for oblivious transfer, a building block for secure computation, using the fewest possible rounds of messages. Finally, it studies quantum states that only look random, proving that they cannot be shrunk the way classical ones can. All results are mathematical proofs.",
+      "simple": "Quantum cryptography uses quantum physics to keep messages and computations safe. This thesis asks: how much quantum equipment do these tasks really need? Using maths, the author shows how to send quantum information well with simple tools. The author also designs a fast safe protocol between two people who do not trust each other. Finally, the thesis studies quantum states that only look random.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Jordi Weggemans",
+    "url": "https://hdl.handle.net/11245.1/90d52d99-6811-4460-8ddd-1358daf5725a",
+    "page": "https://dare.uva.nl/id/90d52d99-6811-4460-8ddd-1358daf5725a",
+    "title": "Quantum versus classical resources in computational complexity",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/262687217/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman"
+    ],
+    "series": "IILC Dissertation Series, DS-202X-NN",
+    "abstract": "This dissertation studies the interplay between quantum and classical computational resources through the lens of computational complexity theory. Part I considers low-energy states of quantum systems. We study the complexity of estimating ground- and excited-state energies of local Hamiltonians, given access to a guiding state promised to have non-negligible overlap with the relevant eigenspace. We formalise access models for such guiding states, examine their properties and relations, and study the problem for physically motivated Hamiltonians. We also study the task of obtaining approximate descriptions of ground states, given QMA-oracle access, in the setting of low-locality reduced density matrices. Part II focuses on quantum probabilistically checkable proof systems (QPCPs). We define a general class of QPCPs that allows adaptivity and multiple unentangled provers, and study its relationship to constant-gap local Hamiltonian problems via quantum reductions. Additionally, we investigate quantum–classical PCPs (QCPCPs), where a quantum verifier has either classical or quantum query access to a classical proof. Part III explores alternative complexity measures: unitary query complexity and sample complexity. For unitary query complexity, we develop a lower-bound technique based on unitary channel discrimination. In the context of sample complexity, we introduce and analyse a new sample-to-sample task, called complement sampling, and study the power of quantum computation with quantum samples over their classical counterparts. Show more",
+    "summary": {
+      "accessible": "Complexity theory asks which problems can be solved efficiently, and using which resources. This thesis compares quantum and classical resources in several such settings. One central problem is estimating the lowest energy of a quantum system, which is hard in general; the thesis studies how much an approximate 'hint' state helps. It examines quantum versions of proofs that can be checked by reading only a few parts, a question linked to whether low energies stay hard to estimate even roughly. It also introduces new tasks, such as complement sampling, where quantum samples give a clear advantage. All results are mathematical.",
+      "simple": "Some problems are easy for computers. Others are very hard. This thesis asks when quantum tools help and when normal tools are enough. One example is finding the lowest energy of a quantum system. This is hard in general. The author studies how much a good guess helps. Using maths, the author also studies quantum proofs and new tasks where quantum data clearly helps.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Llorenç Escolà-Farràs",
+    "url": "https://hdl.handle.net/11245.1/ef65ea72-0375-4f32-86e9-87417fb82ed6",
+    "page": "https://dare.uva.nl/id/ef65ea72-0375-4f32-86e9-87417fb82ed6",
+    "title": "On quantum position verification",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/247220576/Thesis.pdf",
+    "supervisors": [
+      "P. Grosso",
+      "C. Schaffner"
+    ],
+    "abstract": "This doctoral thesis explores quantum position verification (QPV)---a cryptographic task where one attempts to confirm someone’s geographical location. The core question that QPV aims to answer is: Are you truly at the location you claim to be? To achieve this, QPV combines two pillars of the fundamental laws of nature: (i) special relativity , which limits the speed at which information can travel to the speed of light in vacuum, and (ii) quantum mechanics , which governs the behavior of quantum particles in ways that defy intuition. QPV protocols rely on (i) timing communication between the entities involved in the protocol, and (ii) transmitting information encoded in quantum particles.\n\nHowever, quantum hackers may attempt to pretend to be at the claimed location while actually being elsewhere. This raises the critical question: Can one be certain that the claimed location is genuine and not forged by hackers?\n\nThis thesis presents new advances toward a fundamental understanding of QPV, its security against powerful quantum hackers, and the feasibility of secure QPV protocols despite experimental challenges that, if exploited by hackers, can severely compromise their security. Furthermore, related to attacks on QPV protocols, this thesis analyzes quantum correlations that emerge in broader cryptographic primitives.",
+    "summary": {
+      "accessible": "Can you prove where you are without just taking someone's word for it? Quantum position verification tries to do this by combining two facts of physics: nothing travels faster than light, and quantum information cannot simply be copied. Verifiers send quantum signals and time the replies. But a team of attackers at other places might work together to fake the answer. This thesis studies how secure such protocols are against powerful quantum attackers, and whether they can stay secure despite real-world problems like signal loss. It also studies the quantum correlations that such attacks rely on.",
+      "simple": "Can you prove where you are? Quantum position verification tries to do this. Checkers send quantum signals and measure how fast the answer comes back. Nothing is faster than light, so a quick answer must come from nearby. But cheaters in other places might work together to fake it. This thesis studies when such checks are safe, even with real-world problems like lost signals.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Niels Neumann",
+    "url": "https://hdl.handle.net/11245.1/8b878351-22bb-4fe9-bb5d-591a41d8a027",
+    "page": "https://dare.uva.nl/id/8b878351-22bb-4fe9-bb5d-591a41d8a027",
+    "title": "Adaptive quantum computers",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/230679270/Thesis.pdf",
+    "supervisors": [
+      "H.M. Buhrman",
+      "F. Philipson"
+    ],
+    "series": "IILC Dissertation Series",
+    "abstract": "Since the first concepts of computers emerged in the late 19th century, significant advances have been made. Lately, interest in so-called quantum computers is rising, due to their potential in solving specific problems significantly faster than current methods can. Future quantum computers will have to interact with a standard computer to operate effectively. Even though current quantum computers are still under development and have limited capabilities, the interaction with a standard computer can already enhance their functionality, particularly by offloading certain computations to the standard computer. Quantum computers that interact with standard computers to perform computations are called adaptive quantum computers. This work shows that adaptive quantum computers are more powerful than standard computers by showing that the former is better at retrieving information from corrupted digital data provided only a fixed number of computation steps is allowed. The proof uses a structure-versus-randomness approach from additive combinatorics that splits the problem in a structured and a random-like component and gives an explicit adaptive quantum circuit that retrieves the information. Additionally, this work shows that adaptive quantum computers are more efficient than non-adaptive quantum computers with respect to preparing specific quantum states. Specifically, this work gives explicit adaptive constructions for the uniform superposition state, the GHZ state, the W-state and the Dicke state. These states are often used in other quantum algorithms, so having efficient routines for preparing them also enhance the efficiency of other algorithms. This work concludes by comparing these adaptive quantum computations with non-adaptive ones, analyzing their performance both theoretically and through quantum hardware implementations. Show more",
+    "cover_crop": [
+      0.537,
+      0.267,
+      0.99,
+      0.734
+    ],
+    "summary": {
+      "accessible": "Today's quantum computers work together with ordinary computers. In an 'adaptive' quantum computer, some qubits are measured during the computation and an ordinary computer uses the results to choose the next steps. The thesis proves that such machines, limited to a fixed small number of steps, can recover information from corrupted data better than ordinary computers with the same limit. It also gives efficient adaptive recipes for preparing several quantum states that many algorithms use, and compares them with non-adaptive ones in theory and in runs on real quantum hardware.",
+      "simple": "Quantum computers often work together with normal computers. An 'adaptive' quantum computer checks some results during a computation. A normal computer then decides the next steps. Using maths, the author proves this helps: such machines can fix damaged data better than normal computers, when both get few steps. They can also make some useful quantum states faster. The author tests this on real quantum hardware.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Sebastian Zur",
+    "url": "https://hdl.handle.net/11245.1/606e2e81-4830-439d-afb4-d7d082936c7b",
+    "page": "https://dare.uva.nl/id/606e2e81-4830-439d-afb4-d7d082936c7b",
+    "title": "Multidimensional quantum walks and the multiplicative ladder adversary",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/230548533/Thesis.pdf",
+    "supervisors": [
+      "S.M. Jeffery",
+      "K. Guo"
+    ],
+    "abstract": "Quantum computing offers the potential to solve problems more efficiently than classical methods, yet understanding its capabilities requires new conceptual frameworks. This dissertation explores quantum algorithms with a focus on maintaining connections to classical intuition, clarifying both their strengths and limitations. In Part I, we explore the capabilities of a class of quantum algorithms known as quantum walks. These quantum walks, the quantum analogs of classical random walks, serve as powerful yet accessible tools for solving a variety of computational problems. Our key contribution is the development of a novel way to construct quantum walks, resulting in multidimensional quantum walks. By applying these walks to the $k$-distinctness problem, we achieve a time-efficient algorithm matching the best-known query upper bound up to polylogarithmic factors. Additionally, applying them to the welded tree problem results in exponential speedups, marking the first instance of a discrete quantum walk to do so. Furthermore, we extend the well-known link between quantum walks and electrical networks to the multidimensional quantum walks. In Part II, we turn to the limitations of quantum algorithms by examining techniques for establishing quantum query lower bounds, representing the minimum computational cost required for any quantum algorithm to solve a given computational problem, regardless of the quantum algorithm used. To this goal, we introduce the multiplicative ladder adversary method, a simplified version of the multiplicative adversary method which unifies the compressed oracle technique within the broader adversary framework while extending its applicability, offering a more intuitive approach to establishing quantum lower bounds. Show more",
+    "summary": {
+      "accessible": "This thesis studies what quantum algorithms can and cannot do. The first part studies quantum walks, the quantum version of random walks on a network, and introduces a new way to build them, called multidimensional quantum walks. These give a fast algorithm for spotting several repeated items in a list, and an exponentially faster way to find a path through a special maze-like graph, a first for discrete walks. The second part gives a simpler method to prove lower bounds: the minimum number of questions any quantum algorithm must ask to solve a problem. All results are proven mathematically.",
+      "simple": "This thesis asks what quantum computers can do, and what they cannot do. First, the author studies quantum walks. They are like a random walk on a network, but quantum. The author finds a new way to build them. This gives fast methods for some search problems. Second, the author gives a simpler way to prove that some problems need at least a certain amount of work.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Vincent Schmeits",
+    "url": "https://hdl.handle.net/11245.1/e4c12d8c-0618-4a43-823d-7aad834eb9f8",
+    "page": "https://dare.uva.nl/id/e4c12d8c-0618-4a43-823d-7aad834eb9f8",
+    "title": "High state transfer in quantum walks on graphs",
+    "year": 2025,
+    "pdf_url": "https://pure.uva.nl/ws/files/248839076/Thesis.pdf",
+    "supervisors": [
+      "J.A. Ellis-Monaghan"
+    ],
+    "abstract": "A quantum walk is a process that involves the evolution of a unit vector (i.e. of Euclidean norm 1), and is described by a unitary operator. The time-dependent distribution obtained by squaring the entries of the unit vector is quite different from that of a classical random walk. For instance, a property commonly occurring in random walks is convergence to a stationary distribution, something that does not generally occur in quantum walks. In this thesis, we study what we call 'state transfer' in various types of quantum walks on graphs (and other combinatorial structures), essentially trying to answer the following question: given a certain rule for constructing a unitary operator from a graph, for which graphs is there a high probability of ending up in a given vertex some time after the corresponding quantum walk has started at some initial vertex? We study properties called perfect state transfer (transfer with probability 1) and periodicity (transfer from a vertex to itself) in discrete-time quantum walks in Part I of this thesis. We also introduce a new notion called 'peak state transfer', for which the probability of transfer need not be 1. In Part II of the thesis, we bring this new notion to the continuous-time setting as well. As is the case for perfect state transfer and periodicity, the property of peak state transfer can be characterized in terms of the eigenvalues and eigenvectors of certain matrices that describe the underlying combinatorial structure. Show more",
+    "summary": {
+      "accessible": "A quantum walk describes how a quantum particle moves over a network of points, called a graph. Unlike an ordinary random walk, it generally does not settle into a fixed spread. This thesis asks: for which graphs will a walk starting at one point reach another point with high probability at some time? It studies perfect transfer (probability 1) and returning to the start, and introduces a new, weaker notion called peak state transfer. For both discrete-time and continuous-time walks, it shows that these properties can be read off from the eigenvalues and eigenvectors of matrices that describe the graph.",
+      "simple": "Picture a network of points connected by lines. A quantum particle can move along this network. This is called a quantum walk. It behaves differently from normal random movement. This thesis asks: if the particle starts at one point, when will it very likely arrive at another point? Using maths, the author shows how the shape of the network decides the answer.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Francisco Escudero",
+    "url": "https://scholarlypublications.universiteitleiden.nl/handle/1887/4289617",
+    "page": "https://scholarlypublications.universiteitleiden.nl/handle/1887/4289617",
+    "title": "Quantum computing, norms and polynomials",
+    "year": 2026,
+    "pdf_url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/1?col=81522199220002711&col=81522199340002711",
+    "pdf_parts": [
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/1?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/2?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/3?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/4?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/5?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/6?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/7?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/8?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/9?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/10?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/11?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/12?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/13?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/14?col=81522199220002711&col=81522199340002711",
+      "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/15?col=81522199220002711&col=81522199340002711"
+    ],
+    "abstract": "In this thesis, Quantum computing, norms, and polynomials, we investigate the interplay between quantum mechanics, complexity theory, and functional analysis, three central areas of physics, computer science, and mathematics, respectively. The unifying theme throughout the thesis is the dynamic exchange between quantum computing and functional analysis: we explore new applications of functional inequalities in quantum computing, and, in the process, establish novel results in functional analysis itself.\n\nIn the first part, we study quantum query algorithms through their correspondence with completely bounded polynomials, as established in earlier work. We begin by revisiting this correspondence, extending it, and presenting it in a new form. Building on this foundation, we draw an analogy between quantum query algorithms and the Grothendieck inequality. Finally, we conclude this part by employing completely bounded polynomials to solve a special case of one of the main open problems in quantum query complexity, the Aaronson–Ambainis conjecture.\n\nIn the second part, we turn to quantum learning theory, which seeks to determine how much information must be extracted from a quantum system to fully characterize it. We begin by applying existing versions of the Bohnenblust–Hille inequalities and deriving new ones to obtain results in the context of learning low-degree quantum objects. We conclude by presenting some of the first results in the emerging area of Hamiltonian testing and learning.\n\nWe also include a third part, as a bonus, where we gather three new proofs, that we find elegant and concise, of known results related to the analysis of Boolean functions.",
+    "supervisors": [
+      "J. Briët"
+    ],
+    "summary": {
+      "accessible": "This thesis connects quantum computing with functional analysis, a branch of mathematics about measuring the size of functions and how operations stretch them. Such tools give new insight into quantum algorithms, and the quantum questions in turn lead to new mathematical results. Using polynomials with special norm properties, the thesis describes what quantum algorithms can compute, and settles a special case of a well-known open question about when quantum algorithms have no big advantage. It also uses inequalities about polynomials to show how little data is needed to learn some simple quantum systems. All results are mathematical proofs.",
+      "simple": "This thesis connects quantum computing with pure mathematics. Some maths tools measure the size of functions. The author uses these tools to understand quantum computers better. In return, the quantum questions lead to new maths results. Using maths, the author partly answers a famous open question about how much quantum computers can help. The author also shows how to learn some quantum systems from little data.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Galina Pass",
+    "url": "https://dare.uva.nl/id/9d7bf782-825d-45f1-85f2-52ad2c85e929",
+    "page": "https://dare.uva.nl/id/9d7bf782-825d-45f1-85f2-52ad2c85e929",
+    "title": "Quantum walks, recursion, and time-space tradeoffs for st-connectivity",
+    "year": 2026,
+    "pdf_url": "https://pure.uva.nl/ws/files/323380064/Thesis.pdf",
+    "supervisors": [
+      "S.M. Jeffery",
+      "M. Walter"
+    ],
+    "abstract": "This thesis studies space-bounded quantum computation, focusing on quantum algorithms in settings where memory is limited. The central goal is to understand which quantum advantages persist under such constraints and how quantum resources affect classical time-space tradeoffs. The thesis approaches these questions through st-connectivity, a central problem in space complexity theory. We develop quantum algorithms and tradeoff results for both undirected and directed st-connectivity. In the undirected case, we show that quantum algorithms can achieve near-optimal time using only logarithmic space, in contrast to classical algorithms, which exhibit nontrivial time-space tradeoffs. This demonstrates a fundamental difference between classical and quantum computation in memory-constrained regimes. For directed st-connectivity, we establish the first nontrivial quantum time–space tradeoff. This problem is more challenging, as techniques such as quantum walks and reversibility do not directly apply. We show that quantum computation can improve upon known classical tradeoff bounds even when only a small quantum workspace is available. A key contribution of the thesis is a compositional framework for quantum algorithms based on multidimensional quantum walks. We introduce subspace graphs, an abstract model that enables modular design and efficient recursion without the overheads that typically slow down recursive quantum algorithms. Finally, we extend undirected st-connectivity to unitary-labeled graphs, where edges represent quantum transformations. We present an efficient quantum algorithm for this generalized connectivity problem. Together, these results advance the understanding of space-bounded quantum computation and quantum time-space tradeoffs. Show more",
+    "summary": {
+      "accessible": "Most studies of quantum algorithms count time, but memory can be just as limiting, especially on early quantum computers. This thesis studies a basic question: is there a path between two points in a network? For networks with two-way connections, the author shows that quantum algorithms can be nearly as fast as possible while using very little memory, which classical algorithms are not known to achieve. For one-way connections, the thesis gives the first quantum improvement on the trade-off between time and memory. The results are mathematical proofs, built on a new framework for combining quantum walk algorithms.",
+      "simple": "Computers need both time and memory. Quantum computers will have little memory at first. This thesis asks a simple question: in a network, can you get from one point to another? Using maths, the author shows that quantum computers can answer this fast while using very little memory. Normal computers are not known to do this. The thesis also studies networks with one-way roads.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Lynn Engelberts",
+    "url": "https://dare.uva.nl/id/33a8286b-fda4-449a-a089-0e161690267d",
+    "page": "https://dare.uva.nl/id/33a8286b-fda4-449a-a089-0e161690267d",
+    "title": "Classical and quantum cryptanalysis of lattices and codes",
+    "year": 2026,
+    "pdf_url": "https://pure.uva.nl/ws/files/324062404/Thesis.pdf",
+    "supervisors": [
+      "R.M. de Wolf",
+      "L. Ducas"
+    ],
+    "series": "ILLC Dissertation Series, DS-2026-08",
+    "abstract": "This thesis studies the security of lattice-based and code-based cryptography, two leading approaches to post-quantum cryptography. Although several lattice-based and code-based schemes have been selected for standardization and deployment, these schemes and their underlying computational problems have received less scrutiny than those they aim to replace. Continued cryptanalysis is therefore essential to build confidence in the security of post-quantum cryptography. The first part of this thesis concerns the classical cryptanalysis of lattice-based cryptography. We provide an algorithm that solves the Short Integer Solution problem in subexponential time for nontrivial parameter regimes. Moreover, we develop a predictive model for analyzing the practical performance of module-BKZ, a module-lattice analog of the BKZ algorithm. The second part considers the quantum cryptanalysis of lattice-based and code-based cryptography, focusing on quantum speedups for sieving algorithms. We present a new quantum algorithm for 3-tuple lattice sieving that yields an improved time-memory trade-off for solving the Shortest Vector Problem. We also introduce quantum algorithms for code sieving and investigate their potential for attacking code-based cryptography. Together, these results provide new insights into the security of lattice-based and code-based cryptography and highlight several directions for future research. Show more",
+    "summary": {
+      "accessible": "Future quantum computers could break much of today's encryption, so new 'post-quantum' schemes based on lattices (regular grids of points in many dimensions) and error-correcting codes are now being standardised. These schemes have been studied less than the ones they replace, so their security needs careful testing. This thesis designs attacks: a faster classical algorithm for one lattice problem in certain settings, a model that predicts how well an important attack works in practice, and new quantum algorithms for lattice and code problems. The results help set safe parameters and show where these schemes stand.",
+      "simple": "Large quantum computers could break the codes that protect data on the internet today. So experts are switching to new codes that should stay safe. But are they really safe? This thesis tests them by trying to attack them. The author designs new attack methods, for normal and for quantum computers, and estimates how well they work. This helps choose safe settings for the new codes.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    }
+  },
+  {
+    "author": "Marten Folkertsma",
+    "url": "https://eprints.illc.uva.nl/id/eprint/2400/",
+    "page": "https://eprints.illc.uva.nl/id/eprint/2400/",
+    "abstract": "Over the past decade, there has been significant progress in the development of physical quantum computational devices. As of this year (2025), we are beginning to see the first implementations of quantum devices with active error correction. Nevertheless, many milestones remain before fully error-corrected quantum computation becomes available. A natural question is whether additional resources might aid in the development of these devices. In this thesis, we identify three stages in the progression of quantum devices and propose three corresponding resources that can enhance their computational capabilities. While these resources are motivated by specific stages of device development, their applicability extends beyond these regimes.\n\nIn Part one, we study the pre–error-correction regime, where computations are performed directly on physical qubits without error correction. As errors accumulate with circuit depth, this regime is effectively restricted to constant-depth circuits, severely limiting computational power (e.g., long-range entanglement generation). To mitigate this, we introduce the model of Local Alternating Quantum–Classical Computations (LAQCC), which augments constant-depth quantum circuits with intermediate measurements and fast intermediate classical computations. We show that LAQCC substantially extends the range of feasible computations beyond that of bare constant-depth circuits.\n\nIn Part two, we consider the early fault-tolerance regime, where computations are constrained by the number of available logical qubits rather than runtime. Motivated by the classical catalytic space model, we define a quantum analogue in which a space-bounded quantum machine is given access to an auxiliary catalytic register, initialized in an arbitrary quantum state, which can be altered during the computation, as long as it is restored at the end of the computation. We show that this catalytic resource extends the computational power of quantum space-bounded machines.\n\nIn Part three, we study the problem of estimating the ground-state energy of a Local Hamiltonian, a central task in quantum chemistry. A common approach is to first generate a guiding state—a state with nontrivial overlap with the ground space—via a classical heuristic, and then apply Quantum Phase Estimation to approximate the smallest eigenvalue. The second step of this procedure, estimating the ground state energy given a guiding state, has been formalized as the Guided Local Hamiltonian problem, which is known to be BQP-hard for certain parameter regimes. We extend this result by showing that hardness persists over a broader range of parameters. Then we study an alternative version of this problem, the Guidable Local Hamiltonian problem, in which one is not given a guiding state, but instead only promised that it exists. We use this to give complexity-theoretic evidence that classical heuristics for generating guiding states are, in this setting, as powerful as quantum heuristics. Furthermore, we use this problem to give restrictions on possible gap-amplification procedures, required for proving the quantum PCP (probabilistically checkable proofs) conjecture.",
+    "title": "Empowering Quantum Computation with: Measurements, Catalysts, and Guiding States",
+    "year": 2026,
+    "pdf_url": "https://eprints.illc.uva.nl/id/eprint/2400/1/DS-2026-02.text.pdf",
+    "no_cover": true,
+    "summary": {
+      "accessible": "Quantum computers are improving step by step, but fully error-corrected machines are still some way off. This thesis asks which extra resources could make today's and tomorrow's limited devices more powerful. The author proves that short quantum circuits gain power when combined with mid-circuit measurements and fast classical processing; that borrowed memory, which may be in any state but must be returned unchanged, helps machines with few qubits; and studies how hard it is to estimate a molecule's lowest energy when given a good starting guess. All results are mathematical proofs in complexity theory.",
+      "simple": "Quantum computers are getting better, but they still make many errors and have little memory. This thesis asks: what extra help could make them stronger? Using maths, the author shows three kinds of help. One is measuring in the middle of a computation. Another is extra memory that must be given back unchanged. The third is a good first guess when computing the energy of a molecule.",
+      "model": "claude-opus-5-5",
+      "written": "2026-10-26",
+      "checked_by": null
+    },
+    "supervisors": [
+      "H.M. Buhrman",
+      "C.J.M. Schoutens"
+    ]
+  }
+]

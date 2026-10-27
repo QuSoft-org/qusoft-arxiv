@@ -3,10 +3,14 @@
 site/data/papers.json   every paper, newest first
 site/data/people.json   QuSoft people who appear on a paper: status, alumni years, portrait
 site/data/stats.json    numbers per year and the co-authorship network
+site/data/theses.json   PhD theses written at QuSoft, with covers (see scripts/theses.py)
 
 Statistics are about the group, never per person: no rankings, no paper counts per author.
 """
 
+import colorsys
+import re
+import unicodedata
 from datetime import datetime
 
 from collections import Counter
@@ -126,4 +130,86 @@ def build(papers, people):
                               for l in topics["taxonomy"]["lines"]],
                     "method": topics.get("method", "")}
         save_json(SITE / "data" / "topics.json", taxonomy)
-    print(f"Site data: {len(site_papers)} papers, {len(site_people)} people")
+    n_theses = build_theses(people)
+    print(f"Site data: {len(site_papers)} papers, {len(site_people)} people, {n_theses} theses")
+
+
+# ---- PhD theses ----
+
+def thesis_slug(name):
+    s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def _luminance(rgb):
+    def lin(c):
+        c /= 255
+        return c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    r, g, b = (lin(c) for c in rgb)
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+
+def _contrast(a, b):
+    la, lb = sorted((_luminance(a), _luminance(b)), reverse=True)
+    return (la + 0.05) / (lb + 0.05)
+
+
+# Library cloth for theses without a cover image; all have AAA contrast with white text
+CLOTH = ["#24453a", "#5a1f24", "#1f3550", "#4a3a1c", "#3b3350"]
+LIGHT_INK, DARK_INK = (255, 255, 255), (34, 40, 46)
+
+
+def back_cover(cover):
+    """The colour of a thesis's back cover: the front's main colour, made dark (or light)
+    enough that small text on it has AAA contrast. Returns (hex, 'light' | 'dark' ink)."""
+    img = Image.open(cover).convert("RGB")
+    img.thumbnail((60, 85))
+    pal = img.quantize(colors=6, method=Image.Quantize.MEDIANCUT)
+    counts = sorted(pal.getcolors(), reverse=True)
+    palette = pal.getpalette()
+    rgb = tuple(palette[counts[0][1] * 3: counts[0][1] * 3 + 3])
+    h, l, s = colorsys.rgb_to_hls(*(c / 255 for c in rgb))
+    ink = DARK_INK if l > 0.62 else LIGHT_INK
+    step = 0.02 if ink == DARK_INK else -0.02
+    s = min(s, 0.75)  # tame neon covers a little; long text sits on this
+    while True:
+        out = tuple(round(c * 255) for c in colorsys.hls_to_rgb(h, l, s))
+        if _contrast(out, ink) >= 7 or not 0 < l < 1:
+            break
+        l = min(1, max(0, l + step))
+    return "#%02x%02x%02x" % out, "dark" if ink == DARK_INK else "light"
+
+
+def build_theses(people):
+    theses = load_json(ROOT / "data" / "theses.json", [])
+    out, plain = [], 0
+    for t in theses:
+        slug = thesis_slug(t["author"])
+        cover = SITE / "covers" / f"{slug}.jpg"
+        if not t.get("title") or not t.get("year"):
+            continue
+        if cover.exists():
+            back, ink = back_cover(cover)
+        else:  # no cover image: a plain cloth binding, the colours taken in turn
+            back, ink = CLOTH[plain % len(CLOTH)], "light"
+            plain += 1
+        summary = t.get("summary") or {}
+        out.append({
+            "author": t["author"],
+            "slug": slug,
+            "title": t["title"],
+            "year": t["year"],
+            "supervisors": t.get("supervisors", []),
+            "abstract": t.get("abstract", ""),
+            "summary": {"accessible": summary["accessible"], "simple": summary["simple"],
+                        "checked": bool(summary.get("checked_by"))} if summary.get("simple") else None,
+            "link": t.get("page") or t["url"],
+            "pdf": t.get("pdf_url"),
+            "cover": cover.relative_to(SITE).as_posix() if cover.exists() else None,
+            "back": back,
+            "ink": ink,
+            "portrait": _web_portrait(t["author"]) if t["author"] in people else None,
+        })
+    out.sort(key=lambda t: (-t["year"], t["author"].split()[-1].lower()))
+    save_json(SITE / "data" / "theses.json", out)
+    return len(out)
