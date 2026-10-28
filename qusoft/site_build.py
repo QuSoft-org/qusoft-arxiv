@@ -204,11 +204,12 @@ def build_theses(people):
             "summary": {"accessible": summary["accessible"], "simple": summary["simple"],
                         "checked": bool(summary.get("checked_by"))} if summary.get("simple") else None,
             "link": t.get("page") or t["url"],
-            "pdf": t.get("pdf_url"),
+            # one PDF of the whole thesis; Leiden splits theses into chapters, so link its page instead
+            "pdf": None if t.get("pdf_parts") else t.get("pdf_url"),
             "cover": cover.relative_to(SITE).as_posix() if cover.exists() else None,
             "back": back,
             "ink": ink,
-            "portrait": _web_portrait(t["author"]) if t["author"] in people else None,
+            "portrait": _web_portrait(t["author"]),  # also for authors not in people.csv
         })
     out.sort(key=lambda t: (-t["year"], t["author"].split()[-1].lower()))
     save_json(SITE / "data" / "theses.json", out)

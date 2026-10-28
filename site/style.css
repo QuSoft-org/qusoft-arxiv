@@ -644,6 +644,8 @@ input[type="search"]:focus, select:focus { border-color: var(--slate); }
 .dialog-abstract p { margin: 0 0 0.8rem; line-height: 1.6; }
 .dialog-abstract .ai-note { font-family: var(--sans); font-size: var(--s-1); color: var(--slate); }
 .dialog-links { font-family: var(--sans); font-size: var(--s-1); display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 1.25rem 0 0; }
+.dialog-links .secondary { color: var(--slate); }
+.dialog-links .secondary:hover { color: var(--ink); }
 .dialog-close {
   position: absolute; top: 0.6rem; right: 0.6rem;
   width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%;

@@ -799,8 +799,9 @@
           t.supervisors.length ? `. Supervised by ${t.supervisors.join(", ")}` : ""),
         el("div", { class: "dialog-abstract" }, abstract),
         el("p", { class: "dialog-links" },
-          el("a", { href: t.link }, "Read the thesis"),
-          t.pdf ? el("a", { href: t.pdf }, "Download the PDF") : null,
+          // Straight to the PDF where there is one; the repository page is for citing.
+          t.pdf ? el("a", { href: t.pdf }, "Read the thesis (PDF)") : el("a", { href: t.link }, "Read the thesis"),
+          t.pdf ? el("a", { class: "secondary", href: t.link }, "Repository page") : null,
           el("a", { href: `#papers?person=${encodeURIComponent(t.author)}` }, `Papers with ${t.author}`))));
     if (!dlg.open) dlg.showModal();
     body.scrollTop = 0;

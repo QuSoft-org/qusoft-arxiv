@@ -36,7 +36,7 @@
    "checked": false
   },
   "link": "https://scholarlypublications.universiteitleiden.nl/handle/1887/4289617",
-  "pdf": "https://scholarlypublications.universiteitleiden.nl/download/1887/4289617/1?col=81522199220002711&col=81522199340002711",
+  "pdf": null,
   "cover": "covers/francisco-escudero.jpg",
   "back": "#0a0809",
   "ink": "light",
@@ -145,11 +145,11 @@
    "checked": false
   },
   "link": "https://research.vu.nl/en/publications/quantum-algorithms-for-electronic-structure-beyond-ground-state-e/",
-  "pdf": "https://research.vu.nl/files/404234832/onlineversion%20-%2067eab9b3e72ec.pdf",
+  "pdf": null,
   "cover": null,
   "back": "#4a3a1c",
   "ink": "light",
-  "portrait": null
+  "portrait": "portraits/emiel-koridon.webp"
  },
  {
   "author": "Garazi Muguruza Lasa",
