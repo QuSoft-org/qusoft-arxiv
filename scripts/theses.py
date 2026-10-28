@@ -14,6 +14,8 @@ written separately, like data/summaries.json for papers, and kept in the same fi
 
 The cover is the first page of the PDF after the repository's front sheet. When
 that page is a wraparound print cover, its right part (the front) is used.
+"abstract_from": "thesis" marks an abstract copied from the thesis PDF, because the
+repository's is shorter; fetch then leaves it alone.
 "no_cover": true when the PDF has none (the site then shows a plain binding);
 "cover_page" (1-based) and "cover_crop" ([left, right] or [left, top, right,
 bottom], as fractions of the page) in data/theses.json override both guesses. Covers go to
@@ -96,6 +98,21 @@ def _text(el):
     return re.sub(r"\s+", " ", el.get_text(" ", strip=True)).strip()
 
 
+def abstract_text(box):
+    """The abstract in a UvA-DARE field: all of it is in the page (the "Show more" button only
+    unfolds it), with paragraphs split by <br> or <p>. The button's label is not part of it."""
+    for b in box.find_all("button"):
+        b.decompose()
+    wrap = box.find(class_="text-wrapper") or box
+    for br in wrap.find_all("br"):
+        br.replace_with("\n\n")
+    for p in wrap.find_all("p"):
+        p.insert_after("\n\n")
+    text = wrap.get_text()
+    paras = [re.sub(r"\s+", " ", x).strip() for x in re.split(r"\n\s*\n", text)]
+    return "\n\n".join(x for x in paras if x)
+
+
 def scrape(url):
     """Title, year, supervisors, abstract and PDF link from a repository page."""
     r = requests.get(url, headers=UA, timeout=60)
@@ -144,10 +161,7 @@ def scrape(url):
     if "Series" in labels:
         info["series"] = _text(labels["Series"])
     if "Abstract" in labels:
-        paras = [_text(p) for p in labels["Abstract"].find_all("p")] or [_text(labels["Abstract"])]
-        paras = [p for p in paras if p and p != "Show more" and p != "Show less"]
-        if paras:
-            info["abstract"] = "\n\n".join(paras)
+        info["abstract"] = abstract_text(labels["Abstract"])
     if "abstract" not in info:
         desc = meta("citation_abstract") or meta("eprints.abstract") or meta("DC.description") or meta("dc.description")
         if desc:
@@ -226,8 +240,11 @@ def fetch(redo=False):
         except Exception as e:  # keep going; report at the end
             print(f"  failed: {e}")
             continue
-        # Hand-made fields win over scraped ones
+        # Hand-made fields win over scraped ones. An abstract taken from the thesis itself
+        # ("abstract_from": "thesis") is kept even with --redo: repositories often shorten it.
         for k, v in info.items():
+            if k == "abstract" and t.get("abstract_from") == "thesis":
+                continue
             if redo or not t.get(k):
                 t[k] = v
         if t.get("pdf_url") or content:
