@@ -724,7 +724,7 @@
 
   // The text on the back of a cover, at the chosen level. Technical: the first paragraph.
   function thesisBlurb(t) {
-    if (level !== "technical" && t.summary) return t.summary[level];
+    if ((level !== "technical" || !t.abstract) && t.summary) return t.summary[level === "technical" ? "accessible" : level];
     return paragraphs(t.abstract)[0] || "";
   }
 
@@ -763,10 +763,11 @@
     return card;
   }
 
-  function drawWall() {
+  // Covers newest first, with a spine where each year starts.
+  function wallItems(list) {
     const items = [];
     let year = null;
-    for (const t of theses) {
+    for (const t of list) {
       if (t.year !== year) {
         year = t.year;
         // A spine for each year, read bottom to top like the books on a European shelf.
@@ -774,18 +775,28 @@
       }
       items.push(el("li", { class: "wall-item" }, el("p", { class: "visually-hidden" }, String(t.year)), thesisCard(t)));
     }
-    const wall = $("#thesis-wall");
-    untypeset(wall);
-    wall.replaceChildren(...items);
-    typeset(wall.querySelectorAll(".thesis-title, .thesis-blurb"));
+    return items;
+  }
+
+  function drawWall() {
+    const before = theses.filter((t) => t.before_qusoft);
+    $("#before-qusoft").hidden = !before.length;
+    for (const [wall, list] of [[$("#thesis-wall"), theses.filter((t) => !t.before_qusoft)], [$("#thesis-wall-before"), before]]) {
+      untypeset(wall);
+      wall.replaceChildren(...wallItems(list));
+      typeset(wall.querySelectorAll(".thesis-title, .thesis-blurb"));
+    }
   }
 
   function openThesis(t, fromRoute = false) {
     const dlg = $("#thesis-dialog");
-    const abstract = level !== "technical" && t.summary
-      ? [el("p", {}, latexText(t.summary[level])),
+    // Without an English abstract (some older theses), the accessible version stands in for it.
+    const plain = (level !== "technical" || !t.abstract) && t.summary;
+    const source = t.abstract ? "the abstract" : "the thesis's Dutch summary; the thesis has no English abstract";
+    const abstract = plain
+      ? [el("p", {}, latexText(t.summary[level === "technical" ? "accessible" : level])),
          el("p", { class: "ai-note" }, t.summary.checked ? "Plain-language summary, checked by the author."
-           : "Plain-language summary written with AI from the abstract; not checked by the author.")]
+           : `Plain-language summary written with AI from ${source}; not checked by the author.`)]
       : paragraphs(t.abstract).map((para) => el("p", {}, latexText(para)));
     const body = $("#thesis-dialog-body");
     untypeset(body);
@@ -813,8 +824,10 @@
     if (!theses) {
       try { theses = await fetch("data/theses.json", { cache: "no-cache" }).then((r) => r.json()); }
       catch (err) { $("#theses-lede").textContent = "The theses could not be loaded. Reload the page to try again."; return; }
-      const first = Math.min(...theses.map((t) => t.year));
-      $("#theses-lede").textContent = `Every PhD thesis written at QuSoft since ${first}, newest first: ${theses.length} so far. `
+      const here = theses.filter((t) => !t.before_qusoft), before = theses.length - here.length;
+      const first = Math.min(...here.map((t) => t.year));
+      $("#theses-lede").textContent = `Every PhD thesis written at QuSoft since ${first}, newest first: ${here.length} so far`
+        + (before ? `, and ${before} from before QuSoft further down. ` : ". ")
         + (canHover.matches ? "Point at a cover to turn it over; click it to read more." : "Tap a cover to turn it over; tap again to read more.");
       const levels = document.querySelectorAll('input[name="thesis-level"]');
       levels.forEach((r) => { r.checked = r.value === level; });

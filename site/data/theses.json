@@ -4,6 +4,7 @@
   "slug": "lynn-engelberts",
   "title": "Classical and quantum cryptanalysis of lattices and codes",
   "year": 2026,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf",
    "L. Ducas"
@@ -26,6 +27,7 @@
   "slug": "francisco-escudero",
   "title": "Quantum computing, norms and polynomials",
   "year": 2026,
+  "before_qusoft": false,
   "supervisors": [
    "J. Briët"
   ],
@@ -47,6 +49,7 @@
   "slug": "marten-folkertsma",
   "title": "Empowering Quantum Computation with: Measurements, Catalysts, and Guiding States",
   "year": 2026,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "C.J.M. Schoutens"
@@ -57,10 +60,10 @@
    "simple": "Quantum computers are getting better, but they still make many errors and have little memory. This thesis asks: what extra help could make them stronger? Using maths, the author shows three kinds of help. One is measuring in the middle of a computation. Another is extra memory that must be given back unchanged. The third is a good first guess when computing the energy of a molecule.",
    "checked": false
   },
-  "link": "https://eprints.illc.uva.nl/id/eprint/2400/",
-  "pdf": "https://eprints.illc.uva.nl/id/eprint/2400/1/DS-2026-02.text.pdf",
-  "cover": null,
-  "back": "#3b3350",
+  "link": "https://dare.uva.nl/id/a339ccb0-c26d-43c9-8811-8203dce6c4b4",
+  "pdf": "https://pure.uva.nl/ws/files/277164826/Thesis.pdf",
+  "cover": "covers/marten-folkertsma.jpg",
+  "back": "#0e5f5b",
   "ink": "light",
   "portrait": "portraits/marten-folkertsma.webp"
  },
@@ -69,6 +72,7 @@
   "slug": "galina-pass",
   "title": "Quantum walks, recursion, and time-space tradeoffs for st-connectivity",
   "year": 2026,
+  "before_qusoft": false,
   "supervisors": [
    "S.M. Jeffery",
    "M. Walter"
@@ -91,6 +95,7 @@
   "slug": "llorenc-escola-farras",
   "title": "On quantum position verification",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "P. Grosso",
    "C. Schaffner"
@@ -113,6 +118,7 @@
   "slug": "dmitry-grinko",
   "title": "Mixed Schur–Weyl duality in quantum information",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman"
   ],
@@ -134,6 +140,7 @@
   "slug": "emiel-koridon",
   "title": "Quantum algorithms for electronic structure beyond ground state energies",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "L. Visscher",
    "F. Buda"
@@ -146,9 +153,9 @@
   },
   "link": "https://research.vu.nl/en/publications/quantum-algorithms-for-electronic-structure-beyond-ground-state-e/",
   "pdf": null,
-  "cover": null,
-  "back": "#4a3a1c",
-  "ink": "light",
+  "cover": "covers/emiel-koridon.jpg",
+  "back": "#bab0c4",
+  "ink": "dark",
   "portrait": "portraits/emiel-koridon.webp"
  },
  {
@@ -156,6 +163,7 @@
   "slug": "garazi-muguruza-lasa",
   "title": "Resource requirements for quantum cryptography",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "P. Grosso",
    "C. Schaffner"
@@ -178,6 +186,7 @@
   "slug": "niels-neumann",
   "title": "Adaptive quantum computers",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "F. Philipson"
@@ -200,6 +209,7 @@
   "slug": "vincent-schmeits",
   "title": "High state transfer in quantum walks on graphs",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "J.A. Ellis-Monaghan"
   ],
@@ -221,6 +231,7 @@
   "slug": "dyon-van-vreumingen",
   "title": "Strategies for adiabatic state preparation of quantum many-body systems",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "C.J.M. Schoutens",
    "L. Visscher"
@@ -243,6 +254,7 @@
   "slug": "jordi-weggemans",
   "title": "Quantum versus classical resources in computational complexity",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman"
   ],
@@ -264,6 +276,7 @@
   "slug": "sebastian-zur",
   "title": "Multidimensional quantum walks and the multiplicative ladder adversary",
   "year": 2025,
+  "before_qusoft": false,
   "supervisors": [
    "S.M. Jeffery",
    "K. Guo"
@@ -286,6 +299,7 @@
   "slug": "rene-allerstorfer",
   "title": "Position-based quantum cryptography",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman"
   ],
@@ -307,6 +321,7 @@
   "slug": "yanlin-chen",
   "title": "On quantum algorithms and limitations for convex optimization and lattice problems",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf"
   ],
@@ -328,6 +343,7 @@
   "slug": "juan-diego-arias-espinoza",
   "title": "Simulation and dynamics of entanglement and quantum information in strongly correlated systems",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "R. Gerritsma",
    "P.R. Corboz"
@@ -350,6 +366,7 @@
   "slug": "philip-verduyn-lunel",
   "title": "Quantum position verification",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "F. Speelman"
@@ -372,6 +389,7 @@
   "slug": "harold-nieuwboer",
   "title": "Classical and quantum algorithms for scaling problems",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "M. Walter",
    "E.M. Opdam"
@@ -394,6 +412,7 @@
   "slug": "jana-sotakova",
   "title": "Isogenies and cryptography",
   "year": 2024,
+  "before_qusoft": false,
   "supervisors": [
    "C. Schaffner",
    "S. Fehr"
@@ -416,6 +435,7 @@
   "slug": "arjan-cornelissen",
   "title": "Quantum multivariate estimation and span program algorithms",
   "year": 2023,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf"
   ],
@@ -437,6 +457,7 @@
   "slug": "xuanbo-feng",
   "title": "The colour of charge density wave order",
   "year": 2023,
+  "before_qusoft": false,
   "supervisors": [
    "E. van Heumen"
   ],
@@ -458,6 +479,7 @@
   "slug": "subhasree-patro",
   "title": "Quantum fine-grained complexity",
   "year": 2023,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "F. Speelman"
@@ -480,6 +502,7 @@
   "slug": "jan-czajkowski",
   "title": "Post-quantum security of hash functions",
   "year": 2022,
+  "before_qusoft": false,
   "supervisors": [
    "C. Schaffner",
    "H.M. Buhrman"
@@ -502,6 +525,7 @@
   "slug": "farrokh-labib",
   "title": "Quasirandomness in quantum information theory",
   "year": 2022,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman"
   ],
@@ -523,6 +547,7 @@
   "slug": "freek-witteveen",
   "title": "Quantum information theory and many-body physics",
   "year": 2022,
+  "before_qusoft": false,
   "supervisors": [
    "E.M. Opdam",
    "M. Walter"
@@ -533,11 +558,11 @@
    "simple": "Some systems are made of very many small quantum parts. They are hard to understand. This thesis uses ideas from quantum information to study them. Using maths, the author shows how to build the lowest-energy state of some systems on a quantum computer. The author also studies how information moves in a chain of particles. A last part studies a simple model linked to black holes.",
    "checked": false
   },
-  "link": "https://eprints.illc.uva.nl/id/eprint/2305/",
-  "pdf": "https://eprints.illc.uva.nl/id/eprint/2305/1/DS-2022-07.text.pdf",
-  "cover": null,
-  "back": "#1f3550",
-  "ink": "light",
+  "link": "https://dare.uva.nl/id/f27ebf07-00a8-48ad-b4c4-508339c82f03",
+  "pdf": "https://pure.uva.nl/ws/files/72065144/Thesis.pdf",
+  "cover": "covers/freek-witteveen.jpg",
+  "back": "#feffff",
+  "ink": "dark",
   "portrait": "portraits/freek-witteveen.webp"
  },
  {
@@ -545,6 +570,7 @@
   "slug": "yfke-dulek",
   "title": "Delegated and distributed quantum computation",
   "year": 2021,
+  "before_qusoft": false,
   "supervisors": [
    "C. Schaffner",
    "H.M. Buhrman"
@@ -567,6 +593,7 @@
   "slug": "joris-kattemolle",
   "title": "Many-body physics meets quantum computation",
   "year": 2021,
+  "before_qusoft": false,
   "supervisors": [
    "C.J.M. Schoutens"
   ],
@@ -588,6 +615,7 @@
   "slug": "alvaro-piedrafita",
   "title": "On span programs and quantum algorithms",
   "year": 2021,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman"
   ],
@@ -609,6 +637,7 @@
   "slug": "joran-van-apeldoorn",
   "title": "A quantum view on convex optimization",
   "year": 2020,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf",
    "M. Laurent"
@@ -631,6 +660,7 @@
   "slug": "tom-bannink",
   "title": "Quantum and stochastic processes",
   "year": 2020,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "W.T.F. den Hollander"
@@ -653,6 +683,7 @@
   "slug": "koen-groenland",
   "title": "Quantum protocols for few-qubit devices",
   "year": 2020,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "C.J.M. Schoutens"
@@ -675,6 +706,7 @@
   "slug": "andras-gilyen",
   "title": "Quantum Singular Value Transformation & Its Algorithmic Applications",
   "year": 2019,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf"
   ],
@@ -696,6 +728,7 @@
   "slug": "sander-gribling",
   "title": "Applications of optimization to factorization ranks and quantum information theory",
   "year": 2019,
+  "before_qusoft": false,
   "supervisors": [
    "M. Laurent",
    "R.M. de Wolf"
@@ -718,6 +751,7 @@
   "slug": "srinivasan-arunachalam",
   "title": "Quantum algorithms and learning theory",
   "year": 2018,
+  "before_qusoft": false,
   "supervisors": [
    "R.M. de Wolf",
    "H.M. Buhrman"
@@ -740,6 +774,7 @@
   "slug": "jeroen-zuiddam",
   "title": "Algebraic complexity, asymptotic spectra and entanglement polytopes",
   "year": 2018,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "M. Christandl"
@@ -762,6 +797,7 @@
   "slug": "teresa-piovesan",
   "title": "Quantum entanglement: Insights via graph parameters and conic optimization",
   "year": 2016,
+  "before_qusoft": false,
   "supervisors": [
    "H.M. Buhrman",
    "M. Laurent"
@@ -784,6 +820,7 @@
   "slug": "florian-speelman",
   "title": "Position-based quantum cryptography and catalytic computation",
   "year": 2016,
+  "before_qusoft": false,
   "supervisors": [
    "H. Buhrman"
   ],
@@ -799,5 +836,291 @@
   "back": "#145b7c",
   "ink": "light",
   "portrait": "portraits/florian-speelman.webp"
+ },
+ {
+  "author": "Giannicola Scarpa",
+  "slug": "giannicola-scarpa",
+  "title": "Quantum entanglement in non-local games, graph parameters and zero-error information theory",
+  "year": 2013,
+  "before_qusoft": true,
+  "supervisors": [
+   "R.M. de Wolf"
+  ],
+  "abstract": "We study quantum entanglement and some of its applications in graph theory and zero-error information theory.\n\nIn Chapter 1 we introduce entanglement and other fundamental concepts of quantum theory. Entanglement was first described in 1935 by Einstein, Podolsky and Rosen, who observed that it allowed for stronger-than-classical correlations between distant particles. They did not believe such correlations existed in nature, and interpreted this as evidence for incompleteness or incorrectness of quantum mechanics. Bell took the next step in 1964, proposing an experiment to test whether such non-classical behavior occurs in nature. He showed that classical input-output correlations satisfy a certain inequality, called a Bell inequality. Then, he showed that quantum mechanics allows for correlations that violate it. Aspect et al., in the early 1980s, realized such an experiment for the first time, showing that Nature violated a Bell inequality. Therefore, Nature does not follow the rules of classical physics!\n\nIn this thesis we make use of quantum entanglement as a resource for various information-processing tasks. In Chapter 2 we address the question of how much quantum correlations can deviate from classical predictions. We focus on non-local games: experiments in which two players are separated and forbidden to communicate, and have to collaborate to accomplish a task. In this case, a Bell inequality is an upper bound on the maximum success probability of classical players. We have a Bell inequality violation when quantum players use an entangled state to achieve a larger success probability. Upper bounds on Bell inequality violation of Gs were given by Junge et al. in 2009. They proved that the maximum violation depends on the number of possible inputs and outputs of each player, and on the dimension of the entangled state. We give lower bounds in the form of two games exhibiting violations that are very close to the upper bounds of Junge et al. Remarkably, our results in theoretical physics are inspired by theoretical computer science. The first non-local game is based on a communication complexity problem called “hidden matching”, while the second one derives from the work of Khot and Vishnoi on the famous Unique Games Conjecture from computational complexity theory.\n\nChapter 3 is dedicated to the study of quantum graph parameters. Interestingly, well-known quantities such as the chromatic number and the independence number of a graph can be interpreted as parameters for non-local games. For example, a “referee” can test if two players, Alice and Bob, have a $k$-coloring of a graph $G$, i.e., an assignment of one out of $k$ colors for each vertex of the graph such that adjacent vertices get different colors. He separates the two players, gives each of them a vertex of $G$, and asks them for the color (out of the $k$ possible) of that vertex. If he gave Alice and Bob the same vertex, he expects to receive back the same color, if he gave them two adjacent vertices, he expects to get two different colors. The minimum number of colors $k$ such that Alice and Bob have a classical strategy that always succeeds is the chromatic number of $G$. If Alice and Bob can use quantum entanglement, then the minimum $k$ such that they always win is called the quantum chromatic number of the graph. For some graphs, it can be strictly smaller than the classical one. The study of quantum graph parameters officially started with two papers by Cameron et al. in 2010 and Cubitt et al. in 2009, but was implicit in earlier work. We contribute to the field in a number of ways. We study the relationship between these quantum graph parameters and other parameters such as the Lovász $\\vartheta$ number and the orthogonal rank. We find a surprising characterization of the graphs having a separation between the quantum and classical chromatic numbers. This is related to the Kochen-Specker theorem, a result in the foundations of quantum mechanics from 1967. We also find various constructions of graphs that feature separations between the quantum and classical independence numbers, based for example on graph products and graph states. Additionally, we use quantum graph parameters to give bounds on the value of general non-local games.\n\nIn Chapter 4, we move to zero-error information theory. We study the zero-error capacity of a classical noisy channel when the sender and the receiver can use quantum entanglement. We also study the source problem, where the receiver has partial information about the message that is going to be delivered, as well as the combined source-channel problem. The main tools in this field are graphs and their parameters, so zero-error information theory with entanglement is a fertile field for the concepts studied in previous chapters. For example, the capacity of a channel can be calculated using the independence number of a graph and the source-problem is related to the chromatic number of a graph. We define the entangled chromatic number, the entangled independence number and other related quantities. The exact relation with the parameters of Chapter 3 is still an open problem. We initiate the study of the source problem and source-channel problem with entanglement and we find channels and sources that exhibit a strong divergence in quantum and classical behaviors. To do that, we use results in combinatorics, linear algebra, optimization and number theory.",
+  "summary": {
+   "accessible": "Entanglement lets separated parties produce correlations that no classical strategy can match. This thesis asks how large that gap can be, and what it means for graphs and error-free communication. With mathematical proofs, the author gives two games whose quantum advantage comes close to the known maximum, studies quantum versions of graph quantities such as the chromatic number, and links them to the Kochen–Specker theorem from the foundations of quantum mechanics. The thesis also finds channels and sources where entanglement makes a strong difference to communication with zero chance of error.",
+   "simple": "Entanglement is a special link between quantum particles. Two players who share it, and cannot talk, can sometimes work together better than is otherwise possible. This thesis asks how much better. The author finds games where the gain is close to the largest possible. The thesis also uses these games to study networks of points and lines, and to send messages with no errors.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/17abc910-3bde-487e-b8f1-4a1e08d16dc5",
+  "pdf": "https://pure.uva.nl/ws/files/1740879/129863_thesis.pdf",
+  "cover": "covers/giannicola-scarpa.jpg",
+  "back": "#251c6f",
+  "ink": "light",
+  "portrait": "portraits/giannicola-scarpa.webp"
+ },
+ {
+  "author": "Niek Bouman",
+  "slug": "niek-bouman",
+  "title": "Cryptography from quantum uncertainty in the presence of quantum side information",
+  "year": 2012,
+  "before_qusoft": true,
+  "supervisors": [],
+  "abstract": "The thesis starts with a high-level introduction into cryptography and quantum mechanics. Chapter 2 gives a theoretical foundation by introducing probability theory, information theory, functional analysis, quantum mechanics and quantum information theory. Chapter 3, 4 and 5 are editions of work published earlier. In Chapter 3, we present a quantum-information-theoretic tool to analyze random sampling in a quantum setting. In particular, we present two new rigorous security proofs that make use of our new sampling tool: one for BB84 quantum key distribution, and one for a quantum reduction from oblivious transfer (OT) to bit commitment. Chapter 4 studies the problem of message authentication from a weak key (which is a key that is not uniformly random, e.g., a password) in a new scenario. In this scenario, the weak key is a one-time session key that is derived from a public source of randomness with the help of a long-term key (e.g., a password). We propose a new four-round protocol for message authentication from a weak (session) key. In Chapter 5 we present a new entropic uncertainty relation and furthermore we consider the task of password-based identification. We devise a new quantum identification protocol that is secure in two security models simultaneously.",
+  "summary": {
+   "accessible": "Quantum cryptography uses quantum effects to protect information, but its security must be proved against attackers who may hold quantum information themselves. The author develops a mathematical tool for analysing random sampling in a quantum setting and uses it for rigorous security proofs of the BB84 key-distribution protocol and of a way to build oblivious transfer from bit commitment. The thesis also proposes a protocol for authenticating messages with a weak key such as a password, a new entropic uncertainty relation, and a quantum identification protocol that is secure in two security models at once.",
+   "simple": "Quantum cryptography uses the rules of quantum physics to keep information safe. But an attacker may also have quantum tools. This thesis proves that some methods stay safe even then. The author builds a new mathematical tool for taking random samples in the quantum world. The thesis also gives new methods for checking that a message is real and for logging in safely with a password.",
+   "checked": false
+  },
+  "link": "https://leiden.primo.exlibrisgroup.com/nde/fulldisplay?&context=L&vid=31UKB_LEU:NDE_Scholarly_Repository&search_scope=Scholarly_Publications&tab=Scholarly_Publications&lang=en&docid=alma9940744534102711",
+  "pdf": "https://ir.cwi.nl/pub/20692/20692B.pdf",
+  "cover": "covers/niek-bouman.jpg",
+  "back": "#3d4730",
+  "ink": "light",
+  "portrait": "portraits/niek-bouman.webp"
+ },
+ {
+  "author": "Jop Briët",
+  "slug": "jop-briet",
+  "title": "Grothendieck inequalities, nonlocal games and optimization",
+  "year": 2011,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman"
+  ],
+  "abstract": "Motivated by applications in quantum information theory and optimization we introduce new variants of a celebrated inequality known as Grothendieck’s Inequality. In quantum information theory we apply these mathematical tools to study of one of the most surprising and counter-intuitive predictions of Quantum Mechanics: entanglement. In optimization we use them to determine the precision of efficient approximation algorithms for geometric problems that arise naturally from the study of entanglement and from models of interacting particles considered in classical statistical physics.\n\nIn this thesis we study entanglement by using nonlocal games. A nonlocal game involves two or more players who are not allowed to communicate with each other, but do interact with an extra party usually referred to as the referee. At the start of the game the referee asks each of the players a question, upon which they each reply to him with some answer. Then, the referee decides if the players win or lose based only on the questions he asked and the answers he received. The players know in advance what set of answers would cause them to win, which of course is their objective. The catch is that they only know the question that was aimed directly at them and not any of the other players’ questions. The players thus don’t play against each other, but should somehow coordinate their strategies to win.\n\nThe best course of action for players who live in a world described by Classical Mechanics is the simplest kind imaginable: just fix in advance what to answer to each question. In a Quantum Mechanical world, more sophisticated strategies sometimes give better results. Each player can base their answer on the outcome of an experiment done on some private physical system. The key feature of such strategies is that they can cause the players to produce answers that are correlated in ways that are impossible in a classical world. In this case the players are said to be entangled.\n\nThe fact that Quantum Mechanics predicts such phenomena was used by Einstein, Podolski and Rosen in 1935 to argue that this theory must be incomplete, as surely entanglement could not be part of a reasonable description of Nature. Surprisingly, experiments done by Aspect et al. in the 1980’s gave convincing evidence that the world we live does in fact allow for this!\n\nEntanglement is usually mathematically described by a vector in a Hilbert space. Such a vector is referred to as a state. We prove that for a large class of states the advantage gained by using them over classical strategies in the simplest nonlocal games involving three or more players is severely limited. As a bonus, the proof of this result can also be used to resolve a 35-year-old open problem posed by Varopoulos in an area of mathematics called Banach Space Theory.\n\nOptimization means searching over a huge collection to find some element with the best characteristics. One example of such a problem is finding a strategy for a nonlocal game that maximizes the players’ winning probability. An second example is to optimize the directions of the magnetic fields of interacting particles so as to minimize the total energy of the system.\n\nThe most-studied optimization problems usually have a combinatorial nature. For example, finding an optimal classical strategy for a nonlocal game or minimizing the energy of interacting particles described by the celebrated Ising model amounts to searching over a discrete set of possibilities. In this thesis we consider problems with a more geometric flavor. To picture this, imagine searching for some optimal configuration of a finite number of points on a three-dimensional sphere. Such problems arise naturally from the study of entanglement when one restricts the amount of entanglement players are allowed to use in nonlocal games, and from the Heisenberg model of interacting particles in classical statistical physics.\n\nUnfortunately, most problems like the ones described above likely can’t be solved exactly by any computer in a reasonable amount of time. If time is of the essence, then the next-best thing is to search for any solution that is near-optimal, but can be found in a reasonable amount of time. We will use new variants of Grothendieck’s Inequality to analyze algorithms that offer exactly such an alternative for the geometric optimization problems mentioned above.",
+  "summary": {
+   "accessible": "In a nonlocal game, players who cannot communicate each answer a question from a referee. Players who share entanglement can sometimes coordinate better than any classical strategy allows. This thesis develops new versions of a mathematical result, Grothendieck's inequality, and uses them in two ways. The author proves that for a large class of entangled states the advantage in the simplest games with three or more players is strongly limited; the same proof settles a 35-year-old question in pure mathematics. The inequalities also show how close fast approximation algorithms get for certain geometric optimisation problems. All results are mathematical proofs.",
+   "simple": "Imagine a game where the players cannot talk. A referee asks each player a question. With entanglement, a quantum link, players can sometimes give better-matched answers. This thesis builds new mathematical tools. With them, the author shows that in many games with three or more players, this quantum gain is small. The same tools show how good some fast computer methods are for hard search problems.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/8c562d32-44ed-491b-aa95-3013b8a9f5c4",
+  "pdf": "https://pure.uva.nl/ws/files/1274343/97115_thesis.pdf",
+  "cover": "covers/jop-briet.jpg",
+  "back": "#fefefc",
+  "ink": "dark",
+  "portrait": "portraits/jop-briet.webp"
+ },
+ {
+  "author": "Oleksandr Zozulya",
+  "slug": "oleksandr-zozulya",
+  "title": "Entanglement and order in many-body systems",
+  "year": 2011,
+  "before_qusoft": true,
+  "supervisors": [
+   "K. Schoutens"
+  ],
+  "abstract": "Condensed matter physics explores the properties of interacting many-body systems such as solids, liquids or gases. The ultimate description relies on the quantum mechanical Schroedinger equation, which governs the behavior of individual particles. The Schroedinger equation is hard to solve even for few-body systems, as usually exemplified in text books on a molecule of hydrogen (4 particles) or on an atom of He (3 particles). In hindsight, we are fortunate, that there is an exact analytical solution for electron levels in hydrogen atom (Balmer series), as otherwise we might have never been able to reverse-engineer the quantum world to obtain the Schroedinger equation in the first place. To describe properties of matter on a human scale we have to deal with the number of particles of the order of $10^{23}$. As exact solution of the equations is not feasible, good approximation techniques are needed. Indeed, the two most cited papers in physics addressed this issue and resulted in density functional theory, which earned its inventor the Nobel Prize in chemistry in 1998. Ironically, the same year the Nobel Prize in physics was awarded for the fractional quantum Hall effect, a physical system with exotic properties such as fractionalized charge, that probably could have never been predicted to exist by theoretical calculations or approximations alone. In this case one has to resort to brute-force numerical methods to establish the nature of the ground states and elementary excitations, many of which are still under debate. Therefore new methods are welcomed to elucidate the mysteries of such exotic systems. One possible insight comes from the fundamental feature of quantum mechanics named entanglement, which is sometimes referred to as spooky action at a distance. The general idea behind this approach is that one can learn a lot about a physical system by studying the amount of entanglement in its ground state.\n\nThe comprehensive overview of the entanglement entropy in condensed matter systems is given in the first chapter, where we present the most relevant results for this thesis. We describe the scaling of the entanglement entropy with the subsystem size known as the area law. We briefly discuss the universal features in the entanglement entropy in various systems in one, two, and three spatial dimensions. Then we introduce the notion of topological entanglement entropy, which is a universal sub-linear correction in the scaling of the entanglement entropy for systems in topological phase.\n\nIn the second Chapter we study an example of topological state - Laughlin wave function on a sphere. The wave functions are known analytically; however in order to compute entanglement numerical calculations are necessary. Although a very limited system sizes are available from numerics, we manage to find the scaling of the entanglement entropy with the subsystem size in accordance with the area law. Moreover the correction to this scaling can be extracted and is found to be in agreement with the prediction for the topological phase. The main purpose of this Chapter is to explore whether the concepts introduced in the first Chapter can be applied for numerically available system sizes describing the quantum Hall effect. It is worth to note that the Laughlin state is believed to be realized in experiments.\n\nIn the third chapter we consider further implications of the entanglement in more intricate quantum Hall wave functions. The Moore-Read trial wave function describes exotic phases of matter, where the elementary excitations have not only fractional charge but also obey non-Abelian permutation statistics. As in the previous Chapter we find good agreement of the scaling of entanglement obtained from the numerics and expected from theoretical results in Chapter 1. We also pay attention to the spectrum of the entanglement, i.e. the spectrum of the reduced density matrices. Then we discuss entanglement between particles, rather than spatial regions, and note that this type of entanglement is an indicator of fractional statistics. The entanglement between particles is discussed in more detail in the Chapter 5.\n\nIn the fourth Chapter we turn to realistic wave functions, which are ground states of the Hamiltonian of electrons in magnetic field. Contrary to the previous chapters, we dont assume that the wave functions correspond to compressible Fermi liquids or incompressible states with topological order. We find that it is more difficult to extract linear scaling of the entanglement entropy. However it is possible to trace the phase transition across a quantum critical point with the help of entanglement and we notice how the scaling of entanglement is modified as we sweep from presumably Laughlin or Moore-Read state into a different phase. We also study the entanglement spectrum, which changes dramatically across the phase transitions from topological to non-topological phases in quantum Hall systems.\n\nIn the fifth Chapter we consider a different type of entanglement. Instead of dividing the system into spatial regions, we consider entanglement between particles. This appeals to a classical picture of matter, where each particle has a label attached to it. However in the quantum world the particles are indistinguishable and have either bosonic of fermionic statistics. Thus the complete wave function has to be either symmetrical or antisymmetrical with respect to particle permutations. This complicates the calculation of entanglement and one has to separate carefully the trivial entanglement due to (anti-)symmetrization from the contribution due to effects of interactions. We consider a number of simple many-body systems in different phases, and study the properties of the entanglement in particle partitioning. We find that close to a critical point the entanglement is increasing and in topological phases the entanglement is related to the quasiparticle counting statistics. Moreover an analog of the area law for entanglement entropy in particle partitioning is proposed, which suggests that the ground state of local hamiltonians occupy only a corner of the available Hilbert state, like in the case of spatial entanglement.",
+  "summary": {
+   "accessible": "Materials made of very many interacting quantum particles are hard to describe, and some, such as fractional quantum Hall systems, behave in ways that calculations alone struggle to predict. This thesis tests whether the amount of entanglement in a system's lowest-energy state can reveal what phase of matter it is in. Using numerical calculations on small systems, the author finds that entanglement scales as theory predicts, carries a signature of topological order, and changes clearly across phase transitions. The thesis also studies entanglement between particles rather than between regions of space.",
+   "simple": "Solids, liquids and gases contain huge numbers of tiny particles. Physicists cannot solve the equations for all of them. This thesis tests another way to learn about such systems: measuring entanglement, a quantum link between parts of the system. Using computer calculations, the author shows that entanglement can show which state of matter a system is in, and when that state changes.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/0a17c5c0-90a7-4ca1-8d34-df9ad609d319",
+  "pdf": "https://pure.uva.nl/ws/files/1490239/91659_thesis.pdf",
+  "cover": "covers/oleksandr-zozulya.jpg",
+  "back": "#ffffff",
+  "ink": "dark",
+  "portrait": null
+ },
+ {
+  "author": "Falk Unger",
+  "slug": "falk-unger",
+  "title": "Noise in quantum and classical computation & non-locality",
+  "year": 2008,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman"
+  ],
+  "abstract": "Quantum computers seem to have capabilities which go beyond those of classical computers. A particular example which is important for cryptography is that quantum computers are able to factor numbers much faster than what seems possible on classical machines.\n\nIn order to actually build quantum computers it is necessary to build sufficiently accurate hardware, which is a big challenge. In part I of this thesis we prove lower bounds on the accuracy of the hardware needed to do quantum computation. We also present a similar result for classical computers.\n\nOne resource that quantum computers have but classical computers do not have is entanglement. In Part II of this thesis we study certain general aspects of entanglement in terms of quantum XOR games and non-locality.\n\nPart I: Limits on fault-tolerant quantum and classical computation\n\nAt the moment, quantum algorithms are only fast in theory, since we are a long way from building quantum computers large enough to solve large instances of these problems (for example factoring). This is despite a decade-long, concentrated effort by experimental physicists. The reason is that quantum computers must be built from very small components in order to exhibit quantum properties. Building and operating on these small components is hard and is probably not possible without faults. Faulty devices are also called “noisy”. Rather surprisingly, it is still possible to do arbitrarily long quantum computation even if the physical devices used are not perfect but slightly noisy. Unfortunately, currently it is not possible to build hardware which is accurate enough to allow large-scale quantum computation.\n\nIn Part I of this thesis we show minimum requirements on the accuracy of quantum hardware, by proving upper bounds on the amount of noise tolerable for fault-tolerant quantum computation. We show the following upper bounds on the tolerable noise rates:\n\n1. In Chapter 3 we consider circuits with arbitrary gates of fan-in at most $k$, in which each wire is subject to more than $1-1/k$ erasure noise. We show that already after a constant amount of time it is impossible to distinguish any two input states by a single-qubit measurement. For polynomial-size circuits it is impossible to distinguish any two input states by measurements on all qubits after time which is logarithmic in the size of the circuit.\n\n2. In Chapter 4 we analyze circuits built with almost perfect 1-qubit gates and arbitrary $k$-qubit unitaries in which all incoming wires are subject to at least $1-\\sqrt{2^{1/k}-1}$ depolarizing noise. We show that after a constant amount of time no single-qubit measurement can distinguish any two input states. For the interesting case $k=2$ our bound becomes 35.7%.\n\n3. In Chapter 5 we show that circuits built from stabilizer gates (Hadamard gate, Phase gate, CNOT, measurements in the computational basis, preparation of computational basis states) and arbitrary 1-qubit gates with depolarizing noise at least $\\hat\\theta=(6-2\\sqrt{2})/7\\approx 45\\%$ can be efficiently simulated on a classical computer.\n\nIn Chapter 4 we analyze noise in classical computation. Faults happen in modern computers so rarely that the problem of error-correction and fault-tolerance is nowadays essentially ignored. However, if hardware engineers continue to shrink the size of components, faults will become more likely and it will be important to know how to cope with them.\n\n4. We show a threshold on the tolerable noise for computation by formulas with $\\epsilon$-noisy 2-input gates: Fault-tolerant classical computation is possible if and only if $\\epsilon<(3-\\sqrt{7})/4\\approx 8.856\\%$.\n\nPart II: Entanglement and interactive proof systems\n\nIn Chapter 7 we consider games played between a verifier and two (possibly entangled) provers. In these games the verifier sends questions to the provers, who win if they can answer them correctly. Games like this are the basis of all multi-prover interactive proof systems, but they also have many other applications. For certain types of games, namely quantum XOR games, we show a perfect parallel repetition theorem: The provers’ optimal success probability for winning a collection of quantum XOR games played simultaneously is equal to the product of the success probabilities of the individual games. This is a remarkable feature of entanglement, since for classical XOR games a perfect parallel repetition theorem does not hold. Further, quantum XOR games are the only kind of games which are currently known to obey a perfect parallel repetition theorem.\n\nIn Chapter 8 we analyze a different feature of entanglement. Entanglement allows two separated parties to exhibit non-local correlations, i.e., correlations that cannot be explained by any classical local hidden-variable model. Tsirelson proved an upper bound on the strength of these correlations, using the quantum mechanical axioms. His bound is known as Tsirelson’s bound. In Chapter 8 we show that a weaker version of Tsirelson’s bound can be derived from some general plausible assumptions about the world, without invoking the axioms of quantum mechanics themselves. The aim is to explain certain surprising consequences of quantum mechanics, using plausible assumptions about the real world. The assumption we use is the following: Two separated parties Alice and Bob need to communicate in general more than one bit, in order to compute the value of a Boolean function for which some of the input bits are in Alice’s possession and some in Bob’s.",
+  "summary": {
+   "accessible": "Quantum computers need very accurate hardware, as their tiny components are easily disturbed by noise. This thesis asks how much noise is too much. Using proofs, the author sets upper limits on the noise that reliable quantum computation can tolerate in several circuit models and finds the exact limit for one model of noisy classical circuits. A second part studies entanglement through games between separated players. It shows that one type of game repeats perfectly when many copies are played at once, and derives a weaker form of a known limit on quantum correlations from a plausible assumption about communication.",
+   "simple": "Quantum computers are built from tiny parts that make errors. This thesis asks: how many errors are too many? The author proves that above a certain error level, a noisy quantum computer forgets its input, or an ordinary computer can do the same job. The thesis also finds the exact limit for one kind of noisy ordinary computer. A second part studies entanglement, a quantum link, using games.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/d3f35081-81ee-42b8-bfbe-666ec9885e78",
+  "pdf": "https://pure.uva.nl/ws/files/4273125/57186_thesis.pdf",
+  "cover": "covers/falk-unger.jpg",
+  "back": "#000000",
+  "ink": "light",
+  "portrait": "portraits/falk-unger.webp"
+ },
+ {
+  "author": "Stephanie Wehner",
+  "slug": "stephanie-wehner",
+  "title": "Cryptography in a quantum world",
+  "year": 2008,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman"
+  ],
+  "abstract": "Quantum computing had a profound impact on cryptography. Shor’s discovery of an efficient quantum algorithm for factoring large integers implies that nearly all existing classical systems based on computational assumptions can be broken, once a quantum computer is built. It is therefore imperative to find other means of implementing secure protocols. This thesis aims to contribute to the understanding of both the physical limitations, as well as the possibilities of cryptography in the quantum setting. To this end, we first investigate two notions that are crucial to the security of quantum protocols: uncertainty relations and entanglement. How can we find good uncertainty relations for a large number of measurement settings? How does the presence of entanglement affect classical protocols? And, what limitations does it impose on implementing quantum protocols? Finally, can we circumvent some of those limitations using realistic assumptions?\n\nInformation in Quantum States\n\nIn this part, we start by investigating how to extract information from quantum states. One of the most basic tasks is the discrimination of quantum states. Given an ensemble of known quantum states, which one do we hold in our hands? We study a variant of this problem which is of central importance for the security of protocols in the bounded-quantum-storage model. Here, we are given additional information about the state after the measurement or, more generally, after a quantum memory bound is applied. We prove general bounds on the success probability which answer in the negative the question whether deterministic privacy amplification is possible in all known protocols in the bounded-quantum-storage model. To this end, we introduce a general algebraic framework which allows us to solve this problem for any set of states and provide two explicit examples.\n\nWe then turn to examine entropic uncertainty relations, which are an alternative way to state Heisenberg’s uncertainty principle. They are frequently a more useful characterization, because the “uncertainty” is lower bounded by a quantity that does not depend on the state to be measured. Recently, entropic uncertainty relations have gained importance in the context of quantum cryptography in the bounded-storage model, where proving the security of protocols ultimately reduces to bounding such relations. Proving new entropic uncertainty relations could thus give rise to new protocols. Such relations are known for two or $d+1$ mutually unbiased measurements. We prove tight entropic uncertainty relations for measurements in a large number of specific mutually unbiased bases (MUBs) in square dimensions. In a similar way, we show that such MUBs are unsuitable for locking classical correlations in quantum states: Using 2 or all of them does not increase the locking effect.\n\nOur result shows that one needs to be careful about thinking of “maximally incompatible” measurements as being necessarily mutually unbiased. But what properties do measurements need to have in order to give strong uncertainty relations? We find very strong uncertainty relations from the generators of a Clifford algebra. In particular, we prove that for k such anti-commuting observables $X_1, \\ldots, X_k$ we obtain optimal uncertainty relations for the Shannon entropy and nearly optimal relations for the collision entropy. Our results have immediate applications to quantum cryptography in the bounded-storage model.\n\nEntanglement\n\nIn this part, we investigate the intriguing notion of quantum entanglement. We demonstrate how to find the optimal quantum strategies for correlation inequalities where each measurement has exactly two outcomes using semidefinite programming. As an example, we prove a tight upper bound for a well-known generalized CHSH inequality.\n\nFurthermore, we consider how a classical two-prover interactive proof system changes if the provers are allowed to share entanglement. In this setting, a polynomial time bounded verifier is allowed to ask questions to two unbounded provers, who are trying to convince the verifier of the validity of a specific statement, even if the statement is false. The provers may thereby agree on any strategy ahead of time, but can no longer communicate once the protocol starts. Surprisingly, it turns out that, when the provers are allowed to share entanglement, it is possible to simulate two such classical provers using a single quantum prover. This indicates that entanglement among provers truly weakens the proof system, and provides an example of how classical systems can be affected, even if we only allow a very limited set of quantum operations.\n\nApplications to Cryptography\n\nIn this part, we consider the consequences of uncertainty relations and entanglement in quantum systems to cryptography. Traditional cryptography is concerned with the secure and reliable transmission of messages. With the advent of widespread electronic communication and the internet, however, new cryptographic tasks have become increasingly important. We would like to construct secure protocols for electronic voting, online auctions, contract signing and many other applications where the protocol participants themselves do not trust each other. main focus is on two primitives, which form an important building block for constructing multi-party protocols: bit commitment and oblivious transfer. Classical protocols for such problems are usually based on computational assumptions which do not stand up to a quantum computer. Unfortunately, it has been shown that even quantum computers do not help in this case and that perfect quantum bit commitment and oblivious transfer are impossible. In the face of such negative statements, what can we still hope to achieve?\n\nGiven that perfect bit commitment is impossible, perhaps we can alter the task slightly and obtain useful protocols? Here, we considered commitments to an entire string of bits at once, when the attacker has unbounded resources at his disposal. Evidently, if perfect bit commitment is impossible, perfect string commitment is also impossible as well. However, we showed that we can obtain non-trivial quantum protocols, where the participants have a small ability to cheat. To this end, we introduced a framework for the classification of string commitment protocols. In particular, we proved that the measure of information is crucial to the security: For a very strong notion of security, we showed that even slightly imperfect quantum string commitments are also impossible. Nevertheless, we showed that for a weaker measure of information we can indeed obtain nontrivial protocols, which are impossible in a classical world.\n\nLuckily, it turns out that we can implement oblivious transfer if we are willing to assume that storing qubits is noisy. We introduce the model of noisy quantum storage, which is similar to the model of bounded quantum storage. Here, however, we consider an explicit noise model inspired by present day technology. If the honest parties can perform perfect quantum operations, then we show that the protocol is secure for any amount of noise. In case the honest participants are only able to perform noisy operations themselves, we analyze a practical protocol that can be implemented using present-day hardware. We show how to derive explicit tradeoffs between the amount of storage noise, the amount of noise in the operations performed by the honest participants and the security of the protocol. Here, the very problem that makes it so hard to implement a quantum computer can actually be turned to our advantage.",
+  "summary": {
+   "accessible": "A large quantum computer would break most of the encryption in use, so other ways to secure communication are needed. This thesis studies two quantum features that security proofs rely on: uncertainty relations, which limit what measurements can reveal, and entanglement, a strong correlation between particles. The author proves new uncertainty relations and shows how entanglement can weaken classical proof systems. For tasks between parties who distrust each other, such as oblivious transfer, the thesis proves security under the realistic assumption that storing quantum information is noisy. The results are mathematical proofs and protocol analyses.",
+   "simple": "A big quantum computer could break most codes used at the time. This thesis asks how to keep information safe in a quantum world. It studies two quantum effects: limits on what a measurement can show, and strong links between particles. It then uses them for tasks between people who do not trust each other. One idea: if storing quantum data is noisy, a cheater cannot keep what they need.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/c7eb69fd-65bc-4255-a05c-bc052f2d210b",
+  "pdf": "https://pure.uva.nl/ws/files/4215819/53584_thesis.pdf",
+  "cover": "covers/stephanie-wehner.jpg",
+  "back": "#ffffff",
+  "ink": "dark",
+  "portrait": "portraits/stephanie-wehner.webp"
+ },
+ {
+  "author": "Troy Lee",
+  "slug": "troy-lee",
+  "title": "Kolmogorov Complexity and formula size lower bounds",
+  "year": 2006,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman"
+  ],
+  "abstract": "Part I: Kolmogorov Complexity\n\nRandomness is a concept familiar to all of us in our daily lives. From changing weather, to the flip of a coin, to the shuffle function on a music player—random is frequently used to describe the behavior of things around us. Despite this familiarity, or perhaps because of it, randomness eluded a precise mathematical definition until the second half of the twentieth century.\n\nIn the early 1960’s, independently and within a few years of each other, Solomonoff, Kolmogorov, and Chaitin all developed an elegant way to capture when a sequence of events (viewed as a string with letters 0 and 1) is random. They proposed the following definition: the complexity of a string is the length of a shortest description of that string. Here a description can be thought of as a computer program. We will refer to this measure as the Kolmogorov complexity of the string, and write $C(x \\mid y)$ for the length of a shortest program for x which is allowed to make use of the advice string y. While the string 01010101010101010101010101010101010101010101010101 has 50 symbols, it has a much shorter description saying “write 25 times the string 01”. On the other hand, a random string will have no structure which would allow a description of length shorter than the length of the string itself. Thus we call a string random if its Kolmogorov complexity is at least as large as its length.\n\nFar beyond its initial purpose, Kolmogorov complexity has become an important tool in theoretical computer science, witnessing many diverse applications. Almost all of the applications use at least one of the following four fundamental theorems, which we call the ‘four pillars’ of Kolmogorov complexity:\n\n• Incompressibility: There is a random string of length n, for each n.\n\n• Language compression: Any element from a computable set A can be given a description of size about $\\log |A|$.\n\n• Source compression: Any element x in the support of a computable probability distribution P can be given a description of size about $-\\log P(x)$.\n\n• Symmetry of information: The information which a string x contains about a string y is about the same as that which y contains about x. In symbols: $C(x) - C(x \\mid y) = C(y) - C(y \\mid x)$.\n\nA drawback to Kolmogorov complexity is that it is uncomputable, and this sometimes limits its range of applicability in computational complexity. One way to scale down the theory into the feasible domain is to require that the program which prints the string x does so in time which is polynomial in the length of x. The main goal of the first part of this thesis is to see what analogues, if any, of the four pillars hold in this resource bounded setting.\n\nThe first pillar holds unchanged in the resource bounded setting, as adding restrictions to a program can only make it harder to describe a string.\n\nThings get much more interesting beginning with the second pillar. The most natural resource bounded analog of the second pillar is the statement: every element x in a set A decidable in polynomial time has a description of length $\\log |A|$ from which x can be generated in polynomial time. This statement is unlikely to hold, however, as it implies the polynomial hierarchy collapses. We show that going up one step higher in the polynomial hierarchy, however, we can find an analog of the second pillar. That is, we are able to show every element x in a set A which can be decided in nondeterministic polynomial time can be given a description of length about $\\log |A|$ from which x can be generated in nondeterministic polynomial time.\n\nThe most natural analogue of the third pillar would be: any element in the support of a polynomial time computable probability distribution P can be given a description of length about $-\\log P(x)$. We show that such a statement implies that randomized algorithms (those which can make decisions based on the outcome of a coin flip) can be simulated by deterministic algorithms (which cannot flip coins). Precisely, we show this implies $\\mathrm{BPP} \\neq \\mathrm{EXP}$. Recently, Antunes and Fortnow were able to prove a weak converse to this statement: under a derandomization assumption the polynomial time version of the third pillar holds. With these results we have a fairly complete picture of the third pillar in the resource bounded setting.\n\nFinally, we turn to symmetry of information which is perhaps the most tricky of the four pillars in the resource bounded domain. To prove symmetry of information seems to require the ability to do both language compression and source compression. We are only able to prove a weaker version of symmetry of information which says that the polynomial time complexity of the pair (x, y) is larger than the randomized nondeterministic complexity of x plus the randomized nondeterministic complexity of y given x. This result is tight with respect to relativizing techniques—we give an oracle where even the nondeterministic complexity of (x, y) is nearly twice as large as the nondeterministic complexity of x plus the nondeterministic complexity of y given x.\n\nPart II: Formula Size Lower Bounds\n\nOne of the most famous, important, and yes, most difficult problems in complexity theory is the question of whether or not P is equal to NP. P is the set of all problems that can be solved in time polynomial in the length of the problem description; NP is the set of problems which can be efficiently verified, meaning that if someone gives you the solution to the problem you can indeed check that it is a proper solution in polynomial time. Currently, it is widely believed that P is not equal to NP. To prove this one must show a lower bound, that is give an example of a problem in NP that requires more than polynomial time to solve. A well-studied approach to doing this is through circuit complexity, where a circuit consists of AND, OR, and NOT gates. The current best lower bound on the size of a circuit required to compute a function in NP is $5n$. As the task of proving larger circuit lower bounds seems extremely difficult, we look instead at the weaker model of formula size, where a formula is simply a circuit where every gate has exactly one outgoing wire. The current best lower bound for formula size is $n^3$.\n\nWe give a new algebraic approach to proving formula size lower bounds. We are not able to improve on the best $n^3$ lower bound; we are, however, able to simultaneously generalize several techniques from the literature and show them as part of an overarching theory. We also give some concrete examples of functions for which our new method is able to provably do better than previous methods. Perhaps the most interesting consequence of our results, however, is that it gives evidence for a connection between the formula size of a function and its complexity in a very different model, namely its quantum query complexity. In fact, our results can be taken as evidence for the provocative conjecture that the square of the quantum query complexity of a function lower bounds its formula size.",
+  "summary": {
+   "accessible": "When is a string of bits random? Kolmogorov complexity answers: when no program much shorter than the string can print it. The first part of this thesis asks which basic facts about this measure survive when programs must also run fast, proving some and showing that others would have far-reaching consequences. The second part develops a new algebraic method for proving that some functions need large formulas. It unifies earlier methods and gives evidence for a link with quantum query complexity, the number of input look-ups a quantum algorithm needs. The work is mathematical and mostly about classical computing.",
+   "simple": "When is a string of 0s and 1s random? One answer: when no short computer program can print it. This thesis studies this idea for programs that must also be fast. It also studies how big a formula must be to compute some tasks. Most of the work is about ordinary computers. One part finds a link with quantum computers. All results are mathematical proofs.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/484b7656-a24e-4b89-9272-3888d8642535",
+  "pdf": "https://pure.uva.nl/ws/files/3963837/38923_Lee_thesis.pdf",
+  "cover": "covers/troy-lee.jpg",
+  "back": "#ffffff",
+  "ink": "dark",
+  "portrait": "portraits/troy-lee.webp"
+ },
+ {
+  "author": "Robert Špalek",
+  "slug": "robert-spalek",
+  "title": "Quantum Algorithms, Lower Bounds, and Time-Space Tradeoffs",
+  "year": 2006,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman"
+  ],
+  "abstract": "Computers are physical objects and thus obey the laws of physics. Although most computers nowadays are built of semiconductors governed by quantum effects, their computation is purely classical—at every instant the computer is in a classical state and the computational steps are fully deterministic. Quantum computers, on the other hand, are computers that exploit quantum effects to do computation. Unlike classical computers, they can be at any moment in a superposition of many classical states and perform several computations is parallel.\n\nIn 1994, Peter Shor [Sho97] discovered a ground-breaking polynomial time quantum algorithm for factoring integers, a task for which no efficient classical algorithm is known. In 1996, Lov Grover [Gro96] discovered another important quantum algorithm that searches an unordered database quadratically faster than the best classical algorithm. Since then, the field of quantum computing has significantly matured. Other important discoveries have also been made in related fields, such as quantum cryptography, information theory, error-correction codes, and communication complexity.\n\nIn this thesis, we investigate the power of quantum computers. We present a few new quantum algorithms, improve some quantum lower-bound techniques, and prove the first known quantum time-space tradeoffs.\n\nPart I: Algorithms\n\nThe quantum search algorithm by Grover is very versatile and can be used as a subroutine in many classical algorithms. We apply it on the following graph problems: finding a maximal matching and finding a maximal flow in an integer network. In both cases we obtain a quantum algorithm that is polynomially faster than the best known classical algorithm.\n\nWe address the question of verifying whether a product of two $n \\times n$ matrices is equal to a third one. This is easier than computing the actual matrix product, as there is a classical algorithm that runs in time $O(n^2)$, whereas the best known matrix multiplication algorithm runs in time $O(n^{2.376})$. Our quantum algorithm for matrix verification is polynomially faster and it runs in time $O(n^{5/3})$.\n\nPart II: Lower Bounds\n\nA lower bound is a proof that some task cannot be computed faster than some value. There are two basic techniques for proving quantum lower bounds. The adversary method is based on the complexity of distinguishing inputs that lead to different outcomes. It is easy to use and often gives tight bounds, for example for the unordered search problem. The polynomial method expresses the acceptance probability of a quantum algorithm as a low-degree polynomial, and then bounds on the degree of approximate polynomials imply lower bounds on quantum computation. It is generally harder to apply, but gives stronger bounds for some problems.\n\nMany variants of the adversary method were known. We clean up the forest and prove that there is just one method and that all known variants are just different formulations. We prove a limitation on the adversary bound in terms of the certificate complexity of the function, which implies that most of the best known lower bounds that are not known to be tight cannot be further improved by this method. We give tight formulas for adversary bounds of composite functions.\n\nWe prove tight direct product theorems for several functions. A DPT states that the complexity of computing k independent instances of a problem is k times bigger than the complexity of computing one instance, even if we are willing to only succeed with exponentially small probability. A statement of this type sounds plausible, however it is very hard to prove in general.\n\nBesides answering a fundamental question about computation, DPT’s have applications to time-space tradeoffs. A time-space tradeoff is a relation between the running time and space complexity of an algorithm. We use the polynomial method to obtain a DPT for the OR function, and apply it to get tight quantum time-space tradeoffs for sorting (in particular $T^2 S = \\Theta(n^3)$, whereas $TS = \\Theta(n^2)$ classically) and Boolean matrix multiplication, and also several communication-space tradeoffs. These are the first such tradeoffs known for quantum computation. We develop a new generalization of the adversary method in terms of analysis of subspaces of density matrices, and use it to get a DPT for all symmetric functions (functions that only depend on the number of ones in the input). This DPT implies a time-space tradeoff for the evaluation of solutions of systems of linear inequalities, which is tight and polynomially better than classical when the space is small.",
+  "summary": {
+   "accessible": "To know what quantum computers can really do, one needs both fast algorithms and proofs that nothing can do better. This thesis provides both. It gives quantum algorithms that beat the best known classical ones for some graph problems and for checking whether one matrix is the product of two others. It shows that the many versions of the 'adversary method' for proving limits are in fact one method, and proves the first trade-offs between running time and memory for quantum computers, for example for sorting. All results are mathematical proofs.",
+   "simple": "What can quantum computers do faster, and what can they not do faster? This thesis gives new quantum methods for some tasks, such as checking a multiplication of large tables of numbers. It also proves limits. For example, it shows how time and memory must be balanced when a quantum computer sorts a list. All results are mathematical proofs.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/b26be760-e7e9-44ce-8136-3251ad593b10",
+  "pdf": "https://pure.uva.nl/ws/files/4006540/41969_Spalek.pdf",
+  "cover": "covers/robert-spalek.jpg",
+  "back": "#ffffff",
+  "ink": "dark",
+  "portrait": "portraits/robert-spalek.webp"
+ },
+ {
+  "author": "Hein Röhrig",
+  "slug": "hein-rohrig",
+  "title": "Quantum query complexity and distributed computing",
+  "year": 2004,
+  "before_qusoft": true,
+  "supervisors": [
+   "H.M. Buhrman",
+   "P.M.B. Vitanyi"
+  ],
+  "abstract": "In complexity theory, the strengths and limitations of computers are investigated on abstract models of computation. The choice of these models is governed by three considerations: (1) how close is the model to existing computers or computers that could be built in principle? (2) how well does it lend itself to proving interesting properties of computers? (3) how elegant is the model mathematically?\n\nQuantum computation appeals to all three criteria. In functional analysis, quantum mechanics has a beautiful mathematical underpinning, which benefits quantum computing through new applications of linear algebra and matrix analysis. Nowadays it is a widely-held belief that the physical theory of \"quantum mechanics\" describes reality accurately at very small scales of length, time, and energy. Where classical probabilistic Turing machines may be seen as capturing the power of computers operating according to finite-precision classical physics, the computational model of \"quantum circuits\" aims at modeling what realistic computers in a quantum mechanical world can do. Query complexity, a variant of time complexity, has a close analogue for quantum computers; as in the classical case, our current mathematical tools are more amenable to this restricted complexity measure than to general time complexity. Sometimes, the implications of quantum query complexity shed new light even on classical complexity theory.\n\nThis thesis investigates the properties and applications of quantum query complexity and the related quantum communication complexity. It suggests new cryptographic protocols and new experiments for probing the predictions of quantum mechanics. Quantum states are very sensitive; this thesis examines ways to deal with imperfections and errors in a number of different situations.\n\nQuantum Query Complexity\n\nIn query complexity, we are concerned with the number of times an algorithm reads a bit of the input. A celebrated result of quantum computing is Grover's algorithm, which allows an entry to be found in an unordered database with significantly less queries than any classical computer. We studied quantum search and its generalizations, particularly in the presence of imperfections.\n\n\"Property testing\" drew a lot of attention in recent years, both for theoretical applications in relation to the PCP theorem and for practical applications on large data sets. The premise is that the input is so large that it is not possible to consider it in its entirety, only sampling from it in a few places instead. For most properties, sampling is not sufficient to tell whether the input has that property or whether it differs from each input with the property in at least a single bit position. However, a relaxed notion of checking the property is still conceivable: we would like to know whether or not the input differs from all inputs with the property in many bit positions. \"Property testing\" is concerned with algorithms that distinguish between the two cases of being close or far from having a given property. Our contribution is to translate this concept to quantum computation: we prove that quantum computers can be exponentially more efficient than classical computers in testing certain properties and we also show that there are properties that are untestable even by quantum computers.\n\nBuilding quantum computers will be a challenging task. Errors in the quantum memory and quantum operations are unavoidable and need to be dealt with either by hardware or software. Surprisingly, a chain of landmark results showed that the fragile quantum state can be protected against certain types of errors and it is even possible to perform fault-tolerant quantum computation, provided the noise is of a certain kind and the noise level not too high. Together with recent experimental progress, this improves the prospects of real-world quantum computers. However, the fault-tolerance constructions do not apply to errors in the query-complexity model caused by distorted access to the input. Errors of this type are of interest because they arise in the composition of quantum algorithms and because they model real-world errors in accesses to quantum memory. We formalize the notion of noisy access to the input by proposing models of \"noisy queries.\" We show that for one such model (which corresponds to composing quantum algorithms) some quantum algorithms can actually be made robust at less cost than classical algorithms. We also extend the concept of approximating Boolean functions by polynomials to polynomials \"robustly\" approximating Boolean functions.\n\nQuantum Distributed Computing\n\nNonlocality is a feature of quantum mechanics that was not explicitly incorporated by its inventors. Instead, Einstein and others remarked that the axioms of quantum mechanics predict that two distant objects can be in an \"entangled\" state where manipulations of one object have an immediate effect on the other object, no matter how far apart. At first, this effect was discounted as an unrealistic and hence undesirable property, which needed to be eliminated by a theory replacing or amending quantum mechanics. When it became technologically feasible to conduct experiments probing nonlocality, it turned out that the results do not contradict quantum mechanics. However, due to the difficulty of conducting such experiments, they are hampered by practical limitations. Taking noise into account, it is possible to explain the data from all experiments conducted up to now using contrived classical theories. Consequently, there is an ongoing effort to devise and conduct \"loophole-free\" nonlocality experiments. Using combinatorial techniques developed originally for the study of quantum communication complexity, we present abstract experiments that are resistant to the most common type of error, detector inefficiency, as well as some level of more general noise.\n\nDistributed computing studies computational tasks to be accomplished by a group of people. Examples include voting and broadcasting the same message to many parties over point-to-point channels in presence of disabled or malevolent participants. These problems share many properties and techniques with cryptography. Problems such as the impossible quantum bit commitment can be relaxed to approximate coin tossing, which can be used for two-party leader election. We develop the notion of a quantum broadcast channel, introduce a new two-party protocol, and apply it to multiparty coin-flipping with an overwhelming majority of \"bad\" parties. We show that the new multiparty protocol is asymptotically optimal.",
+  "summary": {
+   "accessible": "Complexity theory studies what computers can and cannot do, using simplified models. This thesis studies quantum versions of two such models: how often an algorithm must read its input, and how much parties must communicate. A common thread is coping with imperfection. The author shows how some quantum algorithms can handle noisy access to their input, proves that quantum computers can test certain properties of huge inputs exponentially faster, designs tests of quantum nonlocality that tolerate inefficient detectors, and gives an optimal coin-flipping protocol for many parties, most of them dishonest. The results are mathematical proofs and protocol designs.",
+   "simple": "Quantum computers are very sensitive to errors. This thesis asks how quantum computing and communication can still work when things are not perfect. Using mathematics, it shows how some quantum programs can handle errors at low cost. It also designs tests of quantum physics that work with imperfect detectors. And it gives a fair way to flip a coin among many people, even when most of them cheat.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/8e9cb0b5-8347-44ff-a8cb-b15de938a0f6",
+  "pdf": "https://pure.uva.nl/ws/files/3625698/50905_Thesis.pdf",
+  "cover": "covers/hein-rohrig.jpg",
+  "back": "#9b3438",
+  "ink": "light",
+  "portrait": null
+ },
+ {
+  "author": "Eddy Ardonne",
+  "slug": "eddy-ardonne",
+  "title": "A conformal field theory description of fractional quantum Hall states",
+  "year": 2002,
+  "before_qusoft": true,
+  "supervisors": [
+   "K. Schoutens"
+  ],
+  "abstract": "In this thesis, we give a description of fractional quantum Hall states in terms of conformal field theory (CFT). As was known for a long time, the Laughlin states could be written in terms of correlators of chiral vertex operators of a $c=1$ CFT. It was shown by G. Moore and N. Read that more general constructions are possible, and they proposed a new quantum Hall state, which has an underlying pairing structure. Related to that, it turned out that the quasiparticle excitations obey non-abelian statistics. The machinery of conformal field theory can be used to define and study more general paired, or clustered quantum Hall states, with or without spin. In this thesis, we focused on two classes of clustered (non-abelian) quantum Hall states, namely a spin polarized series, defined by N. Read and E. Rezayi and a spin-singlet series, which we proposed. These states, with or without quasiparticles, can be defined as conformal correlators in certain CFTs with an underlying affine Lie algebra symmetry. We determined the K-matrices, which describe the topological properties of the quantum Hall states. To find them, we used a generalization of the concept, to include composite particles, and, related to that, so called pseudoparticles, which account for the non-abelian statistics. In fact, clustering structure of the states is intimately related to the non-abelian statistics of the quasiparticles. The K-matrices also play an important role in the characters of the conformal field theories. Using the methods alluded to above, we studied the properties of the quasiparticle excitations. Another way of studying these quasiparticle excitations is by numerically diagonalizing electrons on the sphere, in the presence of a magnetic field. The interactions between the electrons are taken in such a way that the quantum Hall state is the unique ground state for a certain amount of flux quanta. By increasing the flux, quasiparticles are induced, and the ground state becomes degenerate. This degeneracy can be understood in terms of the conformal field theory describing the quantum Hall states and we were able to give an explicit formula for this degeneracy.",
+  "summary": {
+   "accessible": "In some materials in a strong magnetic field, electrons form unusual collective states called fractional quantum Hall states. Some of these are predicted to have excitations with exotic, so-called non-abelian statistics. This thesis describes such states with conformal field theory, a mathematical framework from theoretical physics. The author studies two families of 'clustered' states, one of them proposed in the thesis, and works out their topological properties and excitations. Numerical calculations of electrons on a sphere are compared with the theory, which gives an explicit formula for the number of lowest-energy states.",
+   "simple": "In some materials, in a strong magnetic field, electrons move together in special patterns. These are called fractional quantum Hall states. This thesis describes them with a branch of mathematical physics called conformal field theory. The author studies two families of such states, one of them new, and the unusual particle-like excitations inside them. Computer calculations support the picture.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/4f26c700-1da5-4d80-931c-2693323b287e",
+  "pdf": "https://pure.uva.nl/ws/files/3746259/20391_Thesis.pdf",
+  "cover": "covers/eddy-ardonne.jpg",
+  "back": "#f5f5f5",
+  "ink": "dark",
+  "portrait": "portraits/eddy-ardonne.webp"
+ },
+ {
+  "author": "Wim van Dam",
+  "slug": "wim-van-dam",
+  "title": "On quantum computation theory",
+  "year": 2002,
+  "before_qusoft": true,
+  "supervisors": [
+   "P.M.B. Vitanyi"
+  ],
+  "abstract": "",
+  "summary": {
+   "accessible": "When this thesis was written, no large quantum computer existed, but its abilities could still be studied in theory. The thesis investigates how a quantum computer extracts information by asking questions ('queries') about hidden data. The author proves, for instance, that roughly half the usual number of questions suffices to learn a whole string of hidden bits with high probability, and uses tools from combinatorics to build new problems with a quantum advantage. The thesis also proves that quantum gates can test themselves, and proposes a definition of the complexity of quantum information.",
+   "simple": "A quantum computer follows the rules of quantum physics. When this thesis was written, no large one existed, but it could be studied with mathematics. This thesis shows that a quantum computer can learn a list of hidden bits with about half the usual number of questions. It also shows that quantum parts can check that they work, and how to measure how complex quantum information is.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/57c47272-e0cc-4949-826a-4a6df34e71f9",
+  "pdf": "https://pure.uva.nl/ws/files/3421582/21545_Thesis.pdf",
+  "cover": "covers/wim-van-dam.jpg",
+  "back": "#275e4b",
+  "ink": "light",
+  "portrait": "portraits/wim-van-dam.webp"
+ },
+ {
+  "author": "Ronald de Wolf",
+  "slug": "ronald-de-wolf",
+  "title": "Quantum Computing and Communication Complexity",
+  "year": 2001,
+  "before_qusoft": true,
+  "supervisors": [
+   "P.M.B. Vitanyi"
+  ],
+  "abstract": "Computers are physical objects and hence should follow the laws of physics. Somewhat surprisingly, today’s computers (theoretical Turing machines as well as desktop PCs) are developed on the model of classical physics rather than on the model of its 20th century successor quantum mechanics. The new field of quantum computing tries to make up for this deficit by studying the properties of computers that follow the laws of quantum mechanics. One of the striking properties of a quantum computer is that it can be in a superposition of many classical states at the same time, which can exhibit interference patterns.\n\nOne of the main goals of the field of quantum computing is to find quantum algorithms that solve certain problems much faster than the best classical algorithms. Its two main successes so far are Shor’s 1994 efficient quantum algorithm for finding the prime factors of large integers (which can break most of modern cryptography) and Grover’s 1996 algorithm that can search an n-element space in about $\\sqrt{n}$ steps.\n\nPart I: Query Complexity\n\nThe starting point of part I of this thesis is the observation that virtually all known quantum algorithms (including Shor’s and Grover’s) can be described in terms of query complexity: they require far fewer queries to input bits than classical algorithms do. It thus appears that the model of query complexity captures a lot of the power of quantum computing. Accordingly, in part I of the thesis we make a detailed and general comparison of quantum query complexity versus classical query complexity for various kinds of computational problems.\n\nOur main tool in this comparison is algebraic: we prove that the quantum query complexity of a computational problem is lower bounded by the degree of a certain polynomial that in some sense represents that problem. This means that we can prove lower bounds on the quantum query complexity of various problems by analyzing polynomials for those problems. One of the main consequences of this technique is the result that quantum query complexity can be at most polynomially smaller than classical query complexity when we consider total computational problems (which are defined on all possible inputs). In other words, any exponential quantum speed-up in this model will have to be based on some promise on the input, some property that the input is known in advance to have. For example, for Shor’s algorithm this promise is the periodicity of a certain function to which the factoring problem can be reduced.\n\nApart from these general results that hold for all total problems, we also consider in more detail the quantum complexities of various specific computational problems. For example, we prove that the error probability in Grover’s search algorithm can be reduced slightly better if we do this in a quantum way than if we do it in the usual classical way (which would just repeat Grover’s algorithm many times). We also derive an algorithm for the element distinctness problem (which is: are the numbers on a list of n elements all distinct?) that takes about $n^{3/4}$ steps. This shows that for a quantum computer the problem of element distinctness is significantly easier than the problem of sorting, in contrast to the classical world, where both problems require about $n \\log n$ steps.\n\nFinally, we show that the negative result for standard query complexity (at most a polynomial quantum speed-up for all total problems) does not hold in two other versions of query complexity: average-case complexity and non-deterministic complexity. For both models we exhibit total problems and quantum algorithms for solving those problems that are exponentially better than the best classical algorithms.\n\nPart II: Communication and Complexity\n\nIt has been known since the early 1970s that quantum communication cannot improve upon classical communication when it comes to information transmission: if Alice wants to send Bob k bits of information, then she has to send him at least k quantum bits (Holevo’s theorem). However, Cleve and Buhrman discovered that if the goal of Alice and Bob is not to communicate information but to solve some distributed computational problem (Alice gets x, Bob gets y, and together they want to compute some function f(x, y) with minimal communication between them), then sometimes the amount of communication can be reduced drastically by allowing quantum communication. For example, a result of Buhrman, Cleve, and Wigderson says that if Alice and Bob each have an n-slot agenda and they want to find a slot where they are both free, then they can do this with roughly $\\sqrt{n}$ quantum bits of communication, whereas in the classical world about n bits of communication would be needed.\n\nIn part II of the thesis we look at this model of quantum communication complexity from various angles. We first discuss the main examples known where quantum communication complexity is significantly less than classical communication complexity. Then we consider the other side and develop techniques to show lower bounds on quantum communication complexity, again using algebraic techniques. These techniques imply, for example, that quantum communication cannot improve significantly upon classical communication complexity for almost all distributed problems. However, we also exhibit a new example where quantum communication complexity does improve upon classical complexity: in a specific 3-party model (Alice and Bob each send a message to a referee, who should then compute f(x, y)), the problem of testing equality between Alice and Bob’s input can be solved with exponentially less communication when we allow quantum communication, using a new technique called quantum fingerprinting.\n\nIn the final chapter we address an issue of security. Suppose Alice and Bob care not only about minimizing the amount of their communication, but also about keeping it secret: if some third party Eve is tapping the communication channel, then she should learn nothing about the actual messages. Classically, it is known that a shared secret n-bit key is necessary and sufficient to send a classical n-bit message from Alice to Bob in a way that gives no information to Eve (Shannon’s theorem). We prove the quantum analogue of this: 2n bits of shared secret key are necessary and sufficient to securely send a message of n quantum bits.",
+  "summary": {
+   "accessible": "Quantum computers follow the laws of quantum mechanics rather than classical physics, but for which problems do they really help? This thesis answers that mathematically in two settings: how often an algorithm must look at its input, and how much two or more parties must communicate to solve a shared task. Using polynomials as a tool, the author proves that for many problems the quantum gain is limited. The thesis also finds large savings in some cases, such as 'quantum fingerprinting' for checking whether two inputs are equal. All results are mathematical proofs.",
+   "simple": "Quantum computers work by different rules than normal computers. But how much can they really help? This thesis answers with mathematical proofs. It looks at how many times a computer must look at its input. It also looks at how many messages people must send to solve a task together. For many tasks, quantum computers help only a little. For some tasks, they need far fewer messages.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/480e76ad-11b7-4226-9c54-6b39c51e6f37",
+  "pdf": "https://pure.uva.nl/ws/files/3726062/19096_Wolf.pdf",
+  "cover": "covers/ronald-de-wolf.jpg",
+  "back": "#ffffff",
+  "ink": "dark",
+  "portrait": "portraits/ronald-de-wolf.webp"
+ },
+ {
+  "author": "Barbara Terhal",
+  "slug": "barbara-terhal",
+  "title": "Quantum Algorithms and Quantum Entanglement",
+  "year": 1999,
+  "before_qusoft": true,
+  "supervisors": [
+   "P.M.B. Vitanyi",
+   "B. Nienhuis"
+  ],
+  "abstract": "",
+  "summary": {
+   "accessible": "Quantum information science asks what computing and communication can gain from quantum effects. This thesis approaches that question mathematically from two sides. First, the power of a quantum computer: it shows problems where a quantum computer is faster, such as a coin-weighing puzzle solved with a single quantum weighing, and how a quantum computer could simulate physical systems settling into thermal equilibrium. Second, entanglement, the special correlation between distant quantum particles: the thesis constructs 'bound' entangled states, whose entanglement is locked in and cannot be turned into its most useful form by local operations.",
+   "simple": "This thesis uses mathematics to ask how quantum physics can help computers. It shows some problems a quantum computer can solve faster. One example is finding fake coins with one weighing. It also shows how a quantum computer could copy the way warm and cold things reach the same temperature. Last, it studies entanglement, a special link between particles, and finds a kind that is locked and hard to use.",
+   "checked": false
+  },
+  "link": "https://dare.uva.nl/id/e9cd6246-6a49-4cf1-9fd4-fac9ebaec782",
+  "pdf": "https://pure.uva.nl/ws/files/3126805/7562_UBA003000197.pdf",
+  "cover": "covers/barbara-terhal.jpg",
+  "back": "#d1caba",
+  "ink": "dark",
+  "portrait": "portraits/barbara-terhal.webp"
  }
 ]

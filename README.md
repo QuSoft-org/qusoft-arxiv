@@ -58,7 +58,7 @@ python scripts/theses.py fetch       # title, year, supervisors, abstract, PDF a
 python scripts/theses.py list        # what is there, and what is missing
 ```
 
-`python scripts/theses.py import` adds any thesis links from the private spreadsheet that aren't in the list yet. The cover is taken from the PDF (`site/covers/`); if it comes out wrong, set `cover_page` or `cover_crop` for that thesis, or `no_cover` when the PDF has no cover, and run `python scripts/theses.py covers --redo`. The plain-language versions go in the thesis's `summary`, like the papers' ones in `data/summaries.json`. Pushing the change rebuilds the site.
+`python scripts/theses.py import` adds any thesis links from the private spreadsheet that aren't in the list yet. The cover is taken from the PDF (`site/covers/`); if it comes out wrong, set `cover_page` or `cover_crop` for that thesis, or `no_cover` when the PDF has no cover, and run `python scripts/theses.py covers --redo`. Theses from before QuSoft (from the CWI and UvA groups that founded it in 2015) get `"before_qusoft": true` and appear in their own part of the wall. The plain-language versions go in the thesis's `summary`, like the papers' ones in `data/summaries.json`. Pushing the change rebuilds the site.
 
 ## Running locally
 

@@ -11,11 +11,14 @@ written separately, like data/summaries.json for papers, and kept in the same fi
     python scripts/theses.py fetch --redo         # fetch everything again
     python scripts/theses.py covers --redo        # remake the cover images only
     python scripts/theses.py list                 # what is there, and what is missing
+    python scripts/theses.py cover-from "Name" cover.jpg SOURCE-URL [--crop L T R B]
+                                                  # cover from an image, when the PDF has none
 
 The cover is the first page of the PDF after the repository's front sheet. When
 that page is a wraparound print cover, its right part (the front) is used.
 "abstract_from": "thesis" marks an abstract copied from the thesis PDF, because the
-repository's is shorter; fetch then leaves it alone.
+repository's is shorter; "none" a thesis without an English abstract (the site then
+shows the accessible version). fetch leaves the abstract of both alone.
 "no_cover": true when the PDF has none (the site then shows a plain binding);
 "cover_page" (1-based) and "cover_crop" ([left, right] or [left, top, right,
 bottom], as fractions of the page) in data/theses.json override both guesses. Covers go to
@@ -161,7 +164,10 @@ def scrape(url):
     if "Series" in labels:
         info["series"] = _text(labels["Series"])
     if "Abstract" in labels:
-        info["abstract"] = abstract_text(labels["Abstract"])
+        text = abstract_text(labels["Abstract"])
+        # Old records sometimes hold a page of the PDF instead ("Contents", the ILLC series list)
+        if len(text) > 300 and not re.match(r"(Contents|Titles in the ILLC)", text):
+            info["abstract"] = text
     if "abstract" not in info:
         desc = meta("citation_abstract") or meta("eprints.abstract") or meta("DC.description") or meta("dc.description")
         if desc:
@@ -200,6 +206,8 @@ def cover_page(doc, t):
 def make_cover(t, redo=False):
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     out = COVER_DIR / f"{slug(t['author'])}.jpg"
+    if t.get("cover_from"):  # set by hand from an image (cover-from): never remade from the PDF
+        return out if out.exists() else None
     if t.get("no_cover"):  # the PDF has no cover: the site shows a plain binding
         out.unlink(missing_ok=True)
         return None
@@ -228,6 +236,28 @@ def make_cover(t, redo=False):
     return out
 
 
+def cover_from(author, image, source, crop=None):
+    """Make the cover from an image file (when the PDF has none), e.g. found on a defence page.
+    crop = [left, top, right, bottom] as fractions, for a wraparound or a photo with margins."""
+    theses = load()
+    t = next((x for x in theses if x["author"] == author), None)
+    if t is None:
+        sys.exit(f"No thesis by {author} in the list")
+    img = Image.open(image).convert("RGB")
+    if crop:
+        w, h = img.size
+        img = img.crop((round(crop[0] * w), round(crop[1] * h), round(crop[2] * w), round(crop[3] * h)))
+    if img.width > COVER_WIDTH:
+        img = img.resize((COVER_WIDTH, round(img.height * COVER_WIDTH / img.width)), Image.LANCZOS)
+    COVER_DIR.mkdir(parents=True, exist_ok=True)
+    out = COVER_DIR / f"{slug(author)}.jpg"
+    img.save(out, "JPEG", quality=85, optimize=True, progressive=True)
+    t["cover_from"] = source
+    t.pop("no_cover", None)
+    save(theses)
+    print(f"{out.relative_to(ROOT)}: {img.width}×{img.height}")
+
+
 def fetch(redo=False):
     theses = load()
     for t in theses:
@@ -243,7 +273,7 @@ def fetch(redo=False):
         # Hand-made fields win over scraped ones. An abstract taken from the thesis itself
         # ("abstract_from": "thesis") is kept even with --redo: repositories often shorten it.
         for k, v in info.items():
-            if k == "abstract" and t.get("abstract_from") == "thesis":
+            if k == "abstract" and t.get("abstract_from") in ("thesis", "none"):
                 continue
             if redo or not t.get(k):
                 t[k] = v
@@ -282,6 +312,11 @@ def main():
     c = sub.add_parser("covers")
     c.add_argument("--redo", action="store_true")
     sub.add_parser("list")
+    cf = sub.add_parser("cover-from", help="make the cover from an image file")
+    cf.add_argument("author")
+    cf.add_argument("image")
+    cf.add_argument("source", help="URL of the page the image comes from")
+    cf.add_argument("--crop", type=float, nargs=4, metavar=("LEFT", "TOP", "RIGHT", "BOTTOM"))
     args = ap.parse_args()
 
     if args.cmd == "import":
@@ -301,6 +336,8 @@ def main():
         listing()
     elif args.cmd == "list":
         listing()
+    elif args.cmd == "cover-from":
+        cover_from(args.author, args.image, args.source, args.crop)
 
 
 if __name__ == "__main__":

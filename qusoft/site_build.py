@@ -199,8 +199,9 @@ def build_theses(people):
             "slug": slug,
             "title": t["title"],
             "year": t["year"],
+            "before_qusoft": bool(t.get("before_qusoft")),  # from the groups that founded QuSoft in 2015
             "supervisors": t.get("supervisors", []),
-            "abstract": t.get("abstract", ""),
+            "abstract": t.get("abstract", ""),  # empty when the thesis has no English abstract
             "summary": {"accessible": summary["accessible"], "simple": summary["simple"],
                         "checked": bool(summary.get("checked_by"))} if summary.get("simple") else None,
             "link": t.get("page") or t["url"],
