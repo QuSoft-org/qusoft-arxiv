@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T11:38",
- "papers": 493,
+ "updated": "2026-11-09T13:09",
+ "papers": 494,
  "people": 110,
  "alumni": 50,
  "first_year": 2015,
@@ -84,10 +84,10 @@
   },
   {
    "year": 2026,
-   "papers": 61,
+   "papers": 62,
    "contributors": 57,
-   "together": 38,
-   "with_alumni": 13
+   "together": 39,
+   "with_alumni": 14
   }
  ]
 }

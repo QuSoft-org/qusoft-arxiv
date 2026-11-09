@@ -1,7 +1,52 @@
 {
- "last_updated": "2026-11-08T11:38:46",
- "total_papers": 493,
+ "last_updated": "2026-11-09T13:09:27",
+ "total_papers": 494,
  "papers": [
+  {
+   "id": "2611.09504v1",
+   "link": "https://arxiv.org/abs/2611.09504",
+   "title": "Sharp error tolerance of the monogamy-of-entanglement game",
+   "authors": [
+    {
+     "name": "Llorenç Escolà-Farràs",
+     "person": "Llorenç Escolà-Farràs"
+    },
+    {
+     "name": "Florian Speelman",
+     "person": "Florian Speelman"
+    }
+   ],
+   "qusoft_authors": [
+    "Llorenç Escolà-Farràs",
+    "Florian Speelman"
+   ],
+   "submitted": "2026-11-06 14:23:32",
+   "revision": "2026-11-06 14:23:32",
+   "categories": [
+    "quant-ph"
+   ],
+   "abstract": "The BB84 monogamy-of-entanglement (MoE) game has numerous applications in quantum cryptography, including quantum key distribution, position verification, and unclonable encryption. In this short note, we improve the error threshold for parallel repetition with identical answer strings from the approximately $3.7\\%$ certified by the original bound to the sharp threshold $(1-1/\\sqrt2)/2\\approx14.64\\%$. When the players need not give identical answers, we also obtain exponential decay whenever the sum of their error tolerances is below this threshold. These bounds strengthen existing security reductions to the BB84 MoE game, improving security bounds and certified noise tolerances for cryptographic protocols.",
+   "pdf_url": "https://arxiv.org/pdf/2611.09504v1",
+   "added": "2026-11-09",
+   "page_people": [
+    [
+     "Llorenç Escolà-Farràs",
+     "PhD Students",
+     "alumni",
+     "2021–2025",
+     "llorenc_escola-farras.png",
+     25795
+    ],
+    [
+     "Florian Speelman",
+     "Senior Researchers",
+     "active",
+     "",
+     "florian_speelman.jpg",
+     9943
+    ]
+   ]
+  },
   {
    "id": "2610.29762v1",
    "link": "https://arxiv.org/abs/2610.29762",
