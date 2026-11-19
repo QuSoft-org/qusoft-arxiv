@@ -1,7 +1,175 @@
 {
- "last_updated": "2026-11-16T13:16:37",
- "total_papers": 494,
+ "last_updated": "2026-11-19T13:22:19",
+ "total_papers": 497,
  "papers": [
+  {
+   "id": "2611.24640v1",
+   "link": "https://arxiv.org/abs/2611.24640",
+   "title": "A provably efficient classical algorithm for simulating OTOC$^{(1)}$ in 1D",
+   "authors": [
+    {
+     "name": "Laura Lewis",
+     "person": null
+    },
+    {
+     "name": "Antonio A. Mele",
+     "person": null
+    },
+    {
+     "name": "Ronald de Wolf",
+     "person": "Ronald de Wolf"
+    },
+    {
+     "name": "Jarrod R. McClean",
+     "person": null
+    },
+    {
+     "name": "Amira Abbas",
+     "person": "Amira Abbas"
+    }
+   ],
+   "qusoft_authors": [
+    "Ronald de Wolf",
+    "Amira Abbas"
+   ],
+   "submitted": "2026-11-18 15:48:02",
+   "revision": "2026-11-18 15:48:02",
+   "categories": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "hep-th"
+   ],
+   "abstract": "Out-of-time-order correlators (OTOCs) are quantities of broad interest in many-body physics due to their connection with information scrambling and quantum chaos. Recently, estimating higher-order OTOCs in random quantum circuits was proposed as a promising avenue for quantum advantage, yet the classical hardness of this task remains poorly understood. Even for first-order OTOCs, where growing evidence suggests classical tractability, no efficient classical algorithm with rigorous guarantees has been established to date. In this work, we introduce \"window propagation,\" the first provably polynomial-time classical algorithm for approximating first-order OTOCs in 1D Haar-random brickwork circuits, at arbitrary depths and with inverse-polynomial mean-squared error. We also conduct numerical experiments comparing our simulation results to exact computation on up to $512$ qubits for Clifford circuits with $768$ $T$-gates and up to $22$ qubits for Haar-random circuits. We emphasize that our results do not directly apply to second-order OTOCs in 2D, which is the subject of recent quantum advantage proposals. Nevertheless, our work provides a rigorous step towards understanding the classical complexity of OTOC estimation and represents a family of non-trivial quantum circuits for which a provable, polynomial time algorithm is now known, establishing foundations for understanding these widely used diagnostics of quantum chaos.",
+   "pdf_url": "https://arxiv.org/pdf/2611.24640v1",
+   "added": "2026-11-19",
+   "page_people": [
+    [
+     "Ronald de Wolf",
+     "Senior Researchers",
+     "active",
+     "",
+     "ronald_de_wolf.jpg",
+     228745
+    ],
+    [
+     "Amira Abbas",
+     "Postdocs",
+     "alumni",
+     "2023–2025",
+     "amira_abbas.png",
+     35772
+    ]
+   ]
+  },
+  {
+   "id": "2611.21386v1",
+   "link": "https://arxiv.org/abs/2611.21386",
+   "title": "Continuous superradiant lasing on a narrow optical transition",
+   "authors": [
+    {
+     "name": "Benedikt Heizenreder",
+     "person": null
+    },
+    {
+     "name": "Simon B. Jäger",
+     "person": null
+    },
+    {
+     "name": "Francesca Famà",
+     "person": null
+    },
+    {
+     "name": "Camila Beli Silva",
+     "person": null
+    },
+    {
+     "name": "Ying Cui",
+     "person": null
+    },
+    {
+     "name": "Stefan A. Schäffer",
+     "person": null
+    },
+    {
+     "name": "Ananya Sitaram",
+     "person": null
+    },
+    {
+     "name": "Florian Schreck",
+     "person": "Florian Schreck"
+    }
+   ],
+   "qusoft_authors": [
+    "Florian Schreck"
+   ],
+   "submitted": "2026-11-16 16:46:36",
+   "revision": "2026-11-16 16:46:36",
+   "categories": [
+    "physics.atom-ph",
+    "cond-mat.quant-gas"
+   ],
+   "abstract": "Lasers with ultrastable frequency are at the foundation of optical clocks, which enable precision tests of fundamental physics and relativistic geodesy at the centimetre scale. Such lasers inherit their frequency stability from the length stability of a sophisticated optical resonator, which is hard to maintain outside a well-controlled laboratory environment and limited by thermal and technical noise. Superradiant lasers promise to overcome these limitations by storing their coherence in the atoms making up the laser's gain medium. Superradiant lasing has been demonstrated on narrow optical atomic transitions with pulsed and quasi-continuous operation. However, atom loss has prevented truly continuous operation, which severely limits their suitability for clocks. Here we demonstrate a superradiant laser on a narrow optical transition in $^{88}$Sr that operates truly continuously. We sustain emission for more than eight hours and measure a linewidth of 320(40) Hz, more than 20 times below the natural linewidth. The emission frequency remains anchored to the atomic transition, making the laser itself an atomic frequency reference. Our results provide a route towards a laser that reaches short-term frequency stability comparable to that of the best resonator-stabilized lasers. Furthermore, truly continuous operation gives us access to physics beyond the transient regime, enabling the exploration of robust nonequilibrium steady states and sustained coherent collective dynamics.",
+   "pdf_url": "https://arxiv.org/pdf/2611.21386v1",
+   "added": "2026-11-19",
+   "page_people": [
+    [
+     "Florian Schreck",
+     "Senior Researchers",
+     "active",
+     "",
+     "florian_schreck.png",
+     4869
+    ]
+   ]
+  },
+  {
+   "id": "2611.21697v1",
+   "link": "https://arxiv.org/abs/2611.21697",
+   "title": "The Kitaev model on finite hyperbolic PBC clusters",
+   "authors": [
+    {
+     "name": "Alberto Zorzato",
+     "person": "Alberto Zorzato"
+    },
+    {
+     "name": "Jiri Minář",
+     "person": "Jiri Minar"
+    }
+   ],
+   "qusoft_authors": [
+    "Alberto Zorzato",
+    "Jiri Minar"
+   ],
+   "submitted": "2026-11-16 14:42:18",
+   "revision": "2026-11-16 14:42:18",
+   "categories": [
+    "cond-mat.mes-hall",
+    "cond-mat.other",
+    "cond-mat.str-el",
+    "quant-ph"
+   ],
+   "abstract": "We construct and solve the three-colored Kitaev model on finite hyperbolic lattices with periodic boundary conditions. We describe a self-contained procedure which uses finite quotients of orientation- preserving triangle groups to generate regular maps on compact genus-g surfaces. From these, one can extract their lattice connectivity, plaquette structure, homology cycles and Wilson sectors while implementing consistent boundary conditions. On the example of {8, 3} and {12, 3} lattices, we enumerate a selection of quotients with up to 72 vertices, which constitute the discrete steps in a finite-size scaling analysis. For the isotropic point, corresponding to the spin-liquid phase in the thermodynamic limit, we identify the ground state superselection sectors, quantify their deviation from the homogeneous π flux sector and show how the selected flux background depends on the quotient geometry. We then discuss how the resulting ground state sector degeneracies are entirely generated by physical lattice symmetries acting on both the plaquette fluxes and non-contractible Wilson loops. Finally, we study the behaviour of the finite-size two-vison gap and matter fermion correlations. We find that the gap does not decrease monotonically with increasing system size, while one still recovers the expected algebraic decay of the correlations at the isotropic point, even for the considered modest system sizes.",
+   "pdf_url": "https://arxiv.org/pdf/2611.21697v1",
+   "added": "2026-11-19",
+   "page_people": [
+    [
+     "Alberto Zorzato",
+     "PhD Students",
+     "active",
+     "",
+     "alberto_zorzato.png",
+     129190
+    ],
+    [
+     "Jiri Minar",
+     "Postdocs",
+     "active",
+     "",
+     "jiri_minar.png",
+     18494
+    ]
+   ]
+  },
   {
    "id": "2611.09504v1",
    "link": "https://arxiv.org/abs/2611.09504",
