@@ -10,6 +10,7 @@ import time
 from datetime import date, timedelta
 
 import arxiv
+import requests
 
 from .common import CONFIG, base_id, is_same_person, normalize_name, strip_parens
 
@@ -54,10 +55,62 @@ def make_entry(result, match_person):
     }
 
 
+class RateLimited(Exception):
+    """arXiv keeps refusing requests. Stop for now; the next run picks up the rest."""
+
+
+class ArxivApi:
+    """One client for all requests, so the delay between them holds across the whole run."""
+
+    def __init__(self):
+        cfg = CONFIG["search"]
+        # Retries are done here: the client's own retries are too quick to help after a 429.
+        self.client = arxiv.Client(page_size=cfg["max_results"], delay_seconds=cfg["rate_limit_delay"], num_retries=0)
+        self.delay = cfg["rate_limit_delay"]
+        self.backoff = cfg["rate_limit_backoff"]
+        self.max_wait = cfg["rate_limit_max_wait"]
+        self.waited = 0
+        self.refused = False
+
+    def results(self, search):
+        if self.refused:
+            raise RateLimited("arXiv is refusing requests")
+        waits = list(self.backoff)
+        other_tries = 3
+        while True:
+            try:
+                return list(self.client.results(search))
+            except arxiv.HTTPError as e:
+                if e.status not in (429, 503):
+                    if other_tries == 0:
+                        raise
+                    other_tries -= 1
+                    time.sleep(self.delay)
+                    continue
+                if not waits or self.waited + waits[0] > self.max_wait:
+                    self.refused = True
+                    raise RateLimited(f"arXiv keeps answering HTTP {e.status}") from e
+                wait = waits.pop(0)
+                self.waited += wait
+                print(f"    arXiv answered HTTP {e.status}, waiting {wait} s")
+                time.sleep(wait)
+            except (arxiv.UnexpectedEmptyPageError, requests.exceptions.ConnectionError):
+                if other_tries == 0:
+                    raise
+                other_tries -= 1
+                time.sleep(self.delay)
+
+
+API = ArxivApi()
+
+
 class Searcher:
     def __init__(self):
-        self.client = arxiv.Client(page_size=CONFIG["search"]["max_results"], delay_seconds=CONFIG["search"]["rate_limit_delay"])
         self.delay = CONFIG["search"]["rate_limit_delay"]
+
+    @property
+    def refused(self):
+        return API.refused
 
     def _run(self, query, since, until):
         window = f"submittedDate:[{since:%Y%m%d}0000 TO {until:%Y%m%d}2359]"
@@ -67,7 +120,7 @@ class Searcher:
             sort_by=arxiv.SortCriterion.SubmittedDate,
         )
         try:
-            return list(self.client.results(search))
+            return API.results(search)
         finally:
             time.sleep(self.delay)
 
@@ -84,17 +137,20 @@ class Searcher:
 
         known = state.get("query")
         queries = generate_search_queries(person)
+        all_variants = False
         if known:
             queries = [known]
         elif state.get("all_variants_tried") and today - date.fromisoformat(state["all_variants_tried"]) < timedelta(days=7):
             # Nothing found with any variant recently: only the main query daily, all variants weekly.
             queries = queries[:1]
         else:
-            state["all_variants_tried"] = today.isoformat()
+            all_variants = True
         found = []
         for query in queries:
             try:
                 results = self._run(query, since, today)
+            except RateLimited:
+                return None
             except Exception as e:  # network hiccups shouldn't stop the whole run
                 print(f"    query failed ({query}): {e}")
                 return None
@@ -102,11 +158,12 @@ class Searcher:
             if found:
                 state["query"] = query
                 break
+        if all_variants:  # only now: a search cut short must be tried again next run
+            state["all_variants_tried"] = today.isoformat()
         state["last_checked"] = today.isoformat()
         return found
 
 
 def fetch_by_ids(ids):
     """Metadata for specific arXiv ids."""
-    client = arxiv.Client()
-    return list(client.results(arxiv.Search(id_list=[base_id(i) for i in ids])))
+    return API.results(arxiv.Search(id_list=[base_id(i) for i in ids]))

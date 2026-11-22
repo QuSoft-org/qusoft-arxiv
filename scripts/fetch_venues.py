@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import requests
 
-from qusoft.arxiv_search import fetch_by_ids
+from qusoft.arxiv_search import API, fetch_by_ids
 from qusoft.common import base_id, load_papers
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,6 +39,7 @@ def arxiv_meta(ids):
             except Exception as e:
                 print(f"  arXiv: {e}; waiting")
                 time.sleep(30 * (attempt + 1))
+                API.refused = False  # this script waits and tries again itself
         time.sleep(3)
     return out
 

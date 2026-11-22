@@ -22,11 +22,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from qusoft import other_servers, site_build
 from qusoft.arxiv_search import Searcher, fetch_by_ids, make_entry
-from qusoft.common import (PersonMatcher, base_id, find_portrait, load_json, load_papers, load_people,
+from qusoft.common import (CONFIG, PersonMatcher, base_id, find_portrait, load_json, load_papers, load_people,
                            path, save_json, save_papers, tenure)
 from qusoft.firstpage import make_first_page, mentions_qusoft, save_first_page
 
 PENDING = "__pending__"  # key in search_state for papers whose PDF couldn't be fetched yet
+NO_PDF = "__no_pdf__"    # key in search_state for papers without a PDF on arXiv (not retried)
 
 
 class PdfSource:
@@ -35,6 +36,7 @@ class PdfSource:
     def __init__(self):
         self.cache = path("paths", "local_pdf_cache")
         self.tmp = tempfile.TemporaryDirectory()
+        self.not_found = set()  # ids whose PDF gave a 404 in this run
 
     def get(self, arxiv_id, result=None):
         cached = self.cache / f"{arxiv_id}.pdf"
@@ -48,6 +50,8 @@ class PdfSource:
             result.download_pdf(dirpath=self.tmp.name, filename=target.name)
             return target
         except Exception as e:
+            if getattr(e, "code", None) == 404:
+                self.not_found.add(arxiv_id)
             print(f"    could not download {arxiv_id}: {e}")
             return None
 
@@ -108,14 +112,18 @@ def refresh_authors(papers, people):
 def search(people, papers, state, rejected, pdfs, only_authors):
     """Search arXiv and add new QuSoft papers to `papers`. Returns the new papers."""
     match = PersonMatcher(people)
-    known = {base_id(p["id"]) for p in papers} | set(rejected)
-    names = only_authors or list(people)
+    known = {base_id(p["id"]) for p in papers} | set(rejected) | set(state.get(NO_PDF, []))
+    # Longest unchecked first, so a run cut short by arXiv doesn't skip the same people every day.
+    names = sorted(only_authors or people, key=lambda n: state.get(n, {}).get("last_checked", ""))
     candidates = {}
     searcher = Searcher()
 
     for i, name in enumerate(names, 1):
         person_state = state.setdefault(name, {})
         found = searcher.search_person(name, person_state) if name in people else None
+        if searcher.refused:
+            print(f"arXiv keeps refusing requests: stopping, {len(names) - i + 1} people left for the next run")
+            break
         if found is None:
             continue
         new = [r for r in found if base_id(r.entry_id.split("/")[-1]) not in known | set(candidates)]
@@ -125,16 +133,25 @@ def search(people, papers, state, rejected, pdfs, only_authors):
 
     # Papers whose PDF failed last time get another try.
     retry = [i for i in state.get(PENDING, []) if i not in known and i not in candidates]
-    if retry:
-        for r in fetch_by_ids(retry):
-            candidates[base_id(r.entry_id.split("/")[-1])] = r
-
     added, pending = [], []
+    if retry:
+        try:
+            for r in fetch_by_ids(retry):
+                candidates[base_id(r.entry_id.split("/")[-1])] = r
+        except Exception as e:  # keep them for the next run
+            print(f"    could not look up pending papers: {e}")
+            pending = list(retry)
+
     for bid, result in candidates.items():
         entry = make_entry(result, match)
         src = pdfs.get(entry["id"], result)
         if not src:
-            pending.append(bid)
+            age = (date.today() - result.published.date()).days
+            if entry["id"] in pdfs.not_found and age >= CONFIG["search"]["no_pdf_after_days"]:
+                state.setdefault(NO_PDF, []).append(bid)
+                print(f"    no PDF on arXiv, not trying again: {bid}")
+            else:
+                pending.append(bid)
             continue
         if not mentions_qusoft(src):
             rejected.append(bid)

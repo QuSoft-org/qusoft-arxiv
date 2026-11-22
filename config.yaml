@@ -18,6 +18,9 @@ search:
   years_back: 11            # how far back to search for a person seen for the first time
   overlap_days: 10          # re-check this many days before the last search, to catch late listings
   rate_limit_delay: 3       # seconds between arXiv API requests
+  rate_limit_backoff: [60, 120, 240]  # seconds to wait before retrying a request refused with HTTP 429
+  rate_limit_max_wait: 900  # after this many seconds of waiting in one run, stop; the next run continues
+  no_pdf_after_days: 7      # a paper this old whose PDF gives a 404 has none: stop retrying it
   max_results: 100
 
 first_page:
